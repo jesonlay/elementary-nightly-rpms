@@ -1,4 +1,4 @@
-%define rev 556
+%define rev 557
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
@@ -65,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Jul 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev557-1
+- Update to bzr revno 557.
+
 * Sun Jul 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev556-1
 - Cleanup .spec file. Update to new bzr snapshot.
 
