@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
 
 import os
+import argparse
 import subprocess
+import configparser
+
+debug = bool()
+
+
+def dbg(msg):
+    assert type(msg) is str
+    if debug:
+        print("DEBUG: " + msg)
 
 
 def check_update_bzr():
@@ -46,5 +56,10 @@ def check_update(name):
 		return False
 
 
-basedir = os.getcwd()
-print(basedir)
+argparser = argparse.ArgumentParser()
+argparser.add_argument("--debug", "-d", action='store_const', const=True, default=False)
+args = argparser.parse_args()
+
+debug = args.debug
+
+dbg("This is a test for the debug message printer.")
