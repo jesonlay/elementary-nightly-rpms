@@ -18,7 +18,7 @@ BuildRequires: pkgconfig(gee-0.8)
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gtk+-3.0)
-# BuildRequires: pkgconfig(libido3-0.1)
+BuildRequires: pkgconfig(libido3-0.1)
 BuildRequires: pkgconfig(indicator3-0.4)
 BuildRequires: pkgconfig(libwnck-3.0)
 
@@ -32,7 +32,7 @@ Wingpanel is the panel from the elementary project, used in its pantheon shell.
 
 
 %build
-%cmake # -DNO_INDICATOR_NG=on -DOLD_LIB_IDO=on
+%cmake -DNO_INDICATOR_NG=on -DOLD_LIB_IDO=on
 
 
 %install
