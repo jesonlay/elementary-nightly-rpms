@@ -3,7 +3,7 @@
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
 Version: 0.3.0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel
 
@@ -66,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jul 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1~rev229-1
+- Update to bzr revno 229.
+
 * Sat Mar 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3~rev208-8
 - Update to latest bzr snapshot.
 
