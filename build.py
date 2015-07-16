@@ -5,6 +5,8 @@ import argparse
 import subprocess
 import configparser
 
+import rpm
+
 debug = bool()
 
 

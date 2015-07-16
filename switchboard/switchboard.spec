@@ -1,9 +1,9 @@
-%define rev 563
+%define rev 564
 
 Summary: Switchboard System Settings
 Name: switchboard
 Version: 2.0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard
 
@@ -91,6 +91,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Jul 13 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev564-1
+- Update to bzr snapshot revno 564.
+
 * Sun Jul 05 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev563-2
 - Add BR desktop-file-utils.
 

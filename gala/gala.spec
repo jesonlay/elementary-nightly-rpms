@@ -1,4 +1,4 @@
-%define rev 474
+%define rev 475
 
 Summary: Gala window manager
 Name: gala
@@ -65,6 +65,8 @@ desktop-file-install data/gala-multitaskingview.desktop			\
 	--set-value='Comment=View all open windows and workspaces'	\
 	--remove-key='_Name' --remove-key='_Comment'
 
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/gala-wayland.desktop
+
 %find_lang gala
 
 
@@ -92,6 +94,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_datadir}/applications/gala.desktop
 %{_datadir}/applications/gala-multitaskingview.desktop
+%{_datadir}/applications/gala-wayland.desktop
 
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.gala.gschema.xml
 
@@ -110,6 +113,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Jul 16 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev475-1
+- Update to bzr snapshot revno 475.
+
 * Sun Jul 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev474-1
 - Clean up spec file. Update to new bzr snapshot. Add -devel subpkg.
 

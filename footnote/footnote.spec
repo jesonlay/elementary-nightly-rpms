@@ -1,4 +1,4 @@
-%define rev 339
+%define rev 340
 
 Summary: A beautiful, fast, and simple note taking app in the style of elementary
 Name: footnote

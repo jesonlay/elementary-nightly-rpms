@@ -1,4 +1,4 @@
-%define rev 229
+%define rev 230
 
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
@@ -66,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Jul 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1~rev230-1
+- Update to bzr snapshot revno 230.
+
 * Wed Jul 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1~rev229-1
 - Update to bzr revno 229.
 
