@@ -7,11 +7,11 @@ mkdir -p $HOME/rpmbuild/SOURCES
 
 cp sqlheavy-0.1.2~git.tar.gz $HOME/rpmbuild/SOURCES/
 cp make-srpm.sh $HOME/rpmbuild/SOURCES/
-cp sqlheavy.spec $HOME/rpmbuild/SPECS/
+cp sqlheavy2.spec $HOME/rpmbuild/SPECS/
 
 cd $HOME/rpmbuild/SPECS
 
-rpmbuild -bs sqlheavy.spec
+rpmbuild -bs sqlheavy2.spec
 mv ../SRPMS/* $HOME/
 
 cd $HOME
