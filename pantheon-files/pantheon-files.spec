@@ -9,10 +9,26 @@ URL: http://launchpad.net/pantheon-files
 
 Source0: %{name}-%{version}.tar.gz
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
-
+BuildRequires: cmake
 BuildRequires: desktop-file-utils
+BuildRequires: gettext
+BuildRequires: vala
+
+BuildRequires: pkgconfig(dbus-glib-1)
+BuildRequires: pkgconfig(gail-3.0)
+BuildRequires: pkgconfig(gee-0.8)
+BuildRequires: pkgconfig(gio-2.0)
+BuildRequires: pkgconfig(gio-unix-2.0)
+BuildRequires: pkgconfig(glib-2.0) >= 2.29
+BuildRequires: pkgconfig(gmodule-2.0)
+BuildRequires: pkgconfig(granite) >= 0.3.0
+BuildRequires: pkgconfig(gthread-2.0)
+BuildRequires: pkgconfig(gtk+-3.0) >= 3.10
+BuildRequires: pkgconfig(libnotify) >= 0.7.2
+BuildRequires: pkgconfig(pango) >= 1.1.2
+BuildRequires: pkgconfig(plank)
+BuildRequires: pkgconfig(sqlite3)
+BuildRequires: pkgconfig(zeitgeist-2.0)
 
 
 %description
@@ -34,8 +50,12 @@ This package contains the development headers.
 %build
 %cmake
 
+# -DUSE_UNITY=no
+
 
 %install
+make install DESTDIR=$RPM_BUILD_ROOT
+
 # desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
 
 # %%find_lang noise

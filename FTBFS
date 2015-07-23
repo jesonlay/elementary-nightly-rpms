@@ -1,2 +1,3 @@
-footnote:	still requires sqlheavy-0.1
-gsignond:	configure fails
+footnote:		still requires sqlheavy-0.1
+gsignond:		configure fails
+pantheon-files:	Marlin not found
