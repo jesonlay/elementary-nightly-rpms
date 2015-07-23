@@ -1,4 +1,4 @@
-%define rev 300
+%define rev 301
 
 Summary: Vocal Podcatcher
 Name: vocal
@@ -92,6 +92,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Jul 19 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev301-1
+- Update to bzr snapshot revno 301.
+
 * Sun Jul 05 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev300-1
 - Update to bzr revno 300.
 

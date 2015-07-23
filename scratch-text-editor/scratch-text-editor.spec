@@ -1,19 +1,34 @@
-%define rev 1523
+%define rev 1529
 
 Summary: Scratch - the text editor that works.
-Name: vocal
+Name: scratch-text-editor
 Version: 2.2.0~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
-URL: http://launchpad.net/vocal
+URL: http://launchpad.net/scratch
 
 Source0: %{name}-%{version}.tar.gz
 Source1: make-srpm.sh
 
 BuildRequires: cmake pkgconfig
-# BuildRequires: vala gettext
-# BuildRequires: desktop-file-utils
-# BuildRequires: libappstream-glib
+BuildRequires: vala gettext
+BuildRequires: desktop-file-utils
+
+BuildRequires: pkgconfig(gee-0.8)
+BuildRequires: pkgconfig(gio-2.0)
+BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(gobject-2.0)
+BuildRequires: pkgconfig(granite) >= 0.3.0
+BuildRequires: pkgconfig(gthread-2.0)
+BuildRequires: pkgconfig(gtksourceview-3.0) >= 3.10
+BuildRequires: pkgconfig(gtk+-3.0) >= 3.10
+BuildRequires: pkgconfig(libpeas-1.0)
+BuildRequires: pkgconfig(libpeas-gtk-1.0)
+BuildRequires: pkgconfig(libsoup-2.4)
+BuildRequires: pkgconfig(libvala-0.28)
+BuildRequires: pkgconfig(vte-2.91)
+BuildRequires: pkgconfig(webkitgtk-3.0)
+BuildRequires: pkgconfig(zeitgeist-2.0)
 
 
 %description
@@ -25,7 +40,7 @@ It's elementary. Scratch is made to be the perfect text editor for elementary, m
 
 Works with your language. Whether you're crafting code in Vala, scripting with PHP, or marking things up in HTML, Scratch has you covered. Experience full syntax highlighting with nearly all programming, scripting, and markup languages.
 
-Other syntax-highlighted languages: Bash, C, C#, C++. Cmake, CSS, .Desktop, Diff, Fortran, Gettext, ini, Java, JavaScript, LaTex, Lua, Makefile, Objective C, Pascal, Perl, Python, Ruby, XML.
+Other syntax-highlighted languages: Bash, C, C%#, C++. Cmake, CSS, .Desktop, Diff, Fortran, Gettext, ini, Java, JavaScript, LaTex, Lua, Makefile, Objective C, Pascal, Perl, Python, Ruby, XML.
 
 Additional features include:
 
@@ -40,6 +55,12 @@ Scratch needs to be translated. Go to Translations to help us providing this sof
 Designed for elementary OS. Works and looks great on any GTK+ desktop.
 
 
+%package devel
+Summary: Scratch - the text editor that works.
+%description devel
+Scratch is the text editor that works for you. It auto-saves your files, meaning they're always up-to-date. Plus it remembers your tabs so you never lose your spot, even in between sessions. This package contains the development headers.
+
+
 %prep
 %setup -q
 
@@ -51,10 +72,11 @@ Designed for elementary OS. Works and looks great on any GTK+ desktop.
 %install
 make install DESTDIR=$RPM_BUILD_ROOT
 
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/vocal.desktop
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/vocal.desktop.appdata.xml
+desktop-file-edit $RPM_BUILD_ROOT/%{_datadir}/applications/scratch-text-editor.desktop --set-key=Keywords --set-value='Notepad;IDE;Plain;'
 
-# %%find_lang scratch-text-editor
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/scratch-text-editor.desktop
+
+%find_lang scratch-text-editor
 
 
 %clean
@@ -63,15 +85,52 @@ rm -rf $RPM_BUILD_ROOT
 
 %post
 /sbin/ldconfig
-# /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 %postun
 /sbin/ldconfig
-# /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 
-%files
+%post devel
+/sbin/ldconfig
+
+%postun devel
+/sbin/ldconfig
+
+
+%files -f scratch-text-editor.lang
+%{_bindir}/scratch-text-editor
+
+%{_libdir}/scratch
+%{_libdir}/libscratchcore.so.0
+%{_libdir}/libscratchcore.so.0.0
+
+%{_datadir}/applications/scratch-text-editor.desktop
+
+%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.gschema.xml
+%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.file-manager.gschema.xml
+%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.folder-manager.gschema.xml
+%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.terminal.gschema.xml
+
+%{_datadir}/scratch
+
+
+%files devel
+%{_includedir}/scratch
+
+%{_libdir}/libscratchcore.so
+%{_libdir}/pkgconfig/scratchcore.pc
+
+%{_datadir}/vala/vapi/scratchcore.deps
+%{_datadir}/vala/vapi/scratchcore.vapi
 
 
 %changelog
+* Thu Jul 23 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.0~rev1529-1
+- Update to bzr snapshot revno 1529.
+
+* Sat Jul 18 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.0~rev1527-1
+- Initial package.
+
 

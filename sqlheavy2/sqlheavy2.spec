@@ -8,6 +8,8 @@ URL: http://code.google.com/p/sqlheavy
 Source0: sqlheavy-%{version}.tar.gz
 Source1: make-srpm.sh
 
+Obsoletes: sqlheavy
+
 BuildRequires: libtool pkgconfig
 BuildRequires: vala gettext
 

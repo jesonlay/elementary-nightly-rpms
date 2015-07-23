@@ -3,7 +3,7 @@
 Summary: Desktop-wide extension service
 Name: contractor
 Version: 0.3.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/contractor
 
@@ -34,6 +34,7 @@ Designed for elementary OS.
 
 %install
 make install DESTDIR=$RPM_BUILD_ROOT
+mkdir -p $RPM_BUILD_ROOT/%{_datadir}/contractor
 
 
 %clean
@@ -49,6 +50,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/contractor
 %{_datadir}/dbus-1/services/org.elementary.contractor.service
 
+%dir %{_datadir}/contractor
 
 %changelog
+* Sat Jul 18 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev136-1
+- Initial package.
+
 
