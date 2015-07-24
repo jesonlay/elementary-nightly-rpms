@@ -3,7 +3,7 @@
 Summary: Desktop-wide extension service
 Name: contractor
 Version: 0.3.1~rev%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv3
 URL: http://launchpad.net/contractor
 
@@ -43,7 +43,7 @@ mkdir -p $RPM_BUILD_ROOT/%{_datadir}/contractor
 rm -rf $RPM_BUILD_ROOT
 
 
-%postin
+%post
 %postun
 
 
@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jul 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev136-3
+- Fix build, oops ...
+
 * Fri Jul 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev136-2
 - Update spec file to use more macros.
 
