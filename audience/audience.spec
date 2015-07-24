@@ -3,7 +3,7 @@
 Summary: Audience video player
 Name: audience
 Version: 0.1.0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
 
@@ -32,10 +32,11 @@ A modern video player that brings the lessons learned from the web home to the d
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
+%make_install
 
 %find_lang audience
 
@@ -54,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %files -f audience.lang
+%doc AUTHORS README
+%license COPYING
+
 %{_bindir}/audience
 
 %{_datadir}/applications/audience.desktop
@@ -61,10 +65,17 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jul 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev529-2
+- Use %doc and %license macros.
+
+* Fri Jul 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev529-1
+- Update to bzr snapshot revno 529.
+- Use more spec macros.
+
 * Sat Mar 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev498-5
 - Update to latest bzr snapshot.
 
-* Sun Feb 01 2015 Fabio Valentini (fafa) <decathorpe@gmail.com> - 0.1~rev485-4
+* Sun Feb 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev485-4
 - Update to latest bzr snapshot.
 
 * Sun Jan 18 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev482-3
