@@ -3,7 +3,7 @@
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.2.1~rev%{rev}
-Release: 3%{?dist}
+Release: 4%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -93,7 +93,7 @@ rm -rf $RPM_BUILD_ROOT
 
 /usr/lib/pantheon-files
 
-/usr/lib/gtk-3.0/modules/libpantheon-filechooser-module.so
+%{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 
 /usr/lib/libpantheon-files-core.so.0
 /usr/lib/libpantheon-files-core.so.0.1
@@ -124,13 +124,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1900-4
+- Fix build.
+
 * Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1900-3
 - Update to bzr snapshot revno 1900.
-
-* Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com>
-- Update to bzr snapshot revno 1900.
-
-* Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com>
-- Update to bzr snapshot revno 1900.
-
 
