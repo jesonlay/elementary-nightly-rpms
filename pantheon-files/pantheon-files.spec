@@ -3,7 +3,7 @@
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.2.1~rev%{rev}
-Release: 4%{?dist}
+Release: 5%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -58,7 +58,10 @@ This package contains the development headers.
 %make_install
 
 # pantheon-files installs libs/plugins in /usr/lib, no matter the arch ...
-# mv $RPM_BUILD_ROOT/usr/lib/* $RPM_BUILD_ROOT//usr/lib/
+%ifarch x86_64
+mv $RPM_BUILD_ROOT/usr/lib/* $RPM_BUILD_ROOT/%{_libdir}/
+rmdir $RPM_BUILD_ROOT/usr/lib
+%endif
 
 # this does fail spectacularly
 # desktop-file-validate $RPM_BUILD_ROOT/%%{_datadir}/applications/pantheon-files.desktop
@@ -91,14 +94,13 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/pantheon-files-daemon
 %{_bindir}/pantheon-files-pkexec
 
-/usr/lib/pantheon-files
-
+%{_libdir}/pantheon-files
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 
-/usr/lib/libpantheon-files-core.so.0
-/usr/lib/libpantheon-files-core.so.0.1
-/usr/lib/libpantheon-files-widgets.so.0
-/usr/lib/libpantheon-files-widgets.so.0.1
+%{_libdir}/libpantheon-files-core.so.0
+%{_libdir}/libpantheon-files-core.so.0.1
+%{_libdir}/libpantheon-files-widgets.so.0
+%{_libdir}/libpantheon-files-widgets.so.0.1
 
 %{_datadir}/applications/pantheon-files.desktop
 %{_datadir}/dbus-1/services/pantheon-files.service
@@ -113,10 +115,10 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %{_includedir}/pantheon-files-core
 
-/usr/lib/libpantheon-files-core.so
-/usr/lib/libpantheon-files-widgets.so
+%{_libdir}/libpantheon-files-core.so
+%{_libdir}/libpantheon-files-widgets.so
 
-/usr/lib/pkgconfig/pantheon-files-core.pc
+%{_libdir}/pkgconfig/pantheon-files-core.pc
 
 %{_datadir}/vala/vapi/pantheon-files-core-C.vapi
 %{_datadir}/vala/vapi/pantheon-files-core.deps
@@ -124,6 +126,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1900-5
+- Move libs to usr/lib64 on x86_64.
+
 * Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1900-4
 - Fix build.
 
