@@ -1,9 +1,9 @@
-%define rev 529
+%define rev 531
 
 Summary: Audience video player
 Name: audience
 Version: 0.1.0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
 
@@ -65,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev531-1
+- Update to bzr snapshot revno 531.
+
 * Fri Jul 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev529-2
 - Use %doc and %license macros.
 
