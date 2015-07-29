@@ -1,0 +1,8 @@
+diff -ur pantheon-files/libcore/pantheon-files-core.deps pantheon-files-new/libcore/pantheon-files-core.deps
+--- pantheon-files/libcore/pantheon-files-core.deps	2015-07-05 14:53:12.717310000 +0200
++++ pantheon-files-new/libcore/pantheon-files-core.deps	2015-07-24 22:26:55.410117944 +0200
+@@ -1,2 +1 @@
+-marlincore-C
+-gee-0.8
+\ No newline at end of file
++gee-0.8
