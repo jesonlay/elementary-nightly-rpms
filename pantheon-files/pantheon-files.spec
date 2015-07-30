@@ -1,9 +1,9 @@
-%define rev 1900
+%define rev 1901
 
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.2.1~rev%{rev}
-Release: 5%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -126,6 +126,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Jul 30 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1901-1
+- Update to bzr snapshot revno 1901.
+
 * Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1900-5
 - Move libs to usr/lib64 on x86_64.
 
