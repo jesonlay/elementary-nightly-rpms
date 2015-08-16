@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+"""
+builpy
+"""
+
+from _builpy import dbg
+
+from _builpy.check import pkg_check, src_check
+from _builpy.vcs import src_update, src_export
+
+from _builpy.cli import PACKAGES
+
+
+for package in PACKAGES:
+    dbg("Checking: " + package)
+    pkg_check(package)
+    src_check(package)
+    src_update(package)
+    src_export(package)
+
