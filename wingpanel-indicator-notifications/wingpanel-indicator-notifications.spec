@@ -1,4 +1,4 @@
-%define rev 36
+%define rev 38
 %define debug_package %{nil}
 
 Summary: A notifications indicator for wingpanel
@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Aug 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev38-1
+- Update to bzr snapshot revno 38.
+
 * Thu Jul 16 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev36-1
 - Update to bzr snapshot revno 36.
 

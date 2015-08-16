@@ -1,4 +1,4 @@
-%define rev 55
+%define rev 63
 %define debug_package %{nil}
 
 Summary: A datetime indicator for wingpanel
@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Aug 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev63-1
+- Update to bzr snapshot revno 63.
+
 * Thu Jul 16 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev55-1
 - Update to bzr snapshot revno 55.
 

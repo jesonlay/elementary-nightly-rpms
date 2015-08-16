@@ -1,4 +1,4 @@
-%define rev 42
+%define rev 56
 %define debug_package %{nil}
 
 Summary: A network indicator for wingpanel
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Aug 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev56-1
+- Update to bzr snapshot revno 56.
+
 * Tue Jul 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev42-1
 - Initial package.
 

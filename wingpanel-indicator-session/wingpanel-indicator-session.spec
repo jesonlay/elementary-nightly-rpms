@@ -1,4 +1,4 @@
-%define rev 28
+%define rev 30
 %define debug_package %{nil}
 
 Summary: A session indicator for wingpanel
@@ -56,6 +56,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Aug 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev30-1
+- Update to bzr snapshot revno 30.
+
 * Thu Jul 16 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev28-1
 - Update to bzr snapshot revno 28.
 
