@@ -2,7 +2,7 @@
 
 Summary: Audience video player
 Name: audience
-Version: 0.1.0.1~rev%{rev}
+Version: 0.1.0.2~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
@@ -65,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Aug 16 2015 Fabio Valentini - 0.1.0.2~rev534-1
+- Bump to correct upstream version (0.1.0.2).
+
 * Sun Aug 16 2015 Fabio Valentini - 0.1.0.1~rev534-1
 - Update to upstream bzr snapshot revno 534.
 

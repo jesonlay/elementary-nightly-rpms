@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 NAME=audience
-VERSION=0.1.0.1
+VERSION=0.1.0.2
 
 if [ ! -d "$NAME" ]; then
     bzr branch lp:$NAME
