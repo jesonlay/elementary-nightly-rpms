@@ -3,6 +3,10 @@
 NAME=contractor
 VERSION=0.3.1
 
+if [ ! -d "$NAME" ]; then
+    bzr branch lp:$NAME
+fi
+
 cd $NAME
 
 OLD=$(bzr revno)
