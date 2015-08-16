@@ -3,6 +3,10 @@
 NAME=audience
 VERSION=0.1.0.1
 
+if [ ! -d "$NAME" ]; then
+    bzr branch lp:$NAME
+fi
+
 cd $NAME
 
 OLD=$(bzr revno)

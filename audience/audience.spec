@@ -1,4 +1,4 @@
-%define rev 531
+%define rev 534
 
 Summary: Audience video player
 Name: audience
@@ -65,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Aug 16 2015 Fabio Valentini - 0.1.0.1~rev534-1
+- Update to upstream bzr snapshot revno 534.
+
 * Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev531-1
 - Update to bzr snapshot revno 531.
 
