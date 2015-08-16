@@ -1,4 +1,4 @@
-%define rev 1901
+%define rev 1910
 
 Summary: Pantheon file manager
 Name: pantheon-files
@@ -126,6 +126,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Aug 01 2015 Fabio Valentini - 0.2.2.1~rev1910-1
+- Update to bzr snapshot revno 1910.
+
 * Thu Jul 30 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1901-1
 - Update to bzr snapshot revno 1901.
 
