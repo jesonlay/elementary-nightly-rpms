@@ -9,6 +9,11 @@ from _builpy import goto_basedir, goto_pkgdir
 
 
 def get_source_url(pkgname, orig, dest=None):
+    """
+    builpy.url.get_source_url()
+    function that downloads a file via the specified url (wget)
+    curl could also be supported in the future
+    """
     quietstr = "--quiet"
     if DEBUG:
         quietstr = "--verbose"

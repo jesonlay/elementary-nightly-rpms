@@ -17,6 +17,10 @@ from _builpy.conf import get_pkgvers, get_srcname, get_srctype
 
 
 def get_srcrev(pkgname):
+    """
+    builpy.vcs.get_srcrev()
+    generic function that returns the current revision number / commit id
+    """
     dbg("Checking revision number / commit id.")
     srcname = get_srcname(pkgname)
     srctype = get_srctype(pkgname)
@@ -29,6 +33,10 @@ def get_srcrev(pkgname):
         return None
 
 def get_source(pkgname, srctype, srcorig, srcdest, srckeep):
+    """
+    builpy.vcs.get_source()
+    generic function that downloads the specified sources from vcs
+    """
     if srctype is "bzr":
         get_source_bzr(pkgname, srcorig, srcdest, srckeep)
     elif srctype is "git":
@@ -39,6 +47,10 @@ def get_source(pkgname, srctype, srcorig, srcdest, srckeep):
         dbg("Source type is not supported.")
 
 def src_update(pkgname):
+    """
+    builpy.vcs.src_update()
+    generic function that updates the specified vcs repository
+    """
     srcname = get_srcname(pkgname)
     srctype = get_srctype(pkgname)
 
@@ -54,6 +66,10 @@ def src_update(pkgname):
         dbg("Source type is not supported.")
 
 def src_export(pkgname):
+    """
+    builpy.vcs.src_export()
+    function that exports the specified vcs repository to a tar.gz archive
+    """
     pkgvers = get_pkgvers(pkgname)
     srcname = get_srcname(pkgname)
     srctype = get_srctype(pkgname)

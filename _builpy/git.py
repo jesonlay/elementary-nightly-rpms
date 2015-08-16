@@ -13,7 +13,7 @@ from _builpy.conf import get_srcname
 def get_srcrev_git(pkgname, srcname):
     """
     builpy.git.get_srcrev_git()
-    function that returns the current commit id of the source clone
+    function that returns the current commit id of the repository
     """
     goto_srcdir(pkgname, srcname)
     rev = subprocess.check_output(["git", "rev-parse", "HEAD"]).decode()
@@ -23,6 +23,10 @@ def get_srcrev_git(pkgname, srcname):
     return rev
 
 def get_source_git(pkgname, orig, dest, keep=False):
+    """
+    builpy.git.get_source_git()
+    function that downloads the specified git repository (whole or shallow)
+    """
     srcname = get_srcname(pkgname)
     dbg("Checking out git repository " + orig + " to directory " + dest + ".")
 
@@ -45,6 +49,10 @@ def get_source_git(pkgname, orig, dest, keep=False):
     return rev
 
 def src_update_git(pkgname, srcname):
+    """
+    builpy.git.src_update_git()
+    function that updates the specified git repository
+    """
     cmdstr = "pull --rebase --quiet"
     if DEBUG:
         cmdstr = "pull --rebase"
@@ -63,6 +71,10 @@ def src_update_git(pkgname, srcname):
         return 0
 
 def src_export_git(pkgname, srcname, pkgvers):
+    """
+    builpy.git.src_export_git()
+    function that exports the specified git repository
+    """
     rev = get_srcrev_git(pkgname, srcname)
 
     strvers = pkgvers + "~rev" + rev
@@ -76,3 +88,4 @@ def src_export_git(pkgname, srcname, pkgvers):
     goto_basedir()
 
     dbg("Export to ../" + strpkgv + ".tar.gz successful.")
+
