@@ -2,7 +2,7 @@
 
 VERSION=0.8.1
 
-cd slingshot
+cd slingshot-launcher
 
 OLD=$(bzr revno)
 bzr pull --quiet
@@ -31,3 +31,4 @@ mv ../SRPMS/* $HOME/
 
 cd $HOME
 rm -rf rpmbuild
+
