@@ -4,10 +4,22 @@ builpy.git
 
 import subprocess
 
-from _builpy import dbg, DEBUG
+from _builpy import dbg, DEBUG, get_date
 from _builpy import goto_basedir, goto_pkgdir, goto_srcdir
 
 from _builpy.conf import get_srcname
+
+
+def format_version_git(ver, rev):
+    """
+    builpy.git.format_version_git()
+    function that returns the package version in a standard format
+    """
+    assert isinstance(ver, str)
+    assert isinstance(rev, str)
+    date = get_date()
+
+    return ver + "~git" + date + "-" + rev
 
 
 def get_srcrev_git(pkgname, srcname):
@@ -78,7 +90,7 @@ def src_export_git(pkgname, srcname, pkgvers):
     """
     rev = get_srcrev_git(pkgname, srcname)
 
-    strvers = pkgvers + "~rev" + rev
+    strvers = format_version_git(pkgvers, rev)
     strpkgv = pkgname + "-" + strvers
 
     cmdstr = "archive --format=tar.gz --prefix=" + \

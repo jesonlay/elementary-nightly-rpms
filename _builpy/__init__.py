@@ -19,6 +19,11 @@ def dbg(msg):
         print("DEBUG: " + str(msg))
 
 
+def get_date():
+    date = subprocess.check_output("date", r"+%y%m%d").decode().rstrip('\n\r')
+    return date
+
+
 def goto_pkgdir(pkgname):
     """
     builpy.goto_pkgdir

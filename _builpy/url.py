@@ -8,6 +8,15 @@ from _builpy import dbg, DEBUG
 from _builpy import goto_basedir, goto_pkgdir
 
 
+def format_version_url(ver):
+    """
+    builpy.url.format_version_url()
+    function that returns the package version in a standard format (trivial here)
+    """
+    assert isinstance(ver, str)
+    return ver
+
+
 def get_source_url(pkgname, orig, dest=None):
     """
     builpy.url.get_source_url()

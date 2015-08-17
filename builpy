@@ -10,6 +10,7 @@ from _builpy.check import pkg_check, src_check
 from _builpy.vcs import src_update, src_export
 
 from _builpy.cli import PACKAGES
+from _builpy.rpm import spec_bump
 
 
 for package in PACKAGES:

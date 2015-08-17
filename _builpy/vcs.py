@@ -5,15 +5,32 @@ builpy.vcs
 
 from _builpy import dbg
 
-from _builpy.bzr import get_srcrev_bzr, get_source_bzr
-from _builpy.bzr import src_update_bzr, src_export_bzr
+from _builpy.bzr import get_srcrev_bzr, get_source_bzr, src_update_bzr
+from _builpy.bzr import src_export_bzr, format_version_bzr
 
-from _builpy.git import get_srcrev_git, get_source_git
-from _builpy.git import src_update_git, src_export_git
+from _builpy.git import get_srcrev_git, get_source_git, src_update_git
+from _builpy.git import src_export_git, format_version_git
 
-from _builpy.url import get_source_url
+from _builpy.url import get_source_url, format_version_url
 
 from _builpy.conf import get_pkgvers, get_srcname, get_srctype
+
+
+def format_version(pkgname, ver, rev):
+    """
+    builpy.vcs.format_version()
+    generic function that returns the package version in a standard format
+    """
+    srctype = get_srctype(pkgname)
+
+    if srctype == "bzr":
+        return format_version_bzr(ver, rev)
+    elif srctype == "git":
+        return format_version_git(ver, rev)
+    elif srctype == "url":
+        return format_version_url(ver)
+    else:
+        dbg("Source type is not supported.")
 
 
 def get_srcrev(pkgname):

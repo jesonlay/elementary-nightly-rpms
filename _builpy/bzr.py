@@ -10,6 +10,16 @@ from _builpy import goto_basedir, goto_pkgdir, goto_srcdir
 from _builpy.conf import get_srcname
 
 
+def format_version_bzr(ver, rev):
+    """
+    builpy.bzr.format_version_bzr()
+    function that returns the package version in a standard format
+    """
+    assert isinstance(ver, str)
+    assert isinstance(rev, str)
+    return ver + "~rev" + rev
+
+
 def get_srcrev_bzr(pkgname, srcname):
     """
     builpy.bzr.get_srcrev_bzr()
@@ -81,7 +91,7 @@ def src_export_bzr(pkgname, srcname, pkgvers):
     """
     rev = get_srcrev_bzr(pkgname, srcname)
 
-    strvers = pkgvers + "~rev" + rev
+    strvers = format_version_bzr(pkgvers, rev)
     strpkgv = pkgname + "-" + strvers
 
     filename = "../" + strpkgv + ".tar.gz"
