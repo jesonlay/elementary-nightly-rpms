@@ -17,6 +17,7 @@ def get_srcrev_git(pkgname, srcname):
     """
     goto_srcdir(pkgname, srcname)
     rev = subprocess.check_output(["git", "rev-parse", "HEAD"]).decode()
+    rev = rev.rstrip('\r\n')[0:8]
     goto_basedir()
 
     dbg(pkgname + " repo is at commit: " + rev)

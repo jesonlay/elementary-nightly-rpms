@@ -16,7 +16,7 @@ def get_srcrev_bzr(pkgname, srcname):
     function that returns the current revision number of the source branch
     """
     goto_srcdir(pkgname, srcname)
-    rev = subprocess.check_output(["bzr", "revno"]).decode()
+    rev = subprocess.check_output(["bzr", "revno"]).decode().rstrip('\n\r')
     goto_basedir()
 
     dbg(pkgname + " repo is at revno: " + rev)
@@ -34,12 +34,15 @@ def get_source_bzr(pkgname, orig, dest, keep=True):
     if DEBUG:
         quietstr = "--verbose"
 
-    cmdstr = "checkout --lightweight"
-    if keep:
-        cmdstr = "branch"
+    cmdstr = "branch"
+    optstr = ""
+
+    if not keep:
+        cmdstr = "checkout"
+        optstr = "--lightweight"
 
     goto_pkgdir(pkgname)
-    subprocess.call(["bzr", cmdstr, quietstr, orig, dest])
+    subprocess.call(["bzr", cmdstr, optstr, quietstr, orig, dest])
     goto_basedir()
 
     dbg("Checkout to " + dest + " successful.")
@@ -53,14 +56,14 @@ def src_update_bzr(pkgname, srcname):
     builpy.bzr.src_update_bzr()
     function that updates the specified bzr branch or lightweight checkout
     """
-    cmdstr = "pull --quiet"
+    quietstr = "--quiet"
     if DEBUG:
-        cmdstr = "pull"
+        quietstr = ""
 
     rev_old = get_srcrev_bzr(pkgname, srcname)
 
     goto_srcdir(pkgname, srcname)
-    subprocess.call(["bzr", cmdstr])
+    subprocess.call(["bzr", "pull", quietstr])
     goto_basedir()
 
     rev_new = get_srcrev_bzr(pkgname, srcname)
@@ -81,10 +84,10 @@ def src_export_bzr(pkgname, srcname, pkgvers):
     strvers = pkgvers + "~rev" + rev
     strpkgv = pkgname + "-" + strvers
 
-    cmdstr = "export ../" + strpkgv + ".tar.gz"
+    filename = "../" + strpkgv + ".tar.gz"
 
     goto_srcdir(pkgname, srcname)
-    subprocess.call(["bzr", cmdstr])
+    subprocess.call(["bzr", "export", filename])
     goto_basedir()
 
     dbg("Export to ../" + strpkgv + ".tar.gz successful.")
