@@ -14,6 +14,7 @@ from _builpy.git import src_export_git, format_version_git
 from _builpy.url import get_source_url, format_version_url
 
 from _builpy.conf import get_pkgvers, get_srcname, get_srctype
+from _builpy.conf import get_srcorig, get_srckeep
 
 
 def format_version(pkgname, ver, rev):
@@ -49,11 +50,16 @@ def get_srcrev(pkgname):
     else:
         return None
 
-def get_source(pkgname, srctype, srcorig, srcdest, srckeep):
+def get_source(pkgname):
     """
     builpy.vcs.get_source()
     generic function that downloads the specified sources from vcs
     """
+    srctype = get_srctype(pkgname)
+    srcorig = get_srcorig(pkgname)
+    srcdest = get_srcname(pkgname)
+    srckeep = get_srckeep(pkgname)
+
     if srctype is "bzr":
         get_source_bzr(pkgname, srcorig, srcdest, srckeep)
     elif srctype is "git":

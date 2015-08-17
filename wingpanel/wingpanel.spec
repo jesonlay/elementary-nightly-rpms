@@ -1,8 +1,8 @@
-%define rev 230
+%define rev 86
 
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
-Version: 0.3.0.1~rev%{rev}
+Version: 0.4.0~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel
@@ -14,17 +14,25 @@ BuildRequires: vala gettext
 
 BuildRequires: desktop-file-utils
 
+BuildRequires: pkgconfig(gala)
 BuildRequires: pkgconfig(gee-0.8)
+BuildRequires: pkgconfig(gio-2.0)
 BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(gmodule-2.0)
+BuildRequires: pkgconfig(gobject-introspection-1.0)
 BuildRequires: pkgconfig(granite)
-BuildRequires: pkgconfig(gtk+-3.0)
-BuildRequires: pkgconfig(libido3-0.1)
-BuildRequires: pkgconfig(indicator3-0.4)
-BuildRequires: pkgconfig(libwnck-3.0)
+BuildRequires: pkgconfig(gtk+-3.0) >= 3.14
+BuildRequires: pkgconfig(libnotify)
 
 
 %description
 Wingpanel is the panel from the elementary project, used in its pantheon shell.
+
+
+%package devel
+Summary: Stylish top panel that holds indicators and spawns an application launcher
+%description devel
+Wingpanel is the panel from the elementary project, used in its pantheon shell. This package contains the development headers.
 
 
 %prep
@@ -32,13 +40,19 @@ Wingpanel is the panel from the elementary project, used in its pantheon shell.
 
 
 %build
-%cmake -DNO_INDICATOR_NG=on -DOLD_LIB_IDO=on
+%cmake
 
 
 %install
 make install DESTDIR=$RPM_BUILD_ROOT
 
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/wingpanel.desktop
+
+mkdir -p $RPM_BUILD_ROOT/%{_libdir}/gala/plugins
+
+mv $RPM_BUILD_ROOT/usr/lib/x86_64-linux-gnu/gala/plugins/libwingpanel-interface.so $RPM_BUILD_ROOT/%{_libdir}/gala/plugins/libwingpanel-interface.so
+
+rm -rf $RPM_BUILD_ROOT/usr/lib
 
 %find_lang wingpanel
 
@@ -59,13 +73,29 @@ rm -rf $RPM_BUILD_ROOT
 %files -f wingpanel.lang
 %{_bindir}/wingpanel
 
+%{_libdir}/libwingpanel-2.0.so.0
+%{_libdir}/libwingpanel-2.0.so.2.0
+
+%{_libdir}/gala/plugins/libwingpanel-interface.so
+
 %{_datarootdir}/applications/wingpanel.desktop
 %{_datarootdir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.gschema.xml
 
-%{_datarootdir}/icons/hicolor/scalable/apps/wingpanel.svg
+
+%files devel
+%{_libdir}/libwingpanel-2.0.so
+%{_libdir}/pkgconfig/wingpanel-2.0.pc
+
+%{_includedir}/wingpanel-2.0
+
+%{_datadir}/vala/vapi/wingpanel-2.0.deps
+%{_datadir}/vala/vapi/wingpanel-2.0.vapi
 
 
 %changelog
+* Tue Jul 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev86-1
+- Update to bzr branch for 0.4, snapshot revno 86.
+
 * Mon Jul 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1~rev230-1
 - Update to bzr snapshot revno 230.
 

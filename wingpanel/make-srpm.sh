@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 NAME=wingpanel
-VERSION=0.3.0.1
+VERSION=0.4.0
 
 cd $NAME
 
