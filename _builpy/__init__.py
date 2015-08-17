@@ -3,6 +3,7 @@ builpy
 """
 
 import os
+import subprocess
 
 from _builpy.cli import DEBUG
 
@@ -12,7 +13,7 @@ BASEDIR = os.getcwd()
 
 def dbg(msg):
     """
-    builpy.dbg
+    builpy.dbg()
     prints debug messages if DEBUG is True (set by --verbose or --debug)
     """
     if DEBUG:
@@ -20,7 +21,11 @@ def dbg(msg):
 
 
 def get_date():
-    date = subprocess.check_output("date", r"+%y%m%d").decode().rstrip('\n\r')
+    """
+    builpy.get_date()
+    returns date in YYMMDD format as string
+    """
+    date = subprocess.check_output(["date", r"+%y%m%d"]).decode().rstrip('\n\r')
     return date
 
 

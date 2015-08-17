@@ -89,29 +89,28 @@ def if_version(line):
     else:
         return False
 
-def format_spec_version(pkgname, ver, rev):
+def format_spec_version(pkgname, ver):
     """
     builpy.rpm.format_spec_version()
     function that returns the package version in format for rpm spec files
     """
     srctype = get_srctype(pkgname)
-    date = get_date()
 
     if srctype == "bzr":
-        return ver + "~rev" + rev
+        return ver + "~rev" + r"%{rev}"
     elif srctype == "git":
-        return ver + "~git" + date + "-" + rev
+        return ver + "~git" + r"%{date}" + "-" + r"%{rev}"
     elif srctype == "url":
         return ver
     else:
         dbg("Source type is not supported.")
 
-def of_version(pkgname, ver, rev):
+def of_version(pkgname, ver):
     """
     builpy.rpm.of_version()
     function returns a line with the version tag and the current version
     """
-    return "Version: " + format_spec_version(pkgname, ver, rev)
+    return "Version: " + format_spec_version(pkgname, ver) + "\n"
 
 
 def if_release(line):
@@ -129,7 +128,7 @@ def of_release():
     builpy.rpm.of_release()
     function returns a line with the release tag and release 0%{?dist}
     """
-    return r"Release: 0%{?dist}"
+    return r"Release: 0%{?dist}" + "\n"
 
 
 def spec_update(pkgname):
@@ -154,7 +153,7 @@ def spec_update(pkgname):
         if if_define_rev(line):
             specfile_new.write(of_define_rev(rev))
         elif if_version(line):
-            specfile_new.write(of_version(pkgname, ver, rev))
+            specfile_new.write(of_version(pkgname, ver))
         elif if_release(line):
             specfile_new.write(of_release())
         else:
