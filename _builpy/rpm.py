@@ -172,13 +172,13 @@ def spec_bump(pkgname, comment):
     function bumps the spec file for new release (via rpmdev-bumpspec)
     """
     specname = pkgname + ".spec"
-    commtstr = '--comment="' + comment + '"'
+    commtstr = '--comment=' + comment
 
     quietstr = ""
     if DEBUG:
         quietstr = "--verbose"
 
     goto_pkgdir(pkgname)
-    subprocess.call("rpmdev-bumpspec", quietstr, commtstr, specname)
+    subprocess.call(["rpmdev-bumpspec", quietstr, commtstr, specname])
     goto_basedir()
 
