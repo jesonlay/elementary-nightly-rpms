@@ -1,12 +1,15 @@
+%define rev e83b497a
+%define date 150817
+
 Summary: SQLHeavy
 Name: sqlheavy2
-Version: 0.1.2~git
+Version: 0.2.0~git%{date}-%{rev}
 Release: 1%{?dist}
 License: LGPLv3
 URL: http://code.google.com/p/sqlheavy
 
-Source0: sqlheavy-%{version}.tar.gz
-Source1: make-srpm.sh
+Source0: %{name}-%{version}.tar.gz
+Source1: %{name}.conf
 
 Obsoletes: sqlheavy
 
@@ -86,6 +89,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini
+- Update to new upstream snapshot.
+
 * Sat Jan 03 2015 Fabio Valentini <fafatheone@gmail.com> - 0.1.2~git-1
 - Initial package.
 

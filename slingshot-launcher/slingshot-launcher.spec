@@ -1,4 +1,4 @@
-%define rev 559
+%define rev 562
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
@@ -8,6 +8,7 @@ License: GPLv3
 URL: http://launchpad.net/slingshot
 
 Source0: %{name}-%{version}.tar.gz
+Source1: %{name}.conf
 
 BuildRequires: cmake pkgconfig
 BuildRequires: vala vala-tools gettext
@@ -65,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini - 0.8.1~rev562-1
+- Update to new upstream snapshot.
+
 * Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev559-1
 - Update to bzr snapshot revno 559.
 

@@ -1,4 +1,4 @@
-%define rev 86
+%define rev 88
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Applications Plug
@@ -9,6 +9,7 @@ License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-applications
 
 Source0: %{name}-%{version}.tar.gz
+Source1: %{name}.conf
 
 BuildRequires: cmake
 BuildRequires: desktop-file-utils
@@ -60,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT
    
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini - 0.1~rev88-1
+- Update to new upstream snapshot.
+
 * Mon Jul 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev86-1
 - Initial package.
 

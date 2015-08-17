@@ -8,6 +8,7 @@ License: GPLv3
 URL: http://launchpad.net/wingpanel
 
 Source0: %{name}-%{version}.tar.gz
+Source1: %{name}.conf
 
 BuildRequires: cmake pkgconfig
 BuildRequires: vala gettext

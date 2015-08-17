@@ -45,14 +45,15 @@ def get_source_bzr(pkgname, orig, dest, keep=True):
         quietstr = "--verbose"
 
     cmdstr = "branch"
-    optstr = ""
 
-    if not keep:
-        cmdstr = "checkout"
-        optstr = "--lightweight"
+#    optstr = ""
+#    if not keep:
+#        cmdstr = "checkout"
+#        optstr = "--lightweight"
 
     goto_pkgdir(pkgname)
-    subprocess.call(["bzr", cmdstr, optstr, quietstr, orig, dest])
+    dbg("bzr" + " " + cmdstr + " " + quietstr + " " + orig + " ./" + dest)
+    subprocess.call(["bzr", cmdstr, quietstr, orig, "./" + dest])
     goto_basedir()
 
     dbg("Checkout to " + dest + " successful.")

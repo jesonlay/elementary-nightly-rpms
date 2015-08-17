@@ -8,6 +8,7 @@ License: GPLv3
 URL: http://launchpad.net/gala
 
 Source0: %{name}-%{version}.tar.gz
+Source1: %{name}.conf
 
 BuildRequires: libtool pkgconfig
 BuildRequires: vala vala-tools gettext

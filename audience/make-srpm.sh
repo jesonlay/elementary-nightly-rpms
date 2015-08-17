@@ -36,3 +36,4 @@ mv ../SRPMS/* $HOME/
 
 cd $HOME
 rm -rf rpmbuild
+

@@ -4,7 +4,9 @@ builpy.check
 
 import os
 
+from _builpy import HOME
 from _builpy import BASEDIR
+
 from _builpy.conf import get_srcname
 
 
@@ -32,5 +34,18 @@ def src_check(pkgname):
     srcdir = os.path.join(BASEDIR, pkgname, srcname)
 
     if not os.access(srcdir, os.W_OK):
-        raise OSError("Source directory does not exist or is inaccessible.")
+#        raise OSError("Source directory does not exist or is inaccessible.")
+        return False
+    
+    return True
+
+def home_check():
+    """
+    builpy.check.home_check
+    function to check for user home directory
+    also checks for dir writability
+    """
+
+    if not os.access(HOME, os.W_OK):
+        raise OSError("Home directory is not writable.")
 

@@ -173,11 +173,7 @@ def spec_bump(pkgname, comment):
     specname = pkgname + ".spec"
     commtstr = '--comment=' + comment
 
-    quietstr = ""
-    if DEBUG:
-        quietstr = "--verbose"
-
     goto_pkgdir(pkgname)
-    subprocess.call(["rpmdev-bumpspec", quietstr, commtstr, specname])
+    subprocess.call(["rpmdev-bumpspec", commtstr, specname])
     goto_basedir()
 

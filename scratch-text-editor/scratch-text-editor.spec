@@ -1,4 +1,4 @@
-%define rev 1534
+%define rev 1542
 
 Summary: Scratch - the text editor that works.
 Name: scratch-text-editor
@@ -8,7 +8,7 @@ License: GPLv3
 URL: http://launchpad.net/scratch
 
 Source0: %{name}-%{version}.tar.gz
-Source1: make-srpm.sh
+Source1: %{name}.conf
 
 BuildRequires: cmake pkgconfig
 BuildRequires: vala gettext
@@ -127,6 +127,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini - 2.2.0~rev1542-1
+- Update to new upstream snapshot.
+
 * Sat Aug 01 2015 Fabio Valentini - 2.2.0~rev1534-1
 - Update to bzr snapshot revno 1534.
 

@@ -2,13 +2,13 @@
 
 Summary: Vocal Podcatcher
 Name: vocal
-Version: 2.0~rev%{rev}
+Version: 1.0~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/vocal
 
 Source0: %{name}-%{version}.tar.gz
-Source1: make-srpm.sh
+Source1: %{name}.conf
 
 BuildRequires: cmake pkgconfig
 BuildRequires: vala gettext
@@ -92,16 +92,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Sun Jul 19 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev301-1
-- Update to bzr snapshot revno 301.
-
-* Sun Jul 05 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev300-1
-- Update to bzr revno 300.
-
-* Thu Jun 25 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev297-2
-- Add missing BuildRequires: desktop-file-utils.
-
-* Thu Jun 25 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev297-1
-- Initial package. bzr snapshot revno297.
-
+* Mon Aug 17 2015 Fabio Valentini - 1.0~rev301-1
+- Update to new upstream snapshot.
 

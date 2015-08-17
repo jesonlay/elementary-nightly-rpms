@@ -8,7 +8,7 @@ License: LGPLv3
 URL: http://launchpad.net/granite
 
 Source0: %{name}-%{version}.tar.gz
-Source1: make-srpm.sh
+Source1: %{name}.conf
 
 BuildRequires: cmake
 BuildRequires: vala gettext

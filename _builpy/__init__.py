@@ -9,6 +9,7 @@ from _builpy.cli import DEBUG
 
 
 BASEDIR = os.getcwd()
+HOME = os.environ['HOME']
 
 
 def dbg(msg):

@@ -60,11 +60,11 @@ def get_source(pkgname):
     srcdest = get_srcname(pkgname)
     srckeep = get_srckeep(pkgname)
 
-    if srctype is "bzr":
+    if srctype == "bzr":
         get_source_bzr(pkgname, srcorig, srcdest, srckeep)
-    elif srctype is "git":
+    elif srctype == "git":
         get_source_git(pkgname, srcorig, srcdest, srckeep)
-    elif srctype is "url":
+    elif srctype == "url":
         get_source_url(pkgname, srcorig, srcdest)
     else:
         dbg("Source type is not supported.")
@@ -80,13 +80,14 @@ def src_update(pkgname):
     dbg("Checking " + srcname + " " + srctype + " repo for updates.")
 
     if srctype == "bzr":
-        src_update_bzr(pkgname, srcname)
+        return src_update_bzr(pkgname, srcname)
     elif srctype == "git":
-        src_update_git(pkgname, srcname)
+        return src_update_git(pkgname, srcname)
     elif srctype == "url":
-        pass
+        return 0
     else:
         dbg("Source type is not supported.")
+        return 0
 
 def src_export(pkgname):
     """

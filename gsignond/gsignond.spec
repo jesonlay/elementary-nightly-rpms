@@ -8,6 +8,7 @@ License: LGPLv2.1
 URL: http://launchpad.net/gsignond
 
 Source0: %{name}-%{version}.tar.gz
+Source1: %{name}.conf
 
 BuildRequires: libtool pkgconfig
 BuildRequires: gtk-doc gettext

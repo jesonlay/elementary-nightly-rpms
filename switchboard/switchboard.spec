@@ -1,4 +1,4 @@
-%define rev 564
+%define rev 565
 
 Summary: Switchboard System Settings
 Name: switchboard
@@ -8,6 +8,7 @@ License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard
 
 Source0: %{name}-%{version}.tar.gz
+Source1: %{name}.conf
 
 BuildRequires: cmake pkgconfig
 BuildRequires: vala gettext
@@ -91,6 +92,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini - 2.0.1~rev565-1
+- Update to new upstream snapshot.
+
 * Mon Jul 13 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev564-1
 - Update to bzr snapshot revno 564.
 
