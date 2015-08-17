@@ -7,17 +7,15 @@ builpy
 from _builpy import dbg
 
 from _builpy.check import pkg_check, src_check
-# from _builpy.vcs import src_update, src_export
+from _builpy.vcs import src_update, src_export
 
 from _builpy.cli import PACKAGES
-from _builpy.rpm import spec_update #, spec_bump
+from _builpy.spec import spec_update, spec_bump
 
 
 for package in PACKAGES:
     dbg("Checking: " + package)
     pkg_check(package)
     src_check(package)
-
-    spec_update(package)
-    spec_bump(package, "This is a test bump.")
+    src_export(package)
 
