@@ -1,4 +1,4 @@
-%define rev 63
+%define rev 71
 %define debug_package %{nil}
 
 Summary: A power indicator for wingpanel
@@ -17,6 +17,8 @@ BuildRequires: vala gettext
 BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gthread-2.0)
 BuildRequires: pkgconfig(gtk+-3.0)
+BuildRequires: pkgconfig(libbamf3)
+BuildRequires: pkgconfig(libgtop-2.0)
 BuildRequires: pkgconfig(wingpanel-2.0)
 
 
@@ -56,6 +58,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Aug 18 2015 Fabio Valentini - 0.1~rev71-1
+- Update to new upstream snapshot.
+
+* Tue Aug 18 2015 Fabio Valentini - 0.1~rev70-2
+- Add BRs libbamf3, libgtop-2.0.
+
+* Mon Aug 17 2015 Fabio Valentini - 0.1~rev70-1
+- Update to new upstream snapshot.
+
 * Sat Aug 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev63-1
 - Update to bzr snapshot revno 63.
 

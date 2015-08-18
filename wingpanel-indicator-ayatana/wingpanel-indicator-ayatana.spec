@@ -1,4 +1,4 @@
-%define rev 11
+%define rev 12
 %define debug_package %{nil}
 
 Summary: A meta plugin for ayatana application indicator support for wingpanel
@@ -53,6 +53,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini - 0.1~rev12-1
+- Update to new upstream snapshot.
+
 * Sat Aug 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev11-1
 - Update to bzr snapshot revno 11.
 

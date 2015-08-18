@@ -95,6 +95,9 @@ rm -rf $RPM_BUILD_ROOT
 * Mon Aug 17 2015 Fabio Valentini - 2.0.1~rev565-1
 - Update to new upstream snapshot.
 
+* Mon Aug 17 2015 Fabio Valentini - 2.0.1~rev565-1
+- Update to new upstream snapshot.
+
 * Mon Jul 13 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev564-1
 - Update to bzr snapshot revno 564.
 

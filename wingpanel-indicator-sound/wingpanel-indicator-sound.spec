@@ -1,4 +1,4 @@
-%define rev 24
+%define rev 25
 %define debug_package %{nil}
 
 Summary: A sound indicator for wingpanel
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini - 0.1~rev25-1
+- Update to new upstream snapshot.
+
 * Tue Jul 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev24-1
 - Initial package.
 

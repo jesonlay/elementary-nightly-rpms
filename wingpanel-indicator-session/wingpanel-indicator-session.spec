@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 17 2015 Fabio Valentini - 0.1~rev30-1
+- Update to new upstream snapshot.
+
 * Sat Aug 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev30-1
 - Update to bzr snapshot revno 30.
 

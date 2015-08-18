@@ -22,6 +22,7 @@ mkdir -p $HOME/rpmbuild/SOURCES
 
 mv switchboard*.tar.gz $HOME/rpmbuild/SOURCES/
 cp make-srpm.sh $HOME/rpmbuild/SOURCES/
+cp switchboard.conf $HOME/rpmbuild/SOURCES/
 cp switchboard.spec $HOME/rpmbuild/SPECS/
 
 cd $HOME/rpmbuild/SPECS
