@@ -3,7 +3,7 @@
 Summary: Captive Portal Assistant
 Name: capnet-assist
 Version: 0.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv2
 URL: http://launchpad.net/capnet-assist
 
@@ -38,8 +38,6 @@ Written in Vala and using WebkitGtk+.
 %install
 %make_install
 
-# %%find_lang audience
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -53,8 +51,12 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS README
 %license COPYING
 
+%{_bindir}/captive-login
+
 
 %changelog
-* Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev23-1
-- Update to new upstream snapshot.
+* Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev23-2
+- Cleanup .spec file.
 
+* Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev23-1
+- Initial package.
