@@ -1,4 +1,4 @@
-%define rev 1542
+%define rev 1544
 
 Summary: Scratch - the text editor that works.
 Name: scratch-text-editor
@@ -127,6 +127,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Aug 18 2015 Fabio Valentini - 2.2.0~rev1544-1
+- Update to new upstream snapshot.
+
+* Tue Aug 18 2015 Fabio Valentini - 2.2.0~rev1544-1
+- Update to new upstream snapshot.
+
 * Mon Aug 17 2015 Fabio Valentini - 2.2.0~rev1542-1
 - Update to new upstream snapshot.
 

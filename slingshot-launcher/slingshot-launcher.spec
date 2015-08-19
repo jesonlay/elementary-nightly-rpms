@@ -3,7 +3,7 @@
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
@@ -24,6 +24,7 @@ BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(libgnome-menu-3.0)
 
 # Requires: redhat-menus
+Requires: gala
 Requires: zeitgeist
 
 
@@ -66,6 +67,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev562-2
+- Add Requires: gala to fix crash.
+
 * Mon Aug 17 2015 Fabio Valentini - 0.8.1~rev562-1
 - Update to new upstream snapshot.
 

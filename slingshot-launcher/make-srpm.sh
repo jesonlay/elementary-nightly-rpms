@@ -23,6 +23,7 @@ mkdir -p $HOME/rpmbuild/SOURCES
 mv slingshot-launcher*.tar.gz $HOME/rpmbuild/SOURCES/
 cp make-srpm.sh $HOME/rpmbuild/SOURCES/
 cp slingshot-launcher.spec $HOME/rpmbuild/SPECS/
+cp slingshot-launcher.conf $HOME/rpmbuild/SOURCES/
 
 cd $HOME/rpmbuild/SPECS
 
