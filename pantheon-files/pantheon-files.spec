@@ -1,4 +1,4 @@
-%define rev 1924
+%define rev 1926
 
 Summary: Pantheon file manager
 Name: pantheon-files
@@ -127,6 +127,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Aug 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1926-1
+- Update to new upstream snapshot.
+
 * Tue Aug 18 2015 Fabio Valentini - 0.2.2.1~rev1924-1
 - Update to new upstream snapshot.
 

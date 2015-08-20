@@ -1,9 +1,9 @@
-%define rev 562
+%define rev 564
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
@@ -67,6 +67,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Aug 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev564-1
+- Update to new upstream snapshot.
+
 * Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev562-2
 - Add Requires: gala to fix crash.
 
