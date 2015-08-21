@@ -1,8 +1,9 @@
 #!/usr/bin/bash
 
+NAME=gsignond
 VERSION=1.0.4
 
-cd gsignond
+cd $NAME
 
 OLD=$(bzr revno)
 bzr pull --quiet
@@ -14,19 +15,20 @@ if [ $OLD != $NEW ]; then
 	exit
 fi
 
-bzr export ../gsignond-$VERSION~rev$NEW.tar.gz
+bzr export ../$NAME-$VERSION~rev$NEW.tar.gz
 cd ..
 
 mkdir -p $HOME/rpmbuild/SPECS
 mkdir -p $HOME/rpmbuild/SOURCES
 
-mv gsignond*.tar.gz $HOME/rpmbuild/SOURCES/
+mv $NAME*.tar.gz $HOME/rpmbuild/SOURCES/
 cp make-srpm.sh $HOME/rpmbuild/SOURCES/
-cp gsignond.spec $HOME/rpmbuild/SPECS/
+cp $NAME.conf $HOME/rpmbuild/SOURCES/
+cp $NAME.spec $HOME/rpmbuild/SPECS/
 
 cd $HOME/rpmbuild/SPECS
 
-rpmbuild -bs gsignond.spec
+rpmbuild -bs $NAME.spec
 mv ../SRPMS/* $HOME/
 
 cd $HOME
