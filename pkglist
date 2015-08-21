@@ -22,6 +22,7 @@ switchboard-plug-keyboard
 switchboard-plug-locale
 switchboard-plug-mouse-touchpad
 switchboard-plug-networking
+switchboard-plug-onlineaccounts
 switchboard-plug-pantheon-shell
 thunderbird-contracts
 vocal
