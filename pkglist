@@ -19,6 +19,7 @@ switchboard-plug-datetime
 switchboard-plug-display
 switchboard-plug-keyboard
 switchboard-plug-locale
+switchboard-plug-mouse-touchpad
 thunderbird-contracts
 vocal
 wingpanel
