@@ -20,6 +20,7 @@ switchboard-plug-display
 switchboard-plug-keyboard
 switchboard-plug-locale
 switchboard-plug-mouse-touchpad
+switchboard-plug-networking
 thunderbird-contracts
 vocal
 wingpanel
