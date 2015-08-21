@@ -18,6 +18,7 @@ switchboard-plug-applications
 switchboard-plug-datetime
 switchboard-plug-display
 switchboard-plug-keyboard
+switchboard-plug-locale
 thunderbird-contracts
 vocal
 wingpanel
