@@ -1,4 +1,4 @@
-%define rev 565
+%define rev 566
 
 Summary: Switchboard System Settings
 Name: switchboard
@@ -10,9 +10,10 @@ URL: http://launchpad.net/switchboard
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
+BuildRequires: cmake
+BuildRequires: gettext
 BuildRequires: desktop-file-utils
+BuildRequires: vala
 
 BuildRequires: pkgconfig(cheese)
 BuildRequires: pkgconfig(gee-0.8)
@@ -37,13 +38,16 @@ Modular Desktop Settings Hub. This package contains the development headers.
 
 %build
 %cmake -DUSE_UNITY=OFF
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/%{_libdir}/switchboard/system
-mkdir -p $RPM_BUILD_ROOT/%{_libdir}/switchboard/personal
+%make_install
+
 mkdir -p $RPM_BUILD_ROOT/%{_libdir}/switchboard/hardware
+mkdir -p $RPM_BUILD_ROOT/%{_libdir}/switchboard/network
+mkdir -p $RPM_BUILD_ROOT/%{_libdir}/switchboard/personal
+mkdir -p $RPM_BUILD_ROOT/%{_libdir}/switchboard/system
 
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/switchboard.desktop
 
@@ -92,6 +96,13 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev566-1
+- Update to new bzr snapshot.
+
+* Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev565-2
+- Add network plug directory.
+- Clean up spec file.
+
 * Mon Aug 17 2015 Fabio Valentini - 2.0.1~rev565-1
 - Update to new upstream snapshot.
 
