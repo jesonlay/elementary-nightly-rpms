@@ -4,7 +4,7 @@
 Summary: A sound indicator for wingpanel
 Name: wingpanel-indicator-sound
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-sound
 
@@ -33,10 +33,12 @@ A sound indicator for wingpanel.
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
+%make_install
+%find_lang sound-indicator
 
 
 %clean
@@ -44,21 +46,22 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/sbin/ldconfig
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 
 %postun
-/sbin/ldconfig
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 
-%files
+%files -f sound-indicator.lang
 %{_libdir}/wingpanel/libsound.so
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.sound.gschema.xml
 
 
 %changelog
+* Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev27-2
+- Update .spec file to account for new translations.
+
 * Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev27-1
 - Update to new upstream snapshot.
 

@@ -4,7 +4,7 @@
 Summary: A notifications indicator for wingpanel
 Name: wingpanel-indicator-notifications
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-notifications
 
@@ -14,6 +14,7 @@ Source1: %{name}.conf
 BuildRequires: cmake pkgconfig
 BuildRequires: vala gettext
 
+BuildRequires: pkgconfig(dbus-glib-1)
 BuildRequires: pkgconfig(gdk-pixbuf-2.0)
 BuildRequires: pkgconfig(gio-2.0)
 BuildRequires: pkgconfig(granite)
@@ -58,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev42-2
+- Add BR:dbus-glib-1.
+
 * Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev42-1
 - Update to new upstream snapshot.
 
