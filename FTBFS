@@ -1,5 +1,4 @@
 footnote:		still requires sqlheavy-0.1
-gsignond:		configure fails
 
 maya:
 core/Model/CalendarModel.vala:365:20: error: too few arguments to function 'e_cal_client_connect_sync'
