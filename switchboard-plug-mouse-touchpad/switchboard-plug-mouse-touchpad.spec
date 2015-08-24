@@ -1,4 +1,4 @@
-%define rev 18
+%define rev 20
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Mouse and Touchpad Plug
@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev20-1
+- Update to new upstream snapshot.
+
 * Sun Aug 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev18-1
 - Update to new upstream snapshot.
 
