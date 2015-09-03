@@ -1,10 +1,10 @@
-%define rev 83
+%define rev 84
 %define debug_package %{nil}
 
 Summary: A network indicator for wingpanel
 Name: wingpanel-indicator-network
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-network
 

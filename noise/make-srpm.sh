@@ -23,6 +23,7 @@ mkdir -p $HOME/rpmbuild/SOURCES
 mv noise*.tar.gz $HOME/rpmbuild/SOURCES/
 cp make-srpm.sh $HOME/rpmbuild/SOURCES/
 cp noise.spec $HOME/rpmbuild/SPECS/
+cp noise.conf $HOME/rpmbuild/SOURCES/
 
 cd $HOME/rpmbuild/SPECS
 

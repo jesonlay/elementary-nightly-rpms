@@ -1,4 +1,4 @@
-%define rev 564
+%define rev 567
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
@@ -67,6 +67,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev567-1
+- Update to new upstream snapshot.
+
+* Tue Sep 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev566-1
+- Update to new upstream snapshot.
+
 * Thu Aug 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev564-1
 - Update to new upstream snapshot.
 

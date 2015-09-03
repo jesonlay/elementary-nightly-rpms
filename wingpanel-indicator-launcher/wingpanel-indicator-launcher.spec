@@ -4,7 +4,7 @@
 Summary: A launcher indicator for wingpanel
 Name: wingpanel-indicator-launcher
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-launcher
 

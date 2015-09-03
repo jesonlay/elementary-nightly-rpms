@@ -1,4 +1,4 @@
-%define rev 91
+%define rev 92
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Applications Plug
@@ -61,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT
    
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev92-1
+- Update to new upstream snapshot.
+
 * Thu Aug 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev91-1
 - Update to new upstream snapshot.
 

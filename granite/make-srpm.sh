@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 NAME=granite
-VERSION=0.3.0
+VERSION=0.3.1
 
 cd $NAME
 
@@ -24,6 +24,7 @@ mkdir -p $HOME/rpmbuild/SOURCES
 mv $NAME*.tar.gz $HOME/rpmbuild/SOURCES/
 cp make-srpm.sh $HOME/rpmbuild/SOURCES/
 cp $NAME.spec $HOME/rpmbuild/SPECS/
+cp $NAME.conf $HOME/rpmbuild/SOURCES/
 
 cd $HOME/rpmbuild/SPECS
 

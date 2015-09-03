@@ -1,9 +1,9 @@
-%define rev 23
+%define rev 24
 
 Summary: Captive Portal Assistant
 Name: capnet-assist
 Version: 0.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv2
 URL: http://launchpad.net/capnet-assist
 
@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev24-1
+- Update to new upstream snapshot.
+
 * Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev23-2
 - Cleanup .spec file.
 

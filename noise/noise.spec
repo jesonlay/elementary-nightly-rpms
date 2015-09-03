@@ -1,4 +1,4 @@
-%define rev 1825
+%define rev 1827
 
 Summary: Noise audio player
 Name: noise
@@ -15,31 +15,26 @@ BuildRequires: vala gettext
 
 BuildRequires: desktop-file-utils
 
-BuildRequires: pkgconfig(glib-2.0)
-BuildRequires: pkgconfig(gtk+-3.0)
-BuildRequires: pkgconfig(granite)
+BuildRequires: pkgconfig(dbusmenu-glib-0.4)
 BuildRequires: pkgconfig(gee-0.8)
-
+BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(granite)
+BuildRequires: pkgconfig(gstreamer-1.0)
+BuildRequires: pkgconfig(gstreamer-pbutils-1.0)
+BuildRequires: pkgconfig(gstreamer-tag-1.0)
+BuildRequires: pkgconfig(gtk+-3.0)
+BuildRequires: pkgconfig(indicate-0.7)
+BuildRequires: pkgconfig(json-glib-1.0)
+BuildRequires: pkgconfig(libaccounts-glib)
+BuildRequires: pkgconfig(libgpod-1.0)
+BuildRequires: pkgconfig(libgsignon-glib)
+BuildRequires: pkgconfig(libnotify)
 BuildRequires: pkgconfig(libpeas-1.0)
 BuildRequires: pkgconfig(libpeas-gtk-1.0)
-BuildRequires: pkgconfig(gstreamer-1.0)
-BuildRequires: pkgconfig(gstreamer-tag-1.0)
-BuildRequires: pkgconfig(gstreamer-pbutils-1.0)
-BuildRequires: pkgconfig(taglib_c)
-
-BuildRequires: pkgconfig(libnotify)
-BuildRequires: pkgconfig(libgpod-1.0)
-BuildRequires: pkgconfig(libxml-2.0)
-BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(libsoup-2.4)
-
-BuildRequires: pkgconfig(dbusmenu-glib-0.4)
+BuildRequires: pkgconfig(libxml-2.0)
+BuildRequires: pkgconfig(taglib_c)
 BuildRequires: pkgconfig(zeitgeist-2.0)
-BuildRequires: pkgconfig(indicate-0.7)
-BuildRequires: pkgconfig(sqlheavy-0.2)
-
-BuildRequires: pkgconfig(libaccounts-glib)
-BuildRequires: pkgconfig(libgsignon-glib)
 
 Requires: hicolor-icon-theme
 
@@ -60,10 +55,11 @@ The official elementary music player. This package contains the development head
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
+%make_install
 
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
 
@@ -99,7 +95,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_libdir}/noise/
 
-%dir %{_datadir}/accounts/applications
 %{_datadir}/accounts/applications/noise-lastfm.application
 
 %{_datadir}/applications/noise.desktop
@@ -127,6 +122,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1827-1
+- Update spec to reflect BR changes and use make_build and make_install macros.
+
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1827-1
+- Update to new upstream snapshot.
+
+* Tue Sep 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1826-1
+- Update to new upstream snapshot.
+
 * Thu Aug 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1825-1
 - Update to new upstream snapshot.
 
