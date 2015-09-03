@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 NAME=switchboard-plug-pantheon-shell
-VERSION=0.2.0.3
+VERSION=0.2.1
 
 cd $NAME
 

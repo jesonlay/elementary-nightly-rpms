@@ -3,7 +3,7 @@
 Summary: Captive Portal Assistant
 Name: capnet-assist
 Version: 0.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv2
 URL: http://launchpad.net/capnet-assist
 
@@ -51,10 +51,14 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS README
 %license COPYING
 
+%config %{_sysconfdir}/NetworkManager/dispatcher.d/90captive_portal_test
 %{_bindir}/captive-login
 
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev24-2
+- Update to fix rpm build.
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev24-1
 - Update to new upstream snapshot.
 

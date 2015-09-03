@@ -3,7 +3,7 @@
 
 Summary: Switchboard System Settings Pantheon Shell Plug
 Name: switchboard-plug-pantheon-shell
-Version: 0.2.0.3~rev%{rev}
+Version: 0.2.1~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-pantheon-shell
@@ -61,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev367-1
+- Bump to version 0.2.1.
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.3~rev367-1
 - Update to new upstream snapshot.
 

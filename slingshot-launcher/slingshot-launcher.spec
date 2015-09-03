@@ -2,7 +2,7 @@
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
-Version: 0.8.1~rev%{rev}
+Version: 0.8.1.1~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
@@ -67,6 +67,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev567-1
+- Bump to version 0.8.1.1.
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1~rev567-1
 - Update to new upstream snapshot.
 

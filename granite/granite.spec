@@ -3,7 +3,7 @@
 Summary: Granite Toolkit
 Name: granite
 Version: 0.3.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/granite
 
@@ -59,8 +59,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %files -f granite.lang
-%{_libdir}/libgranite.so.2
-%{_libdir}/libgranite.so.2.0.1
+%{_libdir}/libgranite.so.3
+%{_libdir}/libgranite.so.3.0.1
 %{_libdir}/girepository-1.0/Granite-1.0.typelib
 
 %{_datadir}/icons/hicolor/16x16/actions/appointment.svg
@@ -87,6 +87,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev872-2
+- Update spec for soname bump.
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev872-1
 - Bump version to 0.3.1.
 

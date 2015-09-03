@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-VERSION=0.8.1
+VERSION=0.8.1.1
 
 cd slingshot-launcher
 

@@ -3,7 +3,7 @@
 
 Summary: Switchboard System Settings Applications Plug
 Name: switchboard-plug-applications
-Version: 0.1~rev%{rev}
+Version: 0.1.0.1~rev%{rev}
 Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-applications
@@ -61,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT
    
 
 %changelog
+* Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev92-1
+- Bump to version 0.1.0.1.
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev92-1
 - Update to new upstream snapshot.
 
