@@ -3,7 +3,7 @@
 Summary: A simple screencasting app for the elementary project
 Name: eidete
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv2
 URL: http://launchpad.net/eidete
 
@@ -75,6 +75,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev196-2
+- rebuild trigger for granite soname bump
+
 * Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev196-1
 - Initial package.
 

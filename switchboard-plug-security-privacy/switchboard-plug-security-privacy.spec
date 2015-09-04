@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Security and Privacy Plug
 Name: switchboard-plug-security-privacy
 Version: 0.1.0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard-plug-security-privacy
 
@@ -62,6 +62,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev185-2
+- rebuild trigger for granite soname bump
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev185-1
 - Update to new upstream snapshot.
 

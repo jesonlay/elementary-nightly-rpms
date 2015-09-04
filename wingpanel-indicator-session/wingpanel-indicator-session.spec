@@ -4,7 +4,7 @@
 Summary: A session indicator for wingpanel
 Name: wingpanel-indicator-session
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-session
 
@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev31-1
+- rebuild trigger for granite soname bump
+
 * Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev31-1
 - Update to new upstream snapshot.
 

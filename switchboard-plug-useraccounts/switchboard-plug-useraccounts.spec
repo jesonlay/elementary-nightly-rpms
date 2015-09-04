@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings User Accounts Plug
 Name: switchboard-plug-useraccounts
 Version: 0.1.2~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-useraccounts
 
@@ -66,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev176-2
+- rebuild trigger for granite soname bump
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev176-1
 - Update to new upstream snapshot.
 

@@ -4,7 +4,7 @@
 Summary: A launcher indicator for wingpanel
 Name: wingpanel-indicator-launcher
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-launcher
 
@@ -54,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev2-1
+- rebuild trigger for granite soname bump
+
 * Mon Aug 17 2015 Fabio Valentini - 0.1~rev2-1
 - Update to new upstream snapshot.
 

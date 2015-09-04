@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Power Plug
 Name: switchboard-plug-power
 Version: 0.2.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-power
 
@@ -65,6 +65,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev254-2
+- rebuild trigger for granite soname bump
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev254-1
 - Update to new upstream snapshot.
 

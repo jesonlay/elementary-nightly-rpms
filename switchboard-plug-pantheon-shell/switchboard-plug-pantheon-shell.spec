@@ -1,4 +1,4 @@
-%define rev 367
+%define rev 368
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Pantheon Shell Plug
@@ -61,6 +61,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev368-1
+- Update to new upstream snapshot.
+
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev367-2
+- rebuild trigger for granite soname bump
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev367-1
 - Bump to version 0.2.1.
 

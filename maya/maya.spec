@@ -1,4 +1,4 @@
-%define rev 807
+%define rev 812
 
 Summary: The official elementary calendar
 Name: maya
@@ -10,8 +10,10 @@ URL: http://launchpad.net/maya
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
+BuildRequires: cmake
+BuildRequires: gettext
+BuildRequires: pkgconfig
+BuildRequires: vala
 
 BuildRequires: pkgconfig(champlain-0.12)
 BuildRequires: pkgconfig(champlain-gtk-0.12)

@@ -3,7 +3,7 @@
 Summary: Vocal Podcatcher
 Name: vocal
 Version: 1.0~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/vocal
 
@@ -92,6 +92,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0~rev301-2
+- rebuild trigger for granite soname bump
+
 * Mon Aug 17 2015 Fabio Valentini - 1.0~rev301-1
 - Update to new upstream snapshot.
 

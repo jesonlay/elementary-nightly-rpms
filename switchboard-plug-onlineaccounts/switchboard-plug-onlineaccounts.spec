@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Online Accounts Plug
 Name: switchboard-plug-onlineaccounts
 Version: 0.2.0~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-onlineaccounts
 
@@ -111,6 +111,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev205-1
+- rebuild trigger for granite soname bump
+
 * Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev205-1
 - Initial package.
 

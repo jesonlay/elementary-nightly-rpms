@@ -3,7 +3,7 @@
 Summary: Switchboard System Settings
 Name: switchboard
 Version: 2.0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard
 
@@ -96,6 +96,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev566-3
+- rebuild trigger for granite soname bump
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev566-2
 - Release bump for granite soname change.
 

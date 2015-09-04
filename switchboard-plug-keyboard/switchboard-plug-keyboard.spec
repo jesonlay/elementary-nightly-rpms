@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Keyboard Plug
 Name: switchboard-plug-keyboard
 Version: 0.2.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-keyboard
 
@@ -60,6 +60,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev353-2
+- rebuild trigger for granite soname bump
+
 * Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev353-1
 - Initial package.
 

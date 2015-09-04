@@ -1,4 +1,4 @@
-%define rev 154
+%define rev 155
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Locale Plug
@@ -70,6 +70,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev155-1
+- Update to new upstream snapshot.
+
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev154-2
+- rebuild trigger for granite soname bump
+
 * Sat Aug 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev154-1
 - Update to new upstream snapshot.
 

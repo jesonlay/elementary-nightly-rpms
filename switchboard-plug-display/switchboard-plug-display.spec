@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Display Plug
 Name: switchboard-plug-display
 Version: 0.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-display
 
@@ -67,6 +67,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev107-2
+- rebuild trigger for granite soname bump
+
 * Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev107-1
 - Initial package.
 

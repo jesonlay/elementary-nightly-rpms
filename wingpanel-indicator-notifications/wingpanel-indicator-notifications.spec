@@ -4,7 +4,7 @@
 Summary: A notifications indicator for wingpanel
 Name: wingpanel-indicator-notifications
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-notifications
 
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev43-1
+- rebuild trigger for granite soname bump
+
 * Sun Aug 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev43-1
 - Update to new upstream snapshot.
 

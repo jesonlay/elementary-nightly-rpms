@@ -4,7 +4,7 @@
 Summary: A power indicator for wingpanel
 Name: wingpanel-indicator-power
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-power
 
@@ -58,6 +58,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev74-1
+- rebuild trigger for granite soname bump
+
 * Mon Aug 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev74-1
 - Update to new upstream snapshot.
 
