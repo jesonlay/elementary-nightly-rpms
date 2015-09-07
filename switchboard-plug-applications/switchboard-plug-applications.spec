@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Applications Plug
 Name: switchboard-plug-applications
 Version: 0.1.0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-applications
 

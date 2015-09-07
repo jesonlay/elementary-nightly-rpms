@@ -1,10 +1,10 @@
-%define rev 78
+%define rev 79
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Date and Time Plug
 Name: switchboard-plug-datetime
 Version: 0.1.0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-datetime
 
@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev79-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev78-2
 - rebuild trigger for granite soname bump
 

@@ -1,9 +1,9 @@
-%define rev 567
+%define rev 569
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
@@ -67,6 +67,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev569-1
+- Update to new upstream snapshot.
+
+* Sun Sep 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev568-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev567-2
 - rebuild trigger for granite soname bump
 

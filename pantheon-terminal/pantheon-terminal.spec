@@ -1,9 +1,9 @@
-%define rev 751
+%define rev 752
 
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
 Version: 0.3.1.3~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-terminal
 
@@ -69,6 +69,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev752-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev751-2
 - rebuild trigger for granite soname bump
 

@@ -1,9 +1,9 @@
-%define rev 872
+%define rev 874
 
 Summary: Granite Toolkit
 Name: granite
 Version: 0.3.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/granite
 
@@ -87,6 +87,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev874-1
+- Update to new upstream snapshot.
+
+* Sun Sep 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev873-1
+- Update to new upstream snapshot.
+
 * Thu Sep 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev872-2
 - Update spec for soname bump.
 
