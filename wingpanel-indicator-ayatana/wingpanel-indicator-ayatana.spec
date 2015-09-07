@@ -4,12 +4,14 @@
 Summary: A meta plugin for ayatana application indicator support for wingpanel
 Name: wingpanel-indicator-ayatana
 Version: 0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-ayatana
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
+
+Patch0: 00-fix-indicator-dir.patch
 
 BuildRequires: cmake pkgconfig
 BuildRequires: vala gettext
@@ -25,6 +27,7 @@ A meta plugin for ayatana application indicator support for wingpanel.
 
 %prep
 %setup -q
+%patch0 -p0
 
 
 %build
@@ -53,6 +56,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev12-3
+- Patch CMake for correctly determining ayatana indicator directory.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev12-2
 - rebuild trigger for granite soname bump
 

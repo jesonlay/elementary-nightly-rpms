@@ -1,0 +1,53 @@
+=== modified file 'CMakeLists.txt'
+--- CMakeLists.txt	2015-06-19 19:56:20 +0000
++++ CMakeLists.txt	2015-09-07 20:11:00 +0000
+@@ -28,7 +28,7 @@
+ find_package (PkgConfig)
+ # Find the Indicator Directory
+ execute_process (COMMAND ${PKG_CONFIG_EXECUTABLE} indicator3-0.4 --variable=indicatordir OUTPUT_VARIABLE current_indicatordir OUTPUT_STRIP_TRAILING_WHITESPACE)
+-set (AYANATAINDICATORDIR ${current_indicatordir})
++set (AYATANAINDICATORDIR ${current_indicatordir})
+ # Configure file
+ set (CONFIG_FILE ${CMAKE_CURRENT_BINARY_DIR}/config.h)
+ configure_file (${CMAKE_CURRENT_SOURCE_DIR}/config.h.cmake ${CONFIG_FILE})
+
+=== modified file 'config.h.cmake'
+--- config.h.cmake	2015-05-07 20:29:38 +0000
++++ config.h.cmake	2015-09-07 20:12:13 +0000
+@@ -4,7 +4,7 @@
+  #cmakedefine INDICATORNAME "@INDICATORNAME@"
+  #cmakedefine DATADIR "@DATADIR@"
+  #cmakedefine PKGDATADIR "@PKGDATADIR@"
+- #cmakedefine AYANATAINDICATORDIR "@AYANATAINDICATORDIR@"
++ #cmakedefine AYATANAINDICATORDIR "@AYATANAINDICATORDIR@"
+  #cmakedefine GETTEXT_PACKAGE "@GETTEXT_PACKAGE@"
+ 
+  #endif // CONFIG_H
+
+=== modified file 'src/IndicatorFactory.vala'
+--- src/IndicatorFactory.vala	2015-05-07 20:29:38 +0000
++++ src/IndicatorFactory.vala	2015-09-07 20:11:16 +0000
+@@ -31,7 +31,7 @@
+     }
+ 
+     private void load_indicators () {
+-        load_indicators_from_dir (Constants.AYANATAINDICATORDIR);
++        load_indicators_from_dir (Constants.AYATANAINDICATORDIR);
+     }
+ 
+     private void load_indicators_from_dir (string dir_path) {
+
+=== modified file 'vapi/config.vapi'
+--- vapi/config.vapi	2015-05-06 21:03:55 +0000
++++ vapi/config.vapi	2015-09-07 20:13:25 +0000
+@@ -3,6 +3,6 @@
+  	public const string INDICATORNAME;
+  	public const string DATADIR;
+  	public const string PKGDATADIR;
+- 	public const string AYANATAINDICATORDIR;
++ 	public const string AYATANAINDICATORDIR;
+  	public const string GETTEXT_PACKAGE;
+- }
+\ No newline at end of file
++ }
+
