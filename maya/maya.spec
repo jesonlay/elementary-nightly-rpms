@@ -1,4 +1,4 @@
-%define rev 812
+%define rev 816
 
 Summary: The official elementary calendar
 Name: maya
