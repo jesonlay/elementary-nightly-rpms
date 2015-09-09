@@ -1,4 +1,4 @@
-%define rev 1829
+%define rev 1830
 
 Summary: Noise audio player
 Name: noise
@@ -123,6 +123,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Sep 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1830-1
+- Update to new upstream snapshot.
+
 * Sun Sep 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1829-1
 - Update to new upstream snapshot.
 
