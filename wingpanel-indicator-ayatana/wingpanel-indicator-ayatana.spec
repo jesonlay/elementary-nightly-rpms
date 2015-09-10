@@ -4,7 +4,7 @@
 Summary: A meta plugin for ayatana application indicator support for wingpanel
 Name: wingpanel-indicator-ayatana
 Version: 0.1~rev%{rev}
-Release: 3%{?dist}
+Release: 4%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-ayatana
 
@@ -56,6 +56,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev12-4
+- Release bump for wingpanel soname change.
+
 * Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev12-3
 - Patch CMake for correctly determining ayatana indicator directory.
 

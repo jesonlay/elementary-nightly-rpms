@@ -4,7 +4,7 @@
 Summary: A keyboard indicator for wingpanel
 Name: wingpanel-indicator-keyboard
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-keyboard
 
@@ -52,6 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev6-2
+- Release bump for wingpanel soname change.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev6-1
 - rebuild trigger for granite soname bump
 
