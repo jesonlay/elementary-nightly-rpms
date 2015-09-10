@@ -1,9 +1,9 @@
-%define rev 475
+%define rev 476
 
 Summary: Gala window manager
 Name: gala
 Version: 0.2.0~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/gala
 
@@ -114,6 +114,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev476-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev475-2
 - rebuild trigger for granite soname bump
 
