@@ -3,7 +3,7 @@
 Summary: Noise audio player
 Name: noise
 Version: 0.3.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/noise
 
@@ -37,6 +37,7 @@ BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(taglib_c)
 BuildRequires: pkgconfig(zeitgeist-2.0)
 
+Requires: libgda-sqlite
 Requires: hicolor-icon-theme
 
 
@@ -61,10 +62,11 @@ The official elementary music player. This package contains the development head
 
 %install
 %make_install
-
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
-
 %find_lang noise
+
+
+%check
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
 
 
 %clean
@@ -123,6 +125,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1830-2
+- Update spec and add Req: libgda-sqlite for new DB backend.
+
 * Tue Sep 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1830-1
 - Update to new upstream snapshot.
 

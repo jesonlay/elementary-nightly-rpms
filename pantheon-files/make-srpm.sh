@@ -25,6 +25,7 @@ mv $NAME*.tar.gz $HOME/rpmbuild/SOURCES/
 cp *.patch $HOME/rpmbuild/SOURCES/
 cp make-srpm.sh $HOME/rpmbuild/SOURCES/
 cp $NAME.spec $HOME/rpmbuild/SPECS/
+cp $NAME.conf $HOME/rpmbuild/SOURCES/
 
 cd $HOME/rpmbuild/SPECS
 

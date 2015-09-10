@@ -3,7 +3,7 @@
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.3~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -58,16 +58,18 @@ This package contains the development headers.
 %install
 %make_install
 
-# pantheon-files installs libs/plugins in /usr/lib, no matter the arch ...
+# this installs libs to /usr/lib ... move them away on x86_64
 %ifarch x86_64
-mv $RPM_BUILD_ROOT/usr/lib/* $RPM_BUILD_ROOT/%{_libdir}/
-rmdir $RPM_BUILD_ROOT/usr/lib
+mv $RPM_BUILD_ROOT/usr/lib/libpantheon* $RPM_BUILD_ROOT/%{_libdir}/
+mv $RPM_BUILD_ROOT/usr/lib/pkgconfig $RPM_BUILD_ROOT/%{_libdir}/
 %endif
 
+%find_lang pantheon-files
+
+
+%check
 # this does fail spectacularly
 # desktop-file-validate $RPM_BUILD_ROOT/%%{_datadir}/applications/pantheon-files.desktop
-
-%find_lang pantheon-files
 
 
 %clean
@@ -95,7 +97,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/pantheon-files-daemon
 %{_bindir}/pantheon-files-pkexec
 
-%{_libdir}/pantheon-files
+/usr/lib/pantheon-files/
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 
 %{_libdir}/libpantheon-files-core.so.0
@@ -127,6 +129,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.3~rev1944-2
+- Fix plugin directory. Update spec.
+
 * Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.3~rev1944-1
 - Update to new upstream snapshot.
 
