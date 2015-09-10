@@ -1,8 +1,8 @@
-%define rev 90
+%define rev 93
 
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
-Version: 0.4~rev%{rev}
+Version: 0.4.0~rev%{rev}
 Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel
@@ -75,7 +75,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/wingpanel
 
 %{_libdir}/libwingpanel-2.0.so.0
-%{_libdir}/libwingpanel-2.0.so.2.0
+%{_libdir}/libwingpanel-2.0.so.0.2.0
 
 %{_libdir}/gala/plugins/libwingpanel-interface.so
 
@@ -94,6 +94,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev93-2
+- Fix spec for soname change.
+
+* Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev93-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev90-2
 - rebuild trigger for granite soname bump
 
