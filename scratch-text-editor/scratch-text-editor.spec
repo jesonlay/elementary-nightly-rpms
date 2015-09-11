@@ -1,9 +1,9 @@
-%define rev 1552
+%define rev 1553
 
 Summary: Scratch - the text editor that works.
 Name: scratch-text-editor
 Version: 2.2.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/scratch
 
@@ -127,6 +127,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 11 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1553-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1552-2
 - rebuild trigger for granite soname bump
 

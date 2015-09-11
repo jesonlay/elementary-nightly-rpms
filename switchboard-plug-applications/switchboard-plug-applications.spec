@@ -1,10 +1,10 @@
-%define rev 92
+%define rev 93
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Applications Plug
 Name: switchboard-plug-applications
 Version: 0.1.0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-applications
 
@@ -61,6 +61,9 @@ rm -rf $RPM_BUILD_ROOT
    
 
 %changelog
+* Fri Sep 11 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev93-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev92-2
 - rebuild trigger for granite soname bump
 
