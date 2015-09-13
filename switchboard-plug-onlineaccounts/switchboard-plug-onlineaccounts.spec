@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Online Accounts Plug
 Name: switchboard-plug-onlineaccounts
 Version: 0.2.0~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-onlineaccounts
 

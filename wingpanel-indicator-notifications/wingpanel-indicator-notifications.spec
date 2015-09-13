@@ -4,7 +4,7 @@
 Summary: A notifications indicator for wingpanel
 Name: wingpanel-indicator-notifications
 Version: 0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-notifications
 

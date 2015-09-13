@@ -1,10 +1,10 @@
-%define rev 31
+%define rev 32
 %define debug_package %{nil}
 
 Summary: A session indicator for wingpanel
 Name: wingpanel-indicator-session
 Version: 0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-session
 
