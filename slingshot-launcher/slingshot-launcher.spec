@@ -1,9 +1,10 @@
-%define rev 570
+%define rev 571
+%define debug_package %{nil}
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
@@ -17,6 +18,7 @@ BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gtk+-3.0)
 BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gee-0.8)
+BuildRequires: pkgconfig(switchboard-2.0)
 
 BuildRequires: pkgconfig(libsoup-2.4)
 BuildRequires: pkgconfig(zeitgeist-2.0)
@@ -67,6 +69,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev571-2
+- Add BR: pkgconfig(switchboard-2.0) to fix build.
+
+* Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev571-1
+- Update to new upstream snapshot.
+
 * Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev570-1
 - Update to new upstream snapshot.
 
