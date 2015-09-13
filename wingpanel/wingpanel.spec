@@ -3,7 +3,7 @@
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
 Version: 0.4.0~rev%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel
 
@@ -53,7 +53,9 @@ mkdir -p $RPM_BUILD_ROOT/%{_libdir}/gala/plugins
 
 mv $RPM_BUILD_ROOT/usr/lib/x86_64-linux-gnu/gala/plugins/libwingpanel-interface.so $RPM_BUILD_ROOT/%{_libdir}/gala/plugins/libwingpanel-interface.so
 
+%ifarch x86_64
 rm -rf $RPM_BUILD_ROOT/usr/lib
+%endif
 
 %find_lang wingpanel
 
@@ -94,6 +96,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev93-3
+- Fix Build on non-x86_64 arch.
+
 * Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev93-2
 - Fix spec for soname change.
 

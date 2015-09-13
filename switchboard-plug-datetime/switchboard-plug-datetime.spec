@@ -1,4 +1,4 @@
-%define rev 79
+%define rev 80
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Date and Time Plug
@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev80-1
+- Update to new upstream snapshot.
+
 * Sun Sep 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev79-1
 - Update to new upstream snapshot.
 
