@@ -1,8 +1,6 @@
-%define rev 310
-
 Summary: GLib-based client library for Online Accounts Single Sign-On service
 Name: libgsignon-glib
-Version: 2.1.0~rev%{rev}
+Version: 2.2.0
 Release: 1%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/libgsignon-glib
@@ -36,12 +34,12 @@ gSSO is a glib-based reimplementation of the single sign-on daemon and authentic
 
 
 %build
-./autogen.sh
 %configure
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
+%make_install
 
 rm $RPM_BUILD_ROOT/%{_libdir}/libgsignon-glib.la
 
@@ -76,10 +74,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pkgconfig/libgsignon-glib.pc
 %{_includedir}/libgsignon-glib
 %{_datadir}/gir-1.0/gSignon-1.0.gir
+%{_datadir}/gtk-doc/html/libgsignon-glib/
 
 
 %changelog
-* Sat Jul 04 2015 Fabio Valentini <decathorpe@gmail.com> - 2.1.0~rev310-1
+* Sat Jul 04 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.0-1
 - Initial package.
 
 
