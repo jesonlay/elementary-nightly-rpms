@@ -3,7 +3,7 @@
 Summary: Scratch - the text editor that works.
 Name: scratch-text-editor
 Version: 2.2.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/scratch
 
@@ -25,7 +25,13 @@ BuildRequires: pkgconfig(gtk+-3.0) >= 3.10
 BuildRequires: pkgconfig(libpeas-1.0)
 BuildRequires: pkgconfig(libpeas-gtk-1.0)
 BuildRequires: pkgconfig(libsoup-2.4)
+
+%if %{fedora} > 22
+BuildRequires: pkgconfig(libvala-0.30)
+%else
 BuildRequires: pkgconfig(libvala-0.28)
+%endif
+
 BuildRequires: pkgconfig(vte-2.91)
 BuildRequires: pkgconfig(webkitgtk-3.0)
 BuildRequires: pkgconfig(zeitgeist-2.0)
@@ -127,6 +133,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1553-2
+- Update spec for f23.
+
 * Fri Sep 11 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1553-1
 - Update to new upstream snapshot.
 
