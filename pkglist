@@ -2,11 +2,8 @@ audience
 brasero-contracts
 cerbere
 contractor
-eidete
 gala
 granite
-gsignond
-libgsignon-glib
 noise
 pantheon-calculator
 pantheon-files
@@ -14,7 +11,6 @@ pantheon-terminal
 pantheon-xsession-settings
 plank
 scratch-text-editor
-slingshot-launcher
 switchboard
 switchboard-plug-applications
 switchboard-plug-datetime
