@@ -1,9 +1,9 @@
-%define rev 535
+%define rev 536
 
 Summary: Audience video player
 Name: audience
 Version: 0.1.0.2~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
 
@@ -66,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev536-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev535-2
 - rebuild trigger for granite soname bump
 

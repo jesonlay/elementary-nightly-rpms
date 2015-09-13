@@ -1,0 +1,10 @@
+every package except gsignond, libgsignon-glib:
+ |- granite
+
+switchboard-plugs:
+ |- switchboard
+
+wingpanel-indicators:
+ |- wingpanel
+    |- gala
+       |- plank
