@@ -3,7 +3,7 @@
 Summary: Noise audio player
 Name: noise
 Version: 0.3.1~rev%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv3
 URL: http://launchpad.net/noise
 
@@ -23,7 +23,6 @@ BuildRequires: pkgconfig(gstreamer-1.0)
 BuildRequires: pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires: pkgconfig(gstreamer-tag-1.0)
 BuildRequires: pkgconfig(gtk+-3.0)
-BuildRequires: pkgconfig(indicate-0.7)
 BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(libaccounts-glib)
 BuildRequires: pkgconfig(libgda-5.0)
@@ -125,6 +124,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1830-3
+- Remove BR on libindicate.
+
 * Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1830-2
 - Update spec and add Req: libgda-sqlite for new DB backend.
 
