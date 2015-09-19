@@ -1,9 +1,12 @@
+%define rev b12650ac
+%define date 150919
+
 Summary: Online Accounts Sign-on glib daemon
 Name: gsignond
-Version: 1.0.2
+Version: 1.0.4~git%{date}~%{rev}
 Release: 1%{?dist}
 License: LGPLv2.1
-URL: http://launchpad.net/gsignond
+URL: http://01.org/gSSO
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
@@ -37,6 +40,8 @@ gSSO is a glib-based reimplementation of the single sign-on daemon and authentic
 %build
 # main.c:129:5: format not string literal
 export CFLAGS="-Wno-error"
+gtkdocize
+autoreconf --install
 %configure
 %make_build
 
@@ -72,7 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/libgsignond-common.so.0
 %{_libdir}/libgsignond-common.so.0.0.0
 
-# %{_datadir}/dbus-1/interfaces/*.xml
+ %{_datadir}/dbus-1/interfaces/*.xml
 
 
 %files devel
@@ -80,10 +85,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_libdir}/libgsignond-common.so
 %{_libdir}/pkgconfig/gsignond.pc
-%{_datadir}/gtk-doc/html/gsignond/
 
 
 %changelog
+* Sat Sep 19 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.4~git150919~b12650ac-1
+- Udpate to git snapshot of 1.0.4.
+
 * Fri Aug 21 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.2-1
 - Initial package.
 
