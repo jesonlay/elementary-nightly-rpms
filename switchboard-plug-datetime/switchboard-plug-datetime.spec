@@ -1,10 +1,10 @@
-%define rev 80
+%define rev 81
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Date and Time Plug
 Name: switchboard-plug-datetime
 Version: 0.1.0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-datetime
 
@@ -40,8 +40,6 @@ Modular Desktop Settings Hub Date and Time Plug
 
 
 %check
-# Pantheon not recognised as DE in OnlyShowIn, so ignore for now
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-plug-datetime.desktop
 
 
 %clean
@@ -59,10 +57,15 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f pantheon-datetime-plug.lang
 %{_libdir}/switchboard/system/pantheon-datetime
-%{_datadir}/applications/pantheon-plug-datetime.desktop
 
 
 %changelog
+* Tue Sep 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev81-2
+- Remove desktop file no longer shipped.
+
+* Tue Sep 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev81-1
+- Update to new upstream snapshot.
+
 * Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev80-1
 - Update to new upstream snapshot.
 

@@ -1,9 +1,9 @@
-%define rev 1830
+%define rev 1837
 
 Summary: Noise audio player
 Name: noise
 Version: 0.3.1~rev%{rev}
-Release: 3%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/noise
 
@@ -124,6 +124,21 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 18 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1837-1
+- Update to new upstream snapshot.
+
+* Thu Sep 17 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1836-1
+- Update to new upstream snapshot.
+
+* Wed Sep 16 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1834-1
+- Update to new upstream snapshot.
+
+* Tue Sep 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1833-1
+- Update to new upstream snapshot.
+
+* Mon Sep 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1831-1
+- Update to new upstream snapshot.
+
 * Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1830-3
 - Remove BR on libindicate.
 
