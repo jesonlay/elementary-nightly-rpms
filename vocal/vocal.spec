@@ -3,7 +3,7 @@
 Summary: Vocal Podcatcher
 Name: vocal
 Version: 1.0~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/vocal
 

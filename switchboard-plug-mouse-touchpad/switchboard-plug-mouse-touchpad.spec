@@ -1,10 +1,10 @@
-%define rev 24
+%define rev 26
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Mouse and Touchpad Plug
 Name: switchboard-plug-mouse-touchpad
 Version: 0.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-mouse-touchpad
 

@@ -1,10 +1,10 @@
 %define rev b12650ac
-%define date 150919
+%define date 150920
 
 Summary: Online Accounts Sign-on glib daemon
 Name: gsignond
 Version: 1.0.4~git%{date}~%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: LGPLv2.1
 URL: http://01.org/gSSO
 

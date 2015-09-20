@@ -1,9 +1,9 @@
-%define rev 1391
+%define rev 1392
 
 Summary: Stupidly simple Dock
 Name: plank
 Version: 0.10.0~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/plank
 

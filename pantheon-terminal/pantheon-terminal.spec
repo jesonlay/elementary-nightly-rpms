@@ -3,7 +3,7 @@
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
 Version: 0.3.1.3~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-terminal
 

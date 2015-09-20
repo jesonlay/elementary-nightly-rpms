@@ -1,10 +1,10 @@
-%define rev 255
+%define rev 256
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Power Plug
 Name: switchboard-plug-power
 Version: 0.2.1~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-power
 

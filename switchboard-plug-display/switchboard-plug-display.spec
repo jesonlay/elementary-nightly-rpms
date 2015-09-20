@@ -1,10 +1,10 @@
-%define rev 107
+%define rev 108
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Display Plug
 Name: switchboard-plug-display
 Version: 0.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-display
 

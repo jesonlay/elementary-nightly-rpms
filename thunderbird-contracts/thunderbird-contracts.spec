@@ -4,7 +4,7 @@
 Summary: contractor: thunderbird contracts
 Name: thunderbird-contracts
 Version: 0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/contractor
 

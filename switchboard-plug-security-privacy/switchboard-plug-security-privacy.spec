@@ -1,10 +1,10 @@
-%define rev 185
+%define rev 187
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Security and Privacy Plug
 Name: switchboard-plug-security-privacy
 Version: 0.1.0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard-plug-security-privacy
 

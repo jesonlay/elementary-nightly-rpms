@@ -1,10 +1,10 @@
-%define rev 87
+%define rev 88
 %define debug_package %{nil}
 
 Summary: A network indicator for wingpanel
 Name: wingpanel-indicator-network
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-network
 
@@ -60,6 +60,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Sep 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev88-1
+- Update to new upstream snapshot.
+
 * Mon Sep 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev87-1
 - Update to new upstream snapshot.
 

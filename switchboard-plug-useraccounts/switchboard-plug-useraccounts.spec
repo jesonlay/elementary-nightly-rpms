@@ -1,10 +1,10 @@
-%define rev 177
+%define rev 179
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings User Accounts Plug
 Name: switchboard-plug-useraccounts
 Version: 0.1.2~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-useraccounts
 

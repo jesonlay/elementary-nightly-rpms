@@ -3,7 +3,7 @@
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
 Version: 0.4.0~rev%{rev}
-Release: 3%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel
 

@@ -3,7 +3,7 @@
 Summary: Desktop-wide extension service
 Name: contractor
 Version: 0.3.1~rev%{rev}
-Release: 3%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/contractor
 

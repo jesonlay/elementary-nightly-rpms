@@ -3,7 +3,7 @@
 Summary: Noise audio player
 Name: noise
 Version: 0.3.1~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/noise
 

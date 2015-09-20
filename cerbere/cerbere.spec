@@ -3,7 +3,7 @@
 Summary: A simple service to relaunch Pantheon components like the panel, dock, etc.
 Name: cerbere
 Version: 0.2.1~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv2
 URL: http://launchpad.net/cerbere
 

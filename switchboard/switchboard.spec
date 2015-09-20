@@ -3,7 +3,7 @@
 Summary: Switchboard System Settings
 Name: switchboard
 Version: 2.0.1~rev%{rev}
-Release: 3%{?dist}
+Release: 0%{?dist}
 License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard
 

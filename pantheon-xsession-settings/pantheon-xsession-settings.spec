@@ -1,9 +1,9 @@
-%define rev 63
+%define rev 65
 
 Summary: Pantheon xsession settings
 Name: pantheon-xsession-settings
 Version: 0.5~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: https://code.launchpad.net/~elementary-os/elementaryos/pantheon-xsession-settings
 

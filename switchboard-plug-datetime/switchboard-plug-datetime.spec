@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Date and Time Plug
 Name: switchboard-plug-datetime
 Version: 0.1.0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 0%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-datetime
 

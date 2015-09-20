@@ -1,10 +1,10 @@
-%define rev 155
+%define rev 160
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Locale Plug
 Name: switchboard-plug-locale
 Version: 0.2~rev%{rev}
-Release: 1%{?dist}
+Release: 0%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-locale
 
