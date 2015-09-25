@@ -3,7 +3,7 @@
 Summary: A simple screencasting app for the elementary project
 Name: eidete
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv2
 URL: http://launchpad.net/eidete
 
@@ -42,6 +42,10 @@ Todo:
 
 
 %build
+export CFLAGS="-fPIC"
+export CXXFLAGS="-fPIC"
+export LDFLAGS="-fPIC"
+
 %cmake
 %make_build
 
@@ -75,6 +79,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev196-1
+- Try to fix f23-x64 build.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev196-2
 - rebuild trigger for granite soname bump
 

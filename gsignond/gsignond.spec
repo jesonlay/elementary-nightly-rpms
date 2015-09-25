@@ -4,7 +4,7 @@
 Summary: Online Accounts Sign-on glib daemon
 Name: gsignond
 Version: 1.0.4~git%{date}~%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1
 URL: http://01.org/gSSO
 
@@ -39,7 +39,10 @@ gSSO is a glib-based reimplementation of the single sign-on daemon and authentic
 
 %build
 # main.c:129:5: format not string literal
-export CFLAGS="-Wno-error"
+export CFLAGS="-Wno-error -fPIC"
+export CXXFLAGS="-fPIC"
+export LDFLAGS="-fPIC"
+
 gtkdocize
 autoreconf --install
 %configure
@@ -88,6 +91,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.4~git150920~b12650ac-1
+- Try to fix f23-x64 build.
+
 * Sat Sep 19 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.4~git150919~b12650ac-1
 - Udpate to git snapshot of 1.0.4.
 

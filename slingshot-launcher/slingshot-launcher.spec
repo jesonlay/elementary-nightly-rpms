@@ -4,7 +4,7 @@
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
@@ -39,12 +39,16 @@ Slingshot is Pantheon's application launcher, part of the elementary project.
 
 
 %build
+export CFLAGS="-fPIC"
+export CXXFLAGS="-fPIC"
+export LDFLAGS="-fPIC"
+
 %cmake -DUSE_UNITY=OFF
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
-
+%make_install
 %find_lang slingshot
 
 
@@ -53,11 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/sbin/ldconfig
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
  
 %postun
-/sbin/ldconfig
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 
@@ -69,6 +71,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev580-2
+- Try to fix f23-x64 build.
+
 * Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev580-1
 - Update to new upstream snapshot.
 

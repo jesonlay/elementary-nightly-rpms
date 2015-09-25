@@ -3,7 +3,7 @@
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
 Version: 0.3.1.3~rev%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-terminal
 
@@ -35,6 +35,10 @@ Designed for elementary OS.
 
 
 %build
+export CFLAGS="-fPIC"
+export CXXFLAGS="-fPIC"
+export LDFLAGS="-fPIC"
+
 %cmake
 %make_build
 
@@ -69,6 +73,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev754-3
+- Try to fix f23-x64 build.
+
 * Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev754-2
 - Change BR:vte-2.90 to BR:vte-291.
 

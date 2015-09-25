@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Online Accounts Plug
 Name: switchboard-plug-onlineaccounts
 Version: 0.2.0~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-onlineaccounts
 
@@ -50,6 +50,10 @@ Modular Desktop Settings Hub Online Accounts Plug (development headers)
 
 
 %build
+export CFLAGS="-fPIC"
+export CXXFLAGS="-fPIC"
+export LDFLAGS="-fPIC"
+
 %cmake
 %make_build
 
@@ -111,6 +115,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev216-2
+- Try to fix f23-x64 build.
+
 * Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev216-1
 - Update to new upstream snapshot.
 
