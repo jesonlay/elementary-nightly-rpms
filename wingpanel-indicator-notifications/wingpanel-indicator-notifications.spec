@@ -1,10 +1,10 @@
-%define rev 43
+%define rev 45
 %define debug_package %{nil}
 
 Summary: A notifications indicator for wingpanel
 Name: wingpanel-indicator-notifications
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-notifications
 
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev45-1
+- Update to new upstream snapshot.
+
 * Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev43-2
 - Release bump for wingpanel soname change.
 

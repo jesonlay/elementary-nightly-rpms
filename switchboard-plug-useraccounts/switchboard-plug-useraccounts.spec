@@ -1,10 +1,10 @@
-%define rev 179
+%define rev 180
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings User Accounts Plug
 Name: switchboard-plug-useraccounts
 Version: 0.1.2~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-useraccounts
 
@@ -47,8 +47,6 @@ Modular Desktop Settings Hub User Accounts Plug
 
 
 %check
-# Pantheon not recognised as DE in OnlyShowIn, so ignore for now
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-plug-useraccounts.desktop
 
 
 %clean
@@ -60,12 +58,17 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %files -f useraccounts-plug.lang
-%{_libdir}/switchboard/system/pantheon-useraccounts
-%{_datadir}/applications/pantheon-plug-useraccounts.desktop
+%{_libdir}/switchboard/system/pantheon-useraccounts/
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.user-accounts.policy
 
 
 %changelog
+* Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev180-1
+- Update to new upstream snapshot.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev179-1
+- Remove no longer shipped desktop file. Modernize spec.
+
 * Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev177-1
 - Update to new upstream snapshot.
 

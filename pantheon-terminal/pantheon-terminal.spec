@@ -1,9 +1,9 @@
-%define rev 752
+%define rev 754
 
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
 Version: 0.3.1.3~rev%{rev}
-Release: 0%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-terminal
 
@@ -18,7 +18,7 @@ BuildRequires: pkgconfig(granite) >= 0.3.0
 BuildRequires: pkgconfig(gthread-2.0)
 BuildRequires: pkgconfig(gtk+-3.0) >= 3.9.10
 BuildRequires: pkgconfig(libnotify)
-BuildRequires: pkgconfig(vte-2.90)
+BuildRequires: pkgconfig(vte-2.91)
 
 
 #Requires: contractor
@@ -69,6 +69,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev754-2
+- Change BR:vte-2.90 to BR:vte-291.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev754-1
+- Update to new upstream snapshot.
+
 * Sun Sep 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev752-1
 - Update to new upstream snapshot.
 

@@ -1,10 +1,10 @@
-%define rev 256
+%define rev 257
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Power Plug
 Name: switchboard-plug-power
 Version: 0.2.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-power
 
@@ -51,20 +51,21 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
-
 %postun
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 
 %files -f pantheon-power-plug.lang
 %{_libdir}/switchboard/hardware/pantheon-power/
-%{_datadir}/applications/pantheon-plug-power.desktop
+# %{_datadir}/applications/pantheon-plug-power.desktop
 
 
 %changelog
+* Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev257-1
+- Update to new upstream snapshot.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev256-1
+- Remove no longer shipped desktop file. Modernize spec.
+
 * Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev255-1
 - Update to new upstream snapshot.
 

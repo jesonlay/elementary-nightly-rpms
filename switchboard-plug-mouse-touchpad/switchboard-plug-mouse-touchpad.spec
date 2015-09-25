@@ -1,10 +1,10 @@
-%define rev 26
+%define rev 27
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Mouse and Touchpad Plug
 Name: switchboard-plug-mouse-touchpad
 Version: 0.1.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-mouse-touchpad
 
@@ -55,6 +55,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev27-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev24-2
 - rebuild trigger for granite soname bump
 

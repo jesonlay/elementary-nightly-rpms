@@ -1,10 +1,10 @@
-%define rev 205
+%define rev 216
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Online Accounts Plug
 Name: switchboard-plug-onlineaccounts
 Version: 0.2.0~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-onlineaccounts
 
@@ -111,6 +111,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev216-1
+- Update to new upstream snapshot.
+
+* Thu Sep 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev213-1
+- Update to new upstream snapshot.
+
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev208-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev205-1
 - rebuild trigger for granite soname bump
 

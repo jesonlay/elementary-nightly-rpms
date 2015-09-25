@@ -1,9 +1,9 @@
-%define rev 1837
+%define rev 1839
 
 Summary: Noise audio player
 Name: noise
 Version: 0.3.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/noise
 
@@ -124,6 +124,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Sep 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1839-1
+- Update to new upstream snapshot.
+
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1838-1
+- Update to new upstream snapshot.
+
 * Fri Sep 18 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1837-1
 - Update to new upstream snapshot.
 

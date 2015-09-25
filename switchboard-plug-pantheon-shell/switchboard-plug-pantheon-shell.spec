@@ -1,10 +1,10 @@
-%define rev 377
+%define rev 380
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Pantheon Shell Plug
 Name: switchboard-plug-pantheon-shell
 Version: 0.2.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-pantheon-shell
 
@@ -22,6 +22,8 @@ BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gtk+-3.0) >= 3.14
 BuildRequires: pkgconfig(plank) >= 0.7.1.1137
 BuildRequires: pkgconfig(switchboard-2.0)
+
+Requires: contractor
 
 
 %description
@@ -43,8 +45,6 @@ Modular Desktop Settings Hub Pantheon Shell Plug
 
 
 %check
-# Pantheon not recognised as DE in OnlyShowIn, so ignore for now
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-plug-shell.desktop
 
 
 %clean
@@ -56,11 +56,24 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %files -f pantheon-desktop-plug.lang
+%{_bindir}/set-wallpaper
 %{_libdir}/switchboard/personal/pantheon-desktop
-%{_datadir}/applications/pantheon-plug-shell.desktop
+%{_datadir}/contractor/set-wallpaper.contract
 
 
 %changelog
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev380-1
+- Update to new upstream snapshot.
+
+* Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev379-2
+- Add Req:contractor, new contract file and new set-wallpaper binary to spec.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev379-1
+- Update to new upstream snapshot.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev377-1
+- Remove no longer shipped desktop file. Modernize spec.
+
 * Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev369-1
 - Update to new upstream snapshot.
 

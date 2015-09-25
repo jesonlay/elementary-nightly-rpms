@@ -1,9 +1,9 @@
-%define rev 538
+%define rev 540
 
 Summary: Audience video player
 Name: audience
 Version: 0.1.0.2~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
 
@@ -66,6 +66,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev540-1
+- Update to new upstream snapshot.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev539-1
+- Update to new upstream snapshot.
+
 * Sat Sep 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev538-1
 - Update to new upstream snapshot.
 

@@ -1,10 +1,10 @@
-%define rev 38
+%define rev 39
 %define debug_package %{nil}
 
 Summary: A sound indicator for wingpanel
 Name: wingpanel-indicator-sound
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-sound
 
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev39-1
+- Update to new upstream snapshot.
+
 * Sat Sep 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev38-1
 - Update to new upstream snapshot.
 

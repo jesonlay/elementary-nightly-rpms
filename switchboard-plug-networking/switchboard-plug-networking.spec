@@ -1,10 +1,10 @@
-%define rev 161
+%define rev 162
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Networking Plug
 Name: switchboard-plug-networking
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-networking
 
@@ -58,6 +58,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev162-1
+- Update to new upstream snapshot.
+
 * Fri Sep 11 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev160-1
 - Update to new upstream snapshot.
 

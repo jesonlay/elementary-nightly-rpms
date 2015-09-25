@@ -1,10 +1,10 @@
-%define rev 94
+%define rev 95
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Applications Plug
 Name: switchboard-plug-applications
 Version: 0.1.0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-applications
 
@@ -31,14 +31,11 @@ Modular Desktop Settings Hub Application Plug
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
-
-# This is quite broken
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-plug-applications.desktop
-
+%make_install
 %find_lang applications-plug
 
 
@@ -57,10 +54,15 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f applications-plug.lang
 %{_libdir}/switchboard/personal/pantheon-applications-plug
-%{_datadir}/applications/pantheon-plug-applications.desktop
-   
+
 
 %changelog
+* Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev95-1
+- Update to new upstream snapshot.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev94-1
+- Remove no longer installed .desktop file from package spec.
+
 * Fri Sep 11 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev93-1
 - Update to new upstream snapshot.
 

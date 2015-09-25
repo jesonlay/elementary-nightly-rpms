@@ -1,10 +1,10 @@
-%define rev 187
+%define rev 188
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Security and Privacy Plug
 Name: switchboard-plug-security-privacy
 Version: 0.1.0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard-plug-security-privacy
 
@@ -57,11 +57,17 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f pantheon-security-privacy-plug.lang
 %{_libdir}/switchboard/personal/pantheon-security-privacy/
-%{_datadir}/applications/pantheon-security-privacy-plug.desktop
+#%{_datadir}/applications/pantheon-security-privacy-plug.desktop
 %{_datadir}/polkit-1/actions/org.pantheon.security-privacy.policy
 
 
 %changelog
+* Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev188-1
+- Update to new upstream snapshot.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev187-1
+- Remove no longer shipped desktop file. Modernize spec.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev185-2
 - rebuild trigger for granite soname bump
 

@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Locale Plug
 Name: switchboard-plug-locale
 Version: 0.2~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-locale
 
@@ -45,8 +45,6 @@ Modular Desktop Settings Hub Locale Plug
 
 
 %check
-# Pantheon not recognised as DE in OnlyShowIn, so ignore for now
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-plug-locale.desktop
 
 
 %clean
@@ -63,13 +61,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %files -f locale-plug.lang
-%{_libdir}/switchboard/personal/pantheon-locale
-%{_datadir}/applications/pantheon-plug-locale.desktop
+%{_libdir}/switchboard/personal/pantheon-locale/
 %{_datadir}/glib-2.0/schemas/org.pantheon.switchboard.plug.locale.gschema.xml
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.locale.policy
 
 
 %changelog
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev160-1
+- Remove no longer shipped desktop file. Modernize spec.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev155-1
 - Update to new upstream snapshot.
 

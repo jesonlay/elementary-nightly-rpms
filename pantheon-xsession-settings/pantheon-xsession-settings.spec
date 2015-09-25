@@ -3,7 +3,7 @@
 Summary: Pantheon xsession settings
 Name: pantheon-xsession-settings
 Version: 0.5~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: https://code.launchpad.net/~elementary-os/elementaryos/pantheon-xsession-settings
 
@@ -42,18 +42,17 @@ rm autostart/cerbere.desktop
 %install
 mkdir -p $RPM_BUILD_ROOT/%{_sysconfdir}/xdg/autostart/
 mkdir -p $RPM_BUILD_ROOT/%{_datadir}
-mkdir -p $RPM_BUILD_ROOT/%{_datadir}/gconf/pantheon/default
 mkdir -p $RPM_BUILD_ROOT/%{_datadir}/gnome-session/sessions
 mkdir -p $RPM_BUILD_ROOT/%{_datadir}/pantheon
+mkdir -p $RPM_BUILD_ROOT/%{_datadir}/wayland-sessions
 mkdir -p $RPM_BUILD_ROOT/%{_datadir}/xsessions
 
 ln -s %{_datadir}/applications/cerbere.desktop $RPM_BUILD_ROOT/%{_sysconfdir}/xdg/autostart/cerbere.desktop
 
 install autostart/* $RPM_BUILD_ROOT/%{_sysconfdir}/xdg/autostart/
-install debian/pantheon.desktop $RPM_BUILD_ROOT/%{_datadir}/xsessions
-install debian/pantheon.session $RPM_BUILD_ROOT/%{_datadir}/gnome-session/sessions
-install gconf/pantheon/default/* $RPM_BUILD_ROOT/%{_datadir}/gconf/pantheon/default/
-install gconf/pantheon.default.path $RPM_BUILD_ROOT/%{_datadir}/gconf/
+install xsessions/pantheon.desktop $RPM_BUILD_ROOT/%{_datadir}/xsessions/
+install wayland-sessions/pantheon-wayland.desktop $RPM_BUILD_ROOT/%{_datadir}/wayland-sessions/
+install gnome-session/pantheon.session $RPM_BUILD_ROOT/%{_datadir}/gnome-session/sessions/
 install applications/* $RPM_BUILD_ROOT/%{_datadir}/pantheon/
 
 
@@ -70,13 +69,16 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %config %{_sysconfdir}/xdg/autostart/*
-%{_datadir}/gconf/*
 %{_datadir}/gnome-session/sessions/pantheon.session
-%{_datadir}/pantheon
+%{_datadir}/pantheon/
 %{_datadir}/xsessions/pantheon.desktop
+%{_datadir}/wayland-sessions/pantheon-wayland.desktop
 
 
 %changelog
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.5~rev65-1
+- Remove no longer shipped GConf files. Added wayland session.
+
 * Mon Sep 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.5~rev63-1
 - Initial package.
 

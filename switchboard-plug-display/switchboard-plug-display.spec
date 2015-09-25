@@ -1,10 +1,10 @@
-%define rev 108
+%define rev 109
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Display Plug
 Name: switchboard-plug-display
 Version: 0.1.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-display
 
@@ -44,8 +44,6 @@ Modular Desktop Settings Hub Display Plug
 
 
 %check
-# Pantheon not recognised as DE in OnlyShowIn, so ignore for now
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-plug-display.desktop
 
 
 %clean
@@ -53,20 +51,20 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
-
 %postun
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 
 %files -f pantheon-display-plug.lang
 %{_libdir}/switchboard/hardware/pantheon-display
-%{_datadir}/applications/pantheon-plug-display.desktop
 
 
 %changelog
+* Tue Sep 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev109-1
+- Update to new upstream snapshot.
+
+* Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev108-1
+- Remove no longer shipped desktop file. Modernize spec.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev107-2
 - rebuild trigger for granite soname bump
 

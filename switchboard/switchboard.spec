@@ -1,9 +1,9 @@
-%define rev 566
+%define rev 567
 
 Summary: Switchboard System Settings
 Name: switchboard
 Version: 2.0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1, LGPLv3
 URL: http://launchpad.net/switchboard
 
@@ -96,6 +96,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Sep 23 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev567-1
+- Update to new upstream snapshot.
+
 * Fri Sep 04 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev566-3
 - rebuild trigger for granite soname bump
 
