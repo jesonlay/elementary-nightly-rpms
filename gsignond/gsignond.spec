@@ -1,5 +1,5 @@
 %define rev b12650ac
-%define date 150920
+%define date 150926
 
 Summary: Online Accounts Sign-on glib daemon
 Name: gsignond

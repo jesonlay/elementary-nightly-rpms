@@ -1,10 +1,10 @@
-%define rev 216
+%define rev 221
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Online Accounts Plug
 Name: switchboard-plug-onlineaccounts
 Version: 0.2.0~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-onlineaccounts
 
@@ -115,6 +115,21 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Oct 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev221-1
+- Update to new upstream snapshot.
+
+* Sat Oct 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev220-1
+- Update to new upstream snapshot.
+
+* Tue Sep 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev219-1
+- Update to new upstream snapshot.
+
+* Mon Sep 28 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev218-1
+- Update to new upstream snapshot.
+
+* Sat Sep 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev217-1
+- Update to new upstream snapshot.
+
 * Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev216-2
 - Try to fix f23-x64 build.
 

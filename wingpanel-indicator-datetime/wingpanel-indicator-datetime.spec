@@ -1,10 +1,10 @@
-%define rev 80
+%define rev 83
 %define debug_package %{nil}
 
 Summary: A datetime indicator for wingpanel
 Name: wingpanel-indicator-datetime
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-ayatana
 
@@ -56,6 +56,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Oct 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev83-1
+- Update to new upstream snapshot.
+
+* Sun Sep 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev82-1
+- Update to new upstream snapshot.
+
+* Sat Sep 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev81-1
+- Update to new upstream snapshot.
+
 * Thu Sep 17 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev80-1
 - Update to new upstream snapshot.
 

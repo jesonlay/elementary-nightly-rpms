@@ -1,9 +1,9 @@
-%define rev 754
+%define rev 758
 
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
 Version: 0.3.1.3~rev%{rev}
-Release: 3%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-terminal
 
@@ -73,6 +73,18 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Oct 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev758-1
+- Update to new upstream snapshot.
+
+* Fri Oct 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev757-1
+- Update to new upstream snapshot.
+
+* Tue Sep 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev756-1
+- Update to new upstream snapshot.
+
+* Sun Sep 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev755-1
+- Update to new upstream snapshot.
+
 * Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev754-3
 - Try to fix f23-x64 build.
 

@@ -1,10 +1,10 @@
-%define rev 35
+%define rev 36
 %define debug_package %{nil}
 
 Summary: A session indicator for wingpanel
 Name: wingpanel-indicator-session
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-session
 
@@ -57,6 +57,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Oct 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev36-1
+- Update to new upstream snapshot.
+
 * Sun Sep 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev35-1
 - Update to new upstream snapshot.
 

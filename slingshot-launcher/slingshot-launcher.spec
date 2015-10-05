@@ -1,10 +1,10 @@
-%define rev 580
+%define rev 586
 %define debug_package %{nil}
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
@@ -71,6 +71,18 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Oct 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev586-1
+- Update to new upstream snapshot.
+
+* Tue Sep 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev584-1
+- Update to new upstream snapshot.
+
+* Mon Sep 28 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev583-1
+- Update to new upstream snapshot.
+
+* Sat Sep 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev581-1
+- Update to new upstream snapshot.
+
 * Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev580-2
 - Try to fix f23-x64 build.
 

@@ -1,4 +1,4 @@
-%define rev 356
+%define rev 357
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Keyboard Plug
@@ -60,6 +60,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Oct 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev357-1
+- Update to new upstream snapshot.
+
 * Fri Sep 25 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev356-1
 - Update to new upstream snapshot.
 
