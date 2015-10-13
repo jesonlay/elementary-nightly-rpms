@@ -1,4 +1,4 @@
-%define rev 878
+%define rev 883
 
 Summary: Granite Toolkit
 Name: granite
@@ -87,6 +87,18 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Oct 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev883-1
+- Update to new upstream snapshot.
+
+* Sat Oct 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev882-1
+- Update to new upstream snapshot.
+
+* Thu Oct 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev880-1
+- Update to new upstream snapshot.
+
+* Wed Oct 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev879-1
+- Update to new upstream snapshot.
+
 * Sat Oct 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev878-1
 - Update to new upstream snapshot.
 
