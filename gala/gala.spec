@@ -1,4 +1,4 @@
-%define rev 484
+%define rev 485
 
 Summary: Gala window manager
 Name: gala
@@ -114,6 +114,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Oct 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev485-1
+- Update to new upstream snapshot.
+
 * Sat Oct 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev484-1
 - Update to new upstream snapshot.
 

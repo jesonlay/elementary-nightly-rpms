@@ -1,4 +1,4 @@
-%define rev 111
+%define rev 113
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Display Plug
@@ -59,6 +59,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Oct 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev113-1
+- Update to new upstream snapshot.
+
+* Wed Oct 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev112-1
+- Update to new upstream snapshot.
+
 * Thu Oct 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev111-1
 - Update to new upstream snapshot.
 

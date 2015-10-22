@@ -1,4 +1,4 @@
-%define rev 163
+%define rev 165
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Locale Plug
@@ -67,6 +67,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Oct 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev165-1
+- Update to new upstream snapshot.
+
+* Wed Oct 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev164-1
+- Update to new upstream snapshot.
+
 * Sat Oct 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev163-1
 - Update to new upstream snapshot.
 

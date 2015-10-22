@@ -1,10 +1,10 @@
-%define rev 77
+%define rev 83
 %define debug_package %{nil}
 
 Summary: A power indicator for wingpanel
 Name: wingpanel-indicator-power
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-power
 
@@ -58,6 +58,24 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Oct 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev83-1
+- Update to new upstream snapshot.
+
+* Tue Oct 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev82-1
+- Update to new upstream snapshot.
+
+* Sun Oct 18 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev81-1
+- Update to new upstream snapshot.
+
+* Fri Oct 16 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev80-1
+- Update to new upstream snapshot.
+
+* Thu Oct 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev79-1
+- Update to new upstream snapshot.
+
+* Wed Oct 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev78-1
+- Update to new upstream snapshot.
+
 * Sat Sep 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev77-1
 - Update to new upstream snapshot.
 

@@ -1,10 +1,10 @@
-%define rev 46
+%define rev 47
 %define debug_package %{nil}
 
 Summary: A notifications indicator for wingpanel
 Name: wingpanel-indicator-notifications
 Version: 0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-notifications
 
@@ -55,10 +55,16 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f notifications-indicator-indicator.lang
 %{_libdir}/wingpanel/libnotifications-indicator.so
-%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.notifications.gschema.xml
+# %%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.notifications.gschema.xml
 
 
 %changelog
+* Thu Oct 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev47-2
+- Remove gschema file.
+
+* Thu Oct 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev47-1
+- Update to new upstream snapshot.
+
 * Fri Oct 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev46-1
 - Update to new upstream snapshot.
 

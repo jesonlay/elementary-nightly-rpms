@@ -1,4 +1,4 @@
-%define rev 587
+%define rev 590
 %define debug_package %{nil}
 
 Summary: Slingshot application launcher
@@ -71,6 +71,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Oct 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev590-1
+- Update to new upstream snapshot.
+
+* Wed Oct 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev589-1
+- Update to new upstream snapshot.
+
+* Tue Oct 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev588-1
+- Update to new upstream snapshot.
+
 * Thu Oct 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev587-1
 - Update to new upstream snapshot.
 
