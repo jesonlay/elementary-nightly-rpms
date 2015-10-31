@@ -1,4 +1,4 @@
-%define rev 261
+%define rev 262
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Power Plug
@@ -60,6 +60,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Oct 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev262-1
+- Update to new upstream snapshot.
+
 * Thu Oct 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev261-1
 - Update to new upstream snapshot.
 

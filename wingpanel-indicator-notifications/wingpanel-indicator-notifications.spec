@@ -1,10 +1,10 @@
-%define rev 47
+%define rev 51
 %define debug_package %{nil}
 
 Summary: A notifications indicator for wingpanel
 Name: wingpanel-indicator-notifications
 Version: 0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-notifications
 
@@ -32,11 +32,12 @@ A notifications indicator for wingpanel.
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
-%find_lang notifications-indicator-indicator
+%make_install
+%find_lang notifications-indicator
 
 
 %clean
@@ -53,12 +54,23 @@ rm -rf $RPM_BUILD_ROOT
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 
-%files -f notifications-indicator-indicator.lang
+%files -f notifications-indicator.lang
 %{_libdir}/wingpanel/libnotifications-indicator.so
-# %%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.notifications.gschema.xml
 
 
 %changelog
+* Sat Oct 31 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev51-1
+- Update to new upstream snapshot.
+
+* Wed Oct 28 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev49-1
+- Update to new upstream snapshot.
+
+* Tue Oct 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev48-2
+- Fix language file names. Modernize spec.
+
+* Mon Oct 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev48-1
+- Update to new upstream snapshot.
+
 * Thu Oct 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev47-2
 - Remove gschema file.
 

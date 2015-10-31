@@ -1,4 +1,4 @@
-%define rev 307
+%define rev 310
 
 Summary: Vocal Podcatcher
 Name: vocal
@@ -92,6 +92,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Oct 31 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0~rev310-1
+- Update to new upstream snapshot.
+
+* Wed Oct 28 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0~rev309-1
+- Update to new upstream snapshot.
+
+* Mon Oct 26 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0~rev308-1
+- Update to new upstream snapshot.
+
 * Mon Oct 19 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0~rev307-1
 - Update to new upstream snapshot.
 
