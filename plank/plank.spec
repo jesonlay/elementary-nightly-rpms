@@ -1,9 +1,9 @@
-%define rev 1412
+%define rev 1418
 
 Summary: Stupidly simple Dock
 Name: plank
 Version: 0.10.0~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/plank
 
@@ -68,7 +68,8 @@ This package contains development headers and files.
 %install
 %make_install
 rm -r $RPM_BUILD_ROOT/%{_sysconfdir}
-rm -r $RPM_BUILD_ROOT/%{_libdir}/libplank.la
+rm -r $RPM_BUILD_ROOT/%{_libdir}/*.la
+rm -r $RPM_BUILD_ROOT/%{_libdir}/plank/docklets/*.la
 rm -r $RPM_BUILD_ROOT/%{_datadir}/apport
 %find_lang plank
 
@@ -107,16 +108,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f plank.lang
 %{_bindir}/plank
+%{_libdir}/plank/
 
 %{_datadir}/appdata/plank.appdata.xml
 %{_datadir}/applications/plank.desktop
-%{_datadir}/icons/hicolor/16x16/apps/plank.svg
-%{_datadir}/icons/hicolor/22x22/apps/plank.svg
-%{_datadir}/icons/hicolor/24x24/apps/plank.svg
-%{_datadir}/icons/hicolor/32x32/apps/plank.svg
-%{_datadir}/icons/hicolor/48x48/apps/plank.svg
-%{_datadir}/icons/hicolor/64x64/apps/plank.svg
-%{_datadir}/icons/hicolor/128x128/apps/plank.svg
+%{_datadir}/glib-2.0/schemas/net.launchpad.plank.gschema.xml
 %{_datadir}/plank
 
 %{_mandir}/man1/plank.1.gz
@@ -135,6 +131,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1418-2
+- Fix build by including new libs and files.
+
+* Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1418-1
+- Update to new upstream snapshot.
+
+* Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1416-1
+- Update to new upstream snapshot.
+
 * Sat Oct 31 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1412-1
 - Update to new upstream snapshot.
 

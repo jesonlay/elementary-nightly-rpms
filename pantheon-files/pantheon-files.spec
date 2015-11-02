@@ -1,15 +1,14 @@
-%define rev 1968
+%define rev 1970
 
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.3~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
-Patch0: 00-no-marlincore-C-deps.patch
 
 BuildRequires: cmake
 BuildRequires: desktop-file-utils
@@ -47,7 +46,6 @@ This package contains the development headers.
 
 %prep
 %setup -q
-%patch0 -p1
 
 
 %build
@@ -129,6 +127,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.3~rev1970-2
+- Remove downstream patch.
+
+* Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.3~rev1970-1
+- Update to new upstream snapshot.
+
 * Sat Oct 31 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.3~rev1968-1
 - Update to new upstream snapshot.
 

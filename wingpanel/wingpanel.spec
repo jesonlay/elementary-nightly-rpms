@@ -1,4 +1,4 @@
-%define rev 93
+%define rev 95
 
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
