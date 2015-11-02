@@ -3,7 +3,7 @@
 Summary: Stupidly simple Dock
 Name: plank
 Version: 0.10.0~rev%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv3
 URL: http://launchpad.net/plank
 
@@ -112,6 +112,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_datadir}/appdata/plank.appdata.xml
 %{_datadir}/applications/plank.desktop
+%{_datadir}/icons/hicolor/*/apps/plank.svg
 %{_datadir}/glib-2.0/schemas/net.launchpad.plank.gschema.xml
 %{_datadir}/plank
 
@@ -131,6 +132,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1418-3
+- Fix spec by including icons again. Oops.
+
 * Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1418-2
 - Fix build by including new libs and files.
 
