@@ -1,4 +1,4 @@
-%define rev 396
+%define rev 398
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Pantheon Shell Plug
@@ -62,6 +62,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev398-1
+- Update to new upstream snapshot.
+
+* Thu Nov 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev397-1
+- Update to new upstream snapshot.
+
 * Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev396-1
 - Update to new upstream snapshot.
 

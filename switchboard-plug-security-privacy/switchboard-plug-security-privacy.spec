@@ -1,4 +1,4 @@
-%define rev 193
+%define rev 194
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Security and Privacy Plug
@@ -62,6 +62,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Nov 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev194-1
+- Update to new upstream snapshot.
+
 * Mon Oct 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev193-1
 - Update to new upstream snapshot.
 

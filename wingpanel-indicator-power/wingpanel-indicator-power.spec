@@ -1,4 +1,4 @@
-%define rev 91
+%define rev 96
 %define debug_package %{nil}
 
 Summary: A power indicator for wingpanel
@@ -58,6 +58,21 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Nov 09 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev96-1
+- Update to new upstream snapshot.
+
+* Sun Nov 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev95-1
+- Update to new upstream snapshot.
+
+* Fri Nov 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev94-1
+- Update to new upstream snapshot.
+
+* Thu Nov 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev93-1
+- Update to new upstream snapshot.
+
+* Wed Nov 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev92-1
+- Update to new upstream snapshot.
+
 * Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev91-1
 - Update to new upstream snapshot.
 

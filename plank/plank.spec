@@ -1,9 +1,9 @@
-%define rev 1418
+%define rev 1437
 
 Summary: Stupidly simple Dock
 Name: plank
 Version: 0.10.0~rev%{rev}
-Release: 3%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/plank
 
@@ -119,8 +119,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man1/plank.1.gz
 
 %files libs
-%{_libdir}/libplank.so.0
-%{_libdir}/libplank.so.0.0.0
+%{_libdir}/libplank.so.*
 
 %files devel
 %{_includedir}/plank
@@ -132,6 +131,24 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Nov 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1437-1
+- Update to new upstream snapshot.
+
+* Sat Nov 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1430-1
+- Update to new upstream snapshot.
+
+* Thu Nov 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1429-1
+- Update to new upstream snapshot.
+
+* Wed Nov 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1427-2
+- Fix build by including soname bump.
+
+* Wed Nov 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1427-1
+- Update to new upstream snapshot.
+
+* Tue Nov 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1426-1
+- Update to new upstream snapshot.
+
 * Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1418-3
 - Fix spec by including icons again. Oops.
 
