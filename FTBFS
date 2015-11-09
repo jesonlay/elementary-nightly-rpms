@@ -1,5 +1,2 @@
 footnote:		still requires sqlheavy-0.1
 
-maya:
-core/Model/CalendarModel.vala:365:20: error: too few arguments to function 'e_cal_client_connect_sync'
-             var client = new E.CalClient.connect_sync (source, E.CalClientSourceType.EVENTS, cancellable);
