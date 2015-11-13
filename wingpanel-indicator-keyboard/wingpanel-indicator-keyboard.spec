@@ -1,10 +1,10 @@
-%define rev 6
+%define rev 9
 %define debug_package %{nil}
 
 Summary: A keyboard indicator for wingpanel
 Name: wingpanel-indicator-keyboard
 Version: 0.1~rev%{rev}
-Release: 0%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-keyboard
 
@@ -28,10 +28,12 @@ A keyboard indicator for wingpanel.
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
+%make_install
+%find_lang keyboard-indicator
 
 
 %clean
@@ -47,11 +49,20 @@ rm -rf $RPM_BUILD_ROOT
 
 
 
-%files
+%files -f keyboard-indicator.lang
 %{_libdir}/wingpanel/libkeyboard.so
 
 
 %changelog
+* Fri Nov 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev9-2
+- Fix build by including translations.
+
+* Fri Nov 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev9-1
+- Update to new upstream snapshot.
+
+* Thu Nov 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev8-1
+- Update to new upstream snapshot.
+
 * Thu Sep 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev6-2
 - Release bump for wingpanel soname change.
 

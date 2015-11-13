@@ -1,4 +1,4 @@
-%define rev 551
+%define rev 552
 
 Summary: Audience video player
 Name: audience
@@ -66,6 +66,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Nov 11 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev552-1
+- Update to new upstream snapshot.
+
 * Thu Nov 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev551-1
 - Update to new upstream snapshot.
 
