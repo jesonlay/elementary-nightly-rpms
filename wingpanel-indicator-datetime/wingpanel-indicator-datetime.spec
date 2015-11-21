@@ -1,4 +1,4 @@
-%define rev 91
+%define rev 93
 %define debug_package %{nil}
 
 Summary: A datetime indicator for wingpanel
@@ -56,6 +56,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Nov 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev93-1
+- Update to new upstream snapshot.
+
+* Sun Nov 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev92-1
+- Update to new upstream snapshot.
+
 * Tue Nov 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev91-1
 - Update to new upstream snapshot.
 

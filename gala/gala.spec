@@ -1,8 +1,8 @@
-%define rev 491
+%define rev 499
 
 Summary: Gala window manager
 Name: gala
-Version: 0.2.0~rev%{rev}
+Version: 0.3.0~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/gala
@@ -114,6 +114,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.0~rev499-1
+- Update version tag to represent upstream version.
+
+* Wed Nov 18 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev499-1
+- Update to new upstream snapshot.
+
+* Tue Nov 17 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev492-1
+- Update to new upstream snapshot.
+
 * Thu Nov 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev491-1
 - Update to new upstream snapshot.
 

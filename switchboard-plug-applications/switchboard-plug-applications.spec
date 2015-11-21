@@ -1,9 +1,9 @@
-%define rev 100
+%define rev 101
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Applications Plug
 Name: switchboard-plug-applications
-Version: 0.1.0.1~rev%{rev}
+Version: 0.1.0.2~rev%{rev}
 Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-applications
@@ -57,6 +57,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev101-1
+- omment=Update version tag to represent upstream version.
+
+* Sun Nov 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev101-1
+- Update to new upstream snapshot.
+
 * Wed Oct 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev100-1
 - Update to new upstream snapshot.
 

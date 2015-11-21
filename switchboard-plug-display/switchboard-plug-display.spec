@@ -1,9 +1,9 @@
-%define rev 114
+%define rev 115
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Display Plug
 Name: switchboard-plug-display
-Version: 0.1.1~rev%{rev}
+Version: 0.1.1.1~rev%{rev}
 Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-display
@@ -59,6 +59,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.1~rev115-1
+- omment=Update version tag to represent upstream version.
+
+* Sun Nov 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev115-1
+- Update to new upstream snapshot.
+
 * Fri Oct 23 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev114-1
 - Update to new upstream snapshot.
 

@@ -1,9 +1,9 @@
-%define rev 264
+%define rev 265
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Power Plug
 Name: switchboard-plug-power
-Version: 0.2.1~rev%{rev}
+Version: 0.2.2~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-power
@@ -60,6 +60,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2~rev265-1
+- omment=Update version tag to represent upstream version.
+
+* Sun Nov 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev265-1
+- Update to new upstream snapshot.
+
 * Tue Nov 10 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev264-1
 - Update to new upstream snapshot.
 

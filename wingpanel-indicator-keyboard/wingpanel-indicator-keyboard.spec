@@ -1,10 +1,10 @@
-%define rev 9
+%define rev 10
 %define debug_package %{nil}
 
 Summary: A keyboard indicator for wingpanel
 Name: wingpanel-indicator-keyboard
 Version: 0.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel-indicator-keyboard
 
@@ -54,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Nov 17 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev10-1
+- Update to new upstream snapshot.
+
 * Fri Nov 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev9-2
 - Fix build by including translations.
 

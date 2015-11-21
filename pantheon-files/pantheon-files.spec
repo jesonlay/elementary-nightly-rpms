@@ -1,9 +1,9 @@
-%define rev 1970
+%define rev 1988
 
 Summary: Pantheon file manager
 Name: pantheon-files
-Version: 0.2.3~rev%{rev}
-Release: 2%{?dist}
+Version: 0.2.4~rev%{rev}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -127,6 +127,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev1988-1
+- omment=Update version tag to represent upstream version.
+
 * Mon Nov 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.3~rev1970-2
 - Remove downstream patch.
 

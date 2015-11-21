@@ -1,8 +1,8 @@
-%define rev 1442
+%define rev 1447
 
 Summary: Stupidly simple Dock
 Name: plank
-Version: 0.10.0~rev%{rev}
+Version: 0.10.9~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/plank
@@ -131,6 +131,21 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.9~rev1447-1
+- Correct version to upstream version number.
+
+* Fri Nov 20 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1447-1
+- Update to new upstream snapshot.
+
+* Thu Nov 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1446-1
+- Update to new upstream snapshot.
+
+* Tue Nov 17 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1445-1
+- Update to new upstream snapshot.
+
+* Sat Nov 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1444-1
+- Update to new upstream snapshot.
+
 * Fri Nov 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.10.0~rev1442-1
 - Update to new upstream snapshot.
 

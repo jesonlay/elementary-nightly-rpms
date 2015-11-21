@@ -1,9 +1,9 @@
-%define rev 166
+%define rev 167
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Locale Plug
 Name: switchboard-plug-locale
-Version: 0.2~rev%{rev}
+Version: 0.2.0.1~rev%{rev}
 Release: 1%{?dist}
 License: LGPLv3
 URL: http://launchpad.net/switchboard-plug-locale
@@ -67,6 +67,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.1~rev167-1
+- omment=Update version tag to represent upstream version.
+
+* Sun Nov 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev167-1
+- Update to new upstream snapshot.
+
 * Thu Nov 05 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev166-1
 - Update to new upstream snapshot.
 

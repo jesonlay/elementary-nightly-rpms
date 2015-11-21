@@ -1,9 +1,9 @@
-%define rev 95
+%define rev 96
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Date and Time Plug
 Name: switchboard-plug-datetime
-Version: 0.1.0.1~rev%{rev}
+Version: 0.1.0.2~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-datetime
@@ -60,6 +60,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev96-1
+- omment=Update version tag to represent upstream version.
+
+* Tue Nov 17 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev96-1
+- Update to new upstream snapshot.
+
 * Fri Nov 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev95-1
 - Update to new upstream snapshot.
 
