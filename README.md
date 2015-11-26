@@ -1,5 +1,18 @@
 # elementary-rpms
 a simple build system for RPM packages of (nightly snapshots of) elementaryOS components and applications
 
-## IMPORTANT
-Do not use this yet, it is far from finished and might explode your nyan cat or devour your unicorns.
+## USAGE
+
+- Get my build tool (builpy) from copr or github
+- configure copr for your copr account if you want to upload
+- run:
+
+```sh
+builpy upload --pkgfile=pkglist
+```
+
+- or, if you want to force all packages being built:
+
+```sh
+builpy upload --force --pkgfile=pkglist
+```
