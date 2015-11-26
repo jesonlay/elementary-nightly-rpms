@@ -1,4 +1,4 @@
-%define rev 574
+%define rev 576
 
 Summary: Switchboard System Settings
 Name: switchboard
@@ -96,6 +96,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev576-1
+- Update to new upstream snapshot.
+
+* Tue Nov 24 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev575-1
+- Update to new upstream snapshot.
+
 * Tue Nov 17 2015 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev574-1
 - Update to new upstream snapshot.
 

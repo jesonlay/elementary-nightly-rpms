@@ -1,4 +1,4 @@
-%define rev 59
+%define rev 61
 %define debug_package %{nil}
 
 Summary: A notifications indicator for wingpanel
@@ -59,6 +59,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev61-1
+- Update to new upstream snapshot.
+
+* Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev60-1
+- Update to new upstream snapshot.
+
 * Thu Nov 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev59-1
 - Update to new upstream snapshot.
 
