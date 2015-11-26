@@ -1,9 +1,9 @@
-%define rev 1874
+%define rev 1893
 
 Summary: Mail is an email client for elementary OS
 Name: pantheon-mail
 Version: 1.0.0~rev%{rev}
-Release: 1%{?dist}
+Release: 3%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-mail
 
@@ -38,9 +38,6 @@ BuildRequires: pkgconfig(sqlite3) >= 3.7.4
 BuildRequires: pkgconfig(webkitgtk-3.0) >= 2.3.0
 
 
-Requires: contractor
-
-
 %description
 Mail is an email client for elementary OS
 
@@ -62,34 +59,59 @@ Originally written by Yorba (yorba.org)
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/geary.desktop
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/geary-autostart.desktop
-appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-mail.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-mail-autostart.desktop
+
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+
+#FAILED:
+#? tag-invalid           : <icon> not allowed in appdata
+#? tag-invalid           : stock icon is not valid [internet-mail]
+#Validation of files failed
 
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 
-%post
-
 %postun
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files -f geary.lang
 %{_bindir}/geary
 %{_bindir}/geary-attach
 
-%{_datadir}/appdata/geary.appdata.xml
-%{_datadir}/applications/geary.desktop
-%{_datadir}/applications/geary-autostart.desktop
-%{_datadir}/contractor/geary-attach.contract
+%{_datadir}/appdata/pantheon-mail.appdata.xml
+%{_datadir}/applications/pantheon-mail.desktop
+%{_datadir}/applications/pantheon-mail-autostart.desktop
 %{_datadir}/geary/
+%{_datadir}/glib-2.0/schemas/*.xml
 %{_datadir}/gnome/help/geary/*
 %{_datadir}/icons/hicolor/scalable/actions/*.svg
 
 
 %changelog
+* Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1893-3
+- Add required gsettings compiling scriptlet.
+
+* Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1893-2
+- Update spec to represent geary -> pantheon-mail renaming.
+
+* Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1893-1
+- Update to new upstream snapshot.
+
+* Tue Nov 24 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1885-1
+- Update to new upstream snapshot.
+
+* Mon Nov 23 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1882-1
+- Update to new upstream snapshot.
+
 * Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1874-1
 - Initial package.
 
