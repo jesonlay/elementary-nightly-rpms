@@ -1,5 +1,5 @@
 # elementary-rpms
-a simple build system for RPM packages of (nightly snapshots of) elementaryOS components and applications
+ repository to keep track of packaging of (nightly snapshots of) elementaryOS components and applications for fedora.
 
 ## USAGE
 
