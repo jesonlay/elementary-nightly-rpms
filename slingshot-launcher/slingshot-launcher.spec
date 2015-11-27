@@ -1,10 +1,10 @@
-%define rev 603
+%define rev 604
 %define debug_package %{nil}
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
@@ -24,6 +24,7 @@ BuildRequires: pkgconfig(gee-0.8)
 BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(libgnome-menu-3.0)
 BuildRequires: pkgconfig(libsoup-2.4)
+BuildRequires: pkgconfig(plank)
 BuildRequires: pkgconfig(switchboard-2.0)
 BuildRequires: pkgconfig(wingpanel-2.0)
 BuildRequires: pkgconfig(zeitgeist-2.0)
@@ -55,22 +56,28 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
- 
+
 %postun
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files -f slingshot.lang
-%{_bindir}/slingshot-launcher
-
 %{_sysconfdir}/xdg/menus/pantheon-applications.menu
+%{_libdir}/wingpanel/libslingshot.so
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.slingshot.gschema.xml
 
 
 %changelog
+* Fri Nov 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev604-1
+- Update to new upstream snapshot.
+
 * Fri Nov 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev603-2
-- Add BR:wingpanel-2.0.
+- Add BR:wingpanel-2.0 and BR:plank.
 
 * Fri Nov 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev603-1
 - Update to new upstream snapshot.
