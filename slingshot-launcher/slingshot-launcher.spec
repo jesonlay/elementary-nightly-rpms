@@ -1,31 +1,33 @@
-%define rev 602
+%define rev 603
 %define debug_package %{nil}
 
 Summary: Slingshot application launcher
 Name: slingshot-launcher
 Version: 0.8.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/slingshot
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala vala-tools gettext
+BuildRequires: cmake
+BuildRequires: gettext
+BuildRequires: pkgconfig
+BuildRequires: vala
+BuildRequires: vala-tools
 
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(gtk+-3.0)
 BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gee-0.8)
-BuildRequires: pkgconfig(switchboard-2.0)
-
-BuildRequires: pkgconfig(libsoup-2.4)
-BuildRequires: pkgconfig(zeitgeist-2.0)
 BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(libgnome-menu-3.0)
+BuildRequires: pkgconfig(libsoup-2.4)
+BuildRequires: pkgconfig(switchboard-2.0)
+BuildRequires: pkgconfig(wingpanel-2.0)
+BuildRequires: pkgconfig(zeitgeist-2.0)
 
-# Requires: redhat-menus
 Requires: gala
 Requires: zeitgeist
 
@@ -35,14 +37,10 @@ Slingshot is Pantheon's application launcher, part of the elementary project.
 
 
 %prep
-%setup -q
+%autosetup
 
 
 %build
-export CFLAGS="-fPIC"
-export CXXFLAGS="-fPIC"
-export LDFLAGS="-fPIC"
-
 %cmake -DUSE_UNITY=OFF
 %make_build
 
@@ -71,6 +69,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Nov 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev603-2
+- Add BR:wingpanel-2.0.
+
+* Fri Nov 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev603-1
+- Update to new upstream snapshot.
+
 * Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev602-1
 - Update to new upstream snapshot.
 
