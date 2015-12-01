@@ -3,7 +3,7 @@
 Summary: Mail is an email client for elementary OS
 Name: pantheon-mail
 Version: 1.0.0~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-mail
 
@@ -36,6 +36,8 @@ BuildRequires: pkgconfig(libxml-2.0) >= 2.7.8
 BuildRequires: pkgconfig(pango) >= 1.1.2
 BuildRequires: pkgconfig(sqlite3) >= 3.7.4
 BuildRequires: pkgconfig(webkitgtk-3.0) >= 2.3.0
+
+Requires: contractor
 
 
 %description
@@ -85,11 +87,12 @@ fi
 
 %files -f geary.lang
 %{_bindir}/geary
-%{_bindir}/geary-attach
+%{_bindir}/mail-attach
 
 %{_datadir}/appdata/pantheon-mail.appdata.xml
 %{_datadir}/applications/pantheon-mail.desktop
 %{_datadir}/applications/pantheon-mail-autostart.desktop
+%{_datadir}/contractor/mail-attach.contract
 %{_datadir}/geary/
 %{_datadir}/glib-2.0/schemas/*.xml
 %{_datadir}/gnome/help/geary/*
@@ -97,6 +100,9 @@ fi
 
 
 %changelog
+* Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1905-2
+- Fix FTBFS. Binary renamed, contract added, added R:contractor.
+
 * Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1905-1
 - Update to new upstream snapshot.
 
