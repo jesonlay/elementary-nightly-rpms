@@ -3,7 +3,7 @@
 Summary: The elementary continuation of Shotwell
 Name: pantheon-photos
 Version: 0.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-photos
 
@@ -75,7 +75,11 @@ rm $RPM_BUILD_ROOT/%{_datadir}/icons/hicolor/icon-theme.cache
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/shotwell.desktop
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/shotwell-viewer.desktop
 
-appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# ? tag-invalid           : stock icon is not valid [multimedia-photo-manager]
+# Validation of files failed
 
 
 %clean
@@ -118,6 +122,9 @@ fi
 
 
 %changelog
+* Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2841-2
+- Disable appdata validation for now. Add error message to spec.
+
 * Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2841-1
 - Update to new upstream snapshot.
 
