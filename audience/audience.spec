@@ -3,15 +3,19 @@
 Summary: Audience video player
 Name: audience
 Version: 0.1.0.2~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
+BuildRequires: cmake
+BuildRequires: desktop-file-utils
+BuildRequires: gettext
+BuildRequires: libappstream-glib
+BuildRequires: pkgconfig
+BuildRequires: vala
 
 BuildRequires: pkgconfig(clutter-gtk-1.0)
 BuildRequires: pkgconfig(glib-2.0)
@@ -28,7 +32,7 @@ A modern video player that brings the lessons learned from the web home to the d
 
 
 %prep
-%setup -q
+%autosetup
 
 
 %build
@@ -38,21 +42,30 @@ A modern video player that brings the lessons learned from the web home to the d
 
 %install
 %make_install
-
 %find_lang audience
+
+
+%check
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/audience.desktop
+
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# ? tag-invalid           : stock icon is not valid [multimedia-video-player]
+# Validation of files failed
 
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 
-%post
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
-
 %postun
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files -f audience.lang
@@ -61,11 +74,16 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_bindir}/audience
 
+%{_datadir}/appdata/audience.appdata.xml
 %{_datadir}/applications/audience.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.audience.gschema.xml
 
 
 %changelog
+* Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev559-2
+- Modernise spec. Fix build by including new appdata file. Validate desktop and
+  appdata file.
+
 * Mon Nov 30 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev559-1
 - Update to new upstream snapshot.
 
