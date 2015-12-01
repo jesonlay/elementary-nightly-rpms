@@ -1,4 +1,4 @@
-%define rev 186
+%define rev 187
 
 Summary: A tiny, simple calculator written in GTK+ and Vala.
 Name: pantheon-calculator
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Nov 30 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev187-1
+- Update to new upstream snapshot.
+
 * Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev186-1
 - Update to new upstream snapshot.
 

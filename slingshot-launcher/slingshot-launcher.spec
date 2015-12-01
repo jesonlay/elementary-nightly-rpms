@@ -1,4 +1,4 @@
-%define rev 604
+%define rev 608
 %define debug_package %{nil}
 
 Summary: Slingshot application launcher
@@ -73,6 +73,15 @@ fi
 
 
 %changelog
+* Mon Nov 30 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev608-1
+- Update to new upstream snapshot.
+
+* Sun Nov 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev607-1
+- Update to new upstream snapshot.
+
+* Sat Nov 28 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev606-1
+- Update to new upstream snapshot.
+
 * Fri Nov 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.8.1.1~rev604-1
 - Update to new upstream snapshot.
 

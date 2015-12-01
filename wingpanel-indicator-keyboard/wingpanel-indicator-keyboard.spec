@@ -1,4 +1,4 @@
-%define rev 10
+%define rev 13
 %define debug_package %{nil}
 
 Summary: A keyboard indicator for wingpanel

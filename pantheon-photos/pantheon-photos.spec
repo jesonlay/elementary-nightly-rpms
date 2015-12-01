@@ -1,4 +1,4 @@
-%define rev 2838
+%define rev 2841
 
 Summary: The elementary continuation of Shotwell
 Name: pantheon-photos
@@ -118,6 +118,12 @@ fi
 
 
 %changelog
+* Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2841-1
+- Update to new upstream snapshot.
+
+* Mon Nov 30 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2839-1
+- Update to new upstream snapshot.
+
 * Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2838-1
 - Initial package of elementary shotwell fork.
 
