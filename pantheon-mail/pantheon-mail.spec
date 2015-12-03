@@ -1,4 +1,4 @@
-%define rev 1905
+%define rev 1909
 
 Summary: Mail is an email client for elementary OS
 Name: pantheon-mail
@@ -37,6 +37,7 @@ BuildRequires: pkgconfig(pango) >= 1.1.2
 BuildRequires: pkgconfig(sqlite3) >= 3.7.4
 BuildRequires: pkgconfig(webkitgtk-3.0) >= 2.3.0
 
+Conflicts: geary
 Requires: contractor
 
 
@@ -100,6 +101,15 @@ fi
 
 
 %changelog
+* Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1909-2
+- Add Conflicts: geary until they cannot be installed side-by-side.
+
+* Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1909-1
+- Update to new upstream snapshot.
+
+* Wed Dec 02 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1908-1
+- Update to new upstream snapshot.
+
 * Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1905-2
 - Fix FTBFS. Binary renamed, contract added, added R:contractor.
 

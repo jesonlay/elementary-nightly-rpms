@@ -1,9 +1,9 @@
-%define rev 95
+%define rev 96
 
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
 Version: 0.4.0~rev%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/wingpanel
 
@@ -96,6 +96,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev96-1
+- Update to new upstream snapshot.
+
 * Sun Sep 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev93-3
 - Fix Build on non-x86_64 arch.
 

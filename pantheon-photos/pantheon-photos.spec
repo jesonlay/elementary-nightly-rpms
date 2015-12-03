@@ -1,4 +1,4 @@
-%define rev 2841
+%define rev 2845
 
 Summary: The elementary continuation of Shotwell
 Name: pantheon-photos
@@ -36,6 +36,8 @@ BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(rest-0.7)
 BuildRequires: pkgconfig(sqlite3)
 BuildRequires: pkgconfig(webkitgtk-3.0)
+
+Conflicts: shotwell
 
 
 %description
@@ -122,6 +124,15 @@ fi
 
 
 %changelog
+* Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2845-2
+- Add Conflicts: shotwell until they cannot be installed side-by-side.
+
+* Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2845-1
+- Update to new upstream snapshot.
+
+* Wed Dec 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2844-1
+- Update to new upstream snapshot.
+
 * Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2841-2
 - Disable appdata validation for now. Add error message to spec.
 

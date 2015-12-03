@@ -1,9 +1,9 @@
-%define rev 559
+%define rev 560
 
 Summary: Audience video player
 Name: audience
 Version: 0.1.0.2~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
 
@@ -80,6 +80,9 @@ fi
 
 
 %changelog
+* Wed Dec 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev560-1
+- Update to new upstream snapshot.
+
 * Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev559-2
 - Modernise spec. Fix build by including new appdata file. Validate desktop and
   appdata file.

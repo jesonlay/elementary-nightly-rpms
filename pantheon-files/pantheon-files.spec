@@ -1,9 +1,9 @@
-%define rev 2004
+%define rev 2009
 
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.4~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -37,6 +37,13 @@ The simple, powerful, and sexy file manager from elementary.
 Designed for elementary OS.
 
 
+%package libs
+Summary: pantheon-files libraries
+%description libs
+The simple, powerful, and sexy file manager from elementary.
+This package contains the libraries.
+
+
 %package devel
 Summary: pantheon-files development headers
 %description devel
@@ -55,13 +62,6 @@ This package contains the development headers.
 
 %install
 %make_install
-
-# this installs libs to /usr/lib ... move them away on x86_64
-%ifarch x86_64
-mv $RPM_BUILD_ROOT/usr/lib/libpantheon* $RPM_BUILD_ROOT/%{_libdir}/
-mv $RPM_BUILD_ROOT/usr/lib/pkgconfig $RPM_BUILD_ROOT/%{_libdir}/
-%endif
-
 %find_lang pantheon-files
 
 
@@ -95,22 +95,24 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/pantheon-files-daemon
 %{_bindir}/pantheon-files-pkexec
 
-/usr/lib/pantheon-files/
+%{_libdir}/pantheon-files/
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
-
-%{_libdir}/libpantheon-files-core.so.0
-%{_libdir}/libpantheon-files-core.so.0.1
-%{_libdir}/libpantheon-files-widgets.so.0
-%{_libdir}/libpantheon-files-widgets.so.0.1
 
 %{_datadir}/applications/pantheon-files.desktop
 %{_datadir}/dbus-1/services/pantheon-files.service
 %{_datadir}/glib-2.0/schemas/org.pantheon.files.gschema.xml
 
-%{_datadir}/pantheon-files
-%{_datadir}/pixmaps/pantheon-files
+%{_datadir}/pantheon-files/
+%{_datadir}/pixmaps/pantheon-files/
 
 %{_datadir}/polkit-1/actions/net.launchpad.pantheon-files.policy
+
+
+%files libs
+%{_libdir}/libpantheon-files-core.so.0
+%{_libdir}/libpantheon-files-core.so.0.1
+%{_libdir}/libpantheon-files-widgets.so.0
+%{_libdir}/libpantheon-files-widgets.so.0.1
 
 
 %files devel
@@ -127,6 +129,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2009-2
+- Split off -libs package. Fix build.
+
+* Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2009-1
+- Update to new upstream snapshot.
+
+* Wed Dec 02 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2005-1
+- Update to new upstream snapshot.
+
 * Tue Dec 01 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2004-1
 - Update to new upstream snapshot.
 
