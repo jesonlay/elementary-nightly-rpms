@@ -1,9 +1,9 @@
-%define rev 2845
+%define rev 2855
 
 Summary: The elementary continuation of Shotwell
 Name: pantheon-photos
 Version: 0.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-photos
 
@@ -37,8 +37,6 @@ BuildRequires: pkgconfig(rest-0.7)
 BuildRequires: pkgconfig(sqlite3)
 BuildRequires: pkgconfig(webkitgtk-3.0)
 
-Conflicts: shotwell
-
 
 %description
 The elementary continuation of Shotwell, originally written by Yorba Foundation.
@@ -48,6 +46,7 @@ Designed for elementary OS. Works and looks great on any GTK+ desktop.
 
 %package devel
 Summary: pantheon-photos development headers
+Conflicts: shotwell-devel
 %description devel
 The elementary continuation of Shotwell, originally written by Yorba Foundation.
 
@@ -70,12 +69,12 @@ This package contains the development headers.
 rm $RPM_BUILD_ROOT/%{_datadir}/glib-2.0/schemas/gschemas.compiled
 rm $RPM_BUILD_ROOT/%{_datadir}/icons/hicolor/icon-theme.cache
 
-%find_lang shotwell
+%find_lang pantheon-photos
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/shotwell.desktop
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/shotwell-viewer.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos-viewer.desktop
 
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 # FAILED:
@@ -102,28 +101,43 @@ fi
 %postun devel
 
 
-%files -f shotwell.lang
-%{_bindir}/shotwell
+%files -f pantheon-photos.lang
+%{_bindir}/pantheon-photos
 
-%{_libdir}/shotwell/
-%{_libexecdir}/shotwell/
+%{_libdir}/pantheon-photos/
+%{_libexecdir}/pantheon-photos/
 
-%{_datadir}/GConf/gsettings/shotwell.convert
-%{_datadir}/appdata/shotwell.appdata.xml
-%{_datadir}/applications/shotwell.desktop
-%{_datadir}/applications/shotwell-viewer.desktop
+%{_datadir}/GConf/gsettings/pantheon-photos.convert
+%{_datadir}/appdata/pantheon-photos.appdata.xml
+%{_datadir}/applications/pantheon-photos.desktop
+%{_datadir}/applications/pantheon-photos-viewer.desktop
 %{_datadir}/glib-2.0/schemas/*.xml
-%{_datadir}/gnome/help/shotwell/*
+%{_datadir}/gnome/help/pantheon-photos/*
 %{_datadir}/icons/hicolor/24x24/actions/pin-toolbar.svg
-%{_datadir}/shotwell/
+%{_datadir}/pantheon-photos/
 
 %files devel
-%{_includedir}/shotwell/
+%{_includedir}/pantheon-photos/
 %{_libdir}/pkgconfig/shotwell-plugin-dev-1.0.pc
 %{_datadir}/vala/vapi/shotwell*
 
 
 %changelog
+* Wed Dec 09 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2855-1
+- Update to new upstream snapshot.
+
+* Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2854-2
+- Fix build. Remove Conflicts: shotwell bc. it seems to be co-installable now.
+
+* Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2854-1
+- Update to new upstream snapshot.
+
+* Mon Dec 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2852-1
+- Update to new upstream snapshot.
+
+* Sun Dec 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2850-1
+- Update to new upstream snapshot.
+
 * Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2845-2
 - Add Conflicts: shotwell until they cannot be installed side-by-side.
 

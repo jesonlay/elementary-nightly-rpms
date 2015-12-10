@@ -1,4 +1,4 @@
-%define rev 55
+%define rev 58
 %define debug_package %{nil}
 
 Summary: A session indicator for wingpanel
@@ -57,6 +57,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Dec 09 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev58-1
+- Update to new upstream snapshot.
+
+* Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev57-1
+- Update to new upstream snapshot.
+
+* Mon Dec 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev56-1
+- Update to new upstream snapshot.
+
 * Sat Nov 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev55-1
 - Update to new upstream snapshot.
 

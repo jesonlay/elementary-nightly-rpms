@@ -1,9 +1,9 @@
-%define rev 1909
+%define rev 1916
 
 Summary: Mail is an email client for elementary OS
 Name: pantheon-mail
 Version: 1.0.0~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-mail
 
@@ -101,6 +101,18 @@ fi
 
 
 %changelog
+* Wed Dec 09 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1916-1
+- Update to new upstream snapshot.
+
+* Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1915-1
+- Update to new upstream snapshot.
+
+* Mon Dec 07 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1914-1
+- Update to new upstream snapshot.
+
+* Sun Dec 06 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1913-1
+- Update to new upstream snapshot.
+
 * Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1909-2
 - Add Conflicts: geary until they cannot be installed side-by-side.
 

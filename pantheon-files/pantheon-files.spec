@@ -1,9 +1,9 @@
-%define rev 2009
+%define rev 2016
 
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.4~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -129,6 +129,18 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Dec 09 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2016-1
+- Update to new upstream snapshot.
+
+* Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2015-1
+- Update to new upstream snapshot.
+
+* Mon Dec 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2014-1
+- Update to new upstream snapshot.
+
+* Sun Dec 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2013-1
+- Update to new upstream snapshot.
+
 * Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2009-2
 - Split off -libs package. Fix build.
 

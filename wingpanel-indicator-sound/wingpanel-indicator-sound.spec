@@ -1,4 +1,4 @@
-%define rev 60
+%define rev 63
 %define debug_package %{nil}
 
 Summary: A sound indicator for wingpanel
@@ -59,6 +59,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev63-1
+- Update to new upstream snapshot.
+
+* Mon Dec 07 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev62-1
+- Update to new upstream snapshot.
+
+* Sun Dec 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev61-1
+- Update to new upstream snapshot.
+
 * Mon Nov 30 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev60-1
 - Update to new upstream snapshot.
 

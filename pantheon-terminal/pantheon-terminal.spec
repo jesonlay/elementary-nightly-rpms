@@ -1,4 +1,4 @@
-%define rev 781
+%define rev 790
 
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
@@ -73,6 +73,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Dec 09 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev790-1
+- Update to new upstream snapshot.
+
+* Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev789-1
+- Update to new upstream snapshot.
+
+* Sun Dec 06 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev788-1
+- Update to new upstream snapshot.
+
 * Thu Dec 03 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev781-1
 - Update to new upstream snapshot.
 
