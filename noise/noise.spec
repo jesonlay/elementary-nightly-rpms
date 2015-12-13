@@ -1,43 +1,38 @@
-%define rev 1861
+%define rev 1862
 
 Summary: Noise audio player
 Name: noise
 Version: 0.3.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/noise
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
-
+BuildRequires: cmake
 BuildRequires: desktop-file-utils
+BuildRequires: gettext
+BuildRequires: libappstream-glib
+BuildRequires: pkgconfig
+BuildRequires: vala
 
-BuildRequires: pkgconfig(dbusmenu-glib-0.4)
 BuildRequires: pkgconfig(gee-0.8)
-BuildRequires: pkgconfig(glib-2.0)
+BuildRequires: pkgconfig(gio-2.0)
+BuildRequires: pkgconfig(glib-2.0) >= 2.32
 BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gstreamer-1.0)
 BuildRequires: pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires: pkgconfig(gstreamer-tag-1.0)
-BuildRequires: pkgconfig(gtk+-3.0)
-BuildRequires: pkgconfig(json-glib-1.0)
-BuildRequires: pkgconfig(libaccounts-glib)
+BuildRequires: pkgconfig(gtk+-3.0) >= 3.11.6
 BuildRequires: pkgconfig(libgda-5.0)
-BuildRequires: pkgconfig(libgpod-1.0)
-BuildRequires: pkgconfig(libgsignon-glib)
 BuildRequires: pkgconfig(libnotify)
 BuildRequires: pkgconfig(libpeas-1.0)
 BuildRequires: pkgconfig(libpeas-gtk-1.0)
-BuildRequires: pkgconfig(libsoup-2.4)
-BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(taglib_c)
 BuildRequires: pkgconfig(zeitgeist-2.0)
 
 Requires: libgda-sqlite
-Requires: hicolor-icon-theme
 
 
 %description
@@ -67,26 +62,31 @@ The official elementary music player. This package contains the development head
 %check
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
 
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# ? tag-invalid           : stock icon is not valid [multimedia-audio-player]
+
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datarootdir}/glib-2.0/schemas &> /dev/null
+/usr/sbin/ldconfig
 
 %postun
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datarootdir}/glib-2.0/schemas &> /dev/null
+/usr/sbin/ldconfig
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
-%post devel
-/sbin/ldconfig
-
-%postun devel
-/sbin/ldconfig
-
+%post devel -p /usr/sbin/ldconfig
+%postun devel -p /usr/sbin/ldconfig
 
 
 %files -f noise.lang
@@ -97,20 +97,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_libdir}/noise/
 
-%{_datadir}/accounts/applications/noise-lastfm.application
-
+%{_datadir}/appdata/noise.appdata.xml
 %{_datadir}/applications/noise.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.noise.gschema.xml
+%{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
 %{_datadir}/noise/
-
-%{_datadir}/icons/hicolor/16x16/apps/multimedia-audio-player.svg
-%{_datadir}/icons/hicolor/22x22/apps/multimedia-audio-player.svg
-%{_datadir}/icons/hicolor/24x24/apps/multimedia-audio-player.svg
-%{_datadir}/icons/hicolor/32x32/apps/multimedia-audio-player.svg
-%{_datadir}/icons/hicolor/48x48/apps/multimedia-audio-player.svg
-%{_datadir}/icons/hicolor/64x64/apps/multimedia-audio-player.svg
-%{_datadir}/icons/hicolor/128x128/apps/multimedia-audio-player.svg
-%{_datadir}/icons/hicolor/scalable/apps/multimedia-audio-player.svg
 
 
 %files devel
@@ -124,6 +115,16 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1862-2
+- Remove (not even working) last.fm support. Remove BRs: libaccounts,
+  libgsignon-glib, dbusmenu-glib, ...
+
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1862-1
+- Update to new upstream snapshot.
+
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1861-2
+- fix build. add appdata file and check to spec.
+
 * Sat Dec 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1861-1
 - Update to new upstream snapshot.
 
