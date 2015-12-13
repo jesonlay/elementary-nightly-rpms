@@ -1,4 +1,4 @@
-%define rev 1601
+%define rev 1602
 
 Summary: Scratch - the text editor that works.
 Name: scratch-text-editor
@@ -10,9 +10,12 @@ URL: http://launchpad.net/scratch
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
+BuildRequires: cmake
 BuildRequires: desktop-file-utils
+BuildRequires: gettext
+BuildRequires: libappstream-glib
+BuildRequires: pkgconfig
+BuildRequires: vala
 
 BuildRequires: pkgconfig(gee-0.8)
 BuildRequires: pkgconfig(gio-2.0)
@@ -68,50 +71,60 @@ Scratch is the text editor that works for you. It auto-saves your files, meaning
 
 
 %prep
-%setup -q
+%autosetup
 
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
+%make_install
+%find_lang scratch-text-editor
 
+# missing ";" at end of Keywords line
 desktop-file-edit $RPM_BUILD_ROOT/%{_datadir}/applications/scratch-text-editor.desktop --set-key=Keywords --set-value='Notepad;IDE;Plain;'
 
+
+%check
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/scratch-text-editor.desktop
 
-%find_lang scratch-text-editor
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# Validation of files failed
 
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 
-%post
-/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+%post -p /sbin/ldconfig
 
 %postun
 /sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+
+if [ $1 -eq 0 ] ; then
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
-%post devel
-/sbin/ldconfig
-
-%postun devel
-/sbin/ldconfig
+%post devel -p /sbin/ldconfig
+%postun devel -p /sbin/ldconfig
 
 
 %files -f scratch-text-editor.lang
 %{_bindir}/scratch-text-editor
 
-%{_libdir}/scratch
+%{_libdir}/scratch/
 %{_libdir}/libscratchcore.so.0
 %{_libdir}/libscratchcore.so.0.0
 
+%{_datadir}/appdata/scratch-text-editor.appdata.xml
 %{_datadir}/applications/scratch-text-editor.desktop
 
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.gschema.xml
@@ -119,7 +132,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.folder-manager.gschema.xml
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.terminal.gschema.xml
 
-%{_datadir}/scratch
+%{_datadir}/scratch/
 
 
 %files devel
@@ -133,6 +146,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1602-1
+- Update to new upstream snapshot.
+
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1601-2
+- Add appdata file and check to spec. Modernize spec.
+
 * Sat Dec 12 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1601-1
 - Update to new upstream snapshot.
 
