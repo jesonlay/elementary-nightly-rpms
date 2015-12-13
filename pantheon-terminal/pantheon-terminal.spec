@@ -1,4 +1,4 @@
-%define rev 794
+%define rev 795
 
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
@@ -10,8 +10,12 @@ URL: http://launchpad.net/pantheon-terminal
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
+BuildRequires: cmake
+BuildRequires: desktop-file-utils
+BuildRequires: gettext
+BuildRequires: libappstream-glib
+BuildRequires: pkgconfig
+BuildRequires: vala
 
 BuildRequires: pkgconfig(gdk-3.0)
 BuildRequires: pkgconfig(granite) >= 0.3.0
@@ -19,9 +23,6 @@ BuildRequires: pkgconfig(gthread-2.0)
 BuildRequires: pkgconfig(gtk+-3.0) >= 3.9.10
 BuildRequires: pkgconfig(libnotify)
 BuildRequires: pkgconfig(vte-2.91)
-
-
-#Requires: contractor
 
 
 %description
@@ -48,31 +49,50 @@ export LDFLAGS="-fPIC"
 %find_lang pantheon-terminal
 
 
+%check
+# this does fail spectacularly
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-terminal.desktop
+
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# Validation of files failed
+
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 %postun
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+if [ $1 -eq 0 ] ; then
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files -f pantheon-terminal.lang
 %{_bindir}/pantheon-terminal
 
+%{_datadir}/appdata/pantheon-terminal.appdata.xml
 %{_datadir}/applications/open-pantheon-terminal-here.desktop
 %{_datadir}/applications/pantheon-terminal.desktop
 
 %{_datadir}/glib-2.0/schemas/org.pantheon.terminal.gschema.xml
 
-%dir %{_datadir}/pantheon-terminal
-%{_datadir}/pantheon-terminal/enable-fish-completion-notifications
-%{_datadir}/pantheon-terminal/enable-zsh-completion-notifications
+%{_datadir}/pantheon-terminal/
 
 
 %changelog
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev795-1
+- Update to new upstream snapshot.
+
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev794-2
+- Add appdata file and check to spec.
+
 * Sat Dec 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev794-1
 - Update to new upstream snapshot.
 
