@@ -1,4 +1,4 @@
-%define rev 236
+%define rev 238
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Online Accounts Plug
@@ -115,6 +115,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Dec 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev238-1
+- Update to new upstream snapshot.
+
+* Fri Dec 11 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev237-1
+- Update to new upstream snapshot.
+
 * Tue Dec 08 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev236-1
 - Update to new upstream snapshot.
 

@@ -1,4 +1,4 @@
-%define rev 197
+%define rev 198
 
 Summary: A simple screencasting app for the elementary project
 Name: eidete
@@ -79,6 +79,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 11 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev198-1
+- Update to new upstream snapshot.
+
 * Sat Oct 24 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev197-1
 - Update to new upstream snapshot.
 

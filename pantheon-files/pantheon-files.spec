@@ -1,4 +1,4 @@
-%define rev 2016
+%define rev 2019
 
 Summary: Pantheon file manager
 Name: pantheon-files
@@ -129,6 +129,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sat Dec 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2019-1
+- Update to new upstream snapshot.
+
+* Fri Dec 11 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2017-1
+- Update to new upstream snapshot.
+
 * Wed Dec 09 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2016-1
 - Update to new upstream snapshot.
 
