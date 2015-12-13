@@ -1,9 +1,9 @@
-%define rev 2019
+%define rev 2022
 
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.4~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -13,6 +13,7 @@ Source1: %{name}.conf
 BuildRequires: cmake
 BuildRequires: desktop-file-utils
 BuildRequires: gettext
+BuildRequires: libappstream-glib
 BuildRequires: vala
 
 BuildRequires: pkgconfig(dbus-glib-1)
@@ -67,7 +68,12 @@ This package contains the development headers.
 
 %check
 # this does fail spectacularly
-# desktop-file-validate $RPM_BUILD_ROOT/%%{_datadir}/applications/pantheon-files.desktop
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-files.desktop
+
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# Validation of files failed
 
 
 %clean
@@ -76,11 +82,23 @@ rm -rf $RPM_BUILD_ROOT
 
 %post
 /sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 %postun
 /sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+
+if [ $1 -eq 0 ] ; then
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+
+
+%post libs
+/sbin/ldconfig
+
+%postun libs
+/sbin/ldconfig
 
 
 %post devel
@@ -98,6 +116,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pantheon-files/
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 
+%{_datadir}/appdata/pantheon-files.appdata.xml
 %{_datadir}/applications/pantheon-files.desktop
 %{_datadir}/dbus-1/services/pantheon-files.service
 %{_datadir}/glib-2.0/schemas/org.pantheon.files.gschema.xml
@@ -129,6 +148,15 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2022-2
+- Disable appdata check for now.
+
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2022-1
+- Update to new upstream snapshot.
+
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2019-2
+- Add appdata file and check to spec.
+
 * Sat Dec 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2019-1
 - Update to new upstream snapshot.
 
