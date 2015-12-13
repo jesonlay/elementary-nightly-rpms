@@ -1,4 +1,4 @@
-%define rev 855
+%define rev 856
 
 Summary: The official elementary calendar
 Name: maya-calendar
@@ -13,6 +13,7 @@ Source1: %{name}.conf
 BuildRequires: cmake
 BuildRequires: desktop-file-utils
 BuildRequires: gettext
+BuildRequires: libappstream-glib
 BuildRequires: pkgconfig
 BuildRequires: vala
 
@@ -62,10 +63,22 @@ This package contains the development files.
 %make_install
 %find_lang maya-calendar
 
+# missing ";" at end of OnlyShowIn line
+# desktop-file-edit $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar-daemon.desktop --set-key="OnlyShowIn" --set-value="Pantheon;"
+
 
 %check
-#desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar.desktop
-#desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar-daemon.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar.desktop
+
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar-daemon.desktop
+# maya-calendar-daemon.desktop: warning: key "OnlyShowIn" is a list and does not have a semicolon as trailing character, fixing
+# maya-calendar-daemon.desktop: warning: key "Categories" is a list and does not have a semicolon as trailing character, fixing
+# maya-calendar-daemon.desktop: error: value "Pantheon;" for key "OnlyShowIn" in group "Desktop Entry" contains an unregistered value "Pantheon"; values extending the format should start with "X-"
+
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# appdata/maya-calendar.appdata.xml: FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# ? tag-invalid           : stock icon is not valid [office-calendar]
 
 
 %clean
@@ -74,7 +87,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %post
 /usr/sbin/ldconfig
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 %postun
 /usr/sbin/ldconfig
@@ -86,11 +98,8 @@ fi
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
-%post devel
-/usr/sbin/ldconfig
-
-%postun devel
-/usr/sbin/ldconfig
+%post devel -p /usr/sbin/ldconfig
+%postun devel -p /usr/sbin/ldconfig
 
 
 %files -f maya-calendar.lang
@@ -104,6 +113,7 @@ fi
 %{_libdir}/libmaya-calendar.so.0.1
 %{_libdir}/maya-calendar/
 
+%{_datadir}/appdata/maya-calendar.appdata.xml
 %{_datadir}/applications/maya-calendar.desktop
 %{_datadir}/applications/maya-calendar-daemon.desktop
 
@@ -123,6 +133,12 @@ fi
 
 
 %changelog
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev856-1
+- Update to new upstream snapshot.
+
+* Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev855-2
+- Add appdate file and check to spec.
+
 * Sat Dec 12 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev855-1
 - Update to new upstream snapshot.
 
