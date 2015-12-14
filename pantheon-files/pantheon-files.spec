@@ -1,9 +1,9 @@
-%define rev 2022
+%define rev 2023
 
 Summary: Pantheon file manager
 Name: pantheon-files
 Version: 0.2.4~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-files
 
@@ -148,6 +148,9 @@ fi
 
 
 %changelog
+* Mon Dec 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2023-1
+- Update to new upstream snapshot.
+
 * Sun Dec 13 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2022-2
 - Disable appdata check for now.
 
