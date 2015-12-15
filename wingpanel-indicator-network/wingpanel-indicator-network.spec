@@ -1,4 +1,4 @@
-%define rev 114
+%define rev 115
 %define debug_package %{nil}
 
 Summary: A network indicator for wingpanel
@@ -60,6 +60,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Dec 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev115-1
+- Update to new upstream snapshot.
+
 * Mon Dec 14 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev114-1
 - Update to new upstream snapshot.
 
