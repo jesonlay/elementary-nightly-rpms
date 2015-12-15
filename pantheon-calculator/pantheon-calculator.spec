@@ -3,21 +3,22 @@
 Summary: A tiny, simple calculator written in GTK+ and Vala.
 Name: pantheon-calculator
 Version: 0.1.0.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-calculator
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: cmake pkgconfig
-BuildRequires: vala gettext
+BuildRequires: cmake
+BuildRequires: desktop-file-utils
+BuildRequires: gettext
+BuildRequires: libappstream-glib
+BuildRequires: pkgconfig
+BuildRequires: vala
 
 BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gtk+-3.0) >= 3.11.6
-
-
-#Requires: contractor
 
 
 %description
@@ -38,15 +39,29 @@ A tiny, simple calculator written in GTK+ and Vala.
 %find_lang pantheon-calculator
 
 
+%check
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-calculator.desktop
+# error: file contains group "AboutDialog Shortcut Group", but groups extending the format should start with "X-"
+
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# FAILED:
+# ? tag-invalid           : <icon> not allowed in appdata
+# Validation of files failed
+
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 
 %post
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
 
 %postun
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files -f pantheon-calculator.lang
@@ -54,11 +69,16 @@ rm -rf $RPM_BUILD_ROOT
 %license COPYING
 
 %{_bindir}/pantheon-calculator
+
+%{_datadir}/appdata/pantheon-calculator.appdata.xml
 %{_datadir}/applications/pantheon-calculator.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.calculator.gschema.xml
 
 
 %changelog
+* Tue Dec 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev192-2
+- Add appdata file.
+
 * Tue Dec 15 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev192-1
 - Update to new upstream snapshot.
 
