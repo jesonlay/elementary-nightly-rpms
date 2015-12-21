@@ -1,9 +1,9 @@
-%define rev 1604
+%define rev 1607
 
 Summary: Scratch - the text editor that works.
 Name: scratch-text-editor
 Version: 2.2.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/scratch
 
@@ -24,6 +24,7 @@ BuildRequires: pkgconfig(gobject-2.0)
 BuildRequires: pkgconfig(granite) >= 0.3.0
 BuildRequires: pkgconfig(gthread-2.0)
 BuildRequires: pkgconfig(gtksourceview-3.0) >= 3.10
+BuildRequires: pkgconfig(gtkspell3-3.0)
 BuildRequires: pkgconfig(gtk+-3.0) >= 3.10
 BuildRequires: pkgconfig(libpeas-1.0)
 BuildRequires: pkgconfig(libpeas-gtk-1.0)
@@ -106,11 +107,11 @@ rm -rf $RPM_BUILD_ROOT
 /sbin/ldconfig
 
 if [ $1 -eq 0 ] ; then
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 fi
 
 %posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %post devel -p /sbin/ldconfig
@@ -130,6 +131,7 @@ fi
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.gschema.xml
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.file-manager.gschema.xml
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.folder-manager.gschema.xml
+%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.spell.gschema.xml
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.terminal.gschema.xml
 
 %{_datadir}/scratch/
@@ -146,6 +148,16 @@ fi
 
 
 %changelog
+* Mon Dec 21 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1607-2
+- Add BR: pkgconfig(gtkspell3-3.0), enable spell checking support, fix build by
+  including new gschema file.
+
+* Mon Dec 21 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1607-1
+- Update to new upstream snapshot.
+
+* Sun Dec 20 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1606-1
+- Update to new upstream snapshot.
+
 * Fri Dec 18 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1604-1
 - Update to new upstream snapshot.
 
