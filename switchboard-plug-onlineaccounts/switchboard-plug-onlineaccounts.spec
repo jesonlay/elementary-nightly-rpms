@@ -4,7 +4,7 @@
 Summary: Switchboard System Settings Online Accounts Plug
 Name: switchboard-plug-onlineaccounts
 Version: 0.2.0~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/switchboard-plug-onlineaccounts
 
@@ -92,18 +92,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/pantheon-online-accounts/
 %{_libdir}/switchboard/network/pantheon-online-accounts/
 
-%{_datadir}/accounts/
-
-%{_datadir}/applications/pantheon-plug-onlineaccounts.desktop
+%{_datadir}/accounts/providers/*
+%{_datadir}/accounts/services/*
 %{_datadir}/dbus-1/services/com.google.code.AccountsSSO.gSingleSignOnUI.service
 
-%{_datadir}/icons/hicolor/scalable/apps/facebook.svg
-%{_datadir}/icons/hicolor/scalable/apps/fastmail.svg
-%{_datadir}/icons/hicolor/scalable/apps/google.svg
-%{_datadir}/icons/hicolor/scalable/apps/microsoft.svg
-%{_datadir}/icons/hicolor/scalable/apps/yahoo.svg
-
-
+%{_datadir}/icons/hicolor/scalable/apps/*
 
 %files devel
 %{_includedir}/pantheon-online-accounts/
@@ -115,6 +108,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Dec 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev244-2
+- Fix build, desktop file got removed.
+
 * Tue Dec 22 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.0~rev244-1
 - Update to new upstream snapshot.
 
