@@ -1,10 +1,10 @@
-%define rev ccbb6376
-%define date 150920
+%define rev 579437d5
+%define date 151223
 
 Summary: GLib-based client library for Online Accounts Single Sign-On service
 Name: libgsignon-glib
 Version: 2.4.0~git%{date}~%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1
 URL: https://01.org/gSSO
 
@@ -81,6 +81,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Wed Dec 23 2015 Fabio Valentini <decathorpe@gmail.com> - 2.4.0~git151223~579437d5-1
+- Update to new upstream snapshot.
+
 * Sat Sep 19 2015 Fabio Valentini <decathorpe@gmail.com> - 2.4.0~git150919~ccbb6376-1
 - Update to git snapshot of 2.4.0.
 
