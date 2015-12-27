@@ -1,4 +1,4 @@
-%define rev 798
+%define rev 799
 
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
@@ -87,6 +87,9 @@ fi
 
 
 %changelog
+* Sun Dec 27 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev799-1
+- Update to new upstream snapshot.
+
 * Wed Dec 16 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev798-1
 - Update to new upstream snapshot.
 
