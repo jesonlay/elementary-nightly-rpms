@@ -1,4 +1,4 @@
-%define rev 1472
+%define rev 1474
 
 Summary: Stupidly simple Dock
 Name: plank
@@ -131,6 +131,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Jan 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.10.9~rev1474-1
+- Update to new upstream snapshot.
+
 * Sun Jan 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.10.9~rev1472-1
 - Update to new upstream snapshot.
 
