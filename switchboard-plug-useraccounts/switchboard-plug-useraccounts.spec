@@ -1,4 +1,4 @@
-%define rev 213
+%define rev 214
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings User Accounts Plug
@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Jan 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev214-1
+- Update to new upstream snapshot.
+
 * Mon Dec 28 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev213-1
 - Update to new upstream snapshot.
 
