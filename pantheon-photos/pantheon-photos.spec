@@ -3,15 +3,14 @@
 Summary: The elementary continuation of Shotwell
 Name: pantheon-photos
 Version: 0.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-photos
 
 Source0: %{name}-%{version}.tar.gz
 Source1: %{name}.conf
 
-BuildRequires: autoconf
-BuildRequires: automake
+BuildRequires: cmake
 BuildRequires: desktop-file-utils
 BuildRequires: gettext
 BuildRequires: libappstream-glib
@@ -35,7 +34,7 @@ BuildRequires: pkgconfig(libsoup-2.4)
 BuildRequires: pkgconfig(libxml-2.0)
 BuildRequires: pkgconfig(rest-0.7)
 BuildRequires: pkgconfig(sqlite3)
-BuildRequires: pkgconfig(webkitgtk-3.0)
+BuildRequires: pkgconfig(webkit2gtk-4.0) >= 2.0.0
 
 
 %description
@@ -59,7 +58,7 @@ This package contains the development headers.
 
 
 %build
-./configure --prefix=/usr --libdir=%{_lib} --install-headers
+%cmake
 %make_build
 
 
@@ -123,6 +122,9 @@ fi
 
 
 %changelog
+* Fri Jan 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2882-2
+- Switch to CMake build.
+
 * Fri Jan 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2882-1
 - Update to new upstream snapshot.
 
