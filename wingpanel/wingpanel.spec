@@ -1,4 +1,4 @@
-%define rev 99
+%define rev 100
 
 Summary: Stylish top panel that holds indicators and spawns an application launcher
 Name: wingpanel
@@ -96,6 +96,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Jan 19 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev100-1
+- Update to new upstream snapshot.
+
 * Sun Jan 17 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0~rev99-1
 - Update to new upstream snapshot.
 
