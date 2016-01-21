@@ -1,4 +1,4 @@
-%define rev 207
+%define rev 208
 %define debug_package %{nil}
 
 Summary: Switchboard System Settings Networking Plug
@@ -58,6 +58,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Thu Jan 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev208-1
+- Update to new upstream snapshot.
+
 * Tue Jan 19 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev207-1
 - Update to new upstream snapshot.
 
