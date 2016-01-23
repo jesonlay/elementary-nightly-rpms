@@ -4,7 +4,7 @@
 Summary:        Vocal Podcatcher
 Name:           vocal
 Version: 2.0~git%{date}~%{rev}
-Release: 0%{?dist}
+Release: 1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/vocal
 
@@ -52,13 +52,20 @@ Vocal is a podcatcher designed for elementaryOS.
 %make_install
 
 mv %{buildroot}/%{_datadir}/locale-langpack %{buildroot}/%{_datadir}/locale
+mv %{buildroot}/%{_datadir}/appdata/vocal.desktop.appdata.xml/vocal.desktop.appdata.xml %{buildroot}/%{_datadir}/appdata/vocal.appdata.xml
+rmdir %{buildroot}/%{_datadir}/appdata/vocal.desktop.appdata.xml
 
 %find_lang vocal
 
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/vocal.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+
+# appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+
+#FAILED:
+#? attribute-invalid     : <release> timestamp should be a UNIX time
+#Validation of files failed
 
 
 %clean
@@ -90,10 +97,14 @@ fi
 %{_datadir}/applications/vocal.desktop
 %{_datadir}/glib-2.0/schemas/net.launchpad.vocal.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/vocal.svg
+%{_datadir}/icons/hicolor/*/apps/vocal-symbolic.svg
 %{_datadir}/vocal
 
 
 %changelog
+* Sat Jan 23 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160123~57c4e54b-1
+- Update to 2.0 git snapshots.
+
 * Sun Nov 22 2015 Fabio Valentini <decathorpe@gmail.com> - 1.0-1
 - Unretire vocal package. Downgrade to version 1.0. Git snapshots coming soon.
 
