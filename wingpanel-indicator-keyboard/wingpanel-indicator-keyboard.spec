@@ -1,4 +1,4 @@
-%define rev 21
+%define rev 22
 %define debug_package %{nil}
 
 Summary: A keyboard indicator for wingpanel
@@ -54,6 +54,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Jan 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev22-1
+- Update to new upstream snapshot.
+
 * Sun Jan 17 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev21-1
 - Update to new upstream snapshot.
 
