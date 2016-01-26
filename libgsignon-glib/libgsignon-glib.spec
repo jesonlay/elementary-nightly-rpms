@@ -1,5 +1,5 @@
-%define rev 579437d5
-%define date 151223
+%define rev a10da269
+%define date 160126
 
 Summary: GLib-based client library for Online Accounts Single Sign-On service
 Name: libgsignon-glib
@@ -81,6 +81,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Jan 26 2016 Fabio Valentini <decathorpe@gmail.com> - 2.4.0~git160126~a10da269-1
+- Update to new upstream snapshot.
+
 * Wed Dec 23 2015 Fabio Valentini <decathorpe@gmail.com> - 2.4.0~git151223~579437d5-1
 - Update to new upstream snapshot.
 
