@@ -1,47 +1,48 @@
 %define rev 1890
 
-Summary: Noise audio player
-Name: noise
+Summary:        Noise audio player
+Name:           noise
 Version: 0.3.1~rev%{rev}
-Release: 1%{?dist}
-License: GPLv3
-URL: http://launchpad.net/noise
+Release: 2%{?dist}
+License:        GPLv3
+URL:            http://launchpad.net/noise
 
-Source0: %{name}-%{version}.tar.gz
-Source1: %{name}.conf
+Source0:        %{name}-%{version}.tar.gz
+Source1:        %{name}.conf
 
-BuildRequires: cmake
-BuildRequires: desktop-file-utils
-BuildRequires: gettext
-BuildRequires: libappstream-glib
-BuildRequires: pkgconfig
-BuildRequires: vala
+BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
+BuildRequires:  gettext
+BuildRequires:  intltool
+BuildRequires:  libappstream-glib
+BuildRequires:  pkgconfig
+BuildRequires:  vala
 
-BuildRequires: pkgconfig(gee-0.8)
-BuildRequires: pkgconfig(gio-2.0)
-BuildRequires: pkgconfig(glib-2.0) >= 2.32
-BuildRequires: pkgconfig(granite)
-BuildRequires: pkgconfig(gstreamer-1.0)
-BuildRequires: pkgconfig(gstreamer-pbutils-1.0)
-BuildRequires: pkgconfig(gstreamer-tag-1.0)
-BuildRequires: pkgconfig(gtk+-3.0) >= 3.11.6
-BuildRequires: pkgconfig(libgda-5.0)
-BuildRequires: pkgconfig(libnotify)
-BuildRequires: pkgconfig(libpeas-1.0)
-BuildRequires: pkgconfig(libpeas-gtk-1.0)
-BuildRequires: pkgconfig(taglib_c)
-BuildRequires: pkgconfig(zeitgeist-2.0)
+BuildRequires:  pkgconfig(gee-0.8)
+BuildRequires:  pkgconfig(gio-2.0)
+BuildRequires:  pkgconfig(glib-2.0) >= 2.32
+BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(gstreamer-1.0)
+BuildRequires:  pkgconfig(gstreamer-pbutils-1.0)
+BuildRequires:  pkgconfig(gstreamer-tag-1.0)
+BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
+BuildRequires:  pkgconfig(libgda-5.0)
+BuildRequires:  pkgconfig(libnotify)
+BuildRequires:  pkgconfig(libpeas-1.0)
+BuildRequires:  pkgconfig(libpeas-gtk-1.0)
+BuildRequires:  pkgconfig(taglib_c)
+BuildRequires:  pkgconfig(zeitgeist-2.0)
 
-Requires: libgda-sqlite
+Requires:       libgda-sqlite
 
 
 %description
 The official elementary music player.
 
 
-%package devel
-Summary: noise development headers
-%description devel
+%package        devel
+Summary:        noise development headers
+%description    devel
 The official elementary music player. This package contains the development headers.
 
 
@@ -60,7 +61,16 @@ The official elementary music player. This package contains the development head
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
+
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "Noise;Audio;Player;MP3;iPod;Play;Playlist;Media;CD;Phone;Songs;Abspielen; Musik; Lied; St?ck" for locale string list key "Keywords[de]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "Noise;Audio;Player;MP3;iPod;Play;Playlist;Media;CD;Phone;Songs;Esitaja;Esita;Meedia;Esitusloend;Muusika;Mobla;Mobiiltelefon;Laulud" for locale string list key "Keywords[et]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "Noise;???;??????;MP3;??????;???;?????-?????;????;CD;??????;?????" for locale string list key "Keywords[he]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "zvuk;audio;svira?;mp3;iPod;play;playlist;medij,CD,mobilni,pijesme" for locale string list key "Keywords[hr]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "Noise;Muziek;Speler;Audio;MP3;iPod;Afspeellijst;Speel;Media;CD;Telefoon;Liedjes" for locale string list key "Keywords[nl]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "Noise;Audio;Player;MP3;iPod;Redare;List? de redare;Media;CD;Telefon;Melodii" for locale string list key "Keywords[ro]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "Noise;Audio;Predvajalnik;Glasba;MP3;iPod;Igraj;Media;CD;Play;Phone;Songs;Pesmi" for locale string list key "Keywords[sl]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+#/builddir/build/BUILDROOT/noise-0.3.1~rev1890-2.fc23.x86_64//usr/share/applications/noise.desktop: error: value "??????;?????;??????;??3;????;?????;?????;?????;??;???????;?????" for locale string list key "Keywords[sr]" in group "Desktop Entry" does not have a semicolon (';') as trailing character
 
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 # FAILED:
@@ -115,6 +125,9 @@ fi
 
 
 %changelog
+* Tue Jan 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1890-2
+- Add BR:intltool to fix build. Clean up spec.
+
 * Sun Jan 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1890-1
 - Update to new upstream snapshot.
 
