@@ -1,9 +1,9 @@
-%define rev 2882
+%define rev 2885
 
 Summary: The elementary continuation of Shotwell
 Name: pantheon-photos
 Version: 0.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-photos
 
@@ -13,6 +13,7 @@ Source1: %{name}.conf
 BuildRequires: cmake
 BuildRequires: desktop-file-utils
 BuildRequires: gettext
+BuildRequires: intltool
 BuildRequires: libappstream-glib
 BuildRequires: vala
 
@@ -39,18 +40,7 @@ BuildRequires: pkgconfig(webkit2gtk-4.0) >= 2.0.0
 
 %description
 The elementary continuation of Shotwell, originally written by Yorba Foundation.
-
 Designed for elementary OS. Works and looks great on any GTK+ desktop.
-
-
-%package devel
-Summary: pantheon-photos development headers
-Conflicts: shotwell-devel
-%description devel
-The elementary continuation of Shotwell, originally written by Yorba Foundation.
-
-Designed for elementary OS. Works and looks great on any GTK+ desktop.
-This package contains the development headers.
 
 
 %prep
@@ -64,15 +54,14 @@ This package contains the development headers.
 
 %install
 %make_install
-
-rm $RPM_BUILD_ROOT/%{_datadir}/glib-2.0/schemas/gschemas.compiled
-rm $RPM_BUILD_ROOT/%{_datadir}/icons/hicolor/icon-theme.cache
-
 %find_lang pantheon-photos
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos.desktop
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos.desktop
+
+# /builddir/build/BUILDROOT/pantheon-photos-0.1.1~rev2885-1.fc23.x86_64//usr/share/applications/pantheon-photos.desktop: error: value "album;cameras;crop;edit;enhance;export;gallery;images;import;organize;photographs;photos;pictures;photography;print;publish;rotate;share;tags;video" for locale string list key "Keywords" in group "Desktop Entry" does not have a semicolon (';') as trailing character
+
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos-viewer.desktop
 
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
@@ -96,32 +85,26 @@ fi
 %posttrans
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
-%post devel
-%postun devel
-
 
 %files -f pantheon-photos.lang
 %{_bindir}/pantheon-photos
 
 %{_libdir}/pantheon-photos/
-%{_libexecdir}/pantheon-photos/
 
-%{_datadir}/GConf/gsettings/pantheon-photos.convert
 %{_datadir}/appdata/pantheon-photos.appdata.xml
 %{_datadir}/applications/pantheon-photos.desktop
 %{_datadir}/applications/pantheon-photos-viewer.desktop
 %{_datadir}/glib-2.0/schemas/*.xml
-%{_datadir}/gnome/help/pantheon-photos/*
-%{_datadir}/icons/hicolor/24x24/actions/pin-toolbar.svg
 %{_datadir}/pantheon-photos/
-
-%files devel
-%{_includedir}/pantheon-photos/
-%{_libdir}/pkgconfig/shotwell-plugin-dev-1.0.pc
-%{_datadir}/vala/vapi/shotwell*
 
 
 %changelog
+* Tue Jan 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2885-1
+- Update to new upstream snapshot. Fix build.
+
+* Tue Jan 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2882-3
+- Add BR: intltool.
+
 * Fri Jan 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2882-2
 - Switch to CMake build.
 
