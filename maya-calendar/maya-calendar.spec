@@ -1,9 +1,9 @@
-%define rev 875
+%define rev 876
 
 Summary: The official elementary calendar
 Name: maya-calendar
 Version: 0.3.1.1~rev%{rev}
-Release: 2%{?dist}
+Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/maya
 
@@ -132,6 +132,9 @@ fi
 
 
 %changelog
+* Wed Jan 27 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev876-1
+- Update to new upstream snapshot.
+
 * Tue Jan 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev875-2
 - Add BR: intltool. Remove no longer included files.
 
