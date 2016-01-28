@@ -3,7 +3,7 @@
 Summary: The official elementary calendar
 Name: maya-calendar
 Version: 0.3.1.1~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/maya
 
@@ -69,7 +69,7 @@ This package contains the development files.
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar.desktop
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar.desktop
 
 # desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar-daemon.desktop
 # maya-calendar-daemon.desktop: warning: key "OnlyShowIn" is a list and does not have a semicolon as trailing character, fixing
@@ -132,6 +132,9 @@ fi
 
 
 %changelog
+* Wed Jan 27 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev876-2
+- Disable desktop file validation.
+
 * Wed Jan 27 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev876-1
 - Update to new upstream snapshot.
 
