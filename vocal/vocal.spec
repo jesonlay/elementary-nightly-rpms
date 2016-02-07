@@ -1,5 +1,5 @@
-%define date 160123
-%define rev 57c4e54b
+%define date 160207
+%define rev ae1f0d39
 
 Summary:        Vocal Podcatcher
 Name:           vocal
@@ -102,6 +102,9 @@ fi
 
 
 %changelog
+* Sun Feb 07 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160207~ae1f0d39-1
+- Update to new upstream snapshot.
+
 * Sat Jan 23 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160123~57c4e54b-1
 - Update to 2.0 git snapshots.
 
