@@ -1,4 +1,4 @@
-%define rev 2054
+%define rev 2056
 
 Summary: Pantheon file manager
 Name: pantheon-files
@@ -148,6 +148,9 @@ fi
 
 
 %changelog
+* Thu Feb 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2056-1
+- Update to new upstream snapshot.
+
 * Wed Feb 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2054-1
 - Update to new upstream snapshot.
 
