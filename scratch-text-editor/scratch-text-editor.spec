@@ -1,4 +1,4 @@
-%define rev 1627
+%define rev 1629
 
 Summary: Scratch - the text editor that works.
 Name: scratch-text-editor
@@ -148,6 +148,9 @@ fi
 
 
 %changelog
+* Sat Feb 13 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1629-1
+- Update to new upstream snapshot.
+
 * Thu Feb 11 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1627-1
 - Update to new upstream snapshot.
 
