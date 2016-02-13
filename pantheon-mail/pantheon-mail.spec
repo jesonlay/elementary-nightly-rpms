@@ -3,7 +3,7 @@
 Summary: Mail is an email client for elementary OS
 Name: pantheon-mail
 Version: 1.0.0~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-mail
 
@@ -27,6 +27,7 @@ BuildRequires: pkgconfig(glib-2.0) >= 2.34.0
 BuildRequires: pkgconfig(gmime-2.6) >= 2.6.14
 BuildRequires: pkgconfig(gmodule-2.0)
 BuildRequires: pkgconfig(gobject-introspection-1.0)
+BuildRequires: pkgconfig(granite)
 BuildRequires: pkgconfig(gthread-2.0)
 BuildRequires: pkgconfig(gtk+-3.0) >= 3.10.0
 BuildRequires: pkgconfig(libcanberra) >= 0.28
@@ -100,6 +101,9 @@ fi
 
 
 %changelog
+* Sat Feb 13 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1969-2
+- Add BR: granite-devel.
+
 * Sat Feb 13 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1969-1
 - Update to new upstream snapshot.
 
