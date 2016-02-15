@@ -1,5 +1,5 @@
-%define date 160207
-%define rev ae1f0d39
+%define date 160215
+%define rev c43321eb
 
 Summary:        Vocal Podcatcher
 Name:           vocal
@@ -52,8 +52,6 @@ Vocal is a podcatcher designed for elementaryOS.
 %make_install
 
 mv %{buildroot}/%{_datadir}/locale-langpack %{buildroot}/%{_datadir}/locale
-mv %{buildroot}/%{_datadir}/appdata/vocal.desktop.appdata.xml/vocal.desktop.appdata.xml %{buildroot}/%{_datadir}/appdata/vocal.appdata.xml
-rmdir %{buildroot}/%{_datadir}/appdata/vocal.desktop.appdata.xml
 
 %find_lang vocal
 
@@ -102,6 +100,9 @@ fi
 
 
 %changelog
+* Mon Feb 15 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160215~c43321eb-1
+- Update to new upstream snapshot.
+
 * Sun Feb 07 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160207~ae1f0d39-1
 - Update to new upstream snapshot.
 
