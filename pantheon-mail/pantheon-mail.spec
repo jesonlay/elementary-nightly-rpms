@@ -3,7 +3,7 @@
 Summary: Mail is an email client for elementary OS
 Name: pantheon-mail
 Version: 1.0.0~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: LGPLv2.1
 URL: http://launchpad.net/pantheon-mail
 
@@ -38,7 +38,6 @@ BuildRequires: pkgconfig(pango) >= 1.1.2
 BuildRequires: pkgconfig(sqlite3) >= 3.7.4
 BuildRequires: pkgconfig(webkitgtk-3.0) >= 2.3.0
 
-Conflicts: geary
 Requires: contractor
 
 
@@ -59,7 +58,7 @@ Originally written by Yorba (yorba.org)
 
 %install
 %make_install
-%find_lang geary
+%find_lang pantheon-mail
 
 
 %check
@@ -87,20 +86,23 @@ fi
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
-%files -f geary.lang
-%{_bindir}/geary
+%files -f pantheon-mail.lang
+%{_bindir}/pantheon-mail
 %{_bindir}/mail-attach
 
 %{_datadir}/appdata/pantheon-mail.appdata.xml
 %{_datadir}/applications/pantheon-mail.desktop
 %{_datadir}/applications/pantheon-mail-autostart.desktop
 %{_datadir}/contractor/mail-attach.contract
-%{_datadir}/geary/
-%{_datadir}/glib-2.0/schemas/*.xml
-%{_datadir}/icons/hicolor/scalable/actions/*.svg
+%{_datadir}/glib-2.0/schemas/org.pantheon.mail.gschema.xml
+%{_datadir}/pantheon-mail/
 
 
 %changelog
+* Thu Feb 18 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1974-2
+- Update packaging to fix build.
+- Remove Conflicts: geary.
+
 * Thu Feb 18 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev1974-1
 - Update to new upstream snapshot.
 
