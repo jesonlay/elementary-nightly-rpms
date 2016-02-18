@@ -1,8 +1,8 @@
-%define rev 811
+%define rev 812
 
 Summary: The terminal of the 21st century.
 Name: pantheon-terminal
-Version: 0.3.1.3~rev%{rev}
+Version: 0.4~rev%{rev}
 Release: 1%{?dist}
 License: GPLv3
 URL: http://launchpad.net/pantheon-terminal
@@ -87,6 +87,9 @@ fi
 
 
 %changelog
+* Thu Feb 18 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev812-1
+- Update to new upstream snapshot.
+
 * Tue Feb 02 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev811-1
 - Update to new upstream snapshot.
 
