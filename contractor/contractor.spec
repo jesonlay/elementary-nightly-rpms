@@ -1,4 +1,4 @@
-%define rev 137
+%define rev 138
 
 Summary: Desktop-wide extension service
 Name: contractor
@@ -56,6 +56,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Feb 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev138-1
+- Update to new upstream snapshot.
+
 * Mon Sep 21 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev137-1
 - Update to new upstream snapshot.
 
