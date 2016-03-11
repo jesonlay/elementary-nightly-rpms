@@ -4,14 +4,14 @@
 Summary:        Vocal Podcatcher
 Name:           vocal
 Version: 2.0~git%{date}~%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/vocal
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
-Patch0:         00-webkitdeps.patch
+# Patch0:         00-webkitdeps.patch
 
 BuildRequires:  cmake pkgconfig
 BuildRequires:  vala gettext
@@ -100,6 +100,9 @@ fi
 
 
 %changelog
+* Fri Mar 11 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160311~13a99508-2
+- Remove patch.
+
 * Fri Mar 11 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160311~13a99508-1
 - Update to new upstream snapshot.
 
