@@ -1,23 +1,24 @@
-%define date 160311
+%define date 160313
 %define rev 13a99508
 
 Summary:        Vocal Podcatcher
 Name:           vocal
 Version: 2.0~git%{date}~%{rev}
-Release: 2%{?dist}
+Release: 3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/vocal
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
-# Patch0:         00-webkitdeps.patch
+Patch0:         00-webkitdeps.patch
 
 BuildRequires:  cmake pkgconfig
 BuildRequires:  vala gettext
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
 
+BuildRequires:  pkgconfig(clutter-gst-3.0)
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
@@ -100,11 +101,11 @@ fi
 
 
 %changelog
-* Fri Mar 11 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160311~13a99508-2
-- Remove patch.
+* Sun Mar 13 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160313~13a99508-3
+- Add BR: clutter-gst-3.0.
 
-* Fri Mar 11 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160311~13a99508-1
-- Update to new upstream snapshot.
+* Sun Mar 13 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160308~a5b01d25-2
+- Renew patch for webkitgtk2-4.0
 
 * Tue Mar 08 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160308~a5b01d25-1
 - Update to new upstream snapshot.
