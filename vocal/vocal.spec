@@ -1,10 +1,10 @@
-%define date 160313
-%define rev 13a99508
+%define date 160325
+%define rev 98398fff
 
 Summary:        Vocal Podcatcher
 Name:           vocal
 Version: 2.0~git%{date}~%{rev}
-Release: 3%{?dist}
+Release: 1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/vocal
 
@@ -101,6 +101,9 @@ fi
 
 
 %changelog
+* Fri Mar 25 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160325~98398fff-1
+- Update to new upstream snapshot.
+
 * Sun Mar 13 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160313~13a99508-3
 - Add BR: clutter-gst-3.0.
 
