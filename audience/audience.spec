@@ -1,4 +1,4 @@
-%define rev 576
+%define rev 578
 
 Summary: Audience video player
 Name: audience
@@ -80,6 +80,9 @@ fi
 
 
 %changelog
+* Wed Apr 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev578-1
+- Update to new upstream snapshot.
+
 * Sat Apr 02 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev576-1
 - Update to new upstream snapshot.
 
