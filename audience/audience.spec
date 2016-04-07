@@ -3,7 +3,7 @@
 Summary: Audience video player
 Name: audience
 Version: 0.1.0.2~rev%{rev}
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: http://launchpad.net/audience
 
@@ -17,12 +17,14 @@ BuildRequires: libappstream-glib
 BuildRequires: pkgconfig
 BuildRequires: vala
 
+BuildRequires: pkgconfig(clutter-gst-3.0)
 BuildRequires: pkgconfig(clutter-gtk-1.0)
 BuildRequires: pkgconfig(glib-2.0)
-BuildRequires: pkgconfig(granite)
+BuildRequires: pkgconfig(granite) >= 0.3.0
 BuildRequires: pkgconfig(gstreamer-1.0)
 BuildRequires: pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires: pkgconfig(gstreamer-tag-1.0)
+BuildRequires: pkgconfig(gstreamer-video-1.0)
 BuildRequires: pkgconfig(gtk+-3.0)
 BuildRequires: pkgconfig(libnotify)
 
@@ -80,6 +82,9 @@ fi
 
 
 %changelog
+* Wed Apr 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev578-2
+- Add BR: clutter-gst-3.0.
+
 * Wed Apr 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev578-1
 - Update to new upstream snapshot.
 
