@@ -1,4 +1,4 @@
-%define rev 2032
+%define rev 2034
 
 Summary: Mail is an email client for elementary OS
 Name: pantheon-mail
@@ -99,6 +99,9 @@ fi
 
 
 %changelog
+* Sun Apr 10 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev2034-1
+- Update to new upstream snapshot.
+
 * Thu Apr 07 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev2032-1
 - Update to new upstream snapshot.
 
