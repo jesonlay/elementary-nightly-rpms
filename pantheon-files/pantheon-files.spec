@@ -1,9 +1,9 @@
-%define rev 2107
+%define rev 2109
 
 Summary:		Pantheon file manager
 Name:			pantheon-files
-Version:		0.2.4~rev%{rev}
-Release:		2%{?dist}
+Version: 0.2.4~rev%{rev}
+Release: 1%{?dist}
 License:		GPLv3
 URL:			http://launchpad.net/pantheon-files
 
@@ -149,6 +149,9 @@ fi
 
 
 %changelog
+* Wed Apr 13 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2109-1
+- Update to new upstream snapshot.
+
 * Sun Apr 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2107-2
 - Add BR: libcanberra.
 
