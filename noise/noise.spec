@@ -1,4 +1,4 @@
-%define rev 1916
+%define rev 1917
 
 Summary:        Noise audio player
 Name:           noise
@@ -125,6 +125,9 @@ fi
 
 
 %changelog
+* Sun Apr 17 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1917-1
+- Update to new upstream snapshot.
+
 * Thu Mar 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1916-1
 - Update to new upstream snapshot.
 
