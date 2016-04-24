@@ -1,4 +1,4 @@
-%define rev 897
+%define rev 898
 
 Summary: The official elementary calendar
 Name: maya-calendar
@@ -132,6 +132,9 @@ fi
 
 
 %changelog
+* Sun Apr 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev898-1
+- Update to new upstream snapshot.
+
 * Thu Apr 14 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev897-1
 - Update to new upstream snapshot.
 
