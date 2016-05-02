@@ -73,13 +73,18 @@ This package contains the development files.
 rm -rf %{buildroot}/RPM_BUILD_ROOT
 
 
-%post -p /sbin/ldconfig
+%post
+/sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
+
 
 %postun
-/usr/sbin/ldconfig
+/sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 fi
+
 
 %posttrans
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
