@@ -56,10 +56,12 @@ rm -rf %{buildroot}
 
 %post
 /sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
 /sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
@@ -70,6 +72,9 @@ fi
 
 
 %files -f granite.lang
+%doc AUTHORS README
+%license COPYING
+
 %{_libdir}/libgranite.so.3
 %{_libdir}/libgranite.so.3.0.1
 %{_libdir}/girepository-1.0/Granite-1.0.typelib
