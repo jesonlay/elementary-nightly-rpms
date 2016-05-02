@@ -1,23 +1,22 @@
-%define rev 940
+Summary:        Granite Toolkit
+Name:           granite
+Version:        0.3.1~rev%{rev}
+Release:        1%{?dist}
+License:        LGPLv3
+URL:            http://launchpad.net/granite
 
-Summary: Granite Toolkit
-Name: granite
-Version: 0.3.1~rev%{rev}
-Release: 1%{?dist}
-License: LGPLv3
-URL: http://launchpad.net/granite
+Source0:        %{name}-%{version}.tar.gz
+Source1:        %{name}.conf
 
-Source0: %{name}-%{version}.tar.gz
-Source1: %{name}.conf
+BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
+BuildRequires:  gettext
+BuildRequires:  vala
 
-BuildRequires: cmake
-BuildRequires: vala gettext
-BuildRequires: desktop-file-utils
-
-BuildRequires: pkgconfig(gee-0.8)
-BuildRequires: pkgconfig(glib-2.0)
-BuildRequires: pkgconfig(gtk+-3.0)
-BuildRequires: pkgconfig(gobject-introspection-1.0)
+BuildRequires:  pkgconfig(gee-0.8)
+BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(gobject-introspection-1.0)
 
 Requires: hicolor-icon-theme
 
@@ -29,56 +28,69 @@ Granite is a library of toolkit addons to GTK+ and is part of the elementary pro
 %package devel
 Summary: Granite Toolkit development headers
 %description devel
-Granite Toolkit development headers
+Granite is a library of toolkit addons to GTK+ and is part of the elementary project.
+This package contains files needed for developing with granite.
 
 
 %prep
-%setup -q
+%autosetup
 
 
 %build
 %cmake
+%make_build
 
 
 %install
-make install DESTDIR=$RPM_BUILD_ROOT
+%make_install
 %find_lang granite
 
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/granite-demo.desktop
+
+%check
+desktop-file-validate %{buildroot}/%{_datadir}/applications/granite-demo.desktop
 
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
 %post
 /sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
 /sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files -f granite.lang
+%doc AUTHORS README
+%license COPYING
+
 %{_libdir}/libgranite.so.3
 %{_libdir}/libgranite.so.3.0.1
 %{_libdir}/girepository-1.0/Granite-1.0.typelib
 
-%{_datadir}/icons/hicolor/16x16/actions/appointment.svg
-%{_datadir}/icons/hicolor/16x16/actions/open-menu.svg
-%{_datadir}/icons/hicolor/22x22/actions/open-menu.svg
-%{_datadir}/icons/hicolor/24x24/actions/appointment.svg
-%{_datadir}/icons/hicolor/24x24/actions/open-menu.svg
-%{_datadir}/icons/hicolor/32x32/actions/open-menu.svg
-%{_datadir}/icons/hicolor/48x48/actions/open-menu.svg
+%{_datadir}/icons/hicolor/*/actions/appointment.svg
+%{_datadir}/icons/hicolor/*/actions/open-menu.svg
 %{_datadir}/icons/hicolor/scalable/actions/open-menu-symbolic.svg
 
 
 %files devel
 %{_bindir}/granite-demo
+
 %{_libdir}/libgranite.so
 %{_libdir}/pkgconfig/granite.pc
 
-%{_includedir}/granite
+%{_includedir}/granite/
 
 %{_datadir}/applications/granite-demo.desktop
 %{_datadir}/gir-1.0/Granite-1.0.gir

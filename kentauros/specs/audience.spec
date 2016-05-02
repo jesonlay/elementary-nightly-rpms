@@ -1,32 +1,30 @@
-%define rev 580
+Summary:        Audience video player
+Name:           audience
+Version:        0.1.0.2~rev%{rev}
+Release:        1%{?dist}
+License:        GPLv3
+URL:            http://launchpad.net/audience
 
-Summary: Audience video player
-Name: audience
-Version: 0.1.0.2~rev%{rev}
-Release: 1%{?dist}
-License: GPLv3
-URL: http://launchpad.net/audience
+Source0:        %{name}-%{version}.tar.gz
+Source1:        %{name}.conf
 
-Source0: %{name}-%{version}.tar.gz
-Source1: %{name}.conf
+BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
+BuildRequires:  gettext
+BuildRequires:  libappstream-glib
+BuildRequires:  pkgconfig
+BuildRequires:  vala
 
-BuildRequires: cmake
-BuildRequires: desktop-file-utils
-BuildRequires: gettext
-BuildRequires: libappstream-glib
-BuildRequires: pkgconfig
-BuildRequires: vala
-
-BuildRequires: pkgconfig(clutter-gst-3.0)
-BuildRequires: pkgconfig(clutter-gtk-1.0)
-BuildRequires: pkgconfig(glib-2.0)
-BuildRequires: pkgconfig(granite) >= 0.3.0
-BuildRequires: pkgconfig(gstreamer-1.0)
-BuildRequires: pkgconfig(gstreamer-pbutils-1.0)
-BuildRequires: pkgconfig(gstreamer-tag-1.0)
-BuildRequires: pkgconfig(gstreamer-video-1.0)
-BuildRequires: pkgconfig(gtk+-3.0)
-BuildRequires: pkgconfig(libnotify)
+BuildRequires:  pkgconfig(clutter-gst-3.0)
+BuildRequires:  pkgconfig(clutter-gtk-1.0)
+BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(granite) >= 0.3.0
+BuildRequires:  pkgconfig(gstreamer-1.0)
+BuildRequires:  pkgconfig(gstreamer-pbutils-1.0)
+BuildRequires:  pkgconfig(gstreamer-tag-1.0)
+BuildRequires:  pkgconfig(gstreamer-video-1.0)
+BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(libnotify)
 
 
 %description
@@ -48,29 +46,27 @@ A modern video player that brings the lessons learned from the web home to the d
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/audience.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/audience.desktop
 
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
-# FAILED:
-# ? tag-invalid           : <icon> not allowed in appdata
-# ? tag-invalid           : stock icon is not valid [multimedia-video-player]
 # Validation of files failed
 
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
+
+
+%post
+/sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
 
 
 %postun
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+/sbin/ldconfig
+/usr/bin/update-desktop-database &> /dev/null || :
 
 
-%files -f audience.lang
+%files       -f audience.lang
 %doc AUTHORS README
 %license COPYING
 
