@@ -1,4 +1,5 @@
-__pycache__
+kentauros
+
 *.src.rpm
 *.tar.gz
 *.old
