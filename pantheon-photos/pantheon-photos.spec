@@ -1,4 +1,4 @@
-%define rev 2925
+%define rev 2926
 
 Summary: The elementary continuation of Shotwell
 Name: pantheon-photos
@@ -99,6 +99,9 @@ fi
 
 
 %changelog
+* Tue May 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev2926-1
+- Update to new upstream snapshot.
+
 * Mon May 02 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev2925-1
 - Update to new upstream snapshot.
 
