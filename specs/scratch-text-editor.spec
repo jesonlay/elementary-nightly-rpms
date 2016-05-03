@@ -14,6 +14,7 @@ BuildRequires:  gettext
 BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig
 BuildRequires:  vala
+BuildRequires:  vala-devel
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
@@ -27,12 +28,6 @@ BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkitgtk-3.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
-
-%if %{fedora} > 22
-BuildRequires:  pkgconfig(libvala-0.30)
-%else
-BuildRequires:  pkgconfig(libvala-0.28)
-%endif
 
 
 %description
