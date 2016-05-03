@@ -1,3 +1,5 @@
-*.src.rpm
-*.tar.gz
+sources/*
+packages/*
+
 *.old
+*.tar.gz
