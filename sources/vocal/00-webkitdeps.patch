@@ -1,0 +1,11 @@
+--- CMakeLists.txt	2016-03-08 17:40:47.348766817 +0100
++++ CMakeLists.txt.new	2016-03-13 12:52:29.526445373 +0100
+@@ -58,7 +58,7 @@
+ )
+ 
+ find_package(PkgConfig)
+-pkg_check_modules(DEPS REQUIRED libxml-2.0 granite gtk+-3.0 gstreamer-1.0 gstreamer-pbutils-1.0 gthread-2.0 sqlite3 clutter-gtk-1.0 clutter-gst-3.0 gdk-x11-3.0 libsoup-2.4 json-glib-1.0 webkit2gtk-3.0 gee-0.8)
++pkg_check_modules(DEPS REQUIRED libxml-2.0 granite gtk+-3.0 gstreamer-1.0 gstreamer-pbutils-1.0 gthread-2.0 sqlite3 clutter-gtk-1.0 clutter-gst-3.0 gdk-x11-3.0 libsoup-2.4 json-glib-1.0 webkit2gtk-4.0 gee-0.8)
+ 
+ #
+ # Libunity
