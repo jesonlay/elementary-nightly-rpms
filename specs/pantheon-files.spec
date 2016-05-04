@@ -97,6 +97,9 @@ fi
 
 
 %files      -f pantheon-files.lang
+%doc AUTHORS HACKING README
+%license COPYING
+
 %{_bindir}/pantheon-files
 %{_bindir}/pantheon-files-daemon
 %{_bindir}/pantheon-files-pkexec

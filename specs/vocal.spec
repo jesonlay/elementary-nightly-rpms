@@ -84,8 +84,7 @@ fi
 
 
 %files -f vocal.lang
-%doc AUTHORS
-%doc README.md
+%doc AUTHORS README.md
 %license COPYING
 
 %{_bindir}/vocal

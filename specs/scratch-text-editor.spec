@@ -107,6 +107,9 @@ fi
 
 
 %files -f scratch-text-editor.lang
+%doc HACKING README
+%license COPYING
+
 %{_bindir}/scratch-text-editor
 
 %{_libdir}/scratch/

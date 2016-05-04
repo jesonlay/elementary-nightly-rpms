@@ -79,6 +79,9 @@ fi
 
 
 %files -f pantheon-mail.lang
+%doc AUTHORS HACKING THANKS
+%license COPYING
+
 %{_bindir}/pantheon-mail
 %{_bindir}/mail-attach
 

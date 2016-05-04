@@ -95,7 +95,7 @@ fi
 
 
 %files       -f maya-calendar.lang
-%doc AUTHORS
+%doc AUTHORS COPYRIGHT HACKING
 %license COPYING
 
 %{_bindir}/maya-calendar

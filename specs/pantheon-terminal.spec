@@ -70,6 +70,9 @@ fi
 
 
 %files -f pantheon-terminal.lang
+%doc AUTHORS HACKING README
+%license LICENSE
+
 %{_bindir}/pantheon-terminal
 
 %{_datadir}/appdata/pantheon-terminal.appdata.xml
