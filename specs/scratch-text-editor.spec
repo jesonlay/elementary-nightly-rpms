@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.2.1~rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
@@ -73,9 +73,6 @@ Scratch is the text editor that works for you. It auto-saves your files, meaning
 %make_install
 %find_lang scratch-text-editor
 
-# missing ";" at end of Keywords line
-desktop-file-edit $RPM_BUILD_ROOT/%{_datadir}/applications/scratch-text-editor.desktop --set-key=Keywords --set-value='Notepad;IDE;Plain;'
-
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
@@ -139,6 +136,9 @@ fi
 
 
 %changelog
+* Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev%{rev}-3
+- Remove desktop-file-edit, fix accepted upstream.
+
 * Tue May 03 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1662-2
 - Update for packaging changes.
 
