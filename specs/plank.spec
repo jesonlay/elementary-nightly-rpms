@@ -58,7 +58,7 @@ This package contains development headers and files.
 
 %build
 ./autogen.sh
-%configure --disable-static --disable-apport
+%configure --disable-apport
 %make_build
 
 
@@ -67,6 +67,7 @@ This package contains development headers and files.
 %find_lang plank
 
 rm -f %{buildroot}/%{_libdir}/*.la
+rm -f %{buildroot}/%{_libdir}/plank/*.la
 
 
 %check
