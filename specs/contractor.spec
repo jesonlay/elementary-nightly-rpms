@@ -54,6 +54,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev138-1
+- Update to latest snapshot.
+
 * Sun Feb 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev138-1
 - Update to new upstream snapshot.
 

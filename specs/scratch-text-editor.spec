@@ -139,6 +139,9 @@ fi
 * Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1664-1
 - Update to latest snapshot.
 
+* Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1664-1
+- Update to latest snapshot.
+
 * Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1662-3
 - Remove desktop-file-edit, fix accepted upstream.
 

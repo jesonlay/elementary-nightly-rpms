@@ -142,6 +142,9 @@ fi
 * Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2139-1
 - Update to latest snapshot.
 
+* Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2139-1
+- Update to latest snapshot.
+
 * Tue May 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2138-1
 - Update to new upstream snapshot.
 

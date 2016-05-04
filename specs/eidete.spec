@@ -81,6 +81,9 @@ fi
 
 
 %changelog
+* Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev201-1
+- Update to latest snapshot.
+
 * Sat Feb 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev201-1
 - Update to new upstream snapshot.
 

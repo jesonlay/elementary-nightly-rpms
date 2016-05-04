@@ -1,7 +1,7 @@
 Summary:        A tiny, simple calculator written in GTK+ and Vala.
 Name:           pantheon-calculator
 Version:        0.1.0.1~rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-calculator
 
@@ -73,6 +73,9 @@ fi
 
 
 %changelog
+* Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev213-1
+- Update to latest snapshot.
+
 * Mon May 02 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev213-2
 - Update for packaging changes.
 
