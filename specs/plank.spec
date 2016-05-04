@@ -1,7 +1,7 @@
 Summary:        Stupidly simple Dock
 Name:           plank
 Version:        0.11.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
 
@@ -80,12 +80,12 @@ rm -rf %{buildroot}
 
 
 %post
-/usr/sbin/ldconfig
+/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
-/usr/sbin/ldconfig
+/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
@@ -98,11 +98,11 @@ fi
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
-%post           libs -p /usr/sbin/ldconfig
-%postun         libs -p /usr/sbin/ldconfig
+%post           libs -p /sbin/ldconfig
+%postun         libs -p /sbin/ldconfig
 
-%post           devel -p /usr/sbin/ldconfig
-%postun         devel -p /usr/sbin/ldconfig
+%post           devel -p /sbin/ldconfig
+%postun         devel -p /sbin/ldconfig
 
 
 %files -f plank.lang
@@ -135,7 +135,8 @@ fi
 
 
 %changelog
+* Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.1~rev1551-2
+- Update for packaging changes.
+
 * Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.1~rev1551-1
 - Update to latest snapshot.
-
-
