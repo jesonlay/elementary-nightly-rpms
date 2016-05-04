@@ -72,7 +72,7 @@ fi
 
 
 %files -f granite.lang
-%doc AUTHORS README
+%doc AUTHORS HACKING NEWS README
 %license COPYING
 
 %{_libdir}/libgranite.so.3

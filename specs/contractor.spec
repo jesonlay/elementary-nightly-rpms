@@ -45,6 +45,8 @@ rm -rf %{buildroot}
 
 
 %files
+%doc HACKING
+
 %{_bindir}/contractor
 
 %{_datadir}/contractor/

@@ -80,6 +80,9 @@ fi
 
 
 %files -f pantheon-photos.lang
+%doc AUTHORS MAINTAINERS NEWS README THANKS
+%license COPYING
+
 %{_bindir}/pantheon-photos
 
 %{_libdir}/pantheon-photos/

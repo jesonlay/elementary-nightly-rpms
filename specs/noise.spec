@@ -98,6 +98,9 @@ fi
 
 
 %files       -f noise.lang
+%doc AUTHORS NEWS README
+%license COPYING
+
 %{_bindir}/noise
 
 %{_libdir}/libnoise-core.so.0
