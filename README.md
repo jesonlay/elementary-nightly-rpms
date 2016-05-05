@@ -10,25 +10,29 @@ The tables list the packaging status of elementary software.
 
 ### official elementary apps
 
-| package name          | status                | comment                   | URL                                           |
-| --------------------- | --------------------- | ------------------------- | --------------------------------------------- |
-| appcenter             | TBD                   |                           | <https://launchpad.net/appcenter>             |
-| audience              | DONE                  | appdata invalid           | <https://launchpad.net/audience>              |
-| maya-calendar         | DONE                  | appdata, desktop invalid  | <https://launchpad.net/maya>                  |
-| midori                | TBD                   |                           | <https://launchpad.net/midori>                |
-| noise                 | DONE                  | appdata, desktop invalid  | <https://launchpad.net/noise>                 |
-| pantheon-calculator   | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-calculator>   |
-| pantheon-files        | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-files>        |
-| pantheon-mail         | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-mail>         |
-| pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |
-| pantheon-photos       | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-photos>       |
-| pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |
-| pantheon-snap         | TBD                   |                           | <https://launchpad.net/snap-elementary>       |
-| pantheon-terminal     | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-terminal>     |
-| power-manager         | to be decided         |                           | <https://launchpad.net/power-manager>         |
-| scratch-text-editor   | DONE                  | appdata invalid           | <https://launchpad.net/scratch>               |
-| switchboard           | TBD                   | plus plugs                | <https://launchpad.net/switchboard>           |
-| screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |
+| package name          | status                | comment                   | URL                                           | related bugs      |
+| --------------------- | --------------------- | ------------------------- | --------------------------------------------- | ----------------- |
+| appcenter             | TBD                   |                           | <https://launchpad.net/appcenter>             |                   |
+| audience              | DONE                  | appdata invalid           | <https://launchpad.net/audience>              |                   |
+| maya-calendar         | DONE                  | appdata, desktop invalid  | <https://launchpad.net/maya>                  | [1] [2]           |
+| midori                | TBD                   |                           | <https://launchpad.net/midori>                |                   |
+| noise                 | DONE                  | appdata, desktop invalid  | <https://launchpad.net/noise>                 |                   |
+| pantheon-calculator   | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-calculator>   |                   |
+| pantheon-files        | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-files>        |                   |
+| pantheon-mail         | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-mail>         |                   |
+| pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |                   |
+| pantheon-photos       | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-photos>       |                   |
+| pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |                   |
+| pantheon-snap         | TBD                   |                           | <https://launchpad.net/snap-elementary>       |                   |
+| pantheon-terminal     | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-terminal>     |                   |
+| power-manager         | to be decided         |                           | <https://launchpad.net/power-manager>         |                   |
+| scratch-text-editor   | DONE                  | appdata invalid           | <https://launchpad.net/scratch>               |                   |
+| switchboard           | TBD                   | plus plugs                | <https://launchpad.net/switchboard>           |                   |
+| screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |                   |
+
+[1] <https://bugs.freedesktop.org/show_bug.cgi?id=51258>
+
+[2] <https://bugzilla.redhat.com/show_bug.cgi?id=1333550>
 
 
 ### third-party "made for elementary" apps
