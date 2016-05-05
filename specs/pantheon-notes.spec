@@ -63,12 +63,12 @@ fi
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
-%files -f pantheon-mail.lang
+%files -f pantheon-notes.lang
 %{_bindir}/pantheon-notes
 
 %{_datadir}/applications/pantheon-notes.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.notes.gschema.xml
-%{_datadir}/pantheon-notes/
+%{_datadir}/pixmaps/pantheon-notes.svg
 
 
 %changelog
