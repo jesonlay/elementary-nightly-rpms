@@ -31,6 +31,13 @@ The tables list the packaging status of elementary software.
 | screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |
 
 
+### third-party "made for elementary" apps
+
+| package name          | status                | comment                   | URL                                           |
+| --------------------- | --------------------- | ------------------------- | --------------------------------------------- |
+| vocal                 | DONE                  | appdata invalid           | <https://github.com/vocalapp/vocal>           |
+
+
 ### pantheon desktop core
 
 | package name          | status                | comment                   | URL                                           |
@@ -40,6 +47,7 @@ The tables list the packaging status of elementary software.
 | contractor            | DONE                  |                           | <https://launchpad.net/contractor>            |
 | gala                  | DONE                  |                           | <https://launchpad.net/gala>                  |
 | pantheon-dock         | to be decided         | fork / copy of plank?     | <https://launchpad.net/pantheon-dock>         |
+| plank                 | DONE                  |                           | <https://launchpad.net/plank>                 |
 | pantheon-greeter      | TBD                   |                           | <https://launchpad.net/pantheon-greeter>      |
 | slingshot-launcher    | TBD                   |                           | <https://launchpad.net/slingshot>             |
 | wingpanel             | TBD                   | plus indicators           | <https://launchpad.net/wingpanel>             |
