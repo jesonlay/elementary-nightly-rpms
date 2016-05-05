@@ -58,7 +58,7 @@ The tables list the packaging status of elementary software.
 
 | package name          | status                | comment                   | URL                                           |
 | --------------------- | --------------------- | ------------------------- | --------------------------------------------- |
-| elementary-gtk-theme  | TBD                   |                           | <https://launchpad.net/egtk>                  |
+| egtk                  | DONE                  |                           | <https://launchpad.net/egtk>                  |
 | elementary-icons      | TBD                   |                           | <https://launchpad.net/elementaryicons>       |
 | elementary-wallpapers | TBD                   |                           | <https://launchpad.net/elementaryos>          |
 
