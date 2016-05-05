@@ -1,7 +1,7 @@
 Summary:        elementary GTK+ Stylesheet
 Name:           egtk
 Version:        5.0.0~rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/egtk
 
@@ -33,8 +33,10 @@ The official elementary GTK+ stylesheet designed to be smooth, attractive, fast,
 %install
 mkdir -p %{buildroot}/%{_datadir}/themes/%{name}
 
-install index.theme %{buildroot}/%{_datadir}/themes/%{name}/
-install -d gtk-2.0 gtk-3.0 plank %{buildroot}/%{_datadir}/themes/%{name}/
+cp -p index.theme %{buildroot}/%{_datadir}/themes/%{name}/
+cp -pr gtk-2.0 %{buildroot}/%{_datadir}/themes/%{name}/
+cp -pr gtk-3.0 %{buildroot}/%{_datadir}/themes/%{name}/
+cp -pr plank %{buildroot}/%{_datadir}/themes/%{name}/
 
 
 %clean
@@ -49,6 +51,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu May 05 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.0~rev660-3
+- Update for packaging changes.
+
 * Thu May 05 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.0~rev660-2
 - Update for packaging changes.
 
