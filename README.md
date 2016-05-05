@@ -23,11 +23,11 @@ The tables list the packaging status of elementary software.
 | pantheon-notes        | TBD                   |                           | <https://launchpad.net/pantheon-notes>        |
 | pantheon-photos       | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-photos>       |
 | pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |
+| pantheon-snap         | TBD                   |                           | <https://launchpad.net/snap-elementary>       |
 | pantheon-terminal     | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-terminal>     |
 | power-manager         | to be decided         |                           | <https://launchpad.net/power-manager>         |
 | scratch-text-editor   | DONE                  | appdata invalid           | <https://launchpad.net/scratch>               |
 | switchboard           | TBD                   | plus plugs                | <https://launchpad.net/switchboard>           |
-| pantheon-snap         | TBD                   |                           | <https://launchpad.net/snap-elementary>       |
 | screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |
 
 
