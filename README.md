@@ -20,7 +20,7 @@ The tables list the packaging status of elementary software.
 | pantheon-calculator   | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-calculator>   |
 | pantheon-files        | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-files>        |
 | pantheon-mail         | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-mail>         |
-| pantheon-notes        | WIP                   | desktop invalid           | <https://launchpad.net/pantheon-notes>        |
+| pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |
 | pantheon-photos       | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-photos>       |
 | pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |
 | pantheon-snap         | TBD                   |                           | <https://launchpad.net/snap-elementary>       |
