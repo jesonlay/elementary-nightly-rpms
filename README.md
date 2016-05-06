@@ -18,7 +18,7 @@ The tables list the packaging status of elementary software.
 | midori                | TBD                   |                           | <https://launchpad.net/midori>                |                   |
 | noise                 | DONE                  | appdata, desktop invalid  | <https://launchpad.net/noise>                 |                   |
 | pantheon-calculator   | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-calculator>   |                   |
-| pantheon-files        | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-files>        |                   |
+| pantheon-files        | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-files>        |                   |
 | pantheon-mail         | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-mail>         |                   |
 | pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |                   |
 | pantheon-photos       | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-photos>       |                   |
