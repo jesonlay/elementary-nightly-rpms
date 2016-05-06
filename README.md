@@ -54,7 +54,7 @@ The tables list the packaging status of elementary software.
 | plank                 | DONE                  |                           | <https://launchpad.net/plank>                 |
 | pantheon-greeter      | TBD                   |                           | <https://launchpad.net/pantheon-greeter>      |
 | slingshot-launcher    | TBD                   |                           | <https://launchpad.net/slingshot>             |
-| wingpanel             | TBD                   | plus indicators           | <https://launchpad.net/wingpanel>             |
+| wingpanel             | WIP                   | plus indicators           | <https://launchpad.net/wingpanel>             |
 
 
 ### elementary artwork
