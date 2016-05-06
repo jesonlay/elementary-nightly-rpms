@@ -1,7 +1,7 @@
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        0.4~rev%{rev}
-Release:        0%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
 
@@ -103,4 +103,10 @@ fi
 
 
 %changelog
+* Fri May 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev124-2
+- Update for packaging changes.
+
+* Fri May 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev%{rev}-1
+- Initial package.
+
 
