@@ -28,6 +28,7 @@ BuildRequires:  pkgconfig(x11)
 BuildRequires:  pkgconfig(xi) >= 1.6.99.1
 BuildRequires:  pkgconfig(xfixes) >= 5.0
 
+Requires:       bamf-daemon
 Requires:       hicolor-icon-theme
 
 
