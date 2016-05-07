@@ -44,17 +44,18 @@ The tables list the packaging status of elementary software.
 
 ### pantheon desktop core
 
-| package name          | status                | comment                   | URL                                           | related bugs      |
-| --------------------- | --------------------- | ------------------------- | --------------------------------------------- | ----------------- |
-| capnet-assist         | TBD                   |                           | <https://launchpad.net/capnet-assist>         |                   |
-| cerbere               | DONE                  | desktop invalid           | <https://launchpad.net/cerbere>               |                   |
-| contractor            | DONE                  |                           | <https://launchpad.net/contractor>            |                   |
-| gala                  | DONE                  |                           | <https://launchpad.net/gala>                  |                   |
-| pantheon-dock         | to be decided         | fork / copy of plank?     | <https://launchpad.net/pantheon-dock>         |                   |
-| plank                 | DONE                  |                           | <https://launchpad.net/plank>                 |                   |
-| pantheon-greeter      | TBD                   |                           | <https://launchpad.net/pantheon-greeter>      |                   |
-| slingshot-launcher    | DONE                  |                           | <https://launchpad.net/slingshot>             |                   |
-| wingpanel             | DONE                  | plus indicators           | <https://launchpad.net/wingpanel>             |                   |
+| package name                      | status            | comment           | URL                                           | related bugs      |
+| --------------------------------- | ----------------- | ----------------- | --------------------------------------------- | ----------------- |
+| capnet-assist                     | TBD               |                   | <https://launchpad.net/capnet-assist>         |                   |
+| cerbere                           | DONE              | desktop invalid   | <https://launchpad.net/cerbere>               |                   |
+| contractor                        | DONE              |                   | <https://launchpad.net/contractor>            |                   |
+| gala                              | DONE              |                   | <https://launchpad.net/gala>                  |                   |
+| pantheon-dock                     | to be decided     | copy of plank?    | <https://launchpad.net/pantheon-dock>         |                   |
+| plank                             | DONE              |                   | <https://launchpad.net/plank>                 |                   |
+| pantheon-greeter                  | TBD               |                   | <https://launchpad.net/pantheon-greeter>      |                   |
+| pantheon-xsession-settings        | DONE              |                   |                                               |                   |
+| slingshot-launcher                | DONE              |                   | <https://launchpad.net/slingshot>             |                   |
+| wingpanel                         | DONE              | plus indicators   | <https://launchpad.net/wingpanel>             |                   |
 
 
 ### elementary artwork

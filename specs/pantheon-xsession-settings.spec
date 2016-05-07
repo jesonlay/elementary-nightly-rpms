@@ -1,7 +1,7 @@
 Summary:        pantheon session configuration files
 Name:           pantheon-xsession-settings
 Version:        0.5.0~rev%{rev}
-Release:        0%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 URL:            http://launchpad.net/cerbere
 
@@ -64,4 +64,10 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat May 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.5.0~rev65-2
+- Update for packaging changes.
+
+* Sat May 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.5.0~rev%{rev}-1
+- Initial package.
+
 
