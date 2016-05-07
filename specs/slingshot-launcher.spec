@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Summary:        Lightweight and stylish app launcher
 Name:           slingshot-launcher
 Version:        0.9.0~rev%{rev}
@@ -51,9 +53,24 @@ Designed for elementary OS.
 rm -rf %{buildroot}
 
 
-%files
+%postun
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+
+
+%files -f slingshot.lang
 %doc AUTHORS
 %license COPYING
+
+%{_sysconfdir}/xdg/menus/pantheon-applications.menu
+
+%{_libdir}/wingpanel/libslingshot.so
+
+%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.slingshot.gschema.xml
 
 
 %changelog
