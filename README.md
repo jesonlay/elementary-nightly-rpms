@@ -27,7 +27,7 @@ The tables list the packaging status of elementary software.
 | pantheon-terminal     | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-terminal>     |                   |
 | power-manager         | to be decided         |                           | <https://launchpad.net/power-manager>         |                   |
 | scratch-text-editor   | DONE                  | appdata invalid           | <https://launchpad.net/scratch>               |                   |
-| switchboard           | TBD                   | plus plugs                | <https://launchpad.net/switchboard>           |                   |
+| switchboard           | DONE                  | plus plugs                | <https://launchpad.net/switchboard>           |                   |
 | screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |                   |
 
 [1] <https://bugs.freedesktop.org/show_bug.cgi?id=51258>
