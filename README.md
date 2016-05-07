@@ -53,7 +53,7 @@ The tables list the packaging status of elementary software.
 | pantheon-dock         | to be decided         | fork / copy of plank?     | <https://launchpad.net/pantheon-dock>         |                   |
 | plank                 | DONE                  |                           | <https://launchpad.net/plank>                 |                   |
 | pantheon-greeter      | TBD                   |                           | <https://launchpad.net/pantheon-greeter>      |                   |
-| slingshot-launcher    | TBD                   |                           | <https://launchpad.net/slingshot>             |                   |
+| slingshot-launcher    | WIP                   |                           | <https://launchpad.net/slingshot>             |                   |
 | wingpanel             | DONE                  | plus indicators           | <https://launchpad.net/wingpanel>             |                   |
 
 
