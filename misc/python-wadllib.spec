@@ -3,7 +3,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.3.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Navigate HTTP resources using WADL files as guides
 
 License:        LGPL v3
@@ -14,8 +14,6 @@ BuildArch:      noarch
 BuildRequires:  python-setuptools
 BuildRequires:  python2-devel
 BuildRequires:  python2-lazr-uri
-
-Requires:       python2-lazr-uri
 
 
 %description
@@ -78,5 +76,8 @@ rm -rf %{pypi_name}.egg-info
 %{python2_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
 
 %changelog
+* Sun May 08 2016 Fabio Valentini <decathorpe@gmail.com> - 1.3.2-2
+- Fix Requires.
+
 * Tue May 03 2016 Fabio Valentini <decathorpe@gmail.com> - 1.3.2-1
 - Initial package.

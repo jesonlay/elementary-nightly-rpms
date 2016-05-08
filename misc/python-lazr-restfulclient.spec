@@ -4,7 +4,7 @@
 
 Name:           python-lazr-restfulclient
 Version:        0.13.4
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A self-contained, easily reusable library for parsing, manipulating,
 
 License:        LGPL v3
@@ -18,11 +18,6 @@ BuildRequires:  python-oauth
 BuildRequires:  python-httplib2
 BuildRequires:  python-setuptools
 BuildRequires:  python2-wadllib
-
-Requires:       python-oauth
-Requires:       python-httplib2
-Requires:       python-setuptools
-Requires:       python2-wadllib
 
 
 %description
@@ -47,6 +42,11 @@ Summary:        A self-contained, easily reusable library for parsing, manipulat
 %{?python_provide:%python_provide python2-%{prettyname}}
  
 Requires:       python-setuptools
+Requires:       python-oauth
+Requires:       python-httplib2
+Requires:       python-setuptools
+Requires:       python2-wadllib
+
 %description -n python2-%{prettyname}
 ..
     This file is part of %{pypi_name}.
@@ -89,6 +89,9 @@ rm -rf %{pypi_name}.egg-info
 
 
 %changelog
+* Sun May 08 2016 Fabio Valentini <decathorpe@gmail.com> - 0.13.4-2
+- Fix Requires.
+
 * Tue May 03 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.3-1
 - Initial package.
 

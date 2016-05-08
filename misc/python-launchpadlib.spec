@@ -4,7 +4,7 @@
 Summary:        launchpad python client library
 Name:           python-launchpadlib
 Version:        1.10.3
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            https://launchpad.net/launchpadlib
 
@@ -20,14 +20,6 @@ BuildRequires:  python2-lazr-uri
 BuildRequires:  python2-testresources
 BuildRequires:  python2-wadllib
 
-Requires:       python-httplib2
-Requires:       python-keyring
-Requires:       python-oauth
-Requires:       python2-lazr-restfulclient
-Requires:       python2-lazr-uri
-Requires:       python2-testresources
-Requires:       python2-wadllib
-
 
 %description
 Python client library for Launchpad's web service
@@ -37,6 +29,14 @@ Python client library for Launchpad's web service
 Summary:    launchpad python client library
 %description -n python2-launchpadlib
 Python client library for Launchpad's web service
+
+Requires:       python-httplib2
+Requires:       python-keyring
+Requires:       python-oauth
+Requires:       python2-lazr-restfulclient
+Requires:       python2-lazr-uri
+Requires:       python2-testresources
+Requires:       python2-wadllib
 
 
 %prep
@@ -63,6 +63,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun May 08 2016 Fabio Valentini <decathorpe@gmail.com> - 1.10.3-2
+- Fix Requires.
+
 * Tue May 03 2016 Fabio Valentini <decathorpe@gmail.com> - 1.10.3-1
 - Initial package.
 

@@ -4,7 +4,7 @@
 
 Name:           python-lazr-uri
 Version:        1.0.3
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        A self-contained, easily reusable library for parsing, manipulating,
 
 License:        LGPL v3
@@ -79,5 +79,8 @@ rm -rf %{pypi_name}.egg-info
 
 
 %changelog
+* Sun May 08 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.3-2
+- Fix Requires.
+
 * Tue May 03 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.3-1
 - Initial package.
