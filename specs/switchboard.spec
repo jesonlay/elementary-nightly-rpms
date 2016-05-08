@@ -100,6 +100,9 @@ fi
 
 
 %changelog
+* Sun May 08 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.2~rev625-1
+- Update to latest snapshot.
+
 * Sat May 07 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.2~rev624-1
 - Update for packaging changes.
 
