@@ -1,7 +1,7 @@
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        0.4~rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
 
@@ -16,7 +16,6 @@ BuildRequires:  vala >= 0.24.0
 BuildRequires:  pkgconfig(gala)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40
-BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.14
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(libnotify)
@@ -103,6 +102,9 @@ fi
 
 
 %changelog
+* Mon May 09 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev125-3
+- Update for packaging changes.
+
 * Fri May 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev124-2
 - Update for packaging changes.
 
