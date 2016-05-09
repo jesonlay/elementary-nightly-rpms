@@ -105,7 +105,7 @@ The tables list the packaging status of elementary software.
 | wingpanel-indicator-network       | TBD           |           | <https://launchpad.net/wingpanel-indicator-network>       |                   |
 | wingpanel-indicator-notifications | TBD           |           | <https://launchpad.net/wingpanel-indicator-notifications> |                   |
 | wingpanel-indicator-power         | TBD           |           | <https://launchpad.net/wingpanel-indicator-power>         |                   |
-| wingpanel-indicator-session       | TBD           |           | <https://launchpad.net/wingpanel-indicator-session>       |                   |
+| wingpanel-indicator-session       | DONE          |           | <https://launchpad.net/wingpanel-indicator-session>       |                   |
 | wingpanel-indicator-sound         | TBD           |           | <https://launchpad.net/wingpanel-indicator-sound>         |                   |
 
 
