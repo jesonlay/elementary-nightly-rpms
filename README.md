@@ -103,7 +103,7 @@ The tables list the packaging status of elementary software.
 | wingpanel-indicator-datetime      | TBD           |           | <https://launchpad.net/wingpanel-indicator-datetime>      |                   |
 | wingpanel-indicator-keyboard      | TBD           |           | <https://launchpad.net/wingpanel-indicator-keyboard>      |                   |
 | wingpanel-indicator-network       | DONE          |           | <https://launchpad.net/wingpanel-indicator-network>       |                   |
-| wingpanel-indicator-notifications | TBD           |           | <https://launchpad.net/wingpanel-indicator-notifications> |                   |
+| wingpanel-indicator-notifications | DONE          |           | <https://launchpad.net/wingpanel-indicator-notifications> |                   |
 | wingpanel-indicator-power         | DONE          |           | <https://launchpad.net/wingpanel-indicator-power>         |                   |
 | wingpanel-indicator-session       | DONE          |           | <https://launchpad.net/wingpanel-indicator-session>       |                   |
 | wingpanel-indicator-sound         | DONE          |           | <https://launchpad.net/wingpanel-indicator-sound>         |                   |
