@@ -106,7 +106,7 @@ The tables list the packaging status of elementary software.
 | wingpanel-indicator-notifications | TBD           |           | <https://launchpad.net/wingpanel-indicator-notifications> |                   |
 | wingpanel-indicator-power         | TBD           |           | <https://launchpad.net/wingpanel-indicator-power>         |                   |
 | wingpanel-indicator-session       | DONE          |           | <https://launchpad.net/wingpanel-indicator-session>       |                   |
-| wingpanel-indicator-sound         | TBD           |           | <https://launchpad.net/wingpanel-indicator-sound>         |                   |
+| wingpanel-indicator-sound         | DONE          |           | <https://launchpad.net/wingpanel-indicator-sound>         |                   |
 
 
 ### elementary / pantheon libraries
