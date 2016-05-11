@@ -1,14 +1,12 @@
 Summary:        pantheon session configuration files
-Name:           pantheon-xsession-settings
-Version:        0.5.0~rev%{rev}
-Release:        3%{?dist}
+Name:           pantheon-session-settings
+Version:        0.6.0~rev%{rev}
+Release:        0%{?dist}
 License:        GPLv2
-URL:            http://launchpad.net/cerbere
+URL:            http://github.com/decathorpe/pantheon-session-settings
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
-
-Patch0:         00-fedora-paths.patch
 
 BuildArch:      noarch
 
@@ -17,6 +15,8 @@ BuildRequires:  /usr/bin/install
 Requires:       cerbere
 Requires:       gnome-session
 Requires:       gnome-settings-daemon
+
+Obsoletes:      pantheon-xsession-settings
 
 
 %description
