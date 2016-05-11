@@ -98,7 +98,7 @@ The tables list the packaging status of elementary software.
 | package name                      | status        | comment   | URL                                                       | related bugs      |
 | --------------------------------- | ------------- | --------- | --------------------------------------------------------- | ----------------- |
 | wingpanel-indicator-a11y          | DONE          |           | <https://launchpad.net/wingpanel-indicator-a11y>          |                   |
-| wingpanel-indicator-ayatana       | TBD           |           | <https://launchpad.net/wingpanel-indicator-ayatana>       |                   |
+| wingpanel-indicator-ayatana       | FTBFS         |           | <https://launchpad.net/wingpanel-indicator-ayatana>       |                   |
 | wingpanel-indicator-bluetooth     | DONE          |           | <https://launchpad.net/wingpanel-indicator-bluetooth>     |                   |
 | wingpanel-indicator-datetime      | DONE          |           | <https://launchpad.net/wingpanel-indicator-datetime>      |                   |
 | wingpanel-indicator-keyboard      | TBD           |           | <https://launchpad.net/wingpanel-indicator-keyboard>      |                   |
