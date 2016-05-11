@@ -100,7 +100,7 @@ The tables list the packaging status of elementary software.
 | wingpanel-indicator-a11y          | TBD           |           | <https://launchpad.net/wingpanel-indicator-a11y>          |                   |
 | wingpanel-indicator-ayatana       | TBD           |           | <https://launchpad.net/wingpanel-indicator-ayatana>       |                   |
 | wingpanel-indicator-bluetooth     | TBD           |           | <https://launchpad.net/wingpanel-indicator-bluetooth>     |                   |
-| wingpanel-indicator-datetime      | TBD           |           | <https://launchpad.net/wingpanel-indicator-datetime>      |                   |
+| wingpanel-indicator-datetime      | DONE          |           | <https://launchpad.net/wingpanel-indicator-datetime>      |                   |
 | wingpanel-indicator-keyboard      | TBD           |           | <https://launchpad.net/wingpanel-indicator-keyboard>      |                   |
 | wingpanel-indicator-network       | DONE          |           | <https://launchpad.net/wingpanel-indicator-network>       |                   |
 | wingpanel-indicator-notifications | DONE          |           | <https://launchpad.net/wingpanel-indicator-notifications> |                   |
