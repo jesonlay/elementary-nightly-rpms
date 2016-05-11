@@ -3,7 +3,7 @@
 Summary:        an a11y indicator for wingpanel
 Name:           wingpanel-indicator-a11y
 Version:        0.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-a11y
 
@@ -48,6 +48,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed May 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev3-2
+- Update for packaging changes.
+
 * Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev%{rev}-1
 - Initial package.
 
