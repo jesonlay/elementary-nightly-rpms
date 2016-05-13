@@ -75,7 +75,7 @@ The tables list the packaging status of elementary software.
 | pantheon-plugs                    | TBD           |           | <https://launchpad.net/pantheon-plugs>                    |                   |
 | switchboard-plug-about            | TBD           |           | <https://launchpad.net/switchboard-plug-about>            |                   |
 | switchboard-plug-a11y             | TBD           |           | <https://launchpad.net/switchboard-plug-a11y>             |                   |
-| switchboard-plug-applications     | TBD           |           | <https://launchpad.net/switchboard-plug-applications>     |                   |
+| switchboard-plug-applications     | DONE          |           | <https://launchpad.net/switchboard-plug-applications>     |                   |
 | switchboard-plug-datetime         | TBD           |           | <https://launchpad.net/switchboard-plug-datetime>         |                   |
 | switchboard-plug-pantheon-shell   | TBD           |           | <https://launchpad.net/switchboard-plug-pantheon-shell>   |                   |
 | switchboard-plug-display          | TBD           |           | <https://launchpad.net/switchboard-plug-display>          |                   |

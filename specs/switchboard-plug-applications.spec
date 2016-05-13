@@ -2,7 +2,7 @@
 
 Summary:        Application configuration management
 Name:           switchboard-plug-applications
-Version:        0.1.0.2 ~rev%{rev}
+Version:        0.1.0.2~rev%{rev}
 Release:        1%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/switchboard-plug-applications
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri May 13 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev137-1
+- Update to version 0.1.0.2.
+
 * Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev%{rev}-1
 - Initial package.
 
