@@ -81,7 +81,7 @@ The tables list the packaging status of elementary software.
 | switchboard-plug-display          | TBD           |           | <https://launchpad.net/switchboard-plug-display>          |                   |
 | switchboard-plug-keyboard         | TBD           |           | <https://launchpad.net/switchboard-plug-keyboard>         |                   |
 | switchboard-plug-locale           | TBD           |           | <https://launchpad.net/switchboard-plug-locale>           |                   |
-| switchboard-plug-mouse-touchpad   | TBD           |           | <https://launchpad.net/switchboard-plug-mouse-touchpad>   |                   |
+| switchboard-plug-mouse-touchpad   | DONE          |           | <https://launchpad.net/switchboard-plug-mouse-touchpad>   |                   |
 | switchboard-plug-networking       | TBD           |           | <https://launchpad.net/switchboard-plug-networking>       |                   |
 | switchboard-plug-notifications    | DONE          |           | <https://launchpad.net/switchboard-plug-notifications>    |                   |
 | switchboard-plug-onlineaccounts   | TBD           |           | <https://launchpad.net/switchboard-plug-onlineaccounts>   |                   |
