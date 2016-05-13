@@ -49,6 +49,9 @@ This package contains the files required for developing for switchboard.
 %make_install
 %find_lang switchboard
 
+mkdir -p %{buildroot}/%{_libdir}/switchboard/hardware
+mkdir -p %{buildroot}/%{_libdir}/switchboard/personal
+
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/switchboard.desktop
@@ -84,6 +87,7 @@ fi
 
 %{_libdir}/libswitchboard-2.0.so.0
 %{_libdir}/libswitchboard-2.0.so.2.0
+%{_libdir}/switchboard
 
 %{_datadir}/applications/switchboard.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.switchboard.gschema.xml
