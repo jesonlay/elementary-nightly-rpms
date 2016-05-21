@@ -3,7 +3,7 @@
 Summary:        a power indicator for wingpanel
 Name:           wingpanel-indicator-power
 Version:        0.1~rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-power
 
@@ -64,6 +64,9 @@ fi
 
 
 %changelog
+* Sat May 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev149-1
+- Update to latest snapshot.
+
 * Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev148-2
 - Update for packaging changes.
 
