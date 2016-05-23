@@ -3,7 +3,7 @@
 Summary:        Lightweight and stylish app launcher
 Name:           slingshot-launcher
 Version:        0.9.0~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/slingshot
 
@@ -27,6 +27,9 @@ BuildRequires:  pkgconfig(plank) >= 0.10.9
 BuildRequires:  pkgconfig(switchboard-2.0)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
+
+
+Requires:       zeitgeist
 
 
 %description
@@ -74,6 +77,9 @@ fi
 
 
 %changelog
+* Mon May 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.9.0~rev657-2
+- Add missing "Requires: zeigeist" to fix crash at startup
+
 * Sat May 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.9.0~rev657-1
 - Update to latest snapshot.
 
