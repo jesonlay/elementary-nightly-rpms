@@ -1,7 +1,7 @@
 Summary:        simple service to relaunch Pantheon components
 Name:           cerbere
 Version:        0.2.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 URL:            http://launchpad.net/cerbere
 
@@ -66,6 +66,9 @@ fi
 
 
 %changelog
+* Sun May 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev51-2
+- Update for packaging changes.
+
 * Sun May 08 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.1~rev51-1
 - Update to latest snapshot.
 
