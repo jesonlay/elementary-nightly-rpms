@@ -1,7 +1,7 @@
 Summary:        Desktop-wide extension service
 Name:           contractor
 Version:        0.3.1~rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/contractor
 
@@ -54,6 +54,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon May 30 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev138-3
+- Update for packaging changes.
+
 * Sun May 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev138-2
 - Update for packaging changes.
 
