@@ -14,20 +14,20 @@ The tables list the packaging status of elementary software.
 | --------------------- | --------------------- | ------------------------- | --------------------------------------------- | ------------- |
 | appcenter             | TBD                   |                           | <https://launchpad.net/appcenter>             |               |
 | audience              | DONE                  | appdata invalid           | <https://launchpad.net/audience>              |               |
-| maya-calendar         | DONE                  | appdata, desktop invalid  | <https://launchpad.net/maya>                  | [1] [2]       |
+| maya-calendar         | DONE                  |                           | <https://launchpad.net/maya>                  |               |
 | midori                | TBD                   |                           | <https://launchpad.net/midori>                |               |
-| noise                 | DONE                  | appdata, desktop invalid  | <https://launchpad.net/noise>                 |               |
-| pantheon-calculator   | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-calculator>   |               |
+| noise                 | DONE                  | desktop invalid           | <https://launchpad.net/noise>                 |               |
+| pantheon-calculator   | DONE                  |                           | <https://launchpad.net/pantheon-calculator>   |               |
 | pantheon-files        | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-files>        |               |
-| pantheon-mail         | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-mail>         |               |
+| pantheon-mail         | DONE                  |                           | <https://launchpad.net/pantheon-mail>         |               |
 | pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |               |
-| pantheon-photos       | DONE                  | appdata, desktop invalid  | <https://launchpad.net/pantheon-photos>       |               |
+| pantheon-photos       | DONE                  | desktop invalid           | <https://launchpad.net/pantheon-photos>       |               |
 | pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |               |
 | pantheon-snap         | TBD                   |                           | <https://launchpad.net/snap-elementary>       |               |
 | pantheon-terminal     | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-terminal>     |               |
 | power-manager         | to be decided         |                           | <https://launchpad.net/power-manager>         |               |
 | scratch-text-editor   | DONE                  | appdata invalid           | <https://launchpad.net/scratch>               |               |
-| switchboard           | DONE                  | plus plugs                | <https://launchpad.net/switchboard>           |               |
+| switchboard           | DONE                  |                           | <https://launchpad.net/switchboard>           |               |
 | screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |               |
 
 [1] <https://bugs.freedesktop.org/show_bug.cgi?id=51258>
@@ -50,12 +50,11 @@ The tables list the packaging status of elementary software.
 | cerbere                           | DONE              | desktop invalid   | <https://launchpad.net/cerbere>               |               |
 | contractor                        | DONE              |                   | <https://launchpad.net/contractor>            |               |
 | gala                              | DONE              |                   | <https://launchpad.net/gala>                  |               |
-| pantheon-dock                     | to be decided     | copy of plank?    | <https://launchpad.net/pantheon-dock>         |               |
 | plank                             | DONE              |                   | <https://launchpad.net/plank>                 |               |
 | pantheon-greeter                  | TBD               |                   | <https://launchpad.net/pantheon-greeter>      |               |
 | pantheon-xsession-settings        | DONE              |                   |                                               |               |
 | slingshot-launcher                | DONE              |                   | <https://launchpad.net/slingshot>             |               |
-| wingpanel                         | DONE              | plus indicators   | <https://launchpad.net/wingpanel>             |               |
+| wingpanel                         | DONE              |                   | <https://launchpad.net/wingpanel>             |               |
 
 
 ### elementary artwork
