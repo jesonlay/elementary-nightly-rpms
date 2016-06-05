@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Sun Jun 05 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160605.162430~2f421206-1
+- Update to latest snapshot.
+
 * Sun Jun 05 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160605.141839~bf964015-1
 - Update to latest snapshot.
 
