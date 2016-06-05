@@ -1,7 +1,7 @@
 Summary:        A simple screencasting app for the elementary project
 Name:           eidete
 Version:        0.1~rev%{rev}
-Release:        3%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 URL:            http://launchpad.net/eidete
 
@@ -81,6 +81,9 @@ fi
 
 
 %changelog
+* Sun Jun 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev202-1
+- Update to latest snapshot.
+
 * Mon May 30 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev201-3
 - Update for packaging changes.
 
