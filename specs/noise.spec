@@ -1,7 +1,7 @@
 Summary:        The official elementary music player
 Name:           noise
 Version:        0.3.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/noise
 
@@ -66,7 +66,7 @@ This package contains files needed for developing with noise.
 
 
 %check
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/noise.desktop
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/*.desktop
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
@@ -109,7 +109,7 @@ fi
 %{_libdir}/noise/
 
 %{_datadir}/appdata/noise.appdata.xml
-%{_datadir}/applications/noise.desktop
+%{_datadir}/applications/org.pantheon.noise.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.noise.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
 %{_datadir}/noise/
@@ -126,6 +126,9 @@ fi
 
 
 %changelog
+* Tue Jun 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1931-2
+- Update for packaging changes.
+
 * Tue Jun 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1931-1
 - Update to latest snapshot.
 
