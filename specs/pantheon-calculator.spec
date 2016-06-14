@@ -74,6 +74,9 @@ fi
 
 
 %changelog
+* Tue Jun 14 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev232-1
+- Update to latest snapshot.
+
 * Sat Jun 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev231-1
 - Update to latest snapshot.
 
