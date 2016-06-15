@@ -3,7 +3,7 @@
 Summary:        Notification configuration management
 Name:           switchboard-plug-notifications
 Version:        0.1.0.1~rev%{rev}
-Release:        4%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/switchboard-plug-notifications
 
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Jun 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev171-1
+- Update to latest snapshot.
+
 * Mon May 30 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev170-4
 - Update for packaging changes.
 
