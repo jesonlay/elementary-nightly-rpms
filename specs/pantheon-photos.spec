@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.1.2~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -59,7 +59,7 @@ Designed for elementary OS. Works and looks great on any GTK+ desktop.
 # desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos.desktop
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos-viewer.desktop
 
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
@@ -95,6 +95,9 @@ fi
 
 
 %changelog
+* Mon Jun 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev%{rev}-2
+- Enable .appdata file validation.
+
 * Mon Jun 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev2949-1
 - Update to latest snapshot.
 

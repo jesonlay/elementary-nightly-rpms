@@ -1,7 +1,7 @@
 Summary:        The official elementary music player
 Name:           noise
 Version:        0.3.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/noise
 
@@ -67,7 +67,7 @@ This package contains files needed for developing with noise.
 
 %check
 # desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/*.desktop
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
@@ -126,6 +126,9 @@ fi
 
 
 %changelog
+* Mon Jun 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev%{rev}-2
+- Enable .appdata file vaildation.
+
 * Sat Jun 18 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1938-1
 - Update to latest snapshot.
 
