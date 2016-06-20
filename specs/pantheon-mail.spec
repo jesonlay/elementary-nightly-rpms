@@ -1,7 +1,7 @@
 Summary:        Mail is an email client for elementary OS
 Name:           pantheon-mail
 Version:        1.0.0~rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-mail
 
@@ -58,7 +58,7 @@ Originally written by Yorba (yorba.org)
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.mail.desktop
 desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-mail-autostart.desktop
 
-appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
@@ -94,9 +94,6 @@ fi
 
 
 %changelog
-* Mon Jun 20 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev%{rev}-2
-- Enable .appdata file validation.
-
 * Sun Jun 19 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev2087-1
 - Update to latest snapshot.
 
