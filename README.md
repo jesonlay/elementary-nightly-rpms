@@ -15,26 +15,31 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | package name          | status                | comment                   | URL                                           | related bugs  |
 | --------------------- | --------------------- | ------------------------- | --------------------------------------------- | ------------- |
 | appcenter             | TBD                   |                           | <https://launchpad.net/appcenter>             |               |
-| audience              | DONE                  | appdata invalid           | <https://launchpad.net/audience>              |               |
+| audience              | DONE                  | appdata invalid           | <https://launchpad.net/audience>              | [1]           |
 | maya-calendar         | DONE                  |                           | <https://launchpad.net/maya>                  |               |
 | midori                | TBD                   |                           | <https://launchpad.net/midori>                |               |
 | noise                 | DONE                  | desktop invalid           | <https://launchpad.net/noise>                 |               |
 | pantheon-calculator   | DONE                  |                           | <https://launchpad.net/pantheon-calculator>   |               |
-| pantheon-files        | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-files>        |               |
+| pantheon-files        | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-files>        | [2]           |
 | pantheon-mail         | DONE                  |                           | <https://launchpad.net/pantheon-mail>         |               |
 | pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |               |
-| pantheon-photos       | DONE                  | desktop invalid           | <https://launchpad.net/pantheon-photos>       |               |
+| pantheon-photos       | DONE                  |                           | <https://launchpad.net/pantheon-photos>       |               |
 | pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |               |
 | pantheon-snap         | TBD                   |                           | <https://launchpad.net/snap-elementary>       |               |
-| pantheon-terminal     | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-terminal>     |               |
+| pantheon-terminal     | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-terminal>     | [3]           |
 | power-manager         | to be decided         |                           | <https://launchpad.net/power-manager>         |               |
-| scratch-text-editor   | DONE                  | appdata invalid           | <https://launchpad.net/scratch>               |               |
+| scratch-text-editor   | DONE                  | appdata invalid           | <https://launchpad.net/scratch>               | [4]           |
 | switchboard           | DONE                  |                           | <https://launchpad.net/switchboard>           |               |
 | screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |               |
 
-[1] <https://bugs.freedesktop.org/show_bug.cgi?id=51258>
 
-[2] <https://bugzilla.redhat.com/show_bug.cgi?id=1333550>
+[1] <https://bugs.launchpad.net/audience/+bug/1595641>
+
+[2] <https://bugs.launchpad.net/pantheon-files/+bug/1595642>
+
+[3] <https://bugs.launchpad.net/pantheon-terminal/+bug/1595643>
+
+[4] <https://bugs.launchpad.net/scratch/+bug/1595645>
 
 
 ### third-party "made for elementary" apps
