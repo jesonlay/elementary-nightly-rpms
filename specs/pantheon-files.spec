@@ -1,35 +1,35 @@
-Summary:		Pantheon file manager
-Name:			pantheon-files
+Summary:        Pantheon file manager
+Name:           pantheon-files
 Version:        0.2.4~rev%{rev}
-Release:        1%{?dist}
-License:		GPLv3
-URL:			http://launchpad.net/pantheon-files
+Release:        3%{?dist}
+License:        GPLv3
+URL:            http://launchpad.net/pantheon-files
 
-Source0:		%{name}-%{version}.tar.gz
-Source1:		%{name}.conf
+Source0:        %{name}-%{version}.tar.gz
+Source1:        %{name}.conf
 
-BuildRequires:	cmake
-BuildRequires:	desktop-file-utils
-BuildRequires:	gettext
-BuildRequires:	libappstream-glib
-BuildRequires:	vala
+BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
+BuildRequires:  gettext
+BuildRequires:  libappstream-glib
+BuildRequires:  vala
 
-BuildRequires:	pkgconfig(dbus-glib-1)
-BuildRequires:	pkgconfig(gail-3.0)
-BuildRequires:	pkgconfig(gee-0.8)
-BuildRequires:	pkgconfig(gio-2.0)
-BuildRequires:	pkgconfig(gio-unix-2.0)
-BuildRequires:	pkgconfig(glib-2.0) >= 2.29
-BuildRequires:	pkgconfig(gmodule-2.0)
-BuildRequires:	pkgconfig(granite) >= 0.3.0
-BuildRequires:	pkgconfig(gthread-2.0)
-BuildRequires:	pkgconfig(gtk+-3.0) >= 3.10
-BuildRequires:	pkgconfig(libcanberra) >= 0.30
-BuildRequires:	pkgconfig(libnotify) >= 0.7.2
-BuildRequires:	pkgconfig(pango) >= 1.1.2
-BuildRequires:	pkgconfig(plank)
-BuildRequires:	pkgconfig(sqlite3)
-BuildRequires:	pkgconfig(zeitgeist-2.0)
+BuildRequires:  pkgconfig(dbus-glib-1)
+BuildRequires:  pkgconfig(gail-3.0)
+BuildRequires:  pkgconfig(gee-0.8)
+BuildRequires:  pkgconfig(gio-2.0)
+BuildRequires:  pkgconfig(gio-unix-2.0)
+BuildRequires:  pkgconfig(glib-2.0) >= 2.29
+BuildRequires:  pkgconfig(gmodule-2.0)
+BuildRequires:  pkgconfig(granite) >= 0.3.0
+BuildRequires:  pkgconfig(gthread-2.0)
+BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
+BuildRequires:  pkgconfig(libcanberra) >= 0.30
+BuildRequires:  pkgconfig(libnotify) >= 0.7.2
+BuildRequires:  pkgconfig(pango) >= 1.1.2
+BuildRequires:  pkgconfig(plank)
+BuildRequires:  pkgconfig(sqlite3)
+BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 
 %description
@@ -37,16 +37,16 @@ The simple, powerful, and sexy file manager from elementary.
 Designed for elementary OS.
 
 
-%package		libs
+%package        libs
 Summary: pantheon-files libraries
-%description	libs
+%description    libs
 The simple, powerful, and sexy file manager from elementary.
 This package contains the libraries.
 
 
-%package		devel
+%package        devel
 Summary: pantheon-files development headers
-%description	devel
+%description    devel
 The simple, powerful, and sexy file manager from elementary.
 This package contains the development headers.
 
@@ -93,8 +93,8 @@ fi
 %post   libs -p /sbin/ldconfig
 %postun libs -p /sbin/ldconfig
 
-%post	devel -p /sbin/ldconfig
-%postun	devel -p /sbin/ldconfig
+%post   devel -p /sbin/ldconfig
+%postun devel -p /sbin/ldconfig
 
 
 %files      -f pantheon-files.lang
@@ -119,27 +119,37 @@ fi
 %{_datadir}/polkit-1/actions/net.launchpad.pantheon-files.policy
 
 
-%files		libs
+%files      libs
 %{_libdir}/libpantheon-files-core.so.0
 %{_libdir}/libpantheon-files-core.so.0.1
 %{_libdir}/libpantheon-files-widgets.so.0
 %{_libdir}/libpantheon-files-widgets.so.0.1
 
 
-%files		devel
+%files      devel
 %{_includedir}/pantheon-files-core
+%{_includedir}/pantheon-files-widgets
 
 %{_libdir}/libpantheon-files-core.so
 %{_libdir}/libpantheon-files-widgets.so
 
 %{_libdir}/pkgconfig/pantheon-files-core.pc
+%{_libdir}/pkgconfig/pantheon-files-widgets.pc
 
 %{_datadir}/vala/vapi/pantheon-files-core-C.vapi
 %{_datadir}/vala/vapi/pantheon-files-core.deps
 %{_datadir}/vala/vapi/pantheon-files-core.vapi
+%{_datadir}/vala/vapi/pantheon-files-widgets.deps
+%{_datadir}/vala/vapi/pantheon-files-widgets.vapi
 
 
 %changelog
+* Thu Jun 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2207-3
+- Update for packaging changes.
+
+* Thu Jun 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2207-2
+- Add new development files for pantheon-files-widgets library.
+
 * Thu Jun 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2207-1
 - Update to latest snapshot.
 
