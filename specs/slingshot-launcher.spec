@@ -3,7 +3,7 @@
 Summary:        Lightweight and stylish app launcher
 Name:           slingshot-launcher
 Version:        0.9.0~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/slingshot
 
@@ -77,6 +77,9 @@ fi
 
 
 %changelog
+* Wed Jul 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.9.0~rev669-2
+- Update for packaging changes.
+
 * Wed Jul 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.9.0~rev669-1
 - Update to latest snapshot.
 

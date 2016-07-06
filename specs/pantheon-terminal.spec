@@ -1,7 +1,7 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
@@ -85,6 +85,9 @@ fi
 
 
 %changelog
+* Wed Jul 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev858-2
+- Update for packaging changes.
+
 * Tue Jun 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev853-1
 - Update to latest snapshot.
 

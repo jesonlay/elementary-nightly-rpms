@@ -1,7 +1,7 @@
 Summary:        elementary GTK+ Stylesheet
 Name:           egtk
 Version:        5.0.0~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/egtk
 
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Jul 06 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.0~rev677-2
+- Update for packaging changes.
+
 * Mon Jun 20 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.0~rev674-1
 - Update to latest snapshot.
 
