@@ -1,7 +1,7 @@
 Summary:        Mail is an email client for elementary OS
 Name:           pantheon-mail
 Version:        1.0.0~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-mail
 
@@ -90,10 +90,15 @@ fi
 %{_datadir}/contractor/mail-attach.contract
 %{_datadir}/glib-2.0/schemas/org.pantheon.mail.gschema.xml
 %{_datadir}/metainfo/org.pantheon.mail.appdata.xml
-%{_datadir}/pantheon-mail/
 
 
 %changelog
+* Fri Jul 08 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev2109-2
+- Update for packaging changes.
+
+* Fri Jul 08 2016 Fabio Valentini <decathorpe@gmail.com>
+- Update spec for upstream changes.
+
 * Fri Jul 08 2016 Fabio Valentini <decathorpe@gmail.com> - 1.0.0~rev2109-1
 - Update to latest snapshot.
 
