@@ -1,7 +1,7 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
@@ -47,7 +47,7 @@ export LDFLAGS="-fPIC $RPM_OPT_FLAGS"
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-terminal.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.terminal.desktop
 
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
@@ -77,7 +77,7 @@ fi
 
 %{_datadir}/appdata/pantheon-terminal.appdata.xml
 %{_datadir}/applications/open-pantheon-terminal-here.desktop
-%{_datadir}/applications/pantheon-terminal.desktop
+%{_datadir}/applications/org.pantheon.terminal.desktop
 
 %{_datadir}/glib-2.0/schemas/org.pantheon.terminal.gschema.xml
 
@@ -85,6 +85,12 @@ fi
 
 
 %changelog
+* Mon Jul 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev862-2
+- Update for packaging changes.
+
+* Sun Jul 10 2016 Fabio Valentini <decathorpe@gmail.com>
+- Adapt to desktop file name change.
+
 * Sun Jul 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev862-1
 - Update to latest snapshot.
 
