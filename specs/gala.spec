@@ -1,7 +1,7 @@
 Summary:        Gala window manager
 Name:           gala
 Version:        0.3.0~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/gala
 
@@ -101,6 +101,7 @@ fi
 
 %{_datadir}/applications/gala.desktop
 %{_datadir}/applications/gala-multitaskingview.desktop
+%{_datadir}/applications/gala-other.desktop
 %{_datadir}/applications/gala-wayland.desktop
 %{_datadir}/gala/
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.gala.gschema.xml
@@ -123,6 +124,12 @@ fi
 
 
 %changelog
+* Tue Jul 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0~rev531-2
+- Update for packaging changes.
+
+* Fri Jul 22 2016 Fabio Valentini <decathorpe@gmail.com>
+- Update spec for new gala-other.desktop file
+
 * Fri Jul 22 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0~rev531-1
 - Update to latest snapshot.
 
