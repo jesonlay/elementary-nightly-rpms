@@ -21,7 +21,7 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | noise                 | DONE                  | desktop invalid           | <https://launchpad.net/noise>                 |               |
 | pantheon-calculator   | DONE                  |                           | <https://launchpad.net/pantheon-calculator>   |               |
 | pantheon-files        | DONE                  | appdata invalid           | <https://launchpad.net/pantheon-files>        | [2]           |
-| pantheon-mail         | DONE                  |                           | <https://launchpad.net/pantheon-mail>         |               |
+| pantheon-mail         | WONTFIX               | requires gsignon now      | <https://launchpad.net/pantheon-mail>         |               |
 | pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |               |
 | pantheon-photos       | DONE                  |                           | <https://launchpad.net/pantheon-photos>       |               |
 | pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |               |
