@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.2.4~rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -66,7 +66,7 @@ This package contains the development headers.
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-files.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.files.desktop
 
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
@@ -144,6 +144,12 @@ fi
 
 
 %changelog
+* Wed Jul 27 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2257-3
+- Update for packaging changes.
+
+* Tue Jul 26 2016 Fabio Valentini <decathorpe@gmail.com>
+- Update %check section to reflect .desktop file name change.
+
 * Tue Jul 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2257-2
 - Update for packaging changes.
 
