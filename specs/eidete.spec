@@ -1,7 +1,7 @@
 Summary:        A simple screencasting app for the elementary project
 Name:           eidete
 Version:        0.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 URL:            http://launchpad.net/eidete
 
@@ -76,11 +76,17 @@ fi
 
 %{_datadir}/applications/eidete.desktop
 %{_datadir}/contractor/videobin.contract
-%{_datadir}/icons/hicolor/48x48/apps/eidete.svg
+%{_datadir}/icons/hicolor/*/apps/eidete.svg
 %{_datadir}/icons/hicolor/48x48/apps/videobin.svg
 
 
 %changelog
+* Thu Aug 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev206-2
+- Update for packaging changes.
+
+* Thu Aug 04 2016 Fabio Valentini <decathorpe@gmail.com>
+- Add new res icons.
+
 * Thu Aug 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev206-1
 - Update to latest snapshot.
 
