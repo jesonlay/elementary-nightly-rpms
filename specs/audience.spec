@@ -1,7 +1,7 @@
 Summary:        Audience video player
 Name:           audience
 Version:        0.1.0.2~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
 
@@ -11,6 +11,7 @@ Source1:        %{name}.conf
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  intltool
 BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig
 BuildRequires:  vala
@@ -85,6 +86,12 @@ fi
 
 
 %changelog
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev620-2
+- Update for packaging changes.
+
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com>
+- Add BR: intltool to fix build.
+
 * Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev620-1
 - Update to latest snapshot.
 
