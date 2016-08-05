@@ -1,7 +1,7 @@
 Summary:        Audience video player
 Name:           audience
 Version:        0.1.0.2~rev%{rev}
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
 
@@ -80,12 +80,18 @@ fi
 
 %{_bindir}/audience
 
-%{_datadir}/appdata/audience.appdata.xml
+%{_datadir}/appdata/org.pantheon.audience.appdata.xml
 %{_datadir}/applications/org.pantheon.audience.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.audience.gschema.xml
 
 
 %changelog
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev620-4
+- Update for packaging changes.
+
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com>
+- Adapt spec to upstream appdata file name change.
+
 * Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev620-3
 - Update for packaging changes.
 
