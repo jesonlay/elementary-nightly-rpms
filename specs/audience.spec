@@ -1,7 +1,7 @@
 Summary:        Audience video player
 Name:           audience
 Version:        0.1.0.2~rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
 
@@ -47,7 +47,7 @@ A modern video player that brings the lessons learned from the web home to the d
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/audience.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.audience.desktop
 
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 # Validation of files failed
@@ -81,11 +81,17 @@ fi
 %{_bindir}/audience
 
 %{_datadir}/appdata/audience.appdata.xml
-%{_datadir}/applications/audience.desktop
+%{_datadir}/applications/org.pantheon.audience.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.audience.gschema.xml
 
 
 %changelog
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev620-3
+- Update for packaging changes.
+
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com>
+- Adapt spec to upstream .desktop file name change.
+
 * Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.2~rev620-2
 - Update for packaging changes.
 
