@@ -1,7 +1,7 @@
 Summary:        Modular Desktop Settings Hub
 Name:           switchboard
 Version:        2.0.2~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            http://launchpad.net/switchboard
 
@@ -11,6 +11,7 @@ Source1:        %{name}.conf
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  intltool
 BuildRequires:  vala >= 0.21.0
 
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
@@ -104,6 +105,12 @@ fi
 
 
 %changelog
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.2~rev664-2
+- Update for packaging changes.
+
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com>
+- Add BR: intltool to fix build.
+
 * Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.2~rev664-1
 - Update to latest snapshot.
 
