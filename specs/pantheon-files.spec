@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.2.4~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -11,6 +11,7 @@ Source1:        %{name}.conf
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  intltool
 BuildRequires:  libappstream-glib
 BuildRequires:  vala
 
@@ -144,6 +145,12 @@ fi
 
 
 %changelog
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2274-2
+- Update for packaging changes.
+
+* Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com>
+- Add BR: intltool to fix build.
+
 * Fri Aug 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.4~rev2274-1
 - Update to latest snapshot.
 
