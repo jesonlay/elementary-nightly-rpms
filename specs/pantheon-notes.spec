@@ -1,7 +1,7 @@
 Summary:        Simple note taking app for elementary OS
 Name:           pantheon-notes
 Version:        0.7~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-notes
 
@@ -72,6 +72,9 @@ fi
 
 
 %changelog
+* Sun Aug 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.7~rev45-2
+- Update for packaging changes.
+
 * Sun Aug 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.7~rev45-1
 - Update to latest snapshot.
 

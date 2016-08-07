@@ -1,7 +1,7 @@
 Summary:        Vocal Podcatcher
 Name:           vocal
 Version:        2.0~git%{date}~%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/vocal
 
@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Sun Aug 07 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160717.205159~c1578ed5-2
+- Update for packaging changes.
+
 * Mon Jul 18 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160717.205159~c1578ed5-1
 - Update to latest snapshot.
 
