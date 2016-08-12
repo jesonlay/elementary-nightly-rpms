@@ -1,6 +1,6 @@
 Summary:        Modular Desktop Settings Hub
 Name:           switchboard
-Version:        2.0.2~rev%{rev}
+Version:        2.1.0~rev%{rev}
 Release:        1%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            http://launchpad.net/switchboard
@@ -108,6 +108,9 @@ fi
 
 
 %changelog
+* Fri Aug 12 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0~rev671-1
+- Update to version 2.1.0.
+
 * Thu Aug 11 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.2~rev670-1
 - Update to latest snapshot.
 
