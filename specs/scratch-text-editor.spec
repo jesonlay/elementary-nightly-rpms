@@ -1,6 +1,6 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
-Version:        2.2.1~rev%{rev}
+Version:        2.3~rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
@@ -137,6 +137,9 @@ fi
 
 
 %changelog
+* Mon Aug 15 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3~rev1738-1
+- Update to version 2.3.
+
 * Sun Aug 14 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.1~rev1737-1
 - Update to latest snapshot.
 

@@ -1,6 +1,6 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
-Version:        0.1.2~rev%{rev}
+Version:        0.2~rev%{rev}
 Release:        1%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
@@ -95,6 +95,9 @@ fi
 
 
 %changelog
+* Mon Aug 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev2996-1
+- Update to version 0.2.
+
 * Sun Aug 14 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.2~rev2995-1
 - Update to latest snapshot.
 
