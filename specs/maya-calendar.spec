@@ -1,7 +1,7 @@
 Summary:        The official elementary calendar
 Name:           maya-calendar
 Version:        0.4~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/maya
 
@@ -31,6 +31,8 @@ BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
 BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
 BuildRequires:  pkgconfig(libical)
+
+Requires:       hicolor-icon-theme
 
 
 %description
@@ -108,8 +110,9 @@ fi
 %{_datadir}/appdata/maya-calendar.appdata.xml
 %{_datadir}/applications/maya-calendar.desktop
 %{_datadir}/applications/maya-calendar-daemon.desktop
-
 %{_datadir}/glib-2.0/schemas/org.pantheon.maya.gschema.xml
+%{_datadir}/icons/hicolor/scalable/actions/calendar-go-today.svg
+%{_datadir}/maya-calendar/
 
 
 %files devel
@@ -123,6 +126,12 @@ fi
 
 
 %changelog
+* Mon Aug 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev949-2
+- Update for packaging changes.
+
+* Mon Aug 15 2016 Fabio Valentini <decathorpe@gmail.com>
+- Add new css files and icon to spec.
+
 * Mon Aug 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev949-1
 - Update to latest snapshot.
 
