@@ -1,7 +1,7 @@
 Summary:        Vocal Podcatcher
 Name:           vocal
 Version:        2.0~git%{date}~%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/vocal
 
@@ -13,6 +13,7 @@ Patch0:         00-webkitdeps.patch
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  intltool
 BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig
 BuildRequires:  vala
@@ -98,6 +99,12 @@ fi
 
 
 %changelog
+* Wed Aug 17 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160717.205159~c1578ed5-3
+- Update for packaging changes.
+
+* Sun Aug 07 2016 Fabio Valentini <decathorpe@gmail.com>
+- Add BR: intltool.
+
 * Sun Aug 07 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~git160717.205159~c1578ed5-2
 - Update for packaging changes.
 
