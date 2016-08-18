@@ -1,6 +1,6 @@
 Summary:        Granite Toolkit
 Name:           granite
-Version:        0.4~rev%{rev}
+Version:        0.4.0.1~rev%{rev}
 Release:        1%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/granite
@@ -99,6 +99,9 @@ fi
 
 
 %changelog
+* Thu Aug 18 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1~rev986-1
+- Update to version 0.4.0.1.
+
 * Thu Aug 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev985-1
 - Update to latest snapshot.
 
