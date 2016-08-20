@@ -99,7 +99,7 @@ index 0a0817d..32e0e79 100644
          help_button.clicked.connect (() => {
              try {
 -                AppInfo.launch_default_for_uri ("https://elementary.io/support", null);
-+                AppInfo.launch_default_for_uri ("https://getfedora.org/support", null);
++                AppInfo.launch_default_for_uri ("https://fedoraproject.org/wiki/Fedora_Project_Wiki", null);
              } catch (Error e) {
                  warning (e.message);
              }
