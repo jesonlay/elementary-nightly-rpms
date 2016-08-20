@@ -3,12 +3,14 @@
 Summary:        Mouse and Touchpad configuration management
 Name:           switchboard-plug-mouse-touchpad
 Version:        0.1.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/switchboard-plug-mouse-touchpad
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
+
+Patch0:         00-gschema-path.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
@@ -27,7 +29,8 @@ This is a swtichboard plug for elementary os.
 
 
 %prep
-%autosetup
+%setup -q
+%patch0 -p1
 
 
 %build
@@ -49,6 +52,12 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat Aug 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev97-2
+- Update for packaging changes.
+
+* Sun Aug 14 2016 Fabio Valentini <decathorpe@gmail.com>
+- Add patch to fix SEGFAULT (wrong gsettings path).
+
 * Sun Aug 14 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev97-1
 - Update to latest snapshot.
 
