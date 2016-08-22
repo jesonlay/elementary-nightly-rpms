@@ -34,13 +34,6 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |               |
 
 
-### third-party "made for elementary" apps
-
-| package name          | status                | comment                   | URL                                           | related bugs  |
-| --------------------- | --------------------- | ------------------------- | --------------------------------------------- | ------------- |
-| vocal                 | DONE                  | appdata invalid           | <https://github.com/vocalapp/vocal>           |               |
-
-
 ### pantheon desktop core
 
 | package name                      | status            | comment           | URL                                           | related bugs  |
