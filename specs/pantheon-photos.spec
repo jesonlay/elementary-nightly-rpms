@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -56,9 +56,7 @@ Designed for elementary OS. Works and looks great on any GTK+ desktop.
 
 
 %check
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos.desktop
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-photos-viewer.desktop
-
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/*.desktop
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
@@ -87,14 +85,20 @@ fi
 
 %{_libdir}/pantheon-photos/
 
-%{_datadir}/appdata/pantheon-photos.appdata.xml
-%{_datadir}/applications/pantheon-photos.desktop
-%{_datadir}/applications/pantheon-photos-viewer.desktop
+%{_datadir}/appdata/org.pantheon.photos.appdata.xml
+%{_datadir}/applications/org.pantheon.photos.desktop
+%{_datadir}/applications/org.pantheon.photos-viewer.desktop
 %{_datadir}/glib-2.0/schemas/*.xml
 %{_datadir}/pantheon-photos/
 
 
 %changelog
+* Mon Aug 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev3003-2
+- Update for packaging changes.
+
+* Mon Aug 29 2016 Fabio Valentini <decathorpe@gmail.com>
+- Adapt spec to .desktop and .appdata file renames.
+
 * Mon Aug 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev3003-1
 - Update to latest snapshot.
 
