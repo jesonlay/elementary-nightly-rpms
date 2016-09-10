@@ -17,7 +17,7 @@ rev =
 
 [mock]
 active = true
-dist = fedora-23-x86_64-ele-nightly
+dist = fedora-24-x86_64-ele-nightly
 keep = false
 
 [copr]
