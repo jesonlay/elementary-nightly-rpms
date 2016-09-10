@@ -1,6 +1,6 @@
 Summary:        simple screen capture tool
 Name:           screenshot-tool
-Version:        0.1~rev%{rev}
+Version:        0.1.0.1~rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/screenshot-tool
@@ -68,6 +68,9 @@ fi
 
 
 %changelog
+* Sat Sep 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev221-1
+- Update to version 0.1.0.1.
+
 * Wed Sep 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev220-1
 - Update to latest snapshot.
 
