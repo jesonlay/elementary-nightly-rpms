@@ -49,14 +49,13 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | wingpanel                         | DONE              |                   | <https://launchpad.net/wingpanel>             |               |
 
 
-### elementary artwork
+## elementary artwork
 
-
-| package name          | status                | comment                   | URL                                           | related bugs  |
-| --------------------- | --------------------- | ------------------------- | --------------------------------------------- | ------------- |
-| egtk                  | DONE                  |                           | <https://launchpad.net/egtk>                  |               |
-| elementary-icons      | TBD                   |                           | <https://launchpad.net/elementaryicons>       |               |
-| elementary-wallpapers | TBD                   |                           | <https://launchpad.net/elementaryos>          |               |
+| package name                  | status            | comment               | URL                                           | related bugs  |
+| ----------------------------- | ----------------- | --------------------- | --------------------------------------------- | ------------- |
+| elementary-icon-theme         | DONE              |                       | <https://github.com/elementary/icons>         |               |
+| elementary-themes             | DONE              |                       | <https://github.com/elementary/stylesheet>    |               |
+| elementary-wallpapers         | DONE              |                       | <https://github.com/elementary/wallpapers>    |               |
 
 
 ### switchboard plugs
