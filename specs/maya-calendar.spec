@@ -1,7 +1,7 @@
 Summary:        The official elementary calendar
 Name:           maya-calendar
 Version:        0.4.0.2~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/maya
 
@@ -66,8 +66,8 @@ This package contains the development files.
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar.desktop
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/maya-calendar-daemon.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.maya.desktop
+# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.maya-daemon.desktop
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
@@ -79,14 +79,12 @@ rm -rf %{buildroot}/RPM_BUILD_ROOT
 /sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
 
-
 %postun
 /sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 fi
-
 
 %posttrans
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
@@ -107,9 +105,9 @@ fi
 %{_libdir}/libmaya-calendar.so.0.1
 %{_libdir}/maya-calendar/
 
-%{_datadir}/appdata/maya-calendar.appdata.xml
-%{_datadir}/applications/maya-calendar.desktop
-%{_datadir}/applications/maya-calendar-daemon.desktop
+%{_datadir}/appdata/org.pantheon.maya.appdata.xml
+%{_datadir}/applications/org.pantheon.maya.desktop
+%{_datadir}/applications/org.pantheon.maya-daemon.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.maya.gschema.xml
 %{_datadir}/icons/hicolor/scalable/actions/calendar-go-today.svg
 %{_datadir}/maya-calendar/
@@ -126,6 +124,12 @@ fi
 
 
 %changelog
+* Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2~rev963-2
+- Update for packaging changes.
+
+* Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com>
+- Adapt spec for renamed appdata and desktop files.
+
 * Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2~rev963-1
 - Update to latest snapshot.
 
