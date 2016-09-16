@@ -1,7 +1,7 @@
 Summary:        A tiny, simple calculator written in GTK+ and Vala.
 Name:           pantheon-calculator
 Version:        0.1.1~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-calculator
 
@@ -39,7 +39,7 @@ A tiny, simple calculator written in GTK+ and Vala.
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/pantheon-calculator.desktop
+desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/*.desktop
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
@@ -50,13 +50,11 @@ rm -rf %{buildroot}
 %post
 /usr/bin/update-desktop-database &> /dev/null || :
 
-
 %postun
 /usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 fi
-
 
 %posttrans
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
@@ -68,12 +66,18 @@ fi
 
 %{_bindir}/pantheon-calculator
 
-%{_datadir}/appdata/pantheon-calculator.appdata.xml
-%{_datadir}/applications/pantheon-calculator.desktop
+%{_datadir}/appdata/org.pantheon.calculator.appdata.xml
+%{_datadir}/applications/org.pantheon.calculator.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.calculator.gschema.xml
 
 
 %changelog
+* Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev278-2
+- Update for packaging changes.
+
+* Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com>
+- Adapt spec for renamed appdata and desktop files.
+
 * Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev278-1
 - Update to latest snapshot.
 
