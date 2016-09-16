@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.3~rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
@@ -77,7 +77,6 @@ Scratch is the text editor that works for you. It auto-saves your files, meaning
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-
 # appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
@@ -114,14 +113,10 @@ fi
 %{_libdir}/libscratchcore.so.0
 %{_libdir}/libscratchcore.so.0.0
 
-%{_datadir}/appdata/scratch-text-editor.appdata.xml
-%{_datadir}/applications/scratch-text-editor.desktop
+%{_datadir}/appdata/org.pantheon.scratch.appdata.xml
+%{_datadir}/applications/org.pantheon.scratch.desktop
 
-%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.gschema.xml
-%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.file-manager.gschema.xml
-%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.folder-manager.gschema.xml
-%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.spell.gschema.xml
-%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.plugins.terminal.gschema.xml
+%{_datadir}/glib-2.0/schemas/org.pantheon.scratch.*
 
 %{_datadir}/scratch/
 
@@ -137,6 +132,12 @@ fi
 
 
 %changelog
+* Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3~rev1760-2
+- Update for packaging changes.
+
+* Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com>
+- Adapt spec for renamed appdata and desktop files.
+
 * Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3~rev1760-1
 - Update to latest snapshot.
 
