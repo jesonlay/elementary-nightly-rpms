@@ -1,6 +1,6 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
-Version:        0.3.0.2~rev%{rev}
+Version:        0.3.0.2+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
@@ -145,6 +145,9 @@ fi
 
 
 %changelog
+* Thu Sep 22 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.2+rev2326-1
+- Update to version 0.3.0.2.
+
 * Wed Sep 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.2~rev2325-1
 - Update to latest snapshot.
 
