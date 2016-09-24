@@ -45,6 +45,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat Sep 24 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.1+git160923.173728.192e7cc8-1
+- Update to latest snapshot.
+
 * Fri Sep 23 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.1+git160922.142219.f2f734b3-1
 - Update to version 5.0.1.
 
