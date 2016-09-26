@@ -17,44 +17,40 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | appcenter             | TBD                   |                           | <https://launchpad.net/appcenter>             |               |
 | audience              | DONE                  |                           | <https://launchpad.net/audience>              |               |
 | maya-calendar         | DONE                  |                           | <https://launchpad.net/maya>                  |               |
-| midori                | TBD                   |                           | <https://launchpad.net/midori>                |               |
-| noise                 | DONE                  | desktop invalid           | <https://launchpad.net/noise>                 |               |
+| noise                 | DONE                  |                           | <https://launchpad.net/noise>                 |               |
 | pantheon-calculator   | DONE                  |                           | <https://launchpad.net/pantheon-calculator>   |               |
 | pantheon-files        | DONE                  |                           | <https://launchpad.net/pantheon-files>        |               |
-| pantheon-mail         | WONTFIX               | requires gsignon now      | <https://launchpad.net/pantheon-mail>         |               |
+| pantheon-mail         | TBD                   |                           | <https://launchpad.net/pantheon-mail>         |               |
 | pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |               |
 | pantheon-photos       | DONE                  |                           | <https://launchpad.net/pantheon-photos>       |               |
-| pantheon-print        | TBD                   |                           | <https://launchpad.net/pantheon-print>        |               |
 | pantheon-terminal     | DONE                  |                           | <https://launchpad.net/pantheon-terminal>     |               |
-| power-manager         | to be decided         |                           | <https://launchpad.net/power-manager>         |               |
 | scratch-text-editor   | DONE                  |                           | <https://launchpad.net/scratch>               |               |
 | screenshot-tool       | DONE                  |                           | <https://launchpad.net/screenshot-tool>       |               |
 | snap-photobooth       | DONE                  |                           | <https://launchpad.net/snap-elementary>       |               |
 | switchboard           | DONE                  |                           | <https://launchpad.net/switchboard>           |               |
-| screenshot-tool       | TBD                   |                           | <https://launchpad.net/screenshot-tool>       |               |
 
 
 ### pantheon desktop core
 
-| package name                      | status            | comment           | URL                                           | related bugs  |
-| --------------------------------- | ----------------- | ----------------- | --------------------------------------------- | ------------- |
-| capnet-assist                     | TBD               |                   | <https://launchpad.net/capnet-assist>         |               |
-| cerbere                           | DONE              | desktop invalid   | <https://launchpad.net/cerbere>               |               |
-| contractor                        | DONE              |                   | <https://launchpad.net/contractor>            |               |
-| gala                              | DONE              |                   | <https://launchpad.net/gala>                  |               |
-| plank                             | DONE              |                   | <https://launchpad.net/plank>                 |               |
-| pantheon-greeter                  | TBD               |                   | <https://launchpad.net/pantheon-greeter>      |               |
-| pantheon-xsession-settings        | DONE              |                   |                                               |               |
-| slingshot-launcher                | DONE              |                   | <https://launchpad.net/slingshot>             |               |
-| wingpanel                         | DONE              |                   | <https://launchpad.net/wingpanel>             |               |
+| package name                  | status            | comment               | URL                                           | related bugs  |
+| ----------------------------- | ----------------- | --------------------- | --------------------------------------------- | ------------- |
+| cerbere                       | DONE              |                       | <https://launchpad.net/cerbere>               |               |
+| contractor                    | DONE              |                       | <https://launchpad.net/contractor>            |               |
+| gala                          | DONE              |                       | <https://launchpad.net/gala>                  |               |
+| plank                         | DONE              |                       | <https://launchpad.net/plank>                 |               |
+| pantheon-agent-polkit         | TBD               |                       | <https://launchpad.net/pantheon-agent-polkit> |               |
+| pantheon-greeter              | TBD               |                       | <https://launchpad.net/pantheon-greeter>      |               |
+| pantheon-session-settings     | DONE              |                       | <https://github.com/decathorpe/pantheon-session-settings> |   |
+| slingshot-launcher            | DONE              |                       | <https://launchpad.net/slingshot>             |               |
+| wingpanel                     | DONE              |                       | <https://launchpad.net/wingpanel>             |               |
 
 
 ## elementary artwork
 
 | package name                  | status            | comment               | URL                                           | related bugs  |
 | ----------------------------- | ----------------- | --------------------- | --------------------------------------------- | ------------- |
-| elementary-icon-theme         | DONE              |                       | <https://github.com/elementary/icons>         |               |
-| elementary-themes             | DONE              |                       | <https://github.com/elementary/stylesheet>    |               |
+| elementary-icon-theme         | DONE              |                       | <https://launchpad.net/elementaryicons>       |               |
+| elementary-themes             | DONE              |                       | <https://launchpad.net/egtk>                  |               |
 | elementary-wallpapers         | DONE              |                       | <https://github.com/elementary/wallpapers>    |               |
 
 
@@ -62,19 +58,18 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 
 | package name                      | status        | comment   | URL                                                       | related bugs  |
 | --------------------------------- | ------------- | --------- | --------------------------------------------------------- | ------------- |
-| pantheon-plugs                    | TBD           |           | <https://launchpad.net/pantheon-plugs>                    |               |
 | switchboard-plug-about            | TBD           |           | <https://launchpad.net/switchboard-plug-about>            |               |
 | switchboard-plug-a11y             | TBD           |           | <https://launchpad.net/switchboard-plug-a11y>             |               |
 | switchboard-plug-applications     | DONE          |           | <https://launchpad.net/switchboard-plug-applications>     |               |
 | switchboard-plug-datetime         | TBD           |           | <https://launchpad.net/switchboard-plug-datetime>         |               |
-| switchboard-plug-pantheon-shell   | DONE          |           | <https://launchpad.net/switchboard-plug-pantheon-shell>   |               |
 | switchboard-plug-display          | TBD           |           | <https://launchpad.net/switchboard-plug-display>          |               |
 | switchboard-plug-keyboard         | TBD           |           | <https://launchpad.net/switchboard-plug-keyboard>         |               |
 | switchboard-plug-locale           | TBD           |           | <https://launchpad.net/switchboard-plug-locale>           |               |
-| switchboard-plug-mouse-touchpad   | DONE          |           | <https://launchpad.net/switchboard-plug-mouse-touchpad>   |               |
+| switchboard-plug-mouse-touchpad   | DONE          | broken    | <https://launchpad.net/switchboard-plug-mouse-touchpad>   |               |
 | switchboard-plug-networking       | TBD           |           | <https://launchpad.net/switchboard-plug-networking>       |               |
 | switchboard-plug-notifications    | DONE          |           | <https://launchpad.net/switchboard-plug-notifications>    |               |
 | switchboard-plug-onlineaccounts   | TBD           |           | <https://launchpad.net/switchboard-plug-onlineaccounts>   |               |
+| switchboard-plug-pantheon-shell   | DONE          |           | <https://launchpad.net/switchboard-plug-pantheon-shell>   |               |
 | switchboard-plug-parental-controls| TBD           |           | <https://launchpad.net/switchboard-plug-parental-controls>|               |
 | switchboard-plug-power            | TBD           |           | <https://launchpad.net/switchboard-plug-power>            |               |
 | switchboard-plug-printers         | TBD           |           | <https://launchpad.net/switchboard-plug-printers>         |               |
@@ -88,7 +83,7 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | package name                      | status        | comment   | URL                                                       | related bugs  |
 | --------------------------------- | ------------- | --------- | --------------------------------------------------------- | ------------- |
 | wingpanel-indicator-a11y          | DONE          |           | <https://launchpad.net/wingpanel-indicator-a11y>          |               |
-| wingpanel-indicator-ayatana       | FTBFS         |           | <https://launchpad.net/wingpanel-indicator-ayatana>       |               |
+| wingpanel-indicator-ayatana       | TBD           |           | <https://launchpad.net/wingpanel-indicator-ayatana>       |               |
 | wingpanel-indicator-bluetooth     | DONE          |           | <https://launchpad.net/wingpanel-indicator-bluetooth>     |               |
 | wingpanel-indicator-datetime      | DONE          |           | <https://launchpad.net/wingpanel-indicator-datetime>      |               |
 | wingpanel-indicator-keyboard      | TBD           |           | <https://launchpad.net/wingpanel-indicator-keyboard>      |               |
@@ -99,11 +94,14 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | wingpanel-indicator-sound         | DONE          |           | <https://launchpad.net/wingpanel-indicator-sound>         |               |
 
 
-### elementary / pantheon libraries
+### elementary / pantheon libraries and other shared dependencies
 
-| package name          | status                | comment                   | URL                                           | related bugs  |
-| --------------------- | --------------------- | ------------------------- | --------------------------------------------- | ------------- |
-| granite               | DONE                  |                           | <https://launchpad.net/granite>               |               |
+| package name          | status                | comment           | URL                                               | related bugs  |
+| --------------------- | --------------------- | ----------------- | ------------------------------------------------- | ------------- |
+| cmake-elementary      | TBD                   |                   |                                                   |               |
+| gsignond              | DONE                  | bzr snapshot      | <https://gitlab.com/accounts-sso/gsignond>        |               |
+| granite               | DONE                  |                   | <https://launchpad.net/granite>                   |               |
+| libgsignon-glib       | DONE                  | bzr snapshot      | <https://gitlab.com/accounts-sso/libgsignon-glib> |               |
 
 
 ## USAGE
