@@ -1,6 +1,6 @@
 Summary:        Stylish top panel
 Name:           wingpanel
-Version:        2.0.1~rev%{rev}
+Version:        2.0.1+rev%{rev}
 Release:        1%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
@@ -22,7 +22,8 @@ BuildRequires:  pkgconfig(libnotify)
 
 
 %description
-Stylish top panel that holds indicators and spawns an application launcher
+Stylish top panel that holds indicators and spawns an application
+launcher
 
 Designed for elementary OS.
 
@@ -30,7 +31,8 @@ Designed for elementary OS.
 %package        devel
 Summary:        Stylish top panel (development files)
 %description    devel
-Stylish top panel that holds indicators and spawns an application launcher
+Stylish top panel that holds indicators and spawns an application
+launcher
 
 Designed for elementary OS.
 
@@ -52,30 +54,15 @@ This package contains the files required for developing for wingpanel.
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/wingpanel.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %clean
 rm -rf %{buildroot}
 
 
-%post
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
-
-%postun
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
-%post           devel -p /sbin/ldconfig
-%postun         devel -p /sbin/ldconfig
+%post -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 
 
 %files -f wingpanel.lang
@@ -102,6 +89,12 @@ fi
 
 
 %changelog
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev153-1
+- Update to version 2.0.1.
+
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev153-2
+- Spec file cosmetics.
+
 * Sat Sep 17 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev153-1
 - Update to latest snapshot.
 
