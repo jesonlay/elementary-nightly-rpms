@@ -1,6 +1,6 @@
 Summary:        Modular Desktop Settings Hub
 Name:           switchboard
-Version:        2.1.0~rev%{rev}
+Version:        2.1.0+rev%{rev}
 Release:        1%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            http://launchpad.net/switchboard
@@ -22,7 +22,9 @@ BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
 
 
 %description
-This project is about the container app only and its library. For plugins that handle the settings, please refer to https://launchpad.net/pantheon-plugs.
+This project is about the container app only and its library. For
+plugins that handle the settings, please refer to
+https://launchpad.net/pantheon-plugs.
 
 Designed for elementary OS.
 
@@ -30,7 +32,9 @@ Designed for elementary OS.
 %package        devel
 Summary:        Modular Desktop Settings Hub (development files)
 %description    devel
-This project is about the container app only and its library. For plugins that handle the settings, please refer to https://launchpad.net/pantheon-plugs.
+This project is about the container app only and its library. For
+plugins that handle the settings, please refer to
+https://launchpad.net/pantheon-plugs.
 
 Designed for elementary OS.
 
@@ -51,36 +55,22 @@ This package contains the files required for developing for switchboard.
 %find_lang switchboard
 
 mkdir -p %{buildroot}/%{_libdir}/switchboard/hardware
+mkdir -p %{buildroot}/%{_libdir}/switchboard/network
 mkdir -p %{buildroot}/%{_libdir}/switchboard/personal
+mkdir -p %{buildroot}/%{_libdir}/switchboard/system
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/switchboard.desktop
-
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
 rm -rf %{buildroot}
 
 
-%post
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
-
-%postun
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
-%post           devel -p /sbin/ldconfig
-%postun         devel -p /sbin/ldconfig
+%post -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 
 
 %files -f switchboard.lang
@@ -108,6 +98,12 @@ fi
 
 
 %changelog
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+rev681-1
+- Update to version 2.1.0.
+
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0~rev681-2
+- Spec file cosmetics.
+
 * Tue Sep 20 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0~rev681-1
 - Update to latest snapshot.
 
