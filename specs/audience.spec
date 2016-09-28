@@ -1,7 +1,7 @@
 Summary:        Audience video player
 Name:           audience
 Version:        0.2.0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
 
@@ -12,7 +12,7 @@ BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
-BuildRequires:  libappstream-glib
+# BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig
 BuildRequires:  vala
 
@@ -49,7 +49,7 @@ to the desktop.
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+# appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
@@ -81,6 +81,9 @@ fi
 
 
 %changelog
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev%{rev}-2
+- Disable appdata validation for now.
+
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev676-1
 - Update to latest snapshot.
 
