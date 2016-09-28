@@ -1,7 +1,7 @@
 Summary:        Audience video player
 Name:           audience
 Version:        0.2.0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
 
@@ -29,7 +29,8 @@ BuildRequires:  pkgconfig(libnotify)
 
 
 %description
-A modern video player that brings the lessons learned from the web home to the desktop.
+A modern video player that brings the lessons learned from the web home
+to the desktop.
 
 
 %prep
@@ -47,10 +48,8 @@ A modern video player that brings the lessons learned from the web home to the d
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.audience.desktop
-
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
-# Validation of files failed
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
@@ -58,17 +57,13 @@ rm -rf %{buildroot}
 
 
 %post
-/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
 
-
 %postun
-/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 fi
-
 
 %posttrans
 /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
@@ -86,6 +81,9 @@ fi
 
 
 %changelog
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev675-2
+- Spec file cosmetics.
+
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev675-1
 - Update to latest snapshot.
 
