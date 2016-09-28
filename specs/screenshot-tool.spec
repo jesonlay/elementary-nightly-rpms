@@ -1,7 +1,7 @@
 Summary:        simple screen capture tool
 Name:           screenshot-tool
 Version:        0.1.0.3+rev%{rev}
-Release:        1%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/screenshot-tool
 
@@ -9,7 +9,9 @@ Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  intltool
 BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.24
 BuildRequires:  vala-tools
@@ -39,7 +41,7 @@ A simple screen capture tool made for elementary OS.
 
 
 %check
-# desktop-file-validate %{buildroot}/%{_datadir}/applications/screenshot-tool.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %clean
@@ -68,6 +70,12 @@ fi
 
 
 %changelog
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev%{rev}-3
+- Also add missing BR: desktop-file-utils.
+
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev%{rev}-2
+- Add BR: intltool to hopefully fix f25 build.
+
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev231-1
 - Update to version 0.1.0.3.
 
