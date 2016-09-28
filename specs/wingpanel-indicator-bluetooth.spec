@@ -145,6 +145,6 @@ fi
 * Wed May 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev36-2
 - Update for packaging changes.
 
-* Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev%{rev}-1
+* Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev36-1
 - Initial package.
 
