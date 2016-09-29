@@ -1,7 +1,7 @@
 Summary:        A simple screencasting app for the elementary project
 Name:           eidete
 Version:        0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 URL:            http://launchpad.net/eidete
 
@@ -9,6 +9,7 @@ Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  pkgconfig
 BuildRequires:  vala
@@ -89,6 +90,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev208-2
+- Add missing BR: desktop-file-utils.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev208-1
 - Update to version 0.1.
 
