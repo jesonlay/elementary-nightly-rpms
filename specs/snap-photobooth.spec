@@ -1,7 +1,7 @@
 Summary:        fast and beautiful camera app
 Name:           snap-photobooth
 Version:        0.3.0.1+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/snap-elementary
 
@@ -9,7 +9,9 @@ Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.24
 BuildRequires:  vala-tools
@@ -61,6 +63,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+rev407-3
+- Fix build by adding missing BRs.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+rev407-2
 - Spec file cleanups.
 
