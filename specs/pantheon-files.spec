@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.0.2+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -68,7 +68,7 @@ This package contains the development headers.
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
 
 
 %clean
@@ -134,6 +134,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.2+rev2335-3
+- Disable appdata validation.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.2+rev2335-2
 - Spec file cleanups.
 
