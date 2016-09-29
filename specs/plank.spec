@@ -1,7 +1,7 @@
 Summary:        Stupidly simple Dock
 Name:           plank
 Version:        0.11.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
 
@@ -10,6 +10,7 @@ Source1:        %{name}.conf
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  intltool
 BuildRequires:  libappstream-glib
 BuildRequires:  libtool
 BuildRequires:  vala
@@ -147,6 +148,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.2+rev1568-2
+- Fix build by adding missing BR: intltool.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.2+rev1568-1
 - Update to version 0.11.2.
 
