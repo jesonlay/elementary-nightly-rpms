@@ -1,7 +1,7 @@
 Summary:        The official elementary calendar
 Name:           maya-calendar
 Version:        0.4.0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/maya
 
@@ -36,7 +36,8 @@ Requires:       hicolor-icon-theme
 
 
 %description
-A slim, lightweight GTK+3 calendar app written in Vala, designed for elementary OS. Also looks and works great on other GTK+ desktops.
+A slim, lightweight GTK+3 calendar app written in Vala, designed for
+elementary OS. Also looks and works great on other GTK+ desktops.
 
 In elementary OS, Maya is known as Calendar.
 
@@ -44,7 +45,8 @@ In elementary OS, Maya is known as Calendar.
 %package devel
 Summary: The official elementary calendar (devel files)
 %description devel
-A slim, lightweight GTK+3 calendar app written in Vala, designed for elementary OS. Also looks and works great on other GTK+ desktops.
+A slim, lightweight GTK+3 calendar app written in Vala, designed for
+elementary OS. Also looks and works great on other GTK+ desktops.
 
 In elementary OS, Maya is known as Calendar.
 
@@ -66,32 +68,35 @@ This package contains the development files.
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.maya.desktop
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.maya-daemon.desktop
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
-rm -rf %{buildroot}/RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
 %post
 /sbin/ldconfig
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
+
+%if %{?fedora} < 25
 /usr/bin/update-desktop-database &> /dev/null || :
+%endif
 
 %postun
 /sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 fi
 
+%if %{?fedora} < 25
+/usr/bin/update-desktop-database &> /dev/null || :
+%endif
+
 %posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
-%post           devel -p /sbin/ldconfig
-%postun         devel -p /sbin/ldconfig
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files       -f maya-calendar.lang
@@ -113,7 +118,7 @@ fi
 %{_datadir}/maya-calendar/
 
 
-%files devel
+%files          devel
 %{_includedir}/maya-calendar/
 
 %{_libdir}/libmaya-calendar.so
@@ -124,6 +129,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev965-2
+- Spec file cleanups.
+
 * Fri Sep 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev965-1
 - Update to latest snapshot.
 
@@ -280,7 +288,7 @@ fi
 * Tue Jun 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev911-1
 - Update to latest snapshot.
 
-* Fri Jun 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev%{rev}-2
+* Fri Jun 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev910-2
 - Partly enable desktop file validation.
 
 * Fri Jun 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev910-1
@@ -477,6 +485,5 @@ fi
 
 * Mon Nov 09 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.1~rev837-1
 - Initial package.
-
 
 

@@ -1,6 +1,6 @@
 Summary:        Desktop-wide extension service
 Name:           contractor
-Version:        0.3.1~rev%{rev}
+Version:        0.3.2+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/contractor
@@ -21,7 +21,9 @@ Requires:       dbus
 
 
 %description
-An extension service that allows apps to use the exposed functionality of registered apps. This way, apps don't have to have the functions hard coded into them.
+An extension service that allows apps to use the exposed functionality
+of registered apps. This way, apps don't have to have the functions hard
+coded into them.
 
 Designed for elementary OS.
 
@@ -54,6 +56,12 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev139-1
+- Update to version 0.3.2.
+
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev139-2
+- Spec file cleanups.
+
 * Thu Aug 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev139-1
 - Update to latest snapshot.
 

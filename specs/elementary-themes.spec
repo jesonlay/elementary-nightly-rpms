@@ -1,7 +1,7 @@
 Summary:        elementary GTK+ Stylesheet
 Name:           elementary-themes
 Version:        5.0.2+git%{date}.%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://github.com/elementary/stylesheet
 
@@ -14,7 +14,8 @@ Requires:       gtk-murrine-engine
 
 
 %description
-An original Gtk.CSS stylesheet designed specifically for elementary OS and its desktop environment: Pantheon.
+An original Gtk.CSS stylesheet designed specifically for elementary OS
+and its desktop environment: Pantheon.
 
 
 %prep
@@ -45,6 +46,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.2+git160927.144324.36a46bf9-2
+- Spec file cleanups.
+
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.2+git160927.144324.36a46bf9-1
 - Update to latest snapshot.
 

@@ -1,7 +1,7 @@
 Summary:        A tiny, simple calculator written in GTK+ and Vala.
 Name:           pantheon-calculator
 Version:        0.1.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-calculator
 
@@ -39,25 +39,12 @@ A tiny, simple calculator written in GTK+ and Vala.
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/*.desktop
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
 rm -rf %{buildroot}
-
-
-%post
-/usr/bin/update-desktop-database &> /dev/null || :
-
-%postun
-/usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files -f pantheon-calculator.lang
@@ -72,6 +59,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev284-2
+- Spec file cleanups.
+
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev284-1
 - Update to latest snapshot.
 
@@ -222,7 +212,7 @@ fi
 * Sat Jun 11 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev231-1
 - Update to latest snapshot.
 
-* Fri Jun 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev%{rev}-2
+* Fri Jun 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev230-2
 - Enable desktop file validation.
 
 * Fri Jun 03 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev230-1
@@ -431,6 +421,5 @@ fi
 
 * Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.1~rev154-1
 - Initial package.
-
 
 

@@ -1,7 +1,7 @@
 Summary:        DPMS helper for elementary
 Name:           elementary-dpms-helper
 Version:        0+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://code.launchpad.net/~codygarver/+junk/elementary-dpms-helper
 
@@ -45,15 +45,6 @@ cp dpms/elementary-dpms-helper.desktop %{buildroot}/%{_sysconfdir}/xdg/autostart
 rm -rf %{buildroot}
 
 
-%postun
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
 %files
 %{_sysconfdir}/xdg/autostart/elementary-dpms-helper.desktop
 
@@ -63,6 +54,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0+rev129-2
+- Spec file cleanups.
+
 * Mon Sep 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0+rev129-1
 - Update to version 0.
 

@@ -1,7 +1,7 @@
 Summary:        Gala window manager
 Name:           gala
 Version:        0.3.0+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/gala
 
@@ -35,15 +35,19 @@ Gala is Pantheon's Window Manager, part of the elementary project.
 
 
 %package        libs
-Summary: Gala window manager libraries
+Summary:        Gala window manager libraries
 %description    libs
-Gala is Pantheon's Window Manager, part of the elementary project. This package contains the shared libraries.
+Gala is Pantheon's Window Manager, part of the elementary project.
+
+This package contains the shared libraries.
 
 
 %package        devel
-Summary: Gala window manager
+Summary:        Gala window manager
 %description    devel
-Gala is Pantheon's Window Manager, part of the elementary project. This package contains the development headers.
+Gala is Pantheon's Window Manager, part of the elementary project.
+
+This package contains the development headers.
 
 
 %prep
@@ -69,32 +73,23 @@ rm -rf %{buildroot}
 
 
 %post
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 fi
 
 %posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %post           libs -p /sbin/ldconfig
 %postun         libs -p /sbin/ldconfig
 
-%post           devel -p /sbin/ldconfig
-%postun         devel -p /sbin/ldconfig
 
-
-%files       -f gala.lang
+%files -f gala.lang
 %{_bindir}/gala
 
 %{_libdir}/gala/
@@ -124,6 +119,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev541-2
+- Spec file cleanups.
+
 * Sat Sep 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev541-1
 - Update to version 0.3.0.
 
@@ -201,3 +199,5 @@ fi
 
 * Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0~rev518-1
 - Update to latest snapshot.
+
+

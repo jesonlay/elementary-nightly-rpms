@@ -178,6 +178,6 @@ rm -rf %{buildroot}
 * Fri May 13 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev56-2
 - Update for packaging changes.
 
-* Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev%{rev}-1
+* Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev56-1
 - Initial package.
 

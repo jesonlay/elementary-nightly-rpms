@@ -1,6 +1,6 @@
 Summary:        A simple screencasting app for the elementary project
 Name:           eidete
-Version:        0.1~rev%{rev}
+Version:        0.1+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv2
 URL:            http://launchpad.net/eidete
@@ -33,7 +33,8 @@ Current features
  - audio recording
 
 Todo:
- - create new contracts for facebook, youtube and others (waiting for gnome-online-accounts to be ready)
+ - create new contracts for facebook, youtube and others (waiting for
+   gnome-online-accounts to be ready)
  - improve and internationalize the key view
 
 
@@ -42,8 +43,8 @@ Todo:
 
 
 %build
-export CFLAGS="-fPIC $RPM_OPT_FLAGS"
-export LDFLAGS="-fPIC $RPM_OPT_FLAGS"
+export CFLAGS="$RPM_OPT_FLAGS -fPIC"
+export LDFLAGS="$RPM_OPT_FLAGS -fPIC"
 
 %cmake
 %make_build
@@ -53,19 +54,26 @@ export LDFLAGS="-fPIC $RPM_OPT_FLAGS"
 %make_install
 %find_lang eidete
 
+
+%check
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+
+
 %clean
 rm -rf %{buildroot}
 
 
 %post
-/usr/bin/update-desktop-database &> /dev/null || :
-
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
-/usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files -f eidete.lang
@@ -81,6 +89,12 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev208-1
+- Update to version 0.1.
+
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev208-2
+- Spec file cleanups.
+
 * Fri Sep 09 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev208-1
 - Update to latest snapshot.
 

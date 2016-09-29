@@ -1,6 +1,6 @@
 Summary:        Simple note taking app for elementary OS
 Name:           pantheon-notes
-Version:        0.7~rev%{rev}
+Version:        0.7+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-notes
@@ -30,8 +30,8 @@ Simple note taking app for elementary OS
 
 
 %build
-CFLAGS="-fPIC $RPM_OPT_FLAGS"
-LDFLAGS="-fPIC $RPM_OPT_FLAGS"
+CFLAGS="$RPM_OPT_FLAGS -fPIC"
+LDFLAGS="$RPM_OPT_FLAGS -fPIC"
 
 %cmake
 %make_build
@@ -43,24 +43,20 @@ LDFLAGS="-fPIC $RPM_OPT_FLAGS"
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/pantheon-notes.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %clean
 rm -rf %{buildroot}
 
 
+%if %{?fedora} < 25
 %post
 /usr/bin/update-desktop-database &> /dev/null || :
 
 %postun
 /usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+%endif
 
 
 %files -f pantheon-notes.lang
@@ -72,6 +68,12 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.7+rev51-1
+- Update to version 0.7.
+
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.7~rev51-2
+- Spec file cleanups.
+
 * Tue Aug 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.7~rev51-1
 - Update to latest snapshot.
 
@@ -164,6 +166,5 @@ fi
 
 * Thu May 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.7-1
 - Initial package.
-
 
 

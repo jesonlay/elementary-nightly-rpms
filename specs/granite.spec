@@ -1,7 +1,7 @@
 Summary:        Granite Toolkit
 Name:           granite
 Version:        0.4.0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/granite
 
@@ -18,17 +18,20 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 
-Requires: hicolor-icon-theme
+Requires:       hicolor-icon-theme
 
 
 %description
-Granite is a library of toolkit addons to GTK+ and is part of the elementary project.
+Granite is a library of toolkit addons to GTK+ and is part of the
+elementary project.
 
 
-%package devel
-Summary: Granite Toolkit development headers
-%description devel
-Granite is a library of toolkit addons to GTK+ and is part of the elementary project.
+%package        devel
+Summary:        Granite Toolkit development headers
+%description    devel
+Granite is a library of toolkit addons to GTK+ and is part of the
+elementary project.
+
 This package contains files needed for developing with granite.
 
 
@@ -47,7 +50,7 @@ This package contains files needed for developing with granite.
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/granite-demo.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %clean
@@ -56,12 +59,10 @@ rm -rf %{buildroot}
 
 %post
 /sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
 /sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
@@ -84,7 +85,7 @@ fi
 %{_datadir}/icons/hicolor/scalable/actions/open-menu-symbolic.svg
 
 
-%files devel
+%files          devel
 %{_bindir}/granite-demo
 
 %{_libdir}/libgranite.so
@@ -99,6 +100,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev996-2
+- Spec file cleanups.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev996-1
 - Update to latest snapshot.
 
@@ -443,3 +447,5 @@ fi
 
 * Sat Jan 03 2015 Fabio Valentini <fafatheone@gmail.com> - 0.2.3~rev825-1
 - Initial package (new).
+
+

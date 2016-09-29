@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.3+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
@@ -15,7 +15,6 @@ BuildRequires:  intltool
 BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig
 BuildRequires:  vala
-BuildRequires:  vala-devel
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
@@ -26,8 +25,17 @@ BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
 BuildRequires:  pkgconfig(libpeas-1.0)
 BuildRequires:  pkgconfig(libpeas-gtk-1.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
+
+%if %{?fedora} == 24
+BuildRequires:  pkgconfig(libvala-0.32)
+%endif
+
+%if %{?fedora} == 25
+BuildRequires:  pkgconfig(libvala-0.34)
+%endif
+
 BuildRequires:  pkgconfig(vte-2.91)
-BuildRequires:  pkgconfig(webkit2gtk-4.0)
+BuildRequires:  pkgconfig(webkitgtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 
@@ -74,8 +82,9 @@ Summary:        Scratch - the text editor that works.
 %description    devel
 Scratch is the text editor that works for you. It auto-saves your files,
 meaning they're always up-to-date. Plus it remembers your tabs so you
-never lose your spot, even in between sessions. This package contains
-the development headers.
+never lose your spot, even in between sessions.
+
+This package contains the development headers.
 
 
 %prep
@@ -101,6 +110,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 rm -rf %{buildroot}
 
 
+%if %{?fedora} == 24
 %post
 /usr/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
@@ -108,6 +118,12 @@ rm -rf %{buildroot}
 %postun
 /usr/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
+%endif
+
+%if %{?fedora} == 25
+%post -p /usr/sbin/ldconfig
+%postun -p /usr/sbin/ldconfig
+%endif
 
 
 %files -f scratch-text-editor.lang
@@ -139,6 +155,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1763-3
+- Spec file cleanups.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1763-2
 - Spec file cleanups.
 

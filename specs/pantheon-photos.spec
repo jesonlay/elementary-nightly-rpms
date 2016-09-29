@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -37,7 +37,9 @@ BuildRequires:  pkgconfig(webkit2gtk-4.0) >= 2.0.0
 
 
 %description
-The elementary continuation of Shotwell, originally written by Yorba Foundation.
+The elementary continuation of Shotwell, originally written by Yorba
+Foundation.
+
 Designed for elementary OS. Works and looks great on any GTK+ desktop.
 
 
@@ -56,25 +58,21 @@ Designed for elementary OS. Works and looks great on any GTK+ desktop.
 
 
 %check
-# desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/*.desktop
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 
+%if %{?fedora} < 25
 %post
 /usr/bin/update-desktop-database &> /dev/null || :
 
 %postun
 /usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+%endif
 
 
 %files -f pantheon-photos.lang
@@ -93,6 +91,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3021-2
+- Spec file cleanups.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3021-1
 - Update to latest snapshot.
 
