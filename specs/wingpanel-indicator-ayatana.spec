@@ -2,7 +2,7 @@
 
 Summary:        an ayatana indicator for wingpanel
 Name:           wingpanel-indicator-ayatana
-Version:        0.1~rev%{rev}
+Version:        2.0.1+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-ayatana
@@ -22,9 +22,11 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(indicator3-0.4)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Supplements:    wingpanel
+
 
 %description
-an ayatana indicator for wingpanel
+An ayatana indicator for wingpanel.
 
 
 %prep
@@ -45,10 +47,11 @@ rm -rf %{buildroot}
 
 
 %files
-# %{_libdir}/wingpanel/libayatana.so
+%{_libdir}/wingpanel/libayatana_compatibility.so
 
 
 %changelog
-* Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev%{rev}-1
-- Initial package.
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev20-1
+- Update to version 2.0.1.
+
 
