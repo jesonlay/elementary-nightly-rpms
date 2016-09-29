@@ -1,6 +1,6 @@
 Summary:        Stupidly simple Dock
 Name:           plank
-Version:        0.11.2~rev%{rev}
+Version:        0.11.2+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
@@ -33,23 +33,43 @@ Requires:       hicolor-icon-theme
 
 
 %description
-Plank is meant to be the simplest dock on the planet. The goal is to provide just what a dock needs and absolutely nothing more. It is, however, a library which can be extended to create other dock programs with more advanced features.
-Thus, Plank is the underlying technology for Docky (starting in version 3.0.0) and aims to provide all the core features while Docky extends it to add fancier things like Docklets, painters, settings dialogs, etc.
+Plank is meant to be the simplest dock on the planet. The goal is to
+provide just what a dock needs and absolutely nothing more. It is,
+however, a library which can be extended to create other dock programs
+with more advanced features.
+
+Thus, Plank is the underlying technology for Docky (starting in version
+3.0.0) and aims to provide all the core features while Docky extends it
+to add fancier things like Docklets, painters, settings dialogs, etc.
 
 
 %package        libs
-Summary: Stupidly simple Dock (shared libraries)
+Summary:        Stupidly simple Dock (shared libraries)
 %description    libs
-Plank is meant to be the simplest dock on the planet. The goal is to provide just what a dock needs and absolutely nothing more. It is, however, a library which can be extended to create other dock programs with more advanced features.
-Thus, Plank is the underlying technology for Docky (starting in version 3.0.0) and aims to provide all the core features while Docky extends it to add fancier things like Docklets, painters, settings dialogs, etc.
+Plank is meant to be the simplest dock on the planet. The goal is to
+provide just what a dock needs and absolutely nothing more. It is,
+however, a library which can be extended to create other dock programs
+with more advanced features.
+
+Thus, Plank is the underlying technology for Docky (starting in version
+3.0.0) and aims to provide all the core features while Docky extends it
+to add fancier things like Docklets, painters, settings dialogs, etc.
+
 This package contains the shared libraries.
 
 
 %package        devel
-Summary: Stupidly simple Dock (development files)
+Summary:        Stupidly simple Dock (development files)
 %description    devel
-Plank is meant to be the simplest dock on the planet. The goal is to provide just what a dock needs and absolutely nothing more. It is, however, a library which can be extended to create other dock programs with more advanced features.
-Thus, Plank is the underlying technology for Docky (starting in version 3.0.0) and aims to provide all the core features while Docky extends it to add fancier things like Docklets, painters, settings dialogs, etc.
+Plank is meant to be the simplest dock on the planet. The goal is to
+provide just what a dock needs and absolutely nothing more. It is,
+however, a library which can be extended to create other dock programs
+with more advanced features.
+
+Thus, Plank is the underlying technology for Docky (starting in version
+3.0.0) and aims to provide all the core features while Docky extends it
+to add fancier things like Docklets, painters, settings dialogs, etc.
+
 This package contains development headers and files.
 
 
@@ -72,8 +92,8 @@ rm -f %{buildroot}/%{_libdir}/plank/*.la
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/plank.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/plank.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
@@ -81,29 +101,20 @@ rm -rf %{buildroot}
 
 
 %post
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
-/sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 fi
 
 %posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %post           libs -p /sbin/ldconfig
 %postun         libs -p /sbin/ldconfig
-
-%post           devel -p /sbin/ldconfig
-%postun         devel -p /sbin/ldconfig
 
 
 %files -f plank.lang
@@ -136,6 +147,12 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.2+rev1568-1
+- Update to version 0.11.2.
+
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.2~rev1568-2
+- Spec file cleanups.
+
 * Wed Sep 14 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.2~rev1568-1
 - Update to version 0.11.2.
 
@@ -180,3 +197,5 @@ fi
 
 * Wed May 04 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.1~rev1551-1
 - Update to latest snapshot.
+
+

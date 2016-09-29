@@ -1,7 +1,7 @@
 Summary:        simple screen capture tool
 Name:           screenshot-tool
 Version:        0.1.0.3+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/screenshot-tool
 
@@ -42,23 +42,11 @@ A simple screen capture tool made for elementary OS.
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
 rm -rf %{buildroot}
-
-
-%post
-/usr/bin/update-desktop-database &> /dev/null || :
-
-%postun
-/usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files -f screenshot-tool.lang
@@ -70,13 +58,16 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev232-2
+- Spec file cleanups.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev232-1
 - Update to latest snapshot.
 
-* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev%{rev}-3
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev231-3
 - Also add missing BR: desktop-file-utils.
 
-* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev%{rev}-2
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev231-2
 - Add BR: intltool to hopefully fix f25 build.
 
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev231-1

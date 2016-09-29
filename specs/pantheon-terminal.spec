@@ -1,7 +1,7 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
@@ -25,7 +25,9 @@ BuildRequires:  pkgconfig(vte-2.91)
 
 
 %description
-A super lightweight, beautiful, and simple terminal. It's designed to be setup with sane defaults and little to no configuration. It's just a terminal, nothing more, nothing less.
+A super lightweight, beautiful, and simple terminal. It's designed to be
+setup with sane defaults and little to no configuration. It's just a
+terminal, nothing more, nothing less.
 
 Designed for elementary OS.
 
@@ -35,8 +37,8 @@ Designed for elementary OS.
 
 
 %build
-export CFLAGS="-fPIC $RPM_OPT_FLAGS"
-export LDFLAGS="-fPIC $RPM_OPT_FLAGS"
+export CFLAGS="$RPM_OPT_FLAGS -fPIC "
+export LDFLAGS="$RPM_OPT_FLAGS -fPIC "
 
 %cmake
 %make_build
@@ -48,26 +50,12 @@ export LDFLAGS="-fPIC $RPM_OPT_FLAGS"
 
 
 %check
-desktop-file-validate $RPM_BUILD_ROOT/%{_datadir}/applications/org.pantheon.terminal.desktop || :
-
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
-rm -rf $RPM_BUILD_ROOT
-
-
-%post
-/usr/bin/update-desktop-database &> /dev/null || :
-
-%postun
-/usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+rm -rf %{buildroot}
 
 
 %files -f pantheon-terminal.lang
@@ -86,6 +74,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4+rev902-2
+- Spec file cleanups.
+
 * Tue Sep 27 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4+rev902-1
 - Update to latest snapshot.
 
@@ -493,6 +484,5 @@ fi
 
 * Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev748-1
 - Initial package.
-
 
 

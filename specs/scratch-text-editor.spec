@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.3+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
@@ -32,15 +32,28 @@ BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 
 %description
-Scratch is the text editor that works for you. It auto-saves your files, meaning they're always up-to-date. Plus it remembers your tabs so you never lose your spot, even in between sessions.
+Scratch is the text editor that works for you. It auto-saves your files,
+meaning they're always up-to-date. Plus it remembers your tabs so you
+never lose your spot, even in between sessions.
 
-Make it yours. Scratch is written from the ground up to be extensible. Keep things super lightweight and simple, or install extensions to turn Scratch into a full-blown IDE; it's your choice. And with a handful of useful preferences, you can tweak the behavior and interface to your liking.
+Make it yours. Scratch is written from the ground up to be extensible.
+Keep things super lightweight and simple, or install extensions to turn
+Scratch into a full-blown IDE; it's your choice. And with a handful of
+useful preferences, you can tweak the behavior and interface to your
+liking.
 
-It's elementary. Scratch is made to be the perfect text editor for elementary, meaning it closely follows the high standards of design, speed, and consistency. It's sexy, but not distracting.
+It's elementary. Scratch is made to be the perfect text editor for
+elementary, meaning it closely follows the high standards of design,
+speed, and consistency. It's sexy, but not distracting.
 
-Works with your language. Whether you're crafting code in Vala, scripting with PHP, or marking things up in HTML, Scratch has you covered. Experience full syntax highlighting with nearly all programming, scripting, and markup languages.
+Works with your language. Whether you're crafting code in Vala,
+scripting with PHP, or marking things up in HTML, Scratch has you
+covered. Experience full syntax highlighting with nearly all
+programming, scripting, and markup languages.
 
-Other syntax-highlighted languages: Bash, C, C%#, C++. Cmake, CSS, .Desktop, Diff, Fortran, Gettext, ini, Java, JavaScript, LaTex, Lua, Makefile, Objective C, Pascal, Perl, Python, Ruby, XML.
+Other syntax-highlighted languages: Bash, C, C#, C++. Cmake, CSS,
+.Desktop, Diff, Fortran, Gettext, ini, Java, JavaScript, LaTex, Lua,
+Makefile, Objective C, Pascal, Perl, Python, Ruby, XML.
 
 Additional features include:
 
@@ -50,15 +63,19 @@ Additional features include:
  * tab and split documents system
  * lots of others
 
-Scratch needs to be translated. Go to Translations to help us providing this software in your language!
+Scratch needs to be translated. Go to Translations to help us providing
+this software in your language!
 
 Designed for elementary OS. Works and looks great on any GTK+ desktop.
 
 
 %package        devel
-Summary: Scratch - the text editor that works.
+Summary:        Scratch - the text editor that works.
 %description    devel
-Scratch is the text editor that works for you. It auto-saves your files, meaning they're always up-to-date. Plus it remembers your tabs so you never lose your spot, even in between sessions. This package contains the development headers.
+Scratch is the text editor that works for you. It auto-saves your files,
+meaning they're always up-to-date. Plus it remembers your tabs so you
+never lose your spot, even in between sessions. This package contains
+the development headers.
 
 
 %prep
@@ -77,7 +94,7 @@ Scratch is the text editor that works for you. It auto-saves your files, meaning
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-# appstream-util validate-relax --nonet $RPM_BUILD_ROOT/%{_datadir}/appdata/*.appdata.xml
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %clean
@@ -91,16 +108,6 @@ rm -rf %{buildroot}
 %postun
 /usr/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
-%post   devel -p /usr/sbin/ldconfig
-%postun devel -p /usr/sbin/ldconfig
 
 
 %files -f scratch-text-editor.lang
@@ -132,6 +139,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1763-2
+- Spec file cleanups.
+
 * Sat Sep 24 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1763-1
 - Update to latest snapshot.
 

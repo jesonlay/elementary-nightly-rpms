@@ -3,7 +3,7 @@
 Summary:        a sound indicator for wingpanel
 Name:           wingpanel-indicator-sound
 Version:        2.0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-sound
 
@@ -49,15 +49,6 @@ a sound indicator for wingpanel
 rm -rf %{buildroot}
 
 
-%postun
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
 %files -f sound-indicator.lang
 %{_libdir}/wingpanel/libsound.so
 
@@ -65,6 +56,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev118-2
+- Spec file cleanups.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev118-1
 - Update to latest snapshot.
 

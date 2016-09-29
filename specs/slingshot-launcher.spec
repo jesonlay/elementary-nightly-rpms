@@ -3,7 +3,7 @@
 Summary:        Lightweight and stylish app launcher
 Name:           slingshot-launcher
 Version:        2.0+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/slingshot
 
@@ -56,15 +56,6 @@ Designed for elementary OS.
 rm -rf %{buildroot}
 
 
-%postun
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
 %files -f slingshot.lang
 %doc AUTHORS
 %license COPYING
@@ -77,6 +68,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev694-2
+- Spec file cleanups.
+
 * Mon Sep 26 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev694-1
 - Update to latest snapshot.
 

@@ -2,7 +2,7 @@
 
 Summary:        a network indicator for wingpanel
 Name:           wingpanel-indicator-network
-Version:        2.0.1~rev%{rev}
+Version:        2.0.1+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-network
@@ -47,15 +47,6 @@ a network indicator for wingpanel
 rm -rf %{buildroot}
 
 
-%postun
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
 %files -f network-indicator.lang
 %{_libdir}/wingpanel/libnetwork.so
 
@@ -63,6 +54,12 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev193-1
+- Update to version 2.0.1.
+
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev193-2
+- Spec file cleanups.
+
 * Fri Sep 16 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1~rev193-1
 - Update to version 2.0.1.
 

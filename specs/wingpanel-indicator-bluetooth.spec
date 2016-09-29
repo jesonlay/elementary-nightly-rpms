@@ -2,7 +2,7 @@
 
 Summary:        a bluetooth indicator for wingpanel
 Name:           wingpanel-indicator-bluetooth
-Version:        2.0~rev%{rev}
+Version:        2.0+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-bluetooth
@@ -45,15 +45,6 @@ a bluetooth indicator for wingpanel
 rm -rf %{buildroot}
 
 
-%postun
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-
-
 %files -f bluetooth-indicator.lang
 %{_libdir}/wingpanel/libbluetooth.so
 
@@ -61,6 +52,12 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev66-1
+- Update to version 2.0.
+
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev66-2
+- Spec file cleanups.
+
 * Tue Aug 16 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0~rev66-1
 - Update to version 2.0.
 
