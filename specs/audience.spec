@@ -1,7 +1,7 @@
 Summary:        Audience video player
 Name:           audience
 Version:        0.2.0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
 
@@ -61,12 +61,6 @@ rm -rf %{buildroot}
 
 %postun
 /usr/bin/update-desktop-database &> /dev/null || :
-if [ $1 -eq 0 ] ; then
-    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files       -f audience.lang
@@ -81,10 +75,13 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev677-2
+- Spec file cleanups.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev677-1
 - Update to latest snapshot.
 
-* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev%{rev}-2
+* Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev676-2
 - Disable appdata validation for now.
 
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.0.2+rev676-1
@@ -493,3 +490,5 @@ fi
 
 * Sat Jan 03 2015 Fabio Valentini <fafatheone@gmail.com> - 0.1~rev477-1
 - Initial package.
+
+
