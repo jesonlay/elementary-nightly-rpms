@@ -1,7 +1,7 @@
 Summary:        Gala window manager
 Name:           gala
 Version:        0.3.0+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/gala
 
@@ -11,6 +11,7 @@ Source1:        %{name}.conf
 BuildRequires:  desktop-file-utils
 BuildRequires:  libtool
 BuildRequires:  gettext
+BuildRequires:  intltool
 BuildRequires:  pkgconfig
 BuildRequires:  vala
 BuildRequires:  vala-tools
@@ -119,6 +120,9 @@ fi
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev541-3
+- Add missing BR: intltool.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev541-2
 - Spec file cleanups.
 
