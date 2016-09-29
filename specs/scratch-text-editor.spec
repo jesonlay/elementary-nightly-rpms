@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.3+rev%{rev}
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
@@ -35,7 +35,7 @@ BuildRequires:  pkgconfig(libvala-0.34)
 %endif
 
 BuildRequires:  pkgconfig(vte-2.91)
-BuildRequires:  pkgconfig(webkitgtk-4.0)
+BuildRequires:  pkgconfig(webkit2gtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 
@@ -155,6 +155,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1763-4
+- Fix typo in BRs.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1763-3
 - Spec file cleanups.
 
