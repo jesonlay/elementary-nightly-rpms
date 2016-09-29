@@ -1,7 +1,7 @@
 Summary:        simple screen capture tool
 Name:           screenshot-tool
 Version:        0.1.0.3+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/screenshot-tool
 
@@ -12,6 +12,7 @@ BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
+BuildRequires:  libappstream-glib
 BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.24
 BuildRequires:  vala-tools
@@ -58,6 +59,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev232-3
+- Fix build by adding missing BR: libappstream-glib.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev232-2
 - Spec file cleanups.
 
