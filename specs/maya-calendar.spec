@@ -1,7 +1,7 @@
 Summary:        The official elementary calendar
 Name:           maya-calendar
 Version:        0.4.0.2+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/maya
 
@@ -129,6 +129,9 @@ fi
 
 
 %changelog
+* Fri Sep 30 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev966-1
+- Update to latest snapshot.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev965-2
 - Spec file cleanups.
 
