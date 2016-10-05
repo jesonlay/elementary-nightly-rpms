@@ -1,7 +1,7 @@
 Summary:        pantheon session configuration files
 Name:           pantheon-session-settings
 Version:        0.6.0+git%{date}.%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 URL:            http://github.com/decathorpe/pantheon-session-settings
 
@@ -67,8 +67,13 @@ install -p xsessions/pantheon.desktop %{buildroot}/%{_datadir}/xsessions/
 install -p overrides/20-org.pantheon.desktop-interface.gschema.override %{buildroot}/%{_datadir}/glib-2.0/schemas/
 
 
-%clean
-rm -rf %{buildroot}
+%postun         overrides
+if [ $1 -eq 0 ] ; then
+    /usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
+fi
+
+%posttrans      overrides
+/usr/bin/glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 
 
 %files
@@ -85,6 +90,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Oct 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.6.0+git160919.154120.5d95d50d-2
+- Add glib-compile-schemas scriptlet to -overrides subpackage.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.6.0+git160919.154120.5d95d50d-1
 - Update to version 0.6.0.
 
