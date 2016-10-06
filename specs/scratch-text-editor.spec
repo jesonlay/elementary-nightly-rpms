@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.3+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
@@ -110,19 +110,18 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 rm -rf %{buildroot}
 
 
-%if %{?fedora} == 24
+%if %{?fedora} < 25
 %post
-/usr/sbin/ldconfig
+/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
 
 %postun
-/usr/sbin/ldconfig
+/sbin/ldconfig
 /usr/bin/update-desktop-database &> /dev/null || :
-%endif
 
-%if %{?fedora} == 25
-%post -p /usr/sbin/ldconfig
-%postun -p /usr/sbin/ldconfig
+%else
+%post -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 %endif
 
 
@@ -155,6 +154,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Oct 06 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1764-2
+- "Fix" ldconfig path in scriptlets.
+
 * Sat Oct 01 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1764-1
 - Update to latest snapshot.
 
