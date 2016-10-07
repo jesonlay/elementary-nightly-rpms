@@ -65,7 +65,7 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | switchboard-plug-display          | TBD           |           | <https://launchpad.net/switchboard-plug-display>          |               |
 | switchboard-plug-keyboard         | TBD           |           | <https://launchpad.net/switchboard-plug-keyboard>         |               |
 | switchboard-plug-locale           | TBD           |           | <https://launchpad.net/switchboard-plug-locale>           |               |
-| switchboard-plug-mouse-touchpad   | DONE          | broken    | <https://launchpad.net/switchboard-plug-mouse-touchpad>   |               |
+| switchboard-plug-mouse-touchpad   | DONE          |           | <https://launchpad.net/switchboard-plug-mouse-touchpad>   |               |
 | switchboard-plug-networking       | TBD           |           | <https://launchpad.net/switchboard-plug-networking>       |               |
 | switchboard-plug-notifications    | DONE          |           | <https://launchpad.net/switchboard-plug-notifications>    |               |
 | switchboard-plug-onlineaccounts   | TBD           |           | <https://launchpad.net/switchboard-plug-onlineaccounts>   |               |
@@ -99,9 +99,9 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | package name          | status                | comment           | URL                                               | related bugs  |
 | --------------------- | --------------------- | ----------------- | ------------------------------------------------- | ------------- |
 | cmake-elementary      | TBD                   |                   |                                                   |               |
-| gsignond              | DONE                  | bzr snapshot      | <https://gitlab.com/accounts-sso/gsignond>        |               |
+| gsignond              | TBD                   |                   | <https://gitlab.com/accounts-sso/gsignond>        |               |
 | granite               | DONE                  |                   | <https://launchpad.net/granite>                   |               |
-| libgsignon-glib       | DONE                  | bzr snapshot      | <https://gitlab.com/accounts-sso/libgsignon-glib> |               |
+| libgsignon-glib       | TBD                   |                   | <https://gitlab.com/accounts-sso/libgsignon-glib> |               |
 
 
 ## USAGE
