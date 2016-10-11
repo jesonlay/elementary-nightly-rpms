@@ -3,7 +3,7 @@
 Summary:        a datetime indicator for wingpanel
 Name:           wingpanel-indicator-datetime
 Version:        2.0+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-datetime
 
@@ -57,6 +57,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Oct 11 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev162-1
+- Update to latest snapshot.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev161-2
 - Spec file cleanups.
 
