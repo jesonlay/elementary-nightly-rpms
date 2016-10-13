@@ -100,6 +100,9 @@ fi
 
 
 %changelog
+* Thu Oct 13 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1002-1
+- Update to latest snapshot.
+
 * Sun Oct 09 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1001-1
 - Update to latest snapshot.
 
