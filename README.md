@@ -98,7 +98,7 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 
 | package name          | status                | comment           | URL                                               | related bugs  |
 | --------------------- | --------------------- | ----------------- | ------------------------------------------------- | ------------- |
-| cmake-elementary      | TBD                   |                   |                                                   |               |
+| cmake-elementary      | DONE                  |                   |                                                   |               |
 | gsignond              | TBD                   |                   | <https://gitlab.com/accounts-sso/gsignond>        |               |
 | granite               | DONE                  |                   | <https://launchpad.net/granite>                   |               |
 | libgsignon-glib       | TBD                   |                   | <https://gitlab.com/accounts-sso/libgsignon-glib> |               |
