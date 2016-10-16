@@ -1,7 +1,7 @@
 Summary:        elementary GTK+ Stylesheet
 Name:           elementary-themes
 Version:        5.0.2+git%{date}.%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://github.com/elementary/stylesheet
 
@@ -46,6 +46,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun Oct 16 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.2+git161015.175037.cb6b93eb-1
+- Update to latest snapshot.
+
 * Thu Sep 29 2016 Fabio Valentini <decathorpe@gmail.com> - 5.0.2+git160927.144324.36a46bf9-2
 - Spec file cleanups.
 
