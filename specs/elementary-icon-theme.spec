@@ -47,6 +47,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Oct 25 2016 Fabio Valentini <decathorpe@gmail.com> - 4.0.1+git161025.124600.181998c1-1
+- Update to latest snapshot.
+
 * Tue Oct 18 2016 Fabio Valentini <decathorpe@gmail.com> - 4.0.1+git161018.124244.8e52e9b7-1
 - Update to latest snapshot.
 
