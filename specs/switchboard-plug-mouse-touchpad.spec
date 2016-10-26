@@ -3,7 +3,7 @@
 Summary:        Mouse and Touchpad configuration management
 Name:           switchboard-plug-mouse-touchpad
 Version:        0.1.1.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/switchboard-plug-mouse-touchpad
 
@@ -30,7 +30,7 @@ This is a swtichboard plug for elementary os.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch0 -p0
 
 
 %build
@@ -43,15 +43,14 @@ This is a swtichboard plug for elementary os.
 %find_lang pantheon-mouse-touchpad
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files -f pantheon-mouse-touchpad.lang
 %{_libdir}/switchboard/hardware/pantheon-mouse-touchpad/
 
 
 %changelog
+* Wed Oct 26 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.1+rev118-2
+- Adapt patch to upstream changes.
+
 * Mon Oct 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.1+rev118-1
 - Update to latest snapshot.
 
