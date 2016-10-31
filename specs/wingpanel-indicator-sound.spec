@@ -2,7 +2,7 @@
 
 Summary:        a sound indicator for wingpanel
 Name:           wingpanel-indicator-sound
-Version:        2.0.2+rev%{rev}
+Version:        2.0.3+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-sound
@@ -56,6 +56,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Oct 31 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+rev125-1
+- Update to version 2.0.3.
+
 * Mon Oct 24 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev123-1
 - Update to latest snapshot.
 
