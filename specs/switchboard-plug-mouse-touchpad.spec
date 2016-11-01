@@ -48,6 +48,9 @@ This is a swtichboard plug for elementary os.
 
 
 %changelog
+* Tue Nov 01 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.2+rev122-1
+- Update to latest snapshot.
+
 * Mon Oct 31 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.2+rev121-1
 - Update to version 0.1.1.2.
 
