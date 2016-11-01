@@ -1,7 +1,7 @@
 Summary:        Modular Desktop Settings Hub
 Name:           switchboard
 Version:        2.1.0+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            http://launchpad.net/switchboard
 
@@ -55,19 +55,10 @@ This package contains the files required for developing for switchboard.
 %make_install
 %find_lang switchboard
 
-mkdir -p %{buildroot}/%{_libdir}/switchboard/hardware
-mkdir -p %{buildroot}/%{_libdir}/switchboard/network
-mkdir -p %{buildroot}/%{_libdir}/switchboard/personal
-mkdir -p %{buildroot}/%{_libdir}/switchboard/system
-
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
-
-
-%clean
-rm -rf %{buildroot}
 
 
 %post -p /sbin/ldconfig
@@ -99,6 +90,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Nov 01 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+rev689-2
+- Plug directories are now included upstream.
+
 * Tue Nov 01 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+rev689-1
 - Update to latest snapshot.
 
