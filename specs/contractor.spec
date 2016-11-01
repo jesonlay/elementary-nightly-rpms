@@ -1,7 +1,7 @@
 Summary:        Desktop-wide extension service
 Name:           contractor
 Version:        0.3.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/contractor
 
@@ -39,11 +39,6 @@ Designed for elementary OS.
 
 %install
 %make_install
-mkdir -p %{buildroot}/%{_datadir}/contractor
-
-
-%clean
-rm -rf %{buildroot}
 
 
 %files
@@ -56,6 +51,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Nov 01 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev140-2
+- Contract directory is now included upstream.
+
 * Tue Nov 01 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev140-1
 - Update to latest snapshot.
 
