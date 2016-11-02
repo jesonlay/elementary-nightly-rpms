@@ -1,7 +1,7 @@
 Summary:        Modular Desktop Settings Hub
 Name:           switchboard
 Version:        2.1.0+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            http://launchpad.net/switchboard
 
@@ -90,6 +90,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Wed Nov 02 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+rev690-1
+- Update to latest snapshot.
+
 * Tue Nov 01 2016 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+rev689-2
 - Plug directories are now included upstream.
 
