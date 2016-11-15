@@ -1,7 +1,7 @@
 Summary:        Gala window manager
 Name:           gala
 Version:        0.3.0+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/gala
 
@@ -120,6 +120,9 @@ fi
 
 
 %changelog
+* Tue Nov 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev547-1
+- Switch back to trunk branch, mutter 3.22 support was merged.
+
 * Mon Nov 14 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev546-1
 - Update to version 0.3.0.
 
