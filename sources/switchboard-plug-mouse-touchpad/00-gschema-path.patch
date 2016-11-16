@@ -1,7 +1,7 @@
 === modified file 'src/Backend/TouchpadSettings.vala'
---- src/Backend/TouchpadSettings.vala	2016-06-18 18:12:17 +0000
-+++ src/Backend/TouchpadSettings.vala	2016-10-26 08:11:20 +0000
-@@ -22,7 +22,7 @@
+--- src/Backend/TouchpadSettings.vala
++++ src/Backend/TouchpadSettings.vala
+@@ -22,7 +22,7 @@ public class MouseTouchpad.Backend.TouchpadSettings : Granite.Services.Settings
      public string click_method { get; set; }
      public double speed { get; set; }
      public string left_handed  { get; set; }
@@ -12,9 +12,9 @@
      public TouchpadSettings () {
 
 === modified file 'src/Widgets/TouchpadSection.vala'
---- src/Widgets/TouchpadSection.vala	2016-10-24 19:14:48 +0000
-+++ src/Widgets/TouchpadSection.vala	2016-10-26 08:13:40 +0000
-@@ -65,10 +65,8 @@
+--- src/Widgets/TouchpadSection.vala
++++ src/Widgets/TouchpadSection.vala
+@@ -65,10 +65,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
          pointer_speed_scale.add_mark (0, Gtk.PositionType.BOTTOM, null);
          Plug.end_size_group.add_widget (pointer_speed_scale);
  
@@ -27,7 +27,7 @@
  
          var horizontal_scrolling_switch = new Gtk.Switch ();
          horizontal_scrolling_switch.halign = Gtk.Align.START;
-@@ -87,8 +85,8 @@
+@@ -87,8 +85,8 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
          attach (new SettingLabel (_("Physical clicking:")), 0, 3, 1, 1);
          attach (click_method_switch, 1, 3, 1, 1);
          attach (click_method_combobox, 2, 3, 1, 1);
@@ -38,17 +38,33 @@
          attach (new SettingLabel (_("Natural scrolling:")), 0, 5, 1, 1);
          attach (natural_scrolling_switch, 1, 5, 1, 1);
  
-@@ -102,9 +100,9 @@
+@@ -101,10 +99,10 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
+                 touchpad_settings.click_method = "none";
+             }
+         });
+-        
+-        scrolling_combobox.changed.connect (() => {
+-            string active_text = scrolling_combobox.get_active_id ();
+-            if (active_text == "disabled") {
++
++        scrolling_switch.changed.connect (() => {
++            bool active = scrolling_switch.get_active ();
++            if (!active) {
+                 horizontal_scrolling_switch.sensitive = false;
+                 natural_scrolling_switch.sensitive = false;
+             } else {
+@@ -113,10 +111,10 @@ public class MouseTouchpad.Widgets.TouchpadSection : Gtk.Grid {
              }
          });
  
 -        touchpad_settings.bind_property ("scroll-method",
 -                                         scrolling_combobox,
 -                                         "active-id",
+-                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
 +        touchpad_settings.bind_property ("edge-scrolling-enabled",
 +                                         scrolling_switch,
 +                                         "state",
-                                          BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
++                                         BindingFlags.BIDIRECTIONAL | BindingFlags.SYNC_CREATE);
  
          touchpad_settings.bind_property ("tap-to-click",
-
+                                          tap_to_click_switch,
