@@ -47,7 +47,7 @@
 -            string active_text = scrolling_combobox.get_active_id ();
 -            if (active_text == "disabled") {
 +
-+        scrolling_switch.changed.connect (() => {
++        scrolling_switch.state_set.connect (() => {
 +            bool active = scrolling_switch.get_active ();
 +            if (!active) {
                  horizontal_scrolling_switch.sensitive = false;

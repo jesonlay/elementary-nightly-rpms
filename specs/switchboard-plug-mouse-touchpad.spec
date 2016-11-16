@@ -3,7 +3,7 @@
 Summary:        Mouse and Touchpad configuration management
 Name:           switchboard-plug-mouse-touchpad
 Version:        0.1.1.2+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/switchboard-plug-mouse-touchpad
 
@@ -48,6 +48,9 @@ This is a swtichboard plug for elementary os.
 
 
 %changelog
+* Wed Nov 16 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.2+rev128-3
+- Fix patch.
+
 * Wed Nov 16 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.2+rev128-2
 - Port patch to new upstream changes.
 
