@@ -1,7 +1,7 @@
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        2.0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
 
@@ -44,10 +44,6 @@ This package contains the files required for developing for wingpanel.
 
 
 %build
-%if 0%{?fedora} >= 25
-export LDFLAGS="$RPM_OPT_FLAGS -Wl,-rpath,/usr/lib64/mutter"
-%endif
-
 %cmake
 %make_build
 
@@ -89,6 +85,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %changelog
+* Thu Nov 17 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev158-2
+- Remove rpath workaround, fix is upstream now.
+
 * Thu Nov 17 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev158-1
 - Update to latest snapshot.
 
