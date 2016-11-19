@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -16,6 +16,7 @@ BuildRequires:  libappstream-glib
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(gee-0.8)
+BuildRequires:  pkgconfig(geocode-glib-1.0)
 BuildRequires:  pkgconfig(gexiv2)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -62,10 +63,6 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %if %{?fedora} < 25
 %post
 /usr/bin/update-desktop-database &> /dev/null || :
@@ -91,6 +88,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat Nov 19 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3062-2
+- Add missing new BR: geocode-glib-1.0.
+
 * Sat Nov 19 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3062-1
 - Update to latest snapshot.
 
