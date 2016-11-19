@@ -20,7 +20,7 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | noise                 | DONE                  |                           | <https://launchpad.net/noise>                 |               |
 | pantheon-calculator   | DONE                  |                           | <https://launchpad.net/pantheon-calculator>   |               |
 | pantheon-files        | DONE                  |                           | <https://launchpad.net/pantheon-files>        |               |
-| pantheon-mail         | TBD                   |                           | <https://launchpad.net/pantheon-mail>         |               |
+| pantheon-mail         | WONTFIX               | !gsignond                 | <https://launchpad.net/pantheon-mail>         |               |
 | pantheon-notes        | DONE                  |                           | <https://launchpad.net/pantheon-notes>        |               |
 | pantheon-photos       | DONE                  |                           | <https://launchpad.net/pantheon-photos>       |               |
 | pantheon-terminal     | DONE                  |                           | <https://launchpad.net/pantheon-terminal>     |               |
@@ -38,8 +38,8 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | contractor                    | DONE              |                       | <https://launchpad.net/contractor>            |               |
 | gala                          | DONE              |                       | <https://launchpad.net/gala>                  |               |
 | plank                         | DONE              |                       | <https://launchpad.net/plank>                 |               |
-| pantheon-agent-polkit         | TBD               |                       | <https://launchpad.net/pantheon-agent-polkit> |               |
-| pantheon-greeter              | TBD               |                       | <https://launchpad.net/pantheon-greeter>      |               |
+| pantheon-agent-polkit         | DONE              |                       | <https://launchpad.net/pantheon-agent-polkit> |               |
+| pantheon-greeter              | DONE              |                       | <https://launchpad.net/pantheon-greeter>      |               |
 | pantheon-session-settings     | DONE              |                       | <https://github.com/decathorpe/pantheon-session-settings> |   |
 | slingshot-launcher            | DONE              |                       | <https://launchpad.net/slingshot>             |               |
 | wingpanel                     | DONE              |                       | <https://launchpad.net/wingpanel>             |               |
@@ -99,9 +99,9 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | package name          | status                | comment           | URL                                               | related bugs  |
 | --------------------- | --------------------- | ----------------- | ------------------------------------------------- | ------------- |
 | cmake-elementary      | DONE                  |                   |                                                   |               |
-| gsignond              | TBD                   |                   | <https://gitlab.com/accounts-sso/gsignond>        |               |
+| gsignond              | WONTFIX               |                   | <https://gitlab.com/accounts-sso/gsignond>        |               |
 | granite               | DONE                  |                   | <https://launchpad.net/granite>                   |               |
-| libgsignon-glib       | TBD                   |                   | <https://gitlab.com/accounts-sso/libgsignon-glib> |               |
+| libgsignon-glib       | WONTFIX               |                   | <https://gitlab.com/accounts-sso/libgsignon-glib> |               |
 
 
 ## USAGE
