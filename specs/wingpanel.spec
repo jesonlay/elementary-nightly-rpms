@@ -1,7 +1,7 @@
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        2.0.1+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
 
@@ -85,6 +85,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %changelog
+* Fri Nov 25 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev159-1
+- Update to latest snapshot.
+
 * Thu Nov 17 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev158-2
 - Remove rpath workaround, fix is upstream now.
 
