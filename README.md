@@ -66,7 +66,7 @@ The current build status for each DONE package can be seen at <https://copr.fedo
 | switchboard-plug-keyboard         | DONE          |           | <https://launchpad.net/switchboard-plug-keyboard>         |               |
 | switchboard-plug-locale           | DONE          |           | <https://launchpad.net/switchboard-plug-locale>           |               |
 | switchboard-plug-mouse-touchpad   | DONE          |           | <https://launchpad.net/switchboard-plug-mouse-touchpad>   |               |
-| switchboard-plug-networking       | FTBFS         | newer API | <https://launchpad.net/switchboard-plug-networking>       |               |
+| switchboard-plug-networking       | FTBFS         | vala bug  | <https://launchpad.net/switchboard-plug-networking>       |               |
 | switchboard-plug-notifications    | DONE          |           | <https://launchpad.net/switchboard-plug-notifications>    |               |
 | switchboard-plug-onlineaccounts   | WONTFIX       | !gsignond | <https://launchpad.net/switchboard-plug-onlineaccounts>   |               |
 | switchboard-plug-pantheon-shell   | DONE          |           | <https://launchpad.net/switchboard-plug-pantheon-shell>   |               |
