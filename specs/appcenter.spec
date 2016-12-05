@@ -1,6 +1,6 @@
 Summary:        Get apps for elementary OS
 Name:           appcenter
-Version:        0.1.1+rev%{rev}
+Version:        0.1.3+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
@@ -69,6 +69,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Mon Dec 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev346-1
+- Update to version 0.1.3.
+
 * Mon Dec 05 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev346-1
 - Update to latest snapshot.
 
