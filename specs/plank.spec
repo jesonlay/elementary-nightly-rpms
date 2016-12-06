@@ -1,6 +1,6 @@
 Summary:        Stupidly simple Dock
 Name:           plank
-Version:        0.11.2+rev%{rev}
+Version:        0.11.3+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
@@ -148,6 +148,9 @@ fi
 
 
 %changelog
+* Tue Dec 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.3+rev1582-1
+- Update to version 0.11.3.
+
 * Tue Dec 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.11.2+rev1582-1
 - Update to latest snapshot.
 
