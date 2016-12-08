@@ -2,7 +2,7 @@
 
 Summary:        Switchboard Privacy and Security Plug
 Name:           switchboard-plug-security-privacy
-Version:        0.1.1+rev%{rev}
+Version:        0.1.1.1+rev%{rev}
 Release:        1%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            https://launchpad.net/switchboard-plug-security-privacy
@@ -61,6 +61,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Thu Dec 08 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.1+rev270-1
+- Update to version 0.1.1.1.
+
 * Fri Dec 02 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev270-1
 - Update to latest snapshot.
 
