@@ -3,7 +3,7 @@
 Summary:        An easy parental controls plug
 Name:           switchboard-plug-parental-controls
 Version:        0.1.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-parental-controls
 
@@ -79,12 +79,16 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 %{_datadir}/applications/pantheon-parental-controls-client.desktop
 %{_datadir}/dbus-1/system-services/org.pantheon.ParentalControls.service
+%{_datadir}/pantheon-parental-controls
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.parental-controls.policy
 
 %{_unitdir}/pantheon-parental-controls.service
 
 
 %changelog
+* Sat Dec 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev243-2
+- Include new config file.
+
 * Sat Dec 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev243-1
 - Update to latest snapshot.
 
