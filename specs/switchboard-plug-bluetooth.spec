@@ -3,7 +3,7 @@
 Summary:        Bluetooth plug for Switchboard
 Name:           switchboard-plug-bluetooth
 Version:        0.1.0+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            https://launchpad.net/switchboard-plug-bluetooth
 
@@ -19,7 +19,7 @@ BuildRequires:  vala-tools
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
-BuildRequires:  pkgconfig(switchboard-2.0)
+BuildRequires:  switchboard-devel >= 2.2.0+rev717
 
 Supplements:    switchboard
 
@@ -45,11 +45,15 @@ Built for elementary OS.
 
 
 %files -f pantheon-bluetooth-plug.lang
-%{_libdir}/switchboard/hardware/pantheon-bluetooth/
+%{_libdir}/switchboard/network/pantheon-bluetooth/
 
 
 %changelog
-* Wed Dec 20 2016 Cody Garver <cody@elementary.io> - 0.1.0+rev26-1
-- Update to latest snapshot.
+* Tue Dec 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+rev26-2
+- Make sure switchboard is new enough.
+- Fix plug directory.
+
+* Tue Dec 20 2016 Cody Garver <cody@elementary.io> - 0.1.0+rev26-1
+- Initial package.
 
 
