@@ -74,6 +74,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | switchboard-plug-about                | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-about>                |
 | switchboard-plug-a11y                 | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-a11y>                 |
 | switchboard-plug-applications         | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-applications>         |
+| switchboard-plug-bluetooth            | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-bluetooth>            |
 | switchboard-plug-datetime             | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-datetime>             |
 | switchboard-plug-display              | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-display>              |
 | switchboard-plug-keyboard             | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-keyboard>             |
