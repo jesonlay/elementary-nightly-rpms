@@ -47,6 +47,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Dec 21 2016 Fabio Valentini <decathorpe@gmail.com> - 4.0.1.1+git161221.100345.7e9575f6-1
+- Update to latest snapshot.
+
 * Sun Dec 18 2016 Fabio Valentini <decathorpe@gmail.com> - 4.0.1.1+git161218.084045.bacf93dc-1
 - Update to latest snapshot.
 
