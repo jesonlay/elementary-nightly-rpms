@@ -3,7 +3,7 @@
 Summary:        Bluetooth plug for Switchboard
 Name:           switchboard-plug-bluetooth
 Version:        0.1.0+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 URL:            https://launchpad.net/switchboard-plug-bluetooth
 
@@ -49,6 +49,9 @@ Built for elementary OS.
 
 
 %changelog
+* Wed Dec 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+rev27-1
+- Update to latest snapshot.
+
 * Tue Dec 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+rev26-2
 - Make sure switchboard is new enough.
 - Fix plug directory.
