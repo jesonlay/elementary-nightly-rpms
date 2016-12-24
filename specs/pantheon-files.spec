@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.0.5+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -30,6 +30,7 @@ BuildRequires:  pkgconfig(libnotify) >= 0.7.2
 BuildRequires:  pkgconfig(pango) >= 1.1.2
 BuildRequires:  pkgconfig(plank)
 BuildRequires:  pkgconfig(sqlite3)
+BuildRequires:  pkgconfig(unity) >= 4.0.0
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 
@@ -127,6 +128,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Sat Dec 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2413-2
+- Add support for libunity.
+
 * Sat Dec 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2413-1
 - Update to latest snapshot.
 
