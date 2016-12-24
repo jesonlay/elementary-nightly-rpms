@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -34,6 +34,7 @@ BuildRequires:  pkgconfig(libsoup-2.4) >= 2.26.0
 BuildRequires:  pkgconfig(libxml-2.0) >= 2.6.32
 BuildRequires:  pkgconfig(rest-0.7) >= 0.7
 BuildRequires:  pkgconfig(sqlite3) >= 3.5.9
+BuildRequires:  pkgconfig(unity) >= 4.0.0
 BuildRequires:  pkgconfig(webkit2gtk-4.0) >= 2.0.0
 
 
@@ -88,6 +89,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Sat Dec 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3089-2
+- Add libunity support.
+
 * Wed Dec 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3089-1
 - Update to latest snapshot.
 
