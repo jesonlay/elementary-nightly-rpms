@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.0.5+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -57,12 +57,17 @@ This package contains the development headers.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-files
 
 
@@ -70,18 +75,6 @@ This package contains the development headers.
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
 
-
-%clean
-rm -rf %{buildroot}
-
-
-%if %{?fedora} < 25
-%post
-/usr/bin/update-desktop-database &> /dev/null || :
-
-%postun
-/usr/bin/update-desktop-database &> /dev/null || :
-%endif
 
 %post   libs -p /sbin/ldconfig
 %postun libs -p /sbin/ldconfig
@@ -134,6 +127,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat Dec 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2411-2
+- Try to fix build.
+
 * Fri Dec 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2411-1
 - Update to latest snapshot.
 
