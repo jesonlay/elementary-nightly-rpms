@@ -1,7 +1,7 @@
 Summary:        Modular Desktop Settings Hub
 Name:           switchboard
 Version:        2.2.0+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            http://launchpad.net/switchboard
 
@@ -91,6 +91,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Mon Dec 26 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+rev725-1
+- Update to latest snapshot.
+
 * Sat Dec 24 2016 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+rev724-2
 - Enable libunity support.
 
