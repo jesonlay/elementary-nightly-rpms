@@ -1,7 +1,7 @@
 Summary:        Get apps for elementary OS
 Name:           appcenter
 Version:        0.1.3+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
@@ -70,6 +70,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Tue Dec 27 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev355-1
+- Update to latest snapshot.
+
 * Sat Dec 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev354-2
 - Enable libunity support.
 
