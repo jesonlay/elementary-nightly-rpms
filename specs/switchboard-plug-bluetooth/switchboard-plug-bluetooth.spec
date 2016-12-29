@@ -1,3 +1,5 @@
+%define rev 31
+
 %global debug_package %{nil}
 
 Summary:        Bluetooth plug for Switchboard
@@ -7,6 +9,10 @@ Release:        1%{?dist}
 License:        LGPLv3
 URL:            https://launchpad.net/switchboard-plug-bluetooth
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -49,6 +55,9 @@ Built for elementary OS.
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+rev31-1
+- Update to latest snapshot.
+
 * Sun Dec 25 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+rev30-1
 - Update to latest snapshot.
 
@@ -67,5 +76,8 @@ Built for elementary OS.
 
 * Tue Dec 20 2016 Cody Garver <cody@elementary.io> - 0.1.0+rev26-1
 - Initial package.
+
+
+
 
 

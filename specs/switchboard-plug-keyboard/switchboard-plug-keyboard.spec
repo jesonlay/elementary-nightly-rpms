@@ -1,3 +1,5 @@
+%define rev 493
+
 %global debug_package %{nil}
 
 Summary:        Adjust keyboard settings from Switchboard
@@ -7,6 +9,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-keyboard
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -52,6 +58,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev493-1
+- Update to latest snapshot.
+
 * Tue Dec 27 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev492-1
 - Update to latest snapshot.
 
@@ -84,5 +93,8 @@ Designed for elementary OS.
 
 * Wed Nov 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3+rev483-1
 - Update to version 0.3.
+
+
+
 
 

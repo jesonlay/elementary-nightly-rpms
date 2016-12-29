@@ -1,3 +1,5 @@
+%define rev 143
+
 %global debug_package %{nil}
 
 Summary:        Mouse and Touchpad configuration management
@@ -7,6 +9,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/switchboard-plug-mouse-touchpad
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -48,6 +54,9 @@ This is a swtichboard plug for elementary os.
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.2+rev143-1
+- Update to latest snapshot.
+
 * Thu Dec 22 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.2+rev142-1
 - Update to latest snapshot.
 
@@ -263,4 +272,7 @@ This is a swtichboard plug for elementary os.
 
 * Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev56-1
 - Initial package.
+
+
+
 

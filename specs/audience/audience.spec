@@ -1,10 +1,16 @@
+%define rev 707
+
 Summary:        Audience video player
 Name:           audience
 Version:        0.2.1.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -75,6 +81,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.1+rev707-2
+- Update to latest snapshot.
+
 * Wed Dec 21 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.1+rev706-1
 - Update to latest snapshot.
 
@@ -574,5 +583,7 @@ rm -rf %{buildroot}
 
 * Sat Jan 03 2015 Fabio Valentini <fafatheone@gmail.com> - 0.1~rev477-1
 - Initial package.
+
+
 
 

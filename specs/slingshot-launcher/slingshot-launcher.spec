@@ -1,3 +1,5 @@
+%define rev 711
+
 %global debug_package %{nil}
 
 Summary:        Lightweight and stylish app launcher
@@ -7,6 +9,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/slingshot
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -65,6 +71,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev711-1
+- Update to latest snapshot.
+
 * Tue Dec 27 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev710-1
 - Update to latest snapshot.
 
@@ -259,5 +268,8 @@ Designed for elementary OS.
 
 * Sat May 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.9.0~rev651-1
 - Update for packaging changes.
+
+
+
 
 

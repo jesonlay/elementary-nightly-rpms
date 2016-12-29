@@ -1,3 +1,5 @@
+%define rev 2022
+
 Summary:        The official elementary music player
 Name:           noise
 Version:        0.4.0.2+rev%{rev}
@@ -5,6 +7,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/noise
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -739,5 +745,7 @@ fi
 
 * Sat Jul 04 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1~rev1821-1
 - Initial package.
+
+
 
 

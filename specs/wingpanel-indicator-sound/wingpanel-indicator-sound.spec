@@ -1,3 +1,5 @@
+%define rev 140
+
 %global debug_package %{nil}
 
 Summary:        a sound indicator for wingpanel
@@ -7,6 +9,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-sound
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -56,6 +62,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+rev140-1
+- Update to latest snapshot.
+
 * Wed Dec 28 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+rev139-1
 - Update to latest snapshot.
 
@@ -217,4 +226,7 @@ rm -rf %{buildroot}
 
 * Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev85-1
 - Initial package.
+
+
+
 

@@ -1,3 +1,5 @@
+%define rev 3094
+
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2+rev%{rev}
@@ -5,6 +7,10 @@ Release:        1%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -89,6 +95,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3094-1
+- Update to latest snapshot.
+
 * Wed Dec 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3093-1
 - Update to latest snapshot.
 
@@ -700,6 +709,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 * Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2838-1
 - Initial package of elementary shotwell fork.
+
+
+
 
 
 

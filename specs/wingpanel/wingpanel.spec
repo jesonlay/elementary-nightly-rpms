@@ -1,3 +1,5 @@
+%define rev 163
+
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        2.0.1+rev%{rev}
@@ -5,6 +7,10 @@ Release:        1%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -85,6 +91,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %changelog
+* Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev163-1
+- Update to latest snapshot.
+
 * Wed Dec 21 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev162-1
 - Update to latest snapshot.
 
@@ -216,5 +225,8 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 * Fri May 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev124-1
 - Initial package.
+
+
+
 
 
