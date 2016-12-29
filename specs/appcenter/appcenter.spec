@@ -1,3 +1,5 @@
+%define rev 360
+
 Summary:        Get apps for elementary OS
 Name:           appcenter
 Version:        0.1.3+rev%{rev}
@@ -5,6 +7,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -180,5 +186,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 * Sat Oct 15 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev322-1
 - Update to version 0.1.1.
+
+
 
 
