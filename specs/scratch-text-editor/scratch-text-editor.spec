@@ -1,3 +1,5 @@
+%define rev 1795
+
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.3+rev%{rev}
@@ -5,6 +7,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -154,6 +160,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Dec 30 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1795-1
+- Update to latest snapshot.
+
 * Wed Dec 28 2016 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1794-1
 - Update to latest snapshot.
 
@@ -847,5 +856,8 @@ rm -rf %{buildroot}
 
 * Sat Jul 18 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.0~rev1527-1
 - Initial package.
+
+
+
 
 

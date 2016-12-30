@@ -1,3 +1,5 @@
+%define rev 2431
+
 %define rev 2428
 
 Summary:        Pantheon file manager
@@ -7,6 +9,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 # The tarball is generated from a checkout of the specified branch and
 # by executing 'bzr export' and has the usual format
 # ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
@@ -134,6 +140,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Fri Dec 30 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2428-1
+- Update to latest snapshot.
+
 * Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2428-1
 - Update to latest snapshot.
 
@@ -1198,6 +1207,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 * Wed Jul 29 2015 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.1~rev1900-3
 - Update to bzr snapshot revno 1900.
+
+
+
 
 
 

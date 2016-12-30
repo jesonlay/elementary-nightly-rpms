@@ -1,3 +1,5 @@
+%define rev 922
+
 %define rev 921
 
 Summary:        The terminal of the 21st century.
@@ -7,6 +9,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 # The tarball is generated from a checkout of the specified branch and
 # by executing 'bzr export' and has the usual format
 # ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
@@ -76,6 +82,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Fri Dec 30 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev921-1
+- Update to latest snapshot.
+
 * Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev921-1
 - Update to latest snapshot.
 
@@ -549,6 +558,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 * Wed Aug 19 2015 Fabio Valentini <decathorpe@gmail.com> - 0.3.1.3~rev748-1
 - Initial package.
+
+
+
 
 
 

@@ -1,3 +1,5 @@
+%define rev 359
+
 %define rev 358
 
 %global debug_package %{nil}
@@ -9,6 +11,10 @@ Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-networking
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 # The tarball is generated from a checkout of the specified branch and
 # by executing 'bzr export' and has the usual format
 # ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
@@ -61,6 +67,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Fri Dec 30 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev358-1
+- Update to latest snapshot.
+
 * Thu Dec 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev358-1
 - Update to latest snapshot.
 
@@ -114,6 +123,9 @@ Designed for elementary OS.
 
 * Fri Dec 09 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.3+rev340-1
 - Update to version 0.1.0.3.
+
+
+
 
 
 
