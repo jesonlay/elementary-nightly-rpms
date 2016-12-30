@@ -1,5 +1,3 @@
-%define rev 711
-
 %global debug_package %{nil}
 
 Summary:        Lightweight and stylish app launcher
@@ -268,8 +266,5 @@ Designed for elementary OS.
 
 * Sat May 07 2016 Fabio Valentini <decathorpe@gmail.com> - 0.9.0~rev651-1
 - Update for packaging changes.
-
-
-
 
 

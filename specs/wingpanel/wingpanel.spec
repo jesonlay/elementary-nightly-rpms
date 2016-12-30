@@ -1,5 +1,3 @@
-%define rev 163
-
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        2.0.1+rev%{rev}
@@ -225,8 +223,5 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 * Fri May 06 2016 Fabio Valentini <decathorpe@gmail.com> - 0.4~rev124-1
 - Initial package.
-
-
-
 
 

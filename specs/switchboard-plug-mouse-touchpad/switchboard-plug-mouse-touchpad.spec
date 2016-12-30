@@ -1,5 +1,3 @@
-%define rev 143
-
 %global debug_package %{nil}
 
 Summary:        Mouse and Touchpad configuration management
@@ -272,7 +270,5 @@ This is a swtichboard plug for elementary os.
 
 * Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev56-1
 - Initial package.
-
-
 
 

@@ -1,5 +1,3 @@
-%define rev 493
-
 %global debug_package %{nil}
 
 Summary:        Adjust keyboard settings from Switchboard
@@ -93,8 +91,5 @@ Designed for elementary OS.
 
 * Wed Nov 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3+rev483-1
 - Update to version 0.3.
-
-
-
 
 

@@ -1,5 +1,3 @@
-%define rev 31
-
 %global debug_package %{nil}
 
 Summary:        Bluetooth plug for Switchboard
@@ -76,8 +74,5 @@ Built for elementary OS.
 
 * Tue Dec 20 2016 Cody Garver <cody@elementary.io> - 0.1.0+rev26-1
 - Initial package.
-
-
-
 
 

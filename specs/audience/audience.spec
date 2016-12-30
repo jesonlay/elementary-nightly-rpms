@@ -1,5 +1,3 @@
-%define rev 707
-
 Summary:        Audience video player
 Name:           audience
 Version:        0.2.1.1+rev%{rev}
@@ -583,7 +581,5 @@ rm -rf %{buildroot}
 
 * Sat Jan 03 2015 Fabio Valentini <fafatheone@gmail.com> - 0.1~rev477-1
 - Initial package.
-
-
 
 

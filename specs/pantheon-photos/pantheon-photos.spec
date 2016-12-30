@@ -1,5 +1,3 @@
-%define rev 3094
-
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2+rev%{rev}
@@ -709,9 +707,5 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 * Thu Nov 26 2015 Fabio Valentini <decathorpe@gmail.com> - 0.1.1~rev2838-1
 - Initial package of elementary shotwell fork.
-
-
-
-
 
 

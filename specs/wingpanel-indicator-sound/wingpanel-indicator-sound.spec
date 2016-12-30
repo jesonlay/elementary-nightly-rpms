@@ -1,5 +1,3 @@
-%define rev 140
-
 %global debug_package %{nil}
 
 Summary:        a sound indicator for wingpanel
@@ -226,7 +224,5 @@ rm -rf %{buildroot}
 
 * Tue May 10 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1~rev85-1
 - Initial package.
-
-
 
 

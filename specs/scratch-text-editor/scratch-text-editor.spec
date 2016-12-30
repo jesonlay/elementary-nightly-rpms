@@ -1,5 +1,3 @@
-%define rev 1795
-
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.3+rev%{rev}
@@ -856,8 +854,5 @@ rm -rf %{buildroot}
 
 * Sat Jul 18 2015 Fabio Valentini <decathorpe@gmail.com> - 2.2.0~rev1527-1
 - Initial package.
-
-
-
 
 
