@@ -100,6 +100,9 @@ fi
 
 
 %changelog
+* Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1023-1
+- Update to version 0.4.0.1.
+
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1022-1
 - Update to version 0.4.0.1.
 
