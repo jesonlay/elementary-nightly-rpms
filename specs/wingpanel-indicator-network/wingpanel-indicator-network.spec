@@ -2,7 +2,7 @@
 
 Summary:        a network indicator for wingpanel
 Name:           wingpanel-indicator-network
-Version:        2.0.1+rev%{rev}
+Version:        2.0.2+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-network
@@ -54,6 +54,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev212-1
+- Update to version 2.0.2.
+
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev212-1
 - Update to version 2.0.1.
 
