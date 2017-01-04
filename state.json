@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"366",
+            "bzr_last_rev":"367",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -136,7 +136,7 @@
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"985",
+            "bzr_last_rev":"986",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
@@ -166,7 +166,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"305",
+            "bzr_last_rev":"306",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -176,7 +176,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2436",
+            "bzr_last_rev":"2437",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -186,7 +186,7 @@
         },
         "19":{
             "bzr_branch":"",
-            "bzr_last_rev":"516",
+            "bzr_last_rev":"517",
             "bzr_rev":"",
             "name":"pantheon-greeter",
             "package_name":"pantheon-greeter",
@@ -206,7 +206,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3102",
+            "bzr_last_rev":"3103",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -267,7 +267,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"714",
+            "bzr_last_rev":"715",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -367,7 +367,7 @@
         },
         "37":{
             "bzr_branch":"",
-            "bzr_last_rev":"363",
+            "bzr_last_rev":"364",
             "bzr_rev":"",
             "name":"switchboard-plug-networking",
             "package_name":"switchboard-plug-networking",
@@ -397,7 +397,7 @@
         },
         "40":{
             "bzr_branch":"",
-            "bzr_last_rev":"252",
+            "bzr_last_rev":"253",
             "bzr_rev":"",
             "name":"switchboard-plug-parental-controls",
             "package_name":"switchboard-plug-parental-controls",
@@ -557,7 +557,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"729",
+            "bzr_last_rev":"730",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
