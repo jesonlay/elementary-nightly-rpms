@@ -120,6 +120,9 @@ fi
 
 
 %changelog
+* Thu Jan 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev552-1
+- Update to version 0.3.0.
+
 * Sat Dec 31 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev551-1
 - Update to latest snapshot.
 
