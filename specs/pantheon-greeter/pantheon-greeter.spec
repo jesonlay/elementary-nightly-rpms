@@ -83,6 +83,9 @@ install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Fri Jan 06 2017 Fabio Valentini <decathorpe@gmail.com> - 3.0+rev519-1
+- Update to version 3.0.
+
 * Thu Jan 05 2017 Fabio Valentini <decathorpe@gmail.com> - 3.0+rev518-1
 - Update to version 3.0.
 

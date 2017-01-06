@@ -47,6 +47,9 @@ A keyboard indicator for wingpanel.
 
 
 %changelog
+* Fri Jan 06 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev62-1
+- Update to version 2.0.1.
+
 * Sun Dec 18 2016 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev61-1
 - Update to latest snapshot.
 
