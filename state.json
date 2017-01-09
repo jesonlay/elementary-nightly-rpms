@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"370",
+            "bzr_last_rev":"371",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -115,7 +115,7 @@
         },
         "13":{
             "bzr_branch":"",
-            "bzr_last_rev":"1025",
+            "bzr_last_rev":"1026",
             "bzr_rev":"",
             "name":"granite",
             "package_name":"granite",
@@ -216,7 +216,7 @@
         },
         "23":{
             "bzr_branch":"",
-            "bzr_last_rev":"928",
+            "bzr_last_rev":"929",
             "bzr_rev":"",
             "name":"pantheon-terminal",
             "package_name":"pantheon-terminal",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1800",
+            "bzr_last_rev":"1801",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -306,7 +306,7 @@
         },
         "32":{
             "bzr_branch":"",
-            "bzr_last_rev":"189",
+            "bzr_last_rev":"190",
             "bzr_rev":"",
             "name":"switchboard-plug-datetime",
             "package_name":"switchboard-plug-datetime",
@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"496",
+            "bzr_last_rev":"497",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"531",
+            "bzr_last_rev":"532",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
@@ -396,7 +396,7 @@
         },
         "41":{
             "bzr_branch":"",
-            "bzr_last_rev":"393",
+            "bzr_last_rev":"394",
             "bzr_rev":"",
             "name":"switchboard-plug-power",
             "package_name":"switchboard-plug-power",
@@ -406,7 +406,7 @@
         },
         "42":{
             "bzr_branch":"",
-            "bzr_last_rev":"122",
+            "bzr_last_rev":"123",
             "bzr_rev":"",
             "name":"switchboard-plug-printers",
             "package_name":"switchboard-plug-printers",
