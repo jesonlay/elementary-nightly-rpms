@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"373",
+            "bzr_last_rev":"374",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -135,7 +135,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2029",
+            "bzr_last_rev":"2030",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2443",
+            "bzr_last_rev":"2444",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3107",
+            "bzr_last_rev":"3108",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1802",
+            "bzr_last_rev":"1803",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -296,7 +296,7 @@
         },
         "31":{
             "bzr_branch":"",
-            "bzr_last_rev":"35",
+            "bzr_last_rev":"36",
             "bzr_rev":"",
             "name":"switchboard-plug-bluetooth",
             "package_name":"switchboard-plug-bluetooth",
@@ -306,7 +306,7 @@
         },
         "32":{
             "bzr_branch":"",
-            "bzr_last_rev":"191",
+            "bzr_last_rev":"192",
             "bzr_rev":"",
             "name":"switchboard-plug-datetime",
             "package_name":"switchboard-plug-datetime",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"732",
+            "bzr_last_rev":"733",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",

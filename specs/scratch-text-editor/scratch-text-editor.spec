@@ -158,6 +158,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Jan 12 2017 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1803-1
+- Update to version 2.3.
+
 * Wed Jan 11 2017 Fabio Valentini <decathorpe@gmail.com> - 2.3+rev1802-1
 - Update to version 2.3.
 
