@@ -155,7 +155,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"308",
+            "bzr_last_rev":"309",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3108",
+            "bzr_last_rev":"3109",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1804",
+            "bzr_last_rev":"1805",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -306,7 +306,7 @@
         },
         "32":{
             "bzr_branch":"",
-            "bzr_last_rev":"192",
+            "bzr_last_rev":"193",
             "bzr_rev":"",
             "name":"switchboard-plug-datetime",
             "package_name":"switchboard-plug-datetime",
