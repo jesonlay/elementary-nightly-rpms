@@ -135,7 +135,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2030",
+            "bzr_last_rev":"2031",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2445",
+            "bzr_last_rev":"2446",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3115",
+            "bzr_last_rev":"3118",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -226,7 +226,7 @@
         },
         "24":{
             "bzr_branch":"",
-            "bzr_last_rev":"1582",
+            "bzr_last_rev":"1584",
             "bzr_rev":"",
             "name":"plank",
             "package_name":"plank",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"719",
+            "bzr_last_rev":"723",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -356,7 +356,7 @@
         },
         "37":{
             "bzr_branch":"",
-            "bzr_last_rev":"366",
+            "bzr_last_rev":"367",
             "bzr_rev":"",
             "name":"switchboard-plug-networking",
             "package_name":"switchboard-plug-networking",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"534",
+            "bzr_last_rev":"535",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
@@ -436,7 +436,7 @@
         },
         "45":{
             "bzr_branch":"",
-            "bzr_last_rev":"268",
+            "bzr_last_rev":"269",
             "bzr_rev":"",
             "name":"switchboard-plug-useraccounts",
             "package_name":"switchboard-plug-useraccounts",
@@ -476,7 +476,7 @@
         },
         "49":{
             "bzr_branch":"",
-            "bzr_last_rev":"172",
+            "bzr_last_rev":"173",
             "bzr_rev":"",
             "name":"wingpanel-indicator-datetime",
             "package_name":"wingpanel-indicator-datetime",
