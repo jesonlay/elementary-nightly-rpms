@@ -169,9 +169,9 @@
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
-            "package_version":"0.3.0.5",
+            "package_version":"0.3.1",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.3.0.5+rev%{rev}"
+            "rpm_last_version":"0.3.1+rev%{rev}"
         },
         "19":{
             "bzr_branch":"",
