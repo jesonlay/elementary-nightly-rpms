@@ -1,6 +1,6 @@
 Summary:        elementary Icons
 Name:           elementary-icon-theme
-Version:        4.0.1.1+git%{date}.%{rev}
+Version:        4.0.1.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/elementaryicons
@@ -47,6 +47,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Jan 18 2017 Fabio Valentini <decathorpe@gmail.com> - 4.0.1.1+git161221.100345.7e9575f6-1
+- Update to version 4.0.1.1.
+
 * Wed Dec 21 2016 Fabio Valentini <decathorpe@gmail.com> - 4.0.1.1+git161221.100345.7e9575f6-1
 - Update to latest snapshot.
 

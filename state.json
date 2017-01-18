@@ -79,7 +79,7 @@
             "package_name":"elementary-icon-theme",
             "package_version":"4.0.1.1",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"4.0.1.1+git%{date}.%{rev}"
+            "rpm_last_version":"4.0.1.1+git%{date}.%{commit}"
         },
         "10":{
             "git_branch":"master",
@@ -90,7 +90,7 @@
             "package_name":"elementary-themes",
             "package_version":"5.0.2",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"5.0.2+git%{date}.%{rev}"
+            "rpm_last_version":"5.0.2+git%{date}.%{commit}"
         },
         "11":{
             "git_branch":"master",
@@ -101,7 +101,7 @@
             "package_name":"elementary-wallpapers",
             "package_version":"0",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0~git%{date}~%{rev}"
+            "rpm_last_version":"0+git%{date}.%{commit}"
         },
         "12":{
             "bzr_branch":"",
