@@ -73,8 +73,8 @@
         "9":{
             "git_branch":"master",
             "git_commit":"HEAD",
-            "git_last_commit":"7e9575f69bd3cba925f73e54bbe10f4b30f96781",
-            "git_last_date":"161221.100345",
+            "git_last_commit":"83c6f2719b2e836bba71dbf62250fccf27a439a6",
+            "git_last_date":"170116.125315",
             "name":"elementary-icon-theme",
             "package_name":"elementary-icon-theme",
             "package_version":"4.0.1.1",
@@ -84,8 +84,8 @@
         "10":{
             "git_branch":"master",
             "git_commit":"HEAD",
-            "git_last_commit":"727c158aa7058e60a391a6656b8b6d54497ef5fe",
-            "git_last_date":"161218.174932",
+            "git_last_commit":"548fac7c898d4bff16a2dcf2601f7d942fc32dab",
+            "git_last_date":"170115.161326",
             "name":"elementary-themes",
             "package_name":"elementary-themes",
             "package_version":"5.0.2",
