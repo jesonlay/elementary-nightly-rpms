@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"376",
+            "bzr_last_rev":"377",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2452",
+            "bzr_last_rev":"2453",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"535",
+            "bzr_last_rev":"536",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
@@ -516,7 +516,7 @@
         },
         "53":{
             "bzr_branch":"",
-            "bzr_last_rev":"195",
+            "bzr_last_rev":"196",
             "bzr_rev":"",
             "name":"wingpanel-indicator-power",
             "package_name":"wingpanel-indicator-power",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"734",
+            "bzr_last_rev":"735",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
