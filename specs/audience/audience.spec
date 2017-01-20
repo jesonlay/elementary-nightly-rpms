@@ -1,6 +1,6 @@
 Summary:        Audience video player
 Name:           audience
-Version:        0.2.1.1+rev%{rev}
+Version:        0.2.1.2+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/audience
@@ -79,6 +79,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Fri Jan 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.2+rev715-1
+- Update to version 0.2.1.2.
+
 * Thu Jan 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.1+rev715-1
 - Update to latest snapshot.
 

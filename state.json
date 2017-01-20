@@ -16,9 +16,9 @@
             "bzr_rev":"",
             "name":"audience",
             "package_name":"audience",
-            "package_version":"0.2.1.1",
+            "package_version":"0.2.1.2",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.2.1.1+rev%{rev}"
+            "rpm_last_version":"0.2.1.2+rev%{rev}"
         },
         "3":{
             "bzr_branch":"",
