@@ -125,7 +125,7 @@
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"989",
+            "bzr_last_rev":"990",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
@@ -155,7 +155,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"312",
+            "bzr_last_rev":"313",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2454",
+            "bzr_last_rev":"2455",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3121",
+            "bzr_last_rev":"3123",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -216,7 +216,7 @@
         },
         "23":{
             "bzr_branch":"",
-            "bzr_last_rev":"929",
+            "bzr_last_rev":"930",
             "bzr_rev":"",
             "name":"pantheon-terminal",
             "package_name":"pantheon-terminal",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1806",
+            "bzr_last_rev":"1808",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"270",
+            "bzr_last_rev":"271",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"736",
+            "bzr_last_rev":"737",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
