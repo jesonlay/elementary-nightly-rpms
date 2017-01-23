@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"378",
+            "bzr_last_rev":"379",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -216,7 +216,7 @@
         },
         "23":{
             "bzr_branch":"",
-            "bzr_last_rev":"930",
+            "bzr_last_rev":"931",
             "bzr_rev":"",
             "name":"pantheon-terminal",
             "package_name":"pantheon-terminal",
