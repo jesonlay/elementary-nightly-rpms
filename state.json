@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"379",
+            "bzr_last_rev":"381",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -12,7 +12,7 @@
         },
         "2":{
             "bzr_branch":"",
-            "bzr_last_rev":"716",
+            "bzr_last_rev":"717",
             "bzr_rev":"",
             "name":"audience",
             "package_name":"audience",
@@ -145,7 +145,7 @@
         },
         "16":{
             "bzr_branch":"",
-            "bzr_last_rev":"63",
+            "bzr_last_rev":"64",
             "bzr_rev":"",
             "name":"pantheon-agent-polkit",
             "package_name":"pantheon-agent-polkit",
@@ -175,7 +175,7 @@
         },
         "19":{
             "bzr_branch":"",
-            "bzr_last_rev":"520",
+            "bzr_last_rev":"521",
             "bzr_rev":"",
             "name":"pantheon-greeter",
             "package_name":"pantheon-greeter",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"271",
+            "bzr_last_rev":"272",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -396,7 +396,7 @@
         },
         "41":{
             "bzr_branch":"",
-            "bzr_last_rev":"395",
+            "bzr_last_rev":"396",
             "bzr_rev":"",
             "name":"switchboard-plug-power",
             "package_name":"switchboard-plug-power",
@@ -416,7 +416,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"283",
+            "bzr_last_rev":"284",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
@@ -436,7 +436,7 @@
         },
         "45":{
             "bzr_branch":"",
-            "bzr_last_rev":"270",
+            "bzr_last_rev":"271",
             "bzr_rev":"",
             "name":"switchboard-plug-useraccounts",
             "package_name":"switchboard-plug-useraccounts",
@@ -496,7 +496,7 @@
         },
         "51":{
             "bzr_branch":"",
-            "bzr_last_rev":"214",
+            "bzr_last_rev":"215",
             "bzr_rev":"",
             "name":"wingpanel-indicator-network",
             "package_name":"wingpanel-indicator-network",
