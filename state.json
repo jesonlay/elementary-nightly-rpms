@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"381",
+            "bzr_last_rev":"382",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -12,7 +12,7 @@
         },
         "2":{
             "bzr_branch":"",
-            "bzr_last_rev":"717",
+            "bzr_last_rev":"718",
             "bzr_rev":"",
             "name":"audience",
             "package_name":"audience",
@@ -125,7 +125,7 @@
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"991",
+            "bzr_last_rev":"992",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
@@ -135,7 +135,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2033",
+            "bzr_last_rev":"2034",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -155,7 +155,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"313",
+            "bzr_last_rev":"314",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2456",
+            "bzr_last_rev":"2457",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -185,7 +185,7 @@
         },
         "20":{
             "bzr_branch":"",
-            "bzr_last_rev":"58",
+            "bzr_last_rev":"59",
             "bzr_rev":"",
             "name":"pantheon-notes",
             "package_name":"pantheon-notes",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3124",
+            "bzr_last_rev":"3127",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1808",
+            "bzr_last_rev":"1809",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"724",
+            "bzr_last_rev":"725",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -286,7 +286,7 @@
         },
         "30":{
             "bzr_branch":"",
-            "bzr_last_rev":"205",
+            "bzr_last_rev":"206",
             "bzr_rev":"",
             "name":"switchboard-plug-applications",
             "package_name":"switchboard-plug-applications",
@@ -356,7 +356,7 @@
         },
         "37":{
             "bzr_branch":"",
-            "bzr_last_rev":"369",
+            "bzr_last_rev":"370",
             "bzr_rev":"",
             "name":"switchboard-plug-networking",
             "package_name":"switchboard-plug-networking",
@@ -426,7 +426,7 @@
         },
         "44":{
             "bzr_branch":"",
-            "bzr_last_rev":"111",
+            "bzr_last_rev":"112",
             "bzr_rev":"",
             "name":"switchboard-plug-sharing",
             "package_name":"switchboard-plug-sharing",
@@ -536,7 +536,7 @@
         },
         "55":{
             "bzr_branch":"",
-            "bzr_last_rev":"143",
+            "bzr_last_rev":"144",
             "bzr_rev":"",
             "name":"wingpanel-indicator-sound",
             "package_name":"wingpanel-indicator-sound",
