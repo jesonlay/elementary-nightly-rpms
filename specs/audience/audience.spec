@@ -1,23 +1,29 @@
-Summary:        Audience video player
 Name:           audience
+Summary:        Audience video player
 Version:        0.2.1.2+rev%{rev}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/audience
+Release:        2%{?dist}
+License:        GPLv3+
+URL:            https://launchpad.net/audience
 
 # The tarball is generated from a checkout of the specified branch and
 # by executing 'bzr export' and has the usual format
 # ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
 # version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
+
+# Include the appropriate icon from elementary-icon-theme so appdata metadata generation works.
+# A Bug about the missing icon is reported upstream:
+# https://bugs.launchpad.net/audience/+bug/1658325
+
+Source1:        multimedia-video-player.svg
+
+Source2:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
-# BuildRequires:  libappstream-glib
-BuildRequires:  pkgconfig
+BuildRequires:  libappstream-glib
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(clutter-gst-3.0)
@@ -31,6 +37,8 @@ BuildRequires:  pkgconfig(gstreamer-video-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libnotify)
 
+Requires:       hicolor-icon-theme
+
 
 %description
 A modern video player that brings the lessons learned from the web home
@@ -42,32 +50,42 @@ to the desktop.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang audience
+
+mkdir -p %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps
+cp -p %{SOURCE1} %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-# appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
-
-
-%clean
-rm -rf %{buildroot}
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.audience.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.audience.appdata.xml || :
 
 
 %post
-/usr/bin/update-desktop-database &> /dev/null || :
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
-/usr/bin/update-desktop-database &> /dev/null || :
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
-%files       -f audience.lang
+%files -f audience.lang
 %doc AUTHORS README
 %license COPYING
 
@@ -76,9 +94,13 @@ rm -rf %{buildroot}
 %{_datadir}/appdata/org.pantheon.audience.appdata.xml
 %{_datadir}/applications/org.pantheon.audience.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.audience.gschema.xml
+%{_datadir}/icons/hicolor/scalable/apps/multimedia-video-player.svg
 
 
 %changelog
+* Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.2+rev720-2
+- Sync with fedora packaging.
+
 * Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.2+rev720-1
 - Update to latest snapshot.
 
