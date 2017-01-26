@@ -1,7 +1,7 @@
-Summary:        Get apps for elementary OS
 Name:           appcenter
+Summary:        Software Center for the Pantheon desktop
 Version:        0.1.3+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
@@ -10,7 +10,14 @@ URL:            https://launchpad.net/appcenter
 # ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
 # version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
+
+# Include the appropriate icon from elementary-icon-theme so appdata metadata generation works.
+# A Bug about the missing icon is reported upstream:
+# https://bugs.launchpad.net/appcenter/+bug/1658325
+
+Source1:        system-software-install.svg
+
+Source2:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  cmake-elementary
@@ -18,7 +25,6 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.26
 
 BuildRequires:  appstream-vala
@@ -34,6 +40,7 @@ BuildRequires:  pkgconfig(packagekit-glib2)
 BuildRequires:  pkgconfig(unity) >= 4.0.0
 
 Requires:       PackageKit
+Requires:       hicolor-icon-theme
 
 
 %description
@@ -47,18 +54,41 @@ AppCenter is a native Gtk+ app store built on AppStream and Packagekit.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang appcenter
+
+mkdir -p %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps
+cp -p %{SOURCE1} %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.appcenter.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.appcenter-daemon.desktop
+
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/appcenter.appdata.xml
+
+
+%post
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
+
+%postun
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files -f appcenter.lang
@@ -71,9 +101,13 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 %{_datadir}/applications/org.pantheon.appcenter.desktop
 %{_datadir}/applications/org.pantheon.appcenter-daemon.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.appcenter.gschema.xml
+%{_datadir}/icons/hicolor/scalable/apps/system-software-install.svg
 
 
 %changelog
+* Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev383-2
+- Sync with fedora packaging.
+
 * Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev383-1
 - Update to latest snapshot.
 
@@ -99,31 +133,31 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 - Update to latest snapshot.
 
 * Thu Jan 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev374-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Wed Jan 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev373-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Tue Jan 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev372-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Mon Jan 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev371-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Sun Jan 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev370-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Sat Jan 07 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev369-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Fri Jan 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev368-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Wed Jan 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev367-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev366-1
-- Update to version 0.1.3.
+- Update to latest snapshot.
 
 * Mon Jan 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev365-1
 - Update to latest snapshot.
