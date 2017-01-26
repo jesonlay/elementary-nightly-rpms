@@ -1,17 +1,21 @@
-Summary:        simple service to relaunch Pantheon components
 Name:           cerbere
+Summary:        Pantheon session watchdog
 Version:        0.2.2+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv2
-URL:            http://launchpad.net/cerbere
+URL:            https://launchpad.net/cerbere
 
+# The tarball is generated from a checkout of the specified branch and
+# by executing 'bzr export' and has the usual format
+# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
+# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
+
+Source2:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.16
 BuildRequires:  vala-tools
 
@@ -37,20 +41,20 @@ Designed for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-
-
-%clean
-rm -rf %{buildroot}
+desktop-file-validate %{buildroot}/%{_datadir}/applications/cerbere.desktop
 
 
 %files
@@ -61,6 +65,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev52-3
+- Sync with fedora packaging.
+
 * Wed Sep 28 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev52-2
 - Add missing BR: desktop-file-utils.
 
