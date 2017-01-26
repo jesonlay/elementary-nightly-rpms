@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"382",
+            "bzr_last_rev":"383",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -12,7 +12,7 @@
         },
         "2":{
             "bzr_branch":"",
-            "bzr_last_rev":"718",
+            "bzr_last_rev":"720",
             "bzr_rev":"",
             "name":"audience",
             "package_name":"audience",
@@ -115,7 +115,7 @@
         },
         "13":{
             "bzr_branch":"",
-            "bzr_last_rev":"1027",
+            "bzr_last_rev":"1028",
             "bzr_rev":"",
             "name":"granite",
             "package_name":"granite",
@@ -135,7 +135,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2034",
+            "bzr_last_rev":"2035",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2459",
+            "bzr_last_rev":"2460",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3129",
+            "bzr_last_rev":"3130",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1809",
+            "bzr_last_rev":"1810",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -286,7 +286,7 @@
         },
         "30":{
             "bzr_branch":"",
-            "bzr_last_rev":"207",
+            "bzr_last_rev":"208",
             "bzr_rev":"",
             "name":"switchboard-plug-applications",
             "package_name":"switchboard-plug-applications",
@@ -356,7 +356,7 @@
         },
         "37":{
             "bzr_branch":"",
-            "bzr_last_rev":"370",
+            "bzr_last_rev":"371",
             "bzr_rev":"",
             "name":"switchboard-plug-networking",
             "package_name":"switchboard-plug-networking",
@@ -396,7 +396,7 @@
         },
         "41":{
             "bzr_branch":"",
-            "bzr_last_rev":"396",
+            "bzr_last_rev":"397",
             "bzr_rev":"",
             "name":"switchboard-plug-power",
             "package_name":"switchboard-plug-power",
@@ -406,7 +406,7 @@
         },
         "42":{
             "bzr_branch":"",
-            "bzr_last_rev":"124",
+            "bzr_last_rev":"125",
             "bzr_rev":"",
             "name":"switchboard-plug-printers",
             "package_name":"switchboard-plug-printers",
@@ -436,7 +436,7 @@
         },
         "45":{
             "bzr_branch":"",
-            "bzr_last_rev":"271",
+            "bzr_last_rev":"272",
             "bzr_rev":"",
             "name":"switchboard-plug-useraccounts",
             "package_name":"switchboard-plug-useraccounts",
@@ -536,7 +536,7 @@
         },
         "55":{
             "bzr_branch":"",
-            "bzr_last_rev":"144",
+            "bzr_last_rev":"145",
             "bzr_rev":"",
             "name":"wingpanel-indicator-sound",
             "package_name":"wingpanel-indicator-sound",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"737",
+            "bzr_last_rev":"739",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
