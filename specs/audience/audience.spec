@@ -1,7 +1,7 @@
 Name:           audience
 Summary:        Audience video player
 Version:        0.2.1.2+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 URL:            https://launchpad.net/audience
 
@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Fri Jan 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.2+rev721-1
+- Update to latest snapshot.
+
 * Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1.2+rev720-2
 - Sync with fedora packaging.
 

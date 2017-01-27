@@ -1,7 +1,7 @@
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.1.3+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
@@ -105,6 +105,9 @@ fi
 
 
 %changelog
+* Fri Jan 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev384-1
+- Update to latest snapshot.
+
 * Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev383-2
 - Sync with fedora packaging.
 
