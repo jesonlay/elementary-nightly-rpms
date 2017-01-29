@@ -1,16 +1,15 @@
 Summary:        Desktop-wide extension service
 Name:           contractor
 Version:        0.3.2+rev%{rev}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/contractor
+Release:        2%{?dist}
+License:        GPLv3+
+URL:            https://launchpad.net/contractor
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala
 BuildRequires:  vala-tools
 
@@ -33,12 +32,16 @@ Designed for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
 
 
 %files
@@ -51,6 +54,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sun Jan 29 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev141-2
+- Sync with fedora packaging.
+
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev141-1
 - Update to version 0.3.2.
 
