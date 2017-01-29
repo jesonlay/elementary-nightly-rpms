@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"385",
+            "bzr_last_rev":"386",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -125,7 +125,7 @@
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"993",
+            "bzr_last_rev":"994",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
@@ -145,7 +145,7 @@
         },
         "16":{
             "bzr_branch":"",
-            "bzr_last_rev":"66",
+            "bzr_last_rev":"67",
             "bzr_rev":"",
             "name":"pantheon-agent-polkit",
             "package_name":"pantheon-agent-polkit",
@@ -155,7 +155,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"315",
+            "bzr_last_rev":"316",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2464",
+            "bzr_last_rev":"2465",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -185,7 +185,7 @@
         },
         "20":{
             "bzr_branch":"",
-            "bzr_last_rev":"61",
+            "bzr_last_rev":"62",
             "bzr_rev":"",
             "name":"pantheon-notes",
             "package_name":"pantheon-notes",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3141",
+            "bzr_last_rev":"3142",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -216,7 +216,7 @@
         },
         "23":{
             "bzr_branch":"",
-            "bzr_last_rev":"932",
+            "bzr_last_rev":"933",
             "bzr_rev":"",
             "name":"pantheon-terminal",
             "package_name":"pantheon-terminal",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1812",
+            "bzr_last_rev":"1813",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"275",
+            "bzr_last_rev":"276",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -296,7 +296,7 @@
         },
         "31":{
             "bzr_branch":"",
-            "bzr_last_rev":"39",
+            "bzr_last_rev":"40",
             "bzr_rev":"",
             "name":"switchboard-plug-bluetooth",
             "package_name":"switchboard-plug-bluetooth",
@@ -306,7 +306,7 @@
         },
         "32":{
             "bzr_branch":"",
-            "bzr_last_rev":"196",
+            "bzr_last_rev":"197",
             "bzr_rev":"",
             "name":"switchboard-plug-datetime",
             "package_name":"switchboard-plug-datetime",
@@ -316,7 +316,7 @@
         },
         "33":{
             "bzr_branch":"",
-            "bzr_last_rev":"182",
+            "bzr_last_rev":"183",
             "bzr_rev":"",
             "name":"switchboard-plug-display",
             "package_name":"switchboard-plug-display",
@@ -346,7 +346,7 @@
         },
         "36":{
             "bzr_branch":"",
-            "bzr_last_rev":"148",
+            "bzr_last_rev":"149",
             "bzr_rev":"",
             "name":"switchboard-plug-mouse-touchpad",
             "package_name":"switchboard-plug-mouse-touchpad",
@@ -366,7 +366,7 @@
         },
         "38":{
             "bzr_branch":"",
-            "bzr_last_rev":"204",
+            "bzr_last_rev":"205",
             "bzr_rev":"",
             "name":"switchboard-plug-notifications",
             "package_name":"switchboard-plug-notifications",
@@ -396,7 +396,7 @@
         },
         "41":{
             "bzr_branch":"",
-            "bzr_last_rev":"399",
+            "bzr_last_rev":"400",
             "bzr_rev":"",
             "name":"switchboard-plug-power",
             "package_name":"switchboard-plug-power",
@@ -506,7 +506,7 @@
         },
         "52":{
             "bzr_branch":"",
-            "bzr_last_rev":"134",
+            "bzr_last_rev":"135",
             "bzr_rev":"",
             "name":"wingpanel-indicator-notifications",
             "package_name":"wingpanel-indicator-notifications",
@@ -516,7 +516,7 @@
         },
         "53":{
             "bzr_branch":"",
-            "bzr_last_rev":"198",
+            "bzr_last_rev":"199",
             "bzr_rev":"",
             "name":"wingpanel-indicator-power",
             "package_name":"wingpanel-indicator-power",
@@ -526,7 +526,7 @@
         },
         "54":{
             "bzr_branch":"",
-            "bzr_last_rev":"114",
+            "bzr_last_rev":"115",
             "bzr_rev":"",
             "name":"wingpanel-indicator-session",
             "package_name":"wingpanel-indicator-session",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"741",
+            "bzr_last_rev":"742",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
