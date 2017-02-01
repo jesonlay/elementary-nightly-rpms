@@ -179,9 +179,9 @@
             "bzr_rev":"",
             "name":"pantheon-greeter",
             "package_name":"pantheon-greeter",
-            "package_version":"3.0",
+            "package_version":"3.1.0",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"3.0+rev%{rev}"
+            "rpm_last_version":"3.1.0+rev%{rev}"
         },
         "20":{
             "bzr_branch":"",
