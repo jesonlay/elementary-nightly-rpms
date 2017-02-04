@@ -69,6 +69,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sat Feb 04 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev731-1
+- Update to latest snapshot.
+
 * Thu Feb 02 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev730-1
 - Update to latest snapshot.
 
