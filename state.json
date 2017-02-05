@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2472",
+            "bzr_last_rev":"2473",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"285",
+            "bzr_last_rev":"286",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
