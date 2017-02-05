@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"390",
+            "bzr_last_rev":"391",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2470",
+            "bzr_last_rev":"2472",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"284",
+            "bzr_last_rev":"285",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"731",
+            "bzr_last_rev":"732",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -386,7 +386,7 @@
         },
         "40":{
             "bzr_branch":"",
-            "bzr_last_rev":"258",
+            "bzr_last_rev":"259",
             "bzr_rev":"",
             "name":"switchboard-plug-parental-controls",
             "package_name":"switchboard-plug-parental-controls",
@@ -446,7 +446,7 @@
         },
         "46":{
             "bzr_branch":"",
-            "bzr_last_rev":"167",
+            "bzr_last_rev":"168",
             "bzr_rev":"",
             "name":"wingpanel",
             "package_name":"wingpanel",
@@ -456,7 +456,7 @@
         },
         "47":{
             "bzr_branch":"",
-            "bzr_last_rev":"21",
+            "bzr_last_rev":"22",
             "bzr_rev":"",
             "name":"wingpanel-indicator-ayatana",
             "package_name":"wingpanel-indicator-ayatana",
