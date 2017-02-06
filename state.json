@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"391",
+            "bzr_last_rev":"392",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2473",
+            "bzr_last_rev":"2476",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3150",
+            "bzr_last_rev":"3151",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"286",
+            "bzr_last_rev":"287",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"732",
+            "bzr_last_rev":"733",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -386,7 +386,7 @@
         },
         "40":{
             "bzr_branch":"",
-            "bzr_last_rev":"259",
+            "bzr_last_rev":"260",
             "bzr_rev":"",
             "name":"switchboard-plug-parental-controls",
             "package_name":"switchboard-plug-parental-controls",
@@ -516,7 +516,7 @@
         },
         "53":{
             "bzr_branch":"",
-            "bzr_last_rev":"199",
+            "bzr_last_rev":"200",
             "bzr_rev":"",
             "name":"wingpanel-indicator-power",
             "package_name":"wingpanel-indicator-power",
@@ -536,7 +536,7 @@
         },
         "55":{
             "bzr_branch":"",
-            "bzr_last_rev":"148",
+            "bzr_last_rev":"149",
             "bzr_rev":"",
             "name":"wingpanel-indicator-sound",
             "package_name":"wingpanel-indicator-sound",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"747",
+            "bzr_last_rev":"748",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
