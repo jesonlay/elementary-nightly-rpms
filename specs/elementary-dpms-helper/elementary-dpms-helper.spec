@@ -1,7 +1,7 @@
 Summary:        DPMS helper for elementary
 Name:           elementary-dpms-helper
 Version:        0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://code.launchpad.net/~codygarver/+junk/elementary-dpms-helper
 
@@ -10,7 +10,6 @@ Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
-BuildRequires:  pkgconfig
 
 Requires:       /usr/bin/gsettings
 Requires:       xorg-x11-server-utils
@@ -27,26 +26,28 @@ elementary DPMS helper
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
 
+# Install dpms helper script
 mkdir -p %{buildroot}/%{_bindir}
 cp dpms/elementary-dpms-helper %{buildroot}/%{_bindir}/
 
+# Install dpms helper autostart entry
 mkdir -p %{buildroot}/%{_sysconfdir}/xdg/autostart
 cp dpms/elementary-dpms-helper.desktop %{buildroot}/%{_sysconfdir}/xdg/autostart/
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files
-%{_sysconfdir}/xdg/autostart/elementary-dpms-helper.desktop
+%config(noreplace) %{_sysconfdir}/xdg/autostart/elementary-dpms-helper.desktop
 
 %{_bindir}/elementary-dpms-helper
 
@@ -54,6 +55,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev214-2
+- Fix fedora rawhide build and clean up spec.
+
 * Wed Jan 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev214-1
 - Update to latest snapshot.
 
