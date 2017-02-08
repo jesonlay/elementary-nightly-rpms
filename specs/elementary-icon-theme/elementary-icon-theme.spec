@@ -1,7 +1,7 @@
 Summary:        elementary Icons
 Name:           elementary-icon-theme
 Version:        4.0.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 URL:            https://launchpad.net/elementaryicons
 
@@ -58,6 +58,9 @@ fi
 
 
 %changelog
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 4.0.2+git170202.220804.fdbcf47b-1
+- Update to latest snapshot.
+
 * Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 4.0.2+git170116.125315.83c6f271-2
 - Sync spec with fedora package.
 
