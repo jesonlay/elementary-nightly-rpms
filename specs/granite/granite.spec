@@ -1,9 +1,9 @@
-Summary:        Granite Toolkit
 Name:           granite
+Summary:        elementary Development Library
 Version:        0.4.0.1+rev%{rev}
-Release:        1%{?dist}
-License:        LGPLv3
-URL:            http://launchpad.net/granite
+Release:        2%{?dist}
+License:        LGPLv3+
+URL:            https://launchpad.net/granite
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
@@ -18,21 +18,23 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 
+# granite provides and needs some generic icons
 Requires:       hicolor-icon-theme
 
 
 %description
-Granite is a library of toolkit addons to GTK+ and is part of the
-elementary project.
+An extension to GTK+ that provides several useful widgets and classes
+to ease application development.
 
 
 %package        devel
 Summary:        Granite Toolkit development headers
+Requires:       %{name}%{?_isa} = %{version}-%{release}
 %description    devel
-Granite is a library of toolkit addons to GTK+ and is part of the
-elementary project.
+An extension to GTK+ that provides several useful widgets and classes
+to ease application development.
 
-This package contains files needed for developing with granite.
+This package contains the development headers.
 
 
 %prep
@@ -40,21 +42,22 @@ This package contains files needed for developing with granite.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang granite
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-
-
-%clean
-rm -rf %{buildroot}
+desktop-file-validate %{buildroot}/%{_datadir}/applications/granite-demo.desktop
 
 
 %post
@@ -73,7 +76,7 @@ fi
 
 
 %files -f granite.lang
-%doc AUTHORS HACKING NEWS README
+%doc AUTHORS HACKING README
 %license COPYING
 
 %{_libdir}/libgranite.so.3
@@ -100,6 +103,9 @@ fi
 
 
 %changelog
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1030-2
+- Sync spec with the fedora package.
+
 * Wed Feb 01 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1030-1
 - Update to latest snapshot.
 
@@ -113,19 +119,19 @@ fi
 - Update to latest snapshot.
 
 * Mon Jan 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1026-1
-- Update to version 0.4.0.1.
+- Update to latest snapshot.
 
 * Fri Jan 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1025-1
-- Update to version 0.4.0.1.
+- Update to latest snapshot.
 
 * Thu Jan 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1024-1
-- Update to version 0.4.0.1.
+- Update to latest snapshot.
 
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1023-1
-- Update to version 0.4.0.1.
+- Update to latest snapshot.
 
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1022-1
-- Update to version 0.4.0.1.
+- Update to latest snapshot.
 
 * Sun Jan 01 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1021-1
 - Update to latest snapshot.
