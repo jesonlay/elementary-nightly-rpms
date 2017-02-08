@@ -1,9 +1,9 @@
 Summary:        elementary Icons
 Name:           elementary-icon-theme
 Version:        4.0.2+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/elementaryicons
+Release:        2%{?dist}
+License:        GPLv3+
+URL:            https://launchpad.net/elementaryicons
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
@@ -12,8 +12,7 @@ BuildArch:      noarch
 
 
 %description
-An original set of vector icons designed specifically for elementary OS
-and its desktop environment: Pantheon.
+This is an icon theme designed to be smooth, sexy, clear, and efficient.
 
 
 %prep
@@ -21,22 +20,33 @@ and its desktop environment: Pantheon.
 
 
 %build
+# Nothing to do.
 
 
 %install
 mkdir -p %{buildroot}/%{_datadir}/icons/elementary
-
-cp -pr * %{buildroot}/%{_datadir}/icons/elementary/
+cp -apR * %{buildroot}/%{_datadir}/icons/elementary
 
 rm %{buildroot}/%{_datadir}/icons/elementary/AUTHORS
 rm %{buildroot}/%{_datadir}/icons/elementary/CONTRIBUTORS
 rm %{buildroot}/%{_datadir}/icons/elementary/COPYING
-rm %{buildroot}/%{_datadir}/icons/elementary/README.md
 rm %{buildroot}/%{_datadir}/icons/elementary/pre-commit
+rm %{buildroot}/%{_datadir}/icons/elementary/README.md
+
+touch %{buildroot}/%{_datadir}/icons/elementary/icon-theme.cache
 
 
-%clean
-rm -rf %{buildroot}
+%post
+/bin/touch --no-create %{_datadir}/icons/elementary &>/dev/null || :
+
+%postun
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/elementary &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %files
@@ -44,9 +54,13 @@ rm -rf %{buildroot}
 %license COPYING
 
 %{_datadir}/icons/elementary
+%ghost %{_datadir}/icons/elementary/icon-theme.cache
 
 
 %changelog
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 4.0.2+git170116.125315.83c6f271-2
+- Sync spec with fedora package.
+
 * Thu Jan 19 2017 Fabio Valentini <decathorpe@gmail.com> - 4.0.2+git170116.125315.83c6f271-1
 - Update to version 4.0.2.
 
