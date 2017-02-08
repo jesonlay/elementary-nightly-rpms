@@ -1,18 +1,17 @@
-Summary:        Gala window manager
 Name:           gala
+Summary:        Gala window manager
 Version:        0.3.0+rev%{rev}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/gala
+Release:        2%{?dist}
+License:        GPLv3+
+URL:            https://launchpad.net/gala
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  desktop-file-utils
-BuildRequires:  libtool
 BuildRequires:  gettext
 BuildRequires:  intltool
-BuildRequires:  pkgconfig
+BuildRequires:  libtool
 BuildRequires:  vala
 BuildRequires:  vala-tools
 
@@ -21,6 +20,7 @@ BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32.0
 BuildRequires:  pkgconfig(gnome-desktop-3.0)
+BuildRequires:  pkgconfig(gnome-settings-daemon)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libbamf3)
@@ -28,7 +28,13 @@ BuildRequires:  pkgconfig(libcanberra)
 BuildRequires:  pkgconfig(libmutter) >= 3.14.4
 BuildRequires:  pkgconfig(plank) >= 0.3.0
 
+Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
+
+# gala provides a generic icon (apps/multitasking-view)
 Requires:       hicolor-icon-theme
+
+# gala's multitasking view is activated via dbus
+Requires:       dbus
 
 
 %description
@@ -44,7 +50,8 @@ This package contains the shared libraries.
 
 
 %package        devel
-Summary:        Gala window manager
+Summary:        Gala window manager development files
+Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 %description    devel
 Gala is Pantheon's Window Manager, part of the elementary project.
 
@@ -57,6 +64,7 @@ This package contains the development headers.
 
 %build
 ./autogen.sh
+
 %configure
 %make_build
 
@@ -65,12 +73,11 @@ This package contains the development headers.
 %make_install
 %find_lang gala
 
-rm -f %{buildroot}/%{_libdir}/*.la
-rm -f %{buildroot}/%{_libdir}/plank/*.la
+find %{buildroot} -name '*.la' -print -delete
 
 
-%clean
-rm -rf %{buildroot}
+%check
+desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %post
@@ -93,7 +100,7 @@ fi
 %files -f gala.lang
 %{_bindir}/gala
 
-%{_libdir}/gala/
+%{_libdir}/gala/plugins/*
 
 %{_datadir}/applications/gala.desktop
 %{_datadir}/applications/gala-multitaskingview.desktop
@@ -105,6 +112,12 @@ fi
 
 
 %files          libs
+%doc AUTHORS
+%license COPYING
+
+%dir %{_libdir}/gala
+%dir %{_libdir}/gala/plugins
+
 %{_libdir}/libgala.so.0
 %{_libdir}/libgala.so.0.0.0
 
@@ -120,8 +133,11 @@ fi
 
 
 %changelog
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev552-2
+- Sync spec with the fedora package.
+
 * Thu Jan 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev552-1
-- Update to version 0.3.0.
+- Update to latest snapshot.
 
 * Sat Dec 31 2016 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev551-1
 - Update to latest snapshot.
