@@ -1,9 +1,9 @@
+Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
-Name:           elementary-themes
 Version:        5.0.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
-URL:            http://github.com/elementary/stylesheet
+URL:            https://github.com/elementary/stylesheet
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
@@ -18,11 +18,55 @@ An original Gtk.CSS stylesheet designed specifically for elementary OS
 and its desktop environment: Pantheon.
 
 
+%package        gtk2
+Summary:        elementary GTK+ Stylesheet for GTK+2
+
+Requires:       %{name} = %{version}-%{release}
+Requires:       gtk-murrine-engine
+
+Supplements:    (%{name} and gtk2)
+
+%description    gtk2
+An original Gtk.CSS stylesheet designed specifically for elementary OS
+and its desktop environment: Pantheon.
+
+This package contains the GTK+2 theme.
+
+
+%package        gtk3
+Summary:        elementary GTK+ Stylesheet for GTK+3
+
+Requires:       %{name} = %{version}-%{release}
+
+Supplements:    (%{name} and gtk3)
+
+%description    gtk3
+An original Gtk.CSS stylesheet designed specifically for elementary OS
+and its desktop environment: Pantheon.
+
+This package contains the GTK+3 theme.
+
+
+%package        plank
+Summary:        elementary GTK+ Stylesheet for plank
+
+Requires:       %{name} = %{version}-%{release}
+
+Supplements:    (%{name} and plank)
+
+%description    plank
+An original Gtk.CSS stylesheet designed specifically for elementary OS
+and its desktop environment: Pantheon.
+
+This package contains the plank theme.
+
+
 %prep
 %autosetup
 
 
 %build
+# Nothing to do
 
 
 %install
@@ -34,18 +78,30 @@ cp -pr gtk-3.0 %{buildroot}/%{_datadir}/themes/elementary/
 cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files
 %doc AUTHORS CONTRIBUTORS HACKING
 %license COPYING
 
-%{_datadir}/themes/elementary
+%dir %{_datadir}/themes/elementary
+%{_datadir}/themes/elementary/index.theme
+
+%files          gtk2
+%{_datadir}/themes/elementary/gtk-2.0/
+
+%files          gtk3
+%{_datadir}/themes/elementary/gtk-3.0/
+
+%files          plank
+%{_datadir}/themes/elementary/plank/
 
 
 %changelog
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.3+git170128.184610.01d0411e-1
+- Update to latest snapshot.
+
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.3+git170128.184610.01d0411e-2
+- Sync spec with fedora package.
+
 * Fri Jan 20 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.3+git170115.161326.548fac7c-1
 - Update to version 5.0.3.
 
