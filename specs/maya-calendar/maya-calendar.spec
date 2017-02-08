@@ -1,19 +1,29 @@
-Summary:        The official elementary calendar
 Name:           maya-calendar
+Summary:        The official elementary calendar
 Version:        0.4.0.2+rev%{rev}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/maya
+Release:        2%{?dist}
+License:        GPLv3+
+URL:            https://launchpad.net/maya
 
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
+
+# Include the appropriate icon from elementary-icon-theme so appdata metadata generation works.
+# A Bug about the missing icon is reported upstream:
+# https://bugs.launchpad.net/maya/+bug/1658325
+
+Source1:        org.pantheon.maya.svg
+
+Source2:        %{name}.conf
+
+# Patch the .desktop file to not use the generic icon name but the bundled icon
+Patch0:         00-rename-icon.patch
+
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
-BuildRequires:  pkgconfig
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(champlain-0.12)
@@ -32,6 +42,7 @@ BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
 BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
 BuildRequires:  pkgconfig(libical)
 
+# maya-calendar also provides a generic symbolic icon (actions/calendar-go-today)
 Requires:       hicolor-icon-theme
 
 
@@ -42,9 +53,10 @@ elementary OS. Also looks and works great on other GTK+ desktops.
 In elementary OS, Maya is known as Calendar.
 
 
-%package devel
-Summary: The official elementary calendar (devel files)
-%description devel
+%package        devel
+Summary:        The official elementary calendar (devel files)
+Requires:       %{name}%{?_isa} = %{version}-%{release}
+%description    devel
 A slim, lightweight GTK+3 calendar app written in Vala, designed for
 elementary OS. Also looks and works great on other GTK+ desktops.
 
@@ -54,54 +66,53 @@ This package contains the development files.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake -DBUILD_FOR_ELEMENTARY:BOOL=OFF ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang maya-calendar
+
+mkdir -p %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps
+cp -p %{SOURCE1} %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.maya.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.maya-daemon.desktop
 
-
-%clean
-rm -rf %{buildroot}
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.maya.appdata.xml
 
 
 %post
 /sbin/ldconfig
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
-%if %{?fedora} < 25
-/usr/bin/update-desktop-database &> /dev/null || :
-%endif
-
 %postun
 /sbin/ldconfig
+
 if [ $1 -eq 0 ] ; then
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 fi
 
-%if %{?fedora} < 25
-/usr/bin/update-desktop-database &> /dev/null || :
-%endif
-
 %posttrans
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
-%files       -f maya-calendar.lang
+%files -f maya-calendar.lang
 %doc AUTHORS COPYRIGHT HACKING
-%license COPYING
+%license COPYING COPYRIGHT
 
 %{_bindir}/maya-calendar
 %{_bindir}/maya-calendar-daemon
@@ -115,6 +126,7 @@ fi
 %{_datadir}/applications/org.pantheon.maya-daemon.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.maya.gschema.xml
 %{_datadir}/icons/hicolor/scalable/actions/calendar-go-today.svg
+%{_datadir}/icons/hicolor/scalable/apps/org.pantheon.maya.svg
 %{_datadir}/maya-calendar/
 
 
@@ -129,6 +141,9 @@ fi
 
 
 %changelog
+* Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev995-2
+- Sync spec with the fedora package.
+
 * Mon Jan 30 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev995-1
 - Update to latest snapshot.
 
