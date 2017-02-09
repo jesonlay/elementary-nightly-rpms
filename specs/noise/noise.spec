@@ -1,23 +1,23 @@
-Summary:        The official elementary music player
-Name:           noise
-Version:        0.4.0.2+rev%{rev}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/noise
+%global __provides_exclude_from ^%{_libdir}/noise/.*\\.so$
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+Name:           noise
+Summary:        The official elementary music player
+Version:        0.4.0.2+rev%{rev}
+Release:        2%{?dist}
+License:        LGPLv2+
+URL:            https://launchpad.net/noise
+
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
+
+# Patch to not provide a generic icon name but the branded icon
+Patch0:         00-rename-icon.patch
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
-BuildRequires:  pkgconfig
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(gee-0.8)
@@ -36,7 +36,9 @@ BuildRequires:  pkgconfig(taglib_c)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 Requires:       hicolor-icon-theme
-Requires:       libgda-sqlite
+
+# noise explicitly requires the sqlite libgda database provider
+Requires:       libgda-sqlite%{?_isa}
 
 
 %description
@@ -44,68 +46,65 @@ Noise is a fast and beautiful GTK3 audio player with a focus on music
 and libraries. It handles external devices, CDs, and album art. Noise
 utilizes Granite for a consistent and slick UI.
 
-In elementary OS, Noise is known as Music.
-
 
 %package        devel
-Summary:        noise development headers
+Summary:        The official elementary music player (development headers)
+Requires:       %{name}%{?_isa} = %{version}-%{release}
 %description    devel
 Noise is a fast and beautiful GTK3 audio player with a focus on music
 and libraries. It handles external devices, CDs, and album art. Noise
 utilizes Granite for a consistent and slick UI.
 
-In elementary OS, Noise is known as Music.
-
 This package contains files needed for developing with noise.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake -DBUILD_FOR_ELEMENTARY:BOOL=OFF ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang noise
+
+# move appdata to "approved location"
+mkdir -p %{buildroot}/%{_datadir}/appdata
+mv %{buildroot}/%{_datadir}/metainfo/org.pantheon.noise.appdata.xml %{buildroot}/%{_datadir}/appdata/
+rm -rf %{buildroot}/%{_datadir}/metainfo
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/metainfo/*.appdata.xml
-
-
-%clean
-rm -rf %{buildroot}
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.noise.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.noise.appdata.xml
 
 
 %post
 /sbin/ldconfig
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
-%if %{?fedora} < 25
-/usr/bin/update-desktop-database &> /dev/null || :
-%endif
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
 /sbin/ldconfig
+
 if [ $1 -eq 0 ] ; then
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 fi
 
-%if %{?fedora} < 25
-/usr/bin/update-desktop-database &> /dev/null || :
-%endif
-
 %posttrans
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
-%files       -f noise.lang
+%files -f noise.lang
 %doc AUTHORS NEWS README
 %license COPYING
 
@@ -116,10 +115,10 @@ fi
 
 %{_libdir}/noise/
 
+%{_datadir}/appdata/org.pantheon.noise.appdata.xml
 %{_datadir}/applications/org.pantheon.noise.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.noise.gschema.xml
-%{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
-%{_datadir}/metainfo/org.pantheon.noise.appdata.xml
+%{_datadir}/icons/hicolor/*/apps/org.pantheon.noise.svg
 %{_datadir}/noise/
 
 
@@ -134,6 +133,9 @@ fi
 
 
 %changelog
+* Thu Feb 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2038-2
+- Sync spec with the fedora package.
+
 * Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2038-1
 - Update to latest snapshot.
 
@@ -159,16 +161,16 @@ fi
 - Update to latest snapshot.
 
 * Thu Jan 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2030-1
-- Update to version 0.4.0.2.
+- Update to latest snapshot.
 
 * Wed Jan 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2029-1
-- Update to version 0.4.0.2.
+- Update to latest snapshot.
 
 * Sat Jan 07 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2028-1
-- Update to version 0.4.0.2.
+- Update to latest snapshot.
 
 * Fri Jan 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2027-1
-- Update to version 0.4.0.2.
+- Update to latest snapshot.
 
 * Sun Jan 01 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2026-1
 - Update to latest snapshot.
