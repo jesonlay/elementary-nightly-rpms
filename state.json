@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"392",
+            "bzr_last_rev":"393",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -115,22 +115,22 @@
         },
         "13":{
             "bzr_branch":"",
-            "bzr_last_rev":"1030",
+            "bzr_last_rev":"1031",
             "bzr_rev":"",
             "name":"granite",
             "package_name":"granite",
             "package_version":"0.4.0.1",
-            "rpm_last_release":"2%{?dist}",
+            "rpm_last_release":"1%{?dist}",
             "rpm_last_version":"0.4.0.1+rev%{rev}"
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"995",
+            "bzr_last_rev":"996",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
             "package_version":"0.4.0.2",
-            "rpm_last_release":"2%{?dist}",
+            "rpm_last_release":"1%{?dist}",
             "rpm_last_version":"0.4.0.2+rev%{rev}"
         },
         "15":{
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2482",
+            "bzr_last_rev":"2483",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3153",
+            "bzr_last_rev":"3154",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"288",
+            "bzr_last_rev":"289",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"733",
+            "bzr_last_rev":"734",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -306,7 +306,7 @@
         },
         "32":{
             "bzr_branch":"",
-            "bzr_last_rev":"198",
+            "bzr_last_rev":"199",
             "bzr_rev":"",
             "name":"switchboard-plug-datetime",
             "package_name":"switchboard-plug-datetime",
@@ -336,7 +336,7 @@
         },
         "35":{
             "bzr_branch":"",
-            "bzr_last_rev":"251",
+            "bzr_last_rev":"252",
             "bzr_rev":"",
             "name":"switchboard-plug-locale",
             "package_name":"switchboard-plug-locale",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"545",
+            "bzr_last_rev":"546",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
@@ -386,7 +386,7 @@
         },
         "40":{
             "bzr_branch":"",
-            "bzr_last_rev":"262",
+            "bzr_last_rev":"263",
             "bzr_rev":"",
             "name":"switchboard-plug-parental-controls",
             "package_name":"switchboard-plug-parental-controls",
@@ -406,7 +406,7 @@
         },
         "42":{
             "bzr_branch":"",
-            "bzr_last_rev":"127",
+            "bzr_last_rev":"128",
             "bzr_rev":"",
             "name":"switchboard-plug-printers",
             "package_name":"switchboard-plug-printers",
@@ -426,7 +426,7 @@
         },
         "44":{
             "bzr_branch":"",
-            "bzr_last_rev":"113",
+            "bzr_last_rev":"114",
             "bzr_rev":"",
             "name":"switchboard-plug-sharing",
             "package_name":"switchboard-plug-sharing",
@@ -436,7 +436,7 @@
         },
         "45":{
             "bzr_branch":"",
-            "bzr_last_rev":"276",
+            "bzr_last_rev":"277",
             "bzr_rev":"",
             "name":"switchboard-plug-useraccounts",
             "package_name":"switchboard-plug-useraccounts",
@@ -476,7 +476,7 @@
         },
         "49":{
             "bzr_branch":"",
-            "bzr_last_rev":"175",
+            "bzr_last_rev":"176",
             "bzr_rev":"",
             "name":"wingpanel-indicator-datetime",
             "package_name":"wingpanel-indicator-datetime",
@@ -496,7 +496,7 @@
         },
         "51":{
             "bzr_branch":"",
-            "bzr_last_rev":"218",
+            "bzr_last_rev":"219",
             "bzr_rev":"",
             "name":"wingpanel-indicator-network",
             "package_name":"wingpanel-indicator-network",
@@ -526,7 +526,7 @@
         },
         "54":{
             "bzr_branch":"",
-            "bzr_last_rev":"116",
+            "bzr_last_rev":"117",
             "bzr_rev":"",
             "name":"wingpanel-indicator-session",
             "package_name":"wingpanel-indicator-session",

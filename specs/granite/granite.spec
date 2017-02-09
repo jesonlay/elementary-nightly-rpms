@@ -1,7 +1,7 @@
 Name:           granite
 Summary:        elementary Development Library
 Version:        0.4.0.1+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3+
 URL:            https://launchpad.net/granite
 
@@ -103,6 +103,9 @@ fi
 
 
 %changelog
+* Thu Feb 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1031-1
+- Update to latest snapshot.
+
 * Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1030-2
 - Sync spec with the fedora package.
 
