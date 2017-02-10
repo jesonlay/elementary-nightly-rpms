@@ -3,7 +3,7 @@
 Name:           noise
 Summary:        The official elementary music player
 Version:        0.4.0.2+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 URL:            https://launchpad.net/noise
 
@@ -133,6 +133,9 @@ fi
 
 
 %changelog
+* Fri Feb 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2039-1
+- Update to latest snapshot.
+
 * Thu Feb 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2038-2
 - Sync spec with the fedora package.
 
