@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -62,19 +62,12 @@ Designed for elementary OS. Works and looks great on any GTK+ desktop.
 %make_install
 %find_lang pantheon-photos
 
+mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
+
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
-
-
-%if %{?fedora} < 25
-%post
-/usr/bin/update-desktop-database &> /dev/null || :
-
-%postun
-/usr/bin/update-desktop-database &> /dev/null || :
-%endif
 
 
 %files -f pantheon-photos.lang
@@ -93,6 +86,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Sat Feb 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+rev3156-2
+- Fix build: Move appdata to approved location.
+
 * Sat Feb 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+rev3156-1
 - Update to latest snapshot.
 
@@ -184,40 +180,40 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 - Update to latest snapshot.
 
 * Sat Jan 14 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3111-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Sat Jan 14 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3110-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Sat Jan 14 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3109-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Thu Jan 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3108-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Wed Jan 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3107-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Sun Jan 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3106-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Sat Jan 07 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3105-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Fri Jan 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3104-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Wed Jan 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3103-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3102-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3101-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3100-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Mon Jan 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3098-1
 - Update to latest snapshot.
@@ -412,7 +408,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 - Update to latest snapshot.
 
 * Sat Sep 24 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2+rev3014-1
-- Update to version 0.2.
+- Update to latest snapshot.
 
 * Tue Sep 20 2016 Fabio Valentini <decathorpe@gmail.com> - 0.2~rev3010-1
 - Update to latest snapshot.
