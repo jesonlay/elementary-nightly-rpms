@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2.1+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -78,6 +78,8 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 %{_libdir}/pantheon-photos/
 
+%{_libexecdir}/pantheon-photos/
+
 %{_datadir}/appdata/org.pantheon.photos.appdata.xml
 %{_datadir}/applications/org.pantheon.photos.desktop
 %{_datadir}/applications/org.pantheon.photos-viewer.desktop
@@ -86,6 +88,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Sat Feb 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+rev3156-3
+- Fix build: Add new binary in libexec.
+
 * Sat Feb 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+rev3156-2
 - Fix build: Move appdata to approved location.
 
