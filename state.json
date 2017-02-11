@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2486",
+            "bzr_last_rev":"2489",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -286,7 +286,7 @@
         },
         "30":{
             "bzr_branch":"",
-            "bzr_last_rev":"213",
+            "bzr_last_rev":"214",
             "bzr_rev":"",
             "name":"switchboard-plug-applications",
             "package_name":"switchboard-plug-applications",
@@ -386,7 +386,7 @@
         },
         "40":{
             "bzr_branch":"",
-            "bzr_last_rev":"264",
+            "bzr_last_rev":"266",
             "bzr_rev":"",
             "name":"switchboard-plug-parental-controls",
             "package_name":"switchboard-plug-parental-controls",
