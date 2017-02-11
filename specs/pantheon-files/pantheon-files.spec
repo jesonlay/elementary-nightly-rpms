@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -104,7 +104,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 %{_datadir}/pantheon-files/
 %{_datadir}/pixmaps/pantheon-files/
 
-%{_datadir}/polkit-1/actions/net.launchpad.pantheon-files.policy
+%{_datadir}/polkit-1/actions/net.launchpad.pantheon-files.policy.xml
 
 
 %files      libs
@@ -132,6 +132,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Sat Feb 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev2489-2
+- Fix build: Adapt to file name changes.
+
 * Sat Feb 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev2489-1
 - Update to latest snapshot.
 
@@ -238,34 +241,34 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 - Update to latest snapshot.
 
 * Fri Jan 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2445-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Thu Jan 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2444-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Wed Jan 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2443-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Tue Jan 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2442-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Sun Jan 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2441-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Sat Jan 07 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2440-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Fri Jan 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2439-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Thu Jan 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2438-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Wed Jan 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2437-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Tue Jan 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2436-1
-- Update to version 0.3.0.5.
+- Update to latest snapshot.
 
 * Mon Jan 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.5+rev2434-1
 - Update to latest snapshot.
