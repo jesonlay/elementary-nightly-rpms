@@ -240,9 +240,9 @@
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
-            "package_version":"2.3",
+            "package_version":"2.4",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.3+rev%{rev}"
+            "rpm_last_version":"2.4+rev%{rev}"
         },
         "26":{
             "bzr_branch":"",
