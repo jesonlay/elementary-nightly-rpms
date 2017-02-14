@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"510",
+            "bzr_last_rev":"512",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"553",
+            "bzr_last_rev":"554",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
