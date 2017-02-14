@@ -135,7 +135,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2041",
+            "bzr_last_rev":"2042",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2493",
+            "bzr_last_rev":"2494",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -276,7 +276,7 @@
         },
         "29":{
             "bzr_branch":"",
-            "bzr_last_rev":"120",
+            "bzr_last_rev":"121",
             "bzr_rev":"",
             "name":"switchboard-plug-a11y",
             "package_name":"switchboard-plug-a11y",
@@ -306,7 +306,7 @@
         },
         "32":{
             "bzr_branch":"",
-            "bzr_last_rev":"202",
+            "bzr_last_rev":"203",
             "bzr_rev":"",
             "name":"switchboard-plug-datetime",
             "package_name":"switchboard-plug-datetime",
@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"509",
+            "bzr_last_rev":"510",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"552",
+            "bzr_last_rev":"553",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
@@ -386,7 +386,7 @@
         },
         "40":{
             "bzr_branch":"",
-            "bzr_last_rev":"268",
+            "bzr_last_rev":"269",
             "bzr_rev":"",
             "name":"switchboard-plug-parental-controls",
             "package_name":"switchboard-plug-parental-controls",
@@ -416,7 +416,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"290",
+            "bzr_last_rev":"291",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
@@ -436,7 +436,7 @@
         },
         "45":{
             "bzr_branch":"",
-            "bzr_last_rev":"279",
+            "bzr_last_rev":"280",
             "bzr_rev":"",
             "name":"switchboard-plug-useraccounts",
             "package_name":"switchboard-plug-useraccounts",
@@ -496,7 +496,7 @@
         },
         "51":{
             "bzr_branch":"",
-            "bzr_last_rev":"220",
+            "bzr_last_rev":"221",
             "bzr_rev":"",
             "name":"wingpanel-indicator-network",
             "package_name":"wingpanel-indicator-network",
