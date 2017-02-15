@@ -1,7 +1,7 @@
 Name:           cerbere
 Summary:        Pantheon session watchdog
 Version:        0.2.2+rev%{rev}
-Release:        3%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 URL:            https://launchpad.net/cerbere
 
@@ -65,6 +65,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/cerbere.desktop
 
 
 %changelog
+* Wed Feb 15 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev53-1
+- Update to latest snapshot.
+
 * Thu Jan 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev52-3
 - Sync with fedora packaging.
 
