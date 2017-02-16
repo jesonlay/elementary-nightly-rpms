@@ -1,7 +1,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.0+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 URL:            https://launchpad.net/gala
 
@@ -133,6 +133,9 @@ fi
 
 
 %changelog
+* Thu Feb 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev558-1
+- Update to latest snapshot.
+
 * Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev552-2
 - Sync spec with the fedora package.
 
