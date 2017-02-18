@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"401",
+            "bzr_last_rev":"402",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -12,7 +12,7 @@
         },
         "2":{
             "bzr_branch":"",
-            "bzr_last_rev":"726",
+            "bzr_last_rev":"727",
             "bzr_rev":"",
             "name":"audience",
             "package_name":"audience",
@@ -105,7 +105,7 @@
         },
         "12":{
             "bzr_branch":"",
-            "bzr_last_rev":"561",
+            "bzr_last_rev":"562",
             "bzr_rev":"",
             "name":"gala",
             "package_name":"gala",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2501",
+            "bzr_last_rev":"2502",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"298",
+            "bzr_last_rev":"300",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"741",
+            "bzr_last_rev":"742",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -276,7 +276,7 @@
         },
         "29":{
             "bzr_branch":"",
-            "bzr_last_rev":"122",
+            "bzr_last_rev":"123",
             "bzr_rev":"",
             "name":"switchboard-plug-a11y",
             "package_name":"switchboard-plug-a11y",
@@ -316,7 +316,7 @@
         },
         "33":{
             "bzr_branch":"",
-            "bzr_last_rev":"184",
+            "bzr_last_rev":"185",
             "bzr_rev":"",
             "name":"switchboard-plug-display",
             "package_name":"switchboard-plug-display",
@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"515",
+            "bzr_last_rev":"516",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -336,7 +336,7 @@
         },
         "35":{
             "bzr_branch":"",
-            "bzr_last_rev":"255",
+            "bzr_last_rev":"256",
             "bzr_rev":"",
             "name":"switchboard-plug-locale",
             "package_name":"switchboard-plug-locale",
@@ -356,7 +356,7 @@
         },
         "37":{
             "bzr_branch":"",
-            "bzr_last_rev":"375",
+            "bzr_last_rev":"376",
             "bzr_rev":"",
             "name":"switchboard-plug-networking",
             "package_name":"switchboard-plug-networking",
@@ -366,7 +366,7 @@
         },
         "38":{
             "bzr_branch":"",
-            "bzr_last_rev":"207",
+            "bzr_last_rev":"208",
             "bzr_rev":"",
             "name":"switchboard-plug-notifications",
             "package_name":"switchboard-plug-notifications",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"557",
+            "bzr_last_rev":"558",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
@@ -406,7 +406,7 @@
         },
         "42":{
             "bzr_branch":"",
-            "bzr_last_rev":"131",
+            "bzr_last_rev":"132",
             "bzr_rev":"",
             "name":"switchboard-plug-printers",
             "package_name":"switchboard-plug-printers",
@@ -426,7 +426,7 @@
         },
         "44":{
             "bzr_branch":"",
-            "bzr_last_rev":"118",
+            "bzr_last_rev":"119",
             "bzr_rev":"",
             "name":"switchboard-plug-sharing",
             "package_name":"switchboard-plug-sharing",
@@ -496,7 +496,7 @@
         },
         "51":{
             "bzr_branch":"",
-            "bzr_last_rev":"221",
+            "bzr_last_rev":"222",
             "bzr_rev":"",
             "name":"wingpanel-indicator-network",
             "package_name":"wingpanel-indicator-network",
@@ -506,7 +506,7 @@
         },
         "52":{
             "bzr_branch":"",
-            "bzr_last_rev":"141",
+            "bzr_last_rev":"142",
             "bzr_rev":"",
             "name":"wingpanel-indicator-notifications",
             "package_name":"wingpanel-indicator-notifications",
@@ -516,7 +516,7 @@
         },
         "53":{
             "bzr_branch":"",
-            "bzr_last_rev":"202",
+            "bzr_last_rev":"203",
             "bzr_rev":"",
             "name":"wingpanel-indicator-power",
             "package_name":"wingpanel-indicator-power",
@@ -526,7 +526,7 @@
         },
         "54":{
             "bzr_branch":"",
-            "bzr_last_rev":"119",
+            "bzr_last_rev":"120",
             "bzr_rev":"",
             "name":"wingpanel-indicator-session",
             "package_name":"wingpanel-indicator-session",
