@@ -1,7 +1,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.0+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 URL:            https://launchpad.net/gala
 
@@ -10,7 +10,7 @@ Source1:        %{name}.conf
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
+BuildRequires:  gettext-devel
 BuildRequires:  libtool
 BuildRequires:  vala
 BuildRequires:  vala-tools
@@ -18,15 +18,17 @@ BuildRequires:  vala-tools
 BuildRequires:  pkgconfig(clutter-1.0) >= 1.12.0
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(gee-0.8)
-BuildRequires:  pkgconfig(glib-2.0) >= 2.32.0
+BuildRequires:  pkgconfig(glib-2.0) >= 2.44.0
 BuildRequires:  pkgconfig(gnome-desktop-3.0)
 BuildRequires:  pkgconfig(gnome-settings-daemon)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libbamf3)
 BuildRequires:  pkgconfig(libcanberra)
-BuildRequires:  pkgconfig(libmutter) >= 3.14.4
 BuildRequires:  pkgconfig(plank) >= 0.3.0
+
+BuildRequires:  mutter-devel
+
 
 Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 
@@ -73,7 +75,12 @@ This package contains the development headers.
 %make_install
 %find_lang gala
 
+# Remove libtool archives
 find %{buildroot} -name '*.la' -print -delete
+
+# Remove unsupported configurations
+rm %{buildroot}/%{_datadir}/applications/gala-other.desktop
+rm %{buildroot}/%{_datadir}/applications/gala-wayland.desktop
 
 
 %check
@@ -104,8 +111,6 @@ fi
 
 %{_datadir}/applications/gala.desktop
 %{_datadir}/applications/gala-multitaskingview.desktop
-%{_datadir}/applications/gala-other.desktop
-%{_datadir}/applications/gala-wayland.desktop
 %{_datadir}/gala/
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.gala.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/multitasking-view.svg
@@ -133,6 +138,9 @@ fi
 
 
 %changelog
+* Sat Feb 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev562-2
+- Adapt to mutter 3.24 changes.
+
 * Sat Feb 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+rev562-1
 - Update to latest snapshot.
 
