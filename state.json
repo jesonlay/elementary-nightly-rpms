@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"402",
+            "bzr_last_rev":"403",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3163",
+            "bzr_last_rev":"3166",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1821",
+            "bzr_last_rev":"1823",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"742",
+            "bzr_last_rev":"743",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"558",
+            "bzr_last_rev":"559",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
