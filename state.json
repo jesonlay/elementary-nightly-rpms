@@ -226,7 +226,7 @@
         },
         "24":{
             "bzr_branch":"",
-            "bzr_last_rev":"1587",
+            "bzr_last_rev":"1588",
             "bzr_rev":"",
             "name":"plank",
             "package_name":"plank",
@@ -296,7 +296,7 @@
         },
         "31":{
             "bzr_branch":"",
-            "bzr_last_rev":"42",
+            "bzr_last_rev":"43",
             "bzr_rev":"",
             "name":"switchboard-plug-bluetooth",
             "package_name":"switchboard-plug-bluetooth",
