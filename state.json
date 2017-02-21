@@ -155,7 +155,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"318",
+            "bzr_last_rev":"319",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"302",
+            "bzr_last_rev":"303",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
