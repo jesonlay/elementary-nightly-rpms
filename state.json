@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"304",
+            "bzr_last_rev":"305",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"518",
+            "bzr_last_rev":"520",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
