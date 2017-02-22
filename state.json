@@ -125,7 +125,7 @@
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"998",
+            "bzr_last_rev":"999",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3167",
+            "bzr_last_rev":"3168",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"303",
+            "bzr_last_rev":"304",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -276,7 +276,7 @@
         },
         "29":{
             "bzr_branch":"",
-            "bzr_last_rev":"125",
+            "bzr_last_rev":"126",
             "bzr_rev":"",
             "name":"switchboard-plug-a11y",
             "package_name":"switchboard-plug-a11y",
@@ -296,7 +296,7 @@
         },
         "31":{
             "bzr_branch":"",
-            "bzr_last_rev":"45",
+            "bzr_last_rev":"46",
             "bzr_rev":"",
             "name":"switchboard-plug-bluetooth",
             "package_name":"switchboard-plug-bluetooth",
@@ -316,7 +316,7 @@
         },
         "33":{
             "bzr_branch":"",
-            "bzr_last_rev":"185",
+            "bzr_last_rev":"186",
             "bzr_rev":"",
             "name":"switchboard-plug-display",
             "package_name":"switchboard-plug-display",
@@ -336,7 +336,7 @@
         },
         "35":{
             "bzr_branch":"",
-            "bzr_last_rev":"256",
+            "bzr_last_rev":"257",
             "bzr_rev":"",
             "name":"switchboard-plug-locale",
             "package_name":"switchboard-plug-locale",
@@ -406,7 +406,7 @@
         },
         "42":{
             "bzr_branch":"",
-            "bzr_last_rev":"133",
+            "bzr_last_rev":"134",
             "bzr_rev":"",
             "name":"switchboard-plug-printers",
             "package_name":"switchboard-plug-printers",
@@ -506,7 +506,7 @@
         },
         "52":{
             "bzr_branch":"",
-            "bzr_last_rev":"144",
+            "bzr_last_rev":"145",
             "bzr_rev":"",
             "name":"wingpanel-indicator-notifications",
             "package_name":"wingpanel-indicator-notifications",
