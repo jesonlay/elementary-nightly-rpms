@@ -1,7 +1,7 @@
 Summary:        simple screen capture tool
 Name:           screenshot-tool
 Version:        0.1.1+rev%{rev}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/screenshot-tool
 
@@ -13,7 +13,6 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.24
 BuildRequires:  vala-tools
 
@@ -22,6 +21,8 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(libcanberra)
+
+Requires:       hicolor-icon-theme
 
 
 %description
@@ -47,8 +48,17 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
-%clean
-rm -rf %{buildroot}
+%post
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
+
+%postun
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files -f screenshot-tool.lang
@@ -57,9 +67,13 @@ rm -rf %{buildroot}
 %{_datadir}/appdata/screenshot-tool.appdata.xml
 %{_datadir}/applications/screenshot-tool.desktop
 %{_datadir}/glib-2.0/schemas/net.launchpad.screenshot.gschema.xml
+%{_datadir}/icons/hicolor/*/apps/accessories-screenshot.svg
 
 
 %changelog
+* Sat Feb 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev306-3
+- Fix build, include new icons.
+
 * Sat Feb 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev306-2
 - Add BR: libcanberra.
 
