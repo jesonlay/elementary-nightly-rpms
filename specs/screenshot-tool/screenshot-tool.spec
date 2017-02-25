@@ -1,7 +1,7 @@
 Summary:        simple screen capture tool
 Name:           screenshot-tool
 Version:        0.1.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/screenshot-tool
 
@@ -21,6 +21,7 @@ BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
+BuildRequires:  pkgconfig(libcanberra)
 
 
 %description
@@ -59,6 +60,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat Feb 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev306-2
+- Add BR: libcanberra.
+
 * Sat Feb 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev306-1
 - Update to latest snapshot.
 
