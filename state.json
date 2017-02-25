@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"405",
+            "bzr_last_rev":"406",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -125,7 +125,7 @@
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"1000",
+            "bzr_last_rev":"1001",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
@@ -135,7 +135,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2046",
+            "bzr_last_rev":"2047",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -155,7 +155,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"319",
+            "bzr_last_rev":"320",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2506",
+            "bzr_last_rev":"2507",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -175,7 +175,7 @@
         },
         "19":{
             "bzr_branch":"",
-            "bzr_last_rev":"529",
+            "bzr_last_rev":"530",
             "bzr_rev":"",
             "name":"pantheon-greeter",
             "package_name":"pantheon-greeter",
@@ -195,7 +195,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3169",
+            "bzr_last_rev":"3170",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"305",
+            "bzr_last_rev":"306",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"747",
+            "bzr_last_rev":"748",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"520",
+            "bzr_last_rev":"521",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -376,7 +376,7 @@
         },
         "39":{
             "bzr_branch":"",
-            "bzr_last_rev":"565",
+            "bzr_last_rev":"566",
             "bzr_rev":"",
             "name":"switchboard-plug-pantheon-shell",
             "package_name":"switchboard-plug-pantheon-shell",
@@ -466,7 +466,7 @@
         },
         "48":{
             "bzr_branch":"",
-            "bzr_last_rev":"77",
+            "bzr_last_rev":"78",
             "bzr_rev":"",
             "name":"wingpanel-indicator-bluetooth",
             "package_name":"wingpanel-indicator-bluetooth",
@@ -496,7 +496,7 @@
         },
         "51":{
             "bzr_branch":"",
-            "bzr_last_rev":"223",
+            "bzr_last_rev":"224",
             "bzr_rev":"",
             "name":"wingpanel-indicator-network",
             "package_name":"wingpanel-indicator-network",
@@ -526,7 +526,7 @@
         },
         "54":{
             "bzr_branch":"",
-            "bzr_last_rev":"121",
+            "bzr_last_rev":"122",
             "bzr_rev":"",
             "name":"wingpanel-indicator-session",
             "package_name":"wingpanel-indicator-session",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"754",
+            "bzr_last_rev":"755",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
