@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2507",
+            "bzr_last_rev":"2511",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"521",
+            "bzr_last_rev":"523",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -416,7 +416,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"292",
+            "bzr_last_rev":"294",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
@@ -486,7 +486,7 @@
         },
         "50":{
             "bzr_branch":"",
-            "bzr_last_rev":"65",
+            "bzr_last_rev":"66",
             "bzr_rev":"",
             "name":"wingpanel-indicator-keyboard",
             "package_name":"wingpanel-indicator-keyboard",
