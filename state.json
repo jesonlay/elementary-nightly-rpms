@@ -326,7 +326,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"523",
+            "bzr_last_rev":"524",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -416,7 +416,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"294",
+            "bzr_last_rev":"295",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
