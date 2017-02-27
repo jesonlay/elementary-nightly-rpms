@@ -1,19 +1,17 @@
-Summary:        A tiny, simple calculator written in GTK+ and Vala.
 Name:           pantheon-calculator
+Summary:        A tiny, simple calculator written in GTK+ and Vala
 Version:        0.1.2+rev%{rev}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/pantheon-calculator
+Release:        2%{?dist}
+License:        GPLv3+
+URL:            https://launchpad.net/pantheon-calculator
 
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
-BuildRequires:  pkgconfig
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(granite)
@@ -29,22 +27,23 @@ A tiny, simple calculator written in GTK+ and Vala.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-calculator
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
-
-
-%clean
-rm -rf %{buildroot}
+desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.calculator.desktop
+appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.calculator.appdata.xml
 
 
 %files -f pantheon-calculator.lang
@@ -59,6 +58,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Feb 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev321-2
+- Sync spec with fedora.
+
 * Mon Feb 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev321-1
 - Update to latest snapshot.
 
