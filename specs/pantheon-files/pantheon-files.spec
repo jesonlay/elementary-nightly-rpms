@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -104,7 +104,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 %{_datadir}/pantheon-files/
 %{_datadir}/pixmaps/pantheon-files/
 
-%{_datadir}/polkit-1/actions/net.launchpad.pantheon-files.policy.xml
+%{_datadir}/polkit-1/actions/net.launchpad.pantheon-files.policy
 
 
 %files      libs
@@ -132,6 +132,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Tue Feb 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev2514-2
+- Adapt to polkit policy file name change.
+
 * Tue Feb 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev2514-1
 - Update to latest snapshot.
 
