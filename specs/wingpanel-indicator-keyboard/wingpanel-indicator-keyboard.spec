@@ -3,7 +3,7 @@
 Summary:        Keyboard indicator for wingpanel
 Name:           wingpanel-indicator-keyboard
 Version:        2.0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/wingpanel-indicator-keyboard
 
@@ -19,6 +19,7 @@ BuildRequires:  vala-tools
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
 Supplements:    wingpanel
@@ -47,6 +48,9 @@ A keyboard indicator for wingpanel.
 
 
 %changelog
+* Tue Feb 28 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev66-2
+- Add BR: pkgconfig(libxml-2.0).
+
 * Sun Feb 26 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev66-1
 - Update to latest snapshot.
 
