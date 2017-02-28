@@ -3,7 +3,7 @@
 Summary:        Adjust keyboard settings from Switchboard
 Name:           switchboard-plug-keyboard
 Version:        0.3.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-keyboard
 
@@ -23,6 +23,7 @@ BuildRequires:  vala-tools
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
 Supplements:    switchboard
@@ -56,6 +57,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Tue Feb 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev526-2
+- Add BR: pkgconfig(libxml-2.0).
+
 * Tue Feb 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev526-1
 - Update to latest snapshot.
 
