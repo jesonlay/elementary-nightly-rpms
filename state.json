@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1829",
+            "bzr_last_rev":"1830",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -256,7 +256,7 @@
         },
         "27":{
             "bzr_branch":"",
-            "bzr_last_rev":"750",
+            "bzr_last_rev":"751",
             "bzr_rev":"",
             "name":"slingshot-launcher",
             "package_name":"slingshot-launcher",
@@ -416,7 +416,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"309",
+            "bzr_last_rev":"311",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
