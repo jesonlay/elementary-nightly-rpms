@@ -1,6 +1,6 @@
 Summary:        Metapackage to pull in pantheon desktop components
 Name:           pantheon-desktop
-Version:        0.1
+Version:        0.2
 Release:        1%{?dist}
 License:        GPLv2
 URL:            https://copr.fedorainfracloud.org/coprs/decathorpe/elementary-stable/
@@ -21,7 +21,7 @@ Recommends:     snap-photobooth
 Recommends:     switchboard
 
 Recommends:     elementary-icon-theme
-Recommends:     elementary-themes
+Recommends:     elementary-theme
 Recommends:     elementary-wallpapers
 
 
@@ -37,6 +37,9 @@ desktop.
 
 
 %changelog
+* Sat Mar 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2-1
+- Adapt to package name changes.
+
 * Sat Oct 29 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1-1
 - Initial package.
 
