@@ -73,8 +73,8 @@
         "9":{
             "git_branch":"master",
             "git_commit":"HEAD",
-            "git_last_commit":"fdbcf47b9d69ce1a8ef39364bcdd0107e328fedc",
-            "git_last_date":"170202.220804",
+            "git_last_commit":"6c5effa89b8791528a27f774d39231054a2d1fa9",
+            "git_last_date":"170227.130409",
             "name":"elementary-icon-theme",
             "package_name":"elementary-icon-theme",
             "package_version":"4.0.2",
@@ -206,12 +206,12 @@
         "22":{
             "git_branch":"master",
             "git_commit":"HEAD",
-            "git_last_commit":"5d95d50d38091bf5fcf4af953e137334b33692d6",
-            "git_last_date":"160919.154120",
+            "git_last_commit":"fb49a8d28cf6e3b5df43953e0c6f740c5df6f949",
+            "git_last_date":"170128.000605",
             "name":"pantheon-session-settings",
             "package_name":"pantheon-session-settings",
             "package_version":"0.6.0",
-            "rpm_last_release":"3%{?dist}",
+            "rpm_last_release":"1%{?dist}",
             "rpm_last_version":"0.6.0+git%{date}.%{commit}"
         },
         "23":{

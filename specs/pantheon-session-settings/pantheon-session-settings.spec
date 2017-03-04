@@ -1,7 +1,7 @@
 Summary:        pantheon session configuration files
 Name:           pantheon-session-settings
 Version:        0.6.0+git%{date}.%{commit}
-Release:        3%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 URL:            https://github.com/decathorpe/pantheon-session-settings
 
@@ -103,6 +103,9 @@ fi
 
 
 %changelog
+* Sat Mar 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.6.0+git170128.000605.fb49a8d2-1
+- Update to latest snapshot.
+
 * Fri Dec 02 2016 Fabio Valentini <decathorpe@gmail.com> - 0.6.0+git160919.154120.5d95d50d-3
 - Move wayland files into a subpackage.
 
