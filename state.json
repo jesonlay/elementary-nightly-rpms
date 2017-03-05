@@ -12,7 +12,7 @@
         },
         "2":{
             "bzr_branch":"",
-            "bzr_last_rev":"730",
+            "bzr_last_rev":"731",
             "bzr_rev":"",
             "name":"audience",
             "package_name":"audience",
@@ -165,7 +165,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2518",
+            "bzr_last_rev":"2519",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -226,7 +226,7 @@
         },
         "24":{
             "bzr_branch":"",
-            "bzr_last_rev":"1588",
+            "bzr_last_rev":"1591",
             "bzr_rev":"",
             "name":"plank",
             "package_name":"plank",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1832",
+            "bzr_last_rev":"1833",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -246,7 +246,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"311",
+            "bzr_last_rev":"312",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -416,7 +416,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"315",
+            "bzr_last_rev":"317",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
@@ -496,7 +496,7 @@
         },
         "51":{
             "bzr_branch":"",
-            "bzr_last_rev":"224",
+            "bzr_last_rev":"225",
             "bzr_rev":"",
             "name":"wingpanel-indicator-network",
             "package_name":"wingpanel-indicator-network",
@@ -526,7 +526,7 @@
         },
         "54":{
             "bzr_branch":"",
-            "bzr_last_rev":"122",
+            "bzr_last_rev":"123",
             "bzr_rev":"",
             "name":"wingpanel-indicator-session",
             "package_name":"wingpanel-indicator-session",
@@ -536,7 +536,7 @@
         },
         "55":{
             "bzr_branch":"",
-            "bzr_last_rev":"150",
+            "bzr_last_rev":"151",
             "bzr_rev":"",
             "name":"wingpanel-indicator-sound",
             "package_name":"wingpanel-indicator-sound",
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"757",
+            "bzr_last_rev":"758",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
