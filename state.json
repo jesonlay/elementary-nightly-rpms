@@ -115,7 +115,7 @@
         },
         "13":{
             "bzr_branch":"",
-            "bzr_last_rev":"1037",
+            "bzr_last_rev":"1038",
             "bzr_rev":"",
             "name":"granite",
             "package_name":"granite",
@@ -135,7 +135,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2049",
+            "bzr_last_rev":"2050",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -236,7 +236,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1833",
+            "bzr_last_rev":"1834",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -406,7 +406,7 @@
         },
         "42":{
             "bzr_branch":"",
-            "bzr_last_rev":"136",
+            "bzr_last_rev":"137",
             "bzr_rev":"",
             "name":"switchboard-plug-printers",
             "package_name":"switchboard-plug-printers",
@@ -416,7 +416,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"317",
+            "bzr_last_rev":"318",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
@@ -486,12 +486,12 @@
         },
         "50":{
             "bzr_branch":"",
-            "bzr_last_rev":"66",
+            "bzr_last_rev":"67",
             "bzr_rev":"",
             "name":"wingpanel-indicator-keyboard",
             "package_name":"wingpanel-indicator-keyboard",
             "package_version":"2.0.1",
-            "rpm_last_release":"2%{?dist}",
+            "rpm_last_release":"1%{?dist}",
             "rpm_last_version":"2.0.1+rev%{rev}"
         },
         "51":{
@@ -546,7 +546,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"758",
+            "bzr_last_rev":"759",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
