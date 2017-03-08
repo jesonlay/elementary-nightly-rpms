@@ -1,7 +1,7 @@
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.1.3+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
@@ -67,6 +67,9 @@ popd
 
 %find_lang appcenter
 
+# move appdata to approved location
+mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
+
 mkdir -p %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps
 cp -p %{SOURCE1} %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/
 
@@ -105,6 +108,9 @@ fi
 
 
 %changelog
+* Wed Mar 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev410-2
+- Move appdata to approved location.
+
 * Tue Mar 07 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+rev410-1
 - Update to latest snapshot.
 
