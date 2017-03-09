@@ -64,6 +64,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %changelog
+* Thu Mar 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev71-1
+- Update to latest snapshot.
+
 * Mon Feb 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev70-1
 - Update to latest snapshot.
 
