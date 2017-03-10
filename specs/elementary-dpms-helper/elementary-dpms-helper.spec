@@ -1,7 +1,7 @@
 Summary:        DPMS helper for elementary
 Name:           elementary-dpms-helper
 Version:        0.1+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://code.launchpad.net/~codygarver/+junk/elementary-dpms-helper
 
@@ -55,6 +55,9 @@ cp dpms/elementary-dpms-helper.desktop %{buildroot}/%{_sysconfdir}/xdg/autostart
 
 
 %changelog
+* Fri Mar 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev215-1
+- Update to latest snapshot.
+
 * Wed Feb 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev214-2
 - Fix fedora rawhide build and clean up spec.
 
