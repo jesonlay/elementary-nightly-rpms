@@ -1,7 +1,7 @@
 Summary:        Pantheon Polkit Agent
 Name:           pantheon-agent-polkit
 Version:        0.1.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/pantheon-agent-polkit
 
@@ -10,9 +10,7 @@ URL:            https://launchpad.net/pantheon-agent-polkit
 # ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
 # version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
-Source1:        pantheon-agent-polkit.desktop
-
-Source2:        %{name}.conf
+Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  cmake-elementary
@@ -45,25 +43,21 @@ An agent for Polkit authorization designed for Pantheon.
 %make_install
 %find_lang pantheon-agent-polkit
 
-mkdir -p %{buildroot}/%{_sysconfdir}/xdg/autostart
-cp -p %{SOURCE1} %{buildroot}/%{_sysconfdir}/xdg/autostart/
-
-mv %{buildroot}/usr/lib %{buildroot}/%{_libexecdir}
-
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %files -f pantheon-agent-polkit.lang
-%{_sysconfdir}/xdg/autostart/pantheon-agent-polkit.desktop
-
+%{_sysconfdir}/xdg/autostart/org.pantheon.agent-polkit-daemon.desktop
 %{_libexecdir}/policykit-1-pantheon/
-
 %{_datadir}/applications/org.pantheon.agent-polkit.desktop
 
 
 %changelog
+* Wed Mar 15 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev75-2
+- Adapt to upstream changes.
+
 * Thu Mar 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev71-1
 - Update to latest snapshot.
 
