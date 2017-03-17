@@ -450,9 +450,9 @@
             "bzr_rev":"",
             "name":"wingpanel",
             "package_name":"wingpanel",
-            "package_version":"2.0.1",
+            "package_version":"2.0.2",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.1+rev%{rev}"
+            "rpm_last_version":"2.0.2+rev%{rev}"
         },
         "47":{
             "bzr_branch":"",
