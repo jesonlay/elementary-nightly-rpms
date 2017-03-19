@@ -220,9 +220,9 @@
             "bzr_rev":"",
             "name":"pantheon-terminal",
             "package_name":"pantheon-terminal",
-            "package_version":"0.4.0.2",
+            "package_version":"0.4.0.4",
             "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.4.0.2+rev%{rev}"
+            "rpm_last_version":"0.4.0.4+rev%{rev}"
         },
         "24":{
             "bzr_branch":"",
