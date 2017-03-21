@@ -2,12 +2,12 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"430",
+            "bzr_last_rev":"431",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
             "package_version":"0.1.4",
-            "rpm_last_release":"2%{?dist}",
+            "rpm_last_release":"1%{?dist}",
             "rpm_last_version":"0.1.4+rev%{rev}"
         },
         "2":{
@@ -466,7 +466,7 @@
         },
         "48":{
             "bzr_branch":"",
-            "bzr_last_rev":"80",
+            "bzr_last_rev":"81",
             "bzr_rev":"",
             "name":"wingpanel-indicator-bluetooth",
             "package_name":"wingpanel-indicator-bluetooth",
@@ -536,7 +536,7 @@
         },
         "55":{
             "bzr_branch":"",
-            "bzr_last_rev":"152",
+            "bzr_last_rev":"153",
             "bzr_rev":"",
             "name":"wingpanel-indicator-sound",
             "package_name":"wingpanel-indicator-sound",
