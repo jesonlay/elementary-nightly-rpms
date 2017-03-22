@@ -103,16 +103,6 @@
             "rpm_last_release":"1%{?dist}",
             "rpm_last_version":"0+git%{date}.%{commit}"
         },
-        "12":{
-            "bzr_branch":"",
-            "bzr_last_rev":"567",
-            "bzr_rev":"",
-            "name":"gala",
-            "package_name":"gala",
-            "package_version":"0.3.0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.3.0+rev%{rev}"
-        },
         "13":{
             "bzr_branch":"",
             "bzr_last_rev":"1042",
