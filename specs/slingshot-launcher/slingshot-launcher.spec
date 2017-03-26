@@ -3,7 +3,7 @@
 Summary:        Lightweight and stylish app launcher
 Name:           slingshot-launcher
 Version:        2.0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/slingshot
 
@@ -20,6 +20,9 @@ BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.26.2
 BuildRequires:  vala-tools
 
+BuildRequires:  appstream-vala
+
+BuildRequires:  pkgconfig(appstream) >= 0.10.0
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -69,6 +72,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sun Mar 26 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev757-2
+- Add new BR: appstream.
+
 * Sun Mar 26 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev757-1
 - Update to latest snapshot.
 
