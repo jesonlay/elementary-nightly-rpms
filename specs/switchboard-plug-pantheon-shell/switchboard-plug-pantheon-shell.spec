@@ -3,7 +3,7 @@
 Summary:        Configure various aspects of the Pantheon desktop environment
 Name:           switchboard-plug-pantheon-shell
 Version:        0.2.4+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/switchboard-plug-pantheon-shell
 
@@ -54,14 +54,17 @@ rm -rf %{buildroot}
 
 
 %files -f pantheon-desktop-plug.lang
-%{_bindir}/set-wallpaper
-
 %{_libdir}/switchboard/personal/pantheon-desktop/
+
+%{_libexecdir}/switchboard-plug-pantheon-shell/set-wallpaper
 
 %{_datadir}/contractor/set-wallpaper.contract
 
 
 %changelog
+* Sun Mar 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+rev578-2
+- Adapt to upstream changes.
+
 * Sun Mar 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+rev578-1
 - Update to latest snapshot.
 
