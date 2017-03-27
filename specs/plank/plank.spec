@@ -148,6 +148,9 @@ fi
 
 
 %changelog
+* Mon Mar 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.11.3+rev1597-1
+- Update to latest snapshot.
+
 * Sun Mar 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.11.3+rev1596-1
 - Update to latest snapshot.
 
