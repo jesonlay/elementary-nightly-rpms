@@ -1,23 +1,12 @@
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.1.4+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
-
-# Include the appropriate icon from elementary-icon-theme so appdata metadata generation works.
-# A Bug about the missing icon is reported upstream:
-# https://bugs.launchpad.net/appcenter/+bug/1658325
-
-Source1:        system-software-install.svg
-
-Source2:        %{name}.conf
+Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  cmake-elementary
@@ -46,8 +35,6 @@ Requires:       hicolor-icon-theme
 
 
 %description
-Get apps for elementary OS.
-
 AppCenter is a native Gtk+ app store built on AppStream and Packagekit.
 
 
@@ -72,28 +59,12 @@ popd
 # move appdata to approved location
 mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
 
-mkdir -p %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps
-cp -p %{SOURCE1} %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/
-
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.appcenter.desktop
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.appcenter-daemon.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/io.elementary.appcenter.desktop
+desktop-file-validate %{buildroot}/%{_datadir}/applications/io.elementary.appcenter-daemon.desktop
 
 appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/appcenter.appdata.xml
-
-
-%post
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files -f appcenter.lang
@@ -103,13 +74,15 @@ fi
 %{_bindir}/appcenter
 
 %{_datadir}/appdata/appcenter.appdata.xml
-%{_datadir}/applications/org.pantheon.appcenter.desktop
-%{_datadir}/applications/org.pantheon.appcenter-daemon.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.appcenter.gschema.xml
-%{_datadir}/icons/hicolor/scalable/apps/system-software-install.svg
+%{_datadir}/applications/io.elementary.appcenter.desktop
+%{_datadir}/applications/io.elementary.appcenter-daemon.desktop
+%{_datadir}/glib-2.0/schemas/io.elementary.appcenter.gschema.xml
 
 
 %changelog
+* Tue Mar 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+rev445-2
+- Adapt to upstream file name changes.
+
 * Tue Mar 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+rev445-1
 - Update to latest snapshot.
 
