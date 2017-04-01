@@ -32,7 +32,7 @@
         },
         "4":{
             "bzr_branch":"",
-            "bzr_last_rev":"27",
+            "bzr_last_rev":"28",
             "bzr_rev":"",
             "name":"cmake-elementary",
             "package_name":"cmake-elementary",
