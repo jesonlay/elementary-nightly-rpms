@@ -105,7 +105,7 @@
         },
         "13":{
             "bzr_branch":"",
-            "bzr_last_rev":"1042",
+            "bzr_last_rev":"1043",
             "bzr_rev":"",
             "name":"granite",
             "package_name":"granite",
@@ -145,7 +145,7 @@
         },
         "17":{
             "bzr_branch":"",
-            "bzr_last_rev":"325",
+            "bzr_last_rev":"326",
             "bzr_rev":"",
             "name":"pantheon-calculator",
             "package_name":"pantheon-calculator",
@@ -536,7 +536,7 @@
         },
         "56":{
             "bzr_branch":"",
-            "bzr_last_rev":"762",
+            "bzr_last_rev":"763",
             "bzr_rev":"",
             "name":"switchboard",
             "package_name":"switchboard",
