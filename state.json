@@ -12,7 +12,7 @@
         },
         "2":{
             "bzr_branch":"",
-            "bzr_last_rev":"733",
+            "bzr_last_rev":"734",
             "bzr_rev":"",
             "name":"audience",
             "package_name":"audience",
@@ -125,7 +125,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2054",
+            "bzr_last_rev":"2055",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -155,7 +155,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2530",
+            "bzr_last_rev":"2531",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -165,7 +165,7 @@
         },
         "19":{
             "bzr_branch":"",
-            "bzr_last_rev":"537",
+            "bzr_last_rev":"538",
             "bzr_rev":"",
             "name":"pantheon-greeter",
             "package_name":"pantheon-greeter",
@@ -185,7 +185,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3182",
+            "bzr_last_rev":"3183",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -226,7 +226,7 @@
         },
         "25":{
             "bzr_branch":"",
-            "bzr_last_rev":"1841",
+            "bzr_last_rev":"1842",
             "bzr_rev":"",
             "name":"scratch-text-editor",
             "package_name":"scratch-text-editor",
@@ -236,7 +236,7 @@
         },
         "26":{
             "bzr_branch":"",
-            "bzr_last_rev":"317",
+            "bzr_last_rev":"318",
             "bzr_rev":"",
             "name":"screenshot-tool",
             "package_name":"screenshot-tool",
@@ -296,7 +296,7 @@
         },
         "32":{
             "bzr_branch":"",
-            "bzr_last_rev":"209",
+            "bzr_last_rev":"210",
             "bzr_rev":"",
             "name":"switchboard-plug-datetime",
             "package_name":"switchboard-plug-datetime",
@@ -316,7 +316,7 @@
         },
         "34":{
             "bzr_branch":"",
-            "bzr_last_rev":"529",
+            "bzr_last_rev":"530",
             "bzr_rev":"",
             "name":"switchboard-plug-keyboard",
             "package_name":"switchboard-plug-keyboard",
@@ -336,7 +336,7 @@
         },
         "36":{
             "bzr_branch":"",
-            "bzr_last_rev":"163",
+            "bzr_last_rev":"164",
             "bzr_rev":"",
             "name":"switchboard-plug-mouse-touchpad",
             "package_name":"switchboard-plug-mouse-touchpad",
@@ -346,7 +346,7 @@
         },
         "37":{
             "bzr_branch":"",
-            "bzr_last_rev":"379",
+            "bzr_last_rev":"381",
             "bzr_rev":"",
             "name":"switchboard-plug-networking",
             "package_name":"switchboard-plug-networking",
@@ -356,7 +356,7 @@
         },
         "38":{
             "bzr_branch":"",
-            "bzr_last_rev":"211",
+            "bzr_last_rev":"212",
             "bzr_rev":"",
             "name":"switchboard-plug-notifications",
             "package_name":"switchboard-plug-notifications",
@@ -376,7 +376,7 @@
         },
         "40":{
             "bzr_branch":"",
-            "bzr_last_rev":"278",
+            "bzr_last_rev":"279",
             "bzr_rev":"",
             "name":"switchboard-plug-parental-controls",
             "package_name":"switchboard-plug-parental-controls",
@@ -386,7 +386,7 @@
         },
         "41":{
             "bzr_branch":"",
-            "bzr_last_rev":"413",
+            "bzr_last_rev":"414",
             "bzr_rev":"",
             "name":"switchboard-plug-power",
             "package_name":"switchboard-plug-power",
@@ -396,7 +396,7 @@
         },
         "42":{
             "bzr_branch":"",
-            "bzr_last_rev":"138",
+            "bzr_last_rev":"139",
             "bzr_rev":"",
             "name":"switchboard-plug-printers",
             "package_name":"switchboard-plug-printers",
@@ -406,7 +406,7 @@
         },
         "43":{
             "bzr_branch":"",
-            "bzr_last_rev":"320",
+            "bzr_last_rev":"321",
             "bzr_rev":"",
             "name":"switchboard-plug-security-privacy",
             "package_name":"switchboard-plug-security-privacy",
@@ -426,7 +426,7 @@
         },
         "45":{
             "bzr_branch":"",
-            "bzr_last_rev":"284",
+            "bzr_last_rev":"285",
             "bzr_rev":"",
             "name":"switchboard-plug-useraccounts",
             "package_name":"switchboard-plug-useraccounts",
@@ -456,7 +456,7 @@
         },
         "48":{
             "bzr_branch":"",
-            "bzr_last_rev":"81",
+            "bzr_last_rev":"82",
             "bzr_rev":"",
             "name":"wingpanel-indicator-bluetooth",
             "package_name":"wingpanel-indicator-bluetooth",
@@ -476,7 +476,7 @@
         },
         "50":{
             "bzr_branch":"",
-            "bzr_last_rev":"69",
+            "bzr_last_rev":"70",
             "bzr_rev":"",
             "name":"wingpanel-indicator-keyboard",
             "package_name":"wingpanel-indicator-keyboard",
@@ -486,7 +486,7 @@
         },
         "51":{
             "bzr_branch":"",
-            "bzr_last_rev":"228",
+            "bzr_last_rev":"229",
             "bzr_rev":"",
             "name":"wingpanel-indicator-network",
             "package_name":"wingpanel-indicator-network",
@@ -496,7 +496,7 @@
         },
         "52":{
             "bzr_branch":"",
-            "bzr_last_rev":"150",
+            "bzr_last_rev":"151",
             "bzr_rev":"",
             "name":"wingpanel-indicator-notifications",
             "package_name":"wingpanel-indicator-notifications",
@@ -526,7 +526,7 @@
         },
         "55":{
             "bzr_branch":"",
-            "bzr_last_rev":"153",
+            "bzr_last_rev":"154",
             "bzr_rev":"",
             "name":"wingpanel-indicator-sound",
             "package_name":"wingpanel-indicator-sound",
