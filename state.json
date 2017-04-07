@@ -2,7 +2,7 @@
     "_default":{
         "1":{
             "bzr_branch":"",
-            "bzr_last_rev":"471",
+            "bzr_last_rev":"477",
             "bzr_rev":"",
             "name":"appcenter",
             "package_name":"appcenter",
@@ -62,7 +62,7 @@
         },
         "8":{
             "bzr_branch":"",
-            "bzr_last_rev":"215",
+            "bzr_last_rev":"219",
             "bzr_rev":"",
             "name":"elementary-dpms-helper",
             "package_name":"elementary-dpms-helper",
@@ -115,7 +115,7 @@
         },
         "14":{
             "bzr_branch":"",
-            "bzr_last_rev":"1008",
+            "bzr_last_rev":"1009",
             "bzr_rev":"",
             "name":"maya-calendar",
             "package_name":"maya-calendar",
@@ -125,7 +125,7 @@
         },
         "15":{
             "bzr_branch":"",
-            "bzr_last_rev":"2055",
+            "bzr_last_rev":"2056",
             "bzr_rev":"",
             "name":"noise",
             "package_name":"noise",
@@ -155,7 +155,7 @@
         },
         "18":{
             "bzr_branch":"",
-            "bzr_last_rev":"2531",
+            "bzr_last_rev":"2532",
             "bzr_rev":"",
             "name":"pantheon-files",
             "package_name":"pantheon-files",
@@ -185,7 +185,7 @@
         },
         "21":{
             "bzr_branch":"",
-            "bzr_last_rev":"3183",
+            "bzr_last_rev":"3184",
             "bzr_rev":"",
             "name":"pantheon-photos",
             "package_name":"pantheon-photos",
@@ -206,7 +206,7 @@
         },
         "23":{
             "bzr_branch":"",
-            "bzr_last_rev":"952",
+            "bzr_last_rev":"953",
             "bzr_rev":"",
             "name":"pantheon-terminal",
             "package_name":"pantheon-terminal",
