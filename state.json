@@ -1,548 +1,548 @@
 {
-    "_default":{
-        "1":{
-            "bzr_branch":"",
-            "bzr_last_rev":"501",
-            "bzr_rev":"",
-            "name":"appcenter",
-            "package_name":"appcenter",
-            "package_version":"0.1.4",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.4+rev%{rev}"
+    "_default": {
+        "1": {
+            "bzr_branch": "",
+            "bzr_last_rev": "509",
+            "bzr_rev": "",
+            "name": "appcenter",
+            "package_name": "appcenter",
+            "package_version": "0.1.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.4+rev%{rev}"
         },
-        "2":{
-            "bzr_branch":"",
-            "bzr_last_rev":"734",
-            "bzr_rev":"",
-            "name":"audience",
-            "package_name":"audience",
-            "package_version":"0.2.1.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.2.1.2+rev%{rev}"
+        "2": {
+            "bzr_branch": "",
+            "bzr_last_rev": "734",
+            "bzr_rev": "",
+            "name": "audience",
+            "package_name": "audience",
+            "package_version": "0.2.1.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.1.2+rev%{rev}"
         },
-        "3":{
-            "bzr_branch":"",
-            "bzr_last_rev":"53",
-            "bzr_rev":"",
-            "name":"cerbere",
-            "package_name":"cerbere",
-            "package_version":"0.2.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.2.2+rev%{rev}"
+        "3": {
+            "bzr_branch": "",
+            "bzr_last_rev": "53",
+            "bzr_rev": "",
+            "name": "cerbere",
+            "package_name": "cerbere",
+            "package_version": "0.2.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.2+rev%{rev}"
         },
-        "4":{
-            "bzr_branch":"",
-            "bzr_last_rev":"28",
-            "bzr_rev":"",
-            "name":"cmake-elementary",
-            "package_name":"cmake-elementary",
-            "package_version":"0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0+rev%{rev}"
+        "4": {
+            "bzr_branch": "",
+            "bzr_last_rev": "28",
+            "bzr_rev": "",
+            "name": "cmake-elementary",
+            "package_name": "cmake-elementary",
+            "package_version": "0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0+rev%{rev}"
         },
-        "5":{
-            "bzr_branch":"",
-            "bzr_last_rev":"141",
-            "bzr_rev":"",
-            "name":"contractor",
-            "package_name":"contractor",
-            "package_version":"0.3.2",
-            "rpm_last_release":"2%{?dist}",
-            "rpm_last_version":"0.3.2+rev%{rev}"
+        "5": {
+            "bzr_branch": "",
+            "bzr_last_rev": "141",
+            "bzr_rev": "",
+            "name": "contractor",
+            "package_name": "contractor",
+            "package_version": "0.3.2",
+            "rpm_last_release": "2%{?dist}",
+            "rpm_last_version": "0.3.2+rev%{rev}"
         },
-        "7":{
-            "bzr_branch":"",
-            "bzr_last_rev":"211",
-            "bzr_rev":"",
-            "name":"eidete",
-            "package_name":"eidete",
-            "package_version":"0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1+rev%{rev}"
+        "7": {
+            "bzr_branch": "",
+            "bzr_last_rev": "211",
+            "bzr_rev": "",
+            "name": "eidete",
+            "package_name": "eidete",
+            "package_version": "0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1+rev%{rev}"
         },
-        "8":{
-            "bzr_branch":"",
-            "bzr_last_rev":"219",
-            "bzr_rev":"",
-            "name":"elementary-dpms-helper",
-            "package_name":"elementary-dpms-helper",
-            "package_version":"0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1+rev%{rev}"
+        "8": {
+            "bzr_branch": "",
+            "bzr_last_rev": "219",
+            "bzr_rev": "",
+            "name": "elementary-dpms-helper",
+            "package_name": "elementary-dpms-helper",
+            "package_version": "0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1+rev%{rev}"
         },
-        "9":{
-            "git_branch":"master",
-            "git_commit":"HEAD",
-            "git_last_commit":"77291de62395c5795473497cc9ec86649a506b8c",
-            "git_last_date":"170320.103314",
-            "name":"elementary-icon-theme",
-            "package_name":"elementary-icon-theme",
-            "package_version":"4.0.3",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"4.0.3+git%{date}.%{commit}"
+        "9": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "77291de62395c5795473497cc9ec86649a506b8c",
+            "git_last_date": "170320.103314",
+            "name": "elementary-icon-theme",
+            "package_name": "elementary-icon-theme",
+            "package_version": "4.0.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "4.0.3+git%{date}.%{commit}"
         },
-        "10":{
-            "git_branch":"master",
-            "git_commit":"HEAD",
-            "git_last_commit":"5f600c6bf382461284a9e0414db9c2daa0f3a170",
-            "git_last_date":"170212.162057",
-            "name":"elementary-theme",
-            "package_name":"elementary-theme",
-            "package_version":"5.0.3",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"5.0.3+git%{date}.%{commit}"
+        "10": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "5f600c6bf382461284a9e0414db9c2daa0f3a170",
+            "git_last_date": "170212.162057",
+            "name": "elementary-theme",
+            "package_name": "elementary-theme",
+            "package_version": "5.0.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "5.0.3+git%{date}.%{commit}"
         },
-        "11":{
-            "git_branch":"master",
-            "git_commit":"HEAD",
-            "git_last_commit":"71cd2c90d315786b100f7626bcd44b2ed55a67c0",
-            "git_last_date":"160615.091501",
-            "name":"elementary-wallpapers",
-            "package_name":"elementary-wallpapers",
-            "package_version":"0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0+git%{date}.%{commit}"
+        "11": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "71cd2c90d315786b100f7626bcd44b2ed55a67c0",
+            "git_last_date": "160615.091501",
+            "name": "elementary-wallpapers",
+            "package_name": "elementary-wallpapers",
+            "package_version": "0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0+git%{date}.%{commit}"
         },
-        "13":{
-            "bzr_branch":"",
-            "bzr_last_rev":"1043",
-            "bzr_rev":"",
-            "name":"granite",
-            "package_name":"granite",
-            "package_version":"0.4.0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.4.0.1+rev%{rev}"
+        "13": {
+            "bzr_branch": "",
+            "bzr_last_rev": "1043",
+            "bzr_rev": "",
+            "name": "granite",
+            "package_name": "granite",
+            "package_version": "0.4.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.4.0.1+rev%{rev}"
         },
-        "14":{
-            "bzr_branch":"",
-            "bzr_last_rev":"1009",
-            "bzr_rev":"",
-            "name":"maya-calendar",
-            "package_name":"maya-calendar",
-            "package_version":"0.4.0.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.4.0.2+rev%{rev}"
+        "14": {
+            "bzr_branch": "",
+            "bzr_last_rev": "1009",
+            "bzr_rev": "",
+            "name": "maya-calendar",
+            "package_name": "maya-calendar",
+            "package_version": "0.4.0.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.4.0.2+rev%{rev}"
         },
-        "15":{
-            "bzr_branch":"",
-            "bzr_last_rev":"2056",
-            "bzr_rev":"",
-            "name":"noise",
-            "package_name":"noise",
-            "package_version":"0.4.0.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.4.0.2+rev%{rev}"
+        "15": {
+            "bzr_branch": "",
+            "bzr_last_rev": "2056",
+            "bzr_rev": "",
+            "name": "noise",
+            "package_name": "noise",
+            "package_version": "0.4.0.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.4.0.2+rev%{rev}"
         },
-        "16":{
-            "bzr_branch":"",
-            "bzr_last_rev":"75",
-            "bzr_rev":"",
-            "name":"pantheon-agent-polkit",
-            "package_name":"pantheon-agent-polkit",
-            "package_version":"0.1.1",
-            "rpm_last_release":"2%{?dist}",
-            "rpm_last_version":"0.1.1+rev%{rev}"
+        "16": {
+            "bzr_branch": "",
+            "bzr_last_rev": "75",
+            "bzr_rev": "",
+            "name": "pantheon-agent-polkit",
+            "package_name": "pantheon-agent-polkit",
+            "package_version": "0.1.1",
+            "rpm_last_release": "2%{?dist}",
+            "rpm_last_version": "0.1.1+rev%{rev}"
         },
-        "17":{
-            "bzr_branch":"",
-            "bzr_last_rev":"326",
-            "bzr_rev":"",
-            "name":"pantheon-calculator",
-            "package_name":"pantheon-calculator",
-            "package_version":"0.1.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.2+rev%{rev}"
+        "17": {
+            "bzr_branch": "",
+            "bzr_last_rev": "326",
+            "bzr_rev": "",
+            "name": "pantheon-calculator",
+            "package_name": "pantheon-calculator",
+            "package_version": "0.1.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.2+rev%{rev}"
         },
-        "18":{
-            "bzr_branch":"",
-            "bzr_last_rev":"2532",
-            "bzr_rev":"",
-            "name":"pantheon-files",
-            "package_name":"pantheon-files",
-            "package_version":"0.3.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.3.1+rev%{rev}"
+        "18": {
+            "bzr_branch": "",
+            "bzr_last_rev": "2532",
+            "bzr_rev": "",
+            "name": "pantheon-files",
+            "package_name": "pantheon-files",
+            "package_version": "0.3.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.3.1+rev%{rev}"
         },
-        "19":{
-            "bzr_branch":"",
-            "bzr_last_rev":"538",
-            "bzr_rev":"",
-            "name":"pantheon-greeter",
-            "package_name":"pantheon-greeter",
-            "package_version":"3.1.0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"3.1.0+rev%{rev}"
+        "19": {
+            "bzr_branch": "",
+            "bzr_last_rev": "538",
+            "bzr_rev": "",
+            "name": "pantheon-greeter",
+            "package_name": "pantheon-greeter",
+            "package_version": "3.1.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "3.1.0+rev%{rev}"
         },
-        "20":{
-            "bzr_branch":"",
-            "bzr_last_rev":"65",
-            "bzr_rev":"",
-            "name":"pantheon-notes",
-            "package_name":"pantheon-notes",
-            "package_version":"0.7",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.7+rev%{rev}"
+        "20": {
+            "bzr_branch": "",
+            "bzr_last_rev": "65",
+            "bzr_rev": "",
+            "name": "pantheon-notes",
+            "package_name": "pantheon-notes",
+            "package_version": "0.7",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.7+rev%{rev}"
         },
-        "21":{
-            "bzr_branch":"",
-            "bzr_last_rev":"3185",
-            "bzr_rev":"",
-            "name":"pantheon-photos",
-            "package_name":"pantheon-photos",
-            "package_version":"0.2.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.2.2+rev%{rev}"
+        "21": {
+            "bzr_branch": "",
+            "bzr_last_rev": "3185",
+            "bzr_rev": "",
+            "name": "pantheon-photos",
+            "package_name": "pantheon-photos",
+            "package_version": "0.2.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.2+rev%{rev}"
         },
-        "22":{
-            "git_branch":"master",
-            "git_commit":"HEAD",
-            "git_last_commit":"fb49a8d28cf6e3b5df43953e0c6f740c5df6f949",
-            "git_last_date":"170128.000605",
-            "name":"pantheon-session-settings",
-            "package_name":"pantheon-session-settings",
-            "package_version":"0.6.0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.6.0+git%{date}.%{commit}"
+        "22": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "fb49a8d28cf6e3b5df43953e0c6f740c5df6f949",
+            "git_last_date": "170128.000605",
+            "name": "pantheon-session-settings",
+            "package_name": "pantheon-session-settings",
+            "package_version": "0.6.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.6.0+git%{date}.%{commit}"
         },
-        "23":{
-            "bzr_branch":"",
-            "bzr_last_rev":"953",
-            "bzr_rev":"",
-            "name":"pantheon-terminal",
-            "package_name":"pantheon-terminal",
-            "package_version":"0.4.0.4",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.4.0.4+rev%{rev}"
+        "23": {
+            "bzr_branch": "",
+            "bzr_last_rev": "953",
+            "bzr_rev": "",
+            "name": "pantheon-terminal",
+            "package_name": "pantheon-terminal",
+            "package_version": "0.4.0.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.4.0.4+rev%{rev}"
         },
-        "24":{
-            "bzr_branch":"",
-            "bzr_last_rev":"1598",
-            "bzr_rev":"",
-            "name":"plank",
-            "package_name":"plank",
-            "package_version":"0.11.3",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.11.3+rev%{rev}"
+        "24": {
+            "bzr_branch": "",
+            "bzr_last_rev": "1598",
+            "bzr_rev": "",
+            "name": "plank",
+            "package_name": "plank",
+            "package_version": "0.11.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.11.3+rev%{rev}"
         },
-        "25":{
-            "bzr_branch":"",
-            "bzr_last_rev":"1842",
-            "bzr_rev":"",
-            "name":"scratch-text-editor",
-            "package_name":"scratch-text-editor",
-            "package_version":"2.4",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.4+rev%{rev}"
+        "25": {
+            "bzr_branch": "",
+            "bzr_last_rev": "1842",
+            "bzr_rev": "",
+            "name": "scratch-text-editor",
+            "package_name": "scratch-text-editor",
+            "package_version": "2.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.4+rev%{rev}"
         },
-        "26":{
-            "bzr_branch":"",
-            "bzr_last_rev":"318",
-            "bzr_rev":"",
-            "name":"screenshot-tool",
-            "package_name":"screenshot-tool",
-            "package_version":"0.1.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.1+rev%{rev}"
+        "26": {
+            "bzr_branch": "",
+            "bzr_last_rev": "318",
+            "bzr_rev": "",
+            "name": "screenshot-tool",
+            "package_name": "screenshot-tool",
+            "package_version": "0.1.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1+rev%{rev}"
         },
-        "27":{
-            "bzr_branch":"",
-            "bzr_last_rev":"758",
-            "bzr_rev":"",
-            "name":"slingshot-launcher",
-            "package_name":"slingshot-launcher",
-            "package_version":"2.0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.1+rev%{rev}"
+        "27": {
+            "bzr_branch": "",
+            "bzr_last_rev": "758",
+            "bzr_rev": "",
+            "name": "slingshot-launcher",
+            "package_name": "slingshot-launcher",
+            "package_version": "2.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.1+rev%{rev}"
         },
-        "28":{
-            "bzr_branch":"",
-            "bzr_last_rev":"408",
-            "bzr_rev":"",
-            "name":"snap-photobooth",
-            "package_name":"snap-photobooth",
-            "package_version":"0.3.0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.3.0.1+rev%{rev}"
+        "28": {
+            "bzr_branch": "",
+            "bzr_last_rev": "408",
+            "bzr_rev": "",
+            "name": "snap-photobooth",
+            "package_name": "snap-photobooth",
+            "package_version": "0.3.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.3.0.1+rev%{rev}"
         },
-        "29":{
-            "bzr_branch":"",
-            "bzr_last_rev":"135",
-            "bzr_rev":"",
-            "name":"switchboard-plug-a11y",
-            "package_name":"switchboard-plug-a11y",
-            "package_version":"0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1+rev%{rev}"
+        "29": {
+            "bzr_branch": "",
+            "bzr_last_rev": "135",
+            "bzr_rev": "",
+            "name": "switchboard-plug-a11y",
+            "package_name": "switchboard-plug-a11y",
+            "package_version": "0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1+rev%{rev}"
         },
-        "30":{
-            "bzr_branch":"",
-            "bzr_last_rev":"227",
-            "bzr_rev":"",
-            "name":"switchboard-plug-applications",
-            "package_name":"switchboard-plug-applications",
-            "package_version":"0.1.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.1+rev%{rev}"
+        "30": {
+            "bzr_branch": "",
+            "bzr_last_rev": "227",
+            "bzr_rev": "",
+            "name": "switchboard-plug-applications",
+            "package_name": "switchboard-plug-applications",
+            "package_version": "0.1.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1+rev%{rev}"
         },
-        "31":{
-            "bzr_branch":"",
-            "bzr_last_rev":"52",
-            "bzr_rev":"",
-            "name":"switchboard-plug-bluetooth",
-            "package_name":"switchboard-plug-bluetooth",
-            "package_version":"0.1.0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.0+rev%{rev}"
+        "31": {
+            "bzr_branch": "",
+            "bzr_last_rev": "52",
+            "bzr_rev": "",
+            "name": "switchboard-plug-bluetooth",
+            "package_name": "switchboard-plug-bluetooth",
+            "package_version": "0.1.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.0+rev%{rev}"
         },
-        "32":{
-            "bzr_branch":"",
-            "bzr_last_rev":"210",
-            "bzr_rev":"",
-            "name":"switchboard-plug-datetime",
-            "package_name":"switchboard-plug-datetime",
-            "package_version":"0.1.1.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.1.1+rev%{rev}"
+        "32": {
+            "bzr_branch": "",
+            "bzr_last_rev": "210",
+            "bzr_rev": "",
+            "name": "switchboard-plug-datetime",
+            "package_name": "switchboard-plug-datetime",
+            "package_version": "0.1.1.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1.1+rev%{rev}"
         },
-        "33":{
-            "bzr_branch":"",
-            "bzr_last_rev":"189",
-            "bzr_rev":"",
-            "name":"switchboard-plug-display",
-            "package_name":"switchboard-plug-display",
-            "package_version":"0.1.2.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.2.1+rev%{rev}"
+        "33": {
+            "bzr_branch": "",
+            "bzr_last_rev": "189",
+            "bzr_rev": "",
+            "name": "switchboard-plug-display",
+            "package_name": "switchboard-plug-display",
+            "package_version": "0.1.2.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.2.1+rev%{rev}"
         },
-        "34":{
-            "bzr_branch":"",
-            "bzr_last_rev":"530",
-            "bzr_rev":"",
-            "name":"switchboard-plug-keyboard",
-            "package_name":"switchboard-plug-keyboard",
-            "package_version":"0.3.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.3.1+rev%{rev}"
+        "34": {
+            "bzr_branch": "",
+            "bzr_last_rev": "530",
+            "bzr_rev": "",
+            "name": "switchboard-plug-keyboard",
+            "package_name": "switchboard-plug-keyboard",
+            "package_version": "0.3.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.3.1+rev%{rev}"
         },
-        "35":{
-            "bzr_branch":"",
-            "bzr_last_rev":"259",
-            "bzr_rev":"",
-            "name":"switchboard-plug-locale",
-            "package_name":"switchboard-plug-locale",
-            "package_version":"0.2.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.2.1+rev%{rev}"
+        "35": {
+            "bzr_branch": "",
+            "bzr_last_rev": "259",
+            "bzr_rev": "",
+            "name": "switchboard-plug-locale",
+            "package_name": "switchboard-plug-locale",
+            "package_version": "0.2.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.1+rev%{rev}"
         },
-        "36":{
-            "bzr_branch":"",
-            "bzr_last_rev":"164",
-            "bzr_rev":"",
-            "name":"switchboard-plug-mouse-touchpad",
-            "package_name":"switchboard-plug-mouse-touchpad",
-            "package_version":"0.1.1.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.1.2+rev%{rev}"
+        "36": {
+            "bzr_branch": "",
+            "bzr_last_rev": "164",
+            "bzr_rev": "",
+            "name": "switchboard-plug-mouse-touchpad",
+            "package_name": "switchboard-plug-mouse-touchpad",
+            "package_version": "0.1.1.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1.2+rev%{rev}"
         },
-        "37":{
-            "bzr_branch":"",
-            "bzr_last_rev":"381",
-            "bzr_rev":"",
-            "name":"switchboard-plug-networking",
-            "package_name":"switchboard-plug-networking",
-            "package_version":"0.1.0.3",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.0.3+rev%{rev}"
+        "37": {
+            "bzr_branch": "",
+            "bzr_last_rev": "381",
+            "bzr_rev": "",
+            "name": "switchboard-plug-networking",
+            "package_name": "switchboard-plug-networking",
+            "package_version": "0.1.0.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.0.3+rev%{rev}"
         },
-        "38":{
-            "bzr_branch":"",
-            "bzr_last_rev":"212",
-            "bzr_rev":"",
-            "name":"switchboard-plug-notifications",
-            "package_name":"switchboard-plug-notifications",
-            "package_version":"0.1.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.1+rev%{rev}"
+        "38": {
+            "bzr_branch": "",
+            "bzr_last_rev": "212",
+            "bzr_rev": "",
+            "name": "switchboard-plug-notifications",
+            "package_name": "switchboard-plug-notifications",
+            "package_version": "0.1.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1+rev%{rev}"
         },
-        "39":{
-            "bzr_branch":"",
-            "bzr_last_rev":"578",
-            "bzr_rev":"",
-            "name":"switchboard-plug-pantheon-shell",
-            "package_name":"switchboard-plug-pantheon-shell",
-            "package_version":"0.2.4",
-            "rpm_last_release":"2%{?dist}",
-            "rpm_last_version":"0.2.4+rev%{rev}"
+        "39": {
+            "bzr_branch": "",
+            "bzr_last_rev": "578",
+            "bzr_rev": "",
+            "name": "switchboard-plug-pantheon-shell",
+            "package_name": "switchboard-plug-pantheon-shell",
+            "package_version": "0.2.4",
+            "rpm_last_release": "2%{?dist}",
+            "rpm_last_version": "0.2.4+rev%{rev}"
         },
-        "40":{
-            "bzr_branch":"",
-            "bzr_last_rev":"279",
-            "bzr_rev":"",
-            "name":"switchboard-plug-parental-controls",
-            "package_name":"switchboard-plug-parental-controls",
-            "package_version":"0.1.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.2+rev%{rev}"
+        "40": {
+            "bzr_branch": "",
+            "bzr_last_rev": "279",
+            "bzr_rev": "",
+            "name": "switchboard-plug-parental-controls",
+            "package_name": "switchboard-plug-parental-controls",
+            "package_version": "0.1.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.2+rev%{rev}"
         },
-        "41":{
-            "bzr_branch":"",
-            "bzr_last_rev":"414",
-            "bzr_rev":"",
-            "name":"switchboard-plug-power",
-            "package_name":"switchboard-plug-power",
-            "package_version":"0.3",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.3+rev%{rev}"
+        "41": {
+            "bzr_branch": "",
+            "bzr_last_rev": "414",
+            "bzr_rev": "",
+            "name": "switchboard-plug-power",
+            "package_name": "switchboard-plug-power",
+            "package_version": "0.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.3+rev%{rev}"
         },
-        "42":{
-            "bzr_branch":"",
-            "bzr_last_rev":"139",
-            "bzr_rev":"",
-            "name":"switchboard-plug-printers",
-            "package_name":"switchboard-plug-printers",
-            "package_version":"0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1+rev%{rev}"
+        "42": {
+            "bzr_branch": "",
+            "bzr_last_rev": "139",
+            "bzr_rev": "",
+            "name": "switchboard-plug-printers",
+            "package_name": "switchboard-plug-printers",
+            "package_version": "0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1+rev%{rev}"
         },
-        "43":{
-            "bzr_branch":"",
-            "bzr_last_rev":"321",
-            "bzr_rev":"",
-            "name":"switchboard-plug-security-privacy",
-            "package_name":"switchboard-plug-security-privacy",
-            "package_version":"0.1.1.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.1.1+rev%{rev}"
+        "43": {
+            "bzr_branch": "",
+            "bzr_last_rev": "321",
+            "bzr_rev": "",
+            "name": "switchboard-plug-security-privacy",
+            "package_name": "switchboard-plug-security-privacy",
+            "package_version": "0.1.1.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1.1+rev%{rev}"
         },
-        "44":{
-            "bzr_branch":"",
-            "bzr_last_rev":"121",
-            "bzr_rev":"",
-            "name":"switchboard-plug-sharing",
-            "package_name":"switchboard-plug-sharing",
-            "package_version":"0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1+rev%{rev}"
+        "44": {
+            "bzr_branch": "",
+            "bzr_last_rev": "121",
+            "bzr_rev": "",
+            "name": "switchboard-plug-sharing",
+            "package_name": "switchboard-plug-sharing",
+            "package_version": "0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1+rev%{rev}"
         },
-        "45":{
-            "bzr_branch":"",
-            "bzr_last_rev":"285",
-            "bzr_rev":"",
-            "name":"switchboard-plug-useraccounts",
-            "package_name":"switchboard-plug-useraccounts",
-            "package_version":"0.1.3",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"0.1.3+rev%{rev}"
+        "45": {
+            "bzr_branch": "",
+            "bzr_last_rev": "285",
+            "bzr_rev": "",
+            "name": "switchboard-plug-useraccounts",
+            "package_name": "switchboard-plug-useraccounts",
+            "package_version": "0.1.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.3+rev%{rev}"
         },
-        "46":{
-            "bzr_branch":"",
-            "bzr_last_rev":"176",
-            "bzr_rev":"",
-            "name":"wingpanel",
-            "package_name":"wingpanel",
-            "package_version":"2.0.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.2+rev%{rev}"
+        "46": {
+            "bzr_branch": "",
+            "bzr_last_rev": "176",
+            "bzr_rev": "",
+            "name": "wingpanel",
+            "package_name": "wingpanel",
+            "package_version": "2.0.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.2+rev%{rev}"
         },
-        "47":{
-            "bzr_branch":"",
-            "bzr_last_rev":"23",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-ayatana",
-            "package_name":"wingpanel-indicator-ayatana",
-            "package_version":"2.0.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.2+rev%{rev}"
+        "47": {
+            "bzr_branch": "",
+            "bzr_last_rev": "23",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-ayatana",
+            "package_name": "wingpanel-indicator-ayatana",
+            "package_version": "2.0.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.2+rev%{rev}"
         },
-        "48":{
-            "bzr_branch":"",
-            "bzr_last_rev":"82",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-bluetooth",
-            "package_name":"wingpanel-indicator-bluetooth",
-            "package_version":"2.0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0+rev%{rev}"
+        "48": {
+            "bzr_branch": "",
+            "bzr_last_rev": "82",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-bluetooth",
+            "package_name": "wingpanel-indicator-bluetooth",
+            "package_version": "2.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0+rev%{rev}"
         },
-        "49":{
-            "bzr_branch":"",
-            "bzr_last_rev":"186",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-datetime",
-            "package_name":"wingpanel-indicator-datetime",
-            "package_version":"2.0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.1+rev%{rev}"
+        "49": {
+            "bzr_branch": "",
+            "bzr_last_rev": "186",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-datetime",
+            "package_name": "wingpanel-indicator-datetime",
+            "package_version": "2.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.1+rev%{rev}"
         },
-        "50":{
-            "bzr_branch":"",
-            "bzr_last_rev":"70",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-keyboard",
-            "package_name":"wingpanel-indicator-keyboard",
-            "package_version":"2.0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.1+rev%{rev}"
+        "50": {
+            "bzr_branch": "",
+            "bzr_last_rev": "70",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-keyboard",
+            "package_name": "wingpanel-indicator-keyboard",
+            "package_version": "2.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.1+rev%{rev}"
         },
-        "51":{
-            "bzr_branch":"",
-            "bzr_last_rev":"230",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-network",
-            "package_name":"wingpanel-indicator-network",
-            "package_version":"2.0.2",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.2+rev%{rev}"
+        "51": {
+            "bzr_branch": "",
+            "bzr_last_rev": "230",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-network",
+            "package_name": "wingpanel-indicator-network",
+            "package_version": "2.0.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.2+rev%{rev}"
         },
-        "52":{
-            "bzr_branch":"",
-            "bzr_last_rev":"151",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-notifications",
-            "package_name":"wingpanel-indicator-notifications",
-            "package_version":"2.0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0+rev%{rev}"
+        "52": {
+            "bzr_branch": "",
+            "bzr_last_rev": "151",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-notifications",
+            "package_name": "wingpanel-indicator-notifications",
+            "package_version": "2.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0+rev%{rev}"
         },
-        "53":{
-            "bzr_branch":"",
-            "bzr_last_rev":"207",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-power",
-            "package_name":"wingpanel-indicator-power",
-            "package_version":"2.0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.1+rev%{rev}"
+        "53": {
+            "bzr_branch": "",
+            "bzr_last_rev": "207",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-power",
+            "package_name": "wingpanel-indicator-power",
+            "package_version": "2.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.1+rev%{rev}"
         },
-        "54":{
-            "bzr_branch":"",
-            "bzr_last_rev":"129",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-session",
-            "package_name":"wingpanel-indicator-session",
-            "package_version":"2.0.1",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.1+rev%{rev}"
+        "54": {
+            "bzr_branch": "",
+            "bzr_last_rev": "129",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-session",
+            "package_name": "wingpanel-indicator-session",
+            "package_version": "2.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.1+rev%{rev}"
         },
-        "55":{
-            "bzr_branch":"",
-            "bzr_last_rev":"154",
-            "bzr_rev":"",
-            "name":"wingpanel-indicator-sound",
-            "package_name":"wingpanel-indicator-sound",
-            "package_version":"2.0.3",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.0.3+rev%{rev}"
+        "55": {
+            "bzr_branch": "",
+            "bzr_last_rev": "154",
+            "bzr_rev": "",
+            "name": "wingpanel-indicator-sound",
+            "package_name": "wingpanel-indicator-sound",
+            "package_version": "2.0.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.3+rev%{rev}"
         },
-        "56":{
-            "bzr_branch":"",
-            "bzr_last_rev":"763",
-            "bzr_rev":"",
-            "name":"switchboard",
-            "package_name":"switchboard",
-            "package_version":"2.2.0",
-            "rpm_last_release":"1%{?dist}",
-            "rpm_last_version":"2.2.0+rev%{rev}"
+        "56": {
+            "bzr_branch": "",
+            "bzr_last_rev": "763",
+            "bzr_rev": "",
+            "name": "switchboard",
+            "package_name": "switchboard",
+            "package_version": "2.2.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.2.0+rev%{rev}"
         }
     }
 }
