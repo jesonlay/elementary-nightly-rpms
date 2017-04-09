@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "535",
+            "bzr_last_rev": "538",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -266,7 +266,7 @@
         },
         "29": {
             "bzr_branch": "",
-            "bzr_last_rev": "135",
+            "bzr_last_rev": "137",
             "bzr_rev": "",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
@@ -276,7 +276,7 @@
         },
         "30": {
             "bzr_branch": "",
-            "bzr_last_rev": "227",
+            "bzr_last_rev": "229",
             "bzr_rev": "",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
@@ -366,12 +366,12 @@
         },
         "39": {
             "bzr_branch": "",
-            "bzr_last_rev": "578",
+            "bzr_last_rev": "580",
             "bzr_rev": "",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.4+rev%{rev}"
         },
         "40": {
