@@ -40,6 +40,9 @@ Used across various projects.
 
 
 %changelog
+* Mon Apr 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0+rev30-1
+- Update to latest snapshot.
+
 * Sat Apr 01 2017 Fabio Valentini <decathorpe@gmail.com> - 0+rev28-1
 - Update to latest snapshot.
 
