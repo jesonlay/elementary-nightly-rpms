@@ -1,7 +1,7 @@
 Summary:        Desktop-wide extension service
 Name:           contractor
 Version:        0.3.2+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 URL:            https://launchpad.net/contractor
 
@@ -54,6 +54,9 @@ popd
 
 
 %changelog
+* Tue Apr 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev143-1
+- Update to latest snapshot.
+
 * Sun Jan 29 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev141-2
 - Sync with fedora packaging.
 
