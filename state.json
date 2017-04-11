@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "557",
+            "bzr_last_rev": "564",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -135,7 +135,7 @@
         },
         "16": {
             "bzr_branch": "",
-            "bzr_last_rev": "76",
+            "bzr_last_rev": "78",
             "bzr_rev": "",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
@@ -155,7 +155,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2532",
+            "bzr_last_rev": "2535",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
