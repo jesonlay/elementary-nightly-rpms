@@ -22,7 +22,7 @@
         },
         "3": {
             "bzr_branch": "",
-            "bzr_last_rev": "53",
+            "bzr_last_rev": "55",
             "bzr_rev": "",
             "name": "cerbere",
             "package_name": "cerbere",
@@ -155,7 +155,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2535",
+            "bzr_last_rev": "2536",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -416,7 +416,7 @@
         },
         "44": {
             "bzr_branch": "",
-            "bzr_last_rev": "121",
+            "bzr_last_rev": "122",
             "bzr_rev": "",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
@@ -536,7 +536,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "763",
+            "bzr_last_rev": "767",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
