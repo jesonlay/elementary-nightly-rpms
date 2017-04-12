@@ -115,7 +115,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1009",
+            "bzr_last_rev": "1010",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -516,7 +516,7 @@
         },
         "54": {
             "bzr_branch": "",
-            "bzr_last_rev": "130",
+            "bzr_last_rev": "131",
             "bzr_rev": "",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
