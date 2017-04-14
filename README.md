@@ -63,8 +63,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | package name                          | f24                   | f25                   | Upstream Project URL                                          |
 | ------------------------------------- | --------------------- | --------------------- | ------------------------------------------------------------- |
 | elementary-icon-theme                 | DONE                  | DONE                  | <https://launchpad.net/elementaryicons>                       |
-| elementary-themes                     | DONE                  | DONE                  | <https://launchpad.net/egtk>                                  |
-| elementary-wallpapers                 | DONE                  | DONE                  | <https://github.com/elementary/wallpapers>                    |
+| elementary-theme                      | DONE                  | DONE                  | <https://launchpad.net/egtk>                                  |
 
 
 ### switchboard plugs
