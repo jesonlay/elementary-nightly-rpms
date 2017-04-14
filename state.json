@@ -12,7 +12,7 @@
         },
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "736",
+            "bzr_last_rev": "737",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -125,7 +125,7 @@
         },
         "15": {
             "bzr_branch": "",
-            "bzr_last_rev": "2056",
+            "bzr_last_rev": "2057",
             "bzr_rev": "",
             "name": "noise",
             "package_name": "noise",
@@ -135,7 +135,7 @@
         },
         "16": {
             "bzr_branch": "",
-            "bzr_last_rev": "78",
+            "bzr_last_rev": "80",
             "bzr_rev": "",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
@@ -155,7 +155,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2536",
+            "bzr_last_rev": "2537",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -175,7 +175,7 @@
         },
         "20": {
             "bzr_branch": "",
-            "bzr_last_rev": "65",
+            "bzr_last_rev": "66",
             "bzr_rev": "",
             "name": "pantheon-notes",
             "package_name": "pantheon-notes",
@@ -185,7 +185,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3185",
+            "bzr_last_rev": "3186",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
@@ -226,7 +226,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1842",
+            "bzr_last_rev": "1843",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -236,7 +236,7 @@
         },
         "26": {
             "bzr_branch": "",
-            "bzr_last_rev": "319",
+            "bzr_last_rev": "320",
             "bzr_rev": "",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
@@ -366,7 +366,7 @@
         },
         "39": {
             "bzr_branch": "",
-            "bzr_last_rev": "580",
+            "bzr_last_rev": "581",
             "bzr_rev": "",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
@@ -386,7 +386,7 @@
         },
         "41": {
             "bzr_branch": "",
-            "bzr_last_rev": "415",
+            "bzr_last_rev": "416",
             "bzr_rev": "",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
