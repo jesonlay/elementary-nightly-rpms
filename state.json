@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "564",
+            "bzr_last_rev": "580",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -124,7 +124,7 @@
         },
         "16": {
             "bzr_branch": "",
-            "bzr_last_rev": "80",
+            "bzr_last_rev": "81",
             "bzr_rev": "",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
@@ -144,7 +144,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2537",
+            "bzr_last_rev": "2538",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -174,7 +174,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3186",
+            "bzr_last_rev": "3187",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
@@ -225,7 +225,7 @@
         },
         "26": {
             "bzr_branch": "",
-            "bzr_last_rev": "320",
+            "bzr_last_rev": "321",
             "bzr_rev": "",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
@@ -355,7 +355,7 @@
         },
         "39": {
             "bzr_branch": "",
-            "bzr_last_rev": "581",
+            "bzr_last_rev": "582",
             "bzr_rev": "",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
@@ -385,7 +385,7 @@
         },
         "42": {
             "bzr_branch": "",
-            "bzr_last_rev": "139",
+            "bzr_last_rev": "140",
             "bzr_rev": "",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
@@ -505,7 +505,7 @@
         },
         "54": {
             "bzr_branch": "",
-            "bzr_last_rev": "133",
+            "bzr_last_rev": "148",
             "bzr_rev": "",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
