@@ -353,16 +353,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.1+rev%{rev}"
         },
-        "39": {
-            "bzr_branch": "",
-            "bzr_last_rev": "582",
-            "bzr_rev": "",
-            "name": "switchboard-plug-pantheon-shell",
-            "package_name": "switchboard-plug-pantheon-shell",
-            "package_version": "0.2.4",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.2.4+rev%{rev}"
-        },
         "40": {
             "bzr_branch": "",
             "bzr_last_rev": "279",
@@ -532,6 +522,17 @@
             "package_version": "2.2.0",
             "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.2.0+rev%{rev}"
+        },
+        "57": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "64790092455f32f6103f9ed12a7581f63321220d",
+            "git_last_date": "170415.002553",
+            "name": "switchboard-plug-pantheon-shell",
+            "package_name": "switchboard-plug-pantheon-shell",
+            "package_version": "0.2.5",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.5+git%{date}.%{commit}"
         }
     }
 }
