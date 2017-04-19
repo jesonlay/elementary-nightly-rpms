@@ -54,6 +54,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Apr 19 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev232-1
+- Update to latest snapshot.
+
 * Tue Apr 18 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev231-1
 - Update to latest snapshot.
 

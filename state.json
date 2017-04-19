@@ -12,7 +12,7 @@
         },
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "737",
+            "bzr_last_rev": "738",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -144,7 +144,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2540",
+            "bzr_last_rev": "2541",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -235,7 +235,7 @@
         },
         "27": {
             "bzr_branch": "",
-            "bzr_last_rev": "758",
+            "bzr_last_rev": "759",
             "bzr_rev": "",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
@@ -365,7 +365,7 @@
         },
         "41": {
             "bzr_branch": "",
-            "bzr_last_rev": "416",
+            "bzr_last_rev": "417",
             "bzr_rev": "",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
@@ -385,7 +385,7 @@
         },
         "43": {
             "bzr_branch": "",
-            "bzr_last_rev": "321",
+            "bzr_last_rev": "322",
             "bzr_rev": "",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
@@ -465,7 +465,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "231",
+            "bzr_last_rev": "232",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
