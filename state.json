@@ -12,7 +12,7 @@
         },
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "738",
+            "bzr_last_rev": "739",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -124,7 +124,7 @@
         },
         "16": {
             "bzr_branch": "",
-            "bzr_last_rev": "81",
+            "bzr_last_rev": "82",
             "bzr_rev": "",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
@@ -144,7 +144,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2541",
+            "bzr_last_rev": "2542",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -154,7 +154,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "544",
+            "bzr_last_rev": "545",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -385,7 +385,7 @@
         },
         "43": {
             "bzr_branch": "",
-            "bzr_last_rev": "322",
+            "bzr_last_rev": "323",
             "bzr_rev": "",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
