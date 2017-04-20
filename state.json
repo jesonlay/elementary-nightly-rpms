@@ -124,7 +124,7 @@
         },
         "16": {
             "bzr_branch": "",
-            "bzr_last_rev": "82",
+            "bzr_last_rev": "83",
             "bzr_rev": "",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
