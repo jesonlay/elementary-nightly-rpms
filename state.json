@@ -225,7 +225,7 @@
         },
         "26": {
             "bzr_branch": "",
-            "bzr_last_rev": "323",
+            "bzr_last_rev": "324",
             "bzr_rev": "",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
