@@ -223,16 +223,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4+rev%{rev}"
         },
-        "26": {
-            "bzr_branch": "",
-            "bzr_last_rev": "326",
-            "bzr_rev": "",
-            "name": "screenshot-tool",
-            "package_name": "screenshot-tool",
-            "package_version": "0.1.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.1+rev%{rev}"
-        },
         "27": {
             "bzr_branch": "",
             "bzr_last_rev": "759",
@@ -533,6 +523,17 @@
             "package_version": "0.2.5",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.5+git%{date}.%{commit}"
+        },
+        "58": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "e23825a1bb64c6ed1b11b3c034577c15636a7df5",
+            "git_last_date": "170423.073915",
+            "name": "screenshot-tool",
+            "package_name": "screenshot-tool",
+            "package_version": "0.1.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         }
     }
 }
