@@ -225,7 +225,7 @@
         },
         "26": {
             "bzr_branch": "",
-            "bzr_last_rev": "325",
+            "bzr_last_rev": "326",
             "bzr_rev": "",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
@@ -355,7 +355,7 @@
         },
         "40": {
             "bzr_branch": "",
-            "bzr_last_rev": "279",
+            "bzr_last_rev": "282",
             "bzr_rev": "",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
