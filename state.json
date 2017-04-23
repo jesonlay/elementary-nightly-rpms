@@ -545,6 +545,17 @@
             "package_version": "1.0.6",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0.6+git%{date}.%{commit}"
+        },
+        "60": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "03d9c64c0cd1b9a5c399e531f6d83d2f2998094c",
+            "git_last_date": "161228.201347",
+            "name": "libgsignon-glib",
+            "package_name": "libgsignon-glib",
+            "package_version": "2.4.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         }
     }
 }
