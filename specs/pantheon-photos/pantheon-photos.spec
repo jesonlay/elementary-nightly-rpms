@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 URL:            http://launchpad.net/pantheon-photos
 
@@ -71,7 +71,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %files -f pantheon-photos.lang
-%doc AUTHORS MAINTAINERS NEWS README THANKS
+%doc AUTHORS README.md THANKS
 %license COPYING
 
 %{_bindir}/pantheon-photos
@@ -88,6 +88,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Mon Apr 24 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev3189-2
+- Adapt to upstream changes.
+
 * Mon Apr 17 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev3188-1
 - Update to latest snapshot.
 
