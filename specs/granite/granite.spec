@@ -1,7 +1,7 @@
 Name:           granite
 Summary:        elementary Development Library
 Version:        0.4.0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3+
 URL:            https://launchpad.net/granite
 
@@ -76,7 +76,7 @@ fi
 
 
 %files -f granite.lang
-%doc AUTHORS HACKING README
+%doc AUTHORS README.md
 %license COPYING
 
 %{_libdir}/libgranite.so.3
@@ -103,6 +103,9 @@ fi
 
 
 %changelog
+* Mon Apr 24 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1049-2
+- Adapt to upstream changes.
+
 * Fri Apr 21 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.1+rev1045-1
 - Update to latest snapshot.
 
