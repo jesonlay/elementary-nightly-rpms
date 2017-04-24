@@ -154,7 +154,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "546",
+            "bzr_last_rev": "547",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
