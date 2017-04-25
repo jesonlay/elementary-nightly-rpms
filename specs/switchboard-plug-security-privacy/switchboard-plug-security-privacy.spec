@@ -3,7 +3,7 @@
 Summary:        Switchboard Privacy and Security Plug
 Name:           switchboard-plug-security-privacy
 Version:        0.1.1.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            https://launchpad.net/switchboard-plug-security-privacy
 
@@ -57,10 +57,14 @@ Designed for elementary OS.
 
 %{_libdir}/switchboard/personal/pantheon-security-privacy/
 
+%{_datadir}/glib-2.0/schemas/org.pantheon.security-privacy.gschema.xml
 %{_datadir}/polkit-1/actions/org.pantheon.security-privacy.policy
 
 
 %changelog
+* Tue Apr 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.1+rev329-2
+- Adapt to upstream changes.
+
 * Tue Apr 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.1+rev329-1
 - Update to latest snapshot.
 
