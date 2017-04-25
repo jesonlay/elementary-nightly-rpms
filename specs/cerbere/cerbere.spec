@@ -65,6 +65,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/cerbere.desktop
 
 
 %changelog
+* Tue Apr 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev56-1
+- Update to latest snapshot.
+
 * Wed Apr 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev55-1
 - Update to latest snapshot.
 
