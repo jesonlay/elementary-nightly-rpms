@@ -3,7 +3,7 @@
 Name:           noise
 Summary:        The official elementary music player
 Version:        0.4.0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 URL:            https://launchpad.net/noise
 
@@ -105,7 +105,7 @@ fi
 
 
 %files -f noise.lang
-%doc AUTHORS NEWS README
+%doc AUTHORS README.md
 %license COPYING
 
 %{_bindir}/noise
@@ -133,6 +133,9 @@ fi
 
 
 %changelog
+* Tue Apr 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2061-2
+- Adapt to upstream changes.
+
 * Tue Apr 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev2061-1
 - Update to latest snapshot.
 
