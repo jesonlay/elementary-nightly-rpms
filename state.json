@@ -174,12 +174,12 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3189",
+            "bzr_last_rev": "3190",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.2+rev%{rev}"
         },
         "22": {
