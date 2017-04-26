@@ -25,7 +25,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | noise                                 | DONE                  | DONE                  | <https://launchpad.net/noise>                                 |
 | pantheon-calculator                   | DONE                  | DONE                  | <https://launchpad.net/pantheon-calculator>                   |
 | pantheon-files                        | DONE                  | DONE                  | <https://launchpad.net/pantheon-files>                        |
-| pantheon-mail                         | TBD                   | TBD                   | <https://launchpad.net/pantheon-mail>                         |
+| pantheon-mail                         | DONE                  | DONE                  | <https://launchpad.net/pantheon-mail>                         |
 | pantheon-notes                        | DONE                  | DONE                  | <https://launchpad.net/pantheon-notes>                        |
 | pantheon-photos                       | DONE                  | DONE                  | <https://launchpad.net/pantheon-photos>                       |
 | pantheon-terminal                     | DONE                  | DONE                  | <https://launchpad.net/pantheon-terminal>                     |
@@ -33,6 +33,8 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | screenshot-tool                       | DONE                  | DONE                  | <https://launchpad.net/screenshot-tool>                       |
 | snap-photobooth                       | DONE                  | DONE                  | <https://launchpad.net/snap-elementary>                       |
 | switchboard                           | DONE                  | DONE                  | <https://launchpad.net/switchboard>                           |
+
+- `pantheon-mail` cannot be compiled on fedora rawhide right now, since `webkitgtk-3.0` has been retired for security reasons and `webkit2gtk-4.0` isn't supported by `pantheon-mail` yet
 
 
 ### Pantheon desktop
