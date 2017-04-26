@@ -94,12 +94,12 @@
         },
         "13": {
             "bzr_branch": "",
-            "bzr_last_rev": "1049",
+            "bzr_last_rev": "1050",
             "bzr_rev": "",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.0.1+rev%{rev}"
         },
         "14": {
