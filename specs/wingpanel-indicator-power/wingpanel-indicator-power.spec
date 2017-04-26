@@ -3,7 +3,7 @@
 Summary:        a power indicator for wingpanel
 Name:           wingpanel-indicator-power
 Version:        2.0.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-power
 
@@ -21,6 +21,7 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libbamf3)
 BuildRequires:  pkgconfig(libgtop-2.0)
+BuildRequires:  pkgconfig(libudev)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
 
@@ -55,6 +56,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Apr 26 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev215-2
+- Add new BR: pkgconfig(libudev).
+
 * Wed Apr 26 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev215-1
 - Update to latest snapshot.
 
