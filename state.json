@@ -315,7 +315,7 @@
         },
         "36": {
             "bzr_branch": "",
-            "bzr_last_rev": "165",
+            "bzr_last_rev": "166",
             "bzr_rev": "",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
