@@ -556,6 +556,17 @@
             "package_version": "2.4.1",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
+        },
+        "61": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "585ae7b10625d067c21eceb3a61545109024cb81",
+            "git_last_date": "170410.105449",
+            "name": "pantheon-mail",
+            "package_name": "pantheon-mail",
+            "package_version": "1.0.5",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "1.0.5+git%{date}.%{commit}"
         }
     }
 }
