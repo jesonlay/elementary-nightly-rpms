@@ -144,7 +144,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2543",
+            "bzr_last_rev": "2544",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -174,7 +174,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3190",
+            "bzr_last_rev": "3191",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
@@ -415,7 +415,7 @@
         },
         "47": {
             "bzr_branch": "",
-            "bzr_last_rev": "23",
+            "bzr_last_rev": "25",
             "bzr_rev": "",
             "name": "wingpanel-indicator-ayatana",
             "package_name": "wingpanel-indicator-ayatana",
@@ -435,7 +435,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "187",
+            "bzr_last_rev": "188",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -445,7 +445,7 @@
         },
         "50": {
             "bzr_branch": "",
-            "bzr_last_rev": "70",
+            "bzr_last_rev": "72",
             "bzr_rev": "",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
