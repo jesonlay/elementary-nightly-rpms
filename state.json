@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "588",
+            "bzr_last_rev": "591",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -495,7 +495,7 @@
         },
         "55": {
             "bzr_branch": "",
-            "bzr_last_rev": "159",
+            "bzr_last_rev": "161",
             "bzr_rev": "",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
