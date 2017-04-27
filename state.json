@@ -144,7 +144,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2544",
+            "bzr_last_rev": "2545",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -365,7 +365,7 @@
         },
         "42": {
             "bzr_branch": "",
-            "bzr_last_rev": "140",
+            "bzr_last_rev": "141",
             "bzr_rev": "",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
