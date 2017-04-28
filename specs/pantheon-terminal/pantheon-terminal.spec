@@ -1,7 +1,7 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4.0.4+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
@@ -41,9 +41,6 @@ Designed for elementary OS.
 
 
 %build
-export CFLAGS="$RPM_OPT_FLAGS -fPIC "
-export LDFLAGS="$RPM_OPT_FLAGS -fPIC "
-
 %cmake
 %make_build
 
@@ -59,7 +56,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %files -f pantheon-terminal.lang
-%doc AUTHORS HACKING README
+%doc AUTHORS README.md
 %license LICENSE
 
 %{_bindir}/pantheon-terminal
@@ -74,6 +71,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Fri Apr 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.4+rev955-2
+- Adapt to upstream file changes.
+
 * Thu Apr 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.4+rev955-1
 - Update to latest snapshot.
 
