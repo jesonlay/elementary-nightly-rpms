@@ -12,12 +12,12 @@
         },
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "742",
+            "bzr_last_rev": "743",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
             "package_version": "0.2.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.2+rev%{rev}"
         },
         "3": {
@@ -94,7 +94,7 @@
         },
         "13": {
             "bzr_branch": "",
-            "bzr_last_rev": "1050",
+            "bzr_last_rev": "1051",
             "bzr_rev": "",
             "name": "granite",
             "package_name": "granite",
@@ -104,22 +104,22 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1012",
+            "bzr_last_rev": "1013",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.0.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.0.2+rev%{rev}"
         },
         "15": {
             "bzr_branch": "",
-            "bzr_last_rev": "2061",
+            "bzr_last_rev": "2062",
             "bzr_rev": "",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.0.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.0.2+rev%{rev}"
         },
         "16": {
@@ -195,12 +195,12 @@
         },
         "23": {
             "bzr_branch": "",
-            "bzr_last_rev": "955",
+            "bzr_last_rev": "956",
             "bzr_rev": "",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.0.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.0.4+rev%{rev}"
         },
         "24": {
