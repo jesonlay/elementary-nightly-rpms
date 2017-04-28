@@ -174,7 +174,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3191",
+            "bzr_last_rev": "3192",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
@@ -335,7 +335,7 @@
         },
         "38": {
             "bzr_branch": "",
-            "bzr_last_rev": "213",
+            "bzr_last_rev": "214",
             "bzr_rev": "",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
@@ -505,12 +505,12 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "767",
+            "bzr_last_rev": "770",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.0+rev%{rev}"
         },
         "57": {
