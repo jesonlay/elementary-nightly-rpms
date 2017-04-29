@@ -2,7 +2,7 @@
 
 Summary:        Switchboard plug to configure DateTime settings
 Name:           switchboard-plug-datetime
-Version:        0.1.1.1+rev%{rev}
+Version:        0.1.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-datetime
@@ -50,6 +50,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sat Apr 29 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git170421.132822.df62aaaf-1
+- Update to version 0.1.2.
+
 * Fri Apr 21 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1.1+rev221-1
 - Update to latest snapshot.
 
