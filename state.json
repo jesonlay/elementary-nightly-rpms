@@ -578,6 +578,17 @@
             "package_version": "0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
+        },
+        "63": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "5a0270aa7b580304452bf95a30d7fd634a8cdd9b",
+            "git_last_date": "170417.235528",
+            "name": "switchboard-plug-onlineaccounts",
+            "package_name": "switchboard-plug-onlineaccounts",
+            "package_version": "0.3.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.3.0.1+git%{date}.%{commit}"
         }
     }
 }

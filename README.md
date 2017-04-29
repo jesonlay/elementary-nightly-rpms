@@ -77,7 +77,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | switchboard-plug-mouse-touchpad       | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-mouse-touchpad>       |
 | switchboard-plug-networking           | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-networking>           |
 | switchboard-plug-notifications        | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-notifications>        |
-| switchboard-plug-onlineaccounts       | TBD                   | TBD                   | <https://launchpad.net/switchboard-plug-onlineaccounts>       |
+| switchboard-plug-onlineaccounts       | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-onlineaccounts>       |
 | switchboard-plug-pantheon-shell       | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-pantheon-shell>       |
 | switchboard-plug-parental-controls    | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-parental-controls>    |
 | switchboard-plug-power                | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-power>                |
