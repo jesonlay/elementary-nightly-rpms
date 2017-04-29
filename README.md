@@ -41,6 +41,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 
 | package name                          | f25                   | f26                   | Upstream Project URL                                          |
 | ------------------------------------- | --------------------- | --------------------- | ------------------------------------------------------------- |
+| capnet-assist                         | DONE                  | DONE                  | <https://launchpad.net/capnet-assist>                         |
 | cerbere                               | DONE                  | DONE                  | <https://launchpad.net/cerbere>                               |
 | contractor                            | DONE                  | DONE                  | <https://launchpad.net/contractor>                            |
 | elementary-dpms-helper                | DONE                  | DONE                  |                                                               |
