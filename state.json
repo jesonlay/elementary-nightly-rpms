@@ -475,12 +475,12 @@
         },
         "53": {
             "bzr_branch": "",
-            "bzr_last_rev": "215",
+            "bzr_last_rev": "216",
             "bzr_rev": "",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.1+rev%{rev}"
         },
         "54": {
