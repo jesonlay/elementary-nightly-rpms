@@ -46,6 +46,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | elementary-dpms-helper                | DONE                  | DONE                  |                                                               |
 | gala                                  | DONE                  | DONE                  | <https://launchpad.net/gala>                                  |
 | plank                                 | DONE                  | DONE                  | <https://launchpad.net/plank>                                 |
+| pantheon-agent-geoclue2               | DONE                  | DONE                  | <https://launchpad.net/pantheon-agent-geoclue2>               |
 | pantheon-agent-polkit                 | DONE                  | DONE                  | <https://launchpad.net/pantheon-agent-polkit>                 |
 | pantheon-greeter                      | DONE                  | DONE                  | <https://launchpad.net/pantheon-greeter>                      |
 | pantheon-session-settings             | DONE                  | DONE                  | <https://github.com/decathorpe/pantheon-session-settings>     |
