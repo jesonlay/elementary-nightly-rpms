@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "591",
+            "bzr_last_rev": "592",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -475,7 +475,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "777",
+            "bzr_last_rev": "780",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
