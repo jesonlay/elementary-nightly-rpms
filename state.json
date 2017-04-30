@@ -124,7 +124,7 @@
         },
         "17": {
             "bzr_branch": "",
-            "bzr_last_rev": "328",
+            "bzr_last_rev": "329",
             "bzr_rev": "",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
@@ -235,7 +235,7 @@
         },
         "29": {
             "bzr_branch": "",
-            "bzr_last_rev": "138",
+            "bzr_last_rev": "139",
             "bzr_rev": "",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
@@ -475,7 +475,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "772",
+            "bzr_last_rev": "775",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
