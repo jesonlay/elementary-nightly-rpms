@@ -1,7 +1,7 @@
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.0.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://github.com/elementary/stylesheet
 
@@ -94,6 +94,9 @@ cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %changelog
+* Mon May 01 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.4+git170501.094928.bf0893a0-1
+- Update to latest snapshot.
+
 * Mon May 01 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.4+git170430.094741.471ffaeb-2
 - Adapt to upstream file changes.
 

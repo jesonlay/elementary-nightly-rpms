@@ -84,12 +84,12 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "471ffaebc461d8a8d4e5e2f14f8d650987a91fbc",
-            "git_last_date": "170430.094741",
+            "git_last_commit": "bf0893a04128cf60e508b38753e39f755a5a2321",
+            "git_last_date": "170501.094928",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.0.4+git%{date}.%{commit}"
         },
         "13": {
