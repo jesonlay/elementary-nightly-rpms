@@ -1,11 +1,9 @@
-%global debug_package %{nil}
-
-Summary:        a power indicator for wingpanel
 Name:           wingpanel-indicator-power
-Version:        2.0.1+rev%{rev}
+Summary:        Power indicator for wingpanel
+Version:        2.1.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/wingpanel-indicator-power
+URL:            http://github.com/elementary/wingpanel-indicator-power
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
@@ -26,7 +24,7 @@ BuildRequires:  pkgconfig(wingpanel-2.0)
 
 
 %description
-a network indicator for wingpanel
+a power indicator for wingpanel
 
 
 %prep
@@ -34,17 +32,18 @@ a network indicator for wingpanel
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang power-indicator
-
-
-%clean
-rm -rf %{buildroot}
 
 
 %files -f power-indicator.lang
@@ -56,6 +55,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon May 01 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git170428.232602.80f60327-1
+- Update to version 2.1.0.
+
 * Sat Apr 29 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev216-1
 - Update to latest snapshot.
 
