@@ -164,7 +164,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3192",
+            "bzr_last_rev": "3193",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
@@ -205,7 +205,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1843",
+            "bzr_last_rev": "1845",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -265,7 +265,7 @@
         },
         "33": {
             "bzr_branch": "",
-            "bzr_last_rev": "191",
+            "bzr_last_rev": "192",
             "bzr_rev": "",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
