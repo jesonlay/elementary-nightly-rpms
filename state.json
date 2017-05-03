@@ -263,16 +263,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.0+rev%{rev}"
         },
-        "33": {
-            "bzr_branch": "",
-            "bzr_last_rev": "192",
-            "bzr_rev": "",
-            "name": "switchboard-plug-display",
-            "package_name": "switchboard-plug-display",
-            "package_version": "0.1.2.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.2.1+rev%{rev}"
-        },
         "34": {
             "bzr_branch": "",
             "bzr_last_rev": "543",
@@ -604,6 +594,17 @@
             "package_version": "2.1.0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
+        },
+        "69": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "00cc5a7ddfec64490a6f108c9b971782d2f1928e",
+            "git_last_date": "170502.152618",
+            "name": "switchboard-plug-display",
+            "package_name": "switchboard-plug-display",
+            "package_version": "0.1.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         }
     }
 }

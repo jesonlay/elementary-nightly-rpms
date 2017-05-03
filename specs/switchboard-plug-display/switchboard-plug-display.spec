@@ -2,7 +2,7 @@
 
 Summary:        Switchboard plug to show displays information
 Name:           switchboard-plug-display
-Version:        0.1.2.1+rev%{rev}
+Version:        0.1.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 URL:            https://launchpad.net/switchboard-plug-display
@@ -50,6 +50,9 @@ Built for elementary OS.
 
 
 %changelog
+* Wed May 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git170502.152618.00cc5a7d-1
+- Update to version 0.1.3.
+
 * Tue May 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.1+rev192-1
 - Update to latest snapshot.
 
