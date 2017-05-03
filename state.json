@@ -94,7 +94,7 @@
         },
         "13": {
             "bzr_branch": "",
-            "bzr_last_rev": "1056",
+            "bzr_last_rev": "1060",
             "bzr_rev": "",
             "name": "granite",
             "package_name": "granite",
@@ -455,7 +455,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "781",
+            "bzr_last_rev": "782",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
