@@ -1,7 +1,7 @@
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        2.0.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
 
@@ -27,18 +27,14 @@ BuildRequires:  pkgconfig(libnotify)
 
 %description
 Stylish top panel that holds indicators and spawns an application
-launcher
-
-Designed for elementary OS.
+launcher.
 
 
 %package        devel
 Summary:        Stylish top panel (development files)
 %description    devel
 Stylish top panel that holds indicators and spawns an application
-launcher
-
-Designed for elementary OS.
+launcher.
 
 This package contains the files required for developing for wingpanel.
 
@@ -61,8 +57,19 @@ This package contains the files required for developing for wingpanel.
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
-%post -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
+%post
+/sbin/ldconfig
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
+
+%postun
+/sbin/ldconfig
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files -f wingpanel.lang
@@ -76,6 +83,7 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 %{_datadir}/applications/wingpanel.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.gschema.xml
+%{_datadir}/icons/hicolor/scalable/apps/wingpanel.svg
 
 
 %files          devel
@@ -89,6 +97,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %changelog
+* Wed May 03 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev180-2
+- Adapt to upstream file changes.
+
 * Wed May 03 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev180-1
 - Update to latest snapshot.
 
