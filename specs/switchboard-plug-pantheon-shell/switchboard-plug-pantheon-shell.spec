@@ -62,6 +62,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed May 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git170503.225411.cfa94e53-1
+- Update to latest snapshot.
+
 * Sun Apr 30 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git170418.173340.c6dfa430-1
 - Update to latest snapshot.
 
