@@ -2,7 +2,7 @@
 
 Summary:        Keyboard indicator for wingpanel
 Name:           wingpanel-indicator-keyboard
-Version:        2.0.1+rev%{rev}
+Version:        2.0.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/wingpanel-indicator-keyboard
@@ -48,6 +48,9 @@ A keyboard indicator for wingpanel.
 
 
 %changelog
+* Thu May 04 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170503.171235.7e9d9ee8-1
+- Update to version 2.0.2.
+
 * Thu May 04 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev87-1
 - Update to latest snapshot.
 
