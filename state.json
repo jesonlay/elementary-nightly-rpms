@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "592",
+            "bzr_last_rev": "650",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -73,8 +73,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "37f345e33bdeef1d7bfa08757612deee183358d6",
-            "git_last_date": "170504.121945",
+            "git_last_commit": "1f24c818b0d9c751dddfe162724bf03b4f168a2b",
+            "git_last_date": "170504.225855",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.0.3",
@@ -94,7 +94,7 @@
         },
         "13": {
             "bzr_branch": "",
-            "bzr_last_rev": "1061",
+            "bzr_last_rev": "1063",
             "bzr_rev": "",
             "name": "granite",
             "package_name": "granite",
@@ -415,7 +415,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "236",
+            "bzr_last_rev": "252",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
