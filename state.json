@@ -94,7 +94,7 @@
         },
         "13": {
             "bzr_branch": "",
-            "bzr_last_rev": "1063",
+            "bzr_last_rev": "1062",
             "bzr_rev": "",
             "name": "granite",
             "package_name": "granite",
@@ -215,7 +215,7 @@
         },
         "27": {
             "bzr_branch": "",
-            "bzr_last_rev": "759",
+            "bzr_last_rev": "760",
             "bzr_rev": "",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
