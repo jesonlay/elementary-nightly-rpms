@@ -205,7 +205,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1846",
+            "bzr_last_rev": "1855",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -215,7 +215,7 @@
         },
         "27": {
             "bzr_branch": "",
-            "bzr_last_rev": "760",
+            "bzr_last_rev": "762",
             "bzr_rev": "",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
