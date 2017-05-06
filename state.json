@@ -94,7 +94,7 @@
         },
         "13": {
             "bzr_branch": "",
-            "bzr_last_rev": "1062",
+            "bzr_last_rev": "1063",
             "bzr_rev": "",
             "name": "granite",
             "package_name": "granite",
@@ -134,7 +134,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2549",
+            "bzr_last_rev": "2550",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -154,7 +154,7 @@
         },
         "20": {
             "bzr_branch": "",
-            "bzr_last_rev": "66",
+            "bzr_last_rev": "67",
             "bzr_rev": "",
             "name": "pantheon-notes",
             "package_name": "pantheon-notes",
@@ -185,7 +185,7 @@
         },
         "23": {
             "bzr_branch": "",
-            "bzr_last_rev": "958",
+            "bzr_last_rev": "959",
             "bzr_rev": "",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
@@ -295,7 +295,7 @@
         },
         "37": {
             "bzr_branch": "",
-            "bzr_last_rev": "382",
+            "bzr_last_rev": "383",
             "bzr_rev": "",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
