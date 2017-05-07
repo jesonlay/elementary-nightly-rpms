@@ -183,16 +183,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.6.0+git%{date}.%{commit}"
         },
-        "23": {
-            "bzr_branch": "",
-            "bzr_last_rev": "961",
-            "bzr_rev": "",
-            "name": "pantheon-terminal",
-            "package_name": "pantheon-terminal",
-            "package_version": "0.4.0.4",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.4.0.4+rev%{rev}"
-        },
         "24": {
             "bzr_branch": "",
             "bzr_last_rev": "1598",
@@ -606,6 +596,17 @@
             "package_version": "2.0.2",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+git%{date}.%{commit}"
+        },
+        "71": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "01d1039c6719087989de05d6b59e95dbc0091be7",
+            "git_last_date": "170506.221628",
+            "name": "pantheon-terminal",
+            "package_name": "pantheon-terminal",
+            "package_version": "0.4.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         }
     }
 }
