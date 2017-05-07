@@ -92,16 +92,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.0.4+git%{date}.%{commit}"
         },
-        "13": {
-            "bzr_branch": "",
-            "bzr_last_rev": "1068",
-            "bzr_rev": "",
-            "name": "granite",
-            "package_name": "granite",
-            "package_version": "0.4.0.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.4.0.1+rev%{rev}"
-        },
         "14": {
             "bzr_branch": "",
             "bzr_last_rev": "1014",
@@ -604,6 +594,17 @@
             "git_last_date": "170506.221628",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
+            "package_version": "0.4.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.4.1+git%{date}.%{commit}"
+        },
+        "72": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "9e74f9661c2a5d668c45e761b924a3f19b6e33d2",
+            "git_last_date": "170506.210852",
+            "name": "granite",
+            "package_name": "granite",
             "package_version": "0.4.1",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
