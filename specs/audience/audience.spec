@@ -29,7 +29,7 @@ BuildRequires:  vala
 BuildRequires:  pkgconfig(clutter-gst-3.0)
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(granite) >= 0.3.0
+BuildRequires:  pkgconfig(granite) >= 0.4.1
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires:  pkgconfig(gstreamer-tag-1.0)
@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Sun May 07 2017 Fabio Valentini <decathorpe@gmail.com>
+- Require granite >= 0.4.1.
+
 * Sun May 07 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev744-1
 - Update to latest snapshot.
 
