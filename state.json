@@ -185,12 +185,12 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1855",
+            "bzr_last_rev": "1856",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
             "package_version": "2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4+rev%{rev}"
         },
         "27": {
