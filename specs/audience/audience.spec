@@ -98,6 +98,9 @@ fi
 
 
 %changelog
+* Sun May 07 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev750-1
+- Update to latest snapshot.
+
 * Sun May 07 2017 Fabio Valentini <decathorpe@gmail.com>
 - Require granite >= 0.4.1.
 
