@@ -134,13 +134,13 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2553",
+            "bzr_last_rev": "2554",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
-            "package_version": "0.3.3",
+            "package_version": "0.3.4",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.3.3+rev%{rev}"
+            "rpm_last_version": "0.3.4+rev%{rev}"
         },
         "19": {
             "bzr_branch": "",
