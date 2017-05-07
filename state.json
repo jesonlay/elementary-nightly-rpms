@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "651",
+            "bzr_last_rev": "658",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -124,7 +124,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2555",
+            "bzr_last_rev": "2556",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -195,7 +195,7 @@
         },
         "27": {
             "bzr_branch": "",
-            "bzr_last_rev": "768",
+            "bzr_last_rev": "769",
             "bzr_rev": "",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
