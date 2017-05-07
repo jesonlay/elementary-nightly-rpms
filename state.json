@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "650",
+            "bzr_last_rev": "651",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -12,7 +12,7 @@
         },
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "743",
+            "bzr_last_rev": "744",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -84,8 +84,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bf0893a04128cf60e508b38753e39f755a5a2321",
-            "git_last_date": "170501.094928",
+            "git_last_commit": "6276190397960144225197c2c57c76dc60d64fde",
+            "git_last_date": "170506.180348",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
@@ -94,7 +94,7 @@
         },
         "13": {
             "bzr_branch": "",
-            "bzr_last_rev": "1063",
+            "bzr_last_rev": "1068",
             "bzr_rev": "",
             "name": "granite",
             "package_name": "granite",
@@ -185,7 +185,7 @@
         },
         "23": {
             "bzr_branch": "",
-            "bzr_last_rev": "959",
+            "bzr_last_rev": "961",
             "bzr_rev": "",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
