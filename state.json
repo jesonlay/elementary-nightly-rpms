@@ -94,7 +94,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1014",
+            "bzr_last_rev": "1032",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -114,7 +114,7 @@
         },
         "17": {
             "bzr_branch": "",
-            "bzr_last_rev": "331",
+            "bzr_last_rev": "343",
             "bzr_rev": "",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
@@ -601,8 +601,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9e74f9661c2a5d668c45e761b924a3f19b6e33d2",
-            "git_last_date": "170506.210852",
+            "git_last_commit": "ff046522625eed06238daf5645136566dc8f0afd",
+            "git_last_date": "170508.194643",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
