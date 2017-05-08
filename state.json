@@ -62,7 +62,7 @@
         },
         "8": {
             "bzr_branch": "",
-            "bzr_last_rev": "219",
+            "bzr_last_rev": "220",
             "bzr_rev": "",
             "name": "elementary-dpms-helper",
             "package_name": "elementary-dpms-helper",
@@ -124,7 +124,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2556",
+            "bzr_last_rev": "2557",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -215,7 +215,7 @@
         },
         "29": {
             "bzr_branch": "",
-            "bzr_last_rev": "139",
+            "bzr_last_rev": "140",
             "bzr_rev": "",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
@@ -345,7 +345,7 @@
         },
         "45": {
             "bzr_branch": "",
-            "bzr_last_rev": "288",
+            "bzr_last_rev": "289",
             "bzr_rev": "",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
