@@ -536,8 +536,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "df62aaaf92ce32f64e2ef093a63db443ea6ab572",
-            "git_last_date": "170421.132822",
+            "git_last_commit": "f52eb815889fd1d7abee0e81576cb12c589293ea",
+            "git_last_date": "170508.195619",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -591,8 +591,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ff046522625eed06238daf5645136566dc8f0afd",
-            "git_last_date": "170508.194643",
+            "git_last_commit": "14aee76b64c8428aeada057cb6fd0d2ac27fa354",
+            "git_last_date": "170508.124418",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
