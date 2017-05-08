@@ -345,7 +345,7 @@
         },
         "45": {
             "bzr_branch": "",
-            "bzr_last_rev": "289",
+            "bzr_last_rev": "305",
             "bzr_rev": "",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
