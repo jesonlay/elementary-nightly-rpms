@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "658",
+            "bzr_last_rev": "621",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -73,8 +73,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bd97bca8d7a5f6941276daee2cf1500baabc6002",
-            "git_last_date": "170507.114259",
+            "git_last_commit": "2b4de6eaa97324984dcc1bf06db5514805c6801e",
+            "git_last_date": "170509.114442",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.0.3",
@@ -185,7 +185,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1856",
+            "bzr_last_rev": "1858",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -415,7 +415,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "782",
+            "bzr_last_rev": "783",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
@@ -470,8 +470,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a537d7e35035739904a31a17562ccab6e2cfdb2",
-            "git_last_date": "170508.153122",
+            "git_last_commit": "88ea896c3c4227db629bb2fb918c3b50460ab798",
+            "git_last_date": "170509.102029",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -569,8 +569,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7e9d9ee8b9eb70c91c70ecdaa6ee418423684cf4",
-            "git_last_date": "170503.171235",
+            "git_last_commit": "f441632c80736f8afef87f1f9bd2f14a9e4bd6de",
+            "git_last_date": "170508.121656",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
@@ -580,8 +580,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "01d1039c6719087989de05d6b59e95dbc0091be7",
-            "git_last_date": "170506.221628",
+            "git_last_commit": "141565c040a6e35690b2fb1076ff207c1587ab6a",
+            "git_last_date": "170509.083853",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.1",
@@ -591,8 +591,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "14aee76b64c8428aeada057cb6fd0d2ac27fa354",
-            "git_last_date": "170508.124418",
+            "git_last_commit": "323596ddd844ce4ddc1ad0282725fb9623d8e53e",
+            "git_last_date": "170509.094246",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
