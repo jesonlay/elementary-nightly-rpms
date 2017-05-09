@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.4+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/scratch
 
@@ -45,6 +45,8 @@ BuildRequires:  pkgconfig(libvala-0.36)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
+
+Requires:       hicolor-icon-theme
 
 
 %description
@@ -114,23 +116,21 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
-%clean
-rm -rf %{buildroot}
-
-
-%if %{?fedora} < 25
 %post
 /sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
+
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
 /sbin/ldconfig
-/usr/bin/update-desktop-database &> /dev/null || :
 
-%else
-%post -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
-%endif
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
 %files -f scratch-text-editor.lang
@@ -145,9 +145,8 @@ rm -rf %{buildroot}
 
 %{_datadir}/appdata/org.pantheon.scratch.appdata.xml
 %{_datadir}/applications/org.pantheon.scratch.desktop
-
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.*
-
+%{_datadir}/icons/hicolor/*/apps/io.elementary.code.svg
 %{_datadir}/scratch/
 
 
@@ -162,6 +161,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Tue May 09 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4+rev1858-2
+- Adapt to upstream file changes.
+
 * Tue May 09 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4+rev1858-1
 - Update to latest snapshot.
 
