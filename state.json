@@ -73,8 +73,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2b4de6eaa97324984dcc1bf06db5514805c6801e",
-            "git_last_date": "170509.114442",
+            "git_last_commit": "b10695b207b7b3e9cb1c140f3700e24bd145e97a",
+            "git_last_date": "170510.120627",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.0.3",
@@ -295,7 +295,7 @@
         },
         "41": {
             "bzr_branch": "",
-            "bzr_last_rev": "421",
+            "bzr_last_rev": "422",
             "bzr_rev": "",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
