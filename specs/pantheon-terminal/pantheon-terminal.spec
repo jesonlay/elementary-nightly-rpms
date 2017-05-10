@@ -1,14 +1,10 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
+Release:        2%{?dist}
+License:        LGPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -33,20 +29,23 @@ A super lightweight, beautiful, and simple terminal. It's designed to be
 setup with sane defaults and little to no configuration. It's just a
 terminal, nothing more, nothing less.
 
-Designed for elementary OS.
-
 
 %prep
 %autosetup
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-terminal
 
 
@@ -57,7 +56,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 %files -f pantheon-terminal.lang
 %doc AUTHORS README.md
-%license LICENSE
+%license COPYING
 
 %{_bindir}/pantheon-terminal
 
@@ -71,6 +70,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Wed May 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git170510.112639.04d5c037-2
+- Adapt to upstream licensing fixes.
+
 * Wed May 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git170510.112639.04d5c037-1
 - Update to latest snapshot.
 
