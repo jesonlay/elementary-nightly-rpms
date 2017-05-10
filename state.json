@@ -335,7 +335,7 @@
         },
         "45": {
             "bzr_branch": "",
-            "bzr_last_rev": "305",
+            "bzr_last_rev": "309",
             "bzr_rev": "",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
@@ -470,8 +470,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "88ea896c3c4227db629bb2fb918c3b50460ab798",
-            "git_last_date": "170509.102029",
+            "git_last_commit": "14b3f5081feaded907e5dd197faf2e93e5f87719",
+            "git_last_date": "170510.112743",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -580,8 +580,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "141565c040a6e35690b2fb1076ff207c1587ab6a",
-            "git_last_date": "170509.083853",
+            "git_last_commit": "04d5c03708a9200fe69995e34a1d53f8089424fc",
+            "git_last_date": "170510.112639",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.1",
@@ -591,8 +591,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "323596ddd844ce4ddc1ad0282725fb9623d8e53e",
-            "git_last_date": "170509.094246",
+            "git_last_commit": "831bcbe8beb3d154b4c5156ce311738eff88e89f",
+            "git_last_date": "170509.225855",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
