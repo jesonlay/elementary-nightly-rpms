@@ -1,14 +1,10 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.4.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/scratch
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            http://launchpad.net/scratch
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -102,13 +98,18 @@ This package contains the development headers.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
-%find_lang scratch-text-editor
+popd
+
+%find_lang io.elementary.code
 
 
 %check
@@ -133,13 +134,13 @@ fi
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
-%files -f scratch-text-editor.lang
+%files -f io.elementary.code.lang
 %doc README.md
 %license COPYING
 
-%{_bindir}/scratch-text-editor
+%{_bindir}/io.elementary.code
 
-%{_libdir}/scratch/
+%{_libdir}/io.elementary.code/
 %{_libdir}/libscratchcore.so.0
 %{_libdir}/libscratchcore.so.0.0
 
@@ -151,7 +152,7 @@ fi
 
 
 %files          devel
-%{_includedir}/scratch
+%{_includedir}/scratch/
 
 %{_libdir}/libscratchcore.so
 %{_libdir}/pkgconfig/scratchcore.pc
@@ -161,6 +162,9 @@ fi
 
 
 %changelog
+* Wed May 10 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1862-2
+- Adapt to upstream file changes.
+
 * Wed May 10 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1862-1
 - Update to latest snapshot.
 
