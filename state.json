@@ -134,7 +134,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "548",
+            "bzr_last_rev": "549",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -335,7 +335,7 @@
         },
         "45": {
             "bzr_branch": "",
-            "bzr_last_rev": "309",
+            "bzr_last_rev": "313",
             "bzr_rev": "",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
@@ -591,8 +591,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "831bcbe8beb3d154b4c5156ce311738eff88e89f",
-            "git_last_date": "170509.225855",
+            "git_last_commit": "10741ff2e5aba92f22062a21646d710282f878ba",
+            "git_last_date": "170511.105251",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
