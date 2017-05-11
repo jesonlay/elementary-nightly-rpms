@@ -55,6 +55,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Thu May 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3+rev423-1
+- Update to latest snapshot.
+
 * Wed May 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3+rev422-1
 - Update to latest snapshot.
 

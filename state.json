@@ -185,12 +185,12 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1862",
+            "bzr_last_rev": "1863",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+rev%{rev}"
         },
         "27": {
@@ -295,7 +295,7 @@
         },
         "41": {
             "bzr_branch": "",
-            "bzr_last_rev": "422",
+            "bzr_last_rev": "423",
             "bzr_rev": "",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
@@ -580,12 +580,12 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "04d5c03708a9200fe69995e34a1d53f8089424fc",
-            "git_last_date": "170510.112639",
+            "git_last_commit": "ef26cbe17c51f0d4936f6a939bd2511433ec46f3",
+            "git_last_date": "170511.085026",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         },
         "72": {
