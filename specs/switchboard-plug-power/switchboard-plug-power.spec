@@ -2,7 +2,7 @@
 
 Summary:        Switchboard Power Plug
 Name:           switchboard-plug-power
-Version:        0.3+rev%{rev}
+Version:        0.3.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-power
@@ -55,6 +55,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Fri May 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git170511.073106.5ce5bdfe-1
+- Update to version 0.3.1.
+
 * Thu May 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3+rev423-1
 - Update to latest snapshot.
 
