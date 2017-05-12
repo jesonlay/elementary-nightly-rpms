@@ -195,7 +195,7 @@
         },
         "27": {
             "bzr_branch": "",
-            "bzr_last_rev": "769",
+            "bzr_last_rev": "770",
             "bzr_rev": "",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
@@ -245,7 +245,7 @@
         },
         "35": {
             "bzr_branch": "",
-            "bzr_last_rev": "261",
+            "bzr_last_rev": "262",
             "bzr_rev": "",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
@@ -591,8 +591,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e2cff0b0bcc5a56e4c1f6f12d1d9dad8a5981fb7",
-            "git_last_date": "170511.214950",
+            "git_last_commit": "adf67c23a1e7f6463c42d50ecacae50b7118cec2",
+            "git_last_date": "170511.190041",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
