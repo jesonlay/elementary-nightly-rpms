@@ -243,16 +243,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+rev%{rev}"
         },
-        "35": {
-            "bzr_branch": "",
-            "bzr_last_rev": "262",
-            "bzr_rev": "",
-            "name": "switchboard-plug-locale",
-            "package_name": "switchboard-plug-locale",
-            "package_version": "0.2.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.2.1+rev%{rev}"
-        },
         "36": {
             "bzr_branch": "",
             "bzr_last_rev": "166",
@@ -610,6 +600,17 @@
             "package_version": "0.3.1",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
+        },
+        "75": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "e6084aec7dcecf3db6b1574e8fc8ff390860760d",
+            "git_last_date": "170512.082701",
+            "name": "switchboard-plug-locale",
+            "package_name": "switchboard-plug-locale",
+            "package_version": "0.2.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.2+git%{date}.%{commit}"
         }
     }
 }
