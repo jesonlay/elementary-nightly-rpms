@@ -325,12 +325,12 @@
         },
         "46": {
             "bzr_branch": "",
-            "bzr_last_rev": "180",
+            "bzr_last_rev": "182",
             "bzr_rev": "",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+rev%{rev}"
         },
         "47": {
@@ -406,8 +406,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cfa94e531fa91bae2d5c9b272e2a8089329a3fbc",
-            "git_last_date": "170503.225411",
+            "git_last_commit": "23d33176335a656460f99434c38bb40c0d948c12",
+            "git_last_date": "170514.152005",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.5",
