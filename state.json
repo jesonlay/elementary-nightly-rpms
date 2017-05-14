@@ -345,7 +345,7 @@
         },
         "48": {
             "bzr_branch": "",
-            "bzr_last_rev": "85",
+            "bzr_last_rev": "86",
             "bzr_rev": "",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
@@ -355,7 +355,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "189",
+            "bzr_last_rev": "190",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -450,8 +450,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "14b3f5081feaded907e5dd197faf2e93e5f87719",
-            "git_last_date": "170510.112743",
+            "git_last_commit": "1963d27317338e9a8b0d0859565ef0028b1572db",
+            "git_last_date": "170514.144333",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -549,8 +549,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f441632c80736f8afef87f1f9bd2f14a9e4bd6de",
-            "git_last_date": "170508.121656",
+            "git_last_commit": "ef6139f916ce654adfa7e25daff97c631f74a2e6",
+            "git_last_date": "170514.131906",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
