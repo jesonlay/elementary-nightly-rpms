@@ -554,9 +554,9 @@
             "git_last_date": "170515.121953",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
-            "package_version": "0.4.1",
+            "package_version": "0.4.2",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.4.1+git%{date}.%{commit}"
+            "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         },
         "72": {
             "git_branch": "master",
