@@ -195,7 +195,7 @@
         },
         "27": {
             "bzr_branch": "",
-            "bzr_last_rev": "772",
+            "bzr_last_rev": "773",
             "bzr_rev": "",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
@@ -527,8 +527,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "38ee9e55a44f781da26a9a2b845bfdf9b0656b65",
-            "git_last_date": "170501.204149",
+            "git_last_commit": "d2e424c0ac3713a7c207227cb5a805274ac37449",
+            "git_last_date": "170515.123700",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.0",
@@ -560,8 +560,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ef26cbe17c51f0d4936f6a939bd2511433ec46f3",
-            "git_last_date": "170511.085026",
+            "git_last_commit": "b227901c5a5f1fe3c677a0f1f1c49b04aaa04e1e",
+            "git_last_date": "170515.121953",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.1",
