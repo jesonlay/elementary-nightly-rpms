@@ -1,17 +1,14 @@
-%global debug_package %{nil}
+%global srcname applications-menu
 
-Summary:        Lightweight and stylish app launcher
 Name:           slingshot-launcher
-Version:        2.1.2+rev%{rev}
+Summary:        Lightweight and stylish app launcher
+Version:        2.1.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/slingshot
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            http://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
+
 Source1:        %{name}.conf
 
 BuildRequires:  cmake
@@ -43,20 +40,23 @@ Requires:       zeitgeist
 %description
 The lightweight and stylish app launcher from elementary.
 
-Designed for elementary OS.
-
 
 %prep
 %autosetup
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang slingshot
 
 
@@ -72,6 +72,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Mon May 15 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git170515.120023.6ad1cd40-1
+- Update to version 2.1.3.
+
 * Mon May 15 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+rev773-1
 - Update to latest snapshot.
 
