@@ -505,8 +505,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0cfdd22a48366628c41f48cf67b31b548956920a",
-            "git_last_date": "170502.211051",
+            "git_last_commit": "324cefbe9a9c15653a1937bb1899405f072b4e1e",
+            "git_last_date": "170515.192144",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
