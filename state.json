@@ -124,7 +124,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2557",
+            "bzr_last_rev": "2559",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -605,8 +605,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6ad1cd40fdc6681a1a31d24b0e682fb4ca832938",
-            "git_last_date": "170515.120023",
+            "git_last_commit": "0a1fb45341777878a30d61f0f1e9b43c9e34ef64",
+            "git_last_date": "170516.193715",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
