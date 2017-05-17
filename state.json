@@ -2,7 +2,7 @@
     "_default": {
         "1": {
             "bzr_branch": "",
-            "bzr_last_rev": "623",
+            "bzr_last_rev": "627",
             "bzr_rev": "",
             "name": "appcenter",
             "package_name": "appcenter",
@@ -62,7 +62,7 @@
         },
         "8": {
             "bzr_branch": "",
-            "bzr_last_rev": "220",
+            "bzr_last_rev": "223",
             "bzr_rev": "",
             "name": "elementary-dpms-helper",
             "package_name": "elementary-dpms-helper",
@@ -144,7 +144,7 @@
         },
         "20": {
             "bzr_branch": "",
-            "bzr_last_rev": "67",
+            "bzr_last_rev": "68",
             "bzr_rev": "",
             "name": "pantheon-notes",
             "package_name": "pantheon-notes",
@@ -185,7 +185,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1864",
+            "bzr_last_rev": "1865",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -335,7 +335,7 @@
         },
         "48": {
             "bzr_branch": "",
-            "bzr_last_rev": "86",
+            "bzr_last_rev": "87",
             "bzr_rev": "",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
@@ -345,7 +345,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "191",
+            "bzr_last_rev": "192",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -355,7 +355,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "252",
+            "bzr_last_rev": "254",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
@@ -365,7 +365,7 @@
         },
         "52": {
             "bzr_branch": "",
-            "bzr_last_rev": "153",
+            "bzr_last_rev": "154",
             "bzr_rev": "",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
@@ -375,7 +375,7 @@
         },
         "54": {
             "bzr_branch": "",
-            "bzr_last_rev": "162",
+            "bzr_last_rev": "163",
             "bzr_rev": "",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
@@ -605,8 +605,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0a1fb45341777878a30d61f0f1e9b43c9e34ef64",
-            "git_last_date": "170516.193715",
+            "git_last_commit": "f2a9e64796c8fc9c5619d37f72867797717b7d04",
+            "git_last_date": "170516.234017",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
