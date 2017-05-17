@@ -1,9 +1,7 @@
-%global debug_package %{nil}
-
-Summary:        An easy parental controls plug
 Name:           switchboard-plug-parental-controls
+Summary:        An easy parental controls plug
 Version:        0.1.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-parental-controls
 
@@ -25,11 +23,11 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
-An easy parental controls plug
+An easy parental controls plug.
 
 
 %prep
@@ -37,16 +35,20 @@ An easy parental controls plug
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-parental-controls-plug
 
 mkdir -p %{buildroot}/%{_unitdir}
-
 mv %{buildroot}/lib/systemd/system/pantheon-parental-controls.service %{buildroot}/%{_unitdir}/
 
 rm %{buildroot}/%{_libdir}/*.a
@@ -70,6 +72,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 %doc AUTHORS
 %license COPYING
 
+%dir %{_sysconfdir}/pantheon-parental-controls
+%config(noreplace) %{_sysconfdir}/pantheon-parental-controls/daemon.conf
+
 %{_sysconfdir}/dbus-1/system.d/org.pantheon.ParentalControls.conf
 
 %{_bindir}/pantheon-parental-controls-client
@@ -79,13 +84,15 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 %{_datadir}/applications/pantheon-parental-controls-client.desktop
 %{_datadir}/dbus-1/system-services/org.pantheon.ParentalControls.service
-%{_datadir}/pantheon-parental-controls
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.parental-controls.policy
 
 %{_unitdir}/pantheon-parental-controls.service
 
 
 %changelog
+* Wed May 17 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev284-2
+- Adapt to upstream file changes.
+
 * Mon May 15 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev284-1
 - Update to latest snapshot.
 
