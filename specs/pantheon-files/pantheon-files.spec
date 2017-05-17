@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.4+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-files
 
@@ -98,6 +98,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 %{_datadir}/appdata/org.pantheon.files.appdata.xml
 %{_datadir}/applications/org.pantheon.files.desktop
+%{_datadir}/dbus-1/services/org.freedesktop.FileManager1.service
 %{_datadir}/dbus-1/services/pantheon-files.service
 %{_datadir}/glib-2.0/schemas/org.pantheon.files.gschema.xml
 
@@ -132,6 +133,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Wed May 17 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.4+rev2560-2
+- Adapt to upstream file changes.
+
 * Tue May 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.4+rev2560-1
 - Update to latest snapshot.
 
