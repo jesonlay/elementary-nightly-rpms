@@ -185,7 +185,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1865",
+            "bzr_last_rev": "1866",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -315,7 +315,7 @@
         },
         "46": {
             "bzr_branch": "",
-            "bzr_last_rev": "182",
+            "bzr_last_rev": "183",
             "bzr_rev": "",
             "name": "wingpanel",
             "package_name": "wingpanel",
@@ -365,7 +365,7 @@
         },
         "52": {
             "bzr_branch": "",
-            "bzr_last_rev": "154",
+            "bzr_last_rev": "155",
             "bzr_rev": "",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
