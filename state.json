@@ -94,7 +94,7 @@
         },
         "16": {
             "bzr_branch": "",
-            "bzr_last_rev": "86",
+            "bzr_last_rev": "87",
             "bzr_rev": "",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
@@ -114,7 +114,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2561",
+            "bzr_last_rev": "2562",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -606,8 +606,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "00c3fe0f10a0af98dbafa52de9bea3a3418e59f2",
-            "git_last_date": "170519.193742",
+            "git_last_commit": "c45c11ee07abae2e64175457ddc286121f541cb5",
+            "git_last_date": "170520.023328",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2",
