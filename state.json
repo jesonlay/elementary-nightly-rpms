@@ -124,7 +124,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "549",
+            "bzr_last_rev": "551",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -355,7 +355,7 @@
         },
         "52": {
             "bzr_branch": "",
-            "bzr_last_rev": "155",
+            "bzr_last_rev": "156",
             "bzr_rev": "",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
@@ -606,8 +606,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dfefe9d88b6eb070616606f01fc140db48311658",
-            "git_last_date": "170521.214503",
+            "git_last_commit": "586c16906388aa5d5ffaa5e00698966f47351449",
+            "git_last_date": "170522.061740",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.1",
