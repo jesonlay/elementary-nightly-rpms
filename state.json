@@ -275,7 +275,7 @@
         },
         "43": {
             "bzr_branch": "",
-            "bzr_last_rev": "353",
+            "bzr_last_rev": "354",
             "bzr_rev": "",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
@@ -295,7 +295,7 @@
         },
         "45": {
             "bzr_branch": "",
-            "bzr_last_rev": "313",
+            "bzr_last_rev": "315",
             "bzr_rev": "",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
