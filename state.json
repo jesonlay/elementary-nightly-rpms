@@ -353,16 +353,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+rev%{rev}"
         },
-        "52": {
-            "bzr_branch": "",
-            "bzr_last_rev": "156",
-            "bzr_rev": "",
-            "name": "wingpanel-indicator-notifications",
-            "package_name": "wingpanel-indicator-notifications",
-            "package_version": "2.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.0+rev%{rev}"
-        },
         "54": {
             "bzr_branch": "",
             "bzr_last_rev": "163",
@@ -613,6 +603,17 @@
             "package_version": "0.2.1",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.1+git%{date}.%{commit}"
+        },
+        "78": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "03d613b06767231cdfcb477873d0a45e6b53dbd7",
+            "git_last_date": "170521.220711",
+            "name": "wingpanel-indicator-notifications",
+            "package_name": "wingpanel-indicator-notifications",
+            "package_version": "2.0.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.1+git%{date}.%{commit}"
         }
     }
 }

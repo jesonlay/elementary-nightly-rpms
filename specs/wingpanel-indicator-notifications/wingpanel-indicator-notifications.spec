@@ -2,7 +2,7 @@
 
 Summary:        a notifications indicator for wingpanel
 Name:           wingpanel-indicator-notifications
-Version:        2.0+rev%{rev}
+Version:        2.0.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-notifications
@@ -50,6 +50,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon May 22 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git170521.220711.03d613b0-1
+- Update to version 2.0.1.
+
 * Mon May 22 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0+rev156-1
 - Update to latest snapshot.
 
