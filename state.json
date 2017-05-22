@@ -606,8 +606,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "586c16906388aa5d5ffaa5e00698966f47351449",
-            "git_last_date": "170522.061740",
+            "git_last_commit": "73b8f3b7d9a0fb83159266aff0424057e88ea63a",
+            "git_last_date": "170522.152445",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.1",
