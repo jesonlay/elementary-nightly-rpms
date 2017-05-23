@@ -114,7 +114,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2562",
+            "bzr_last_rev": "2563",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -235,7 +235,7 @@
         },
         "37": {
             "bzr_branch": "",
-            "bzr_last_rev": "383",
+            "bzr_last_rev": "384",
             "bzr_rev": "",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
@@ -315,7 +315,7 @@
         },
         "48": {
             "bzr_branch": "",
-            "bzr_last_rev": "88",
+            "bzr_last_rev": "89",
             "bzr_rev": "",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
@@ -531,8 +531,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "efaa3ece3d5171ff3981abbe9ef9cdee1109ea64",
-            "git_last_date": "170521.211512",
+            "git_last_commit": "0fa769629489bd74aa6b5ea633972c4749919cc3",
+            "git_last_date": "170523.101838",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -586,8 +586,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "73b8f3b7d9a0fb83159266aff0424057e88ea63a",
-            "git_last_date": "170522.152445",
+            "git_last_commit": "789f1fdf8f4cd6e4ec733a0ef4c3aefc638253bb",
+            "git_last_date": "170523.072723",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.2",
