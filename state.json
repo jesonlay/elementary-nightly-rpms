@@ -313,16 +313,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+rev%{rev}"
         },
-        "48": {
-            "bzr_branch": "",
-            "bzr_last_rev": "89",
-            "bzr_rev": "",
-            "name": "wingpanel-indicator-bluetooth",
-            "package_name": "wingpanel-indicator-bluetooth",
-            "package_version": "2.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.0+rev%{rev}"
-        },
         "49": {
             "bzr_branch": "",
             "bzr_last_rev": "192",
@@ -615,6 +605,17 @@
             "package_version": "0.1.4",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
+        },
+        "80": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "8244c4c21d853ce028dfbc1d4450943088383ad7",
+            "git_last_date": "170522.231337",
+            "name": "wingpanel-indicator-bluetooth",
+            "package_name": "wingpanel-indicator-bluetooth",
+            "package_version": "2.0.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.2+git%{date}.%{commit}"
         }
     }
 }
