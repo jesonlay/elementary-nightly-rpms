@@ -1,14 +1,10 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.4+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/pantheon-files
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://launchpad.net/pantheon-files
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -40,7 +36,6 @@ BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 %description
 The simple, powerful, and sexy file manager from elementary.
-Designed for elementary OS.
 
 
 %package        libs
@@ -98,7 +93,7 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 %{_datadir}/appdata/org.pantheon.files.appdata.xml
 %{_datadir}/applications/org.pantheon.files.desktop
-%{_datadir}/dbus-1/services/org.freedesktop.FileManager1.service
+%{_datadir}/dbus-1/services/io.elementary.pantheon-files.FileManager1.service
 %{_datadir}/dbus-1/services/pantheon-files.service
 %{_datadir}/glib-2.0/schemas/org.pantheon.files.gschema.xml
 
@@ -133,6 +128,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Wed May 24 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.4+rev2563-2
+- Adapt to upstream file changes.
+
 * Tue May 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.4+rev2563-1
 - Update to latest snapshot.
 
