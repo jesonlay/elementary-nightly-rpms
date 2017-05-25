@@ -245,7 +245,7 @@
         },
         "38": {
             "bzr_branch": "",
-            "bzr_last_rev": "215",
+            "bzr_last_rev": "217",
             "bzr_rev": "",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
@@ -400,8 +400,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1963d27317338e9a8b0d0859565ef0028b1572db",
-            "git_last_date": "170514.144333",
+            "git_last_commit": "b898462bedd3f2bb567a7a5007077716090ac9d9",
+            "git_last_date": "170524.230052",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -411,8 +411,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "054add6f41cf5c31e46b033a6923550c473ee407",
-            "git_last_date": "170524.135009",
+            "git_last_commit": "b0ba8ce668f12346135f667d260d4b23d6a063ce",
+            "git_last_date": "170525.031021",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
