@@ -243,16 +243,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.0.3+rev%{rev}"
         },
-        "38": {
-            "bzr_branch": "",
-            "bzr_last_rev": "217",
-            "bzr_rev": "",
-            "name": "switchboard-plug-notifications",
-            "package_name": "switchboard-plug-notifications",
-            "package_version": "0.1.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.1+rev%{rev}"
-        },
         "40": {
             "bzr_branch": "",
             "bzr_last_rev": "284",
@@ -616,6 +606,17 @@
             "package_version": "2.0.2",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+git%{date}.%{commit}"
+        },
+        "81": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "7bf40e8555c9991bbcc9be6993c3b7f0d9e83bbf",
+            "git_last_date": "170524.220747",
+            "name": "switchboard-plug-notifications",
+            "package_name": "switchboard-plug-notifications",
+            "package_version": "0.1.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         }
     }
 }
