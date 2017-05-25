@@ -544,8 +544,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ab92cbb807cb4c90e5b824e08be54e1ffd493893",
-            "git_last_date": "170525.145607",
+            "git_last_commit": "71678239a0e8c175d1a43ae20abcf4d1b892f86a",
+            "git_last_date": "170525.150628",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -566,8 +566,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "125f06aa8a7a619fe989706a4684f2d8032a2df5",
-            "git_last_date": "170523.211034",
+            "git_last_commit": "6e2bc0831f5db8cd9933bf8c85ee2ff5e8c6477d",
+            "git_last_date": "170525.153047",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.2",

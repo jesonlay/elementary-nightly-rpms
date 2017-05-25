@@ -80,6 +80,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/appcenter
 
 
 %changelog
+* Thu May 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+git170525.153047.6e2bc083-1
+- Update to latest snapshot.
+
 * Wed May 24 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+git170523.211034.125f06aa-1
 - Update to latest snapshot.
 
