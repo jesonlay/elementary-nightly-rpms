@@ -544,8 +544,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "743d6cfbd4e38bc772a2f2b068aa583770095292",
-            "git_last_date": "170522.201926",
+            "git_last_commit": "ab92cbb807cb4c90e5b824e08be54e1ffd493893",
+            "git_last_date": "170525.145607",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -610,8 +610,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7bf40e8555c9991bbcc9be6993c3b7f0d9e83bbf",
-            "git_last_date": "170524.220747",
+            "git_last_commit": "cc1412cb2d3a4fba305f574571bddbe75bb753b1",
+            "git_last_date": "170525.145811",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "0.1.2",
