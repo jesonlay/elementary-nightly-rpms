@@ -94,7 +94,7 @@
         },
         "16": {
             "bzr_branch": "",
-            "bzr_last_rev": "87",
+            "bzr_last_rev": "88",
             "bzr_rev": "",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
@@ -544,8 +544,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "71678239a0e8c175d1a43ae20abcf4d1b892f86a",
-            "git_last_date": "170525.150628",
+            "git_last_commit": "e934568b6bbe712c9f330d2588fe7af4a8e93216",
+            "git_last_date": "170526.015458",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -566,8 +566,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "baa7a2f09b03dbe17fbdd54489d374fbe04c2a50",
-            "git_last_date": "170525.173221",
+            "git_last_commit": "7b3948b04c7eeb8d011d01e27bd7cb946989f372",
+            "git_last_date": "170526.014646",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.2",
