@@ -92,16 +92,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.0.2+rev%{rev}"
         },
-        "16": {
-            "bzr_branch": "",
-            "bzr_last_rev": "89",
-            "bzr_rev": "",
-            "name": "pantheon-agent-polkit",
-            "package_name": "pantheon-agent-polkit",
-            "package_version": "0.1.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.1+rev%{rev}"
-        },
         "17": {
             "bzr_branch": "",
             "bzr_last_rev": "343",
@@ -618,6 +608,17 @@
             "package_version": "2.0.3",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.3+git%{date}.%{commit}"
+        },
+        "83": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "e625586fbb89be4b5d0cf15abde2793f8f228768",
+            "git_last_date": "170526.214420",
+            "name": "pantheon-agent-polkit",
+            "package_name": "pantheon-agent-polkit",
+            "package_version": "0.1.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         }
     }
 }

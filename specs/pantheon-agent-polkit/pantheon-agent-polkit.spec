@@ -1,14 +1,10 @@
-Summary:        Pantheon Polkit Agent
 Name:           pantheon-agent-polkit
-Version:        0.1.1+rev%{rev}
+Summary:        Pantheon Polkit Agent
+Version:        0.1.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
-URL:            https://launchpad.net/pantheon-agent-polkit
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://github.com/elementary/pantheon-agent-polkit
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -35,12 +31,17 @@ An agent for Polkit authorization designed for Pantheon.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-agent-polkit
 
 
@@ -49,12 +50,20 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %files -f pantheon-agent-polkit.lang
-%{_sysconfdir}/xdg/autostart/org.pantheon.agent-polkit-daemon.desktop
+%doc README.md
+%license COPYING
+
+%config(noreplace) %{_sysconfdir}/xdg/autostart/org.pantheon.agent-polkit-daemon.desktop
+
 %{_libexecdir}/policykit-1-pantheon/
+
 %{_datadir}/applications/org.pantheon.agent-polkit.desktop
 
 
 %changelog
+* Sat May 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170526.214420.e625586f-1
+- Update to version 0.1.4.
+
 * Sat May 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+rev89-1
 - Update to latest snapshot.
 
