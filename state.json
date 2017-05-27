@@ -293,16 +293,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+rev%{rev}"
         },
-        "47": {
-            "bzr_branch": "",
-            "bzr_last_rev": "27",
-            "bzr_rev": "",
-            "name": "wingpanel-indicator-ayatana",
-            "package_name": "wingpanel-indicator-ayatana",
-            "package_version": "2.0.2",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.0.2+rev%{rev}"
-        },
         "49": {
             "bzr_branch": "",
             "bzr_last_rev": "192",
@@ -617,6 +607,17 @@
             "package_version": "0.1.2",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
+        },
+        "82": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "8533b0387af07a6973ade14bf02ea9b7bbbc4157",
+            "git_last_date": "170526.212756",
+            "name": "wingpanel-indicator-ayatana",
+            "package_name": "wingpanel-indicator-ayatana",
+            "package_version": "2.0.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.3+git%{date}.%{commit}"
         }
     }
 }

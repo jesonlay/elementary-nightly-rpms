@@ -1,19 +1,19 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-Summary:        an ayatana indicator for wingpanel
 Name:           wingpanel-indicator-ayatana
-Version:        2.0.2+rev%{rev}
+Summary:        an ayatana indicator for wingpanel
+Version:        2.0.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/wingpanel-indicator-ayatana
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
 BuildRequires:  pkgconfig
-BuildRequires:  vala >= 0.22.0
+BuildRequires:  vala >= 0.24.0
 BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
@@ -22,7 +22,7 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(indicator3-0.4)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
-Supplements:    wingpanel
+Supplements:    wingpanel%{?_isa}
 
 
 %description
@@ -34,16 +34,16 @@ An ayatana indicator for wingpanel.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
-
-
-%clean
-rm -rf %{buildroot}
+popd
 
 
 %files
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat May 27 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170526.212756.8533b038-1
+- Update to version 2.0.3.
+
 * Sat May 27 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev27-1
 - Update to latest snapshot.
 
