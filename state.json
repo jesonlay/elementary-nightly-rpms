@@ -491,8 +491,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3463b033740a5eeb78db021f06c0a45f453dbfcb",
-            "git_last_date": "170523.174839",
+            "git_last_commit": "3a2b06ceda266759e966a3abd2242d4879e673d4",
+            "git_last_date": "170527.130252",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -568,8 +568,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bf51c4563f33a7010edc78e0fcc8ee52c5a800c5",
-            "git_last_date": "170522.193828",
+            "git_last_commit": "4d1255d6b0072175407e181f96479ff2035bfad3",
+            "git_last_date": "170527.130319",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.4",
