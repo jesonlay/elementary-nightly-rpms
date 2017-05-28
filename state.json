@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2565",
+            "bzr_last_rev": "2566",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -370,8 +370,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "df4fccf13aba02409c49d1224ebd20b93248c3e2",
-            "git_last_date": "170527.140806",
+            "git_last_commit": "c25cf6f22d1d11bc94a71592a75229dcb94f9fc2",
+            "git_last_date": "170527.211033",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
