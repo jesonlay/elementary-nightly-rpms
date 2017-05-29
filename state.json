@@ -255,7 +255,7 @@
         },
         "43": {
             "bzr_branch": "",
-            "bzr_last_rev": "354",
+            "bzr_last_rev": "375",
             "bzr_rev": "",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
@@ -381,8 +381,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b0ba8ce668f12346135f667d260d4b23d6a063ce",
-            "git_last_date": "170525.031021",
+            "git_last_commit": "354670529c95674fc8160a534833418d0d6d466e",
+            "git_last_date": "170529.165431",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
