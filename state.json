@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b952151557fa0c581d58801d16e0307374be5367",
-            "git_last_date": "170515.032734",
+            "git_last_commit": "39bb46c56f04275fc52404b6eaa3d16a026b737c",
+            "git_last_date": "170530.161436",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.1.0",
@@ -568,8 +568,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "56c0ae8b6a3a26cc55fa8b7400fd1996be763797",
-            "git_last_date": "170529.231024",
+            "git_last_commit": "ea8ff941cdb1170e2b74bc049220636f5379899a",
+            "git_last_date": "170530.170230",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.4",
