@@ -273,16 +273,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1+rev%{rev}"
         },
-        "46": {
-            "bzr_branch": "",
-            "bzr_last_rev": "183",
-            "bzr_rev": "",
-            "name": "wingpanel",
-            "package_name": "wingpanel",
-            "package_version": "2.0.2",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.0.2+rev%{rev}"
-        },
         "49": {
             "bzr_branch": "",
             "bzr_last_rev": "192",
@@ -619,6 +609,17 @@
             "package_version": "0.1.4",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
+        },
+        "84": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "3adbfc1a12b2313a61625108477f42d29f233472",
+            "git_last_date": "170530.190722",
+            "name": "wingpanel",
+            "package_name": "wingpanel",
+            "package_version": "2.0.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.0.3+git%{date}.%{commit}"
         }
     }
 }
