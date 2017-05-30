@@ -316,8 +316,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8f0b853422f874c887ed27f8c6266f50f80ca35b",
-            "git_last_date": "170519.103200",
+            "git_last_commit": "e460d0a2c9a0120a7a11aebae36929c7944b6089",
+            "git_last_date": "170530.192848",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.5",
@@ -415,8 +415,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "324cefbe9a9c15653a1937bb1899405f072b4e1e",
-            "git_last_date": "170515.192144",
+            "git_last_commit": "5bcf64afc16d17de3032ed3a947c5af7c2419b89",
+            "git_last_date": "170530.192414",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -558,8 +558,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ea8ff941cdb1170e2b74bc049220636f5379899a",
-            "git_last_date": "170530.170230",
+            "git_last_commit": "958ebde9801311665f7a22fca6ed94cd6a0f0d4a",
+            "git_last_date": "170530.190955",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.4",
