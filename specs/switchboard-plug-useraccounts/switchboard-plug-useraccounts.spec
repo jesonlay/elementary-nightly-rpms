@@ -1,12 +1,10 @@
-%global debug_package %{nil}
-
-Summary:        Switchboard User Accounts Plug
 Name:           switchboard-plug-useraccounts
+Summary:        Switchboard User Accounts Plug
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
-URL:            https://launchpad.net/switchboard-plug-useraccounts
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -26,13 +24,11 @@ BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(pwquality)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
 Switchboard Plug for managing local user accounts.
-
-Designed for elementary OS.
 
 
 %prep
@@ -40,18 +36,23 @@ Designed for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang useraccounts-plug
 
 
 %files -f useraccounts-plug.lang
-%doc AUTHORS
-%license COPYING
+%doc README.md
+%license COPYING COPYRIGHT
 
 %{_libdir}/switchboard/system/pantheon-useraccounts/
 
@@ -59,6 +60,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Wed May 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170530.190955.958ebde9-2
+- Adapt to upstream file changes.
+
 * Tue May 30 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170530.190955.958ebde9-1
 - Update to latest snapshot.
 
