@@ -2,7 +2,7 @@
     "_default": {
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "750",
+            "bzr_last_rev": "755",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06578eb565718e50f4b3ddca00bf8384ce58b96b",
-            "git_last_date": "170521.211443",
+            "git_last_commit": "d991eb14842ae34e19d0a901c40f47882eb5beba",
+            "git_last_date": "170530.213003",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
@@ -613,8 +613,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3adbfc1a12b2313a61625108477f42d29f233472",
-            "git_last_date": "170530.190722",
+            "git_last_commit": "0b6d4863fcf27cd633cdfa5154cff0aed078c0cb",
+            "git_last_date": "170530.215459",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.3",
