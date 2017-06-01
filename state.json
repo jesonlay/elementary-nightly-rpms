@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1868",
+            "bzr_last_rev": "1869",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -470,8 +470,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "69bca1b3d354fd72b5507a9f382013980a3492ed",
-            "git_last_date": "170531.170754",
+            "git_last_commit": "1d034cba10465c6a85ed122e59fe4806d7f23f78",
+            "git_last_date": "170601.214217",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f127a5988a9225940ad8f412293fd97603e8d5da",
-            "git_last_date": "170601.192843",
+            "git_last_commit": "dd167ce24ab8ffa5d4f26becd4de58f3dd374c64",
+            "git_last_date": "170601.211203",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
