@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2566",
+            "bzr_last_rev": "2567",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -371,12 +371,12 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "354670529c95674fc8160a534833418d0d6d466e",
-            "git_last_date": "170529.165431",
+            "git_last_commit": "d2d45cf71477276fc9ba4e21c75114bed1f3aabf",
+            "git_last_date": "170531.215421",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
         },
         "63": {
@@ -481,8 +481,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "51eb2dc887300190c1c02c7e957e6fd898cffd25",
-            "git_last_date": "170528.110056",
+            "git_last_commit": "f502a49c77d1fbd51635a8d28ba9c8d0edb46fa1",
+            "git_last_date": "170531.221351",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d991eb14842ae34e19d0a901c40f47882eb5beba",
-            "git_last_date": "170530.213003",
+            "git_last_commit": "97d7184c988944a777da7ab4163f1356cbebf573",
+            "git_last_date": "170601.012014",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
@@ -536,8 +536,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "616ab29ae4c1d0268e36472eb8c6c28d9a55a54a",
-            "git_last_date": "170530.015919",
+            "git_last_commit": "125e08de99b73d4c2dea9833966d7f53437e69fc",
+            "git_last_date": "170531.221524",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.2",
