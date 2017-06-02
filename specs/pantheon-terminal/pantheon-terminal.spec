@@ -70,6 +70,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Fri Jun 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git170601.231200.d471bee3-1
+- Update to latest snapshot.
+
 * Thu Jun 01 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git170601.214217.1d034cba-1
 - Update to latest snapshot.
 
