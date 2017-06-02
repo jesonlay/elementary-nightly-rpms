@@ -235,7 +235,7 @@
         },
         "40": {
             "bzr_branch": "",
-            "bzr_last_rev": "306",
+            "bzr_last_rev": "307",
             "bzr_rev": "",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
