@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.4.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            http://launchpad.net/scratch
@@ -111,6 +111,8 @@ popd
 
 %find_lang io.elementary.code
 
+mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
+
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
@@ -144,7 +146,7 @@ fi
 %{_libdir}/libscratchcore.so.0
 %{_libdir}/libscratchcore.so.0.0
 
-%{_datadir}/appdata/org.pantheon.scratch.appdata.xml
+%{_datadir}/appdata/io.elementary.code.appdata.xml
 %{_datadir}/applications/org.pantheon.scratch.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.*
 %{_datadir}/icons/hicolor/*/apps/io.elementary.code.svg
@@ -162,6 +164,9 @@ fi
 
 
 %changelog
+* Fri Jun 02 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1869-2
+- Adapt to upstream file changes.
+
 * Thu Jun 01 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1869-1
 - Update to latest snapshot.
 
