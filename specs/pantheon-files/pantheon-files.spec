@@ -1,6 +1,6 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
-Version:        0.3.4+rev%{rev}
+Version:        0.3.5+rev%{rev}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -128,6 +128,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Sat Jun 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+rev2570-1
+- Update to version 0.3.5.
+
 * Sat Jun 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.4+rev2570-1
 - Update to latest snapshot.
 
