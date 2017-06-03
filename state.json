@@ -245,7 +245,7 @@
         },
         "42": {
             "bzr_branch": "",
-            "bzr_last_rev": "142",
+            "bzr_last_rev": "168",
             "bzr_rev": "",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
