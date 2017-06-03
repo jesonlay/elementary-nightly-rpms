@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2568",
+            "bzr_last_rev": "2570",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -448,8 +448,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "00cc5a7ddfec64490a6f108c9b971782d2f1928e",
-            "git_last_date": "170502.152618",
+            "git_last_commit": "3f52803d009d851aeb02280d07a2aefe5ba869f5",
+            "git_last_date": "170603.092900",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -514,8 +514,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e934568b6bbe712c9f330d2588fe7af4a8e93216",
-            "git_last_date": "170526.015458",
+            "git_last_commit": "7ace420df2d3738e2700628592a3aea4dc2b753c",
+            "git_last_date": "170603.093034",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -558,8 +558,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "baaa387f12e4c2f33ac2b648ebfb2f182be67971",
-            "git_last_date": "170602.190959",
+            "git_last_commit": "ef32a0c5ccf8d150587b167d4b15e6309953b8cc",
+            "git_last_date": "170603.093000",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.4",
