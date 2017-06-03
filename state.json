@@ -285,7 +285,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "254",
+            "bzr_last_rev": "282",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "63ecc0310e162df97c5cc3fcf6c457c72056ab4e",
-            "git_last_date": "170602.180706",
+            "git_last_commit": "4b646925e6113c52cd51775801c7a2c36af286c8",
+            "git_last_date": "170603.175305",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
@@ -558,8 +558,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ef32a0c5ccf8d150587b167d4b15e6309953b8cc",
-            "git_last_date": "170603.093000",
+            "git_last_commit": "2191cf00308abcee15950e0c7dc30fdde5ead575",
+            "git_last_date": "170603.174129",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.4",

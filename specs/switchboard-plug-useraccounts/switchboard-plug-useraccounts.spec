@@ -60,6 +60,9 @@ popd
 
 
 %changelog
+* Sat Jun 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170603.174129.2191cf00-1
+- Update to latest snapshot.
+
 * Sat Jun 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170603.093000.ef32a0c5-1
 - Update to latest snapshot.
 
