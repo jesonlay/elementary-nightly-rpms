@@ -393,8 +393,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d08b6b5e09c5b9add8fef44ad0e0d4605546df64",
-            "git_last_date": "170429.143603",
+            "git_last_commit": "2f6acbe6a8731e4e9850925d5ec3d35092079eac",
+            "git_last_date": "170611.162432",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
