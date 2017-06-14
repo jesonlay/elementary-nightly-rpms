@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ede84605f6148ec96ce03244e8f53abc6898169e",
-            "git_last_date": "170612.155214",
+            "git_last_commit": "fffd5678ea2f89346f3f8a9d02204e36eecbdaee",
+            "git_last_date": "170614.201622",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.1.0",
@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2578",
+            "bzr_last_rev": "2581",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1870",
+            "bzr_last_rev": "1871",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -360,8 +360,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c25cf6f22d1d11bc94a71592a75229dcb94f9fc2",
-            "git_last_date": "170527.211033",
+            "git_last_commit": "facd70f94ab00eaf075a8fc5b02f1ba6ae7011de",
+            "git_last_date": "170614.153814",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -470,8 +470,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d471bee33d1ce2d7939f1247b572a9e9d08d53ff",
-            "git_last_date": "170601.231200",
+            "git_last_commit": "fd133cd655d3a8f646154e3c8033faf3ffb44392",
+            "git_last_date": "170614.160700",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
