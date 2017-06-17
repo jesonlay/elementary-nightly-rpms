@@ -12,7 +12,7 @@
         },
         "3": {
             "bzr_branch": "",
-            "bzr_last_rev": "57",
+            "bzr_last_rev": "58",
             "bzr_rev": "",
             "name": "cerbere",
             "package_name": "cerbere",
@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7bce970d837789fa052aea99268719b8b7008608",
-            "git_last_date": "170616.185512",
+            "git_last_commit": "cec13040e7099334efeacdeb0dab339ad62bcf67",
+            "git_last_date": "170617.032943",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.1.0",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1880",
+            "bzr_last_rev": "1881",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -275,7 +275,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "192",
+            "bzr_last_rev": "193",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -316,8 +316,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d5db1312ee5f344ee2e478e37e3dfccb3463465a",
-            "git_last_date": "170614.230226",
+            "git_last_commit": "aa2097d9ef2a585014fcf782b7e5f9b4e7032505",
+            "git_last_date": "170616.232011",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -470,8 +470,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fd133cd655d3a8f646154e3c8033faf3ffb44392",
-            "git_last_date": "170614.160700",
+            "git_last_commit": "4578d7a8cbe5c885ade1e15ac66da3b6cf14b3d4",
+            "git_last_date": "170616.232032",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
@@ -481,8 +481,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8cd0caa738f44390cf172c2b96da4ce0fb538f07",
-            "git_last_date": "170615.210618",
+            "git_last_commit": "1b3620c326f797aa9d249c243ca1e49997220f0f",
+            "git_last_date": "170616.232056",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
