@@ -1,6 +1,6 @@
 Summary:        pantheon session configuration files
 Name:           pantheon-session-settings
-Version:        0.6.0+git%{date}.%{commit}
+Version:        0.9.90+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2
 URL:            https://github.com/decathorpe/pantheon-session-settings
@@ -103,6 +103,9 @@ fi
 
 
 %changelog
+* Sun Jun 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.9.90+git170618.101826.2cfacffb-1
+- Update to version 0.9.90.
+
 * Sun Jun 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.6.0+git170618.101826.2cfacffb-1
 - Update to latest snapshot.
 
