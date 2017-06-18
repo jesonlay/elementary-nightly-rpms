@@ -115,6 +115,9 @@ popd
 
 
 %changelog
+* Sun Jun 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git170617.150143.919b2c92-1
+- Update to latest snapshot.
+
 * Sat Apr 29 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git170417.235528.5a0270aa-1
 - Initial package.
 

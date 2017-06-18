@@ -1,7 +1,7 @@
 Summary:        simple screen capture tool
 Name:           screenshot-tool
 Version:        0.1.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/screenshot-tool
 
@@ -71,6 +71,9 @@ fi
 
 
 %changelog
+* Sun Jun 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3.1+git170617.152026.f7ea912f-1
+- Update to latest snapshot.
+
 * Fri Jun 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3.1+git170601.183705.a8f4faf4-2
 - Ignore appdata validation errors.
 

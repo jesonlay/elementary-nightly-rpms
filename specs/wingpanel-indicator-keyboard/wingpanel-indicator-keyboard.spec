@@ -48,6 +48,9 @@ A keyboard indicator for wingpanel.
 
 
 %changelog
+* Sun Jun 18 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170617.151454.cd4ba404-1
+- Update to latest snapshot.
+
 * Sun May 14 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170514.131906.ef6139f9-1
 - Update to latest snapshot.
 

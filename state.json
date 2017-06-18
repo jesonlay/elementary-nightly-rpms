@@ -2,7 +2,7 @@
     "_default": {
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "755",
+            "bzr_last_rev": "760",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -32,7 +32,7 @@
         },
         "5": {
             "bzr_branch": "",
-            "bzr_last_rev": "145",
+            "bzr_last_rev": "146",
             "bzr_rev": "",
             "name": "contractor",
             "package_name": "contractor",
@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cec13040e7099334efeacdeb0dab339ad62bcf67",
-            "git_last_date": "170617.032943",
+            "git_last_commit": "1b82f02ec808dde98014d19407b3c153559c05b6",
+            "git_last_date": "170618.021742",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.1.0",
@@ -74,8 +74,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "72f9a91e96dd5d9823083e5b72b81d8c24be3771",
-            "git_last_date": "170607.205340",
+            "git_last_commit": "5696951d8ec9dde2d4cfd9f964d8daf3dd391967",
+            "git_last_date": "170617.153121",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
@@ -84,7 +84,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1039",
+            "bzr_last_rev": "1044",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -94,7 +94,7 @@
         },
         "17": {
             "bzr_branch": "",
-            "bzr_last_rev": "343",
+            "bzr_last_rev": "349",
             "bzr_rev": "",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
@@ -114,7 +114,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "563",
+            "bzr_last_rev": "565",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -134,7 +134,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3209",
+            "bzr_last_rev": "3227",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1881",
+            "bzr_last_rev": "1885",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -185,7 +185,7 @@
         },
         "30": {
             "bzr_branch": "",
-            "bzr_last_rev": "231",
+            "bzr_last_rev": "232",
             "bzr_rev": "",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
@@ -195,7 +195,7 @@
         },
         "31": {
             "bzr_branch": "",
-            "bzr_last_rev": "57",
+            "bzr_last_rev": "77",
             "bzr_rev": "",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
@@ -205,7 +205,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "543",
+            "bzr_last_rev": "580",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -215,7 +215,7 @@
         },
         "36": {
             "bzr_branch": "",
-            "bzr_last_rev": "186",
+            "bzr_last_rev": "187",
             "bzr_rev": "",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
@@ -225,7 +225,7 @@
         },
         "37": {
             "bzr_branch": "",
-            "bzr_last_rev": "384",
+            "bzr_last_rev": "490",
             "bzr_rev": "",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
@@ -235,7 +235,7 @@
         },
         "40": {
             "bzr_branch": "",
-            "bzr_last_rev": "307",
+            "bzr_last_rev": "309",
             "bzr_rev": "",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
@@ -245,7 +245,7 @@
         },
         "42": {
             "bzr_branch": "",
-            "bzr_last_rev": "168",
+            "bzr_last_rev": "169",
             "bzr_rev": "",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
@@ -255,7 +255,7 @@
         },
         "43": {
             "bzr_branch": "",
-            "bzr_last_rev": "375",
+            "bzr_last_rev": "383",
             "bzr_rev": "",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
@@ -265,7 +265,7 @@
         },
         "44": {
             "bzr_branch": "",
-            "bzr_last_rev": "141",
+            "bzr_last_rev": "142",
             "bzr_rev": "",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
@@ -275,7 +275,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "193",
+            "bzr_last_rev": "194",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -285,7 +285,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "282",
+            "bzr_last_rev": "285",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
@@ -295,7 +295,7 @@
         },
         "54": {
             "bzr_branch": "",
-            "bzr_last_rev": "163",
+            "bzr_last_rev": "189",
             "bzr_rev": "",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
@@ -305,7 +305,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "788",
+            "bzr_last_rev": "795",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
@@ -327,12 +327,12 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a8f4faf4fc0edf6f52767c00745d48f7e679c90a",
-            "git_last_date": "170601.183705",
+            "git_last_commit": "f7ea912f2bb1a94190b712bdacc7db8907f5a698",
+            "git_last_date": "170617.152026",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.3.1+git%{date}.%{commit}"
         },
         "59": {
@@ -360,8 +360,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "facd70f94ab00eaf075a8fc5b02f1ba6ae7011de",
-            "git_last_date": "170614.153814",
+            "git_last_commit": "d9d06237168b68cd08d10edc7b60c85143cbb4bd",
+            "git_last_date": "170617.161241",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -371,8 +371,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6de1e7764a57b51ed87f5d92d013a76054c345c3",
-            "git_last_date": "170607.160948",
+            "git_last_commit": "106622e0ca68d68a8e72f9762aab9a0a442e9075",
+            "git_last_date": "170617.153024",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
@@ -382,8 +382,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a0270aa7b580304452bf95a30d7fd634a8cdd9b",
-            "git_last_date": "170417.235528",
+            "git_last_commit": "919b2c928153fe5becd5afe0d9d29317f4c26cbd",
+            "git_last_date": "170617.150143",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.0.1",
@@ -393,8 +393,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2f6acbe6a8731e4e9850925d5ec3d35092079eac",
-            "git_last_date": "170611.162432",
+            "git_last_commit": "177f0db770962e1dca7961832fbeea9548cc638b",
+            "git_last_date": "170617.153400",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
@@ -404,8 +404,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a4f468049a3aa56799e7c3e5b7c025a86002027b",
-            "git_last_date": "170607.010529",
+            "git_last_commit": "312615e598082010145c0de531bdcddae5a6600f",
+            "git_last_date": "170617.160254",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.0.3",
@@ -415,8 +415,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5bcf64afc16d17de3032ed3a947c5af7c2419b89",
-            "git_last_date": "170530.192414",
+            "git_last_commit": "664ad1a654865e1df07d65afd0b6c62777f0e74b",
+            "git_last_date": "170617.151951",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -426,8 +426,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fbc68f9c432be263a804d612c061993bd2bd6abf",
-            "git_last_date": "170608.165115",
+            "git_last_commit": "5db4d317e75b27f0498d645c97adcdfcda1f57a2",
+            "git_last_date": "170617.175316",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -437,8 +437,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d2e424c0ac3713a7c207227cb5a805274ac37449",
-            "git_last_date": "170515.123700",
+            "git_last_commit": "e57f0542ef108acd137b18a51342a5df4beb44c7",
+            "git_last_date": "170617.151508",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.1",
@@ -448,8 +448,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3f52803d009d851aeb02280d07a2aefe5ba869f5",
-            "git_last_date": "170603.092900",
+            "git_last_commit": "418671fe6abd0461851ae323be97236594d30147",
+            "git_last_date": "170617.152617",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -459,8 +459,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ef6139f916ce654adfa7e25daff97c631f74a2e6",
-            "git_last_date": "170514.131906",
+            "git_last_commit": "cd4ba404277e9bcba3b63ddd0487c212dc84d742",
+            "git_last_date": "170617.151454",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
@@ -492,8 +492,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bb6c014b51c9762a38b9d41d70dd29247de0baaa",
-            "git_last_date": "170521.211428",
+            "git_last_commit": "ae2429ecfaa9bbf847f892b1dccc89c5e425e2cb",
+            "git_last_date": "170617.151523",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f7bb17b389b210bc95a13718f88beede6f50fd61",
-            "git_last_date": "170603.180424",
+            "git_last_commit": "af784cd40de14a01f55d515e71e4b8807439902f",
+            "git_last_date": "170617.160328",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
@@ -514,8 +514,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7ace420df2d3738e2700628592a3aea4dc2b753c",
-            "git_last_date": "170603.093034",
+            "git_last_commit": "e7be933807e5d333dcc7f403dccc685f1aedf915",
+            "git_last_date": "170617.152806",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -525,8 +525,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e031896e995c61d7644ce48a97b2f061d4ec9376",
-            "git_last_date": "170608.070828",
+            "git_last_commit": "97f8dd535b499bdf1726d5882b612abc47dfd933",
+            "git_last_date": "170617.153346",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
@@ -536,8 +536,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c4c03ab8075a5a1231fefec109da20d237ac485a",
-            "git_last_date": "170616.210038",
+            "git_last_commit": "589f8e33061f9a22e87fcb626aef9c6b03299c56",
+            "git_last_date": "170617.180441",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.3",
@@ -547,8 +547,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8f0fb26898f103074e2fff3c83c04159ef6ad7ea",
-            "git_last_date": "170602.173816",
+            "git_last_commit": "f6899482296b8d63fce6186e16ae3109b7415b47",
+            "git_last_date": "170617.173958",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.0.1",
@@ -558,8 +558,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "234545c7ec0551ce40f1cad4f7d0100674e8b3f0",
-            "git_last_date": "170604.173131",
+            "git_last_commit": "fa919161439bf878d5c72e74e7169b57553cd135",
+            "git_last_date": "170617.184144",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.4",
@@ -569,8 +569,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "94afb21511c8d62e5e64e5b22a50be5580e4079f",
-            "git_last_date": "170604.161730",
+            "git_last_commit": "e5aa1019b18b06f715d70824eb1b441cfef79386",
+            "git_last_date": "170617.175639",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.2",
@@ -580,8 +580,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8f4090f35f3970c13e1a8c1d5976e3abc9b16c26",
-            "git_last_date": "170602.170610",
+            "git_last_commit": "39a7441ca6325bace5be0f8371b9ac2625cacc5f",
+            "git_last_date": "170617.152057",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "0.1.2",
@@ -591,8 +591,8 @@
         "82": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8533b0387af07a6973ade14bf02ea9b7bbbc4157",
-            "git_last_date": "170526.212756",
+            "git_last_commit": "6cbe7b5326ce87910a65cc9735fef59c4ae44472",
+            "git_last_date": "170617.175152",
             "name": "wingpanel-indicator-ayatana",
             "package_name": "wingpanel-indicator-ayatana",
             "package_version": "2.0.3",
@@ -602,8 +602,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e625586fbb89be4b5d0cf15abde2793f8f228768",
-            "git_last_date": "170526.214420",
+            "git_last_commit": "c7bf646aaae47ec1f0a4afdb155af81e42bb683c",
+            "git_last_date": "170617.151803",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.4",
@@ -613,8 +613,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "51d21febe2e6fd19f11ab590f7b6d38f01b865f4",
-            "git_last_date": "170602.172312",
+            "git_last_commit": "fce293ab8ae55d1e63f0b31465ac673a3ccb51c5",
+            "git_last_date": "170617.152544",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.3",
