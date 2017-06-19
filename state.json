@@ -114,7 +114,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "565",
+            "bzr_last_rev": "572",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "af784cd40de14a01f55d515e71e4b8807439902f",
-            "git_last_date": "170617.160328",
+            "git_last_commit": "e60f522fbaee0ee22da97eb1d20d7f42ac598ad7",
+            "git_last_date": "170619.064115",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
