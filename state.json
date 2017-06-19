@@ -114,7 +114,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "572",
+            "bzr_last_rev": "573",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -371,8 +371,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "106622e0ca68d68a8e72f9762aab9a0a442e9075",
-            "git_last_date": "170617.153024",
+            "git_last_commit": "c7cd564f699837930ccc1905eea59318c7c85715",
+            "git_last_date": "170619.135343",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
@@ -470,8 +470,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4578d7a8cbe5c885ade1e15ac66da3b6cf14b3d4",
-            "git_last_date": "170616.232032",
+            "git_last_commit": "9368f985b6d2164e3865a49a8576ca6aa723824f",
+            "git_last_date": "170619.110718",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e60f522fbaee0ee22da97eb1d20d7f42ac598ad7",
-            "git_last_date": "170619.064115",
+            "git_last_commit": "64d06d11218a750b71d1cb2134890606821eb072",
+            "git_last_date": "170619.111204",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
