@@ -481,8 +481,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1b3620c326f797aa9d249c243ca1e49997220f0f",
-            "git_last_date": "170616.232056",
+            "git_last_commit": "fdb1aab164feeb0a4d79b70a86d33db77eb5b4e2",
+            "git_last_date": "170620.155429",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -569,8 +569,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e5aa1019b18b06f715d70824eb1b441cfef79386",
-            "git_last_date": "170617.175639",
+            "git_last_commit": "f064927a80f938e69e12b96c76597a219a884c2b",
+            "git_last_date": "170620.155347",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.2",
