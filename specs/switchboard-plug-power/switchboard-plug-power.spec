@@ -3,7 +3,7 @@
 Summary:        Switchboard Power Plug
 Name:           switchboard-plug-power
 Version:        0.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-power
 
@@ -49,12 +49,18 @@ Designed for elementary OS.
 
 
 %files -f pantheon-power-plug.lang
+%config(noreplace) %{_sysconfdir}/dbus-1/system.d/io.elementary.logind.helper.conf
+
 %{_libdir}/switchboard/hardware/pantheon-power/
 
+%{_datadir}/dbus-1/system-services/io.elementary.logind.helper.service
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.power.policy
 
 
 %changelog
+* Tue Jun 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git170619.111204.64d06d11-2
+- Adapt to upstream file changes.
+
 * Mon Jun 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git170619.111204.64d06d11-1
 - Update to latest snapshot.
 
