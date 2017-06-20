@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1885",
+            "bzr_last_rev": "1896",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -470,8 +470,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9368f985b6d2164e3865a49a8576ca6aa723824f",
-            "git_last_date": "170619.110718",
+            "git_last_commit": "85c0a6538b62e5c3aeaf50ae2735bc264e4df390",
+            "git_last_date": "170620.085516",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
