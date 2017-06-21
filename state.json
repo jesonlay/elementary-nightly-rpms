@@ -205,7 +205,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "580",
+            "bzr_last_rev": "582",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -275,7 +275,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "194",
+            "bzr_last_rev": "195",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -503,8 +503,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8e244d2284ce67593687ffd19e343369a9524345",
-            "git_last_date": "170621.163313",
+            "git_last_commit": "27ca0dbc7cf953ff3f2eecd2940a721a67d684fb",
+            "git_last_date": "170621.170427",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
