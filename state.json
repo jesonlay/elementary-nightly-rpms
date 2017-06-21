@@ -225,7 +225,7 @@
         },
         "37": {
             "bzr_branch": "",
-            "bzr_last_rev": "490",
+            "bzr_last_rev": "491",
             "bzr_rev": "",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
@@ -470,8 +470,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "85c0a6538b62e5c3aeaf50ae2735bc264e4df390",
-            "git_last_date": "170620.085516",
+            "git_last_commit": "0060bb0b79b192f83cc8372d391c4fbb19bc46e1",
+            "git_last_date": "170621.162040",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
@@ -503,12 +503,12 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "64d06d11218a750b71d1cb2134890606821eb072",
-            "git_last_date": "170619.111204",
+            "git_last_commit": "8e244d2284ce67593687ffd19e343369a9524345",
+            "git_last_date": "170621.163313",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
         "75": {
