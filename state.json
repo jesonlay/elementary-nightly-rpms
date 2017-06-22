@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2593",
+            "bzr_last_rev": "2597",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -205,7 +205,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "582",
+            "bzr_last_rev": "583",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -492,8 +492,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ae2429ecfaa9bbf847f892b1dccc89c5e425e2cb",
-            "git_last_date": "170617.151523",
+            "git_last_commit": "c48b7053a96cf0a98373c5b4c9b95227354a500d",
+            "git_last_date": "170622.101506",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
