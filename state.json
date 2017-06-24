@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2597",
+            "bzr_last_rev": "2602",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -114,7 +114,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "573",
+            "bzr_last_rev": "575",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -265,7 +265,7 @@
         },
         "44": {
             "bzr_branch": "",
-            "bzr_last_rev": "142",
+            "bzr_last_rev": "143",
             "bzr_rev": "",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
@@ -275,7 +275,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "195",
+            "bzr_last_rev": "196",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -536,8 +536,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "99aff8bae8ebbfb77be04c8f7730de4bcc55751f",
-            "git_last_date": "170621.155642",
+            "git_last_commit": "092b3c97396b841a59447d8e97a3f9b00c58dfca",
+            "git_last_date": "170623.195358",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.3",
@@ -558,8 +558,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b1c7bcc6dfe3bac921b96aa729cc4083a97a6987",
-            "git_last_date": "170622.185228",
+            "git_last_commit": "c672f02636bfeb59bd60dbe97b44a0ef12dd458f",
+            "git_last_date": "170622.221904",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.4",
