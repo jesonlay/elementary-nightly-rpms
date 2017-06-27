@@ -94,7 +94,7 @@
         },
         "17": {
             "bzr_branch": "",
-            "bzr_last_rev": "349",
+            "bzr_last_rev": "358",
             "bzr_rev": "",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2604",
+            "bzr_last_rev": "2606",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1896",
+            "bzr_last_rev": "1901",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -205,7 +205,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "583",
+            "bzr_last_rev": "585",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -470,8 +470,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0060bb0b79b192f83cc8372d391c4fbb19bc46e1",
-            "git_last_date": "170621.162040",
+            "git_last_commit": "7b3f80230d8f767b282d370103d218b8ed788ee4",
+            "git_last_date": "170627.083411",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
@@ -536,8 +536,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e1f5348f34fe8b0ba0743271329e4b5146b0a384",
-            "git_last_date": "170626.150803",
+            "git_last_commit": "07b11b4927d4510b193c5bccd174c27254acfb20",
+            "git_last_date": "170627.031850",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.3",
