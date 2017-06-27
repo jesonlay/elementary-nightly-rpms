@@ -205,7 +205,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "585",
+            "bzr_last_rev": "586",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -536,8 +536,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07b11b4927d4510b193c5bccd174c27254acfb20",
-            "git_last_date": "170627.031850",
+            "git_last_commit": "a06ee6bb60bf67d8fa4e08e696e672eec078564a",
+            "git_last_date": "170627.174257",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.3",
