@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f074ae50e5b23c1ee565eaad6f4a759c9e31a737",
-            "git_last_date": "170624.205141",
+            "git_last_commit": "28ab75a3451824e4f674e57fb1d5f9b3e3ffebf5",
+            "git_last_date": "170628.033332",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.1.0",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1901",
+            "bzr_last_rev": "1903",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -536,8 +536,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a06ee6bb60bf67d8fa4e08e696e672eec078564a",
-            "git_last_date": "170627.174257",
+            "git_last_commit": "471b0dc6cffe46a4b57a9ad6ba677b3be751aa33",
+            "git_last_date": "170627.230748",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.3",
