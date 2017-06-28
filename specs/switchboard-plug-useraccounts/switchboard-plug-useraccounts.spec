@@ -1,6 +1,6 @@
 Name:           switchboard-plug-useraccounts
 Summary:        Switchboard User Accounts Plug
-Version:        0.1.4+git%{date}.%{commit}
+Version:        0.1.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 
@@ -24,6 +24,7 @@ BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(pwquality)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -60,6 +61,9 @@ popd
 
 
 %changelog
+* Wed Jun 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.5+git170628.130459.d3852f36-1
+- Update to version 0.1.5.
+
 * Wed Jun 28 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170628.130459.d3852f36-1
 - Update to latest snapshot.
 
