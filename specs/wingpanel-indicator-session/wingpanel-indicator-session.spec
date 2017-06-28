@@ -1,8 +1,6 @@
-%global debug_package %{nil}
-
-Summary:        a session Indicator for wingpanel
 Name:           wingpanel-indicator-session
-Version:        2.0.1+rev%{rev}
+Summary:        Session Indicator for wingpanel
+Version:        2.0.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3, LGPLv3
 URL:            http://launchpad.net/wingpanel-indicator-session
@@ -24,7 +22,7 @@ BuildRequires:  pkgconfig(wingpanel-2.0)
 
 
 %description
-a session Indicator for wingpanel
+Session Indicator for wingpanel.
 
 
 %prep
@@ -32,17 +30,18 @@ a session Indicator for wingpanel
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang session-indicator
-
-
-%clean
-rm -rf %{buildroot}
 
 
 %files -f session-indicator.lang
@@ -52,6 +51,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Jun 28 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170628.105957.7916b12a-1
+- Update to version 2.0.2.
+
 * Wed Jun 28 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev190-1
 - Update to latest snapshot.
 
