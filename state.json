@@ -114,7 +114,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "575",
+            "bzr_last_rev": "576",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -471,8 +471,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f9a5b1a401af588e01e7ff32928984048a168b6e",
-            "git_last_date": "170621.155312",
+            "git_last_commit": "436a54d82ae5d70389a5183f28d9c24b1347ed93",
+            "git_last_date": "170628.220323",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
