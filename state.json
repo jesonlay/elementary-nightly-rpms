@@ -340,8 +340,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "62b9c64515237c9306905eb705201be315a68904",
-            "git_last_date": "170630.014106",
+            "git_last_commit": "becd8fa71106acd6e5bd77dcca4594d252ea400b",
+            "git_last_date": "170701.172125",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
