@@ -2,7 +2,7 @@
 
 Summary:        a datetime indicator for wingpanel
 Name:           wingpanel-indicator-datetime
-Version:        2.0.1+rev%{rev}
+Version:        2.0.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-datetime
@@ -57,6 +57,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat Jul 01 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170630.101222.56b8e20e-1
+- Update to version 2.0.2.
+
 * Sat Jul 01 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+rev197-1
 - Update to latest snapshot.
 
