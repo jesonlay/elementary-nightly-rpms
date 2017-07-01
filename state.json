@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "28ab75a3451824e4f674e57fb1d5f9b3e3ffebf5",
-            "git_last_date": "170628.033332",
+            "git_last_commit": "36f3efa5f87468941fe501f35b546b8387e6c147",
+            "git_last_date": "170630.014303",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.1.0",
@@ -84,7 +84,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1044",
+            "bzr_last_rev": "1047",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2606",
+            "bzr_last_rev": "2610",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1903",
+            "bzr_last_rev": "1906",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -275,7 +275,7 @@
         },
         "49": {
             "bzr_branch": "",
-            "bzr_last_rev": "196",
+            "bzr_last_rev": "197",
             "bzr_rev": "",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
@@ -350,8 +350,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d9d06237168b68cd08d10edc7b60c85143cbb4bd",
-            "git_last_date": "170617.161241",
+            "git_last_commit": "62b9c64515237c9306905eb705201be315a68904",
+            "git_last_date": "170630.014106",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -526,8 +526,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4b6a0b28bc94226a49e5bbea814b6bb5cad4ba59",
-            "git_last_date": "170629.080704",
+            "git_last_commit": "34d6bae041d061018d493b3de5bf7acd50e39cbf",
+            "git_last_date": "170630.165357",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.3",
