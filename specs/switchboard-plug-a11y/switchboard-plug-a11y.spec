@@ -51,6 +51,9 @@ Built for elementary OS.
 
 
 %changelog
+* Sun Jul 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git170702.185904.1a97c3bc-1
+- Update to latest snapshot.
+
 * Thu Jun 22 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git170622.101506.c48b7053-1
 - Update to latest snapshot.
 
