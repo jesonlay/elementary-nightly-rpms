@@ -58,6 +58,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.panth
 
 
 %changelog
+* Sun Jul 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev359-1
+- Update to latest snapshot.
+
 * Tue Jun 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev358-1
 - Update to latest snapshot.
 
