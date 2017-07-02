@@ -114,7 +114,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "576",
+            "bzr_last_rev": "577",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -450,8 +450,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d9f8601c0a3fbb68de6b9a82dd7e903d26993bd3",
-            "git_last_date": "170702.185458",
+            "git_last_commit": "3a3c273ca9e16a69fdee866d6bf8084198374eb6",
+            "git_last_date": "170702.190626",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.2",
@@ -505,8 +505,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "97f8dd535b499bdf1726d5882b612abc47dfd933",
-            "git_last_date": "170617.153346",
+            "git_last_commit": "c3541fa36ab6d46f2c4de8f8db53e0dd133af5a0",
+            "git_last_date": "170702.195849",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
