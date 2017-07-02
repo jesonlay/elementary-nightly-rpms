@@ -439,8 +439,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cd4ba404277e9bcba3b63ddd0487c212dc84d742",
-            "git_last_date": "170617.151454",
+            "git_last_commit": "134f279f125fc3317ce90ac91f8d96f569999a9f",
+            "git_last_date": "170702.180442",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
@@ -483,8 +483,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "955fcc935e8e2f845a27d43d8954563eee95b62f",
-            "git_last_date": "170702.110138",
+            "git_last_commit": "de55075511a1899d64d1800697b30e836d4f40a3",
+            "git_last_date": "170702.171704",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
