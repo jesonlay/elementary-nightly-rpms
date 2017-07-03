@@ -84,7 +84,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1049",
+            "bzr_last_rev": "1050",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -285,7 +285,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "795",
+            "bzr_last_rev": "796",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
