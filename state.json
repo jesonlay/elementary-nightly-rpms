@@ -275,7 +275,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "285",
+            "bzr_last_rev": "286",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
@@ -395,8 +395,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "664ad1a654865e1df07d65afd0b6c62777f0e74b",
-            "git_last_date": "170617.151951",
+            "git_last_commit": "7b574b0d6a108927d3d65a1a4c5b9c354b961e61",
+            "git_last_date": "170703.192647",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -538,8 +538,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d3852f362cfa2cce470cbe472cf626562ba0903c",
-            "git_last_date": "170628.130459",
+            "git_last_commit": "64ff8008a9276b66c7ad2286fd4acc57f5904d6f",
+            "git_last_date": "170703.200256",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.5",
@@ -571,8 +571,8 @@
         "82": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6cbe7b5326ce87910a65cc9735fef59c4ae44472",
-            "git_last_date": "170617.175152",
+            "git_last_commit": "f324e542b6531306ffc11fff5b59316360c2a960",
+            "git_last_date": "170703.192035",
             "name": "wingpanel-indicator-ayatana",
             "package_name": "wingpanel-indicator-ayatana",
             "package_version": "2.0.3",
@@ -615,8 +615,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "56b8e20eb1ba673a6dc0fc5b3fc237b13b03f5b7",
-            "git_last_date": "170630.101222",
+            "git_last_commit": "7c8f5c24695d78ddb4f6e88a706f4ad539a0bcba",
+            "git_last_date": "170703.191910",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.0.2",
