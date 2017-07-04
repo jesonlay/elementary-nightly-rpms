@@ -32,7 +32,7 @@
         },
         "5": {
             "bzr_branch": "",
-            "bzr_last_rev": "146",
+            "bzr_last_rev": "147",
             "bzr_rev": "",
             "name": "contractor",
             "package_name": "contractor",
@@ -245,7 +245,7 @@
         },
         "42": {
             "bzr_branch": "",
-            "bzr_last_rev": "169",
+            "bzr_last_rev": "173",
             "bzr_rev": "",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
@@ -275,7 +275,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "286",
+            "bzr_last_rev": "289",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
@@ -307,8 +307,8 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f8b895756ca8d661f14bdebe044c4191827c6ae2",
-            "git_last_date": "170702.102737",
+            "git_last_commit": "bbdd218f68da4ad255d6ee843aeeed5b523b2d56",
+            "git_last_date": "170704.030717",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.3.1",
@@ -516,8 +516,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3c715889411c788c68060959a61cb01dd801db09",
-            "git_last_date": "170703.175000",
+            "git_last_commit": "a19a8ed0087e951f7b982595c30910d2606927fb",
+            "git_last_date": "170704.071253",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.3",
