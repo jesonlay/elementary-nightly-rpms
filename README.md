@@ -85,6 +85,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | switchboard-plug-printers             | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-printers>             |
 | switchboard-plug-security-privacy     | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-security-privacy>     |
 | switchboard-plug-sharing              | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-sharing>              |
+| switchboard-plug-sound                | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-sound>                |
 | switchboard-plug-useraccounts         | DONE                  | DONE                  | <https://launchpad.net/switchboard-plug-useraccounts>         |
 
 
