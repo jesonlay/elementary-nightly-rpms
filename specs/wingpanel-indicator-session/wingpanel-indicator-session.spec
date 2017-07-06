@@ -51,6 +51,9 @@ popd
 
 
 %changelog
+* Thu Jul 06 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170706.182218.a25e4766-1
+- Update to latest snapshot.
+
 * Sun Jul 02 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170702.103057.1d46c17e-1
 - Update to latest snapshot.
 
