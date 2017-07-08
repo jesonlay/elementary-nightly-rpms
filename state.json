@@ -2,7 +2,7 @@
     "_default": {
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "767",
+            "bzr_last_rev": "768",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -74,8 +74,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0102c0fe6241184af06f93e05bb4ca6ce023a7e9",
-            "git_last_date": "170707.025047",
+            "git_last_commit": "fcadef2d2856eaf13a9928b5ec8efb9d85cb584b",
+            "git_last_date": "170707.193146",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1908",
+            "bzr_last_rev": "1915",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -340,8 +340,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "becd8fa71106acd6e5bd77dcca4594d252ea400b",
-            "git_last_date": "170701.172125",
+            "git_last_commit": "6d5da18297b5ef8727f10dbdd54764fa5f412f9b",
+            "git_last_date": "170708.055003",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.5",
@@ -384,8 +384,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4f0091d5f3fd0c270c9c21d135fbb7601f5ee42a",
-            "git_last_date": "170706.175428",
+            "git_last_commit": "2b5dce2aaa40903800d5c160638b2f940c41cbab",
+            "git_last_date": "170708.045822",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.0.3",
@@ -461,8 +461,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c87609719b0c977adc62693bb2c400264e4d3796",
-            "git_last_date": "170705.205850",
+            "git_last_commit": "e28094109e8042d5c9c03544a806c26d257eaed4",
+            "git_last_date": "170708.034235",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
