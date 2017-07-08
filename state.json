@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2619",
+            "bzr_last_rev": "2623",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -134,7 +134,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3237",
+            "bzr_last_rev": "3244",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
