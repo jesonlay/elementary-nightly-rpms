@@ -52,7 +52,7 @@
         },
         "8": {
             "bzr_branch": "",
-            "bzr_last_rev": "223",
+            "bzr_last_rev": "226",
             "bzr_rev": "",
             "name": "elementary-dpms-helper",
             "package_name": "elementary-dpms-helper",
@@ -461,8 +461,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8f7434d72a528a1b8da1900e6a5732469399f53c",
-            "git_last_date": "170711.172846",
+            "git_last_commit": "0e06749b6e41023dca06352970f74b443169ab18",
+            "git_last_date": "170711.180302",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
