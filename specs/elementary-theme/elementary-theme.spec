@@ -1,7 +1,7 @@
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.0.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://github.com/elementary/stylesheet
 
@@ -70,10 +70,11 @@ This package contains the plank theme.
 %install
 mkdir -p %{buildroot}/%{_datadir}/themes/elementary
 
-cp -p index.theme %{buildroot}/%{_datadir}/themes/elementary/
-cp -pr gtk-2.0 %{buildroot}/%{_datadir}/themes/elementary/
-cp -pr gtk-3.0 %{buildroot}/%{_datadir}/themes/elementary/
-cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
+cp -pav index.theme %{buildroot}/%{_datadir}/themes/elementary/
+cp -pavr gtk-2.0 %{buildroot}/%{_datadir}/themes/elementary/
+cp -pavr gtk-3.0 %{buildroot}/%{_datadir}/themes/elementary/
+cp -pavr gtk-3.22 %{buildroot}/%{_datadir}/themes/elementary/
+cp -pavr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %files
@@ -88,12 +89,16 @@ cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 %files          gtk3
 %{_datadir}/themes/elementary/gtk-3.0/
+%{_datadir}/themes/elementary/gtk-3.22/
 
 %files          plank
 %{_datadir}/themes/elementary/plank/
 
 
 %changelog
+* Tue Jul 11 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.4+git170710.191636.0676d4d9-2
+- Add GTK 3.22 theme to gtk3 subpackage.
+
 * Tue Jul 11 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.4+git170710.191636.0676d4d9-1
 - Update to latest snapshot.
 
