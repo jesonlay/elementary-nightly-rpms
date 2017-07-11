@@ -74,12 +74,12 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0676d4d9ea98dba7cc28b4dadd2701dae6ecadf7",
-            "git_last_date": "170710.191636",
+            "git_last_commit": "224c8b63e0617e565b2833215958c3f1551132fe",
+            "git_last_date": "170711.172317",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.0.4+git%{date}.%{commit}"
         },
         "14": {
@@ -307,8 +307,8 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7195aff818195810754ed95f51a78e6044383c06",
-            "git_last_date": "170706.204935",
+            "git_last_commit": "1717736ea9221d7c94aae435bb0df3b036273755",
+            "git_last_date": "170711.172721",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.3.1",
@@ -461,8 +461,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e28094109e8042d5c9c03544a806c26d257eaed4",
-            "git_last_date": "170708.034235",
+            "git_last_commit": "8f7434d72a528a1b8da1900e6a5732469399f53c",
+            "git_last_date": "170711.172846",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",

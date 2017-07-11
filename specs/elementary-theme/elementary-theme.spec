@@ -1,7 +1,7 @@
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.0.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://github.com/elementary/stylesheet
 
@@ -96,6 +96,9 @@ cp -pavr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %changelog
+* Tue Jul 11 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.4+git170711.172317.224c8b63-1
+- Update to latest snapshot.
+
 * Tue Jul 11 2017 Fabio Valentini <decathorpe@gmail.com> - 5.0.4+git170710.191636.0676d4d9-2
 - Add GTK 3.22 theme to gtk3 subpackage.
 
