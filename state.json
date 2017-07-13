@@ -84,7 +84,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1050",
+            "bzr_last_rev": "1053",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -307,8 +307,8 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e074e6c0bc090ee4dd42771b92462c5a727aae1e",
-            "git_last_date": "170711.221113",
+            "git_last_commit": "76223f78e8cb583fbd0e7e0735f7200386c7d5d9",
+            "git_last_date": "170712.214538",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.3.1",
