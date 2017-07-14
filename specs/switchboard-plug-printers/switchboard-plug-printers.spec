@@ -2,7 +2,7 @@
 
 Summary:        Switchboard Printers Plug
 Name:           switchboard-plug-printers
-Version:        0.1+rev%{rev}
+Version:        0.1.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-printers
@@ -54,6 +54,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Fri Jul 14 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git170712.193634.298383d5-1
+- Update to version 0.1.1.
+
 * Wed Jul 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev177-1
 - Update to latest snapshot.
 

@@ -243,16 +243,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+rev%{rev}"
         },
-        "42": {
-            "bzr_branch": "",
-            "bzr_last_rev": "177",
-            "bzr_rev": "",
-            "name": "switchboard-plug-printers",
-            "package_name": "switchboard-plug-printers",
-            "package_version": "0.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1+rev%{rev}"
-        },
         "43": {
             "bzr_branch": "",
             "bzr_last_rev": "408",
@@ -633,6 +623,17 @@
             "package_version": "0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
+        },
+        "88": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "298383d5b364e9cf8fb811f4545999effc97fa20",
+            "git_last_date": "170712.193634",
+            "name": "switchboard-plug-printers",
+            "package_name": "switchboard-plug-printers",
+            "package_version": "0.1.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         }
     }
 }
