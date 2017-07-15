@@ -225,7 +225,7 @@
         },
         "37": {
             "bzr_branch": "",
-            "bzr_last_rev": "495",
+            "bzr_last_rev": "501",
             "bzr_rev": "",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
@@ -275,7 +275,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "796",
+            "bzr_last_rev": "797",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
