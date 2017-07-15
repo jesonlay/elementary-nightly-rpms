@@ -84,7 +84,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1053",
+            "bzr_last_rev": "1054",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -94,7 +94,7 @@
         },
         "17": {
             "bzr_branch": "",
-            "bzr_last_rev": "359",
+            "bzr_last_rev": "362",
             "bzr_rev": "",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
@@ -506,8 +506,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9ea3933b8862f98e39cd145767a917becf3e8d1b",
-            "git_last_date": "170713.205109",
+            "git_last_commit": "591bb445c1cbcd70b74fd37ed22523b8f6ece1a0",
+            "git_last_date": "170714.230959",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.4",
