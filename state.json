@@ -286,8 +286,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3147d4fc3ba35aafe7368cdb38878ee0bbdc739b",
-            "git_last_date": "170702.101434",
+            "git_last_commit": "e90d411ccc8364ef1ca02ef70b693654c3ba6ffd",
+            "git_last_date": "170702.101437",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -385,8 +385,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7b574b0d6a108927d3d65a1a4c5b9c354b961e61",
-            "git_last_date": "170703.192647",
+            "git_last_commit": "994dc5825231951833de008b72ef4985bd788a0f",
+            "git_last_date": "170709.011937",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -583,8 +583,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b565cb61b39fbb276bbe2ef21cb2c659b4f3bfc2",
-            "git_last_date": "170702.101840",
+            "git_last_commit": "0b9382583de00a0a30d2390f6c7508e6cffb1f37",
+            "git_last_date": "170706.075146",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.3",
@@ -616,8 +616,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "983900fca8beda3f3bb55c96e002fda3dbfa3c6c",
-            "git_last_date": "170702.102802",
+            "git_last_commit": "c206bbcd22afdba2eb4ca06b6c39a2028176f037",
+            "git_last_date": "170715.154411",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0",
