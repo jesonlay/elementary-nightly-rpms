@@ -74,8 +74,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9b9cf189e5a6bd9eac2da8c2b16ad9cb440c50c4",
-            "git_last_date": "170714.174844",
+            "git_last_commit": "2e1b2771e32599d974c22a1c3220eb5ea60620fa",
+            "git_last_date": "170715.183054",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2627",
+            "bzr_last_rev": "2645",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -185,7 +185,7 @@
         },
         "30": {
             "bzr_branch": "",
-            "bzr_last_rev": "233",
+            "bzr_last_rev": "256",
             "bzr_rev": "",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
@@ -195,7 +195,7 @@
         },
         "31": {
             "bzr_branch": "",
-            "bzr_last_rev": "78",
+            "bzr_last_rev": "79",
             "bzr_rev": "",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
@@ -215,7 +215,7 @@
         },
         "36": {
             "bzr_branch": "",
-            "bzr_last_rev": "190",
+            "bzr_last_rev": "191",
             "bzr_rev": "",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
@@ -245,7 +245,7 @@
         },
         "43": {
             "bzr_branch": "",
-            "bzr_last_rev": "408",
+            "bzr_last_rev": "411",
             "bzr_rev": "",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
@@ -255,7 +255,7 @@
         },
         "44": {
             "bzr_branch": "",
-            "bzr_last_rev": "145",
+            "bzr_last_rev": "148",
             "bzr_rev": "",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
