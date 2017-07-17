@@ -124,7 +124,7 @@
         },
         "20": {
             "bzr_branch": "",
-            "bzr_last_rev": "71",
+            "bzr_last_rev": "72",
             "bzr_rev": "",
             "name": "pantheon-notes",
             "package_name": "pantheon-notes",
@@ -396,8 +396,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4c1cc554eef8b16dd8264eb34860abc68f092ea0",
-            "git_last_date": "170715.160723",
+            "git_last_commit": "c6304c47b762d84d93de7998b90f3bc0045fdadd",
+            "git_last_date": "170717.003956",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
