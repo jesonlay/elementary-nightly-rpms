@@ -55,6 +55,9 @@ cp dpms/elementary-dpms-helper.desktop %{buildroot}/%{_sysconfdir}/xdg/autostart
 
 
 %changelog
+* Wed Jul 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev227-1
+- Update to latest snapshot.
+
 * Tue Jul 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev226-1
 - Update to latest snapshot.
 
