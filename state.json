@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c09f530719ebcbc463f4ec53fe5f866515c13c42",
-            "git_last_date": "170719.005923",
+            "git_last_commit": "88ab6509c2a031f9f7052dbfeae0024ab1081a12",
+            "git_last_date": "170719.165009",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.1.0",
@@ -74,8 +74,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e91f11f87b430e97f8877fc466d88a26d74859e",
-            "git_last_date": "170718.170824",
+            "git_last_commit": "a057c8af5bdee42d882d321a84aebc01017befd1",
+            "git_last_date": "170719.161159",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
@@ -473,8 +473,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ef1e981ab1d758cddcacc7639c31dd992ae40f2e",
-            "git_last_date": "170715.120953",
+            "git_last_commit": "fd6e0bf823f526790cf134e7a5210839c405ebde",
+            "git_last_date": "170719.185928",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.1",
