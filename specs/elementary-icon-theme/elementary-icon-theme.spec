@@ -1,6 +1,6 @@
 Summary:        elementary Icons
 Name:           elementary-icon-theme
-Version:        4.1.0+git%{date}.%{commit}
+Version:        4.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 URL:            https://launchpad.net/elementaryicons
@@ -28,6 +28,8 @@ mkdir -p %{buildroot}/%{_datadir}/icons/elementary
 cp -apR * %{buildroot}/%{_datadir}/icons/elementary
 
 rm %{buildroot}/%{_datadir}/icons/elementary/AUTHORS
+rm %{buildroot}/%{_datadir}/icons/elementary/CODE_OF_CONDUCT.md
+rm %{buildroot}/%{_datadir}/icons/elementary/CONTRIBUTING.md
 rm %{buildroot}/%{_datadir}/icons/elementary/CONTRIBUTORS
 rm %{buildroot}/%{_datadir}/icons/elementary/COPYING
 rm %{buildroot}/%{_datadir}/icons/elementary/pre-commit
@@ -58,6 +60,9 @@ fi
 
 
 %changelog
+* Wed Jul 19 2017 Fabio Valentini <decathorpe@gmail.com> - 4.2.0+git170719.165009.88ab6509-1
+- Update to version 4.2.0.
+
 * Wed Jul 19 2017 Fabio Valentini <decathorpe@gmail.com> - 4.1.0+git170719.165009.88ab6509-1
 - Update to latest snapshot.
 
