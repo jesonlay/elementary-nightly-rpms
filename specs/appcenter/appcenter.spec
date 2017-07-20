@@ -1,7 +1,7 @@
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.2.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
@@ -82,6 +82,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Jul 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git170720.054139.cf31a22b-1
+- Update to latest snapshot.
+
 * Wed Jul 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git170718.175216.16372710-2
 - Adapt to upstream file changes.
 
