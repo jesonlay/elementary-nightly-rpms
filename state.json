@@ -407,8 +407,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f0cec55a4deaeecb3e01872a3abeb2b532842022",
-            "git_last_date": "170723.180728",
+            "git_last_commit": "18dfd9d1b1e55408e0c514cd0cbf5cad5f1f364c",
+            "git_last_date": "170724.185518",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.1",
@@ -583,8 +583,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "916be7c9b05f175b66c9e9c4f3a008846fef175a",
-            "git_last_date": "170724.174100",
+            "git_last_commit": "af3b22c25c4a7c41a3642f418ed508af62768cbe",
+            "git_last_date": "170724.181439",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.3",
