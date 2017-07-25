@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0159920ac3a9905cca16a59d21eab6145df28ed3",
-            "git_last_date": "170724.171630",
+            "git_last_commit": "73a04048ba1e199356a52c1ccb4f7a50a1a49351",
+            "git_last_date": "170725.000617",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -74,8 +74,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a27fee787f691025b0d4815820d5b5af7fd60d18",
-            "git_last_date": "170722.201500",
+            "git_last_commit": "06327c6d54470b645eabef64d9b8886a0b0574b9",
+            "git_last_date": "170725.033915",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
@@ -572,8 +572,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3fbafdc8eae200413e096ca8fe4baf357378a2ac",
-            "git_last_date": "170724.025608",
+            "git_last_commit": "70882791bf54933f5cf5280e6977788a21536cf9",
+            "git_last_date": "170725.000959",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.4",
