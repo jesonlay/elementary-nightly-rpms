@@ -94,7 +94,7 @@
         },
         "17": {
             "bzr_branch": "",
-            "bzr_last_rev": "362",
+            "bzr_last_rev": "364",
             "bzr_rev": "",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
@@ -134,7 +134,7 @@
         },
         "21": {
             "bzr_branch": "",
-            "bzr_last_rev": "3244",
+            "bzr_last_rev": "3250",
             "bzr_rev": "",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
@@ -165,7 +165,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1918",
+            "bzr_last_rev": "1923",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -275,7 +275,7 @@
         },
         "56": {
             "bzr_branch": "",
-            "bzr_last_rev": "797",
+            "bzr_last_rev": "801",
             "bzr_rev": "",
             "name": "switchboard",
             "package_name": "switchboard",
@@ -297,8 +297,8 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "76223f78e8cb583fbd0e7e0735f7200386c7d5d9",
-            "git_last_date": "170712.214538",
+            "git_last_commit": "6c13b83a4cefced5c970c021efbbf3b52b145331",
+            "git_last_date": "170728.030826",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.3.1",
@@ -374,8 +374,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2b5dce2aaa40903800d5c160638b2f940c41cbab",
-            "git_last_date": "170708.045822",
+            "git_last_commit": "4070773f3b3d090f2298ddef1765ba8d92b38b28",
+            "git_last_date": "170728.034934",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.0.3",
