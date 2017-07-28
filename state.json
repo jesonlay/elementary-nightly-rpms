@@ -132,16 +132,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.7+rev%{rev}"
         },
-        "21": {
-            "bzr_branch": "",
-            "bzr_last_rev": "3250",
-            "bzr_rev": "",
-            "name": "pantheon-photos",
-            "package_name": "pantheon-photos",
-            "package_version": "0.2.2",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.2.2+rev%{rev}"
-        },
         "22": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -635,6 +625,17 @@
             "package_version": "2.3.0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.0+git%{date}.%{commit}"
+        },
+        "90": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "e093c8d59a0a202e68be19755252412186469122",
+            "git_last_date": "170728.022623",
+            "name": "pantheon-photos",
+            "package_name": "pantheon-photos",
+            "package_version": "0.2.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         }
     }
 }
