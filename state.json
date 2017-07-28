@@ -273,16 +273,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+rev%{rev}"
         },
-        "56": {
-            "bzr_branch": "",
-            "bzr_last_rev": "801",
-            "bzr_rev": "",
-            "name": "switchboard",
-            "package_name": "switchboard",
-            "package_version": "2.2.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.2.0+rev%{rev}"
-        },
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -634,6 +624,17 @@
             "package_version": "0.1.1",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.1+git%{date}.%{commit}"
+        },
+        "89": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "4953b380a21021343625bdd206133225562d3e09",
+            "git_last_date": "170728.013904",
+            "name": "switchboard",
+            "package_name": "switchboard",
+            "package_version": "2.3.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.3.0+git%{date}.%{commit}"
         }
     }
 }
