@@ -486,12 +486,12 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3356ab2f9ee949ce99ec717f449608797fa54cd2",
-            "git_last_date": "170723.220333",
+            "git_last_commit": "9751452c44c1b44fc07bfe8514dac3475e6afa8b",
+            "git_last_date": "170731.001829",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         },
         "78": {
