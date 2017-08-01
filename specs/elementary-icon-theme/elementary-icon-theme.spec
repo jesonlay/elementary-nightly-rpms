@@ -60,6 +60,9 @@ fi
 
 
 %changelog
+* Tue Aug 01 2017 Fabio Valentini <decathorpe@gmail.com> - 4.2.0+git170801.180037.ab2f6dd4-1
+- Update to latest snapshot.
+
 * Wed Jul 26 2017 Fabio Valentini <decathorpe@gmail.com> - 4.2.0+git170726.043211.a99da6e8-1
 - Update to latest snapshot.
 

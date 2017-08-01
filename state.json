@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a99da6e89e62d604d04dc75d285b717f3e06ca66",
-            "git_last_date": "170726.043211",
+            "git_last_commit": "ab2f6dd41d419a6281c609e2be3a61a31643833c",
+            "git_last_date": "170801.180037",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -387,8 +387,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "38ed7b2550e0251081ec18a976ddd12a0777c393",
-            "git_last_date": "170725.181609",
+            "git_last_commit": "d51bdcf0469f5482071410cd4bc7d3099e8791f4",
+            "git_last_date": "170801.175623",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.1",
@@ -431,8 +431,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "682a49a930c6ceb6b94554aa6ea18e7b03a2b293",
-            "git_last_date": "170725.181903",
+            "git_last_commit": "a3c083e53a38fb94e687a329673118ca125d7bc6",
+            "git_last_date": "170801.173646",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
