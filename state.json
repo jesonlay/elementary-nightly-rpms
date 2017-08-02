@@ -2,7 +2,7 @@
     "_default": {
         "2": {
             "bzr_branch": "",
-            "bzr_last_rev": "768",
+            "bzr_last_rev": "772",
             "bzr_rev": "",
             "name": "audience",
             "package_name": "audience",
@@ -63,8 +63,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ab2f6dd41d419a6281c609e2be3a61a31643833c",
-            "git_last_date": "170801.180037",
+            "git_last_commit": "4db8a4716d5ddb9505d5cc272c77cf4e2888116a",
+            "git_last_date": "170801.230140",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -104,7 +104,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2652",
+            "bzr_last_rev": "2654",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -387,8 +387,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d51bdcf0469f5482071410cd4bc7d3099e8791f4",
-            "git_last_date": "170801.175623",
+            "git_last_commit": "e4a9c434ae7aaf7ef7876ca4e94161ad7ae36d93",
+            "git_last_date": "170801.180504",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.1",
@@ -420,8 +420,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9fee6cdcee71c29a05e3419659797ffb0e91eee1",
-            "git_last_date": "170729.222421",
+            "git_last_commit": "2d14c170feb5328621764a12152ce6ad1111c1cf",
+            "git_last_date": "170802.000356",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
