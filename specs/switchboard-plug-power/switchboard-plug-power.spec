@@ -3,12 +3,14 @@
 Summary:        Switchboard Power Plug
 Name:           switchboard-plug-power
 Version:        0.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-power
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
+
+Patch0:         00-no-e-dpms-helper.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
@@ -23,28 +25,30 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
-
-Requires:       elementary-dpms-helper
+Requires:       switchboard%{?_isa}
+Supplements:    switchboard%{?_isa}
 
 
 %description
 Control system power consumption with this Switchboard preference plug.
 
-Designed for elementary OS.
-
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-power-plug
 
 
@@ -58,6 +62,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sun Aug 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git170719.185928.fd6e0bf8-2
+- Add patch to remove usage and dependency on e-dpms-helper.
+
 * Wed Jul 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git170719.185928.fd6e0bf8-1
 - Update to version 0.3.2.
 
