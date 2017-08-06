@@ -3,7 +3,7 @@
 Summary:        Switchboard Privacy and Security Plug
 Name:           switchboard-plug-security-privacy
 Version:        0.1.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1, LGPLv3
 URL:            https://launchpad.net/switchboard-plug-security-privacy
 
@@ -25,7 +25,6 @@ BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 Supplements:    switchboard
 
-Requires:       elementary-dpms-helper
 Requires:       light-locker
 
 
@@ -62,6 +61,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sun Aug 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev411-2
+- Remove dependency on e-dpms-helper.
+
 * Sun Jul 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev411-1
 - Update to latest snapshot.
 
