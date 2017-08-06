@@ -68,6 +68,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun Aug 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.7+rev74-1
+- Update to latest snapshot.
+
 * Fri Aug 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.7+rev73-1
 - Update to latest snapshot.
 
