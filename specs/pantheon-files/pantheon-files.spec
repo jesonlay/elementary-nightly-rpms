@@ -1,7 +1,7 @@
 Summary:        Pantheon file manager
 Name:           pantheon-files
 Version:        0.3.5+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://launchpad.net/pantheon-files
@@ -68,51 +68,53 @@ pushd build
 %make_install
 popd
 
-%find_lang pantheon-files
+%find_lang io.elementary.files
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/io.elementary.files.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/io.elementary.files.appdata.xml || :
 
 
 %post   libs -p /sbin/ldconfig
 %postun libs -p /sbin/ldconfig
 
 
-%files      -f pantheon-files.lang
+%files -f io.elementary.files.lang
 %doc AUTHORS README.md
 %license COPYING
 
-%{_bindir}/pantheon-files
-%{_bindir}/pantheon-files-daemon
-%{_bindir}/pantheon-files-pkexec
+%{_bindir}/io.elementary.files
+%{_bindir}/io.elementary.files-daemon
+%{_bindir}/io.elementary.files-pkexec
 
-%{_libdir}/pantheon-files/
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
+%{_libdir}/io.elementary.files/
 
 %{_datadir}/appdata/io.elementary.files.appdata.xml
 %{_datadir}/applications/io.elementary.files.desktop
-%{_datadir}/dbus-1/services/io.elementary.pantheon-files.FileManager1.service
-%{_datadir}/dbus-1/services/pantheon-files.service
+%{_datadir}/dbus-1/services/io.elementary.files.FileManager1.service
 %{_datadir}/glib-2.0/schemas/io.elementary.files.gschema.xml
 
-%{_datadir}/pantheon-files/
-%{_datadir}/pixmaps/pantheon-files/
+%{_datadir}/io.elementary.files/
+%{_datadir}/pixmaps/io.elementary.files/
 
-%{_datadir}/polkit-1/actions/net.launchpad.pantheon-files.policy
+%{_datadir}/polkit-1/actions/io.elementary.files.policy
 
 
-%files      libs
+%files libs
 %{_libdir}/libpantheon-files-core.so.0
 %{_libdir}/libpantheon-files-core.so.0.1
 %{_libdir}/libpantheon-files-widgets.so.0
 %{_libdir}/libpantheon-files-widgets.so.0.1
 
 
-%files      devel
-%{_includedir}/pantheon-files-core
-%{_includedir}/pantheon-files-widgets
+%files devel
+%{_includedir}/pantheon-files-core/
+%{_includedir}/pantheon-files-widgets/
 
 %{_libdir}/libpantheon-files-core.so
 %{_libdir}/libpantheon-files-widgets.so
@@ -128,6 +130,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 
 %changelog
+* Tue Aug 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+rev2664-2
+- Adapt to upstream file changes.
+
 * Tue Aug 08 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+rev2664-1
 - Update to latest snapshot.
 
