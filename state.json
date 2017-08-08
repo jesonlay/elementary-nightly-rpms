@@ -54,8 +54,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a0b0bbc3da40b0aeab532c5ba56f01aa4eecbb3",
-            "git_last_date": "170729.203948",
+            "git_last_commit": "cde785f668a9562003657bd0e4938b03f817ec37",
+            "git_last_date": "170808.152138",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.0.4",
@@ -84,7 +84,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2662",
+            "bzr_last_rev": "2664",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -466,8 +466,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "baded6e3122576cc1a36155e8983da7b8242d95d",
-            "git_last_date": "170807.222059",
+            "git_last_commit": "10b564fb06e7ef6ff89a4ea7796cbe83dd49cdf4",
+            "git_last_date": "170808.180903",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.5",
