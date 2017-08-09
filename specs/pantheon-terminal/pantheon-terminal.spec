@@ -1,7 +1,7 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
@@ -46,30 +46,42 @@ pushd build
 %make_install
 popd
 
-%find_lang pantheon-terminal
+%find_lang io.elementary.terminal
+
+mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/org.pantheon.terminal.desktop
+
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/open-pantheon-terminal-here.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/io.elementary.terminal.appdata.xml || :
 
 
-%files -f pantheon-terminal.lang
+%files -f io.elementary.terminal.lang
 %doc AUTHORS README.md
 %license COPYING
 
-%{_bindir}/pantheon-terminal
+%{_bindir}/io.elementary.terminal
 
-%{_datadir}/appdata/pantheon-terminal.appdata.xml
+%{_datadir}/appdata/io.elementary.terminal.appdata.xml
 %{_datadir}/applications/open-pantheon-terminal-here.desktop
 %{_datadir}/applications/org.pantheon.terminal.desktop
-
 %{_datadir}/glib-2.0/schemas/org.pantheon.terminal.gschema.xml
-
-%{_datadir}/pantheon-terminal/
+%{_datadir}/io.elementary.terminal/
 
 
 %changelog
+* Wed Aug 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git170809.181347.0009eb8e-2
+- Adapt to upstream file changes.
+
+* Wed Aug 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git170809.181347.0009eb8e-1
+- Update to latest snapshot.
+
 * Wed Aug 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git170809.153839.5c75fe25-1
 - Update to latest snapshot.
 
