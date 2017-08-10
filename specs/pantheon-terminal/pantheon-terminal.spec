@@ -1,7 +1,7 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
@@ -76,6 +76,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Aug 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git170810.155924.226cf8b1-1
+- Update to latest snapshot.
+
 * Wed Aug 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git170809.181347.0009eb8e-2
 - Adapt to upstream file changes.
 

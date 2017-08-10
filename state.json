@@ -400,12 +400,12 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0009eb8efbe22c02c49e32dfcdf35ffc6f031028",
-            "git_last_date": "170809.181347",
+            "git_last_commit": "226cf8b1bca9c9fcb9e1a7a6259494d161c1a546",
+            "git_last_date": "170810.155924",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.3+git%{date}.%{commit}"
         },
         "72": {
