@@ -1,7 +1,7 @@
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.2.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
@@ -55,7 +55,7 @@ pushd build
 %make_install
 popd
 
-%find_lang appcenter
+%find_lang io.elementary.appcenter
 
 # move appdata to approved location
 mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
@@ -66,24 +66,28 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/io.elementary.appcenter.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/appcenter.appdata.xml
+    %{buildroot}/%{_datadir}/appdata/io.elementary.appcenter.appdata.xml
 
 
-%files -f appcenter.lang
-%doc AUTHORS
+%files -f io.elementary.appcenter.lang
+%doc AUTHORS README.md
 %license COPYING
 
-%config(noreplace) %{_sysconfdir}/appcenter/
+%dir %{_sysconfdir}/io.elementary.appcenter
+%config(noreplace) %{_sysconfdir}/io.elementary.appcenter/appcenter.blacklist
 
-%{_bindir}/appcenter
+%{_bindir}/io.elementary.appcenter
 
-%{_datadir}/appdata/appcenter.appdata.xml
+%{_datadir}/appdata/io.elementary.appcenter.appdata.xml
 %{_datadir}/applications/io.elementary.appcenter.desktop
 %{_datadir}/dbus-1/services/io.elementary.appcenter.service
 %{_datadir}/glib-2.0/schemas/io.elementary.appcenter.gschema.xml
 
 
 %changelog
+* Thu Aug 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git170810.215512.0e177955-2
+- Adapt to upstream file changes.
+
 * Thu Aug 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git170810.215512.0e177955-1
 - Update to latest snapshot.
 
