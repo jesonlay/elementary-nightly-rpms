@@ -400,8 +400,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "226cf8b1bca9c9fcb9e1a7a6259494d161c1a546",
-            "git_last_date": "170810.155924",
+            "git_last_commit": "3edbf9071a918c8ff9e10d9531626606f1993791",
+            "git_last_date": "170811.023138",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -598,8 +598,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4953b380a21021343625bdd206133225562d3e09",
-            "git_last_date": "170728.013904",
+            "git_last_commit": "66be53e1d79933b48ac685a3865e8d8e832fe5f8",
+            "git_last_date": "170811.095450",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
@@ -620,8 +620,8 @@
         "91": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4a27cb1eec1d7667a78a20be1bfb87a2000f8f30",
-            "git_last_date": "170802.110526",
+            "git_last_commit": "f263426cd097c9e638c0e640f4b59107a8d4ef4a",
+            "git_last_date": "170811.093142",
             "name": "audience",
             "package_name": "audience",
             "package_version": "0.2.3",
