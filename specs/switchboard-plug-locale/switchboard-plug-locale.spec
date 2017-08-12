@@ -58,6 +58,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sat Aug 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git170811.180121.cdc28d92-1
+- Update to latest snapshot.
+
 * Wed Aug 09 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git170808.221018.3b365b80-1
 - Update to latest snapshot.
 
