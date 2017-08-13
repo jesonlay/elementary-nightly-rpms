@@ -1,23 +1,12 @@
 Name:           audience
 Summary:        Audience video player
-Version:        0.2.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Version:        0.2.4+git%{date}.%{commit}
+Release:        2%{?dist}
 License:        GPLv3+
-URL:            https://launchpad.net/audience
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://github.com/elementary/videos
 Source0:        %{name}-%{version}.tar.gz
-
-# Include the appropriate icon from elementary-icon-theme so appdata metadata generation works.
-# A Bug about the missing icon is reported upstream:
-# https://bugs.launchpad.net/audience/+bug/1658325
-
-Source1:        multimedia-video-player.svg
-
-Source2:        %{name}.conf
+Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -36,8 +25,6 @@ BuildRequires:  pkgconfig(gstreamer-tag-1.0)
 BuildRequires:  pkgconfig(gstreamer-video-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libnotify)
-
-Requires:       hicolor-icon-theme
 
 
 %description
@@ -61,43 +48,35 @@ pushd build
 %make_install
 popd
 
-%find_lang audience
-
-mkdir -p %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps
-cp -p %{SOURCE1} %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/
+%find_lang io.elementary.videos
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.audience.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.audience.appdata.xml || :
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/org.pantheon.audience.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/io.elementary.videos.appdata.xml || :
 
 
-%post
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-
-
-%files -f audience.lang
+%files -f io.elementary.videos.lang
 %doc AUTHORS README.md
 %license COPYING
 
-%{_bindir}/audience
+%{_bindir}/io.elementary.videos
 
-%{_datadir}/appdata/org.pantheon.audience.appdata.xml
+%{_datadir}/appdata/io.elementary.videos.appdata.xml
 %{_datadir}/applications/org.pantheon.audience.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.audience.gschema.xml
-%{_datadir}/icons/hicolor/scalable/apps/multimedia-video-player.svg
 
 
 %changelog
+* Sun Aug 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git170813.093919.012eeb44-2
+- Adapt to upstream file changes.
+
+* Sun Aug 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git170813.093919.012eeb44-1
+- Update to version 0.2.4.
+
 * Sun Aug 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git170813.093919.012eeb44-1
 - Update to latest snapshot.
 

@@ -624,9 +624,9 @@
             "git_last_date": "170813.093919",
             "name": "audience",
             "package_name": "audience",
-            "package_version": "0.2.3",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.2.3+git%{date}.%{commit}"
+            "package_version": "0.2.4",
+            "rpm_last_release": "2%{?dist}",
+            "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         }
     }
 }
