@@ -1,7 +1,7 @@
 Summary:        The terminal of the 21st century.
 Name:           pantheon-terminal
 Version:        0.4.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/pantheon-terminal
 
@@ -71,11 +71,14 @@ appstream-util validate-relax --nonet \
 %{_datadir}/appdata/io.elementary.terminal.appdata.xml
 %{_datadir}/applications/open-pantheon-terminal-here.desktop
 %{_datadir}/applications/org.pantheon.terminal.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.terminal.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.elementary.terminal.gschema.xml
 %{_datadir}/io.elementary.terminal/
 
 
 %changelog
+* Sun Aug 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git170812.022200.6ae6d898-2
+- Adapt to upstream file changes.
+
 * Sat Aug 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git170812.022200.6ae6d898-1
 - Update to latest snapshot.
 
