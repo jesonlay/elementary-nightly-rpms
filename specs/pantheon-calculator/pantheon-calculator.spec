@@ -1,10 +1,10 @@
 Name:           pantheon-calculator
 Summary:        A tiny, simple calculator written in GTK+ and Vala
 Version:        0.1.2+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
-URL:            https://launchpad.net/pantheon-calculator
 
+URL:            https://github.com/elementary/calculator
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
@@ -38,19 +38,22 @@ pushd build
 %make_install
 popd
 
-%find_lang pantheon-calculator
+%find_lang io.elementary.calculator
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.calculator.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.calculator.appdata.xml
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/org.pantheon.calculator.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/org.pantheon.calculator.appdata.xml
 
 
-%files -f pantheon-calculator.lang
+%files -f io.elementary.calculator.lang
 %doc AUTHORS
 %license COPYING
 
-%{_bindir}/pantheon-calculator
+%{_bindir}/io.elementary.calculator
 
 %{_datadir}/appdata/org.pantheon.calculator.appdata.xml
 %{_datadir}/applications/org.pantheon.calculator.desktop
@@ -58,6 +61,9 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.panth
 
 
 %changelog
+* Sun Aug 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev368-2
+- Adapt to upstream file changes.
+
 * Sun Aug 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev368-1
 - Update to latest snapshot.
 
