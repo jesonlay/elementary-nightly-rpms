@@ -135,7 +135,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1925",
+            "bzr_last_rev": "1926",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -400,12 +400,12 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6ae6d898fb3db0ba0d628eb1a8600a685ce2a215",
-            "git_last_date": "170812.022200",
+            "git_last_commit": "34409f55cb448030ea65a2d1656f81c6365c6140",
+            "git_last_date": "170813.155958",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.3+git%{date}.%{commit}"
         },
         "72": {
@@ -444,8 +444,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cdc28d9248d906c7d129940ad5e0d6c3fddf1175",
-            "git_last_date": "170811.180121",
+            "git_last_commit": "b4a2d7f954537322d0bca18cb7e7bc03f863eb0f",
+            "git_last_date": "170813.153855",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -466,8 +466,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c6b7ae4a73e1f5e5e51b3ff57da67a17abd0fdc",
-            "git_last_date": "170812.175949",
+            "git_last_commit": "c6cf867a1e09ea6a0dcce6c616764c436f5fa35e",
+            "git_last_date": "170813.155655",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.5",
