@@ -84,7 +84,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2666",
+            "bzr_last_rev": "2667",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -620,12 +620,12 @@
         "91": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "012eeb44595c49a9af6616196d2f6db2d3c498ea",
-            "git_last_date": "170813.093919",
+            "git_last_commit": "b19eab15c5499fcb899953a7a789c5b92a63ec17",
+            "git_last_date": "170813.175830",
             "name": "audience",
             "package_name": "audience",
             "package_version": "0.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         }
     }
