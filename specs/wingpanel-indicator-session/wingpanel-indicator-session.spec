@@ -1,6 +1,6 @@
 Name:           wingpanel-indicator-session
 Summary:        Session Indicator for wingpanel
-Version:        2.0.2+git%{date}.%{commit}
+Version:        2.0.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3, LGPLv3
 URL:            http://launchpad.net/wingpanel-indicator-session
@@ -51,6 +51,9 @@ popd
 
 
 %changelog
+* Mon Aug 14 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170814.011201.c45639df-1
+- Update to version 2.0.3.
+
 * Mon Aug 14 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170814.011201.c45639df-1
 - Update to latest snapshot.
 
