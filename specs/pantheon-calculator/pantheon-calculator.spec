@@ -1,7 +1,7 @@
 Name:           pantheon-calculator
 Summary:        A tiny, simple calculator written in GTK+ and Vala
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/calculator
@@ -46,7 +46,7 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/org.pantheon.calculator.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/org.pantheon.calculator.appdata.xml
+    %{buildroot}/%{_datadir}/appdata/io.elementary.calculator.appdata.xml
 
 
 %files -f io.elementary.calculator.lang
@@ -55,12 +55,15 @@ appstream-util validate-relax --nonet \
 
 %{_bindir}/io.elementary.calculator
 
-%{_datadir}/appdata/org.pantheon.calculator.appdata.xml
+%{_datadir}/appdata/io.elementary.calculator.appdata.xml
 %{_datadir}/applications/org.pantheon.calculator.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.calculator.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.elementary.calculator.gschema.xml
 
 
 %changelog
+* Tue Aug 15 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git170815.114134.cbcca85d-2
+- Adapt to upstream file changes.
+
 * Tue Aug 15 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git170815.114134.cbcca85d-1
 - Update to latest snapshot.
 
