@@ -390,8 +390,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f89a59db9f2d4689b820748cd6db945983c8ee59",
-            "git_last_date": "170814.000940",
+            "git_last_commit": "89c3beeadeb2e8cc27b7a041b283ccde077149cd",
+            "git_last_date": "170815.003559",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -588,8 +588,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f378ba1f83c8bfd01e0d6c19b2ed8358ab1373f8",
-            "git_last_date": "170812.233712",
+            "git_last_commit": "d85c4f991b30b859193cdce866a2268ea5a9b7f0",
+            "git_last_date": "170815.003440",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
