@@ -247,8 +247,8 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c13b83a4cefced5c970c021efbbf3b52b145331",
-            "git_last_date": "170728.030826",
+            "git_last_commit": "b9c97e72a74752c7f05d2aa17824ee7b26dd48ad",
+            "git_last_date": "170815.151031",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.4",
