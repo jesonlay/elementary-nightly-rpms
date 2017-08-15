@@ -324,8 +324,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cb7db5cefd5118e4f77f6e101f56e9ad47b58be7",
-            "git_last_date": "170815.181508",
+            "git_last_commit": "36577873583a88ea32fda280e5134f6f7b34b09f",
+            "git_last_date": "170815.193519",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.1",
@@ -599,8 +599,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e093c8d59a0a202e68be19755252412186469122",
-            "git_last_date": "170728.022623",
+            "git_last_commit": "cfedf03e2a74b183487cdff1242d36e7a71f4988",
+            "git_last_date": "170815.191523",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
