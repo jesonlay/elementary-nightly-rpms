@@ -599,8 +599,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cfedf03e2a74b183487cdff1242d36e7a71f4988",
-            "git_last_date": "170815.191523",
+            "git_last_commit": "f118913edba9b4dd6a4df5d2ed705c8e57ff7b56",
+            "git_last_date": "170815.205907",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
