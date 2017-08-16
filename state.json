@@ -74,7 +74,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2667",
+            "bzr_last_rev": "2668",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -390,8 +390,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "89c3beeadeb2e8cc27b7a041b283ccde077149cd",
-            "git_last_date": "170815.003559",
+            "git_last_commit": "23190cb39beb88d059fb18d0def639a47ad449e7",
+            "git_last_date": "170816.172458",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -599,8 +599,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f118913edba9b4dd6a4df5d2ed705c8e57ff7b56",
-            "git_last_date": "170815.205907",
+            "git_last_commit": "189833c671a0e2ebb499fbfeee169c8c8daa76e6",
+            "git_last_date": "170816.171538",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
