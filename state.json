@@ -74,7 +74,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2668",
+            "bzr_last_rev": "2670",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -125,7 +125,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1927",
+            "bzr_last_rev": "1930",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -401,8 +401,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a3c083e53a38fb94e687a329673118ca125d7bc6",
-            "git_last_date": "170801.173646",
+            "git_last_commit": "1f8120044dc13707018ca4e4a744c62e940fd73a",
+            "git_last_date": "170817.000726",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
