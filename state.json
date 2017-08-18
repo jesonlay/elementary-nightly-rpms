@@ -84,7 +84,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "584",
+            "bzr_last_rev": "585",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -599,8 +599,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "189833c671a0e2ebb499fbfeee169c8c8daa76e6",
-            "git_last_date": "170816.171538",
+            "git_last_commit": "ea8e1906781210016f142a3d3e9da5c4d17390f0",
+            "git_last_date": "170817.221850",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
