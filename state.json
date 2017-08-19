@@ -54,8 +54,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "77d918ca3d73b611fea91943fc52c88f8f6321bf",
-            "git_last_date": "170819.165546",
+            "git_last_commit": "2f485fb14c23685f143f4d6aef9157a6df9952fa",
+            "git_last_date": "170819.171047",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.0",
