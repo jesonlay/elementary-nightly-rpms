@@ -74,7 +74,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2670",
+            "bzr_last_rev": "2666",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -236,8 +236,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "95a38d60383cd797fb556185461da113317dd83e",
-            "git_last_date": "170814.214032",
+            "git_last_commit": "5e43a7c87a1263c97bcfeec4fb56f655dbe60631",
+            "git_last_date": "170817.093630",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -346,8 +346,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "17bcd92124d18b89716345efef9f2961b85c8867",
-            "git_last_date": "170808.134649",
+            "git_last_commit": "a838f78d37d85e7feed058780cc2ec85ee373b83",
+            "git_last_date": "170818.000141",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -368,8 +368,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "92447c2ccbaa3c72903fe79343d127fa605c4835",
-            "git_last_date": "170712.005905",
+            "git_last_commit": "268df4782345a4898c020391081b080e2b2dcd9f",
+            "git_last_date": "170817.000741",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -412,8 +412,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "deda13c285e5d923f978c1439e6b6c5aaeb00541",
-            "git_last_date": "170711.211554",
+            "git_last_commit": "cac6ed4f86e02f10c24d3874d490d3b3a3e4ec41",
+            "git_last_date": "170731.073728",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -423,12 +423,12 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fd6e0bf823f526790cf134e7a5210839c405ebde",
-            "git_last_date": "170719.185928",
+            "git_last_commit": "b0739ce5ad6dd96813d24de10dc164376b5db3c4",
+            "git_last_date": "170817.000746",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.2+git%{date}.%{commit}"
         },
         "75": {
@@ -445,8 +445,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5bcc7a4674a39c71ac70f7063450650394356a06",
-            "git_last_date": "170718.175301",
+            "git_last_commit": "8f1fb54fb7880bdee16703cb4de3a36bc04814d6",
+            "git_last_date": "170809.113828",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
@@ -478,8 +478,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6017d2fb96a63a783cbb45a916cf49b052aa1f30",
-            "git_last_date": "170813.000510",
+            "git_last_commit": "f4347477b2def48a8b83c524400378e34650ec45",
+            "git_last_date": "170817.000753",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.5",
@@ -500,8 +500,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3738bd8e9bf76c234d2ff8e662c5ec818ccd12fc",
-            "git_last_date": "170715.163148",
+            "git_last_commit": "7c47d81408236fe136c33230863ffc116f5d33e8",
+            "git_last_date": "170816.113719",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "0.1.2",
@@ -566,8 +566,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c206bbcd22afdba2eb4ca06b6c39a2028176f037",
-            "git_last_date": "170715.154411",
+            "git_last_commit": "91c5935feaed40e219b77ba970d7fa081def875a",
+            "git_last_date": "170818.000142",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0",
@@ -577,8 +577,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cc50385cd0ef048296063eb5ce9752606016892f",
-            "git_last_date": "170715.161109",
+            "git_last_commit": "d02e1add406291a8ae996f7164f4e5810cfa5a9b",
+            "git_last_date": "170801.000335",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.1",

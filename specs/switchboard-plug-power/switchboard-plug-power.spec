@@ -3,7 +3,7 @@
 Summary:        Switchboard Power Plug
 Name:           switchboard-plug-power
 Version:        0.3.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-power
 
@@ -62,6 +62,9 @@ popd
 
 
 %changelog
+* Sat Aug 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git170817.000746.b0739ce5-1
+- Update to latest snapshot.
+
 * Sun Aug 06 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git170719.185928.fd6e0bf8-2
 - Add patch to remove usage and dependency on e-dpms-helper.
 
