@@ -2,7 +2,7 @@
 
 Summary:        a bluetooth indicator for wingpanel
 Name:           wingpanel-indicator-bluetooth
-Version:        2.0.2+git%{date}.%{commit}
+Version:        2.0.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/wingpanel-indicator-bluetooth
@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sat Aug 19 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170818.222502.ca2c16ea-1
+- Update to version 2.0.3.
+
 * Sat Aug 19 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git170818.222502.ca2c16ea-1
 - Update to latest snapshot.
 
