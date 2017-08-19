@@ -125,7 +125,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1931",
+            "bzr_last_rev": "1933",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -302,8 +302,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b673f97935903ededbba2cd4742a8da50f7713dd",
-            "git_last_date": "170703.172833",
+            "git_last_commit": "62729c89935eea6303a2fe297c8d2ebfffa59066",
+            "git_last_date": "170818.231615",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.0.1",
@@ -489,8 +489,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5d7701e1612fd3c66b24c3557339bdb536536b8e",
-            "git_last_date": "170709.011937",
+            "git_last_commit": "ca2c16ea47183dc1f33fc7ec8291b7cfc15bcea8",
+            "git_last_date": "170818.222502",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.2",
