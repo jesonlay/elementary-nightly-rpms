@@ -54,8 +54,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "29777e21290d5a82cb39d28bd391bd069e7a084a",
-            "git_last_date": "170810.193052",
+            "git_last_commit": "77d918ca3d73b611fea91943fc52c88f8f6321bf",
+            "git_last_date": "170819.165546",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.0",
@@ -165,7 +165,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "591",
+            "bzr_last_rev": "592",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -215,7 +215,7 @@
         },
         "44": {
             "bzr_branch": "",
-            "bzr_last_rev": "148",
+            "bzr_last_rev": "149",
             "bzr_rev": "",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
