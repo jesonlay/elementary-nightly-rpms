@@ -125,7 +125,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1939",
+            "bzr_last_rev": "1940",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -401,8 +401,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "546e4db082feaa17e18eb1150a79dab561f67b14",
-            "git_last_date": "170823.001019",
+            "git_last_commit": "36952bc9de7f748e7e2f6f15e877439e0078487c",
+            "git_last_date": "170823.153421",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
