@@ -1,10 +1,10 @@
 Name:           pantheon-mail
 Summary:        E-Mail client for Pantheon
-Version:        1.0.5+git%{date}.%{commit}
+Version:        1.0.6+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv2+
 
-URL:            https://launchpad.net/pantheon-mail
+URL:            https://github.com/elementary/mail
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
@@ -15,12 +15,12 @@ BuildRequires:  libappstream-glib
 BuildRequires:  vala >= 0.22.1
 
 BuildRequires:  pkgconfig(gcr-3) >= 3.10.1
-BuildRequires:  pkgconfig(gee-0.8)
+BuildRequires:  pkgconfig(gee-0.8) >= 0.8.5
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40
 BuildRequires:  pkgconfig(gmime-2.6) >= 2.6.17
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(granite)
-BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10.0
+BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12.0
 BuildRequires:  pkgconfig(libaccounts-glib)
 BuildRequires:  pkgconfig(libgsignon-glib)
 BuildRequires:  pkgconfig(libcanberra) >= 0.28
@@ -31,12 +31,20 @@ BuildRequires:  pkgconfig(sqlite3) >= 3.7.4
 BuildRequires:  pkgconfig(unity) >= 5.12.0
 BuildRequires:  pkgconfig(webkitgtk-3.0)
 
-Requires:       contractor
-
-
 
 %description
 Pantheon Mail is the E-Mail client for the Pantheon desktop.
+
+
+%package        contract
+Summary:        E-Mail client for Pantheon (contractor support)
+
+Requires:       contractor
+Requires:       %{name}%{?_isa} = %{version}-%{release}
+
+%description    contract
+Pantheon Mail is the E-Mail client for the Pantheon desktop.
+This package contains the contractor support.
 
 
 %prep
@@ -59,9 +67,6 @@ popd
 
 %find_lang pantheon-mail
 
-# move appdata to "correct" location
-mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
-
 
 %check
 desktop-file-validate \
@@ -70,24 +75,34 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/pantheon-mail-autostart.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/org.pantheon.mail.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/org.pantheon.mail.appdata.xml
 
 
 %files -f pantheon-mail.lang
+%doc README.md
 %license COPYING
 
 %{_bindir}/pantheon-mail
-%{_bindir}/mail-attach
 
 %{_datadir}/accounts/applications/pantheon-mail.application
-%{_datadir}/appdata/org.pantheon.mail.appdata.xml
 %{_datadir}/applications/org.pantheon.mail.desktop
 %{_datadir}/applications/pantheon-mail-autostart.desktop
-%{_datadir}/contractor/mail-attach.contract
 %{_datadir}/glib-2.0/schemas/org.pantheon.mail.gschema.xml
+%{_datadir}/metainfo/org.pantheon.mail.appdata.xml
+
+
+%files contract
+%{_bindir}/mail-attach
+%{_datadir}/contractor/mail-attach.contract
 
 
 %changelog
+* Thu Aug 24 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git170824.063322.9e5a3156-1
+- Update to version 1.0.6.
+
+* Thu Aug 24 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.5+git170824.063322.9e5a3156-1
+- Update to latest snapshot.
+
 * Thu Jul 20 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.5+git170720.180807.5ff1e19b-1
 - Update to latest snapshot.
 

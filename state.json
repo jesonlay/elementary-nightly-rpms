@@ -280,13 +280,13 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5ff1e19b5920d821d93a06dd5d3f102e8b047a27",
-            "git_last_date": "170720.180807",
+            "git_last_commit": "9e5a3156b9fbfa57e53d1e6b400362cce17d3fbd",
+            "git_last_date": "170824.063322",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
-            "package_version": "1.0.5",
+            "package_version": "1.0.6",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "1.0.5+git%{date}.%{commit}"
+            "rpm_last_version": "1.0.6+git%{date}.%{commit}"
         },
         "62": {
             "git_branch": "master",
