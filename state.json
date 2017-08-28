@@ -43,8 +43,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4db8a4716d5ddb9505d5cc272c77cf4e2888116a",
-            "git_last_date": "170801.230140",
+            "git_last_commit": "13f083de101aee01e55b5eb5d7f09e085b9bcb93",
+            "git_last_date": "170828.172704",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -390,8 +390,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "23190cb39beb88d059fb18d0def639a47ad449e7",
-            "git_last_date": "170816.172458",
+            "git_last_commit": "c7f2f07497da9eacf66daa0b89f2eecfdb254663",
+            "git_last_date": "170828.160548",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
