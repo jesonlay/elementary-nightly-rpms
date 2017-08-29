@@ -105,8 +105,8 @@
         "22": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2cfacffb6b0fee1dad98caeb60664fcedb1ed642",
-            "git_last_date": "170618.101826",
+            "git_last_commit": "cd7bf5219b3c130cff05c2bf1ccfdd567902291f",
+            "git_last_date": "170829.133208",
             "name": "pantheon-session-settings",
             "package_name": "pantheon-session-settings",
             "package_version": "0.9.90",
