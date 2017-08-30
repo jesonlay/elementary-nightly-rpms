@@ -43,8 +43,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "13f083de101aee01e55b5eb5d7f09e085b9bcb93",
-            "git_last_date": "170828.172704",
+            "git_last_commit": "59c65c10f964bfc94a561dc7f150abd47192ff41",
+            "git_last_date": "170829.210813",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -125,7 +125,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1947",
+            "bzr_last_rev": "1948",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -379,8 +379,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "de99231572bfdf65f68e841f730935101143ca67",
-            "git_last_date": "170709.024955",
+            "git_last_commit": "2844c257a42c81884de985e890ffe8ec5a645d9f",
+            "git_last_date": "170829.215012",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
