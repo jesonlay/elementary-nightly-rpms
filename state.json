@@ -54,8 +54,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "27c0fe5fab4986798648164c90c2b9d63913e93f",
-            "git_last_date": "170826.203852",
+            "git_last_commit": "73e8e2cb8a06b020ceba3adcd6388df2b81b4397",
+            "git_last_date": "170830.192346",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.0",
@@ -588,8 +588,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0a8c7bbb2fa0c78c2f20460ed1735cd5d197a17c",
-            "git_last_date": "170823.210739",
+            "git_last_commit": "bbe7e06d6e2859db3a1e8569a9280c8deb98977e",
+            "git_last_date": "170830.162226",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
