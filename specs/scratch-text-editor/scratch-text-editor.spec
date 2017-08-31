@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.4.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            http://launchpad.net/scratch
@@ -34,8 +34,12 @@ BuildRequires:  pkgconfig(libvala-0.32)
 BuildRequires:  pkgconfig(libvala-0.34)
 %endif
 
-%if %{?fedora} > 25
+%if %{?fedora} == 26
 BuildRequires:  pkgconfig(libvala-0.36)
+%endif
+
+%if %{?fedora} > 26
+BuildRequires:  pkgconfig(libvala-0.38)
 %endif
 
 BuildRequires:  pkgconfig(vte-2.91)
@@ -164,6 +168,9 @@ fi
 
 
 %changelog
+* Thu Aug 31 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1949-2
+- Adapt to vala pkgconfig change.
+
 * Thu Aug 31 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1949-1
 - Update to latest snapshot.
 
