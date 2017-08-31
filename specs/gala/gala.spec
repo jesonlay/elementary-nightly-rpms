@@ -134,6 +134,9 @@ fi
 
 
 %changelog
+* Thu Aug 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git170831.211647.cd28b8d3-1
+- Update to latest snapshot.
+
 * Thu Aug 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git170823.154744.85e9c124-1
 - Start doing git snapshots again.
 
