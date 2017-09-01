@@ -1,7 +1,7 @@
 Summary:        Stylish top panel
 Name:           wingpanel
 Version:        2.0.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
 
@@ -17,12 +17,15 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  vala >= 0.24.0
 
+BuildRequires:  pkgconfig(clutter-1.0)
+BuildRequires:  pkgconfig(cogl-1.0)
 BuildRequires:  pkgconfig(gala)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.14
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(libnotify)
+BuildRequires:  pkgconfig(libmutter)
 
 
 %description
@@ -44,12 +47,17 @@ This package contains the files required for developing for wingpanel.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang wingpanel
 
 
@@ -97,6 +105,9 @@ fi
 
 
 %changelog
+* Fri Sep 01 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170901.053352.81c9dd69-2
+- Adapt to changes.
+
 * Fri Sep 01 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170901.053352.81c9dd69-1
 - Update to latest snapshot.
 
