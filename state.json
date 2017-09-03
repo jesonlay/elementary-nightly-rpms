@@ -64,7 +64,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1058",
+            "bzr_last_rev": "1061",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -114,7 +114,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1951",
+            "bzr_last_rev": "1952",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -225,8 +225,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5e43a7c87a1263c97bcfeec4fb56f655dbe60631",
-            "git_last_date": "170817.093630",
+            "git_last_commit": "cd9399e7382232bd66dd6ecd0e46da22833daff1",
+            "git_last_date": "170903.193422",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -445,8 +445,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e19701b3ba9b2c551f7653c0e756d5f5aaccde80",
-            "git_last_date": "170827.175930",
+            "git_last_commit": "bae49ce18a055604fb6261f526ec8cfacf1f85e5",
+            "git_last_date": "170903.172706",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.5",
@@ -522,8 +522,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a1a5834ab5c0ac9de29f4929c2b4665313a671d",
-            "git_last_date": "170901.150050",
+            "git_last_commit": "434f6743dde2596bf058bf10cc853480ec57928b",
+            "git_last_date": "170902.204052",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.3",
