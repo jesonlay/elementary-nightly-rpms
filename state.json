@@ -114,7 +114,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1953",
+            "bzr_last_rev": "1954",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -194,7 +194,7 @@
         },
         "43": {
             "bzr_branch": "",
-            "bzr_last_rev": "416",
+            "bzr_last_rev": "417",
             "bzr_rev": "",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
