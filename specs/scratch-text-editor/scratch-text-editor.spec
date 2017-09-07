@@ -1,7 +1,7 @@
 Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
 Version:        2.4.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            http://launchpad.net/scratch
@@ -119,18 +119,19 @@ mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/*.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
 %post
 /sbin/ldconfig
-
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
 /sbin/ldconfig
-
 if [ $1 -eq 0 ] ; then
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
@@ -154,7 +155,6 @@ fi
 %{_datadir}/applications/org.pantheon.scratch.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.*
 %{_datadir}/icons/hicolor/*/apps/io.elementary.code.svg
-%{_datadir}/io.elementary.code/
 
 
 %files          devel
@@ -168,6 +168,9 @@ fi
 
 
 %changelog
+* Thu Sep 07 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1959-2
+- Adapt to upstream file changes.
+
 * Thu Sep 07 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1959-1
 - Update to latest snapshot.
 
