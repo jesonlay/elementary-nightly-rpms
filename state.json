@@ -74,7 +74,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2666",
+            "bzr_last_rev": "2684",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -84,7 +84,7 @@
         },
         "19": {
             "bzr_branch": "",
-            "bzr_last_rev": "586",
+            "bzr_last_rev": "587",
             "bzr_rev": "",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
@@ -154,7 +154,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "592",
+            "bzr_last_rev": "598",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -214,7 +214,7 @@
         },
         "51": {
             "bzr_branch": "",
-            "bzr_last_rev": "291",
+            "bzr_last_rev": "298",
             "bzr_rev": "",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
@@ -225,8 +225,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cd9399e7382232bd66dd6ecd0e46da22833daff1",
-            "git_last_date": "170903.193422",
+            "git_last_commit": "65651eb181577ee45281bdf60ebaedb0ac47add5",
+            "git_last_date": "170909.201049",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -390,8 +390,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "943f65f89e91bb038694d5fbe59e45003cb782ea",
-            "git_last_date": "170904.000706",
+            "git_last_commit": "d63a98adeec61ce9c49bdde5da2de03c034c9955",
+            "git_last_date": "170911.172216",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -445,8 +445,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bae49ce18a055604fb6261f526ec8cfacf1f85e5",
-            "git_last_date": "170903.172706",
+            "git_last_commit": "faa8ab694a62b74f43323a5a99302ccc795f3286",
+            "git_last_date": "170912.054017",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.5",
@@ -456,8 +456,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3c5f2ed7053b6700e0720a8d02786502a6f6a711",
-            "git_last_date": "170801.024102",
+            "git_last_commit": "6c5f310be4dc7f49745f5cf18a47525da75bf96e",
+            "git_last_date": "170907.203755",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.0.2",
@@ -522,8 +522,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "434f6743dde2596bf058bf10cc853480ec57928b",
-            "git_last_date": "170902.204052",
+            "git_last_commit": "6d4d6108bb7fa49682aba4ae7d84e5dbe3979eb0",
+            "git_last_date": "170912.020136",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.3",
@@ -533,8 +533,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c45639df4648036252d5ec07584c9518415af1e8",
-            "git_last_date": "170814.011201",
+            "git_last_commit": "33a0c45a11531693ac71c931ea6821b68fae97e7",
+            "git_last_date": "170907.224657",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.3",
@@ -610,8 +610,8 @@
         "92": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "76e6e405dbdcd263013f62dfa96e1da7ad7c4bfd",
-            "git_last_date": "170906.232928",
+            "git_last_commit": "e6eb33db5eedfcdffc38ce1a47c5f28c0a557701",
+            "git_last_date": "170910.164013",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
             "package_version": "0.1.3",
