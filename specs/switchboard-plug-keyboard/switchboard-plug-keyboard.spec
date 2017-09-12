@@ -1,16 +1,10 @@
-%global debug_package %{nil}
-
-Summary:        Adjust keyboard settings from Switchboard
 Name:           switchboard-plug-keyboard
+Summary:        Adjust keyboard settings from Switchboard
 Version:        0.3.1+rev%{rev}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            https://launchpad.net/switchboard-plug-keyboard
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://launchpad.net/switchboard-plug-keyboard
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -23,10 +17,12 @@ BuildRequires:  vala-tools
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(libgnomekbd)
+BuildRequires:  pkgconfig(libgnomekbdui)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
@@ -35,28 +31,37 @@ the delay and speed of the key repetition, or the cursor blinking speed.
 You can change your keyboard layout, and use multiple layouts at the
 same time. Keyboard shortcuts are also part of this plug.
 
-Designed for elementary OS.
-
 
 %prep
 %autosetup
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-keyboard-plug
 
 
 %files -f pantheon-keyboard-plug.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/switchboard/hardware/pantheon-keyboard/
 
 
 %changelog
+* Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev598-2
+- Adapt to upstream dependency changes.
+
 * Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev598-1
 - Update to latest snapshot.
 
