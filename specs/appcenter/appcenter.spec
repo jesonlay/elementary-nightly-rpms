@@ -1,7 +1,7 @@
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.2.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/appcenter
 
@@ -80,11 +80,15 @@ appstream-util validate-relax --nonet \
 
 %{_datadir}/appdata/io.elementary.appcenter.appdata.xml
 %{_datadir}/applications/io.elementary.appcenter.desktop
+%{_datadir}/applications/io.elementary.appcenter-daemon.desktop
 %{_datadir}/dbus-1/services/io.elementary.appcenter.service
 %{_datadir}/glib-2.0/schemas/io.elementary.appcenter.gschema.xml
 
 
 %changelog
+* Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git170912.054017.faa8ab69-2
+- Adapt to upstream file changes.
+
 * Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git170912.054017.faa8ab69-1
 - Update to latest snapshot.
 
