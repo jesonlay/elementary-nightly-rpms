@@ -1,14 +1,12 @@
 Name:           switchboard-plug-pantheon-shell
 Summary:        Configure various aspects of the Pantheon desktop environment
 Version:        0.2.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            http://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
-
-Patch0:         00-fix-cmake-error.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
@@ -35,7 +33,7 @@ desktop settings such as the panel, app launcher, and window manager.
 
 
 %prep
-%autosetup -p1
+%autosetup
 
 
 %build
@@ -66,6 +64,9 @@ popd
 
 
 %changelog
+* Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git170913.100712.f1e16d94-2
+- Remove upstreamed patch.
+
 * Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git170913.100712.f1e16d94-1
 - Update to latest snapshot.
 
