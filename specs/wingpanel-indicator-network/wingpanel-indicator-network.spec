@@ -1,12 +1,10 @@
-%global debug_package %{nil}
-
-Summary:        a network indicator for wingpanel
 Name:           wingpanel-indicator-network
-Version:        2.0.2+rev%{rev}
+Summary:        Network indicator for wingpanel
+Version:        2.1.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/wingpanel-indicator-network
 
+URL:            http://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -26,7 +24,7 @@ BuildRequires:  pkgconfig(wingpanel-2.0)
 
 
 %description
-a network indicator for wingpanel
+A network indicator for wingpanel.
 
 
 %prep
@@ -34,26 +32,33 @@ a network indicator for wingpanel
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang network-indicator
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files -f network-indicator.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/wingpanel/libnetwork.so
 
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.network.gschema.xml
 
 
 %changelog
+* Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git170913.000954.7db07b75-1
+- Update to version 2.1.0.
+
 * Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+rev298-1
 - Update to latest snapshot.
 
