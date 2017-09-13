@@ -1,7 +1,7 @@
 Name:           switchboard-plug-pantheon-shell
 Summary:        Configure various aspects of the Pantheon desktop environment
 Version:        0.2.6+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            http://github.com/elementary/%{name}
@@ -66,6 +66,9 @@ popd
 
 
 %changelog
+* Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git170913.100712.f1e16d94-1
+- Update to latest snapshot.
+
 * Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git170913.092438.d14d3f3a-2
 - Adapt to upstream file and dependency changes.
 
