@@ -1,8 +1,6 @@
-%global debug_package %{nil}
-
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
-Version:        3.1.0+rev%{rev}
+Version:        3.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/pantheon-greeter
@@ -13,6 +11,8 @@ Source1:        %{name}.conf
 # From http://bazaar.launchpad.net/~elementary-os/pantheon-greeter/deb-packaging/files/head:/debian/
 Source2:        40-lightdm-pantheon-greeter.conf
 Source3:        pantheon-greeter.whitelist
+
+Patch0:         00-disable-gsettings.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
@@ -44,17 +44,16 @@ Requires:       numlockx
 %description
 Pantheon's LightDM Login Screen
 
-Designed for elementary OS.
-
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
-mkdir build && cd build
+mkdir build && pushd build
 %cmake ..
 %make_build
+popd
 
 
 %install
@@ -83,6 +82,9 @@ install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git170912.051756.cbd96db8-1
+- Update to version 3.2.0.
+
 * Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 3.1.0+rev587-1
 - Update to latest snapshot.
 

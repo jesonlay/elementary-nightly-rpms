@@ -82,16 +82,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.5+rev%{rev}"
         },
-        "19": {
-            "bzr_branch": "",
-            "bzr_last_rev": "587",
-            "bzr_rev": "",
-            "name": "pantheon-greeter",
-            "package_name": "pantheon-greeter",
-            "package_version": "3.1.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "3.1.0+rev%{rev}"
-        },
         "20": {
             "bzr_branch": "",
             "bzr_last_rev": "75",
@@ -628,6 +618,17 @@
             "package_version": "0.3.0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.0+git%{date}.%{commit}"
+        },
+        "94": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "cbd96db8532a797c70f43a86524a2c69063e155a",
+            "git_last_date": "170912.051756",
+            "name": "pantheon-greeter",
+            "package_name": "pantheon-greeter",
+            "package_version": "3.2.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         }
     }
 }
