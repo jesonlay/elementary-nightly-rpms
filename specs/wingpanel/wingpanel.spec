@@ -1,6 +1,6 @@
 Summary:        Stylish top panel
 Name:           wingpanel
-Version:        2.0.3+git%{date}.%{commit}
+Version:        2.0.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 URL:            http://launchpad.net/wingpanel
@@ -97,6 +97,9 @@ fi
 
 
 %changelog
+* Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git170912.020136.6d4d6108-1
+- Update to version 2.0.4.
+
 * Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170912.020136.6d4d6108-1
 - Update to latest snapshot.
 
