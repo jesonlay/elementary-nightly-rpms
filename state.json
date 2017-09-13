@@ -225,8 +225,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "65651eb181577ee45281bdf60ebaedb0ac47add5",
-            "git_last_date": "170909.201049",
+            "git_last_commit": "7887cbc0894f9cef49a2ba181290c3e0dd14bcef",
+            "git_last_date": "170912.173358",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -467,8 +467,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7787282ae57ba0d7739df5168bf704ae55fb3aa6",
-            "git_last_date": "170912.150849",
+            "git_last_commit": "fa62aca5748d97b4138afb2fa74fe25825a065b3",
+            "git_last_date": "170913.000939",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.5",
