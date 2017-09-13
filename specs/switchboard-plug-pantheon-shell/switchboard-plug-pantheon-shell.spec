@@ -1,14 +1,14 @@
-%global debug_package %{nil}
-
-Summary:        Configure various aspects of the Pantheon desktop environment
 Name:           switchboard-plug-pantheon-shell
+Summary:        Configure various aspects of the Pantheon desktop environment
 Version:        0.2.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/switchboard-plug-pantheon-shell
 
+URL:            http://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
+
+Patch0:         00-fix-cmake-error.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
@@ -24,6 +24,7 @@ BuildRequires:  pkgconfig(plank)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
 Requires:       contractor
+Requires:       tumbler
 
 
 %description
@@ -32,36 +33,42 @@ Settings app, where users can configure the wallpaper, dock, and
 hotcorners. In the future the desktop plug might also handle other
 desktop settings such as the panel, app launcher, and window manager.
 
-Designed for elementary OS.
-
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-desktop-plug
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files -f pantheon-desktop-plug.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/switchboard/personal/pantheon-desktop/
 
 %{_libexecdir}/switchboard-plug-pantheon-shell/set-wallpaper
 
 %{_datadir}/contractor/set-wallpaper.contract
+%{_datadir}/glib-2.0/schemas/io.elementary.switchboard.plug.desktop.gschema.xml
 
 
 %changelog
+* Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git170913.092438.d14d3f3a-2
+- Adapt to upstream file and dependency changes.
+
 * Wed Sep 13 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git170912.173358.7887cbc0-1
 - Update to latest snapshot.
 
