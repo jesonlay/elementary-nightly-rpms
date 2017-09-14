@@ -1,7 +1,7 @@
 Name:           switchboard-plug-keyboard
 Summary:        Adjust keyboard settings from Switchboard
 Version:        0.3.1+rev%{rev}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://launchpad.net/switchboard-plug-keyboard
@@ -59,6 +59,9 @@ popd
 
 
 %changelog
+* Thu Sep 14 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev599-1
+- Update to latest snapshot.
+
 * Tue Sep 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev598-2
 - Adapt to upstream dependency changes.
 

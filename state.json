@@ -144,12 +144,12 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "598",
+            "bzr_last_rev": "599",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+rev%{rev}"
         },
         "36": {
