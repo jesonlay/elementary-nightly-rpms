@@ -64,7 +64,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1061",
+            "bzr_last_rev": "1064",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -414,8 +414,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8f1fb54fb7880bdee16703cb4de3a36bc04814d6",
-            "git_last_date": "170809.113828",
+            "git_last_commit": "088efd728d1f452b15cb33148ed932836d27b8e8",
+            "git_last_date": "170914.000820",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
