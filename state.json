@@ -164,7 +164,7 @@
         },
         "37": {
             "bzr_branch": "",
-            "bzr_last_rev": "503",
+            "bzr_last_rev": "504",
             "bzr_rev": "",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
