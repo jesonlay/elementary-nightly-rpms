@@ -132,16 +132,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.0+rev%{rev}"
         },
-        "36": {
-            "bzr_branch": "",
-            "bzr_last_rev": "191",
-            "bzr_rev": "",
-            "name": "switchboard-plug-mouse-touchpad",
-            "package_name": "switchboard-plug-mouse-touchpad",
-            "package_version": "0.1.1.2",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.1.2+rev%{rev}"
-        },
         "40": {
             "bzr_branch": "",
             "bzr_last_rev": "315",
@@ -633,6 +623,17 @@
             "package_version": "0.3.2",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.2+git%{date}.%{commit}"
+        },
+        "99": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "d81c25aa1a61cd26a5dbf1a302a7007d84b1a06f",
+            "git_last_date": "170707.025535",
+            "name": "switchboard-plug-mouse-touchpad",
+            "package_name": "switchboard-plug-mouse-touchpad",
+            "package_version": "0.1.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         }
     }
 }
