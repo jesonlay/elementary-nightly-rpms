@@ -92,16 +92,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.7+rev%{rev}"
         },
-        "24": {
-            "bzr_branch": "",
-            "bzr_last_rev": "1598",
-            "bzr_rev": "",
-            "name": "plank",
-            "package_name": "plank",
-            "package_version": "0.11.3",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.11.3+rev%{rev}"
-        },
         "25": {
             "bzr_branch": "",
             "bzr_last_rev": "1959",
@@ -636,6 +626,17 @@
             "package_version": "0.1.1",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.1+git%{date}.%{commit}"
+        },
+        "102": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "753badc68375bc9dae29ae247758445026be6f78",
+            "git_last_date": "170721.121624",
+            "name": "plank",
+            "package_name": "plank",
+            "package_version": "0.11.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.11.4+git%{date}.%{commit}"
         }
     }
 }
