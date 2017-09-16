@@ -142,16 +142,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+rev%{rev}"
         },
-        "44": {
-            "bzr_branch": "",
-            "bzr_last_rev": "149",
-            "bzr_rev": "",
-            "name": "switchboard-plug-sharing",
-            "package_name": "switchboard-plug-sharing",
-            "package_version": "0.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1+rev%{rev}"
-        },
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -635,6 +625,17 @@
             "package_version": "0.1.3",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
+        },
+        "101": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "706ab2994f8544cdb4ced2ff6416f2c12c81b04b",
+            "git_last_date": "170817.000750",
+            "name": "switchboard-plug-sharing",
+            "package_name": "switchboard-plug-sharing",
+            "package_version": "0.1.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         }
     }
 }

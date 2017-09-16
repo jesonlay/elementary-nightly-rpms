@@ -2,7 +2,7 @@
 
 Summary:        Switchboard Sharing Plug
 Name:           switchboard-plug-sharing
-Version:        0.1+rev%{rev}
+Version:        0.1.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-sharing
@@ -52,6 +52,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sat Sep 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git170817.000750.706ab299-1
+- Update to version 0.1.1.
+
 * Sat Aug 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev149-1
 - Update to latest snapshot.
 
