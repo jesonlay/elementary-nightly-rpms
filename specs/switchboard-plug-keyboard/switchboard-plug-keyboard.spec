@@ -59,6 +59,9 @@ popd
 
 
 %changelog
+* Sat Sep 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev604-1
+- Update to latest snapshot.
+
 * Fri Sep 15 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev602-1
 - Update to latest snapshot.
 

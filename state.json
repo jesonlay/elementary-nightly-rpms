@@ -64,7 +64,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1064",
+            "bzr_last_rev": "1066",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -144,7 +144,7 @@
         },
         "34": {
             "bzr_branch": "",
-            "bzr_last_rev": "602",
+            "bzr_last_rev": "604",
             "bzr_rev": "",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
@@ -624,8 +624,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "284e1174d875355170437f5fa709067096259e38",
-            "git_last_date": "170915.095826",
+            "git_last_commit": "e500be8dc683bfc0e811aee4a71e721420cb2de6",
+            "git_last_date": "170916.000221",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
