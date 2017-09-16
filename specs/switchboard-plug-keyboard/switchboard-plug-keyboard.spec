@@ -1,6 +1,6 @@
 Name:           switchboard-plug-keyboard
 Summary:        Adjust keyboard settings from Switchboard
-Version:        0.3.1+rev%{rev}
+Version:        0.3.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -59,6 +59,9 @@ popd
 
 
 %changelog
+* Sat Sep 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git170915.174240.565ea57e-1
+- Update to version 0.3.2.
+
 * Sat Sep 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+rev604-1
 - Update to latest snapshot.
 
