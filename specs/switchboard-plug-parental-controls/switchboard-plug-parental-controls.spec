@@ -1,6 +1,6 @@
 Name:           switchboard-plug-parental-controls
 Summary:        An easy parental controls plug
-Version:        0.1.2+rev%{rev}
+Version:        0.1.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 URL:            https://launchpad.net/switchboard-plug-parental-controls
@@ -90,6 +90,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %changelog
+* Sat Sep 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git170731.085116.57c4571a-1
+- Update to version 0.1.3.
+
 * Sat Aug 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev315-1
 - Update to latest snapshot.
 
