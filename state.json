@@ -62,16 +62,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.5+rev%{rev}"
         },
-        "20": {
-            "bzr_branch": "",
-            "bzr_last_rev": "75",
-            "bzr_rev": "",
-            "name": "pantheon-notes",
-            "package_name": "pantheon-notes",
-            "package_version": "0.7",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.7+rev%{rev}"
-        },
         "25": {
             "bzr_branch": "",
             "bzr_last_rev": "1959",
