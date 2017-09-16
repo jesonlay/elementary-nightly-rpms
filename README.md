@@ -3,12 +3,6 @@ I use this repository to keep track of files related to packaging / building nig
 snapshots of elementaryOS / pantheon desktop components and applications for fedora.
 
 
-## Known Issues
-
-- GTK3 > 3.18 is not yet supported by the elementary GTK theme
-- the pantheon wayland session doesn't work yet
-
-
 ## Package Status
 
 The current build status can be seen at <https://copr.fedorainfracloud.org/coprs/decathorpe/elementary-nightly/monitor/>.
@@ -20,13 +14,11 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | ------------------------------------- | --------------------- | --------------------- | ------------------------------------------------------------- |
 | appcenter                             | DONE                  | DONE                  | <https://launchpad.net/appcenter>                             |
 | audience                              | DONE                  | DONE                  | <https://launchpad.net/audience>                              |
-| eidete                                | DONE                  | DONE                  | <https://launchpad.net/eidete>                                |
 | maya-calendar                         | DONE                  | DONE                  | <https://launchpad.net/maya>                                  |
 | noise                                 | DONE                  | DONE                  | <https://launchpad.net/noise>                                 |
 | pantheon-calculator                   | DONE                  | DONE                  | <https://launchpad.net/pantheon-calculator>                   |
 | pantheon-files                        | DONE                  | DONE                  | <https://launchpad.net/pantheon-files>                        |
 | pantheon-mail                         | DONE                  | DONE                  | <https://launchpad.net/pantheon-mail>                         |
-| pantheon-notes                        | DONE                  | DONE                  | <https://launchpad.net/pantheon-notes>                        |
 | pantheon-photos                       | DONE                  | DONE                  | <https://launchpad.net/pantheon-photos>                       |
 | pantheon-terminal                     | DONE                  | DONE                  | <https://launchpad.net/pantheon-terminal>                     |
 | scratch-text-editor                   | DONE                  | DONE                  | <https://launchpad.net/scratch>                               |
