@@ -501,8 +501,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cd28b8d3982cf520fe3fa4a8d1a2df1da3befe20",
-            "git_last_date": "170831.211647",
+            "git_last_commit": "fb8364ca0cdb5e99a148788a0a6975d9a7405e30",
+            "git_last_date": "170917.110754",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
