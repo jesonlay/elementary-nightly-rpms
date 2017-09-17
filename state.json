@@ -618,6 +618,17 @@
             "package_version": "0.1.0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.0+git%{date}.%{commit}"
+        },
+        "104": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "5464ea09d42a0a62f1ac3a425d90280a9ed7f46d",
+            "git_last_date": "170917.092344",
+            "name": "mock-elementary-nightly",
+            "package_name": "mock-elementary-nightly",
+            "package_version": "0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0+git%{date}.%{commit}"
         }
     }
 }
