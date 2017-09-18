@@ -23,8 +23,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "59c65c10f964bfc94a561dc7f150abd47192ff41",
-            "git_last_date": "170829.210813",
+            "git_last_commit": "44e643acfc399dd3b2ec28a308669475535a5198",
+            "git_last_date": "170917.200704",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -34,8 +34,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d4137cb0e03b3f94e31ac457eb1c4673632d1ee0",
-            "git_last_date": "170831.163958",
+            "git_last_commit": "384412d6e90b939e95633e53bf3c8e4f1e578194",
+            "git_last_date": "170917.191146",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.0",
@@ -314,8 +314,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "088efd728d1f452b15cb33148ed932836d27b8e8",
-            "git_last_date": "170914.000820",
+            "git_last_commit": "ef9555b4e6809e7d3bfd66066ef4875f685e039d",
+            "git_last_date": "170917.212518",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
@@ -523,8 +523,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1b3a3da265c00c5cb556f65e9338ce919d647833",
-            "git_last_date": "170915.162115",
+            "git_last_commit": "56cfdfd1850a9d5e75f59496d5ca9e38523a954a",
+            "git_last_date": "170917.193502",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.1.0",
