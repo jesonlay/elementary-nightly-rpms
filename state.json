@@ -329,9 +329,9 @@
             "git_last_date": "170918.120132",
             "name": "appcenter",
             "package_name": "appcenter",
-            "package_version": "0.2.5",
+            "package_version": "0.2.6",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.2.5+git%{date}.%{commit}"
+            "rpm_last_version": "0.2.6+git%{date}.%{commit}"
         },
         "78": {
             "git_branch": "master",
