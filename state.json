@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2684",
+            "bzr_last_rev": "2685",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -501,8 +501,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fb8364ca0cdb5e99a148788a0a6975d9a7405e30",
-            "git_last_date": "170917.110754",
+            "git_last_commit": "4fe5dea2be69520aac135f29a0e552e94a6522ac",
+            "git_last_date": "170919.161345",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
