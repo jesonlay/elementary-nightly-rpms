@@ -1,7 +1,7 @@
 Name:           screenshot-tool
 Summary:        Simple screen capture tool
 Version:        0.1.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            http://github.com/elementary/%{name}
 
@@ -79,6 +79,9 @@ fi
 
 
 %changelog
+* Tue Sep 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170919.135726.c1d20207-1
+- Update to latest snapshot.
+
 * Tue Aug 15 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170815.151031.b9c97e72-2
 - Adapt to upstream file changes.
 

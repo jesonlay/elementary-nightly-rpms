@@ -116,12 +116,12 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b9c97e72a74752c7f05d2aa17824ee7b26dd48ad",
-            "git_last_date": "170815.151031",
+            "git_last_commit": "c1d202070e70392262eacdf6d71f92d022eadb86",
+            "git_last_date": "170919.135726",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "59": {
@@ -490,8 +490,8 @@
         "92": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6eb33db5eedfcdffc38ce1a47c5f28c0a557701",
-            "git_last_date": "170910.164013",
+            "git_last_commit": "552a07a1052f4d99ba04f2f05af701bd36d4762f",
+            "git_last_date": "170919.133754",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
             "package_version": "0.1.3",
@@ -556,8 +556,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "565ea57ef664791fc18b064e709d4a273fe526f7",
-            "git_last_date": "170915.174240",
+            "git_last_commit": "4768b15d25a02c26f928639d2dcd05e5baee3afc",
+            "git_last_date": "170919.133419",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
