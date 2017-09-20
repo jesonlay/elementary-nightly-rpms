@@ -1,18 +1,17 @@
 Name:           screenshot-tool
 Summary:        Simple screen capture tool
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://github.com/elementary/%{name}
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala >= 0.24
 BuildRequires:  vala-tools
 
@@ -34,17 +33,12 @@ A simple screen capture tool made for elementary OS.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
-
+%meson_install
 %find_lang io.elementary.screenshot-tool
 
 
@@ -53,7 +47,7 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/screenshot-tool.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/io.elementary.screenshot-tool.appdata.xml || :
+    %{buildroot}/%{_datadir}/metainfo/io.elementary.screenshot-tool.appdata.xml || :
 
 
 %post
@@ -72,13 +66,16 @@ fi
 %files -f io.elementary.screenshot-tool.lang
 %{_bindir}/io.elementary.screenshot-tool
 
-%{_datadir}/appdata/io.elementary.screenshot-tool.appdata.xml
 %{_datadir}/applications/screenshot-tool.desktop
 %{_datadir}/glib-2.0/schemas/io.elementary.screenshot-tool.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/accessories-screenshot.svg
+%{_datadir}/metainfo/io.elementary.screenshot-tool.appdata.xml
 
 
 %changelog
+* Wed Sep 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170919.212626.0aa3d9fa-2
+- Adapt to cmake -> meson transition.
+
 * Wed Sep 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170919.212626.0aa3d9fa-1
 - Update to latest snapshot.
 
