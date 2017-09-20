@@ -1,17 +1,16 @@
 Name:           pantheon-calculator
 Summary:        A tiny, simple calculator written in GTK+ and Vala
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/calculator
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(granite)
@@ -27,17 +26,12 @@ A tiny, simple calculator written in GTK+ and Vala.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
-
+%meson_install
 %find_lang io.elementary.calculator
 
 
@@ -46,7 +40,7 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/org.pantheon.calculator.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/io.elementary.calculator.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/io.elementary.calculator.appdata.xml
 
 
 %files -f io.elementary.calculator.lang
@@ -55,12 +49,15 @@ appstream-util validate-relax --nonet \
 
 %{_bindir}/io.elementary.calculator
 
-%{_datadir}/appdata/io.elementary.calculator.appdata.xml
 %{_datadir}/applications/org.pantheon.calculator.desktop
 %{_datadir}/glib-2.0/schemas/io.elementary.calculator.gschema.xml
+%{_datadir}/metainfo/io.elementary.calculator.appdata.xml
 
 
 %changelog
+* Wed Sep 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git170919.133754.552a07a1-2
+- Adapt to cmake -> meson transition.
+
 * Tue Sep 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git170919.133754.552a07a1-1
 - Update to latest snapshot.
 
