@@ -1,7 +1,7 @@
 Name:           screenshot-tool
 Summary:        Simple screen capture tool
 Version:        0.1.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://github.com/elementary/%{name}
 
@@ -41,6 +41,9 @@ A simple screen capture tool made for elementary OS.
 %meson_install
 %find_lang io.elementary.screenshot-tool
 
+# FIXME Remove extra.mo files that shouldn't be installed, meson bug
+find %{buildroot} -name "extra.mo" -print -delete
+
 
 %check
 desktop-file-validate \
@@ -73,6 +76,9 @@ fi
 
 
 %changelog
+* Thu Sep 21 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170919.212626.0aa3d9fa-3
+- Fix meson build.
+
 * Wed Sep 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git170919.212626.0aa3d9fa-2
 - Adapt to cmake -> meson transition.
 
