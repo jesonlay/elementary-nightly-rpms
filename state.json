@@ -23,8 +23,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a2c9a69ce891ecf3f9b450093b72c2451518848",
-            "git_last_date": "170918.235930",
+            "git_last_commit": "339182ad23230e884e57f753fb7df00c8062f841",
+            "git_last_date": "170920.201212",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -523,8 +523,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "35032b969dc705f4a836e80bc60a305f060e66d3",
-            "git_last_date": "170920.164220",
+            "git_last_commit": "4332e2c2688495431069d616dd35db1e4b72c293",
+            "git_last_date": "170920.201119",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.1.1",
