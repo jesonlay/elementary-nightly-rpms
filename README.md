@@ -14,6 +14,7 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | ------------------------------------- | --------------------- | --------------------- | ------------------------------------------------------------- |
 | appcenter                             | DONE                  | DONE                  | <https://launchpad.net/appcenter>                             |
 | audience                              | DONE                  | DONE                  | <https://launchpad.net/audience>                              |
+| elementary-camera                     | DONE                  | DONE                  | <https://github.com/elementary/camera>                        |
 | maya-calendar                         | DONE                  | DONE                  | <https://launchpad.net/maya>                                  |
 | noise                                 | DONE                  | DONE                  | <https://launchpad.net/noise>                                 |
 | pantheon-calculator                   | DONE                  | DONE                  | <https://launchpad.net/pantheon-calculator>                   |
@@ -23,7 +24,6 @@ The current build status can be seen at <https://copr.fedorainfracloud.org/coprs
 | pantheon-terminal                     | DONE                  | DONE                  | <https://launchpad.net/pantheon-terminal>                     |
 | scratch-text-editor                   | DONE                  | DONE                  | <https://launchpad.net/scratch>                               |
 | screenshot-tool                       | DONE                  | DONE                  | <https://launchpad.net/screenshot-tool>                       |
-| snap-photobooth                       | DONE                  | DONE                  | <https://launchpad.net/snap-elementary>                       |
 | switchboard                           | DONE                  | DONE                  | <https://launchpad.net/switchboard>                           |
 
 - `pantheon-mail` cannot be compiled on fedora rawhide right now, since `webkitgtk-3.0` has been retired for security reasons and `webkit2gtk-4.0` isn't supported by `pantheon-mail` yet
