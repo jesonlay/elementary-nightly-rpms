@@ -106,12 +106,12 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0aa3d9fab83928ca3411383758f496479f69085f",
-            "git_last_date": "170919.212626",
+            "git_last_commit": "ed4dafa94c17d787c019acfe2cc1d6957cf7222c",
+            "git_last_date": "170921.143748",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.4",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "59": {
@@ -524,8 +524,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e500be8dc683bfc0e811aee4a71e721420cb2de6",
-            "git_last_date": "170916.000221",
+            "git_last_commit": "b649a59f2582f0f7b7792ea44f797f3b7df269cd",
+            "git_last_date": "170922.000642",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
