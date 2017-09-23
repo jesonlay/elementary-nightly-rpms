@@ -227,8 +227,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "268df4782345a4898c020391081b080e2b2dcd9f",
-            "git_last_date": "170817.000741",
+            "git_last_commit": "f18dcb95b002990208ff1190ded094d349cbe2a3",
+            "git_last_date": "170923.185520",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -282,8 +282,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b0739ce5ad6dd96813d24de10dc164376b5db3c4",
-            "git_last_date": "170817.000746",
+            "git_last_commit": "da8d5c6f0dfe89ed357a9beb6817bd8caa1e5387",
+            "git_last_date": "170923.185712",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -304,8 +304,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ef9555b4e6809e7d3bfd66066ef4875f685e039d",
-            "git_last_date": "170917.212518",
+            "git_last_commit": "4ca1b712cb457c09bc89a0cdbbbdb3d6ab4913df",
+            "git_last_date": "170923.180455",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.1.3",
