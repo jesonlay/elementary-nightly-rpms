@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1070",
+            "bzr_last_rev": "1073",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -64,7 +64,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1962",
+            "bzr_last_rev": "1963",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -282,8 +282,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "da8d5c6f0dfe89ed357a9beb6817bd8caa1e5387",
-            "git_last_date": "170923.185712",
+            "git_last_commit": "f80326f4a5efc1e876c259c8cf1ae77230844a65",
+            "git_last_date": "170924.001034",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -491,8 +491,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4fe5dea2be69520aac135f29a0e552e94a6522ac",
-            "git_last_date": "170919.161345",
+            "git_last_commit": "bb686ff27b7772ccc4dd4b5dbbe66bacdb67b6be",
+            "git_last_date": "170924.082225",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
