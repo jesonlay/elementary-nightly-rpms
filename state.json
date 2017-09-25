@@ -64,7 +64,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1964",
+            "bzr_last_rev": "1965",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -414,8 +414,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5970edea7bafa5214c8805628772aeae352eee5a",
-            "git_last_date": "170907.183932",
+            "git_last_commit": "d61f05fc1fb6b79656defb854277ca1a8e44faf5",
+            "git_last_date": "170925.085246",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.0.2",
@@ -447,8 +447,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d85c4f991b30b859193cdce866a2268ea5a9b7f0",
-            "git_last_date": "170815.003440",
+            "git_last_commit": "d4e4aadffdebfe958ceb788309ca512563c6985b",
+            "git_last_date": "170925.064740",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
@@ -557,8 +557,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d81c25aa1a61cd26a5dbf1a302a7007d84b1a06f",
-            "git_last_date": "170707.025535",
+            "git_last_commit": "6fbb3e6d1ce22de64a888144c1013f64dcff19aa",
+            "git_last_date": "170925.083359",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.2",
@@ -579,8 +579,8 @@
         "101": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "706ab2994f8544cdb4ced2ff6416f2c12c81b04b",
-            "git_last_date": "170817.000750",
+            "git_last_commit": "589c019472d86d4367f4353f8ffdb2055fb09abe",
+            "git_last_date": "170925.084846",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "0.1.1",
