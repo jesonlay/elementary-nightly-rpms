@@ -34,8 +34,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "384412d6e90b939e95633e53bf3c8e4f1e578194",
-            "git_last_date": "170917.191146",
+            "git_last_commit": "6a96d0f3227f15533c11e136b101ee44052eb750",
+            "git_last_date": "170925.140355",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.0",
@@ -139,8 +139,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9e5a3156b9fbfa57e53d1e6b400362cce17d3fbd",
-            "git_last_date": "170824.063322",
+            "git_last_commit": "21faa31d1b1f53506209621a57af185958bc49a3",
+            "git_last_date": "170925.140534",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.6",
@@ -172,8 +172,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a30ac5867c9aac86cfa309a0fa11a6a88be7abe4",
-            "git_last_date": "170703.164315",
+            "git_last_commit": "8a59445324a982c9d1e7099e88cbc845ba7182d1",
+            "git_last_date": "170925.140440",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
