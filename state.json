@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2688",
+            "bzr_last_rev": "2690",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -568,8 +568,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "25517e83b297be655204e6f9d66372717db7c057",
-            "git_last_date": "170925.094259",
+            "git_last_commit": "17cb39cd591c98ab1401a21c98c932970d5eba51",
+            "git_last_date": "170926.000820",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.3",
