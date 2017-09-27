@@ -2,7 +2,7 @@
 
 Name:           slingshot-launcher
 Summary:        Lightweight and stylish app launcher
-Version:        2.1.3+git%{date}.%{commit}
+Version:        2.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -72,6 +72,9 @@ popd
 
 
 %changelog
+* Wed Sep 27 2017 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git170926.142028.13a0f3fe-1
+- Update to version 2.2.0.
+
 * Tue Sep 26 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git170926.142028.13a0f3fe-1
 - Update to latest snapshot.
 
