@@ -249,8 +249,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3f62e3d023dd43bfd035617e9801eac190d22ad8",
-            "git_last_date": "170927.162458",
+            "git_last_commit": "185ef079708a26cc7bf5f3ed474e9ab750bac96f",
+            "git_last_date": "170928.140848",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -304,8 +304,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "13a0f3fe10040948bf48b4cc34460a7785a51452",
-            "git_last_date": "170926.142028",
+            "git_last_commit": "548da6be6ded5436808483edd31a4d1dd8abd778",
+            "git_last_date": "170927.234434",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -491,8 +491,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6d8df555e425db2303c5e7e523d15747620c57a7",
-            "git_last_date": "170924.154846",
+            "git_last_commit": "9b68c4b66468539abfd4db25244c91b304bfda0c",
+            "git_last_date": "170928.144702",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
