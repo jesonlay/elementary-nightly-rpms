@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2690",
+            "bzr_last_rev": "2691",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -392,8 +392,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4dd029537d54ba240c419d1512299992bf019498",
-            "git_last_date": "170925.094220",
+            "git_last_commit": "d95e3a6c0dcbfc308f7d17a156e2ed141e688003",
+            "git_last_date": "170929.175649",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
