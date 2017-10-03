@@ -95,8 +95,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "54fbf83a88fb9f8ca421f83440314755d76969a1",
-            "git_last_date": "170927.124011",
+            "git_last_commit": "ffc5209772866bbf52c0742c349279dcab2a0cbe",
+            "git_last_date": "171002.201159",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -172,8 +172,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8a59445324a982c9d1e7099e88cbc845ba7182d1",
-            "git_last_date": "170925.140440",
+            "git_last_commit": "a25dfffc73d753ea05145faeab67138719da8ba6",
+            "git_last_date": "171002.200931",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
@@ -183,8 +183,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dd5502faa96e023c7798213d6a4f3a20b4ff7dd4",
-            "git_last_date": "170929.130120",
+            "git_last_commit": "1ed50bacc205687e9b07a20ff656860741a3d1b9",
+            "git_last_date": "171003.085615",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.1",

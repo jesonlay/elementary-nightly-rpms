@@ -69,6 +69,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/io.elementary.capnet
 
 
 %changelog
+* Tue Oct 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171002.200931.a25dfffc-1
+- Update to latest snapshot.
+
 * Mon Sep 25 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git170925.140440.8a594453-1
 - Update to latest snapshot.
 
