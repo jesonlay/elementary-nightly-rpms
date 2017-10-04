@@ -1,15 +1,17 @@
+%global appname io.elementary.capnet-assist
+
 Name:           capnet-assist
 Summary:        Captive Portal Assistant for Pantheon
 Version:        0.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/capnet-assist
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.26
 
 BuildRequires:  pkgconfig(gcr-3)
@@ -38,22 +40,19 @@ Written in Vala and using WebkitGtk+.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang captive-login
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/io.elementary.capnet-assist.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 
 %files -f captive-login.lang
@@ -64,11 +63,14 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/io.elementary.capnet
 
 %{_sysconfdir}/NetworkManager/dispatcher.d/90captive_portal_test
 
-%{_datadir}/applications/io.elementary.capnet-assist.desktop
-%{_datadir}/glib-2.0/schemas/io.elementary.capnet-assist.gschema.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 
 
 %changelog
+* Wed Oct 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171002.200931.a25dfffc-2
+- Switch build to meson.
+
 * Tue Oct 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171002.200931.a25dfffc-1
 - Update to latest snapshot.
 
