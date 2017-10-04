@@ -1,7 +1,7 @@
 Name:           switchboard-plug-pantheon-shell
 Summary:        Configure various aspects of the Pantheon desktop environment
 Version:        0.2.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            http://github.com/elementary/%{name}
@@ -14,6 +14,7 @@ BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
+BuildRequires:  pkgconfig(gexiv2)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(gnome-desktop-3.0)
 BuildRequires:  pkgconfig(granite)
@@ -64,6 +65,9 @@ popd
 
 
 %changelog
+* Wed Oct 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171002.201159.ffc52097-2
+- Adapt to upstream dependency changes.
+
 * Tue Oct 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171002.201159.ffc52097-1
 - Update to latest snapshot.
 
