@@ -3,7 +3,7 @@
 Name:           capnet-assist
 Summary:        Captive Portal Assistant for Pantheon
 Version:        0.2.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/capnet-assist
@@ -68,6 +68,9 @@ desktop-file-validate \
 
 
 %changelog
+* Wed Oct 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171004.145415.e103f237-1
+- Update to latest snapshot.
+
 * Wed Oct 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171002.200931.a25dfffc-2
 - Switch build to meson.
 
