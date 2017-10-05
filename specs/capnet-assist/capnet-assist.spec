@@ -3,7 +3,7 @@
 Name:           capnet-assist
 Summary:        Captive Portal Assistant for Pantheon
 Version:        0.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/capnet-assist
@@ -59,7 +59,7 @@ desktop-file-validate \
 %license COPYING
 %doc AUTHORS README.md
 
-%{_bindir}/captive-login
+%{_bindir}/%{appname}
 
 %{_sysconfdir}/NetworkManager/dispatcher.d/90captive_portal_test
 
@@ -68,6 +68,9 @@ desktop-file-validate \
 
 
 %changelog
+* Thu Oct 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171004.215816.f65fa25b-2
+- Adapt to upstream file changes.
+
 * Thu Oct 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171004.215816.f65fa25b-1
 - Update to latest snapshot.
 
