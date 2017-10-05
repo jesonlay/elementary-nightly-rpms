@@ -64,7 +64,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1968",
+            "bzr_last_rev": "1969",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -172,8 +172,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e103f237ae072bcdd7c208b4a7c63352eb47220f",
-            "git_last_date": "171004.145415",
+            "git_last_commit": "f65fa25bedcfceceff729c218e1243b1cec86553",
+            "git_last_date": "171004.215816",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
