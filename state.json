@@ -172,12 +172,12 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f65fa25bedcfceceff729c218e1243b1cec86553",
-            "git_last_date": "171004.215816",
+            "git_last_commit": "1af6498bf174a7fee5508b77dfe5ed8396160e3d",
+            "git_last_date": "171005.224736",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.1+git%{date}.%{commit}"
         },
         "65": {
