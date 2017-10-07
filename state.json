@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1079",
+            "bzr_last_rev": "1083",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -106,8 +106,8 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ed4dafa94c17d787c019acfe2cc1d6957cf7222c",
-            "git_last_date": "170921.143748",
+            "git_last_commit": "b4915f4ff102513696c6cb84881f25a88dc83b5c",
+            "git_last_date": "171007.071035",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.4",
@@ -282,8 +282,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f80326f4a5efc1e876c259c8cf1ae77230844a65",
-            "git_last_date": "170924.001034",
+            "git_last_commit": "965c050e93c88124412516c5ba742f8e572f8534",
+            "git_last_date": "171007.070336",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -425,8 +425,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "91c5935feaed40e219b77ba970d7fa081def875a",
-            "git_last_date": "170818.000142",
+            "git_last_commit": "3030e160bf08d0a817d9ab4bb7e54842903d42a2",
+            "git_last_date": "171007.070521",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0",
@@ -535,8 +535,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "490bb6341a9d7fec842095639f92316734a81bbf",
-            "git_last_date": "170725.082730",
+            "git_last_commit": "f9e569914ca022022e86d3147e1a288577241a6a",
+            "git_last_date": "171007.070417",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "0.1.2",
@@ -568,8 +568,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "17cb39cd591c98ab1401a21c98c932970d5eba51",
-            "git_last_date": "170926.000820",
+            "git_last_commit": "c2a88230bf8f1b7c707b1faad5b7ac5346069f7f",
+            "git_last_date": "171007.070544",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.3",
