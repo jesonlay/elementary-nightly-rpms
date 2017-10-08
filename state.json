@@ -183,8 +183,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1ed50bacc205687e9b07a20ff656860741a3d1b9",
-            "git_last_date": "171003.085615",
+            "git_last_commit": "08f02fdd265fce870c540432e6e8b610e8f54f99",
+            "git_last_date": "171007.230048",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.1",
@@ -194,8 +194,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "994dc5825231951833de008b72ef4985bd788a0f",
-            "git_last_date": "170709.011937",
+            "git_last_commit": "d46474d4006821adfdbfb43721be38551fc318bd",
+            "git_last_date": "171008.022538",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f761f2799ff29ebd4b0ecb0aa6bf37e4f17a25d1",
-            "git_last_date": "170920.165059",
+            "git_last_commit": "afcf79a84a22910e3ed3ea1d39d812a670d70c10",
+            "git_last_date": "171008.095053",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -480,8 +480,8 @@
         "92": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a539be8827a1ffbd22d03d692d963bdda0b8dd7",
-            "git_last_date": "170925.185825",
+            "git_last_commit": "c3805ec516659f7b10d54f3dbe1bec6b8cfd975e",
+            "git_last_date": "171007.225757",
             "name": "pantheon-calculator",
             "package_name": "pantheon-calculator",
             "package_version": "0.1.3",
