@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1084",
+            "bzr_last_rev": "1085",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -337,8 +337,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fa62aca5748d97b4138afb2fa74fe25825a065b3",
-            "git_last_date": "170913.000939",
+            "git_last_commit": "6c3ee7b9418f5dc180d09520a5e4bfd74dbce2c3",
+            "git_last_date": "171009.021907",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.5",
@@ -546,8 +546,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4768b15d25a02c26f928639d2dcd05e5baee3afc",
-            "git_last_date": "170919.133419",
+            "git_last_commit": "d9a760ea8b908f369397f882420edc93988dce99",
+            "git_last_date": "171009.044104",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
