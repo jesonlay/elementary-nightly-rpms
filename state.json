@@ -117,8 +117,8 @@
         "59": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "38bbf6dd52b99aa92ae7a2ec1cf476e2d0df8bc3",
-            "git_last_date": "170420.061410",
+            "git_last_commit": "2d676c9bb8f0dd5c59c5d648b8dfdccabd556208",
+            "git_last_date": "171009.185637",
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.0.6",
