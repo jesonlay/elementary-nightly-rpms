@@ -155,6 +155,9 @@ find %{buildroot} -name '*.la' -print -delete
 
 
 %changelog
+* Tue Oct 10 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git171010.081348.5f0ba205-1
+- Update to latest snapshot.
+
 * Mon Oct 09 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git171009.190845.f917eead-1
 - Update to latest snapshot.
 
