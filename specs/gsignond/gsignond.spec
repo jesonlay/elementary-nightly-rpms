@@ -1,24 +1,21 @@
 %global __provides_exclude_from ^%{_libdir}/gsignond/.*\\.so$
 %global dbus_type session
-
+%global extension_type desktop
 
 Name:           gsignond
 Summary:        GSignOn daemon
 Version:        1.0.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://gitlab.com/accounts-sso/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-# Patch to not build the Ostro OS and tizen extensions
-Patch1:         00-disable-tizen-ostro.patch
-
-
 BuildRequires:  gettext
 BuildRequires:  gtk-doc
 BuildRequires:  libtool
 BuildRequires:  pkgconfig
+BuildRequires:  meson
 BuildRequires:  vala
 BuildRequires:  vala-tools
 
@@ -29,6 +26,7 @@ BuildRequires:  pkgconfig(dbus-1)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(libecryptfs)
+BuildRequires:  pkgconfig(libsecret-1)
 BuildRequires:  pkgconfig(sqlite3)
 
 Requires:       %{name}-config
@@ -92,24 +90,16 @@ This package contains the default configuration.
 
 
 %prep
-%autosetup -p1
+%autosetup
 
 
 %build
-NOCONFIGURE=1 ./autogen.sh
-
-%configure \
-    --disable-static \
-    --enable-dbus-type=%{dbus_type} \
-    --enable-gtk-doc
-
-%make_build
+%meson -Dbus_type=%{dbus_type} -Dextension=%{extension_type}
+%meson_build
 
 
 %install
-%make_install
-
-find %{buildroot} -name '*.la' -print -delete
+%meson_install
 
 
 %post   libs -p /sbin/ldconfig
@@ -119,19 +109,27 @@ find %{buildroot} -name '*.la' -print -delete
 %files
 %{_bindir}/gsignond
 
-%{_libdir}/gsignond/
-
-%if %{dbus_type} != p2p
-%{_datadir}/dbus-1/services/com.google.code.AccountsSSO.gSingleSignOn.service
-%endif
+#%{_libdir}/gsignond/
 
 
 %files          libs
 %license COPYING.LIB
 
-%{_libdir}/libgsignond-common.so.0
-%{_libdir}/libgsignond-common.so.0.0.0
-%{_libdir}/girepository-1.0/gSignond-1.0.typelib
+%{_libdir}/libgsignond-common.so.1
+%{_libdir}/libgsignond-common.so.1.0.5
+
+%{_libdir}/girepository-1.0/GSignond-1.0.typelib
+
+%dir %{_libdir}/gsignond
+
+%{_libdir}/gsignond/pluginloaders/
+
+%dir %{_libdir}/gsignond/gplugins
+%{_libdir}/gsignond/gplugins/libdigest.so
+%{_libdir}/gsignond/gplugins/libpassword.so
+
+%dir %{_libdir}/gsignond/extensions
+%{_libdir}/gsignond/extensions/libextension-desktop.so
 
 
 %files          devel
@@ -140,8 +138,7 @@ find %{buildroot} -name '*.la' -print -delete
 %{_libdir}/libgsignond-common.so
 %{_libdir}/pkgconfig/gsignond.pc
 
-%{_datadir}/dbus-1/interfaces/com.google.code.AccountsSSO.gSingleSignOn.*.xml
-%{_datadir}/gir-1.0/gSignond-1.0.gir
+%{_datadir}/gir-1.0/GSignond-1.0.gir
 %{_datadir}/vala/vapi/gsignond.deps
 %{_datadir}/vala/vapi/gsignond.vapi
 
@@ -155,6 +152,9 @@ find %{buildroot} -name '*.la' -print -delete
 
 
 %changelog
+* Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git171011.073218.3d2b8a59-2
+- Adapt to upstream changes.
+
 * Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git171011.073218.3d2b8a59-1
 - Update to latest snapshot.
 
