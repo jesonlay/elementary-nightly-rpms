@@ -1,7 +1,9 @@
+%global appname io.elementary.calculator
+
 Name:           pantheon-calculator
 Summary:        A tiny, simple calculator written in GTK+ and Vala
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/calculator
@@ -33,7 +35,7 @@ A tiny, simple calculator written in GTK+ and Vala.
 
 %install
 %meson_install
-%find_lang io.elementary.calculator
+%find_lang %{appname}
 
 # FIXME Remove extra.mo files that shouldn't be installed, meson bug
 find %{buildroot} -name "extra.mo" -print -delete
@@ -43,24 +45,27 @@ find %{buildroot} -name "extra.mo" -print -delete
 %meson_test
 
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/org.pantheon.calculator.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/io.elementary.calculator.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%files -f io.elementary.calculator.lang
+%files -f %{appname}.lang
 %doc AUTHORS
 %license COPYING
 
-%{_bindir}/io.elementary.calculator
+%{_bindir}/%{appname}
 
-%{_datadir}/applications/org.pantheon.calculator.desktop
-%{_datadir}/glib-2.0/schemas/io.elementary.calculator.gschema.xml
-%{_datadir}/metainfo/io.elementary.calculator.appdata.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git171010.093220.aa9a048f-2
+- Adapt to upstream file changes.
+
 * Tue Oct 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git171010.093220.aa9a048f-1
 - Update to latest snapshot.
 
