@@ -1,18 +1,18 @@
 Name:           elementary-camera
 Summary:        Fast and beautiful camera app
 Version:        0.3.0.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            https://github.com/elementary/camera
 
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
-BuildRequires:  cmake
+BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.24
 BuildRequires:  vala-tools
@@ -39,17 +39,12 @@ A fast and beautiful camera app.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
-
+%meson_install
 %find_lang pantheon-camera
 
 
@@ -70,6 +65,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171010.092010.3494a051-2
+- Adapt to upstream file changes.
+
 * Tue Oct 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171010.092010.3494a051-1
 - Update to latest snapshot.
 
