@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1086",
+            "bzr_last_rev": "1087",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -458,8 +458,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b4bc2d36b37ce6281421d7fa7d5377f0b928342",
-            "git_last_date": "171015.162627",
+            "git_last_commit": "1f4a4235e5f344f7c1b5d3cdbced7cf58755d769",
+            "git_last_date": "171015.204943",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
