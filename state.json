@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1087",
+            "bzr_last_rev": "1088",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -64,7 +64,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1970",
+            "bzr_last_rev": "1973",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b3ad24b33bdb9ecc7ab105dca479a7244592017c",
-            "git_last_date": "171016.144105",
+            "git_last_commit": "92dbf6db6698516fcbb55a52e542f12e3f855401",
+            "git_last_date": "171017.020452",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -458,8 +458,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1f4a4235e5f344f7c1b5d3cdbced7cf58755d769",
-            "git_last_date": "171015.204943",
+            "git_last_commit": "364c72ac52ff2c4f150efbb35495e0a5d85fcd98",
+            "git_last_date": "171016.235439",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
