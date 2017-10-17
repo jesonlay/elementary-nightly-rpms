@@ -95,12 +95,12 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ffc5209772866bbf52c0742c349279dcab2a0cbe",
-            "git_last_date": "171002.201159",
+            "git_last_commit": "c1a465acfe425613d7e39274dd80f6ff00c29d8f",
+            "git_last_date": "171017.183641",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.6+git%{date}.%{commit}"
         },
         "58": {
@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "92dbf6db6698516fcbb55a52e542f12e3f855401",
-            "git_last_date": "171017.020452",
+            "git_last_commit": "73d232fcf48d23d8ebd9c996c2774e01407b3a8c",
+            "git_last_date": "171017.184723",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
