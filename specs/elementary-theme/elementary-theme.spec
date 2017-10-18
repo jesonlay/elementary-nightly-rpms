@@ -96,6 +96,9 @@ cp -pavr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %changelog
+* Wed Oct 18 2017 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git171017.211349.a244d049-1
+- Update to latest snapshot.
+
 * Thu Oct 12 2017 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git171012.163047.a6e541d3-1
 - Update to latest snapshot.
 

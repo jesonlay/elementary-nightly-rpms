@@ -34,8 +34,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a6e541d3c29457ba85118433269a8fc9517ecc29",
-            "git_last_date": "171012.163047",
+            "git_last_commit": "a244d049b75938755801ef847d83ef4cd02debba",
+            "git_last_date": "171017.211349",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
@@ -64,7 +64,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1973",
+            "bzr_last_rev": "1975",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -458,8 +458,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "364c72ac52ff2c4f150efbb35495e0a5d85fcd98",
-            "git_last_date": "171016.235439",
+            "git_last_commit": "0abaea16fa8aaa723087a35eed7a71e35959bb87",
+            "git_last_date": "171017.231508",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
