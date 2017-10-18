@@ -5,7 +5,7 @@
 Name:           gsignond
 Summary:        GSignOn daemon
 Version:        1.0.6+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://gitlab.com/accounts-sso/%{name}
@@ -152,6 +152,9 @@ This package contains the default configuration.
 
 
 %changelog
+* Wed Oct 18 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git171018.093648.188368b7-1
+- Update to latest snapshot.
+
 * Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git171011.073218.3d2b8a59-2
 - Adapt to upstream changes.
 
