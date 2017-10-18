@@ -392,8 +392,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d95e3a6c0dcbfc308f7d17a156e2ed141e688003",
-            "git_last_date": "170929.175649",
+            "git_last_commit": "ba79059dfc54888ddbb551fe8d3524ef85ff957d",
+            "git_last_date": "171018.165259",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
@@ -447,8 +447,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d4e4aadffdebfe958ceb788309ca512563c6985b",
-            "git_last_date": "170925.064740",
+            "git_last_commit": "eaf7e1d6ac74773419f0f94b1cf806a021ca1836",
+            "git_last_date": "171018.163924",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
