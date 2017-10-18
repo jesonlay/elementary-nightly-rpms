@@ -1,14 +1,10 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
-URL:            http://launchpad.net/pantheon-photos
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            http://github.com/elementary/photos
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -35,6 +31,7 @@ BuildRequires:  pkgconfig(libgphoto2) >= 2.4.2
 BuildRequires:  pkgconfig(libexif) >= 0.6.16
 BuildRequires:  pkgconfig(libraw) >= 0.13.2
 BuildRequires:  pkgconfig(libsoup-2.4) >= 2.26.0
+BuildRequires:  pkgconfig(libwebp) >= 0.4.4
 BuildRequires:  pkgconfig(libxml-2.0) >= 2.6.32
 BuildRequires:  pkgconfig(rest-0.7) >= 0.7
 BuildRequires:  pkgconfig(sqlite3) >= 3.5.9
@@ -54,20 +51,26 @@ Designed for elementary OS. Works and looks great on any GTK+ desktop.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
-%find_lang pantheon-photos
+popd
 
-mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
+%find_lang pantheon-photos
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/*.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
 
 
 %files -f pantheon-photos.lang
@@ -80,14 +83,17 @@ appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata
 
 %{_libexecdir}/pantheon-photos/
 
-%{_datadir}/appdata/org.pantheon.photos.appdata.xml
 %{_datadir}/applications/org.pantheon.photos.desktop
 %{_datadir}/applications/org.pantheon.photos-viewer.desktop
 %{_datadir}/glib-2.0/schemas/*.xml
+%{_datadir}/metainfo/org.pantheon.photos.appdata.xml
 %{_datadir}/pantheon-photos/
 
 
 %changelog
+* Wed Oct 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171017.231508.0abaea16-2
+- Adapt to upstream dependency changes.
+
 * Wed Oct 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171017.231508.0abaea16-1
 - Update to latest snapshot.
 
