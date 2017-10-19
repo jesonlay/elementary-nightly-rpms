@@ -130,6 +130,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Oct 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+rev2697-1
+- Update to latest snapshot.
+
 * Wed Oct 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+rev2696-1
 - Update to latest snapshot.
 

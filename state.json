@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1088",
+            "bzr_last_rev": "1089",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2696",
+            "bzr_last_rev": "2697",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
