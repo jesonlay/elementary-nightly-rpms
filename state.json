@@ -23,8 +23,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "008fb75e7ce257d1e414312b0209fde8a3f62d38",
-            "git_last_date": "170926.163628",
+            "git_last_commit": "29f1291503b4eebdfaa2bb07c62b86a49e3cf36f",
+            "git_last_date": "171021.200313",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1089",
+            "bzr_last_rev": "1090",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2697",
+            "bzr_last_rev": "2699",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -436,8 +436,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c469f831c5495725a59a844e20fc2aff2cd7dd2",
-            "git_last_date": "171016.155512",
+            "git_last_commit": "ac664daebe2ce44c9e372e6542353b309a24f79b",
+            "git_last_date": "171021.121714",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.2",
@@ -458,12 +458,12 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0abaea16fa8aaa723087a35eed7a71e35959bb87",
-            "git_last_date": "171017.231508",
+            "git_last_commit": "b5504040d6934e7d2c69d9735ef1b5f572730842",
+            "git_last_date": "171021.183729",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         },
         "91": {
@@ -546,8 +546,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d9a760ea8b908f369397f882420edc93988dce99",
-            "git_last_date": "171009.044104",
+            "git_last_commit": "5a7f1a5e0cc1f53377db6f9457c85f55b7c7d8f5",
+            "git_last_date": "171022.115936",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",

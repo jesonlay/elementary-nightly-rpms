@@ -1,7 +1,7 @@
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2.1
 
 URL:            http://github.com/elementary/photos
@@ -91,6 +91,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Oct 22 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171021.183729.b5504040-1
+- Update to latest snapshot.
+
 * Wed Oct 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171017.231508.0abaea16-2
 - Adapt to upstream dependency changes.
 
