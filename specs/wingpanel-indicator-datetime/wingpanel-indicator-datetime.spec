@@ -1,18 +1,17 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-Summary:        a datetime indicator for wingpanel
 Name:           wingpanel-indicator-datetime
+Summary:        Datetime Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/wingpanel-indicator-datetime
+Release:        2%{?dist}
+License:        GPLv3+
 
+URL:            http://launchpad.net/wingpanel-indicator-datetime
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -25,9 +24,11 @@ BuildRequires:  pkgconfig(libical)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Supplements:    wingpanel%{?_isa}
+
 
 %description
-a datetime indicator for wingpanel
+A datetime indicator for wingpanel.
 
 
 %prep
@@ -35,20 +36,22 @@ a datetime indicator for wingpanel
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang datetime-indicator
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files -f datetime-indicator.lang
+%doc README.md
 %license COPYING
 
 %{_libdir}/wingpanel/libdatetime.so
@@ -57,6 +60,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Oct 23 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git171016.160817.834f0ff2-2
+- Try to fix build.
+
 * Mon Oct 16 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git171016.160817.834f0ff2-1
 - Update to latest snapshot.
 
