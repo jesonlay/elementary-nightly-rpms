@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "73d232fcf48d23d8ebd9c996c2774e01407b3a8c",
-            "git_last_date": "171017.184723",
+            "git_last_commit": "cc42d66f1d58788c09569ebcfda830650d7412bf",
+            "git_last_date": "171024.005516",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -315,8 +315,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8e85b24d305df152fe3111c8943bd841debe6f82",
-            "git_last_date": "171010.000929",
+            "git_last_commit": "e7f0ae6bb47350e1a08c2ca9cdb303ddaf80aba1",
+            "git_last_date": "171024.015602",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -524,8 +524,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c7e0308aae6a9cf432b17359cdc7152ce16f2ba0",
-            "git_last_date": "171023.183001",
+            "git_last_commit": "03d3091f9c1f4bc840d704635308fdcd7f9af3a8",
+            "git_last_date": "171024.000054",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
@@ -546,8 +546,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a7f1a5e0cc1f53377db6f9457c85f55b7c7d8f5",
-            "git_last_date": "171022.115936",
+            "git_last_commit": "2cc20383e1e7f3c3691c28f76fd2e4099f517414",
+            "git_last_date": "171023.232349",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
