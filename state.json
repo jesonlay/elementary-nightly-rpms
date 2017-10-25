@@ -23,8 +23,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f00a2f1d333ced517224757a35a37cef66cf5d54",
-            "git_last_date": "171023.175241",
+            "git_last_commit": "bc9d5b1e7bdb04249e59e8d7c8617afde60b0143",
+            "git_last_date": "171024.202106",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.2.0",
@@ -249,8 +249,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c633396e968afcd47e105d204c5028e3e01b76a",
-            "git_last_date": "171024.173602",
+            "git_last_commit": "302f1aae157a5ae7bd6a97347483cc8500b3fa27",
+            "git_last_date": "171025.001014",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -524,8 +524,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "03d3091f9c1f4bc840d704635308fdcd7f9af3a8",
-            "git_last_date": "171024.000054",
+            "git_last_commit": "59b079bd652be4a171517afc3b5da47660d6c6a7",
+            "git_last_date": "171024.181951",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
