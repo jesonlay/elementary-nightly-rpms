@@ -23,8 +23,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bc9d5b1e7bdb04249e59e8d7c8617afde60b0143",
-            "git_last_date": "171024.202106",
+            "git_last_commit": "01a6384ee2e174923a8879bf918b038c33eaea7f",
+            "git_last_date": "171031.165154",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1090",
+            "bzr_last_rev": "1092",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
