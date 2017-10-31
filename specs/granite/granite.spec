@@ -1,7 +1,7 @@
 Name:           granite
 Summary:        elementary Development Library
 Version:        0.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3+
 URL:            https://launchpad.net/granite
 
@@ -79,8 +79,8 @@ fi
 %doc AUTHORS README.md
 %license COPYING
 
-%{_libdir}/libgranite.so.3
-%{_libdir}/libgranite.so.3.0.1
+%{_libdir}/libgranite.so.4
+%{_libdir}/libgranite.so.4.0
 %{_libdir}/girepository-1.0/Granite-1.0.typelib
 
 %{_datadir}/icons/hicolor/*/actions/appointment.svg
@@ -103,6 +103,9 @@ fi
 
 
 %changelog
+* Tue Oct 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171030.222136.62d426b4-2
+- Adapt to upstream file changes.
+
 * Tue Oct 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171030.222136.62d426b4-1
 - Update to latest snapshot.
 
