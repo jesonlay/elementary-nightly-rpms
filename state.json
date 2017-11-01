@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2700",
+            "bzr_last_rev": "2705",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -260,12 +260,12 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "62d426b4077cdeacdcf83c47cc117c7fe53efd0d",
-            "git_last_date": "171030.222136",
+            "git_last_commit": "2f18cff4286d0a445cd9e63ed6542b813dd6023f",
+            "git_last_date": "171101.000336",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         },
         "73": {
@@ -315,8 +315,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "75044a6537c7d8d648405dbeddb17457f604b190",
-            "git_last_date": "171031.074726",
+            "git_last_commit": "098a1b866e8ece597fc9e3913d60464b986514b6",
+            "git_last_date": "171101.025104",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
