@@ -194,8 +194,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d46474d4006821adfdbfb43721be38551fc318bd",
-            "git_last_date": "171008.022538",
+            "git_last_commit": "ac5d8dba3885afc70a19f7a759b1410cda4f4034",
+            "git_last_date": "171102.164358",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4c3c936a8063555ecaa89188e4a43ad603bdb81f",
-            "git_last_date": "171102.030851",
+            "git_last_commit": "d9a2b5ae8f444caa0cb372434ce0244dd716746f",
+            "git_last_date": "171102.161738",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -524,8 +524,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d36d298f98ac565edec9fb8e6bc5ffdf3a97ed16",
-            "git_last_date": "171027.154651",
+            "git_last_commit": "382f335a8802fe83117f58bd6f61246cd4c5398c",
+            "git_last_date": "171102.164146",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
