@@ -44,7 +44,7 @@
         },
         "14": {
             "bzr_branch": "",
-            "bzr_last_rev": "1095",
+            "bzr_last_rev": "1097",
             "bzr_rev": "",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
@@ -183,8 +183,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d6b0b505cbb51fcdd1074c2eb94e31bf29d836a9",
-            "git_last_date": "171031.103659",
+            "git_last_commit": "e56cb30d9beaa45b13c71ab9fb978d7100144cfa",
+            "git_last_date": "171103.103906",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.1",
@@ -249,8 +249,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0ceb654e87089a198df17266102513ebd1fd866e",
-            "git_last_date": "171102.101012",
+            "git_last_commit": "bebc5a729b0431d12ee4a3bf62cdae6506c4f36e",
+            "git_last_date": "171103.000113",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d9a2b5ae8f444caa0cb372434ce0244dd716746f",
-            "git_last_date": "171102.161738",
+            "git_last_commit": "fd298ea6a93d731f6b8081498ac98b72d2f8645b",
+            "git_last_date": "171103.123516",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.4.1",
@@ -359,8 +359,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0a843d9be92c2e01f6473eb9f4091595c7277574",
-            "git_last_date": "171010.111633",
+            "git_last_commit": "a78ed1938a19b5af6bfb61314b139090dee9f21b",
+            "git_last_date": "171103.130821",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "0.1.2",

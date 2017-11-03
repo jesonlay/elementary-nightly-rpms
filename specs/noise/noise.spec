@@ -133,6 +133,9 @@ fi
 
 
 %changelog
+* Fri Nov 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171103.103906.e56cb30d-1
+- Update to latest snapshot.
+
 * Tue Oct 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171031.103659.d6b0b505-1
 - Update to latest snapshot.
 
