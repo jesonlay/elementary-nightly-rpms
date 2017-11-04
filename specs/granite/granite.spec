@@ -1,6 +1,6 @@
 Name:           granite
 Summary:        elementary Development Library
-Version:        0.4.1+git%{date}.%{commit}
+Version:        0.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3+
 URL:            https://launchpad.net/granite
@@ -103,6 +103,9 @@ fi
 
 
 %changelog
+* Sat Nov 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.5+git171103.123516.fd298ea6-1
+- Update to version 0.5.
+
 * Fri Nov 03 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171103.123516.fd298ea6-1
 - Update to latest snapshot.
 
