@@ -249,8 +249,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bebc5a729b0431d12ee4a3bf62cdae6506c4f36e",
-            "git_last_date": "171103.000113",
+            "git_last_commit": "e73552748b25564394a715df3086e532a6630907",
+            "git_last_date": "171105.175602",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
