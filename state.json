@@ -23,8 +23,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "01a6384ee2e174923a8879bf918b038c33eaea7f",
-            "git_last_date": "171031.165154",
+            "git_last_commit": "eff997c8708f9bb69349f2343bb3259feef44d35",
+            "git_last_date": "171105.212540",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2709",
+            "bzr_last_rev": "2710",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
