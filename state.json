@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2710",
+            "bzr_last_rev": "2711",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -64,7 +64,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1980",
+            "bzr_last_rev": "1982",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -315,8 +315,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "098a1b866e8ece597fc9e3913d60464b986514b6",
-            "git_last_date": "171101.025104",
+            "git_last_commit": "053c345caaea1cf5d3294f83a65f564984cde7d4",
+            "git_last_date": "171107.121838",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -458,8 +458,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5823f7f6addd4f5a09471a0008c9ab5529a46478",
-            "git_last_date": "171106.012938",
+            "git_last_commit": "e1f063e2f9f2fce3036d46e9b4b3972b53b82fc2",
+            "git_last_date": "171106.214452",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
