@@ -64,7 +64,7 @@
         },
         "25": {
             "bzr_branch": "",
-            "bzr_last_rev": "1985",
+            "bzr_last_rev": "1986",
             "bzr_rev": "",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
@@ -315,8 +315,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "053c345caaea1cf5d3294f83a65f564984cde7d4",
-            "git_last_date": "171107.121838",
+            "git_last_commit": "40e296c85a58e1b5088385c8239f1d51230fe87b",
+            "git_last_date": "171108.044803",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -447,8 +447,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9d0fa5f736b2152288e0772bcc5584d1f5ac7b62",
-            "git_last_date": "171104.071514",
+            "git_last_commit": "d55c2d3050b7c9716a983544cad98813bd362781",
+            "git_last_date": "171107.234007",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
@@ -568,8 +568,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "eb643fc2a0e140bb1247921cb32cd8afbe858e0c",
-            "git_last_date": "171027.230032",
+            "git_last_commit": "c50d23f77e4e5d58ea5832fd6647ea5af2fb6a3b",
+            "git_last_date": "171108.084632",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.3",
