@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fd298ea6a93d731f6b8081498ac98b72d2f8645b",
-            "git_last_date": "171103.123516",
+            "git_last_commit": "73389baf2afa7413af3627da7430b1d7e4ca73fc",
+            "git_last_date": "171109.004405",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
@@ -458,8 +458,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ac4fe399695193f2d219b22cece8e668dcecf40e",
-            "git_last_date": "171107.171552",
+            "git_last_commit": "ed5e8b7148609cd69ab3aae7383edb3cb774afb5",
+            "git_last_date": "171109.005629",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
@@ -491,8 +491,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "60ee870914808a051036cf7b41ec9cd20ff14032",
-            "git_last_date": "171007.154035",
+            "git_last_commit": "5cee3d23517b143982f54ceaac4de0fcf4497dfe",
+            "git_last_date": "171109.152045",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
