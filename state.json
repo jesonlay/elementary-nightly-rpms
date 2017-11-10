@@ -652,6 +652,17 @@
             "package_version": "0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
+        },
+        "108": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "bd61136263cbcd110c9e80302a4eb31f4a34fba6",
+            "git_last_date": "171105.234017",
+            "name": "gsignond-plugin-sasl",
+            "package_name": "gsignond-plugin-sasl",
+            "package_version": "0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0+git%{date}.%{commit}"
         }
     }
 }
