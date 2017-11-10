@@ -663,6 +663,17 @@
             "package_version": "0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
+        },
+        "109": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "974d3f19c9b89ba77822cc8ea4b4bbebb93d29fd",
+            "git_last_date": "170921.170550",
+            "name": "switchboard-plug-about",
+            "package_name": "switchboard-plug-about",
+            "package_version": "0.2.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         }
     }
 }
