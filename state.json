@@ -74,7 +74,7 @@
         },
         "31": {
             "bzr_branch": "",
-            "bzr_last_rev": "79",
+            "bzr_last_rev": "81",
             "bzr_rev": "",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "73389baf2afa7413af3627da7430b1d7e4ca73fc",
-            "git_last_date": "171109.004405",
+            "git_last_commit": "fc81493c029fa5f16ae421155b2282e274dfc69f",
+            "git_last_date": "171110.182604",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
