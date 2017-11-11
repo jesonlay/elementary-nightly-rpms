@@ -117,12 +117,12 @@
         "59": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "188368b78a002b217c6d23d572102dc38dbcd68f",
-            "git_last_date": "171018.093648",
+            "git_last_commit": "20b9f801c74e8d4eb8a9edfb90b2349207445187",
+            "git_last_date": "171111.195157",
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.0.6",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0.6+git%{date}.%{commit}"
         },
         "60": {
