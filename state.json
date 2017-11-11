@@ -645,8 +645,8 @@
         "107": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "787e8bc55bbc7c42adb195f593cdd302f35264ac",
-            "git_last_date": "171105.234149",
+            "git_last_commit": "b36060b7b384c8f86d3fba153d7b2b645287df3b",
+            "git_last_date": "171111.202603",
             "name": "gsignond-plugin-oauth",
             "package_name": "gsignond-plugin-oauth",
             "package_version": "0",
