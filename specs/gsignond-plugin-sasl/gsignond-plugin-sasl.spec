@@ -63,6 +63,9 @@ This package contains the documentation.
 
 
 %changelog
+* Sun Nov 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0+git171111.210640.671022f3-1
+- Update to latest snapshot.
+
 * Fri Nov 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0+git171105.234017.bd611362-1
 - Initial package.
 

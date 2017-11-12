@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "da50ea3cff0124f4cb433c3052e571f90e31a68a",
-            "git_last_date": "171111.162716",
+            "git_last_commit": "ae60cafe43c46077eb32d4f96ec33b7aa3c85850",
+            "git_last_date": "171112.000500",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
@@ -315,8 +315,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "22a5e55140ab48d1aec07d5c3d3800cbd242701e",
-            "git_last_date": "171109.205832",
+            "git_last_commit": "7e593a422e7c0549acaa915dc5c2aea246f6a366",
+            "git_last_date": "171112.005829",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -436,8 +436,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f6c95c9b3af93519365486bb62304f0955116025",
-            "git_last_date": "171022.211713",
+            "git_last_commit": "5d1e669705044e2f119409dfacdae4255c35dcf7",
+            "git_last_date": "171111.220215",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.2",
@@ -656,8 +656,8 @@
         "108": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bd61136263cbcd110c9e80302a4eb31f4a34fba6",
-            "git_last_date": "171105.234017",
+            "git_last_commit": "671022f3d941509d64249d8f887f4cb60f2a5aab",
+            "git_last_date": "171111.210640",
             "name": "gsignond-plugin-sasl",
             "package_name": "gsignond-plugin-sasl",
             "package_version": "0",
