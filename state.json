@@ -54,7 +54,7 @@
         },
         "18": {
             "bzr_branch": "",
-            "bzr_last_rev": "2712",
+            "bzr_last_rev": "2715",
             "bzr_rev": "",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
@@ -359,8 +359,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a78ed1938a19b5af6bfb61314b139090dee9f21b",
-            "git_last_date": "171103.130821",
+            "git_last_commit": "ee1e53eb0ae689544c9ddd559e7a1428556ef808",
+            "git_last_date": "171113.162945",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "0.1.2",
