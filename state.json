@@ -34,8 +34,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3d44a58993953115ce65c999ad527f25ca607b4",
-            "git_last_date": "171029.214602",
+            "git_last_commit": "2b2e0523db9166499948a3a46251bc23b4385102",
+            "git_last_date": "171114.224021",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
@@ -128,8 +128,8 @@
         "60": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "03d9c64c0cd1b9a5c399e531f6d83d2f2998094c",
-            "git_last_date": "161228.201347",
+            "git_last_commit": "5e9c8f71bd523cfb397191230b977b373f903991",
+            "git_last_date": "171115.093207",
             "name": "libgsignon-glib",
             "package_name": "libgsignon-glib",
             "package_version": "2.4.1",
@@ -315,8 +315,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "017a7a0258488299f208e9fbb3f8531ef13cf681",
-            "git_last_date": "171114.073733",
+            "git_last_commit": "e957877ec9f36bdb4e6ce30149aa2b15f00d73af",
+            "git_last_date": "171114.213935",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
