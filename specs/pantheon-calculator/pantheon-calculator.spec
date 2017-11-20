@@ -3,7 +3,7 @@
 Name:           pantheon-calculator
 Summary:        A tiny, simple calculator written in GTK+ and Vala
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/calculator
@@ -42,8 +42,6 @@ find %{buildroot} -name "extra.mo" -print -delete
 
 
 %check
-%meson_test
-
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
@@ -63,6 +61,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Nov 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git171116.231410.81be3d74-2
+- Turn off redundant meson test runs.
+
 * Fri Nov 17 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git171116.231410.81be3d74-1
 - Update to latest snapshot.
 
