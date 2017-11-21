@@ -249,8 +249,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6d7aa76e366bf9c7544a438be3ccd61aae64ef7",
-            "git_last_date": "171119.000915",
+            "git_last_commit": "b72f2bfb4216a9a90e554838cde84c4af48edbd7",
+            "git_last_date": "171121.054638",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -260,8 +260,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "401e79ff39fa782d52d0714269df08ae512d1221",
-            "git_last_date": "171118.234137",
+            "git_last_commit": "0bbacfbaeeff07ca54b63a356ec3e09c01dc2387",
+            "git_last_date": "171121.061615",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
