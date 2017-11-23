@@ -1,6 +1,6 @@
-Summary:        Scratch - the text editor that works.
 Name:           scratch-text-editor
-Version:        2.4.1+rev%{rev}
+Summary:        Scratch - the text editor that works.
+Version:        2.4.1.99+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -84,8 +84,6 @@ Additional features include:
 Scratch needs to be translated. Go to Translations to help us providing
 this software in your language!
 
-Designed for elementary OS. Works and looks great on any GTK+ desktop.
-
 
 %package        devel
 Summary:        Scratch - the text editor that works.
@@ -115,15 +113,13 @@ popd
 
 %find_lang io.elementary.code
 
-mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
-
 
 %check
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/*.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/*.appdata.xml
 
 
 %post
@@ -151,10 +147,10 @@ fi
 %{_libdir}/libscratchcore.so.0
 %{_libdir}/libscratchcore.so.0.0
 
-%{_datadir}/appdata/io.elementary.code.appdata.xml
 %{_datadir}/applications/org.pantheon.scratch.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.scratch.*
 %{_datadir}/icons/hicolor/*/apps/io.elementary.code.svg
+%{_datadir}/metainfo/io.elementary.code.appdata.xml
 
 
 %files          devel
@@ -168,6 +164,9 @@ fi
 
 
 %changelog
+* Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1.99+git171118.234027.e9ec4238-1
+- Switch to git snapshots.
+
 * Wed Nov 08 2017 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+rev1986-1
 - Update to latest snapshot.
 
