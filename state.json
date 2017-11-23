@@ -22,16 +22,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.1.1+git%{date}.%{commit}"
         },
-        "43": {
-            "bzr_branch": "",
-            "bzr_last_rev": "421",
-            "bzr_rev": "",
-            "name": "switchboard-plug-security-privacy",
-            "package_name": "switchboard-plug-security-privacy",
-            "package_version": "0.1.2",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.2+rev%{rev}"
-        },
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -680,6 +670,17 @@
             "package_version": "0.1.0.99",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.0.99+git%{date}.%{commit}"
+        },
+        "116": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "ec7d8c7eea3cf653fdacc83d6651be7c76144bd1",
+            "git_last_date": "171119.000900",
+            "name": "switchboard-plug-security-privacy",
+            "package_name": "switchboard-plug-security-privacy",
+            "package_version": "0.1.2.99",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.2.99+git%{date}.%{commit}"
         }
     }
 }

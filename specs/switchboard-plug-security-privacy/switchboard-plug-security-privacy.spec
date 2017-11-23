@@ -1,12 +1,10 @@
-%global debug_package %{nil}
-
-Summary:        Switchboard Privacy and Security Plug
 Name:           switchboard-plug-security-privacy
-Version:        0.1.2+rev%{rev}
+Summary:        Switchboard Privacy and Security Plug
+Version:        0.1.2.99+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv2.1, LGPLv3
-URL:            https://launchpad.net/switchboard-plug-security-privacy
 
+URL:            https://github.com/elementary/switchboard-plug-security-privacy
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -23,7 +21,7 @@ BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 Requires:       light-locker
 
@@ -33,20 +31,23 @@ The security & privacy plug is a section in Switchboard, the elementary
 System Settings app, where users can configure the security and the
 level of privacy according to his needs.
 
-Designed for elementary OS.
-
 
 %prep
 %autosetup
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-security-privacy-plug
 
 
@@ -61,6 +62,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git171119.000900.ec7d8c7e-1
+- Switch to git snapshots.
+
 * Mon Nov 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+rev421-1
 - Update to latest snapshot.
 
