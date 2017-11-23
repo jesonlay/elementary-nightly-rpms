@@ -1,10 +1,10 @@
-Summary:        Pantheon file manager
 Name:           pantheon-files
-Version:        0.3.5+rev%{rev}
+Summary:        Pantheon file manager
+Version:        0.3.5.99+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
-URL:            https://launchpad.net/pantheon-files
+URL:            https://github.com/elementary/files
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -47,6 +47,7 @@ This package contains the libraries.
 
 %package        devel
 Summary:        pantheon-files development headers
+Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 %description    devel
 The simple, powerful, and sexy file manager from elementary.
 This package contains the development headers.
@@ -130,6 +131,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.5.99+git171123.191238.4bfbd4b8-1
+- Switch to git snapshots.
+
 * Fri Nov 17 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+rev2719-1
 - Update to latest snapshot.
 
