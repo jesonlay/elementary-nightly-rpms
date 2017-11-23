@@ -1,10 +1,10 @@
-Summary:        Desktop-wide extension service
 Name:           contractor
-Version:        0.3.2+rev%{rev}
+Summary:        Desktop-wide extension service
+Version:        0.3.2.99+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
-URL:            https://launchpad.net/contractor
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -23,8 +23,6 @@ Requires:       dbus
 An extension service that allows apps to use the exposed functionality
 of registered apps. This way, apps don't have to have the functions hard
 coded into them.
-
-Designed for elementary OS.
 
 
 %prep
@@ -52,6 +50,9 @@ popd
 
 
 %changelog
+* Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git171118.235115.61083363-1
+- Switch to git snapshots.
+
 * Mon Nov 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+rev149-1
 - Update to latest snapshot.
 

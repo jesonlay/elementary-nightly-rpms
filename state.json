@@ -1,15 +1,5 @@
 {
     "_default": {
-        "5": {
-            "bzr_branch": "",
-            "bzr_last_rev": "149",
-            "bzr_rev": "",
-            "name": "contractor",
-            "package_name": "contractor",
-            "package_version": "0.3.2",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.3.2+rev%{rev}"
-        },
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -675,6 +665,17 @@
             "package_version": "0.2.2.99",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.2.99+git%{date}.%{commit}"
+        },
+        "111": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "61083363f8401e743a3d3be5bef107d3e2f8f972",
+            "git_last_date": "171118.235115",
+            "name": "contractor",
+            "package_name": "contractor",
+            "package_version": "0.3.2.99",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.3.2.99+git%{date}.%{commit}"
         }
     }
 }
