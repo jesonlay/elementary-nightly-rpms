@@ -1,16 +1,10 @@
-%global debug_package %{nil}
-
-Summary:        Bluetooth plug for Switchboard
 Name:           switchboard-plug-bluetooth
-Version:        0.1.0+rev%{rev}
+Summary:        Bluetooth plug for Switchboard
+Version:        0.1.0.99+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
-URL:            https://launchpad.net/switchboard-plug-bluetooth
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -25,13 +19,11 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  switchboard-devel >= 2.2.0+rev717
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
 A Switchboard plug for configuring Bluetooth.
-
-Built for elementary OS.
 
 
 %prep
@@ -39,12 +31,17 @@ Built for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-bluetooth-plug
 
 
@@ -53,6 +50,9 @@ Built for elementary OS.
 
 
 %changelog
+* Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git171111.174242.a1000f53-1
+- Switch to git snapshots.
+
 * Sat Nov 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+rev82-1
 - Update to latest snapshot.
 

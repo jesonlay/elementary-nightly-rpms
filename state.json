@@ -22,16 +22,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.1.1+git%{date}.%{commit}"
         },
-        "31": {
-            "bzr_branch": "",
-            "bzr_last_rev": "82",
-            "bzr_rev": "",
-            "name": "switchboard-plug-bluetooth",
-            "package_name": "switchboard-plug-bluetooth",
-            "package_version": "0.1.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.0+rev%{rev}"
-        },
         "43": {
             "bzr_branch": "",
             "bzr_last_rev": "421",
@@ -679,6 +669,17 @@
             "package_version": "2.4.1.99",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1.99+git%{date}.%{commit}"
+        },
+        "115": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "a1000f53c06143c4c736793756fc396c16242809",
+            "git_last_date": "171111.174242",
+            "name": "switchboard-plug-bluetooth",
+            "package_name": "switchboard-plug-bluetooth",
+            "package_version": "0.1.0.99",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.0.99+git%{date}.%{commit}"
         }
     }
 }
