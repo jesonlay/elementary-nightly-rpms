@@ -1,17 +1,12 @@
 Name:           cerbere
 Summary:        Pantheon session watchdog
-Version:        0.2.2+rev%{rev}
+Version:        0.2.2.99+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2
-URL:            https://launchpad.net/cerbere
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-
-Source2:        %{name}.conf
+Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -32,8 +27,6 @@ Cerbere is a sort of watchdog designed for Pantheon. It monitors a
 predefined list of processes (configurable through dconf) and relaunches
 them if they end. This is helpful to keep the panel, dock, and wallpaper
 running, even if they crash or are killed by another process.
-
-Designed for elementary OS.
 
 
 %prep
@@ -65,6 +58,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/cerbere.desktop
 
 
 %changelog
+* Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.99+git171118.235023.6ef09f29-1
+- Switch to git snapshots.
+
 * Mon Nov 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+rev62-1
 - Update to latest snapshot.
 
