@@ -1,23 +1,12 @@
 Name:           maya-calendar
 Summary:        The official elementary calendar
-Version:        0.4.0.2+rev%{rev}
+Version:        0.4.0.2.99+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
-URL:            https://launchpad.net/maya
 
+URL:            https://github.com/elementary/calendar
 Source0:        %{name}-%{version}.tar.gz
-
-# Include the appropriate icon from elementary-icon-theme so appdata metadata generation works.
-# A Bug about the missing icon is reported upstream:
-# https://bugs.launchpad.net/maya/+bug/1658325
-
-Source1:        org.pantheon.maya.svg
-
-Source2:        %{name}.conf
-
-# Patch the .desktop file to not use the generic icon name but the bundled icon
-Patch0:         00-rename-icon.patch
-
+Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -50,8 +39,6 @@ Requires:       hicolor-icon-theme
 A slim, lightweight GTK+3 calendar app written in Vala, designed for
 elementary OS. Also looks and works great on other GTK+ desktops.
 
-In elementary OS, Maya is known as Calendar.
-
 
 %package        devel
 Summary:        The official elementary calendar (devel files)
@@ -60,13 +47,11 @@ Requires:       %{name}%{?_isa} = %{version}-%{release}
 A slim, lightweight GTK+3 calendar app written in Vala, designed for
 elementary OS. Also looks and works great on other GTK+ desktops.
 
-In elementary OS, Maya is known as Calendar.
-
 This package contains the development files.
 
 
 %prep
-%autosetup -p1
+%autosetup
 
 
 %build
@@ -83,15 +68,15 @@ popd
 
 %find_lang maya-calendar
 
-mkdir -p %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps
-cp -p %{SOURCE1} %{buildroot}/%{_datadir}/icons/hicolor/scalable/apps/
-
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.maya.desktop
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.maya-daemon.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/org.pantheon.maya.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/org.pantheon.maya-daemon.desktop
 
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.maya.appdata.xml
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/org.pantheon.maya.appdata.xml
 
 
 %post
@@ -126,7 +111,6 @@ fi
 %{_datadir}/applications/org.pantheon.maya-daemon.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.maya.gschema.xml
 %{_datadir}/icons/hicolor/scalable/actions/calendar-go-today.svg
-%{_datadir}/icons/hicolor/scalable/apps/org.pantheon.maya.svg
 %{_datadir}/maya-calendar/
 
 
@@ -141,6 +125,9 @@ fi
 
 
 %changelog
+* Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2.99+git171123.163121.328a8d5b-1
+- Switch to git snapshots.
+
 * Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2+rev1104-1
 - Update to latest snapshot.
 
