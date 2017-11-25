@@ -234,8 +234,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ff25aa5782b6315a3737e4d8fdecedc9391d4652",
-            "git_last_date": "171118.235607",
+            "git_last_commit": "43dfcd8d0021791ae499ed7a18503d480dafa539",
+            "git_last_date": "171124.215306",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -630,8 +630,8 @@
         "112": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "328a8d5bd05f653561fb6167a9326215685973a2",
-            "git_last_date": "171123.163121",
+            "git_last_commit": "ad344d337be6913d07d12238be9aa87a4702f09b",
+            "git_last_date": "171125.055640",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.0.2.99",
