@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0d4718f3ae49ea3a3a9777caa0e1bad0a1b5c2d5",
-            "git_last_date": "171125.101646",
+            "git_last_commit": "1ccad7a82fe6f0c8f9eb2972c3ac6758f2fb4e2b",
+            "git_last_date": "171127.143214",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "48e7214966c39e0875b6528f8d1f090f15582567",
-            "git_last_date": "171118.235000",
+            "git_last_commit": "81f428623119f7b5e566b815559765c2d9af22dc",
+            "git_last_date": "171127.120849",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.1",
@@ -234,8 +234,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "43dfcd8d0021791ae499ed7a18503d480dafa539",
-            "git_last_date": "171124.215306",
+            "git_last_commit": "cb86d4c24e8a8e7abfa1ecacf462efba11862746",
+            "git_last_date": "171127.143358",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
