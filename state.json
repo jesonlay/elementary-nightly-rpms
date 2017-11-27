@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "96debe10e2b22b6efda1297c7186172fb8ff02f8",
-            "git_last_date": "171127.185850",
+            "git_last_commit": "7a6767a14f14d7480d38ef4f97dc07ffff4681e3",
+            "git_last_date": "171127.191647",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.1",
@@ -630,8 +630,8 @@
         "112": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f39f19d9b735757932e6d989ec13d72aaa80d6b3",
-            "git_last_date": "171125.161302",
+            "git_last_commit": "098580ef9df3c73193d791384d4c0d98ee9f6bf0",
+            "git_last_date": "171127.193445",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.0.2.99",
