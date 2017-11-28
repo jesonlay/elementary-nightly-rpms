@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a6767a14f14d7480d38ef4f97dc07ffff4681e3",
-            "git_last_date": "171127.191647",
+            "git_last_commit": "0820ac8681b25e2985706e89ec0939034d368cc3",
+            "git_last_date": "171128.184603",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -333,8 +333,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "33a0c45a11531693ac71c931ea6821b68fae97e7",
-            "git_last_date": "170907.224657",
+            "git_last_commit": "95e3458454b1ce748057ed0683ea46e09d8dec29",
+            "git_last_date": "171128.182354",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.3",
