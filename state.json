@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1ccad7a82fe6f0c8f9eb2972c3ac6758f2fb4e2b",
-            "git_last_date": "171127.143214",
+            "git_last_commit": "6d5d8ee50b99fa9cca3bcbc2ae6130159d723b63",
+            "git_last_date": "171201.174945",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e03c5dafd9dacbbafe466b4fe6ab62d07bab766",
-            "git_last_date": "171128.192657",
+            "git_last_commit": "7c653f0a49af8c5d391926ec4c7ed840baedb5af",
+            "git_last_date": "171201.174324",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
