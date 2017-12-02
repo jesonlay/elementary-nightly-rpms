@@ -1,6 +1,6 @@
 Name:           maya-calendar
 Summary:        The official elementary calendar
-Version:        0.4.0.2.99+git%{date}.%{commit}
+Version:        0.4.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -30,6 +30,7 @@ BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
 BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
 BuildRequires:  pkgconfig(libical)
+BuildRequires:  pkgconfig(libnotify)
 
 # maya-calendar also provides a generic symbolic icon (actions/calendar-go-today)
 Requires:       hicolor-icon-theme
@@ -125,6 +126,9 @@ fi
 
 
 %changelog
+* Sat Dec 02 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171201.205443.c4b5f42d-1
+- Update to version 0.4.1.
+
 * Fri Dec 01 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.0.2.99+git171201.205443.c4b5f42d-1
 - Update to latest snapshot.
 
