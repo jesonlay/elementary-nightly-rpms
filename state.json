@@ -641,8 +641,8 @@
         "113": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3798bb77ed44ef1f993652404722bec47f8ce8a7",
-            "git_last_date": "171128.161126",
+            "git_last_commit": "d791bddb74286f86afb535cd191a181abdf224c4",
+            "git_last_date": "171202.103832",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
             "package_version": "0.3.5.99",
