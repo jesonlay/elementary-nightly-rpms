@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2ae55bf96bb438b65c37c0c5a6025651a840e4b9",
-            "git_last_date": "171203.114531",
+            "git_last_commit": "7b3a6751965180863629c5dcb784875b518ea23f",
+            "git_last_date": "171203.174344",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
