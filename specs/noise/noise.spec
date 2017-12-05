@@ -10,9 +10,6 @@ URL:            https://launchpad.net/noise
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
-# Patch to not provide a generic icon name but the branded icon
-Patch0:         00-rename-icon.patch
-
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
@@ -59,7 +56,7 @@ This package contains files needed for developing with noise.
 
 
 %prep
-%autosetup -p1
+%autosetup
 
 
 %build
@@ -76,25 +73,21 @@ popd
 
 %find_lang noise
 
-# move appdata to "approved location"
-mkdir -p %{buildroot}/%{_datadir}/appdata
-mv %{buildroot}/%{_datadir}/metainfo/org.pantheon.noise.appdata.xml %{buildroot}/%{_datadir}/appdata/
-rm -rf %{buildroot}/%{_datadir}/metainfo
-
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/org.pantheon.noise.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/org.pantheon.noise.appdata.xml
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/org.pantheon.noise.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/org.pantheon.noise.appdata.xml
 
 
 %post
 /sbin/ldconfig
-
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
 /sbin/ldconfig
-
 if [ $1 -eq 0 ] ; then
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
@@ -115,11 +108,10 @@ fi
 
 %{_libdir}/noise/
 
-%{_datadir}/appdata/org.pantheon.noise.appdata.xml
 %{_datadir}/applications/org.pantheon.noise.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.noise.gschema.xml
-%{_datadir}/icons/hicolor/*/apps/org.pantheon.noise.svg
-%{_datadir}/noise/
+%{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
+%{_datadir}/metainfo/org.pantheon.noise.appdata.xml
 
 
 %files          devel
@@ -133,6 +125,9 @@ fi
 
 
 %changelog
+* Tue Dec 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git171205.112406.acd42db1-1
+- Update to latest snapshot.
+
 * Tue Dec 05 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git171205.090709.d3c60268-1
 - Update to latest snapshot.
 
