@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e03a64553488821e75d7ab9822d7994c48b8cb91",
-            "git_last_date": "171204.183139",
+            "git_last_commit": "d3c602680453d36ef03893488e84f3ae21d7a53e",
+            "git_last_date": "171205.090709",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -652,8 +652,8 @@
         "114": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e9ec4238763ff12858b0f62240d665e6e1dad703",
-            "git_last_date": "171118.234027",
+            "git_last_commit": "2113cbeabfb8ebbfa1472b09b5b295d642221240",
+            "git_last_date": "171204.193653",
             "name": "scratch-text-editor",
             "package_name": "scratch-text-editor",
             "package_version": "2.4.1.99",
