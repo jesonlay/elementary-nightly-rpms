@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e33a23ee94cbe425e363d328ea0628f1f883f8b9",
-            "git_last_date": "171205.192223",
+            "git_last_commit": "741703c7648bcf7c04f937c149c122143ca20101",
+            "git_last_date": "171206.061912",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -190,8 +190,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0bbacfbaeeff07ca54b63a356ec3e09c01dc2387",
-            "git_last_date": "171121.061615",
+            "git_last_commit": "cfc52bd8676597d5cebacb6f162157529cc08e9e",
+            "git_last_date": "171206.054123",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
@@ -388,8 +388,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5411b705894ac4df492861c0f818079e006cd562",
-            "git_last_date": "171205.170741",
+            "git_last_commit": "97f2a985f8622e8ab0c04b4f6c6c40bfa3f4e58a",
+            "git_last_date": "171205.235618",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
