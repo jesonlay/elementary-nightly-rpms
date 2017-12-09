@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "741703c7648bcf7c04f937c149c122143ca20101",
-            "git_last_date": "171206.061912",
+            "git_last_commit": "597fad54b94aa95aadf79b376fc56123f2693cbb",
+            "git_last_date": "171209.083612",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -311,8 +311,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "70882791bf54933f5cf5280e6977788a21536cf9",
-            "git_last_date": "170725.000959",
+            "git_last_commit": "700f01e22149fe345a632367141305499b84e4ce",
+            "git_last_date": "171207.222917",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.4",
@@ -322,8 +322,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6120bb4edfd0f2e0dc6a023e796a7ee9e0695756",
-            "git_last_date": "171112.174057",
+            "git_last_commit": "c9ec63d5ef401ba097bb4f56ac619d03ab0c3c58",
+            "git_last_date": "171209.001619",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
