@@ -157,8 +157,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4c968719cd1ec4a37740d65534aba84179a4aaa7",
-            "git_last_date": "171118.231526",
+            "git_last_commit": "178cdcf49cb409addfc6b06b325e1cd1905ef785",
+            "git_last_date": "171211.224020",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
