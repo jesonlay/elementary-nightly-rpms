@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "18d919e6485a87c24a3094fd3b6d8d5d6ecf96cd",
-            "git_last_date": "171211.183836",
+            "git_last_commit": "d476647788d83166ca62f955acacc63ea579b9b7",
+            "git_last_date": "171212.203746",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
@@ -564,8 +564,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d9c1df3d43b26620dda83774a65b8866bf5a6af4",
-            "git_last_date": "171212.024458",
+            "git_last_commit": "647f1fc321329a6000db3a2f66dffc154925aec9",
+            "git_last_date": "171212.210526",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.0.20",
