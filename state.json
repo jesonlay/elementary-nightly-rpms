@@ -157,8 +157,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "178cdcf49cb409addfc6b06b325e1cd1905ef785",
-            "git_last_date": "171211.224020",
+            "git_last_commit": "c3c00ba166dff04ca4b8d9d40340a4b6599477b6",
+            "git_last_date": "171212.023220",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -388,8 +388,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "765a68d99adae19fb23bd89763241194f651d250",
-            "git_last_date": "171210.200206",
+            "git_last_commit": "6887d8e41f8c16b9a5e2d8db14cf0f32a9c1b70d",
+            "git_last_date": "171212.005334",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
@@ -564,8 +564,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dc83ad7e8bfec3e8c8770b4b85f9b726d6b61e86",
-            "git_last_date": "171211.142348",
+            "git_last_commit": "d9c1df3d43b26620dda83774a65b8866bf5a6af4",
+            "git_last_date": "171212.024458",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.0.20",
