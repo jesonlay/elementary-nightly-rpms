@@ -1,7 +1,7 @@
 Name:           wingpanel-indicator-network
 Summary:        Network indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            http://github.com/elementary/%{name}
@@ -55,6 +55,9 @@ popd
 
 
 %changelog
+* Mon Dec 18 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git171218.222946.b44f9956-1
+- Update to latest snapshot.
+
 * Mon Dec 18 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git171218.000956.635e25d5-2
 - Adapt to upstream dependency changes.
 
