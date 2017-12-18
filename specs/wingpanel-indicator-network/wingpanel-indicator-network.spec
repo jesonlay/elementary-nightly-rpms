@@ -1,7 +1,7 @@
 Name:           wingpanel-indicator-network
 Summary:        Network indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            http://github.com/elementary/%{name}
@@ -17,9 +17,8 @@ BuildRequires:  vala-tools
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
-BuildRequires:  pkgconfig(libnm-glib)
-BuildRequires:  pkgconfig(libnm-gtk)
-BuildRequires:  pkgconfig(libnm-util)
+BuildRequires:  pkgconfig(libnm)
+BuildRequires:  pkgconfig(libnma)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
 
@@ -56,6 +55,9 @@ popd
 
 
 %changelog
+* Mon Dec 18 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git171218.000956.635e25d5-2
+- Adapt to upstream dependency changes.
+
 * Mon Dec 18 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git171218.000956.635e25d5-1
 - Update to latest snapshot.
 
