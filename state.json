@@ -311,8 +311,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b0f6f077bb0530c614009a2a749a13fcf3446be6",
-            "git_last_date": "171215.001100",
+            "git_last_commit": "6cddf0397249cdb6f3ba31c906e9364e151956e8",
+            "git_last_date": "171218.142522",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.4",
@@ -432,8 +432,8 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1983fbe99a7f21894afa36bc6ed2805e24d2f943",
-            "git_last_date": "171118.234650",
+            "git_last_commit": "940975c1e192ebc63a15d95aad5b5cae523e7bd4",
+            "git_last_date": "171218.142123",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
