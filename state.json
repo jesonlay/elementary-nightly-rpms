@@ -322,8 +322,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c9ec63d5ef401ba097bb4f56ac619d03ab0c3c58",
-            "git_last_date": "171209.001619",
+            "git_last_commit": "99d68c1fa28d130f164c07dc26303468e7605b66",
+            "git_last_date": "171217.225711",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
@@ -333,8 +333,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "95e3458454b1ce748057ed0683ea46e09d8dec29",
-            "git_last_date": "171128.182354",
+            "git_last_commit": "a3f1274be92669d47a7870c7f7b6201dea517bff",
+            "git_last_date": "171217.230910",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.4",
@@ -388,8 +388,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "313c8b1375c0a1f2322303bd78b5393fe8e9cf4d",
-            "git_last_date": "171217.012405",
+            "git_last_commit": "148cd06b4a0711285e81f1b06129528f2c3d100a",
+            "git_last_date": "171218.020954",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
@@ -443,8 +443,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "afa6267994d5a7d34642faa3f6370ab96b7a8ba4",
-            "git_last_date": "171117.184237",
+            "git_last_commit": "635e25d5097ed937ba695cd1d2e56fcb2d3085c0",
+            "git_last_date": "171218.000956",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.1.1",
