@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "24ab6faa872fd029d04c91da3b3e06a21f177179",
-            "git_last_date": "171217.082017",
+            "git_last_commit": "2fafb5b279c3fb87ed0148f50b68d2ff906a6d1e",
+            "git_last_date": "171218.180031",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -641,8 +641,8 @@
         "113": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d791bddb74286f86afb535cd191a181abdf224c4",
-            "git_last_date": "171202.103832",
+            "git_last_commit": "f49081095f459d31794945f45adb85d1fa75c052",
+            "git_last_date": "171218.175332",
             "name": "pantheon-files",
             "package_name": "pantheon-files",
             "package_version": "0.3.5.99",
