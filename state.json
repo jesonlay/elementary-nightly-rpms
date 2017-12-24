@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2e991264e5fc8bdd5c4e3ea4bdd5078db732941e",
-            "git_last_date": "171219.182725",
+            "git_last_commit": "58f5e62f70a9ce7fee63d9165a60ba0f9e28e21a",
+            "git_last_date": "171224.105448",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -245,8 +245,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0f3984157fc6d8a9615043ee3d8833bc26820e94",
-            "git_last_date": "171118.062211",
+            "git_last_commit": "22508f22ecd7abb29c95bf521be4af476c6779d0",
+            "git_last_date": "171222.103844",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -388,8 +388,8 @@
         "90": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a2cf3e803a9041349a7cddcbc91308129ab3c5c",
-            "git_last_date": "171220.211427",
+            "git_last_commit": "81c231956147e1c489a3a752ff3bb65661f85628",
+            "git_last_date": "171221.202056",
             "name": "pantheon-photos",
             "package_name": "pantheon-photos",
             "package_version": "0.2.4",
@@ -454,8 +454,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c8ca88b0f70f46f745745941767b2292551a2e2d",
-            "git_last_date": "171220.181623",
+            "git_last_commit": "5a5867be186cf4cb4b97eabb3ded819f8db89def",
+            "git_last_date": "171222.220023",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
