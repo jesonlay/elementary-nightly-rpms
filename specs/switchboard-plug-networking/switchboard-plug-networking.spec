@@ -1,16 +1,10 @@
-%global debug_package %{nil}
-
-Summary:        Configure all available networks
 Name:           switchboard-plug-networking
+Summary:        Configure all available networks
 Version:        0.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            https://launchpad.net/switchboard-plug-networking
+URL:            https://github.com/elementary/%{name}
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
@@ -23,18 +17,17 @@ BuildRequires:  vala-tools
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
-BuildRequires:  pkgconfig(libnm-glib)
+BuildRequires:  pkgconfig(libnm)
+BuildRequires:  pkgconfig(libnma)
 BuildRequires:  pkgconfig(libnm-gtk)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
 Configure all available networks
-
-Designed for elementary OS.
 
 
 %prep
@@ -42,12 +35,17 @@ Designed for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-network-plug
 
 
@@ -59,6 +57,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Sun Dec 24 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git171222.220023.5a5867be-2
+- Adapt to upstream dependency changes.
+
 * Sun Dec 24 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git171222.220023.5a5867be-1
 - Update to latest snapshot.
 
