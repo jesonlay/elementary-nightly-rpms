@@ -234,8 +234,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cb86d4c24e8a8e7abfa1ecacf462efba11862746",
-            "git_last_date": "171127.143358",
+            "git_last_commit": "329f1b477d2b9ecfeea81d25e25e50c1543de413",
+            "git_last_date": "171226.172804",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -454,12 +454,12 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a5867be186cf4cb4b97eabb3ded819f8db89def",
-            "git_last_date": "171222.220023",
+            "git_last_commit": "53810d6abeb6bda949fa3d30e3f010ec8c9da36e",
+            "git_last_date": "171226.174250",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         },
         "97": {
@@ -630,12 +630,12 @@
         "112": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c02c0a7fc7dbee05dc4291efe8df137d2f8e3c7a",
-            "git_last_date": "171204.111126",
+            "git_last_commit": "db78058477616990e26b62d45c4c0d23c79b4d30",
+            "git_last_date": "171224.224526",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         },
         "113": {

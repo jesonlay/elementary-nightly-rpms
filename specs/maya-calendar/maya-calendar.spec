@@ -1,7 +1,7 @@
 Name:           maya-calendar
 Summary:        The official elementary calendar
 Version:        0.4.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/calendar
@@ -126,6 +126,9 @@ fi
 
 
 %changelog
+* Tue Dec 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171224.224526.db780584-1
+- Update to latest snapshot.
+
 * Mon Dec 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171204.111126.c02c0a7f-2
 - Remove AUTHORS file from %doc as it's no longer there.
 

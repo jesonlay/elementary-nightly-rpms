@@ -1,7 +1,7 @@
 Name:           switchboard-plug-networking
 Summary:        Configure all available networks
 Version:        0.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 URL:            https://github.com/elementary/%{name}
 
@@ -57,6 +57,9 @@ popd
 
 
 %changelog
+* Tue Dec 26 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git171226.174250.53810d6a-1
+- Update to latest snapshot.
+
 * Sun Dec 24 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git171222.220023.5a5867be-2
 - Adapt to upstream dependency changes.
 
