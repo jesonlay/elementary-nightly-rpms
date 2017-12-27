@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "58f5e62f70a9ce7fee63d9165a60ba0f9e28e21a",
-            "git_last_date": "171224.105448",
+            "git_last_commit": "f22938f6419bc78e535c19ceb278c68b840f6cda",
+            "git_last_date": "171227.013056",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -234,8 +234,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "329f1b477d2b9ecfeea81d25e25e50c1543de413",
-            "git_last_date": "171226.172804",
+            "git_last_commit": "a615d8512dc01e2efbec118d2d2bf9a41c062896",
+            "git_last_date": "171227.000235",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
