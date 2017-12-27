@@ -245,8 +245,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "22508f22ecd7abb29c95bf521be4af476c6779d0",
-            "git_last_date": "171222.103844",
+            "git_last_commit": "723c8f03401421ae07eac02cad799c26220497d1",
+            "git_last_date": "171227.185100",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -630,8 +630,8 @@
         "112": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "db78058477616990e26b62d45c4c0d23c79b4d30",
-            "git_last_date": "171224.224526",
+            "git_last_commit": "b95872e5908137fa288dd6f3af3830603bbe5f80",
+            "git_last_date": "171227.183038",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.1",
