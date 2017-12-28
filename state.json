@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d476647788d83166ca62f955acacc63ea579b9b7",
-            "git_last_date": "171212.203746",
+            "git_last_commit": "137afe697d38473fb818c6027a448ebf80779455",
+            "git_last_date": "171228.183102",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f22938f6419bc78e535c19ceb278c68b840f6cda",
-            "git_last_date": "171227.013056",
+            "git_last_commit": "44b4c4d474ccb3d2a56f3958f1f2ae41a57187ab",
+            "git_last_date": "171228.184402",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
