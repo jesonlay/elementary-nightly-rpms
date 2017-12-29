@@ -40,6 +40,9 @@ Used across various projects.
 
 
 %changelog
+* Fri Dec 29 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+git171229.154934.319ec533-1
+- Update to latest snapshot.
+
 * Sat Sep 16 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.0+git170726.221107.f8d0d309-1
 - Update to version 0.1.0.
 

@@ -234,8 +234,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a615d8512dc01e2efbec118d2d2bf9a41c062896",
-            "git_last_date": "171227.000235",
+            "git_last_commit": "d5eaba73a69823b6afe942ba6d048a35d4c56ba3",
+            "git_last_date": "171229.160046",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -531,8 +531,8 @@
         "103": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f8d0d3098e502fa5ece075aae351000e20cf149a",
-            "git_last_date": "170726.221107",
+            "git_last_commit": "319ec5336e9f05f3f22b886cc2053ef3d4b6599e",
+            "git_last_date": "171229.154934",
             "name": "cmake-elementary",
             "package_name": "cmake-elementary",
             "package_version": "0.1.0",
