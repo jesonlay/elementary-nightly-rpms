@@ -36,8 +36,8 @@
         "58": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3d21e26ac14b49e4b899b7326742c97ecf7548e9",
-            "git_last_date": "171228.191142",
+            "git_last_commit": "c2983fa6f87ef0cf175ac16f599b8b1f7dde954d",
+            "git_last_date": "171229.084210",
             "name": "screenshot-tool",
             "package_name": "screenshot-tool",
             "package_version": "0.1.4",
@@ -80,8 +80,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b7ddc2620fec5704ea6bbab6f157895bcdc2772f",
-            "git_last_date": "171219.084105",
+            "git_last_commit": "9e1e32926241d2400b9054de381cdb78838bc2b4",
+            "git_last_date": "171228.234201",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
@@ -113,8 +113,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "44b4c4d474ccb3d2a56f3958f1f2ae41a57187ab",
-            "git_last_date": "171228.184402",
+            "git_last_commit": "e00632606a29c58b0bcbf1cae8de1df8a1999aa8",
+            "git_last_date": "171229.081330",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -443,8 +443,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ab3ae06eb061df59411e66398ba090eb64f9ca3b",
-            "git_last_date": "171228.151037",
+            "git_last_commit": "d2b05bfbe18aaa0d4ff2e48bd851c6af0727f672",
+            "git_last_date": "171229.012743",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.1.1",
