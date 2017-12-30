@@ -1,7 +1,9 @@
+%global __provides_exclude_from ^%{_libdir}/io.elementary.photos/.*\\.so$
+
 Summary:        The elementary continuation of Shotwell
 Name:           pantheon-photos
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2.1
 
 URL:            http://github.com/elementary/photos
@@ -62,7 +64,7 @@ pushd build
 %make_install
 popd
 
-%find_lang pantheon-photos
+%find_lang io.elementary.photos
 
 
 %check
@@ -73,24 +75,28 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/appdata/*.appdata.xml || :
 
 
-%files -f pantheon-photos.lang
+%files -f io.elementary.photos.lang
 %doc AUTHORS README.md THANKS
 %license COPYING
 
-%{_bindir}/pantheon-photos
+%{_bindir}/io.elementary.photos
 
-%{_libdir}/pantheon-photos/
+%{_libdir}/io.elementary.photos/
 
-%{_libexecdir}/pantheon-photos/
+%{_libexecdir}/io.elementary.photos/
 
 %{_datadir}/applications/org.pantheon.photos.desktop
 %{_datadir}/applications/org.pantheon.photos-viewer.desktop
-%{_datadir}/glib-2.0/schemas/*.xml
-%{_datadir}/metainfo/org.pantheon.photos.appdata.xml
-%{_datadir}/pantheon-photos/
+%{_datadir}/glib-2.0/schemas/org.pantheon.photos.gschema.xml
+%{_datadir}/glib-2.0/schemas/org.pantheon.photos-extras.gschema.xml
+%{_datadir}/metainfo/io.elementary.photos.appdata.xml
+%{_datadir}/io.elementary.photos/
 
 
 %changelog
+* Sat Dec 30 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171229.222002.65512d02-2
+- Adapt to upstream file changes.
+
 * Sat Dec 30 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171229.222002.65512d02-1
 - Update to latest snapshot.
 
