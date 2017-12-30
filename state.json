@@ -179,8 +179,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6aa9cc5e266fdee1c5f7fa3ac3e8b324bffe483",
-            "git_last_date": "171229.231038",
+            "git_last_commit": "ef08f2b8eb7a371823b0b13f17119bc7f4a10145",
+            "git_last_date": "171230.000159",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -190,8 +190,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d1b78ca726448fa32160a92f5867f49b59906120",
-            "git_last_date": "171219.193238",
+            "git_last_commit": "61ca3f67dc274b4dacb18daf1322b62f2c139aac",
+            "git_last_date": "171230.000836",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
@@ -234,8 +234,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d5eaba73a69823b6afe942ba6d048a35d4c56ba3",
-            "git_last_date": "171229.160046",
+            "git_last_commit": "a7aa39a3c0e90ca5a5f8b1d23dd2cda0b5485008",
+            "git_last_date": "171230.000226",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
