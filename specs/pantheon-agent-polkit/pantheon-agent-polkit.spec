@@ -1,12 +1,13 @@
+%global appname org.pantheon.agent-polkit
+
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
+Release:        2%{?dist}
+License:        LGPLv2+
 
-URL:            https://github.com/elementary/pantheon-agent-polkit
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  cmake-elementary
@@ -46,21 +47,27 @@ popd
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+desktop-file-validate \
+    %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 
 %files -f pantheon-agent-polkit.lang
 %doc README.md
 %license COPYING
 
-%config(noreplace) %{_sysconfdir}/xdg/autostart/org.pantheon.agent-polkit-daemon.desktop
+%config(noreplace) %{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
 
 %{_libexecdir}/policykit-1-pantheon/
 
-%{_datadir}/applications/org.pantheon.agent-polkit.desktop
+%{_datadir}/applications/%{appname}.desktop
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git171218.142522.6cddf039-2
+- Merge .spec file from fedora.
+
 * Mon Dec 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git171218.142522.6cddf039-1
 - Update to latest snapshot.
 

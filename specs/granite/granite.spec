@@ -1,12 +1,11 @@
 Name:           granite
 Summary:        elementary Development Library
 Version:        0.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3+
-URL:            https://launchpad.net/granite
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -103,6 +102,9 @@ fi
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.5+git171230.000836.61ca3f67-2
+- Clean up .spec file.
+
 * Sat Dec 30 2017 Fabio Valentini <decathorpe@gmail.com> - 0.5+git171230.000836.61ca3f67-1
 - Update to latest snapshot.
 

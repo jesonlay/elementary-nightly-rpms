@@ -1,12 +1,15 @@
+%global srcname videos
+%global appname io.elementary.videos
+%global oldname org.pantheon.audience
+
 Name:           audience
 Summary:        Audience video player
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
-URL:            https://github.com/elementary/videos
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -48,29 +51,32 @@ pushd build
 %make_install
 popd
 
-%find_lang io.elementary.videos
+%find_lang %{appname}
 
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/org.pantheon.audience.desktop
+    %{buildroot}/%{_datadir}/applications/%{oldname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/io.elementary.videos.appdata.xml || :
+    %{buildroot}/%{_datadir}/appdata/%{appname}.appdata.xml || :
 
 
-%files -f io.elementary.videos.lang
+%files -f %{appname}.lang
 %doc AUTHORS README.md
 %license COPYING
 
-%{_bindir}/io.elementary.videos
+%{_bindir}/%{appname}
 
-%{_datadir}/appdata/io.elementary.videos.appdata.xml
-%{_datadir}/applications/org.pantheon.audience.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.audience.gschema.xml
+%{_datadir}/appdata/%{appname}.appdata.xml
+%{_datadir}/applications/%{oldname}.desktop
+%{_datadir}/glib-2.0/schemas/%{oldname}.gschema.xml
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171118.230413.609036c3-2
+- Merge .spec file from fedora.
+
 * Mon Nov 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git171118.230413.609036c3-1
 - Update to latest snapshot.
 

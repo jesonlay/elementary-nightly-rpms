@@ -1,7 +1,7 @@
 Name:           contractor
 Summary:        Desktop-wide extension service
 Version:        0.3.2.99+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -41,15 +41,24 @@ pushd build
 %make_install
 popd
 
+# Create the the directory where other programs put their contracts
+mkdir -p %{buildroot}/%{_datadir}/contractor
+
 
 %files
+%doc README.md
+%license COPYING
+
 %{_bindir}/contractor
 
-%{_datadir}/contractor/
+%dir %{_datadir}/contractor
 %{_datadir}/dbus-1/services/org.elementary.contractor.service
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git171118.235115.61083363-2
+- Merge .spec file from fedora.
+
 * Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git171118.235115.61083363-1
 - Switch to git snapshots.
 

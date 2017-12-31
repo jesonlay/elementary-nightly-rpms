@@ -1,12 +1,16 @@
+%global appname io.elementary.appcenter
+
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.2.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            https://launchpad.net/appcenter
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
+
+# Upstream elementaryOS blacklist adapted to fedora
+Source1:        appcenter.blacklist
 
 BuildRequires:  cmake
 BuildRequires:  cmake-elementary
@@ -24,14 +28,13 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gthread-2.0)
-BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
+BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(packagekit-glib2)
 BuildRequires:  pkgconfig(unity) >= 4.0.0
 
 Requires:       PackageKit
-Requires:       dbus
 Requires:       hicolor-icon-theme
 
 
@@ -55,37 +58,40 @@ pushd build
 %make_install
 popd
 
-%find_lang io.elementary.appcenter
+%find_lang %{appname}
 
-# move appdata to approved location
-mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
+# override empty blacklist with one for fedora
+cp -pav %{SOURCE1} %{buildroot}/%{_sysconfdir}/%{appname}/appcenter.blacklist
 
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/io.elementary.appcenter.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/io.elementary.appcenter.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%files -f io.elementary.appcenter.lang
+%files -f %{appname}.lang
 %doc AUTHORS README.md
 %license COPYING
 
-%dir %{_sysconfdir}/io.elementary.appcenter
-%config(noreplace) %{_sysconfdir}/io.elementary.appcenter/appcenter.blacklist
+%dir %{_sysconfdir}/%{appname}
+%config(noreplace) %{_sysconfdir}/%{appname}/appcenter.blacklist
 
-%{_bindir}/io.elementary.appcenter
+%{_bindir}/%{appname}
 
-%{_datadir}/appdata/io.elementary.appcenter.appdata.xml
-%{_datadir}/applications/io.elementary.appcenter.desktop
-%{_datadir}/applications/io.elementary.appcenter-daemon.desktop
-%{_datadir}/dbus-1/services/io.elementary.appcenter.service
-%{_datadir}/glib-2.0/schemas/io.elementary.appcenter.gschema.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/applications/%{appname}-daemon.desktop
+%{_datadir}/dbus-1/services/%{appname}.service
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171227.185100.723c8f03-2
+- Merge .spec file from fedora.
+
 * Wed Dec 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171227.185100.723c8f03-1
 - Update to latest snapshot.
 

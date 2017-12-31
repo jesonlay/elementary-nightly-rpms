@@ -1,12 +1,13 @@
+%global srcname stylesheet
+
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            https://github.com/elementary/stylesheet
 
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildArch:      noarch
 
@@ -70,11 +71,11 @@ This package contains the plank theme.
 %install
 mkdir -p %{buildroot}/%{_datadir}/themes/elementary
 
-cp -pav index.theme %{buildroot}/%{_datadir}/themes/elementary/
-cp -pavr gtk-2.0 %{buildroot}/%{_datadir}/themes/elementary/
-cp -pavr gtk-3.0 %{buildroot}/%{_datadir}/themes/elementary/
-cp -pavr gtk-3.22 %{buildroot}/%{_datadir}/themes/elementary/
-cp -pavr plank %{buildroot}/%{_datadir}/themes/elementary/
+cp -p index.theme %{buildroot}/%{_datadir}/themes/elementary/
+cp -pr gtk-2.0 %{buildroot}/%{_datadir}/themes/elementary/
+cp -pr gtk-3.0 %{buildroot}/%{_datadir}/themes/elementary/
+cp -pr gtk-3.22 %{buildroot}/%{_datadir}/themes/elementary/
+cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %files
@@ -96,6 +97,9 @@ cp -pavr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git171231.175903.886c9630-2
+- Merge .spec file from fedora.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git171231.175903.886c9630-1
 - Update to latest snapshot.
 

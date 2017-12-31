@@ -1,12 +1,15 @@
+%global srcname camera
+%global appname org.pantheon.camera
+
 Name:           elementary-camera
 Summary:        Fast and beautiful camera app
 Version:        0.3.0.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
-URL:            https://github.com/elementary/camera
 
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
+
 
 BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
@@ -45,26 +48,30 @@ A fast and beautiful camera app.
 
 %install
 %meson_install
+
 %find_lang pantheon-camera
 
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/*.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/*.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files -f pantheon-camera.lang
 %{_bindir}/pantheon-camera
 
-%{_datadir}/applications/org.pantheon.camera.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.camera.gschema.xml
-%{_datadir}/metainfo/org.pantheon.camera.appdata.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171010.092010.3494a051-3
+- Clean up .spec file.
+
 * Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171010.092010.3494a051-2
 - Adapt to upstream file changes.
 

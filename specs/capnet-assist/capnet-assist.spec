@@ -3,10 +3,10 @@
 Name:           capnet-assist
 Summary:        Captive Portal Assistant for Pantheon
 Version:        0.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
-URL:            https://github.com/elementary/capnet-assist
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
@@ -68,6 +68,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171010.183301.bbfc271b-2
+- Merge .spec file from fedora.
+
 * Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.1+git171010.183301.bbfc271b-1
 - Update to latest snapshot.
 

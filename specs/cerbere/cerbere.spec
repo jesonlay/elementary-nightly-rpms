@@ -1,12 +1,11 @@
 Name:           cerbere
 Summary:        Pantheon session watchdog
 Version:        0.2.2.99+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -47,7 +46,8 @@ popd
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/cerbere.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/cerbere.desktop
 
 
 %files
@@ -58,6 +58,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/cerbere.desktop
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.99+git171118.235023.6ef09f29-2
+- Merge .spec file from fedora.
+
 * Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.99+git171118.235023.6ef09f29-1
 - Switch to git snapshots.
 

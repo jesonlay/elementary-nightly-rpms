@@ -3,10 +3,10 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
-URL:            https://launchpad.net/gala
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
@@ -81,7 +81,7 @@ find %{buildroot} -name '*.la' -print -delete
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/*.desktop
+    %{buildroot}/%{_datadir}/applications/gala*.desktop
 
 
 %post
@@ -134,6 +134,9 @@ fi
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git171217.173134.439fdf6e-2
+- Merge .spec file from fedora.
+
 * Sun Dec 17 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git171217.173134.439fdf6e-1
 - Update to latest snapshot.
 

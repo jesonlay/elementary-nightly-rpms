@@ -1,14 +1,17 @@
-Summary:        elementary Icons
-Name:           elementary-icon-theme
-Version:        4.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3+
-URL:            https://launchpad.net/elementaryicons
+%global srcname icons
 
+Name:           elementary-icon-theme
+Summary:        Icons from the Elementary Project
+Version:        4.3.1+git%{date}.%{commit}
+Release:        2%{?dist}
+License:        GPLv3+
+
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildArch:      noarch
+
+BuildRequires:  cmake
 
 
 %description
@@ -20,46 +23,50 @@ This is an icon theme designed to be smooth, sexy, clear, and efficient.
 
 
 %build
-# Nothing to do.
+mkdir build && pushd build
+%cmake ..
+%make_build
+popd
 
 
 %install
-mkdir -p %{buildroot}/%{_datadir}/icons/elementary
-cp -apR * %{buildroot}/%{_datadir}/icons/elementary
+pushd build
+%make_install
+popd
 
-rm %{buildroot}/%{_datadir}/icons/elementary/AUTHORS
-rm %{buildroot}/%{_datadir}/icons/elementary/CODE_OF_CONDUCT.md
-rm %{buildroot}/%{_datadir}/icons/elementary/CONTRIBUTING.md
-rm %{buildroot}/%{_datadir}/icons/elementary/CONTRIBUTORS
-rm %{buildroot}/%{_datadir}/icons/elementary/COPYING
-rm %{buildroot}/%{_datadir}/icons/elementary/pre-commit
-rm %{buildroot}/%{_datadir}/icons/elementary/README.md
+# Clean up stuff
+rm %{buildroot}/.VolumeIcon.png
+rm %{buildroot}/.VolumeIcon.icns
 
+# Create icon cache file
 touch %{buildroot}/%{_datadir}/icons/elementary/icon-theme.cache
 
 
 %post
-/bin/touch --no-create %{_datadir}/icons/elementary &>/dev/null || :
+/bin/touch --no-create %{_datadir}/icons/elementary &> /dev/null || :
 
 %postun
 if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/elementary &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &>/dev/null || :
+    /bin/touch --no-create %{_datadir}/icons/elementary &> /dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &> /dev/null || :
 fi
 
 %posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &>/dev/null || :
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &> /dev/null || :
 
 
 %files
-%doc AUTHORS CONTRIBUTORS
+%doc AUTHORS CONTRIBUTORS README.md
 %license COPYING
 
-%{_datadir}/icons/elementary
+%{_datadir}/icons/elementary/
 %ghost %{_datadir}/icons/elementary/icon-theme.cache
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git171217.012202.430d3efe-2
+- Merge .spec file from fedora.
+
 * Sun Dec 17 2017 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git171217.012202.430d3efe-1
 - Update to latest snapshot.
 

@@ -1,25 +1,27 @@
 %global __provides_exclude_from ^%{_libdir}/noise/.*\\.so$
 
+%global srcname music
+%global appname org.pantheon.noise
+
 Name:           noise
 Summary:        The official elementary music player
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
-URL:            https://launchpad.net/noise
 
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
-BuildRequires:  vala
+BuildRequires:  vala >= 0.26
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(gio-2.0)
-BuildRequires:  pkgconfig(glib-2.0) >= 2.32
+BuildRequires:  pkgconfig(glib-2.0) >= 2.39
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-pbutils-1.0)
@@ -61,7 +63,7 @@ This package contains files needed for developing with noise.
 
 %build
 mkdir build && pushd build
-%cmake -DBUILD_FOR_ELEMENTARY:BOOL=OFF ..
+%cmake ..
 %make_build
 popd
 
@@ -76,10 +78,10 @@ popd
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/org.pantheon.noise.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/org.pantheon.noise.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %post
@@ -108,13 +110,13 @@ fi
 
 %{_libdir}/noise/
 
-%{_datadir}/applications/org.pantheon.noise.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.noise.gschema.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
-%{_datadir}/metainfo/org.pantheon.noise.appdata.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%files          devel
+%files devel
 %{_libdir}/libnoise-core.so
 %{_libdir}/pkgconfig/noise-core.pc
 
@@ -125,6 +127,9 @@ fi
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git171229.081330.e0063260-2
+- Merge .spec file from fedora.
+
 * Fri Dec 29 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git171229.081330.e0063260-1
 - Update to latest snapshot.
 

@@ -1,0 +1,16 @@
+fusion-icon.desktop
+gnome-control-center.desktop
+ibus-setup.desktop
+lightdm-gtk-greeter-settings.desktop
+lxqt-admin-time.desktop
+lxqt-lockscreen.desktop
+nm-connection-editor.desktop
+onboard.desktop
+panel-preferences.desktop
+plank.desktop
+system-config-printer.desktop
+ubiquity-kdeui.desktop
+xfce-wm-settings.desktop
+xfce4-power-manager-settings.desktop
+xfce4-session-logout.desktop
+xfpanel-switch.desktop

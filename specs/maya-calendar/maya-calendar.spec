@@ -1,13 +1,13 @@
+%global srcname calendar
+
 Name:           maya-calendar
 Summary:        The official elementary calendar
 Version:        0.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
-URL:            https://github.com/elementary/calendar
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
-
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
@@ -25,7 +25,7 @@ BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
 BuildRequires:  pkgconfig(gmodule-2.0)
-BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(granite) >= 0.5
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
 BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
@@ -57,7 +57,7 @@ This package contains the development files.
 
 %build
 mkdir build && pushd build
-%cmake -DBUILD_FOR_ELEMENTARY:BOOL=OFF ..
+%cmake ..
 %make_build
 popd
 
@@ -126,6 +126,9 @@ fi
 
 
 %changelog
+* Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171227.183038.b95872e5-2
+- Merge .spec file from fedora.
+
 * Wed Dec 27 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171227.183038.b95872e5-1
 - Update to latest snapshot.
 
