@@ -179,8 +179,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6aca4cbda69a3e44b26428e15ea9ea95b80c00a4",
-            "git_last_date": "171231.192724",
+            "git_last_commit": "c61d1bc4a5e852e2e0a6864cfa3e914703eaa472",
+            "git_last_date": "180101.000107",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -553,8 +553,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0a4d8903a080e35e75816fa4c0438c10a3e2baab",
-            "git_last_date": "171230.172457",
+            "git_last_commit": "cab7185f999a0e63a5bd2e1f4bbe56b71a0dd01f",
+            "git_last_date": "180101.003653",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.1.0",
