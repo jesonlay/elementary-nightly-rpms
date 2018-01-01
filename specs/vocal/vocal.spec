@@ -2,7 +2,7 @@
 
 Name:           vocal
 Summary:        Powerful, beautiful, and simple podcast client
-Version:        2.1.0+git%{date}.%{commit}
+Version:        2.1.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -95,7 +95,7 @@ fi
 %doc AUTHORS README.md
 %license COPYING
 
-%{_bindir}/vocal
+%{_bindir}/%{appname}
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
@@ -105,6 +105,9 @@ fi
 
 
 %changelog
+* Mon Jan 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git180101.003653.cab7185f-1
+- Update to version 2.1.5.
+
 * Mon Jan 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180101.003653.cab7185f-1
 - Update to latest snapshot.
 
