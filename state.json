@@ -179,8 +179,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c61d1bc4a5e852e2e0a6864cfa3e914703eaa472",
-            "git_last_date": "180101.000107",
+            "git_last_commit": "12ba48005a78400bf86a9d4ee3b4f0e586d81ecc",
+            "git_last_date": "180102.150159",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -333,8 +333,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dabdf868616c4d5c1110379a6046db4b1329cd5a",
-            "git_last_date": "171219.060826",
+            "git_last_commit": "5a4905330160d78bd964f4502b19b17a46b8da0b",
+            "git_last_date": "180102.160012",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.4",
