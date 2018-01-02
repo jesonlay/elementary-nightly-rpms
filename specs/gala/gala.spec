@@ -3,11 +3,14 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
+
+# Include a patch to set the default button layout to match fedora's settings
+Patch0:         00-fedora-button-layout.patch
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
@@ -62,7 +65,7 @@ This package contains the development headers.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
@@ -134,6 +137,9 @@ fi
 
 
 %changelog
+* Tue Jan 02 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git171217.173134.439fdf6e-3
+- Add patch so window buttons match fedora's default layout.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git171217.173134.439fdf6e-2
 - Merge .spec file from fedora.
 
