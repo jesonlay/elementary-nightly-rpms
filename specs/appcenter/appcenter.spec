@@ -3,7 +3,7 @@
 Name:           appcenter
 Summary:        Software Center for the Pantheon desktop
 Version:        0.2.6+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -89,6 +89,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180103.061910.fc648f73-1
+- Update to latest snapshot.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171227.185100.723c8f03-2
 - Merge .spec file from fedora.
 

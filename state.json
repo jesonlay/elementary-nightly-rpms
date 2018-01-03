@@ -124,8 +124,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "edf7c0e85f16605c1d54f69f0f4ce2b10b1d7ce5",
-            "git_last_date": "171219.003558",
+            "git_last_commit": "5631feac104e2aec84fa9842baef2338e1b7046f",
+            "git_last_date": "180103.001605",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -179,8 +179,8 @@
         "71": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "12ba48005a78400bf86a9d4ee3b4f0e586d81ecc",
-            "git_last_date": "180102.150159",
+            "git_last_commit": "1a42c0a7765517ce259fac8f63b37995ac6bfd3f",
+            "git_last_date": "180103.094831",
             "name": "pantheon-terminal",
             "package_name": "pantheon-terminal",
             "package_version": "0.4.3",
@@ -245,12 +245,12 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "723c8f03401421ae07eac02cad799c26220497d1",
-            "git_last_date": "171227.185100",
+            "git_last_commit": "fc648f733f111f401a1091080449d6cae92a517f",
+            "git_last_date": "180103.061910",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.6+git%{date}.%{commit}"
         },
         "78": {
@@ -278,8 +278,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "31365cbb6ca0219f39505771ae10623e2f922dd0",
-            "git_last_date": "180103.000111",
+            "git_last_commit": "63c872fe4fb44a3e61cbcc0c448a5fde49b9d0c9",
+            "git_last_date": "180103.001654",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.3",
@@ -377,8 +377,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07bacd7ec98a7385143cc2ecfd7050f840cd5f97",
-            "git_last_date": "171112.174251",
+            "git_last_commit": "e2ba68da7835058b1a5f0b0c76b8a3947cf25e0c",
+            "git_last_date": "180103.020349",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
@@ -443,8 +443,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cfa744100699365ef05804f1bf98e7a08274d0e3",
-            "git_last_date": "171229.230757",
+            "git_last_commit": "5910cd45a8bcd96f2cb4872d65df7162eeec47e8",
+            "git_last_date": "180103.010504",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
