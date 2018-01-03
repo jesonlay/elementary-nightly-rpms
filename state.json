@@ -157,8 +157,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "840d2ee75f24f9d3a0434cb2784ca8eb992e8f2e",
-            "git_last_date": "171227.174638",
+            "git_last_commit": "dfaae03c4f0c35c5ac1dad9f4f1ba95f9ec5fdda",
+            "git_last_date": "180102.234041",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -256,8 +256,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "60bc930fb66f1ed882b6c5325494c8b3b2d80b98",
-            "git_last_date": "180102.221034",
+            "git_last_commit": "cc7b643108b4f9edd70ccec329d1bffc3e9d876e",
+            "git_last_date": "180102.235703",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.0.2",
@@ -278,8 +278,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bacbd1c893516410273aadb893f1d3401daf7ed8",
-            "git_last_date": "171219.060709",
+            "git_last_commit": "31365cbb6ca0219f39505771ae10623e2f922dd0",
+            "git_last_date": "180103.000111",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.3",
