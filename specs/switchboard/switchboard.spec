@@ -1,12 +1,13 @@
-Summary:        Modular Desktop Settings Hub
-Name:           switchboard
-Version:        2.3.0+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        LGPLv2.1, LGPLv3
-URL:            http://launchpad.net/switchboard
+%global appname org.pantheon.switchboard
 
+Name:           switchboard
+Summary:        Modular Desktop Settings Hub
+Version:        2.3.0+git%{date}.%{commit}
+Release:        2%{?dist}
+License:        LGPLv2+
+
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -22,25 +23,37 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
 BuildRequires:  pkgconfig(unity) >= 4.0.0
 
+Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
+
+Requires:       hicolor-icon-theme
+
 
 %description
 This project is about the container app only and its library. For
 plugins that handle the settings, please refer to
 https://launchpad.net/pantheon-plugs.
 
-Designed for elementary OS.
+
+%package        libs
+Summary:        Modular Desktop Settings Hub (shared library)
+%description    libs
+This project is about the container app only and its library. For
+plugins that handle the settings, please refer to
+https://launchpad.net/pantheon-plugs.
+
+This package contains the shared library.
 
 
 %package        devel
 Summary:        Modular Desktop Settings Hub (development files)
+Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 %description    devel
 This project is about the container app only and its library. For
 plugins that handle the settings, please refer to
 https://launchpad.net/pantheon-plugs.
 
-Designed for elementary OS.
-
-This package contains the files required for developing for switchboard.
+This package contains the files required for developing plugs for
+switchboard.
 
 
 %prep
@@ -48,52 +61,65 @@ This package contains the files required for developing for switchboard.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
-%find_lang switchboard
+popd
 
-# Move metainfo to appdata
-mv %{buildroot}/%{_datadir}/metainfo %{buildroot}/%{_datadir}/appdata
+%find_lang %{name}
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{name}.appdata.xml
 
 
-%post -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
+%post   libs -p /sbin/ldconfig
+%postun libs -p /sbin/ldconfig
 
 
-%files -f switchboard.lang
+%files -f %{name}.lang
+%{_bindir}/%{name}
+
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/metainfo/%{name}.appdata.xml
+
+
+%files libs
+%doc README.md
 %license COPYING
 
-%{_bindir}/switchboard
+%dir %{_libdir}/%{name}
+%dir %{_libdir}/%{name}/*
 
-%{_libdir}/libswitchboard-2.0.so.0
-%{_libdir}/libswitchboard-2.0.so.2.0
-%{_libdir}/switchboard
-
-%{_datadir}/appdata/switchboard.appdata.xml
-%{_datadir}/applications/org.pantheon.switchboard.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.switchboard.gschema.xml
+%{_libdir}/lib%{name}-2.0.so.0
+%{_libdir}/lib%{name}-2.0.so.2.0
 
 
-%files          devel
-%{_includedir}/switchboard-2.0/
+%files devel
+%{_includedir}/%{name}-2.0/
 
-%{_libdir}/libswitchboard-2.0.so
-%{_libdir}/pkgconfig/switchboard-2.0.pc
+%{_libdir}/lib%{name}-2.0.so
+%{_libdir}/pkgconfig/%{name}-2.0.pc
 
-%{_datadir}/vala/vapi/switchboard-2.0.deps
-%{_datadir}/vala/vapi/switchboard-2.0.vapi
+%{_datadir}/vala/vapi/%{name}-2.0.deps
+%{_datadir}/vala/vapi/%{name}-2.0.vapi
 
 
 %changelog
+* Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180103.020349.e2ba68da-2
+- Merge .spec file from fedora.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180103.020349.e2ba68da-1
 - Update to latest snapshot.
 

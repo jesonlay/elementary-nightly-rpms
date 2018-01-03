@@ -1,19 +1,18 @@
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
+
 %global srcname applications-menu
 
 Name:           slingshot-launcher
 Summary:        Lightweight and stylish app launcher
 Version:        2.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
-URL:            http://github.com/elementary/%{srcname}
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.26.2
 BuildRequires:  vala-tools
 
@@ -29,12 +28,14 @@ BuildRequires:  pkgconfig(libgnome-menu-3.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(plank) >= 0.10.9
 BuildRequires:  pkgconfig(switchboard-2.0)
-BuildRequires:  pkgconfig(unity) >= 4.0.0
+BuildRequires:  pkgconfig(unity)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
-
+Requires:       redhat-menus
 Requires:       zeitgeist
+
+Supplements:    wingpanel%{?_isa}
 
 
 %description
@@ -61,10 +62,10 @@ popd
 
 
 %files -f slingshot.lang
-%doc AUTHORS
+%doc README.md
 %license COPYING
 
-%{_sysconfdir}/xdg/menus/pantheon-applications.menu
+%config(noreplace) %{_sysconfdir}/xdg/menus/pantheon-applications.menu
 
 %{_libdir}/wingpanel/libslingshot.so
 
@@ -72,6 +73,9 @@ popd
 
 
 %changelog
+* Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git171230.000226.a7aa39a3-2
+- Merge .spec file from fedora.
+
 * Sat Dec 30 2017 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git171230.000226.a7aa39a3-1
 - Update to latest snapshot.
 

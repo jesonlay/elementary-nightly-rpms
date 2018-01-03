@@ -1,17 +1,17 @@
+%global srcname greeter
+
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/pantheon-greeter
 
+URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
+Source1:        40-lightdm-pantheon-greeter.conf
+Source2:        pantheon-greeter.whitelist
 
-# From http://bazaar.launchpad.net/~elementary-os/pantheon-greeter/deb-packaging/files/head:/debian/
-Source2:        40-lightdm-pantheon-greeter.conf
-Source3:        pantheon-greeter.whitelist
-
+# Remove gsettings stuff that's no longer there and causes crashes
 Patch0:         00-disable-gsettings.patch
 
 BuildRequires:  cmake
@@ -30,6 +30,16 @@ BuildRequires:  pkgconfig(liblightdm-gobject-1) >= 1.2.1
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
 
+Requires:       lightdm%{?_isa}
+Requires:       wingpanel%{?_isa}
+
+# Raleway font is used for interface elements
+Requires:       impallari-raleway-fonts
+
+# Runtime requirement for numlock capture
+Requires:       numlockx
+
+
 # All LightDM greeters provide this
 Provides:       lightdm-greeter = 1.2
 
@@ -37,12 +47,9 @@ Provides:       lightdm-greeter = 1.2
 Provides:       lightdm-%{name} = %{version}-%{release}
 Provides:       lightdm-%{name}%{?_isa} = %{version}-%{release}
 
-# Runtime requirement for numlock capture
-Requires:       numlockx
-
 
 %description
-Pantheon's LightDM Login Screen
+Pantheon Greeter is a Pantheon-styled Login Screen for LightDM.
 
 
 %prep
@@ -63,25 +70,32 @@ popd
 
 %find_lang pantheon-greeter
 
+# Install LightDM configuration file
 mkdir -p %{buildroot}%{_sysconfdir}/lightdm/lightdm.conf.d
-install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/lightdm/lightdm.conf.d/
+install -pm 0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/lightdm/lightdm.conf.d/
 
+# Install wingpanel overrides for the greeter
 mkdir -p %{buildroot}%{_sysconfdir}/wingpanel.d
-install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/wingpanel.d
+install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %files -f pantheon-greeter.lang
-%{_sbindir}/pantheon-greeter
+%license LICENSE
 
 %config(noreplace) %{_sysconfdir}/lightdm/pantheon-greeter.conf
 %config(noreplace) %{_sysconfdir}/lightdm/lightdm.conf.d/40-lightdm-pantheon-greeter.conf
 %config(noreplace) %{_sysconfdir}/wingpanel.d/pantheon-greeter.whitelist
+
+%{_sbindir}/pantheon-greeter
 
 %{_datadir}/pantheon-greeter/
 %{_datadir}/xgreeters/pantheon-greeter.desktop
 
 
 %changelog
+* Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git171218.142123.940975c1-2
+- Merge .spec file from fedora.
+
 * Mon Dec 18 2017 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git171218.142123.940975c1-1
 - Update to latest snapshot.
 

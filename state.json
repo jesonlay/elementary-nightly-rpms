@@ -33,17 +33,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.6+git%{date}.%{commit}"
         },
-        "58": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "c2983fa6f87ef0cf175ac16f599b8b1f7dde954d",
-            "git_last_date": "171229.084210",
-            "name": "screenshot-tool",
-            "package_name": "screenshot-tool",
-            "package_version": "0.1.4",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.4+git%{date}.%{commit}"
-        },
         "59": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -176,17 +165,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+git%{date}.%{commit}"
         },
-        "71": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "1a42c0a7765517ce259fac8f63b37995ac6bfd3f",
-            "git_last_date": "180103.094831",
-            "name": "pantheon-terminal",
-            "package_name": "pantheon-terminal",
-            "package_version": "0.4.3",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.4.3+git%{date}.%{commit}"
-        },
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -239,7 +217,7 @@
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "77": {
@@ -382,19 +360,8 @@
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.3.0+git%{date}.%{commit}"
-        },
-        "90": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "65512d02127fbdfe6a2149b0f546b05174eec43f",
-            "git_last_date": "171229.222002",
-            "name": "pantheon-photos",
-            "package_name": "pantheon-photos",
-            "package_version": "0.2.4",
             "rpm_last_release": "2%{?dist}",
-            "rpm_last_version": "0.2.4+git%{date}.%{commit}"
+            "rpm_last_version": "2.3.0+git%{date}.%{commit}"
         },
         "91": {
             "git_branch": "master",
@@ -426,7 +393,7 @@
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         },
         "95": {
@@ -627,17 +594,6 @@
             "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         },
-        "114": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "17101d602710a2934ab77ff054f47e53ca9fa8f4",
-            "git_last_date": "171219.151614",
-            "name": "scratch-text-editor",
-            "package_name": "scratch-text-editor",
-            "package_version": "2.4.1.99",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.4.1.99+git%{date}.%{commit}"
-        },
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -681,6 +637,50 @@
             "package_version": "0.3.5",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.5+git%{date}.%{commit}"
+        },
+        "119": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "65512d02127fbdfe6a2149b0f546b05174eec43f",
+            "git_last_date": "171229.222002",
+            "name": "elementary-photos",
+            "package_name": "elementary-photos",
+            "package_version": "0.2.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.4+git%{date}.%{commit}"
+        },
+        "120": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "1a42c0a7765517ce259fac8f63b37995ac6bfd3f",
+            "git_last_date": "180103.094831",
+            "name": "elementary-terminal",
+            "package_name": "elementary-terminal",
+            "package_version": "0.4.3",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.4.3+git%{date}.%{commit}"
+        },
+        "121": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "17101d602710a2934ab77ff054f47e53ca9fa8f4",
+            "git_last_date": "171219.151614",
+            "name": "elementary-code",
+            "package_name": "elementary-code",
+            "package_version": "2.4.1",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.4.1+git%{date}.%{commit}"
+        },
+        "122": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "c2983fa6f87ef0cf175ac16f599b8b1f7dde954d",
+            "git_last_date": "171229.084210",
+            "name": "elementary-screenshot-tool",
+            "package_name": "elementary-screenshot-tool",
+            "package_version": "0.1.4",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         }
     }
 }
