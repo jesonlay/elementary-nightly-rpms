@@ -105,6 +105,9 @@ fi
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git180103.145139.30277f40-1
+- Update to latest snapshot.
+
 * Mon Jan 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git180101.003653.cab7185f-1
 - Update to version 2.1.5.
 
