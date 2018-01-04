@@ -1,18 +1,16 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Summary:        Adjust Locale settings from Switchboard
 Name:           switchboard-plug-locale
+Summary:        Adjust Locale settings from Switchboard
 Version:        0.2.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
-URL:            https://launchpad.net/switchboard-plug-locale
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.34.1
 BuildRequires:  vala-tools
 
@@ -25,13 +23,11 @@ BuildRequires:  pkgconfig(ibus-1.0)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
-Adjust Locale settings from Switchboard
-
-Designed for elementary OS.
+Adjust Locale settings from Switchboard.
 
 
 %prep
@@ -39,16 +35,22 @@ Designed for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang locale-plug
 
 
 %files -f locale-plug.lang
+%doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/personal/pantheon-locale/
@@ -58,6 +60,9 @@ Designed for elementary OS.
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git171219.192024.6e16c70c-2
+- Merge .spec file from elementary-stable.
+
 * Tue Dec 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git171219.192024.6e16c70c-1
 - Update to latest snapshot.
 

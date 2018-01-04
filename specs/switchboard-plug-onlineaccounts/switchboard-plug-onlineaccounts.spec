@@ -3,7 +3,7 @@
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        0.3.0.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
@@ -11,7 +11,6 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -78,6 +77,18 @@ popd
 %find_lang pantheon-online-accounts
 
 
+%post -n pantheon-online-accounts
+/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
+
+%postun -n pantheon-online-accounts
+if [ $1 -eq 0 ] ; then
+    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
+    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+fi
+
+%posttrans -n pantheon-online-accounts
+/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+
 %post   -n pantheon-online-accounts-libs -p /sbin/ldconfig
 %postun -n pantheon-online-accounts-libs -p /sbin/ldconfig
 
@@ -86,7 +97,7 @@ popd
 %{_libdir}/switchboard/network/pantheon-online-accounts/
 
 
-%files       -n pantheon-online-accounts
+%files -n pantheon-online-accounts
 %{_libdir}/pantheon-online-accounts/*
 
 %{_datadir}/accounts/providers/*.provider
@@ -95,7 +106,7 @@ popd
 %{_datadir}/icons/hicolor/*/apps/*.svg
 
 
-%files       -n pantheon-online-accounts-libs
+%files -n pantheon-online-accounts-libs
 %license COPYING
 
 %{_libdir}/libpantheon-online-accounts.so.0
@@ -104,7 +115,7 @@ popd
 %dir %{_libdir}/pantheon-online-accounts
 
 
-%files       -n pantheon-online-accounts-devel
+%files -n pantheon-online-accounts-devel
 %{_includedir}/pantheon-online-accounts/
 
 %{_libdir}/libpantheon-online-accounts.so
@@ -115,6 +126,9 @@ popd
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171104.071431.369e4703-2
+- Merge .spec file from fedora.
+
 * Sat Nov 04 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171104.071431.369e4703-1
 - Update to latest snapshot.
 

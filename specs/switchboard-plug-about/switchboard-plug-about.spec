@@ -3,10 +3,10 @@
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
-URL:            https://github.com/elementary/switchboard-plug-about
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 # Use official logo in the system details view
@@ -14,7 +14,6 @@ Patch0:         00-fedora-logo.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -59,6 +58,9 @@ popd
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git170921.170550.974d3f19-2
+- Merge .spec file from fedora.
+
 * Fri Nov 10 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git170921.170550.974d3f19-1
 - Initial package.
 

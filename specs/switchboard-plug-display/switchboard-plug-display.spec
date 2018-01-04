@@ -1,18 +1,16 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Summary:        Switchboard plug to show displays information
 Name:           switchboard-plug-display
+Summary:        Switchboard Display plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        LGPLv3
-URL:            https://launchpad.net/switchboard-plug-display
+Release:        2%{?dist}
+License:        GPLv3+
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -22,13 +20,12 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
-A switchboard plug to show displays information.
-
-Built for elementary OS.
+A switchboard plug to show information about displays and to configure
+them.
 
 
 %prep
@@ -36,20 +33,31 @@ Built for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-display-plug
 
 
 %files -f pantheon-display-plug.lang
+%doc AUTHORS README.md
+%license COPYING
+
 %{_libdir}/switchboard/hardware/pantheon-display/
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180102.234041.dfaae03c-2
+- Merge .spec file from fedora.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180102.234041.dfaae03c-1
 - Update to latest snapshot.
 

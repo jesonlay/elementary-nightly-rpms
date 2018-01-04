@@ -1,18 +1,16 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Summary:        Switchboard plug to configure DateTime settings
 Name:           switchboard-plug-datetime
+Summary:        Switchboard Date and Time plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            https://launchpad.net/switchboard-plug-datetime
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -22,13 +20,11 @@ BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Supplements:    switchboard%{?_isa}
 
 
 %description
-Configure the date & time of the user.
-
-Designed for elementary OS.
+A switchboard plug to configure date and time settings.
 
 
 %prep
@@ -36,20 +32,31 @@ Designed for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-datetime-plug
 
 
 %files -f pantheon-datetime-plug.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/switchboard/system/pantheon-datetime/
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git170818.000141.a838f78d-2
+- Merge .spec file from elementary-stable.
+
 * Sat Aug 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git170818.000141.a838f78d-1
 - Update to latest snapshot.
 

@@ -1,29 +1,34 @@
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
+
 Name:           switchboard-plug-bluetooth
-Summary:        Bluetooth plug for Switchboard
+Summary:        Switchboard Bluetooth plug
 Version:        0.1.0.99+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        LGPLv3
+Release:        2%{?dist}
+License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
+
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
-BuildRequires:  switchboard-devel >= 2.2.0+rev717
+BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard%{?_isa}
+Requires:       bluez
+
+Supplements:    (bluez and switchboard%{?_isa})
 
 
 %description
-A Switchboard plug for configuring Bluetooth.
+The Bluetooth plug is a section in the Switchboard (System Settings)
+that allows the user to manage bluetooth settings and connected
+devices.
 
 
 %prep
@@ -46,10 +51,16 @@ popd
 
 
 %files -f pantheon-bluetooth-plug.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/switchboard/network/pantheon-bluetooth/
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git171111.174242.a1000f53-2
+- Merge .spec file from fedora.
+
 * Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git171111.174242.a1000f53-1
 - Switch to git snapshots.
 

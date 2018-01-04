@@ -1,16 +1,16 @@
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
+
 Name:           switchboard-plug-pantheon-shell
-Summary:        Configure various aspects of the Pantheon desktop environment
+Summary:        Switchboard Pantheon Shell plug
 Version:        0.2.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
-URL:            http://github.com/elementary/%{name}
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -24,6 +24,8 @@ BuildRequires:  pkgconfig(switchboard-2.0)
 
 Requires:       contractor
 Requires:       tumbler
+
+Supplements:    switchboard%{?_isa}
 
 
 %description
@@ -58,13 +60,16 @@ popd
 
 %{_libdir}/switchboard/personal/pantheon-desktop/
 
-%{_libexecdir}/switchboard-plug-pantheon-shell/set-wallpaper
+%{_libexecdir}/switchboard-plug-pantheon-shell/
 
 %{_datadir}/contractor/set-wallpaper.contract
 %{_datadir}/glib-2.0/schemas/io.elementary.switchboard.plug.desktop.gschema.xml
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171201.174945.6d5d8ee5-2
+- Merge .spec file from fedora.
+
 * Fri Dec 01 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171201.174945.6d5d8ee5-1
 - Update to latest snapshot.
 

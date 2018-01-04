@@ -1,32 +1,34 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Summary:        Notification configuration management
 Name:           switchboard-plug-notifications
+Summary:        Switchboard Notifications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/switchboard-plug-notifications
+Release:        2%{?dist}
+License:        GPLv3+
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
-BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(switchboard-2.0)
+
+Requires:       gala%{?_isa}
+
+Supplements:    (switchboard%{?_isa} and gala%{?_isa})
 
 
 %description
 Configure which apps should be allowed to show notifications.
 
-A GModule plugin for Switchboard that configures gsettings keys related
-to the Notifications plugin for Gala.
+This is a GModule plugin for Switchboard that configures gsettings keys
+related to the Notifications plugin for Gala.
 
 
 %prep
@@ -34,24 +36,31 @@ to the Notifications plugin for Gala.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang notifications-plug
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files -f notifications-plug.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/switchboard/personal/pantheon-notifications-plug/
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171118.231310.3f6718a4-2
+- Merge .spec file from fedora.
+
 * Mon Nov 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171118.231310.3f6718a4-1
 - Update to latest snapshot.
 

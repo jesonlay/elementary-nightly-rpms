@@ -1,21 +1,22 @@
-Name:           switchboard-plug-networking
-Summary:        Configure all available networks
-Version:        0.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            https://github.com/elementary/%{name}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+Name:           switchboard-plug-networking
+Summary:        Switchboard Networking plug
+Version:        0.1.1+git%{date}.%{commit}
+Release:        2%{?dist}
+License:        GPLv3+
+
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libnm)
 BuildRequires:  pkgconfig(libnma)
@@ -23,11 +24,11 @@ BuildRequires:  pkgconfig(libnm-gtk)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard%{?_isa}
+Supplements:    (switchboard%{?_isa} and NetworkManager%{?_isa})
 
 
 %description
-Configure all available networks
+A switchboard plug for configuring available networks.
 
 
 %prep
@@ -50,13 +51,16 @@ popd
 
 
 %files -f pantheon-network-plug.lang
-%doc AUTHORS
+%doc AUTHORS README.md
 %license COPYING
 
 %{_libdir}/switchboard/network/pantheon-network/
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180103.010504.5910cd45-2
+- Merge .spec file from fedora.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180103.010504.5910cd45-1
 - Update to latest snapshot.
 

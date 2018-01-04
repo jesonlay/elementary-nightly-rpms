@@ -1,24 +1,20 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Summary:        Mouse and Touchpad configuration management
 Name:           switchboard-plug-mouse-touchpad
+Summary:        Switchboard Mouse and Touchpad plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/switchboard-plug-mouse-touchpad
+Release:        2%{?dist}
+License:        GPLv3+
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
+# This patch replaces the usage of a gsettings key that was removed in
+# a recent GNOME version with the current equivalent.
 Patch0:         00-gschema-path.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -27,31 +23,46 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Supplements:    switchboard%{?_isa}
+
 
 %description
-This is a swtichboard plug for elementary os.
+A switchboard plug to configure the behavior of mice and touchpads.
 
 
 %prep
-%setup -q
-%patch0 -p0
+%autosetup -p0
 
 
 %build
-%cmake
+# Unmark some .vala source files as executable (WTF?)
+for i in $(find -executable -name '*.vala'); do chmod a-x $i; done
+
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-mouse-touchpad
 
 
 %files -f pantheon-mouse-touchpad.lang
+%doc AUTHORS README.md
+%license COPYING
+
 %{_libdir}/switchboard/hardware/pantheon-mouse-touchpad/
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171118.015919.d8633d55-2
+- Merge .spec file from fedora.
+
 * Sat Nov 18 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171118.015919.d8633d55-1
 - Update to latest snapshot.
 
