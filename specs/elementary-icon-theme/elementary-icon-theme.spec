@@ -3,7 +3,7 @@
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
 Version:        4.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -64,6 +64,9 @@ fi
 
 
 %changelog
+* Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180104.200132.842f5c35-1
+- Update to latest snapshot.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git171217.012202.430d3efe-2
 - Merge .spec file from fedora.
 
