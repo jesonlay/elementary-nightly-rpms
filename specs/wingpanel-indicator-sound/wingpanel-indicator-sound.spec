@@ -1,22 +1,16 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-Summary:        a sound indicator for wingpanel
 Name:           wingpanel-indicator-sound
+Summary:        Sound Indicator for wingpanel
 Version:        2.0.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            http://launchpad.net/wingpanel-indicator-sound
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -30,9 +24,11 @@ BuildRequires:  pkgconfig(libpulse)
 BuildRequires:  pkgconfig(libpulse-mainloop-glib)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Supplements:    wingpanel%{?_isa}
+
 
 %description
-a sound indicator for wingpanel
+A sound indicator for wingpanel.
 
 
 %prep
@@ -40,26 +36,33 @@ a sound indicator for wingpanel
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang sound-indicator
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files -f sound-indicator.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/wingpanel/libsound.so
 
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.sound.gschema.xml
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.5+git180103.001605.5631feac-2
+- Merge .spec file from fedora.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.5+git180103.001605.5631feac-1
 - Update to latest snapshot.
 

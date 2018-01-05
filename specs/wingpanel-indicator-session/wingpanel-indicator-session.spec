@@ -1,16 +1,16 @@
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
+
 Name:           wingpanel-indicator-session
 Summary:        Session Indicator for wingpanel
 Version:        2.0.4+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3, LGPLv3
-URL:            http://launchpad.net/wingpanel-indicator-session
+Release:        2%{?dist}
+License:        GPLv2+
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -20,9 +20,12 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12.0
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Requires:       wingpanel%{?_isa}
+Supplements:    wingpanel%{?_isa}
+
 
 %description
-Session Indicator for wingpanel.
+A session Indicator for wingpanel.
 
 
 %prep
@@ -45,12 +48,16 @@ popd
 
 
 %files -f session-indicator.lang
+%doc README.md
 %license COPYING
 
 %{_libdir}/wingpanel/libsession.so
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git180102.160012.5a490533-2
+- Merge .spec file from fedora.
+
 * Tue Jan 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git180102.160012.5a490533-1
 - Update to latest snapshot.
 

@@ -1,16 +1,11 @@
-Summary:        Stylish top panel
 Name:           wingpanel
+Summary:        Stylish top panel
 Version:        2.0.4+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        LGPLv3
-URL:            http://launchpad.net/wingpanel
+Release:        2%{?dist}
+License:        GPLv2+
 
-# The tarball is generated from a checkout of the specified branch and
-# by executing 'bzr export' and has the usual format
-# ('%{name}-%{version}.tar.gz'), where %{version} contains the upstream
-# version number with a '+bzr%{rev}' suffix specifying the bzr revision.
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
@@ -22,7 +17,7 @@ BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.14
 BuildRequires:  pkgconfig(granite)
-BuildRequires:  pkgconfig(libnotify)
+# BuildRequires:  pkgconfig(libnotify)
 
 
 %description
@@ -30,8 +25,18 @@ Stylish top panel that holds indicators and spawns an application
 launcher.
 
 
+%package        libs
+Summary:        Stylish top panel (shared library)
+%description    libs
+Stylish top panel that holds indicators and spawns an application
+launcher.
+
+This package contains the shared library.
+
+
 %package        devel
 Summary:        Stylish top panel (development files)
+Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 %description    devel
 Stylish top panel that holds indicators and spawns an application
 launcher.
@@ -44,25 +49,35 @@ This package contains the files required for developing for wingpanel.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang wingpanel
+
+# create plugin directory
+mkdir -p %{buildroot}/%{_libdir}/wingpanel
+
+# create settings directory
+mkdir -p %{buildroot}/%{_sysconfdir}/wingpanel.d
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/wingpanel.desktop
 
 
 %post
-/sbin/ldconfig
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
 
 %postun
-/sbin/ldconfig
 if [ $1 -eq 0 ] ; then
     /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
     /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
@@ -72,21 +87,31 @@ fi
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 
-%files -f wingpanel.lang
-%license COPYING
+%post   libs -p /sbin/ldconfig
+%postun libs -p /sbin/ldconfig
 
+
+%files -f wingpanel.lang
 %{_bindir}/wingpanel
 
 %{_libdir}/gala/plugins/libwingpanel-interface.so
-%{_libdir}/libwingpanel-2.0.so.0
-%{_libdir}/libwingpanel-2.0.so.0.2.0
 
 %{_datadir}/applications/wingpanel.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.gschema.xml
 %{_datadir}/icons/hicolor/scalable/apps/wingpanel.svg
 
 
-%files          devel
+%files libs
+%license COPYING
+
+%dir %{_sysconfdir}/wingpanel.d
+%dir %{_libdir}/wingpanel
+
+%{_libdir}/libwingpanel-2.0.so.0
+%{_libdir}/libwingpanel-2.0.so.0.2.0
+
+
+%files devel
 %{_includedir}/wingpanel-2.0/
 
 %{_libdir}/libwingpanel-2.0.so
@@ -97,6 +122,9 @@ fi
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git171228.191354.fceb2a0e-2
+- Merge .spec file from fedora.
+
 * Thu Dec 28 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git171228.191354.fceb2a0e-1
 - Update to latest snapshot.
 

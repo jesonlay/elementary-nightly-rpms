@@ -1,16 +1,16 @@
-Name:           wingpanel-indicator-network
-Summary:        Network indicator for wingpanel
-Version:        2.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-URL:            http://github.com/elementary/%{name}
+Name:           wingpanel-indicator-network
+Summary:        Network Indicator for wingpanel
+Version:        2.1.1+git%{date}.%{commit}
+Release:        2%{?dist}
+License:        GPLv3+
+
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -20,6 +20,8 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libnm)
 BuildRequires:  pkgconfig(libnma)
 BuildRequires:  pkgconfig(wingpanel-2.0)
+
+Supplements:    wingpanel%{?_isa}
 
 
 %description
@@ -55,6 +57,9 @@ popd
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git171229.012743.d2b05bfb-2
+- Merge .spec file from fedora.
+
 * Fri Dec 29 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git171229.012743.d2b05bfb-1
 - Update to latest snapshot.
 

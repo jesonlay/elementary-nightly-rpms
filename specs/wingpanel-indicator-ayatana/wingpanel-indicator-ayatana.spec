@@ -3,16 +3,14 @@
 Name:           wingpanel-indicator-ayatana
 Summary:        an ayatana indicator for wingpanel
 Version:        2.0.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.24.0
 BuildRequires:  vala-tools
 
@@ -47,10 +45,16 @@ popd
 
 
 %files
+%doc README.md
+%license COPYING
+
 %{_libdir}/wingpanel/libayatana_compatibility.so
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170703.192035.f324e542-2
+- Merge .spec file from fedora.
+
 * Mon Jul 03 2017 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170703.192035.f324e542-1
 - Update to latest snapshot.
 

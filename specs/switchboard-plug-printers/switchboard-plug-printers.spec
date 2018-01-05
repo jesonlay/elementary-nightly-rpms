@@ -1,18 +1,16 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Summary:        Switchboard Printers Plug
 Name:           switchboard-plug-printers
+Summary:        Switchboard Printers Plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            https://launchpad.net/switchboard-plug-printers
+Release:        2%{?dist}
+License:        GPLv3+
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -23,13 +21,14 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Supplements:    switchboard
+Requires:       cups%{?_isa}
+Requires:       switchboard%{?_isa}
+
+Supplements:    (switchboard%{?_isa} and cups%{?_isa})
 
 
 %description
 A printers plug for Switchboard.
-
-Designed for elementary OS.
 
 
 %prep
@@ -37,23 +36,31 @@ Designed for elementary OS.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang pantheon-printers-plug
 
 
 %files -f pantheon-printers-plug.lang
-%doc AUTHORS
+%doc AUTHORS README.md
 %license COPYING
 
 %{_libdir}/switchboard/hardware/pantheon-printers/
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171218.230950.452845c5-2
+- Merge .spec file from fedora.
+
 * Tue Dec 19 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171218.230950.452845c5-1
 - Update to latest snapshot.
 

@@ -1,16 +1,16 @@
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
+
 Name:           switchboard-plug-security-privacy
 Summary:        Switchboard Privacy and Security Plug
 Version:        0.1.2.99+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        LGPLv2.1, LGPLv3
+Release:        2%{?dist}
+License:        LGPLv3
 
-URL:            https://github.com/elementary/switchboard-plug-security-privacy
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -21,9 +21,11 @@ BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 Requires:       light-locker
+Requires:       ufw
 
 
 %description
@@ -52,7 +54,7 @@ popd
 
 
 %files -f pantheon-security-privacy-plug.lang
-%doc AUTHORS
+%doc AUTHORS README.md
 %license COPYING
 
 %{_libdir}/switchboard/personal/pantheon-security-privacy/
@@ -62,6 +64,9 @@ popd
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git171119.000900.ec7d8c7e-2
+- Merge .spec file from elementary-stable.
+
 * Thu Nov 23 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git171119.000900.ec7d8c7e-1
 - Switch to git snapshots.
 

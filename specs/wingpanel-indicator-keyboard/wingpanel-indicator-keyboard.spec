@@ -1,18 +1,16 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-Summary:        Keyboard indicator for wingpanel
 Name:           wingpanel-indicator-keyboard
+Summary:        Keyboard Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            https://launchpad.net/wingpanel-indicator-keyboard
+Release:        2%{?dist}
+License:        LGPLv2+
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -22,7 +20,7 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
-Supplements:    wingpanel
+Supplements:    wingpanel%{?_isa}
 
 
 %description
@@ -34,20 +32,30 @@ A keyboard indicator for wingpanel.
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang keyboard-indicator
 
 
 %files -f keyboard-indicator.lang
+%doc README.md
+
 %{_libdir}/wingpanel/libkeyboard.so
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180105.085319.1f52cbd4-2
+- Merge .spec file from fedora.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180105.085319.1f52cbd4-1
 - Update to latest snapshot.
 

@@ -1,16 +1,16 @@
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
+
 Name:           wingpanel-indicator-power
 Summary:        Power indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://github.com/elementary/wingpanel-indicator-power
+Release:        2%{?dist}
+License:        GPLv2+
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -22,9 +22,11 @@ BuildRequires:  pkgconfig(libgtop-2.0)
 BuildRequires:  pkgconfig(libudev)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Supplements:    wingpanel%{?_isa}
+
 
 %description
-a power indicator for wingpanel
+A power indicator for wingpanel.
 
 
 %prep
@@ -47,6 +49,7 @@ popd
 
 
 %files -f power-indicator.lang
+%doc README.md
 %license COPYING
 
 %{_libdir}/wingpanel/libpower.so
@@ -55,6 +58,9 @@ popd
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git170801.180504.e4a9c434-2
+- Merge .spec file from fedora.
+
 * Wed Aug 02 2017 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git170801.180504.e4a9c434-1
 - Update to latest snapshot.
 

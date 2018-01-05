@@ -1,18 +1,16 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-Summary:        a bluetooth indicator for wingpanel
 Name:           wingpanel-indicator-bluetooth
+Summary:        Bluetooth Indicator for wingpanel
 Version:        2.0.3+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            http://launchpad.net/wingpanel-indicator-bluetooth
+Release:        2%{?dist}
+License:        LGPLv2+
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -22,9 +20,13 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libnotify)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Requires:       bluez
+
+Supplements:    (bluez and wingpanel%{?_isa})
+
 
 %description
-a bluetooth indicator for wingpanel
+A bluetooth indicator for wingpanel.
 
 
 %prep
@@ -32,26 +34,33 @@ a bluetooth indicator for wingpanel
 
 
 %build
-%cmake
+mkdir build && pushd build
+%cmake ..
 %make_build
+popd
 
 
 %install
+pushd build
 %make_install
+popd
+
 %find_lang bluetooth-indicator
 
 
-%clean
-rm -rf %{buildroot}
-
-
 %files -f bluetooth-indicator.lang
+%doc README.md
+%license COPYING
+
 %{_libdir}/wingpanel/libbluetooth.so
 
 %{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.bluetooth.gschema.xml
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git180103.001654.63c872fe-2
+- Merge .spec file from fedora.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git180103.001654.63c872fe-1
 - Update to latest snapshot.
 
