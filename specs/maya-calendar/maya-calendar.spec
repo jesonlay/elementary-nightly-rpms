@@ -8,6 +8,7 @@ License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
+
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
