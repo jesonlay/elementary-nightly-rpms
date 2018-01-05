@@ -127,6 +127,9 @@ fi
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180105.130246.f6b0d173-1
+- Update to latest snapshot.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180105.014852.f6de3157-1
 - Update to latest snapshot.
 
