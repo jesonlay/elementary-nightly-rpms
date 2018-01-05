@@ -4,7 +4,7 @@
 Name:           elementary-screenshot-tool
 Summary:        Simple screen capture tool
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            http://github.com/elementary/%{srcname}
@@ -47,9 +47,6 @@ A simple screen capture tool made for the Pantheon desktop environment.
 
 %find_lang %{appname}
 
-# FIXME Remove extra.mo files that shouldn't be installed, meson bug
-find %{buildroot} -name "extra.mo" -print -delete
-
 
 %check
 desktop-file-validate \
@@ -85,6 +82,9 @@ fi
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180104.235028.8fc0ea56-2
+- Clean up .spec file.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180104.235028.8fc0ea56-1
 - Update to latest snapshot.
 
