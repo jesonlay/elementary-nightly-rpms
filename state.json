@@ -157,8 +157,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "730bbbd3045be79243f11a25db7c8004b4d27c2f",
-            "git_last_date": "171228.215358",
+            "git_last_commit": "a2805961d4fee9a57342a6bb1b087eee9bbb12dc",
+            "git_last_date": "180104.220732",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
@@ -465,8 +465,8 @@
         "101": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "28864217ce961826a20760ab652000a5de05cbf2",
-            "git_last_date": "171117.184048",
+            "git_last_commit": "dea75de79da9774541e607139222d6c8006acc85",
+            "git_last_date": "180104.220308",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "0.1.1",
@@ -619,8 +619,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "81be3d74b15121f5f1b32740805a0b3e5710fdbc",
-            "git_last_date": "171116.231410",
+            "git_last_commit": "aff8bd5eedada8175178b72afe1fcaca03cb84a8",
+            "git_last_date": "180104.232914",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.3",
@@ -674,8 +674,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c2983fa6f87ef0cf175ac16f599b8b1f7dde954d",
-            "git_last_date": "171229.084210",
+            "git_last_commit": "8fc0ea56a601f0486562217ffe030b8b1744d06e",
+            "git_last_date": "180104.235028",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.4",
