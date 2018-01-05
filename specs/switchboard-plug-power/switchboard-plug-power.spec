@@ -1,21 +1,20 @@
-%global debug_package %{nil}
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Summary:        Switchboard Power Plug
 Name:           switchboard-plug-power
+Summary:        Switchboard Power Plug
 Version:        0.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
-URL:            https://launchpad.net/switchboard-plug-power
 
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
+# Add patch to not use (dysfunctional) elementary-dpms-helper
 Patch0:         00-no-e-dpms-helper.patch
 
 BuildRequires:  cmake
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
-BuildRequires:  vala >= 0.34.1
+BuildRequires:  vala >= 0.30.0
 BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
@@ -25,7 +24,8 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
-Requires:       switchboard%{?_isa}
+Requires:       dbus
+
 Supplements:    switchboard%{?_isa}
 
 
@@ -40,7 +40,10 @@ Control system power consumption with this Switchboard preference plug.
 %build
 mkdir build && pushd build
 %cmake ..
-%make_build
+
+# Parallel builds hit a race condition and fail
+# https://github.com/elementary/switchboard-plug-power/issues/40
+make
 popd
 
 
@@ -53,6 +56,9 @@ popd
 
 
 %files -f pantheon-power-plug.lang
+%doc README.md
+%license COPYING
+
 %config(noreplace) %{_sysconfdir}/dbus-1/system.d/io.elementary.logind.helper.conf
 
 %{_libdir}/switchboard/hardware/pantheon-power/
@@ -62,6 +68,9 @@ popd
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git171112.174647.cf8fd1ca-2
+- Merge .spec file from elementary-stable.
+
 * Sun Nov 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git171112.174647.cf8fd1ca-1
 - Update to latest snapshot.
 

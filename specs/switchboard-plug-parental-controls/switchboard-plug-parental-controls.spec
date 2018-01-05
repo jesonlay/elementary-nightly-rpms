@@ -1,17 +1,17 @@
-Name:           switchboard-plug-parental-controls
-Summary:        An easy parental controls plug
-Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
-License:        GPLv3
-URL:            https://launchpad.net/switchboard-plug-parental-controls
+%global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+Name:           switchboard-plug-parental-controls
+Summary:        Switchboard Parental Controls plug
+Version:        0.1.3+git%{date}.%{commit}
+Release:        2%{?dist}
+License:        GPLv3
+
+URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
 BuildRequires:  systemd
 BuildRequires:  vala >= 0.34.1
 BuildRequires:  vala-tools
@@ -22,6 +22,8 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
+
+%{?systemd_requires}
 
 Supplements:    switchboard%{?_isa}
 
@@ -48,14 +50,17 @@ popd
 
 %find_lang pantheon-parental-controls-plug
 
+# move systemd unit file to correct location
 mkdir -p %{buildroot}/%{_unitdir}
-mv %{buildroot}/lib/systemd/system/pantheon-parental-controls.service %{buildroot}/%{_unitdir}/
+mv -v %{buildroot}/lib/systemd/system/pantheon-parental-controls.service %{buildroot}/%{_unitdir}/
 
-rm %{buildroot}/%{_libdir}/*.a
+# remove .a files
+find %{buildroot} -name *.a -print -delete
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/pantheon-parental-controls-client.desktop
 
 
 %post
@@ -90,6 +95,9 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
 
 
 %changelog
+* Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git171118.233833.bf0e2f2e-2
+- Merge .spec file from elementary-stable.
+
 * Mon Nov 20 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git171118.233833.bf0e2f2e-1
 - Update to latest snapshot.
 
