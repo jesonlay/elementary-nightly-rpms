@@ -102,12 +102,12 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e00632606a29c58b0bcbf1cae8de1df8a1999aa8",
-            "git_last_date": "171229.081330",
+            "git_last_commit": "f6de3157db8dbb4c3db1733b6a2595d9ad61ff51",
+            "git_last_date": "180105.014852",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         },
         "66": {
@@ -157,8 +157,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a2805961d4fee9a57342a6bb1b087eee9bbb12dc",
-            "git_last_date": "180104.220732",
+            "git_last_commit": "1f52cbd483f21b118667a4aa0a2063b20acd0c88",
+            "git_last_date": "180105.085319",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
@@ -410,12 +410,12 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5910cd45a8bcd96f2cb4872d65df7162eeec47e8",
-            "git_last_date": "180103.010504",
+            "git_last_commit": "b1094cb4d2716b4f504141377203b00142e57bbf",
+            "git_last_date": "180105.085339",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         },
         "97": {
@@ -663,8 +663,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "17101d602710a2934ab77ff054f47e53ca9fa8f4",
-            "git_last_date": "171219.151614",
+            "git_last_commit": "fc57a13d51555556f26a9d4d53a16404213c2802",
+            "git_last_date": "180105.001608",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
