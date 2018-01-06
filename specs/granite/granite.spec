@@ -1,7 +1,7 @@
 Name:           granite
 Summary:        elementary Development Library
 Version:        0.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -102,6 +102,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180106.001654.6cd164a7-1
+- Update to latest snapshot.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.5+git171230.000836.61ca3f67-2
 - Clean up .spec file.
 

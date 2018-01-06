@@ -69,8 +69,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9e1e32926241d2400b9054de381cdb78838bc2b4",
-            "git_last_date": "171228.234201",
+            "git_last_commit": "829369f3232c97273250b95c354cc80d28d8ea4e",
+            "git_last_date": "180106.001704",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
@@ -168,12 +168,12 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "61ca3f67dc274b4dacb18daf1322b62f2c139aac",
-            "git_last_date": "171230.000836",
+            "git_last_commit": "6cd164a70e0259e17f53edb40be18c8d5b4a7df1",
+            "git_last_date": "180106.001654",
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.5+git%{date}.%{commit}"
         },
         "73": {
@@ -223,8 +223,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fc648f733f111f401a1091080449d6cae92a517f",
-            "git_last_date": "180103.061910",
+            "git_last_commit": "6df82f385b34179d34a4834f24fd54becb4ee7a3",
+            "git_last_date": "180106.032641",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -663,8 +663,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fc57a13d51555556f26a9d4d53a16404213c2802",
-            "git_last_date": "180105.001608",
+            "git_last_commit": "b62cbf36e07d7d8ee6444cce8ae5f47ecbda6bc4",
+            "git_last_date": "180106.000312",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
