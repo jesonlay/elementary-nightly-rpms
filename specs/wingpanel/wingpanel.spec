@@ -1,7 +1,7 @@
 Name:           wingpanel
 Summary:        Stylish top panel
 Version:        2.0.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -17,7 +17,8 @@ BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.14
 BuildRequires:  pkgconfig(granite)
-# BuildRequires:  pkgconfig(libnotify)
+
+Requires:       hicolor-icon-theme
 
 
 %description
@@ -74,19 +75,6 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/wingpanel.desktop
 
 
-%post
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-
-
 %post   libs -p /sbin/ldconfig
 %postun libs -p /sbin/ldconfig
 
@@ -122,6 +110,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git171228.191354.fceb2a0e-3
+- Remove icon cache scriptlets.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git171228.191354.fceb2a0e-2
 - Merge .spec file from fedora.
 

@@ -1,7 +1,7 @@
 Summary:        Stupidly simple Dock
 Name:           plank
 Version:        0.11.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
 
@@ -93,29 +93,15 @@ rm -f %{buildroot}/%{_libdir}/plank/*.la
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
-appstream-util validate-relax --nonet %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/*.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/appdata/*.appdata.xml
 
 
-%clean
-rm -rf %{buildroot}
-
-
-%post
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-
-
-%post           libs -p /sbin/ldconfig
-%postun         libs -p /sbin/ldconfig
+%post   libs -p /sbin/ldconfig
+%postun libs -p /sbin/ldconfig
 
 
 %files -f plank.lang
@@ -148,6 +134,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git171010.160931.c845f12e-2
+- Remove icon cache scriptlets.
+
 * Wed Oct 11 2017 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git171010.160931.c845f12e-1
 - Update to latest snapshot.
 

@@ -6,7 +6,7 @@
 Name:           noise
 Summary:        The official elementary music player
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -84,19 +84,8 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%post
-/sbin/ldconfig
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-/sbin/ldconfig
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+%post   -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 
 
 %files -f noise.lang
@@ -127,6 +116,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180105.130246.f6b0d173-2
+- Remove icon cache scriptlets.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180105.130246.f6b0d173-1
 - Update to latest snapshot.
 

@@ -3,7 +3,7 @@
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        0.3.0.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
@@ -29,6 +29,7 @@ BuildRequires:  pkgconfig(webkit2gtk-4.0)
 
 Supplements:    switchboard%{?_isa}
 
+Requires:       hicolor-icon-theme
 Requires:       pantheon-online-accounts%{?_isa} = %{version}-%{release}
 
 
@@ -77,18 +78,6 @@ popd
 %find_lang pantheon-online-accounts
 
 
-%post -n pantheon-online-accounts
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun -n pantheon-online-accounts
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans -n pantheon-online-accounts
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-
 %post   -n pantheon-online-accounts-libs -p /sbin/ldconfig
 %postun -n pantheon-online-accounts-libs -p /sbin/ldconfig
 
@@ -126,6 +115,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171104.071431.369e4703-3
+- Remove icon cache scriptlets.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171104.071431.369e4703-2
 - Merge .spec file from fedora.
 

@@ -1,7 +1,7 @@
 Name:           granite
 Summary:        elementary Development Library
 Version:        0.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -56,22 +56,12 @@ popd
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/granite-demo.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/granite-demo.desktop
 
 
-%post
-/sbin/ldconfig
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-/sbin/ldconfig
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+%post   -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 
 
 %files -f granite.lang
@@ -102,6 +92,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180106.001654.6cd164a7-2
+- Remove icon cache scriptlets.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180106.001654.6cd164a7-1
 - Update to latest snapshot.
 

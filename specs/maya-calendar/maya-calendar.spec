@@ -3,7 +3,7 @@
 Name:           maya-calendar
 Summary:        The official elementary calendar
 Version:        0.4.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -81,20 +81,8 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/appdata/org.pantheon.maya.appdata.xml
 
 
-%post
-/sbin/ldconfig
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-/sbin/ldconfig
-
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
+%post   -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 
 
 %files -f maya-calendar.lang
@@ -127,6 +115,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171227.183038.b95872e5-3
+- Remove icon cache scriptlets.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171227.183038.b95872e5-2
 - Merge .spec file from fedora.
 

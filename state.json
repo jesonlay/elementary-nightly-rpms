@@ -85,7 +85,7 @@
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "3%{?dist}",
             "rpm_last_version": "0.3.0.1+git%{date}.%{commit}"
         },
         "64": {
@@ -107,7 +107,7 @@
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         },
         "66": {
@@ -173,7 +173,7 @@
             "name": "granite",
             "package_name": "granite",
             "package_version": "0.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.5+git%{date}.%{commit}"
         },
         "73": {
@@ -305,7 +305,7 @@
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "3%{?dist}",
             "rpm_last_version": "2.0.4+git%{date}.%{commit}"
         },
         "85": {
@@ -382,7 +382,7 @@
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "4%{?dist}",
             "rpm_last_version": "0.3.0+git%{date}.%{commit}"
         },
         "94": {
@@ -481,7 +481,7 @@
             "name": "plank",
             "package_name": "plank",
             "package_version": "0.11.4",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.11.4+git%{date}.%{commit}"
         },
         "103": {
@@ -525,7 +525,7 @@
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.1.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "107": {
@@ -591,7 +591,7 @@
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "3%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         },
         "115": {
@@ -668,7 +668,7 @@
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
@@ -679,7 +679,7 @@
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "3%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "123": {

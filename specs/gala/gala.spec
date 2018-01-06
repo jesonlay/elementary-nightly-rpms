@@ -3,7 +3,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.0+git%{date}.%{commit}
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -87,19 +87,6 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/gala*.desktop
 
 
-%post
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-
-
 %post   libs -p /sbin/ldconfig
 %postun libs -p /sbin/ldconfig
 
@@ -137,6 +124,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git171217.173134.439fdf6e-4
+- Remove icon cache scriptlets.
+
 * Tue Jan 02 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git171217.173134.439fdf6e-3
 - Add patch so window buttons match fedora's default layout.
 

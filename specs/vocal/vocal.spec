@@ -3,7 +3,7 @@
 Name:           vocal
 Summary:        Powerful, beautiful, and simple podcast client
 Version:        2.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/needle-and-thread/%{name}
@@ -33,6 +33,8 @@ BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(sqlite3)
 BuildRequires:  pkgconfig(unity)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
+
+Requires:       hicolor-icon-theme
 
 
 %description
@@ -78,19 +80,6 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%post
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-
-
 %files -f vocal.lang
 %doc AUTHORS README.md
 %license COPYING
@@ -105,6 +94,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git180103.145139.30277f40-2
+- Remove icon cache scriptlets.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git180103.145139.30277f40-1
 - Update to latest snapshot.
 

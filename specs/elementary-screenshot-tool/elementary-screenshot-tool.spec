@@ -4,7 +4,7 @@
 Name:           elementary-screenshot-tool
 Summary:        Simple screen capture tool
 Version:        0.1.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        LGPLv3
 
 URL:            http://github.com/elementary/%{srcname}
@@ -56,19 +56,6 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
 
 
-%post
-/bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
-
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
-
-
 %files -f %{appname}.lang
 %doc README.md
 %license COPYING
@@ -82,6 +69,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180104.235028.8fc0ea56-3
+- Remove icon cache scriptlets.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180104.235028.8fc0ea56-2
 - Clean up .spec file.
 
