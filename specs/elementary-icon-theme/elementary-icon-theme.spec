@@ -3,7 +3,7 @@
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
 Version:        4.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -42,17 +42,11 @@ rm %{buildroot}/.VolumeIcon.icns
 touch %{buildroot}/%{_datadir}/icons/elementary/icon-theme.cache
 
 
-%post
-/bin/touch --no-create %{_datadir}/icons/elementary &> /dev/null || :
+%transfiletriggerin -- %{_datadir}/icons/elementary
+gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
-%postun
-if [ $1 -eq 0 ] ; then
-    /bin/touch --no-create %{_datadir}/icons/elementary &> /dev/null
-    /usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &> /dev/null || :
-fi
-
-%posttrans
-/usr/bin/gtk-update-icon-cache %{_datadir}/icons/elementary &> /dev/null || :
+%transfiletriggerpostun -- %{_datadir}/icons/elementary
+gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %files
@@ -64,6 +58,9 @@ fi
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180104.200132.842f5c35-2
+- Add file triggers to replace scriptlets.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180104.200132.842f5c35-1
 - Update to latest snapshot.
 
