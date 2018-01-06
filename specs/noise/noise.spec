@@ -6,7 +6,7 @@
 Name:           noise
 Summary:        The official elementary music player
 Version:        0.4.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -116,6 +116,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180106.113604.c205d293-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180105.130246.f6b0d173-2
 - Remove icon cache scriptlets.
 
