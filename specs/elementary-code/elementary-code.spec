@@ -1,13 +1,12 @@
-%global __provides_exclude_from ^%{_libdir}/scratch/.*\\.so$
+%global __provides_exclude_from ^%{_libdir}/io.elementary.code/.*\\.so$
 
 %global srcname scratch
 %global appname io.elementary.code
-%global oldname org.pantheon.scratch
 
 Name:           elementary-code
 Summary:        The text editor that works
 Version:        2.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -128,7 +127,7 @@ popd
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/%{oldname}.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
@@ -145,25 +144,28 @@ appstream-util validate-relax --nonet \
 %{_bindir}/%{appname}
 
 %{_libdir}/%{appname}/
-%{_libdir}/libscratchcore.so.0
-%{_libdir}/libscratchcore.so.0.0
+%{_libdir}/libcodecore.so.0
+%{_libdir}/libcodecore.so.0.0
 
-%{_datadir}/applications/%{oldname}.desktop
-%{_datadir}/glib-2.0/schemas/%{oldname}*.gschema.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}*.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/%{appname}.svg
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 %files devel
-%{_includedir}/scratch/
+%{_includedir}/io.elementary.code/
 
-%{_libdir}/libscratchcore.so
-%{_libdir}/pkgconfig/scratchcore.pc
+%{_libdir}/libcodecore.so
+%{_libdir}/pkgconfig/codecore.pc
 
-%{_datadir}/vala/vapi/scratchcore.deps
-%{_datadir}/vala/vapi/scratchcore.vapi
+%{_datadir}/vala/vapi/codecore.deps
+%{_datadir}/vala/vapi/codecore.vapi
 
 
 %changelog
+* Mon Jan 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180108.201726.899b0b68-2
+- Adapt to upstream file changes.
+
 * Mon Jan 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180108.201726.899b0b68-1
 - Update to latest snapshot.
 
