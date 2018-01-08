@@ -7,7 +7,7 @@
 Name:           elementary-code
 Summary:        The text editor that works
 Version:        2.4.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -164,6 +164,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Jan 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180108.201726.899b0b68-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180106.000312.b62cbf36-2
 - Remove icon cache scriptlets.
 

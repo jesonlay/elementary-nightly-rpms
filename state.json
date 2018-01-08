@@ -366,8 +366,8 @@
         "91": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3b10f5266e4ad3553736e295163ec54a5647ab6e",
-            "git_last_date": "180108.195324",
+            "git_last_commit": "580bb49f29d233adb46d501bd87c7ace1c1eb35b",
+            "git_last_date": "180108.201112",
             "name": "audience",
             "package_name": "audience",
             "package_version": "0.2.4",
@@ -663,12 +663,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b62cbf36e07d7d8ee6444cce8ae5f47ecbda6bc4",
-            "git_last_date": "180106.000312",
+            "git_last_commit": "899b0b68e13d18400ebe6cb99678b5d592b13de1",
+            "git_last_date": "180108.201726",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
