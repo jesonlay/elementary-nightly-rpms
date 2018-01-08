@@ -366,12 +366,12 @@
         "91": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "609036c34d57389935eee759448542d585ad6975",
-            "git_last_date": "171118.230413",
+            "git_last_commit": "3b10f5266e4ad3553736e295163ec54a5647ab6e",
+            "git_last_date": "180108.195324",
             "name": "audience",
             "package_name": "audience",
             "package_version": "0.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         },
         "93": {
@@ -685,8 +685,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7398c3e655806ca110d9c68733e920b10f76d348",
-            "git_last_date": "180105.004430",
+            "git_last_commit": "342f0cbf04181b0155e94679ac7c8f1f4e576e04",
+            "git_last_date": "180108.194503",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
