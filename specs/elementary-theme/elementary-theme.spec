@@ -3,7 +3,7 @@
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -97,6 +97,9 @@ cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %changelog
+* Tue Jan 09 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git180109.204946.0347dcdc-1
+- Update to latest snapshot.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git171231.175903.886c9630-2
 - Merge .spec file from fedora.
 
