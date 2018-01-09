@@ -300,12 +300,12 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fceb2a0e4370d5468e58c1893f64d802400fa877",
-            "git_last_date": "171228.191354",
+            "git_last_commit": "2742b76fe501026c2e0d709bf19c6d27246d7310",
+            "git_last_date": "180109.211653",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.4+git%{date}.%{commit}"
         },
         "85": {
@@ -652,8 +652,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1a42c0a7765517ce259fac8f63b37995ac6bfd3f",
-            "git_last_date": "180103.094831",
+            "git_last_commit": "2a1f43ae8f46e53ca633629d7a976f95151e0f0e",
+            "git_last_date": "180109.210401",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
@@ -685,8 +685,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a4acf10da6ab8575132782cae6e0894548b2a29f",
-            "git_last_date": "180109.002758",
+            "git_last_commit": "d8aa6add4c284d34ae57e199c2b19732cb58c082",
+            "git_last_date": "180109.214125",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
