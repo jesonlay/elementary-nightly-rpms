@@ -652,12 +652,12 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fd0e5f927a6a83552ddab19f0bc1b7e7ad97039c",
-            "git_last_date": "180110.000212",
+            "git_last_commit": "ce8e3d02a3335ade5d9056f32886e9d03c2de5c1",
+            "git_last_date": "180110.111640",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.3+git%{date}.%{commit}"
         },
         "121": {
