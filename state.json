@@ -102,8 +102,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b3e5a46d4304a36489c0cb60341fdb85aa27ad3",
-            "git_last_date": "180108.121338",
+            "git_last_commit": "2e72b68de97ccaed7339d615026c4b2b4f49b4d8",
+            "git_last_date": "180110.093855",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -223,8 +223,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "856fb2bd1843cffd8535cef9a1bdb0ea452e0c38",
-            "git_last_date": "180109.180237",
+            "git_last_commit": "6aa44990506796c48b627a2b266bc26609e6a904",
+            "git_last_date": "180110.040207",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -630,8 +630,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93df54132214a2542c778c43ed7475202594b751",
-            "git_last_date": "180109.180210",
+            "git_last_commit": "296951985912a68d7c495c09b2cccb465af53d2a",
+            "git_last_date": "180110.000139",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -652,8 +652,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2a1f43ae8f46e53ca633629d7a976f95151e0f0e",
-            "git_last_date": "180109.210401",
+            "git_last_commit": "fd0e5f927a6a83552ddab19f0bc1b7e7ad97039c",
+            "git_last_date": "180110.000212",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
