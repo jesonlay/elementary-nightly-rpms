@@ -1,12 +1,12 @@
 %global __provides_exclude_from ^%{_libdir}/noise/.*\\.so$
 
 %global srcname music
-%global appname org.pantheon.noise
+%global appname io.elementary.music
 
 Name:           noise
 Summary:        The official elementary music player
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -27,10 +27,15 @@ BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires:  pkgconfig(gstreamer-tag-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
+BuildRequires:  pkgconfig(json-glib-1.0)
+BuildRequires:  pkgconfig(libaccounts-glib)
 BuildRequires:  pkgconfig(libgda-5.0)
+BuildRequires:  pkgconfig(libgpod-1.0)
+BuildRequires:  pkgconfig(libgsignon-glib)
 BuildRequires:  pkgconfig(libnotify)
 BuildRequires:  pkgconfig(libpeas-1.0)
 BuildRequires:  pkgconfig(libpeas-gtk-1.0)
+BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(taglib_c)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
@@ -73,7 +78,7 @@ pushd build
 %make_install
 popd
 
-%find_lang noise
+%find_lang %{appname}
 
 
 %check
@@ -88,17 +93,18 @@ appstream-util validate-relax --nonet \
 %postun -p /sbin/ldconfig
 
 
-%files -f noise.lang
+%files -f %{appname}.lang
 %doc README.md
 %license COPYING
 
-%{_bindir}/noise
+%{_bindir}/%{appname}
 
-%{_libdir}/libnoise-core.so.0
-%{_libdir}/libnoise-core.so.0.1
+%{_libdir}/lib%{appname}-core.so.0
+%{_libdir}/lib%{appname}-core.so.0.1
 
-%{_libdir}/noise/
+%{_libdir}/%{appname}/
 
+%{_datadir}/accounts/applications/noise-lastfm.application
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
@@ -106,16 +112,19 @@ appstream-util validate-relax --nonet \
 
 
 %files devel
-%{_libdir}/libnoise-core.so
-%{_libdir}/pkgconfig/noise-core.pc
+%{_libdir}/lib%{appname}-core.so
+%{_libdir}/pkgconfig/%{appname}-core.pc
 
-%{_includedir}/noise-core/
+%{_includedir}/%{appname}-core/
 
-%{_datadir}/vala/vapi/noise-core.deps
-%{_datadir}/vala/vapi/noise-core.vapi
+%{_datadir}/vala/vapi/%{appname}-core.deps
+%{_datadir}/vala/vapi/%{appname}-core.vapi
 
 
 %changelog
+* Mon Jan 15 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180114.203828.063d3ef8-2
+- Adapt to upstream file changes.
+
 * Mon Jan 15 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180114.203828.063d3ef8-1
 - Update to latest snapshot.
 
