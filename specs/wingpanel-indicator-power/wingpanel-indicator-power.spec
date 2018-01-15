@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-power
 Summary:        Power indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -58,6 +58,9 @@ popd
 
 
 %changelog
+* Mon Jan 15 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180113.171806.5c4d7256-1
+- Update to latest snapshot.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git170801.180504.e4a9c434-2
 - Merge .spec file from fedora.
 

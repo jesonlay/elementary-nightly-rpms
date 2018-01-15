@@ -3,7 +3,7 @@
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
 Version:        4.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -58,6 +58,9 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %changelog
+* Mon Jan 15 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180114.161110.d37ba2d1-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180104.200132.842f5c35-2
 - Add file triggers to replace scriptlets.
 

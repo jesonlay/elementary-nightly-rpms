@@ -3,12 +3,12 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "842f5c35ab1d7081edf2c924871ca7e912244fde",
-            "git_last_date": "180104.200132",
+            "git_last_commit": "d37ba2d197238ffef1bd9f71a67ef055fdeacd55",
+            "git_last_date": "180114.161110",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "4.3.1+git%{date}.%{commit}"
         },
         "10": {
@@ -102,8 +102,8 @@
         "65": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bfa29dd2dee33fc54d1cbe7bf7ab374bad21e830",
-            "git_last_date": "180111.212224",
+            "git_last_commit": "063d3ef81bdffe331a996aa165bb0b46565c6f6f",
+            "git_last_date": "180114.203828",
             "name": "noise",
             "package_name": "noise",
             "package_version": "0.4.2",
@@ -135,12 +135,12 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e4a9c434ae7aaf7ef7876ca4e94161ad7ae36d93",
-            "git_last_date": "170801.180504",
+            "git_last_commit": "5c4d7256bde83213760550a54572c49f61b425b3",
+            "git_last_date": "180113.171806",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "69": {
@@ -553,12 +553,12 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "974d3f19c9b89ba77822cc8ea4b4bbebb93d29fd",
-            "git_last_date": "170921.170550",
+            "git_last_commit": "1c705944b0ed31640dbba3bbd6fc74ea66c675f1",
+            "git_last_date": "180114.114129",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         },
         "110": {
@@ -630,8 +630,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cba1186c0e05bfe66cc7a453a91a0fcfd4b780da",
-            "git_last_date": "180111.175854",
+            "git_last_commit": "b657781e842c3d82f67717c189b0895763609d97",
+            "git_last_date": "180113.201114",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -652,8 +652,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ce8e3d02a3335ade5d9056f32886e9d03c2de5c1",
-            "git_last_date": "180110.111640",
+            "git_last_commit": "3c3448e49ab12903fb26b03cb44883adc9bb8ba5",
+            "git_last_date": "180113.171426",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
@@ -663,8 +663,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "63bf2a425c8973eb263e9b4c09f8208d38c7602d",
-            "git_last_date": "180111.160157",
+            "git_last_commit": "9961a0706382dcc7693b01155341c05cb48c7b19",
+            "git_last_date": "180112.191811",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",

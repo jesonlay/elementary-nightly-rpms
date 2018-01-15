@@ -3,7 +3,7 @@
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
 Version:        0.2.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -58,6 +58,9 @@ popd
 
 
 %changelog
+* Mon Jan 15 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180114.114129.1c705944-1
+- Update to latest snapshot.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git170921.170550.974d3f19-2
 - Merge .spec file from fedora.
 
