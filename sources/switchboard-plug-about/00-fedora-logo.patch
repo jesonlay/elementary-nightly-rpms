@@ -1,0 +1,13 @@
+diff --git a/src/Plug.vala b/src/Plug.vala
+index c51e353..deed748 100644
+--- a/src/Plug.vala
++++ b/src/Plug.vala
+@@ -140,7 +140,7 @@ public class About.Plug : Switchboard.Plug {
+     private void setup_ui () {
+         // Create the section about elementary OS
+         var logo = new Gtk.Image ();
+-        logo.icon_name = "distributor-logo";
++        logo.icon_name = "fedora-logo-icon";
+         logo.pixel_size = 128;
+         logo.hexpand = true;
+ 
