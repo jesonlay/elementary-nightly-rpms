@@ -3,7 +3,7 @@
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
 Version:        0.1.0.99+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -58,6 +58,9 @@ popd
 
 
 %changelog
+* Tue Jan 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180116.193107.f647e121-1
+- Update to latest snapshot.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git171111.174242.a1000f53-2
 - Merge .spec file from fedora.
 

@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-network
 Summary:        Network Indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -57,6 +57,9 @@ popd
 
 
 %changelog
+* Tue Jan 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180116.192304.2954c6b9-1
+- Update to latest snapshot.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git171229.012743.d2b05bfb-2
 - Merge .spec file from fedora.
 

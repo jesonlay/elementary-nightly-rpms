@@ -1,7 +1,7 @@
 Name:           contractor
 Summary:        Desktop-wide extension service
 Version:        0.3.2.99+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -56,6 +56,9 @@ mkdir -p %{buildroot}/%{_datadir}/contractor
 
 
 %changelog
+* Tue Jan 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git180116.191246.77e95066-1
+- Update to latest snapshot.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git171118.235115.61083363-2
 - Merge .spec file from fedora.
 

@@ -355,8 +355,8 @@
         "91": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "580bb49f29d233adb46d501bd87c7ace1c1eb35b",
-            "git_last_date": "180108.201112",
+            "git_last_commit": "515f0bd99d42821df33d42d0155e75e4cd6575ac",
+            "git_last_date": "180116.191829",
             "name": "audience",
             "package_name": "audience",
             "package_version": "0.2.4",
@@ -388,12 +388,12 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d2b05bfbe18aaa0d4ff2e48bd851c6af0727f672",
-            "git_last_date": "171229.012743",
+            "git_last_commit": "2954c6b91492322ac0aa9743a0b53cf6ccd4fee7",
+            "git_last_date": "180116.192304",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "96": {
@@ -564,12 +564,12 @@
         "111": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "61083363f8401e743a3d3be5bef107d3e2f8f972",
-            "git_last_date": "171118.235115",
+            "git_last_commit": "77e95066a426603d9cbca5dd1d427eb0f685bdb7",
+            "git_last_date": "180116.191246",
             "name": "contractor",
             "package_name": "contractor",
             "package_version": "0.3.2.99",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.2.99+git%{date}.%{commit}"
         },
         "112": {
@@ -586,12 +586,12 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a1000f53c06143c4c736793756fc396c16242809",
-            "git_last_date": "171111.174242",
+            "git_last_commit": "f647e121bcaec50719ba40857ac91bed165ee219",
+            "git_last_date": "180116.193107",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.0.99",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.0.99+git%{date}.%{commit}"
         },
         "116": {
