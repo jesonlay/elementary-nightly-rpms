@@ -542,12 +542,12 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c705944b0ed31640dbba3bbd6fc74ea66c675f1",
-            "git_last_date": "180114.114129",
+            "git_last_commit": "1d19504fff86ffb0a202cf0f50b5b85bbe0447e5",
+            "git_last_date": "180117.181130",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.4+git%{date}.%{commit}"
         },
         "110": {
