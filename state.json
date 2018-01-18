@@ -355,8 +355,8 @@
         "91": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4300bb46a0330294044beff11616a7854b163cd6",
-            "git_last_date": "180117.124001",
+            "git_last_commit": "feea6ddc990ba8c7e95e34e8bcfa12f3998477c2",
+            "git_last_date": "180118.154753",
             "name": "audience",
             "package_name": "audience",
             "package_version": "0.2.4",
