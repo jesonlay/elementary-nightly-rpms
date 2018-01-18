@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-keyboard
 Summary:        Keyboard Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -53,6 +53,9 @@ popd
 
 
 %changelog
+* Thu Jan 18 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180118.180122.d53c0da0-1
+- Update to latest snapshot.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180105.085319.1f52cbd4-2
 - Merge .spec file from fedora.
 
