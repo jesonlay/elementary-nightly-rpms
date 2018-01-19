@@ -3,7 +3,7 @@
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        0.3.0.1+git%{date}.%{commit}
-Release:        3%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
@@ -115,6 +115,9 @@ popd
 
 
 %changelog
+* Fri Jan 19 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git180119.124731.fe7d6b39-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git171104.071431.369e4703-3
 - Remove icon cache scriptlets.
 

@@ -80,12 +80,12 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "369e4703f31306d68194b58e6b30959910579539",
-            "git_last_date": "171104.071431",
+            "git_last_commit": "fe7d6b39150cf42fe2177fc30ea829a686f6cdd0",
+            "git_last_date": "180119.124731",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.0.1",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.0.1+git%{date}.%{commit}"
         },
         "64": {
