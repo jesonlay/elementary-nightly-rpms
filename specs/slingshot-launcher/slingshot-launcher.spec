@@ -5,7 +5,7 @@
 Name:           slingshot-launcher
 Summary:        Lightweight and stylish app launcher
 Version:        2.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -73,6 +73,9 @@ popd
 
 
 %changelog
+* Fri Jan 19 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git180119.112556.030597e1-1
+- Update to latest snapshot.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git171230.000226.a7aa39a3-2
 - Merge .spec file from fedora.
 

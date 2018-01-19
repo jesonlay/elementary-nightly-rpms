@@ -3,7 +3,7 @@
 Name:           maya-calendar
 Summary:        The official elementary calendar
 Version:        0.4.1+git%{date}.%{commit}
-Release:        3%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -115,6 +115,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Jan 19 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git180119.113821.fbc568b2-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git171227.183038.b95872e5-3
 - Remove icon cache scriptlets.
 

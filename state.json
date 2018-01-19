@@ -201,12 +201,12 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a7aa39a3c0e90ca5a5f8b1d23dd2cda0b5485008",
-            "git_last_date": "171230.000226",
+            "git_last_commit": "030597e13f0ebe28360b718019698e6931534854",
+            "git_last_date": "180119.112556",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "77": {
@@ -344,12 +344,12 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e2ba68da7835058b1a5f0b0c76b8a3947cf25e0c",
-            "git_last_date": "180103.020349",
+            "git_last_commit": "c580f50231bc280b4d0a4a4306eb9f99ece66524",
+            "git_last_date": "180119.115108",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.0+git%{date}.%{commit}"
         },
         "91": {
@@ -377,12 +377,12 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "940975c1e192ebc63a15d95aad5b5cae523e7bd4",
-            "git_last_date": "171218.142123",
+            "git_last_commit": "1f101ad24bfaa1d8f5bece0a1edff7cef2f3489d",
+            "git_last_date": "180119.112013",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         },
         "95": {
@@ -575,12 +575,12 @@
         "112": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b95872e5908137fa288dd6f3af3830603bbe5f80",
-            "git_last_date": "171227.183038",
+            "git_last_commit": "fbc568b224a0ebd2ff3986644631427eec83b755",
+            "git_last_date": "180119.113821",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.1",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         },
         "115": {

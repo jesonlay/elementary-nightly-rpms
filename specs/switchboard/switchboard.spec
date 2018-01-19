@@ -3,7 +3,7 @@
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -117,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Jan 19 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180119.115108.c580f502-1
+- Update to latest snapshot.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180103.020349.e2ba68da-2
 - Merge .spec file from fedora.
 

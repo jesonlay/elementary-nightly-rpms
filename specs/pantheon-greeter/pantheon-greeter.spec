@@ -3,7 +3,7 @@
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -93,6 +93,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Fri Jan 19 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180119.112013.1f101ad2-1
+- Update to latest snapshot.
+
 * Wed Jan 03 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git171218.142123.940975c1-2
 - Merge .spec file from fedora.
 
