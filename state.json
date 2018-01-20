@@ -300,12 +300,12 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a4905330160d78bd964f4502b19b17a46b8da0b",
-            "git_last_date": "180102.160012",
+            "git_last_commit": "b71f41a0cd2a70477028da1199d7e0445003a0dd",
+            "git_last_date": "180120.033545",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.4+git%{date}.%{commit}"
         },
         "86": {
@@ -652,8 +652,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07d814d5fc973a48ce7c9c015e841b9a58cb67db",
-            "git_last_date": "180117.192407",
+            "git_last_commit": "e959a13c50bf718c4dd685564daeb11469cb266f",
+            "git_last_date": "180120.020812",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
