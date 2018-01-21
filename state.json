@@ -619,8 +619,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d631383fc058e11a1e8c5a8fa553bd98b9e7e9d5",
-            "git_last_date": "180120.114454",
+            "git_last_commit": "d93398b19ff64d9d570d2553f089ea1c1566eac4",
+            "git_last_date": "180121.000519",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -630,8 +630,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c20a59cb649afacc9096613646f6f9e58562af90",
-            "git_last_date": "180119.190020",
+            "git_last_commit": "e7fdc59c4ee6c5591f4dae8ae77896e1e804ef47",
+            "git_last_date": "180121.013249",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.4",
@@ -674,8 +674,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d8aa6add4c284d34ae57e199c2b19732cb58c082",
-            "git_last_date": "180109.214125",
+            "git_last_commit": "8316cf518da58ecfeea5979fb69e4fa9a6eb6965",
+            "git_last_date": "180118.000409",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
