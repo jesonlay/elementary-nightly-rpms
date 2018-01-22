@@ -135,12 +135,12 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dfaae03c4f0c35c5ac1dad9f4f1ba95f9ec5fdda",
-            "git_last_date": "180102.234041",
+            "git_last_commit": "97de7c27b5e62770a985672d617137720743ece9",
+            "git_last_date": "180122.145550",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "70": {
@@ -630,8 +630,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e7fdc59c4ee6c5591f4dae8ae77896e1e804ef47",
-            "git_last_date": "180121.013249",
+            "git_last_commit": "8d7651023d97a3ba475cf39aacf28b334143c8df",
+            "git_last_date": "180122.145746",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.4",

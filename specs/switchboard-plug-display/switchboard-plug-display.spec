@@ -3,7 +3,7 @@
 Name:           switchboard-plug-display
 Summary:        Switchboard Display plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -55,6 +55,9 @@ popd
 
 
 %changelog
+* Mon Jan 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180122.145550.97de7c27-1
+- Update to latest snapshot.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180102.234041.dfaae03c-2
 - Merge .spec file from fedora.
 
