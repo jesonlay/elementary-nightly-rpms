@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9c651f38e6b3bee420d85c2fb1fcba85b0ddf43c",
-            "git_last_date": "180123.155523",
+            "git_last_commit": "7f5f8eaae2d903ca7de931277e2bf02718bc3d0a",
+            "git_last_date": "180123.162207",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f1e0cff7bfe04d3d50fcd698d94eedd1459bead9",
-            "git_last_date": "180119.192559",
+            "git_last_commit": "63397cdfe5297a547e4a806cc8fd7803de1c6869",
+            "git_last_date": "180123.164005",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -289,8 +289,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2742b76fe501026c2e0d709bf19c6d27246d7310",
-            "git_last_date": "180109.211653",
+            "git_last_commit": "13b6f31a61cce0673337c23c0b049820961afec1",
+            "git_last_date": "180123.164115",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
