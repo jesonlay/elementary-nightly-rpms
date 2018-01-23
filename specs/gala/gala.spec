@@ -3,7 +3,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.0+git%{date}.%{commit}
-Release:        4%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -124,6 +124,9 @@ desktop-file-validate \
 
 
 %changelog
+* Tue Jan 23 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git180123.154241.d76c89b6-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git171217.173134.439fdf6e-4
 - Remove icon cache scriptlets.
 

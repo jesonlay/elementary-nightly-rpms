@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93fb5a4bc837c5012aaebe679aa56f72b5d929eb",
-            "git_last_date": "180123.000558",
+            "git_last_commit": "9c651f38e6b3bee420d85c2fb1fcba85b0ddf43c",
+            "git_last_date": "180123.155523",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -366,12 +366,12 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "439fdf6e28e92b1feddcbb751a87c66b8fc2c4cf",
-            "git_last_date": "171217.173134",
+            "git_last_commit": "d76c89b635525c4e46918bcca5208dd80e7c4c63",
+            "git_last_date": "180123.154241",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
-            "rpm_last_release": "4%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.0+git%{date}.%{commit}"
         },
         "94": {
