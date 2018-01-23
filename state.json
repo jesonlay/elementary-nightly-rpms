@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7f5f8eaae2d903ca7de931277e2bf02718bc3d0a",
-            "git_last_date": "180123.162207",
+            "git_last_commit": "e3a02b71ee4f7471ed2d12ec11f68f353edb77bb",
+            "git_last_date": "180123.170619",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -586,8 +586,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f647e121bcaec50719ba40857ac91bed165ee219",
-            "git_last_date": "180116.193107",
+            "git_last_commit": "8c9b08dd100b2632786f52c54572d8b3ab638fa3",
+            "git_last_date": "180123.170518",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.0.99",
@@ -619,8 +619,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d93398b19ff64d9d570d2553f089ea1c1566eac4",
-            "git_last_date": "180121.000519",
+            "git_last_commit": "6c04686680b3b921bde0bf69567f3a5cd6ff3fa3",
+            "git_last_date": "180123.172756",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -674,8 +674,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8316cf518da58ecfeea5979fb69e4fa9a6eb6965",
-            "git_last_date": "180118.000409",
+            "git_last_commit": "1f3f46b7a30b3897b5891bfe960b73f06e368663",
+            "git_last_date": "180123.175742",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
