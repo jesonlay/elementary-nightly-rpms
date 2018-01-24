@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "aeab31bfcb517b7343e58749cbfc0e35ad2324c0",
-            "git_last_date": "180123.204619",
+            "git_last_commit": "52aeaedfd168f87742662e3cbe3ce942e1b8f25d",
+            "git_last_date": "180124.062628",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "63397cdfe5297a547e4a806cc8fd7803de1c6869",
-            "git_last_date": "180123.164005",
+            "git_last_commit": "eefb3e27231a4cab8a4a21618c3c55e8d786ce78",
+            "git_last_date": "180124.000450",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -619,8 +619,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c04686680b3b921bde0bf69567f3a5cd6ff3fa3",
-            "git_last_date": "180123.172756",
+            "git_last_commit": "d17099fe2038689c324b807998c7bbfacd13cd88",
+            "git_last_date": "180124.000352",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
