@@ -366,8 +366,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d76c89b635525c4e46918bcca5208dd80e7c4c63",
-            "git_last_date": "180123.154241",
+            "git_last_commit": "f90fc625e35e5605d1136908f938afe991d0bec8",
+            "git_last_date": "180124.123948",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
@@ -652,8 +652,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4969d443b9ccd0925305bb626fb6ecc6114485b6",
-            "git_last_date": "180123.221341",
+            "git_last_commit": "d3ab6ba948cd0ab5f9a3e6d3ef7e278d309733ea",
+            "git_last_date": "180124.123947",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
