@@ -3,7 +3,7 @@
 Name:           switchboard-plug-power
 Summary:        Switchboard Power Plug
 Version:        0.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -68,6 +68,9 @@ popd
 
 
 %changelog
+* Fri Jan 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180125.102055.8de48329-2
+- Adapt patch to upstream changes.
+
 * Thu Jan 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180125.102055.8de48329-1
 - Update to latest snapshot.
 
