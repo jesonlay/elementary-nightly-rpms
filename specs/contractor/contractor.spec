@@ -56,6 +56,9 @@ mkdir -p %{buildroot}/%{_datadir}/contractor
 
 
 %changelog
+* Fri Jan 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git180126.160520.1021e36a-1
+- Update to latest snapshot.
+
 * Tue Jan 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git180116.191246.77e95066-1
 - Update to latest snapshot.
 
