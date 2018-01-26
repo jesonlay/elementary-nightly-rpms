@@ -1,7 +1,7 @@
 Name:           granite
 Summary:        elementary Development Library
 Version:        0.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -92,6 +92,9 @@ desktop-file-validate \
 
 
 %changelog
+* Fri Jan 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180126.194350.c5794dcb-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180106.001654.6cd164a7-2
 - Remove icon cache scriptlets.
 
