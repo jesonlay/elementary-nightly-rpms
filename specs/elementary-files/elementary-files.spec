@@ -1,4 +1,5 @@
 %global __provides_exclude_from ^%{_libdir}/(gtk-3.0)|(io.elementary.files)/.*\\.so$
+%undefine _strict_symbol_defs_build
 
 %global srcname files
 %global appname io.elementary.files
@@ -6,7 +7,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        0.3.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -127,6 +128,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Jan 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180125.183753.39e4e386-2
+- Be lazy about undefined symbols in plugins.
+
 * Thu Jan 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180125.183753.39e4e386-1
 - Update to latest snapshot.
 

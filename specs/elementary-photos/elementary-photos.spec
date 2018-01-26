@@ -1,4 +1,5 @@
 %global __provides_exclude_from ^%{_libdir}/pantheon-photos/.*\\.so$
+%undefine _strict_symbol_defs_build
 
 %global srcname photos
 %global appname io.elementary.photos
@@ -7,7 +8,7 @@
 Name:           elementary-photos
 Summary:        elementary photo manager and viewer
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -105,6 +106,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Jan 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180125.164948.cdce74af-2
+- Be lazy about undefined symbols in plugins.
+
 * Thu Jan 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180125.164948.cdce74af-1
 - Update to latest snapshot.
 
