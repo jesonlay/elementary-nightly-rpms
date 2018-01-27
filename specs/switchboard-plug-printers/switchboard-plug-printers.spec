@@ -3,7 +3,7 @@
 Name:           switchboard-plug-printers
 Summary:        Switchboard Printers Plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -58,6 +58,9 @@ popd
 
 
 %changelog
+* Sat Jan 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180127.000726.7ee3abdc-1
+- Update to latest snapshot.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171218.230950.452845c5-2
 - Merge .spec file from fedora.
 
