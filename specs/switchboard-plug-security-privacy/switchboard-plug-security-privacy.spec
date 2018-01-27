@@ -3,7 +3,7 @@
 Name:           switchboard-plug-security-privacy
 Summary:        Switchboard Privacy and Security Plug
 Version:        0.1.2.99+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -64,6 +64,9 @@ popd
 
 
 %changelog
+* Sat Jan 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git180109.001825.23143ac7-1
+- Update to latest snapshot.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git171119.000900.ec7d8c7e-2
 - Merge .spec file from elementary-stable.
 

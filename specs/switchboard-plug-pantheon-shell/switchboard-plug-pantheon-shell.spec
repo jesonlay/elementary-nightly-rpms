@@ -3,7 +3,7 @@
 Name:           switchboard-plug-pantheon-shell
 Summary:        Switchboard Pantheon Shell plug
 Version:        0.2.6+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -67,6 +67,9 @@ popd
 
 
 %changelog
+* Sat Jan 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180104.091549.ed312565-1
+- Update to latest snapshot.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git171201.174945.6d5d8ee5-2
 - Merge .spec file from fedora.
 

@@ -3,7 +3,7 @@
 Name:           switchboard-plug-applications
 Summary:        Switchboard Applications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            http://github.com/elementary/%{name}
@@ -54,6 +54,9 @@ popd
 
 
 %changelog
+* Sat Jan 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171226.000956.a480ecf7-1
+- Update to latest snapshot.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git171118.233212.252a4e74-2
 - Merge .spec file from fedora.
 

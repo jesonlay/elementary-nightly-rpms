@@ -3,7 +3,7 @@
 Name:           switchboard-plug-locale
 Summary:        Adjust Locale settings from Switchboard
 Version:        0.2.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -60,6 +60,9 @@ popd
 
 
 %changelog
+* Sat Jan 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git180127.213622.8d496160-1
+- Update to latest snapshot.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git171219.192024.6e16c70c-2
 - Merge .spec file from elementary-stable.
 

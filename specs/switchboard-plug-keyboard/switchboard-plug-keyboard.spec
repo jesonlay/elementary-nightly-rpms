@@ -3,7 +3,7 @@
 Name:           switchboard-plug-keyboard
 Summary:        Switchboard Keyboard plug
 Version:        0.3.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -59,6 +59,9 @@ popd
 
 
 %changelog
+* Sat Jan 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180123.000629.c12e152e-1
+- Update to latest snapshot.
+
 * Thu Jan 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git171110.205845.234458c7-2
 - Merge .spec file from fedora.
 
