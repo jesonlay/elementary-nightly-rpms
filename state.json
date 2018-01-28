@@ -190,8 +190,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a0c64ff48032271537b7293165d8d5fc5114b57a",
-            "git_last_date": "180128.053700",
+            "git_last_commit": "28f521064e6add92b40e3a384258d2fcfa57aa7f",
+            "git_last_date": "180128.111747",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
