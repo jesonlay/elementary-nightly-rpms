@@ -91,8 +91,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "be6809679e79b947396aae1f47670cc97d6af7c1",
-            "git_last_date": "180127.212837",
+            "git_last_commit": "3f70c27e7302eb13ed20a40d3d8c80657e9abcb3",
+            "git_last_date": "180130.172949",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
@@ -190,8 +190,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a5d04db796d6b3b07f68aca71c88cc08e0e42bfb",
-            "git_last_date": "180129.175630",
+            "git_last_commit": "d53e83696debab8f38c1d1550a04784c23cb52f3",
+            "git_last_date": "180130.142127",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "555a0701c1d85edbf54d07fb7cce5eca1e248a57",
-            "git_last_date": "180130.000820",
+            "git_last_commit": "7890f52a63168e6b384ff168130c3b2ce78e5aa8",
+            "git_last_date": "180130.143318",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -366,8 +366,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f90fc625e35e5605d1136908f938afe991d0bec8",
-            "git_last_date": "180124.123948",
+            "git_last_commit": "c0eb426f817e184c811a76f2acb8063361bda501",
+            "git_last_date": "180130.135930",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
