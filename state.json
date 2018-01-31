@@ -58,8 +58,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07b15c0d172694f0f1f200d294b3d84a901691f6",
-            "git_last_date": "180129.000221",
+            "git_last_commit": "38e948945ab10727b9e53d26f0365131e49e762c",
+            "git_last_date": "180131.000929",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.6",
@@ -190,8 +190,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d53e83696debab8f38c1d1550a04784c23cb52f3",
-            "git_last_date": "180130.142127",
+            "git_last_commit": "a8b6d65db887c57d1320641d75983e6a47435ef9",
+            "git_last_date": "180131.000944",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -630,8 +630,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1ef2492e5fa00dd933f4fd50432f8dccc9babf03",
-            "git_last_date": "180125.164951",
+            "git_last_commit": "26bb033191be2a6f3f079704a7f19e89ca58fe58",
+            "git_last_date": "180131.000935",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.4",
