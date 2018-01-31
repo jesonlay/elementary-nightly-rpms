@@ -1,4 +1,5 @@
 %global __provides_exclude_from ^%{_libdir}/io.elementary.code/.*\\.so$
+%undefine _strict_symbol_defs_build
 
 %global srcname scratch
 %global appname io.elementary.code
@@ -6,7 +7,7 @@
 Name:           elementary-code
 Summary:        The text editor that works
 Version:        2.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -163,6 +164,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Jan 31 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180129.195832.b8629598-2
+- Be lazy about undefined symbols in plugins.
+
 * Mon Jan 29 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180129.195832.b8629598-1
 - Update to latest snapshot.
 

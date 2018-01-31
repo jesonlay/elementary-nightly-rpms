@@ -1,4 +1,5 @@
 %global __provides_exclude_from ^%{_libdir}/io.elementary.music/.*\\.so$
+%undefine _strict_symbol_defs_build
 
 %global srcname music
 %global appname io.elementary.music
@@ -6,7 +7,7 @@
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -126,6 +127,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Jan 31 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180129.000226.e57fd5df-2
+- Be lazy about undefined symbols in plugins.
+
 * Mon Jan 29 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180129.000226.e57fd5df-1
 - Update to latest snapshot.
 
