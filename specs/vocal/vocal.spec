@@ -3,7 +3,7 @@
 Name:           vocal
 Summary:        Powerful, beautiful, and simple podcast client
 Version:        2.1.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/needle-and-thread/%{name}
@@ -94,6 +94,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Feb 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git180201.002338.efc12c33-1
+- Update to latest snapshot.
+
 * Sat Jan 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git180103.145139.30277f40-2
 - Remove icon cache scriptlets.
 
