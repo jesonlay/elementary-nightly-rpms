@@ -91,8 +91,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3f70c27e7302eb13ed20a40d3d8c80657e9abcb3",
-            "git_last_date": "180130.172949",
+            "git_last_commit": "f2f49553cdaf9a6b09bf97e9edcb12b69eb17808",
+            "git_last_date": "180206.201107",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
@@ -146,8 +146,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "67e463cdba87287b233254fe6f522afefe4523f9",
-            "git_last_date": "180205.001353",
+            "git_last_commit": "640306b13941e6dbffe78bcccd59a6f2815da748",
+            "git_last_date": "180206.202531",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
@@ -223,12 +223,12 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cc7b643108b4f9edd70ccec329d1bffc3e9d876e",
-            "git_last_date": "180102.235703",
+            "git_last_commit": "f278ea11a15d83bf30e6c512b9f015e71919b2db",
+            "git_last_date": "180206.202826",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.0.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+git%{date}.%{commit}"
         },
         "79": {
@@ -410,8 +410,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "94cd22232c74b89174e8b390d96cf8c037ef0594",
-            "git_last_date": "180206.192818",
+            "git_last_commit": "48dbc0e01ba0e7b5743c911502550dd9d8897cd4",
+            "git_last_date": "180206.201803",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "0.1.2",
@@ -652,12 +652,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b8629598312a4f82baf8f55bab4d9a49d3de7f76",
-            "git_last_date": "180129.195832",
+            "git_last_commit": "714fc7671237af703ba7ef5ff9bae66503f940f3",
+            "git_last_date": "180206.200848",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
@@ -685,12 +685,12 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "91ad20f9d95fd60afb231c2f3bb790dc2fb0efbe",
-            "git_last_date": "180206.001054",
+            "git_last_commit": "116b5497da42a40f27a8f87334eb84ebf6156ca1",
+            "git_last_date": "180206.205106",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         }
     }
