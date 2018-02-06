@@ -7,7 +7,7 @@
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -103,8 +103,7 @@ appstream-util validate-relax --nonet \
 # FIXME
 %{_libdir}/lib%{appname}-core.so
 
-# FIXME
-%{_libdir}/music/
+%{_libdir}/%{appname}/
 
 %{_datadir}/accounts/applications/noise-lastfm.application
 %{_datadir}/applications/%{appname}.desktop
@@ -116,7 +115,8 @@ appstream-util validate-relax --nonet \
 
 
 %files devel
-#%{_libdir}/lib%{appname}-core.so FIXME
+# FIXME
+#%%{_libdir}/lib%%{appname}-core.so
 %{_libdir}/pkgconfig/%{appname}-core.pc
 
 %{_includedir}/%{appname}-core.h
@@ -126,6 +126,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Feb 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180206.205106.116b5497-2
+- Adapt to upstream file changes.
+
 * Tue Feb 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180206.205106.116b5497-1
 - Update to latest snapshot.
 
