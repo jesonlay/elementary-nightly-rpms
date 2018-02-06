@@ -7,16 +7,16 @@
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
+BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
+BuildRequires:  meson
 BuildRequires:  libappstream-glib
 BuildRequires:  vala >= 0.26
 
@@ -72,16 +72,12 @@ This package contains files needed for developing with Music.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{appname}
 
@@ -104,29 +100,35 @@ appstream-util validate-relax --nonet \
 
 %{_bindir}/%{appname}
 
-%{_libdir}/lib%{appname}-core.so.0
-%{_libdir}/lib%{appname}-core.so.0.1
+# FIXME
+%{_libdir}/lib%{appname}-core.so
 
-%{_libdir}/%{appname}/
+# FIXME
+%{_libdir}/music/
 
 %{_datadir}/accounts/applications/noise-lastfm.application
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
-%{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
+
+# FIXME
+%{_datadir}/icons/hicolor/multimedia-audio-player.svg
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files devel
-%{_libdir}/lib%{appname}-core.so
+#%{_libdir}/lib%{appname}-core.so FIXME
 %{_libdir}/pkgconfig/%{appname}-core.pc
 
-%{_includedir}/%{appname}-core/
+%{_includedir}/%{appname}-core.h
 
 %{_datadir}/vala/vapi/%{appname}-core.deps
 %{_datadir}/vala/vapi/%{appname}-core.vapi
 
 
 %changelog
+* Tue Feb 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180206.001054.91ad20f9-2
+- Adapt to cmake -> meson switch.
+
 * Tue Feb 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180206.001054.91ad20f9-1
 - Update to latest snapshot.
 
