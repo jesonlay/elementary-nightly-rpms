@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ac8a0377a29fc31d8da01e7622aab2781f9dbb54",
-            "git_last_date": "180130.001037",
+            "git_last_commit": "26358d63869d52d9e48962baef66597586f16239",
+            "git_last_date": "180206.193731",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -410,8 +410,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3b2fa8c71f36337165707e0bcf6bbf0598613f8",
-            "git_last_date": "180205.001141",
+            "git_last_commit": "94cd22232c74b89174e8b390d96cf8c037ef0594",
+            "git_last_date": "180206.192818",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "0.1.2",
