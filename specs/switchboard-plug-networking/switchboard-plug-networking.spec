@@ -58,6 +58,9 @@ popd
 
 
 %changelog
+* Thu Feb 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180208.220332.2e0f5d0b-1
+- Update to latest snapshot.
+
 * Mon Feb 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180205.001150.3d1bce13-1
 - Update to latest snapshot.
 
