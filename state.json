@@ -113,8 +113,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ab431a8f988cffdecfb2e33c67a3406722dbf5f9",
-            "git_last_date": "180205.001211",
+            "git_last_commit": "6f2cc6a97d20c7d9d0763ac195115c104d80a278",
+            "git_last_date": "180208.070007",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -619,8 +619,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "df7f56d3483cad96a45a4a0f9320eb30f07d03a3",
-            "git_last_date": "180205.001109",
+            "git_last_commit": "a9329380c76878c4747e7d7e5748ab1076087ca7",
+            "git_last_date": "180208.091554",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -685,12 +685,12 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "116b5497da42a40f27a8f87334eb84ebf6156ca1",
-            "git_last_date": "180206.205106",
+            "git_last_commit": "1bfc27f9b48864c9ea450dd263f795eb8d0cfa37",
+            "git_last_date": "180208.063023",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         }
     }
