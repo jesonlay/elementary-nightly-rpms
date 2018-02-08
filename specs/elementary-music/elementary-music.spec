@@ -7,7 +7,7 @@
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -100,23 +100,20 @@ appstream-util validate-relax --nonet \
 
 %{_bindir}/%{appname}
 
-# FIXME
-%{_libdir}/lib%{appname}-core.so
+%{_libdir}/lib%{appname}-core.so.0
+%{_libdir}/lib%{appname}-core.so.0.1
 
 %{_libdir}/%{appname}/
 
 %{_datadir}/accounts/applications/noise-lastfm.application
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
-
-# FIXME
-%{_datadir}/icons/hicolor/multimedia-audio-player.svg
+%{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files devel
-# FIXME
-#%%{_libdir}/lib%%{appname}-core.so
+%{_libdir}/lib%%{appname}-core.so
 %{_libdir}/pkgconfig/%{appname}-core.pc
 
 %{_includedir}/%{appname}-core.h
@@ -126,6 +123,12 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Feb 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180208.190328.99fed119-2
+- Adapt to upstream file changes.
+
+* Thu Feb 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180208.190328.99fed119-1
+- Update to latest snapshot.
+
 * Thu Feb 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180208.174354.e443a1b4-1
 - Update to latest snapshot.
 
