@@ -1,7 +1,7 @@
 Summary:        Stupidly simple Dock
 Name:           plank
 Version:        0.11.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
 
@@ -22,6 +22,7 @@ BuildRequires:  pkgconfig(dbusmenu-gtk3-0.4)
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0) >= 2.26.0
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.40.0
+BuildRequires:  pkgconfig(libgnome-menu-3.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10.0
 BuildRequires:  pkgconfig(libbamf3) >= 0.2.92
 BuildRequires:  pkgconfig(libwnck-3.0)
@@ -134,6 +135,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Feb 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git180212.074842.ca7bcfa5-2
+- Adapt to upstream dependency changes.
+
 * Mon Feb 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git180212.074842.ca7bcfa5-1
 - Update to latest snapshot.
 
