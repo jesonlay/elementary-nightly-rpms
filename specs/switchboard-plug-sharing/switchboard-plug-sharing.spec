@@ -3,7 +3,7 @@
 Name:           switchboard-plug-sharing
 Summary:        Switchboard Sharing Plug
 Version:        0.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -56,6 +56,9 @@ popd
 
 
 %changelog
+* Mon Feb 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180211.000921.1140debe-1
+- Update to latest snapshot.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180104.220308.dea75de7-2
 - Merge .spec file from elementary-stable.
 

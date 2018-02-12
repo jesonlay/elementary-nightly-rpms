@@ -7,7 +7,7 @@
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        0.4.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -123,6 +123,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Feb 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180211.072649.a71606ed-1
+- Update to latest snapshot.
+
 * Thu Feb 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git180208.190328.99fed119-2
 - Adapt to upstream file changes.
 
