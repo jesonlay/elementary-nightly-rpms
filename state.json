@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "358f5cfafc0937d0b5c5f4b07326eb2227d834d8",
-            "git_last_date": "180212.000337",
+            "git_last_commit": "343f7e45c5fd1ffb49d2331814ff12bc2adbfb86",
+            "git_last_date": "180212.213601",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -234,8 +234,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e72053a8d07e141a226951dcbabf64361317066c",
-            "git_last_date": "180211.000746",
+            "git_last_commit": "e563e14a479cacce8d077f07424fd96ff92528fe",
+            "git_last_date": "180212.212133",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
@@ -652,12 +652,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0954ba6df49664c748f85e92021ba6ea57892e0a",
-            "git_last_date": "180212.160234",
+            "git_last_commit": "b3353b8f0b4c85668bba57044486255f487111de",
+            "git_last_date": "180212.212015",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
@@ -685,8 +685,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a71606ed2b4b261131d69c2e88cd384ef9d0b339",
-            "git_last_date": "180211.072649",
+            "git_last_commit": "aedb510de519970e8abaefbbe2aaaa3773a5687e",
+            "git_last_date": "180212.212448",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
