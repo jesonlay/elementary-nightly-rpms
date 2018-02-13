@@ -234,8 +234,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e563e14a479cacce8d077f07424fd96ff92528fe",
-            "git_last_date": "180212.212133",
+            "git_last_commit": "c220ba630213f4ee9e6ac29e2ecbc1858d52435f",
+            "git_last_date": "180213.202116",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
@@ -542,8 +542,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "de9123ea2e3245900b2711e9d95ee134b5cbfccb",
-            "git_last_date": "180205.001138",
+            "git_last_commit": "eea5ebf6268c3726e03d8116808a6bde43166d71",
+            "git_last_date": "180213.201203",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
@@ -641,8 +641,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6107e80686f257b1c63df7c04039d06488ca00c3",
-            "git_last_date": "180211.000933",
+            "git_last_commit": "d0d555290e93969bd317be81af650f7df63ca7e8",
+            "git_last_date": "180213.201510",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
