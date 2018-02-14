@@ -135,8 +135,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6445598eff8bc4d1618b7b3443a7b976d2da4439",
-            "git_last_date": "180207.033038",
+            "git_last_commit": "5c5bed71ea27cb98c95e25702e43d7d5861f3128",
+            "git_last_date": "180214.203405",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -366,8 +366,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c0eb426f817e184c811a76f2acb8063361bda501",
-            "git_last_date": "180130.135930",
+            "git_last_commit": "22e176a4b39312c0c4ec4dfd0aed2dbe23efae31",
+            "git_last_date": "180214.205526",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
