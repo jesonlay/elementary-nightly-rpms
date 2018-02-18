@@ -652,8 +652,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "069696a9ae1eb3bb9b6f309e3946144b94eab3a7",
-            "git_last_date": "180216.125400",
+            "git_last_commit": "edc1200cea6a313a0a9a287b446ac259bf98d376",
+            "git_last_date": "180218.145615",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
@@ -685,8 +685,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4961020398503c3fdab002debd419f118327c9dc",
-            "git_last_date": "180217.085028",
+            "git_last_commit": "38a3fff3d155ba388b4a311674aaec36c5cee4cd",
+            "git_last_date": "180218.144516",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
