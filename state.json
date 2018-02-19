@@ -674,8 +674,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "931ce11f0e0d139c3cb2dab53d3780e57bfc40b2",
-            "git_last_date": "180219.091152",
+            "git_last_commit": "6a8eb84dd6a471238796786a5f57837420e30071",
+            "git_last_date": "180219.123825",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
