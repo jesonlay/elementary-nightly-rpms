@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b42bc5eadd2b3a460b9c56dcaaf4727c6587d374",
-            "git_last_date": "180218.193755",
+            "git_last_commit": "87032c69795146afa1612ed70ff01654c7566af0",
+            "git_last_date": "180219.081632",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -630,8 +630,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5ddd938f21d9dbb9df89d14f5485ec1d20e6798b",
-            "git_last_date": "180215.234249",
+            "git_last_commit": "6d50d687e66d125881bc5de4d15acb118ef2976e",
+            "git_last_date": "180219.074729",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.4",
@@ -674,8 +674,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9142148481d8bdeb30092ec1885262c244766739",
-            "git_last_date": "180218.213110",
+            "git_last_commit": "931ce11f0e0d139c3cb2dab53d3780e57bfc40b2",
+            "git_last_date": "180219.091152",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
