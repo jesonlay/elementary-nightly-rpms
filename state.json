@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "477a1d37054155744717c95873b88b4348a7dde6",
-            "git_last_date": "180214.210831",
+            "git_last_commit": "cc5ba827dc7c9bf3ca0a578f014e7e7083449a23",
+            "git_last_date": "180220.212218",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -399,8 +399,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c52183a1a5f3a456dc7d50eedda69bbb2156ce78",
-            "git_last_date": "180218.200533",
+            "git_last_commit": "13ba7908084daa0f60daeedce747ec61a5c9691e",
+            "git_last_date": "180220.215028",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
@@ -542,8 +542,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ffc3cd352f692c628a5715f6bb126fd5c695edb4",
-            "git_last_date": "180218.110914",
+            "git_last_commit": "ae2f2225498239eb8a86e3aff789345ddf183121",
+            "git_last_date": "180220.212715",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
@@ -575,8 +575,8 @@
         "112": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "44ad95c504e199ef8bc4887758702c2ff2f3e0f2",
-            "git_last_date": "180217.195812",
+            "git_last_commit": "5dec77cf80a3af7ceeb92d1189343daa011adbc4",
+            "git_last_date": "180220.210223",
             "name": "maya-calendar",
             "package_name": "maya-calendar",
             "package_version": "0.4.1",
