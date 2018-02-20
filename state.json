@@ -190,8 +190,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8d8d0438c11eb944deed392611215776cb4ac2f3",
-            "git_last_date": "180218.194144",
+            "git_last_commit": "9cf8d3a5d80467354d901bb726e5b5ad8fe6cabd",
+            "git_last_date": "180219.231907",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9a9f37cb208c83465d68d0d2ded0974351df5bd1",
-            "git_last_date": "180219.175308",
+            "git_last_commit": "629bc39528493d60bf21c19232916f879f31eb5a",
+            "git_last_date": "180220.000928",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -652,8 +652,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "82a1697f42f8a26b5e256279b3e7cf35de59181a",
-            "git_last_date": "180219.175143",
+            "git_last_commit": "e305f2842e4d575d4849a35e511b202b64efbb7b",
+            "git_last_date": "180220.022714",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
