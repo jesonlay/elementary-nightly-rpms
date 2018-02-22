@@ -1,11 +1,10 @@
 %global srcname videos
 %global appname io.elementary.videos
-%global oldname org.pantheon.audience
 
 Name:           audience
 Summary:        Audience video player
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -56,7 +55,7 @@ popd
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/%{oldname}.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/appdata/%{appname}.appdata.xml || :
@@ -69,11 +68,14 @@ appstream-util validate-relax --nonet \
 %{_bindir}/%{appname}
 
 %{_datadir}/appdata/%{appname}.appdata.xml
-%{_datadir}/applications/%{oldname}.desktop
-%{_datadir}/glib-2.0/schemas/%{oldname}.gschema.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 
 
 %changelog
+* Thu Feb 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180220.202921.4531749a-2
+- Adapt to upstream file changes.
+
 * Tue Feb 20 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180220.202921.4531749a-1
 - Update to latest snapshot.
 
