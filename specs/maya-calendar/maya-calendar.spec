@@ -1,9 +1,12 @@
+%global __provides_exclude_from ^%{_libdir}/io.elementary.calendar/.*\\.so$
+
 %global srcname calendar
+%global appname io.elementary.calendar
 
 Name:           maya-calendar
 Summary:        The official elementary calendar
 Version:        0.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -68,53 +71,54 @@ pushd build
 %make_install
 popd
 
-%find_lang maya-calendar
+%find_lang %{appname}
 
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/org.pantheon.maya.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/org.pantheon.maya-daemon.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}-daemon.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/org.pantheon.maya.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %post   -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
 
 
-%files -f maya-calendar.lang
+%files -f %{appname}.lang
 %doc README.md
 %license COPYING
 
-%{_bindir}/maya-calendar
-%{_bindir}/maya-calendar-daemon
+%{_bindir}/%{appname}
+%{_bindir}/%{appname}-daemon
 
-%{_libdir}/libmaya-calendar.so.0
-%{_libdir}/libmaya-calendar.so.0.1
-%{_libdir}/maya-calendar/
+%{_libdir}/lib%{appname}.so.0
+%{_libdir}/lib%{appname}.so.0.1
+%{_libdir}/%{appname}/
 
-%{_datadir}/appdata/org.pantheon.maya.appdata.xml
-%{_datadir}/applications/org.pantheon.maya.desktop
-%{_datadir}/applications/org.pantheon.maya-daemon.desktop
-%{_datadir}/glib-2.0/schemas/org.pantheon.maya.gschema.xml
-%{_datadir}/icons/hicolor/scalable/actions/calendar-go-today.svg
-%{_datadir}/maya-calendar/
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/applications/%{appname}-daemon.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files          devel
-%{_includedir}/maya-calendar/
+%{_includedir}/%{appname}/
 
-%{_libdir}/libmaya-calendar.so
-%{_libdir}/pkgconfig/maya-calendar.pc
+%{_libdir}/lib%{appname}.so
+%{_libdir}/pkgconfig/%{appname}.pc
 
-%{_datadir}/vala/vapi/maya-calendar.deps
-%{_datadir}/vala/vapi/maya-calendar.vapi
+%{_datadir}/vala/vapi/%{appname}.deps
+%{_datadir}/vala/vapi/%{appname}.vapi
 
 
 %changelog
+* Fri Feb 23 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git180220.210223.5dec77cf-2
+- Adapt to upstream file changes.
+
 * Tue Feb 20 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git180220.210223.5dec77cf-1
 - Update to latest snapshot.
 
