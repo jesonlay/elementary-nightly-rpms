@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "19cd7df879f85e653b69ca179fe0ddec9e5328c1",
-            "git_last_date": "180223.185445",
+            "git_last_commit": "8f45dc5a4a122380860b879872ede60dbd8f17a9",
+            "git_last_date": "180223.192609",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -410,8 +410,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e626b25edc82f565bb393221db2f40de6b654393",
-            "git_last_date": "180223.124615",
+            "git_last_commit": "102a536eb503e3783a2dfcae1167c198674e2e62",
+            "git_last_date": "180223.193518",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
@@ -432,8 +432,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4cbf94d16ef27df80e37e6a28e95f91c8f4001f1",
-            "git_last_date": "180223.063429",
+            "git_last_commit": "0018c4d2eb0dab7c9e61654b4c716da28f7d78f1",
+            "git_last_date": "180223.192854",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.3",
