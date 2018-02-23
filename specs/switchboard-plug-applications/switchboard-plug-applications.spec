@@ -3,14 +3,14 @@
 Name:           switchboard-plug-applications
 Summary:        Switchboard Applications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            http://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -32,16 +32,12 @@ that allows the user to manage application settings.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang applications-plug
 
@@ -50,10 +46,13 @@ popd
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/personal/pantheon-applications-plug/
+%{_libdir}/switchboard/personal/libapplications.so
 
 
 %changelog
+* Fri Feb 23 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180220.223349.99c08f28-2
+- Adapt to cmake -> meson switch.
+
 * Wed Feb 21 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180220.223349.99c08f28-1
 - Update to latest snapshot.
 
