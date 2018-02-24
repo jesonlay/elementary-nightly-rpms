@@ -3,15 +3,15 @@
 Name:           switchboard-plug-parental-controls
 Summary:        Switchboard Parental Controls plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  systemd
 BuildRequires:  vala >= 0.34.1
 BuildRequires:  vala-tools
@@ -37,25 +37,18 @@ An easy parental controls plug.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-parental-controls-plug
+%find_lang parental-controls-plug
 
 # move systemd unit file to correct location
 mkdir -p %{buildroot}/%{_unitdir}
 mv -v %{buildroot}/lib/systemd/system/pantheon-parental-controls.service %{buildroot}/%{_unitdir}/
-
-# remove .a files
-find %{buildroot} -name *.a -print -delete
 
 
 %check
@@ -73,8 +66,8 @@ desktop-file-validate \
 %systemd_postun_with_restart pantheon-parental-controls.service
 
 
-%files -f pantheon-parental-controls-plug.lang
-%doc AUTHORS
+%files -f parental-controls-plug.lang
+%doc README.md
 %license COPYING
 
 %dir %{_sysconfdir}/pantheon-parental-controls
@@ -82,10 +75,9 @@ desktop-file-validate \
 
 %{_sysconfdir}/dbus-1/system.d/org.pantheon.ParentalControls.conf
 
-%{_bindir}/pantheon-parental-controls-client
 %{_bindir}/pantheon-parental-controls-daemon
 
-%{_libdir}/switchboard/system/pantheon-parental-controls/libpantheon-parental-controls.so
+%{_libdir}/switchboard/system/libparental-controls.so
 
 %{_datadir}/applications/pantheon-parental-controls-client.desktop
 %{_datadir}/dbus-1/system-services/org.pantheon.ParentalControls.service
@@ -95,6 +87,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180224.000426.716b1252-2
+- Adapt to cmake -> meson switch.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180224.000426.716b1252-1
 - Update to latest snapshot.
 
