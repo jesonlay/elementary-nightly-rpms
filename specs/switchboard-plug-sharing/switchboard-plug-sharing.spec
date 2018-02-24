@@ -3,14 +3,14 @@
 Name:           switchboard-plug-sharing
 Summary:        Switchboard Sharing Plug
 Version:        0.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -26,36 +26,33 @@ Supplements:    switchboard%{?_isa}
 %description
 Configure the sharing of system services.
 
-Designed for elementary OS.
-
 
 %prep
 %autosetup
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-sharing
+%find_lang sharing-plug
 
 
-%files -f pantheon-sharing.lang
-%doc AUTHORS README.md
+%files -f sharing-plug.lang
+%doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/network/pantheon-sharing/
+%{_libdir}/switchboard/network/libsharing.so
 
 
 %changelog
+* Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180221.124411.4dd5d8e7-2
+- Adapt to cmake -> meson switch.
+
 * Wed Feb 21 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180221.124411.4dd5d8e7-1
 - Update to latest snapshot.
 
