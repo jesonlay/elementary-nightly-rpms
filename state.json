@@ -410,8 +410,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d33765c0135e2c641dd0d7797800f6099512ca88",
-            "git_last_date": "180224.175219",
+            "git_last_commit": "e89c83fa8e5195f959f40ce7d5d357a7e91b22ad",
+            "git_last_date": "180224.194912",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
@@ -608,8 +608,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f6e833378e5e6fa5f5fb63cdca7c109bf5c8f80e",
-            "git_last_date": "180224.151118",
+            "git_last_commit": "4ec9a01ab9241cad80405ebae9c0fdf26b5d6fe5",
+            "git_last_date": "180224.192126",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.4",
