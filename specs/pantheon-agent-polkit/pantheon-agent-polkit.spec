@@ -3,7 +3,7 @@
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
 Version:        0.1.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -65,6 +65,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180223.205805.98518c20-1
+- Update to latest snapshot.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git171218.142522.6cddf039-2
 - Merge .spec file from fedora.
 
