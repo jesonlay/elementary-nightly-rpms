@@ -3,14 +3,14 @@
 Name:           switchboard-plug-sound
 Summary:        Switchboard Sound Plug
 Version:        0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 BuildRequires:  vala-tools
 
@@ -36,16 +36,12 @@ Switchboard Sound Plug.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang sound-plug
 
@@ -54,10 +50,13 @@ popd
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/system/pantheon-sound/
+%{_libdir}/switchboard/system/libsound.so
 
 
 %changelog
+* Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180224.000454.49f6ade1-2
+- Adapt to cmake -> meson switch.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180224.000454.49f6ade1-1
 - Update to latest snapshot.
 
