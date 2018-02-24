@@ -3,7 +3,7 @@
 Name:           switchboard-plug-power
 Summary:        Switchboard Power Plug
 Version:        0.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -12,8 +12,8 @@ Source0:        %{name}-%{version}.tar.gz
 # Add patch to not use (dysfunctional) elementary-dpms-helper
 Patch0:         00-no-e-dpms-helper.patch
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.30.0
 BuildRequires:  vala-tools
 
@@ -38,36 +38,32 @@ Control system power consumption with this Switchboard preference plug.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-
-# Parallel builds hit a race condition and fail
-# https://github.com/elementary/switchboard-plug-power/issues/40
-make
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-power-plug
+%find_lang power-plug
 
 
-%files -f pantheon-power-plug.lang
+%files -f power-plug.lang
 %doc README.md
 %license COPYING
 
-%config(noreplace) %{_sysconfdir}/dbus-1/system.d/io.elementary.logind.helper.conf
+%{_libdir}/switchboard/hardware/libpower.so
 
-%{_libdir}/switchboard/hardware/pantheon-power/
+%{_libexecdir}/io.elementary.logind.helper
 
 %{_datadir}/dbus-1/system-services/io.elementary.logind.helper.service
-%{_datadir}/polkit-1/actions/org.pantheon.switchboard.power.policy
+%{_datadir}/polkit-1/actions/io.elementary.switchboard.power.policy
 
 
 %changelog
+* Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180220.230547.17eb9ca6-2
+- Adapt to cmake -> meson switch.
+
 * Wed Feb 21 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180220.230547.17eb9ca6-1
 - Update to latest snapshot.
 
