@@ -498,12 +498,12 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "30277f408eaf26683df9f0f71d8feda6743de698",
-            "git_last_date": "180103.145139",
+            "git_last_commit": "f598ae1434a8c95fbe08b3d00bedd4a223b4c20f",
+            "git_last_date": "180202.154603",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "107": {
@@ -553,8 +553,8 @@
         "111": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1021e36ae7be5e5d14eced6222bda8809a5532b8",
-            "git_last_date": "180126.160520",
+            "git_last_commit": "26e78a89d219215c0da1d7a82b3e35faea2ef11c",
+            "git_last_date": "180202.085030",
             "name": "contractor",
             "package_name": "contractor",
             "package_version": "0.3.2.99",
