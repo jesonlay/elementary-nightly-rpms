@@ -569,7 +569,7 @@
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.0.99",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.0.99+git%{date}.%{commit}"
         },
         "116": {

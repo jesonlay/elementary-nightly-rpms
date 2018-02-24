@@ -3,15 +3,15 @@
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
 Version:        0.1.0.99+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -36,28 +36,27 @@ devices.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-bluetooth-plug
+%find_lang bluetooth-plug
 
 
-%files -f pantheon-bluetooth-plug.lang
+%files -f bluetooth-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/network/pantheon-bluetooth/
+%{_libdir}/switchboard/network/libbluetooth.so
 
 
 %changelog
+* Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180224.113409.0d8cc756-2
+- Adapt to cmake -> meson switch.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180224.113409.0d8cc756-1
 - Update to latest snapshot.
 
