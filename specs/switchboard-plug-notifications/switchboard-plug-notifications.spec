@@ -3,14 +3,14 @@
 Name:           switchboard-plug-notifications
 Summary:        Switchboard Notifications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -36,16 +36,12 @@ related to the Notifications plugin for Gala.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang notifications-plug
 
@@ -54,10 +50,13 @@ popd
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/personal/pantheon-notifications-plug/
+%{_libdir}/switchboard/personal/libnotifications.so
 
 
 %changelog
+* Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180224.000422.6eb50791-2
+- Adapt to cmake -> meson switch.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180224.000422.6eb50791-1
 - Update to latest snapshot.
 
