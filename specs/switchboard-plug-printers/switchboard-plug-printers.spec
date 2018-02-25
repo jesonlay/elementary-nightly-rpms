@@ -3,7 +3,7 @@
 Name:           switchboard-plug-printers
 Summary:        Switchboard Printers Plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -54,6 +54,9 @@ A printers plug for Switchboard.
 
 
 %changelog
+* Sun Feb 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180225.000949.9ad87c0b-1
+- Update to latest snapshot.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180224.114556.59e0df0c-2
 - Adapt to cmake -> meson switch.
 

@@ -3,7 +3,7 @@
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
 Version:        0.1.0.99+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -54,6 +54,9 @@ devices.
 
 
 %changelog
+* Sun Feb 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180225.000953.15f2035d-1
+- Update to latest snapshot.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180224.113409.0d8cc756-2
 - Adapt to cmake -> meson switch.
 

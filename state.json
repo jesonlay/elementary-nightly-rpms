@@ -168,8 +168,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "13a1a0e41f79d20b7d3804027d1483db0f065f13",
-            "git_last_date": "180223.182641",
+            "git_last_commit": "b01f92eab71d9254b5b9b5f6c3f8ee2d8e79f66b",
+            "git_last_date": "180225.000958",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4369636b31199fdebc4f53058fef897f3f485529",
-            "git_last_date": "180224.112148",
+            "git_last_commit": "9b1ec3fa1813ddbcd532657b2ba673a1111f3e68",
+            "git_last_date": "180225.080834",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -333,12 +333,12 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "59e0df0cd3d7e64d6b7e130ec70b868977d2b7cd",
-            "git_last_date": "180224.114556",
+            "git_last_commit": "9ad87c0bde7414c3cacfd06373d88478b6e9f683",
+            "git_last_date": "180225.000949",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         },
         "89": {
@@ -410,8 +410,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e89c83fa8e5195f959f40ce7d5d357a7e91b22ad",
-            "git_last_date": "180224.194912",
+            "git_last_commit": "42a1d6d31bb1a9e1f8e71771702040b0b784f6d1",
+            "git_last_date": "180224.232100",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
@@ -432,12 +432,12 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "716b12523650f12d48d6beeeef3ae0a19cc46e58",
-            "git_last_date": "180224.000426",
+            "git_last_commit": "57fd3e5c5b39a0694ceaf45254f826c7ef217e47",
+            "git_last_date": "180225.000935",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "101": {
@@ -531,8 +531,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5f0030c912a471cc35475efc2399b2c19ae2acde",
-            "git_last_date": "180224.113435",
+            "git_last_commit": "ee1153eb7a180521a83e1f7b2e20e2e98551a70a",
+            "git_last_date": "180225.000927",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
@@ -564,12 +564,12 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0d8cc7565a94460188d698efaa45e1a4d394da6e",
-            "git_last_date": "180224.113409",
+            "git_last_commit": "15f2035df8aa9d07a633a02b7ff096399685698a",
+            "git_last_date": "180225.000953",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.0.99",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.0.99+git%{date}.%{commit}"
         },
         "116": {
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1a4af761f500297c7283dbb00be47f2a47eccbdf",
-            "git_last_date": "180224.115243",
+            "git_last_commit": "d7ef7e5dcd005bf08128093c6dae8bcad4383a75",
+            "git_last_date": "180225.023324",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
@@ -652,8 +652,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4f7d7ccae6bccecb7b5be33330bc280d0b45005d",
-            "git_last_date": "180224.112225",
+            "git_last_commit": "58442453ad8957ca1e53e80eae01bbc251fc0008",
+            "git_last_date": "180225.093023",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
@@ -663,8 +663,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4bc138bc7f4439e6d4896ab441f22c54cb66417d",
-            "git_last_date": "180222.000814",
+            "git_last_commit": "6753f5c7761f2b79cfbce3c1821cdb7f2c540bbe",
+            "git_last_date": "180225.000921",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
