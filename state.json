@@ -168,8 +168,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0ba049fb5a5db1d785318ca25349b44cf6542a98",
-            "git_last_date": "180226.000913",
+            "git_last_commit": "239b22e858c38ae7620c992ea155ed2fc0607d83",
+            "git_last_date": "180226.201622",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -179,12 +179,12 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cea06bc1cdb5c3d6c15ee2157da556e4bf9be646",
-            "git_last_date": "180224.171403",
+            "git_last_commit": "c31a1c19fc0e7e98517d8178dbdcea81fa0ea33c",
+            "git_last_date": "180226.205330",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.2+git%{date}.%{commit}"
         },
         "75": {
@@ -333,8 +333,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "865e514d5ee9a4433baa64a3bd1aac85ba4f0677",
-            "git_last_date": "180226.000902",
+            "git_last_commit": "22faadf09d9a0d8aa4d898d68dbb5d2626a89663",
+            "git_last_date": "180226.180349",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.2",
@@ -344,8 +344,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "142c0bc4bdc0c8349e32fbafbb6e43dd4fe6188a",
-            "git_last_date": "180226.165135",
+            "git_last_commit": "ed97cec05ecd5ece01c3a99acdbb2d3aceee4c65",
+            "git_last_date": "180226.183446",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.0",
@@ -410,8 +410,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c606b888751050952879b1956422f7872b576010",
-            "git_last_date": "180226.173626",
+            "git_last_commit": "d9bab9b28d1c3e5c1ead340dadf33882d81586ee",
+            "git_last_date": "180226.201015",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
@@ -531,8 +531,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4b751a9dd51d2257f17fd3e2883ec030e2dffeb6",
-            "git_last_date": "180225.121246",
+            "git_last_commit": "559a1d2dcb24363fe8f3bf67ef72e85b845c0490",
+            "git_last_date": "180226.201759",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
@@ -564,8 +564,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "853cc6b22e73aee8c0b25ad5427dd584692cbbd4",
-            "git_last_date": "180225.164413",
+            "git_last_commit": "ab37350e3bfb0cbd20364f50481ee9f3d8e84e16",
+            "git_last_date": "180226.203409",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.0.99",
