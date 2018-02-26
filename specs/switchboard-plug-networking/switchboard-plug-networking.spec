@@ -3,7 +3,7 @@
 Name:           switchboard-plug-networking
 Summary:        Switchboard Networking plug
 Version:        0.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -54,6 +54,9 @@ A switchboard plug for configuring available networks.
 
 
 %changelog
+* Mon Feb 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180226.094153.a2c850f6-1
+- Update to latest snapshot.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180223.125025.3810943b-2
 - Adapt to cmake -> meson switch.
 

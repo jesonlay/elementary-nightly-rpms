@@ -3,7 +3,7 @@
 Name:           switchboard-plug-sharing
 Summary:        Switchboard Sharing Plug
 Version:        0.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ Configure the sharing of system services.
 
 
 %changelog
+* Mon Feb 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180226.000909.7e353b9f-1
+- Update to latest snapshot.
+
 * Sat Feb 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180221.124411.4dd5d8e7-2
 - Adapt to cmake -> meson switch.
 
