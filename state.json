@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9f46893c7bc350cd09fa12d3a298f5dc1eaa59b4",
-            "git_last_date": "180227.141036",
+            "git_last_commit": "c04e1a8b087fd74a996829ebb3bfd52517e8f9fd",
+            "git_last_date": "180228.105839",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f36abaef977d1a4b44ef77fb478dc6d6e6e3ed55",
-            "git_last_date": "180221.001048",
+            "git_last_commit": "6823419d3bc49cbeeda923766707c4cfcb99977d",
+            "git_last_date": "180228.105335",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5fc80c036c66ba7bb664beff0126a3b669be2e34",
-            "git_last_date": "180227.191132",
+            "git_last_commit": "0f821406b3bf770e3e396674ba18d3d71ff20f6d",
+            "git_last_date": "180228.110208",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -399,12 +399,12 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "99c08f283f48c1cd353b255d07be22f780669a9c",
-            "git_last_date": "180220.223349",
+            "git_last_commit": "112604574e52d2b6ece916d5d66a9a09e67ecd53",
+            "git_last_date": "180228.095909",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "0.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         },
         "98": {
@@ -531,8 +531,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "559a1d2dcb24363fe8f3bf67ef72e85b845c0490",
-            "git_last_date": "180226.201759",
+            "git_last_commit": "51f68389c6d628e0a69597c2a19bd0727707a7ce",
+            "git_last_date": "180228.105809",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
@@ -597,8 +597,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "571556c5e4089b5a972bb14dbb2e2128a7b73bf5",
-            "git_last_date": "180222.000807",
+            "git_last_commit": "893872c5336fcf8e079f1ce01e3b1fefe5fc0863",
+            "git_last_date": "180228.105717",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -652,8 +652,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "99767d1af518c52ca02e066cb033a7f4bbf699f9",
-            "git_last_date": "180227.000558",
+            "git_last_commit": "b54d4d3e57d8d11b766d2be5120c7cfe6c3e1b32",
+            "git_last_date": "180228.105125",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
@@ -663,8 +663,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c6f9c1384df41b127c8ab2409e63fc1bc36944be",
-            "git_last_date": "180226.000835",
+            "git_last_commit": "2014f6653b7beaa2186531fab8c6bd84a806e643",
+            "git_last_date": "180228.105253",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
@@ -685,8 +685,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "174f147d5b4e2d291aaf6f08528bf8353e8f4c4b",
-            "git_last_date": "180227.081048",
+            "git_last_commit": "56ab3464e17bad80ca1bc05b721952d36b719f02",
+            "git_last_date": "180228.000732",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.1",

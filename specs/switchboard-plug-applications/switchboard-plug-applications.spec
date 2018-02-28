@@ -3,7 +3,7 @@
 Name:           switchboard-plug-applications
 Summary:        Switchboard Applications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            http://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ that allows the user to manage application settings.
 
 
 %changelog
+* Wed Feb 28 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180228.095909.11260457-1
+- Update to latest snapshot.
+
 * Fri Feb 23 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180220.223349.99c08f28-2
 - Adapt to cmake -> meson switch.
 
