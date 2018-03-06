@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c36be5ed90c93235721c9859174fbe35be04d482",
-            "git_last_date": "180305.114821",
+            "git_last_commit": "1d2bf48d22349d6d7477144cd950e2d90d6b3dbb",
+            "git_last_date": "180306.000506",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ad7fad3cd0ef5e6a1f7d079511afad0d8ebd6171",
-            "git_last_date": "180305.183819",
+            "git_last_commit": "0aa8b8a697ff92f04cfdb44ef308b7ceac9c9cc6",
+            "git_last_date": "180306.000406",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c5e17af7abe26bd661278ac1cd99b5a2a109c07",
-            "git_last_date": "180304.000738",
+            "git_last_commit": "5b84a413aa1cf94f439d82521b2276f78dfaa2e1",
+            "git_last_date": "180306.000445",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
