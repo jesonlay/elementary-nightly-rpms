@@ -50,6 +50,9 @@ A wingpanel indicator for Night Light.
 
 
 %changelog
+* Tue Mar 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180306.185233.cc74db0a-1
+- Update to latest snapshot.
+
 * Wed Feb 28 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180228.105125.b54d4d3e-1
 - Update to latest snapshot.
 
