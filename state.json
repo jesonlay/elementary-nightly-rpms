@@ -245,8 +245,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1d4a841d02b5586483f054ad38132535f77ff3db",
-            "git_last_date": "180213.234841",
+            "git_last_commit": "2185d26342d005045e8e25266c5cd60313232d1e",
+            "git_last_date": "180306.173924",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.3",
@@ -410,8 +410,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "626374ca90d31306495960117cb221e195090484",
-            "git_last_date": "180303.030918",
+            "git_last_commit": "ce9a01c5e4494250bdcb920da25bac950242f457",
+            "git_last_date": "180306.130436",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
@@ -564,8 +564,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f62aec7b9bce1ddb4ec604b4f8ede4170a2178a9",
-            "git_last_date": "180303.000302",
+            "git_last_commit": "d4cf1348e84f8a9fc1de88e864abceab4980664f",
+            "git_last_date": "180306.172544",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.0.99",
