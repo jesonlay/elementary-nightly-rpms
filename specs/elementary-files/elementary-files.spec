@@ -7,7 +7,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        0.3.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -103,6 +103,7 @@ appstream-util validate-relax --nonet \
 
 %{_datadir}/appdata/%{appname}.appdata.xml
 %{_datadir}/applications/%{appname}.desktop
+%{_datadir}/dbus-1/services/%{appname}.service
 %{_datadir}/dbus-1/services/%{appname}.FileManager1.service
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/%{appname}/
@@ -128,6 +129,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Mar 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180307.000940.cd195430-2
+- Adapt to upstream file changes.
+
 * Wed Mar 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180307.000940.cd195430-1
 - Update to latest snapshot.
 
