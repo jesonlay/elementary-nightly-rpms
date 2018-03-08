@@ -531,8 +531,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c2a1a8773a2b243a410a2bfbb5c82d297be0bb8d",
-            "git_last_date": "180308.151649",
+            "git_last_commit": "b314ac35a3bc69a9695962afd9d2955c37fd3889",
+            "git_last_date": "180308.180433",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
@@ -586,8 +586,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "17b3591b39f18cc7d4a581b26b0a7178f5bf3911",
-            "git_last_date": "180306.214634",
+            "git_last_commit": "a7c0a2a375055b3400e5621e06d1ad4cbb18b4fc",
+            "git_last_date": "180308.183644",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.3",
