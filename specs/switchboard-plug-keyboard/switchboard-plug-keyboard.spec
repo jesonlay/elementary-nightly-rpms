@@ -3,14 +3,14 @@
 Name:           switchboard-plug-keyboard
 Summary:        Switchboard Keyboard plug
 Version:        0.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -37,28 +37,27 @@ same time. Keyboard shortcuts are also part of this plug.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-keyboard-plug
+%find_lang keyboard-plug
 
 
-%files -f pantheon-keyboard-plug.lang
+%files -f keyboard-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/hardware/pantheon-keyboard/
+%{_libdir}/switchboard/hardware/libkeyboard.so
 
 
 %changelog
+* Sat Mar 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180310.122141.d922082e-2
+- Adapt to CMake -> meson switch.
+
 * Sat Mar 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180310.122141.d922082e-1
 - Update to latest snapshot.
 
