@@ -51,6 +51,9 @@ that allows the user to manage accessibility settings.
 
 
 %changelog
+* Sun Mar 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180311.183843.18f7221a-1
+- Update to latest snapshot.
+
 * Tue Mar 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180306.185105.aa3ec29d-1
 - Update to latest snapshot.
 
