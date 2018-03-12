@@ -3,7 +3,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -15,7 +15,7 @@ Patch0:         00-fedora-button-layout.patch
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  gettext-devel
-BuildRequires:  libtool
+BuildRequires:  meson
 BuildRequires:  vala
 BuildRequires:  vala-tools
 
@@ -69,17 +69,14 @@ This package contains the development headers.
 
 
 %build
-autoreconf -v -i
-%configure
-%make_build
+%meson
+%meson_build
 
 
 %install
-%make_install
-%find_lang gala
+%meson_install
 
-# Remove libtool archives
-find %{buildroot} -name '*.la' -print -delete
+%find_lang gala
 
 
 %check
@@ -124,6 +121,9 @@ desktop-file-validate \
 
 
 %changelog
+* Mon Mar 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git180311.212220.6d3253a5-2
+- Switch from autotools to meson build.
+
 * Mon Mar 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0+git180311.212220.6d3253a5-1
 - Update to latest snapshot.
 
