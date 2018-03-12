@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "02be28f3df0443b88bee489da33c4f3a479dafc0",
-            "git_last_date": "180312.162745",
+            "git_last_commit": "f0cc23d8a0eb238abdf2dc2e5426e3d90c6558bb",
+            "git_last_date": "180312.182749",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -454,8 +454,8 @@
         "102": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dfc900563f56f7863b54116cc0c0c895ae3cab89",
-            "git_last_date": "180312.155904",
+            "git_last_commit": "42cb5e3abf489ce313c25df792a65985ee9c0432",
+            "git_last_date": "180312.163217",
             "name": "plank",
             "package_name": "plank",
             "package_version": "0.11.4",
