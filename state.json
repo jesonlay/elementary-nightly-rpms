@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b1e61650d37537805919e869124865fba040e459",
-            "git_last_date": "180312.132425",
+            "git_last_commit": "6b5cf6388a247d703c6e413c92c0423c8740ea1b",
+            "git_last_date": "180312.144632",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -410,8 +410,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c39a5032db94a12a4b5b8592fa7747c0acb7bba0",
-            "git_last_date": "180311.205622",
+            "git_last_commit": "73e72838446aa96040207eb1769fbbb0be947575",
+            "git_last_date": "180312.145300",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
@@ -564,8 +564,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a153f70dd32f5fac421fe9cc22125ab7814eead6",
-            "git_last_date": "180311.095406",
+            "git_last_commit": "97a5c57a2583b3895d886db455c1298b6d4b09cc",
+            "git_last_date": "180312.144916",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.0.99",
