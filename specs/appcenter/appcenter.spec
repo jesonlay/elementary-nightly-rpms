@@ -1,9 +1,9 @@
 %global appname io.elementary.appcenter
 
 Name:           appcenter
-Summary:        Software Center for the Pantheon desktop
+Summary:        Software Center from elementary
 Version:        0.2.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -40,6 +40,21 @@ Requires:       hicolor-icon-theme
 
 %description
 AppCenter is a native Gtk+ app store built on AppStream and Packagekit.
+
+
+%package        gnome-shell-search-provider
+Summary:        Software Center from elementary (gnome-shell search provider)
+%description    gnome-shell-search-provider
+AppCenter is a native Gtk+ app store built on AppStream and Packagekit.
+
+This package contains the gnome-shell search provider.
+
+BuildArch:      noarch
+
+Requires:       %{name} = %{version}-%{release}
+Requires:       gnome-shell
+
+Supplements:    (%{name} and gnome-shell)
 
 
 %prep
@@ -88,7 +103,14 @@ appstream-util validate-relax --nonet \
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 
+%files gnome-shell-search-provider
+%{_datadir}/gnome-shell/search-providers/io.elementary.appcenter.search-provider.ini
+
+
 %changelog
+* Tue Mar 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180313.075618.dfaf4f24-2
+- Adapt to upstream file changes.
+
 * Tue Mar 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180313.075618.dfaf4f24-1
 - Update to latest snapshot.
 
