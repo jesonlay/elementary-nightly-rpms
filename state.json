@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3b2e6e1c29f49cf0ba337d63dad3678b108284fb",
-            "git_last_date": "180314.183001",
+            "git_last_commit": "2121b8c6032bcbc0d4454f340098f5369472a7da",
+            "git_last_date": "180315.001711",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.6",
@@ -421,8 +421,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2eed8d9a4588d01804e73cbf989f0b92e0671beb",
-            "git_last_date": "180309.000608",
+            "git_last_commit": "5157d3c5e29d1854cd663952701c09171cc4fa53",
+            "git_last_date": "180314.231543",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.2",
@@ -619,8 +619,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f1d0c360e4fdb432c581a55d5d0ab7b1b908238a",
-            "git_last_date": "180312.000038",
+            "git_last_commit": "9721926d975b73b5e534f03169063876b8e3639c",
+            "git_last_date": "180315.002008",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e16b5795d1d0b73ea0b46daadd6bfcfc4c30eb26",
-            "git_last_date": "180314.000156",
+            "git_last_commit": "9a1b77ca7fb358abb266b30c27c221f8456f477d",
+            "git_last_date": "180315.004730",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
