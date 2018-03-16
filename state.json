@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a83db7aaf5260c0f456f9d093731b3f4eeedcc37",
-            "git_last_date": "180314.195041",
+            "git_last_commit": "e6f048c8c90149f524a1ec9e77f1a6c36549758a",
+            "git_last_date": "180315.222021",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -113,8 +113,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07c96517b84347aa9e20212d405db81e54e042fb",
-            "git_last_date": "180314.000243",
+            "git_last_commit": "2a44f96092bbbd41521324092e1cc9926e7bb4d2",
+            "git_last_date": "180316.000422",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "789d24e4414a5712c804e4be9e1544bf600970c2",
-            "git_last_date": "180314.000235",
+            "git_last_commit": "da6ba109908e2c7276b1b518d17b21c5db0e9d04",
+            "git_last_date": "180316.035820",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -410,8 +410,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3a7960bdeb14e984faf190c17d54c19c168bc87",
-            "git_last_date": "180315.184505",
+            "git_last_commit": "09ee3b057a869958aeaf0bbb4909b479594feb24",
+            "git_last_date": "180316.091050",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.2",
@@ -597,8 +597,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4ecd1eb3a244e111dd6032955b57ce6d010c8128",
-            "git_last_date": "180314.000210",
+            "git_last_commit": "1c84ea9cb0350d99544f3153bce2cee6317a4812",
+            "git_last_date": "180316.000347",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -608,8 +608,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a5730199b132328557cef9f1d1d528de16019856",
-            "git_last_date": "180311.000612",
+            "git_last_commit": "98fbe8859c75ebaa3b013c00d995e51254f51f2d",
+            "git_last_date": "180316.000402",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.4",
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2e970910502d838c5e4f2a3a7d051f7541cc5aa7",
-            "git_last_date": "180315.180805",
+            "git_last_commit": "b29a98a5bfa69c77e926de2f06ac949ed70f5a78",
+            "git_last_date": "180316.004052",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
@@ -652,8 +652,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "90ccac0dd9ede0d9410015c5357aa79097be8104",
-            "git_last_date": "180311.093504",
+            "git_last_commit": "1f1ede30524efdd817f49c2157027235fe58f0e2",
+            "git_last_date": "180315.215035",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
@@ -663,8 +663,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ed7fef590aba6ff4988565c751b531cff3270bea",
-            "git_last_date": "180310.000407",
+            "git_last_commit": "ca9823d942333c3428dbed93047b11a1bf26d59a",
+            "git_last_date": "180316.000359",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
@@ -685,12 +685,12 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c47dec0474cf83694e2f6fc962e1dc00d2c54322",
-            "git_last_date": "180306.185646",
+            "git_last_commit": "9753182b92e9b4a93044ab6a14a0e26f91693618",
+            "git_last_date": "180316.000135",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.1+git%{date}.%{commit}"
         }
     }
