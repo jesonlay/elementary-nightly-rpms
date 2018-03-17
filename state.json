@@ -69,8 +69,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "426e0234b7aa20749145a7cdc31c90209a4c9fc5",
-            "git_last_date": "180223.205534",
+            "git_last_commit": "5baec76b26586b73a29dfdc63b8e5f13b51f8feb",
+            "git_last_date": "180317.000928",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "0",
@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b5dc176a6c619c36a737249a7feffe6f7be488a3",
-            "git_last_date": "180314.000415",
+            "git_last_commit": "8878a8017ca38a391846b673a8fee385b44eaf34",
+            "git_last_date": "180317.050929",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -234,8 +234,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dd25d4efee62928d36d52342cd8626be306af2fb",
-            "git_last_date": "180314.000251",
+            "git_last_commit": "77b791a1505c7f4bd64cd53d5ab8f53b2cb4b4fe",
+            "git_last_date": "180317.001013",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a4212caa40c0485263e736365eeaa840cf29490d",
-            "git_last_date": "180316.182314",
+            "git_last_commit": "40c0b8b3c44c16fce59323fd3c008bfcb19a6d9a",
+            "git_last_date": "180317.001124",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
