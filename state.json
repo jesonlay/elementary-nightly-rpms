@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a24e57a7382155f475dd8b8578046be8750d1064",
-            "git_last_date": "180317.164242",
+            "git_last_commit": "692f54232e8e285b44605cfc6747143ea4588ac4",
+            "git_last_date": "180317.203820",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -234,8 +234,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "77b791a1505c7f4bd64cd53d5ab8f53b2cb4b4fe",
-            "git_last_date": "180317.001013",
+            "git_last_commit": "2c53850b75fd8cfa87de838ba03f2c75ca958cdb",
+            "git_last_date": "180317.203707",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
