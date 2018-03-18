@@ -223,8 +223,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "baf71ed7adba2ab69d73528548409d21e5eddc85",
-            "git_last_date": "180309.000759",
+            "git_last_commit": "b129ded742fb4d8201206ac0ecc44baad6848f9e",
+            "git_last_date": "180318.150645",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.0.2",
@@ -355,8 +355,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "22f0d957280ccde3c255daaecb9cc81bf14923bc",
-            "git_last_date": "180314.153929",
+            "git_last_commit": "b4537f321a5d9e1ba92b26fda73fa330799472a2",
+            "git_last_date": "180318.152529",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.0",
