@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8878a8017ca38a391846b673a8fee385b44eaf34",
-            "git_last_date": "180317.050929",
+            "git_last_commit": "e516bf4af635dfa54df0d468982cdc7d973cf21c",
+            "git_last_date": "180318.202744",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -652,8 +652,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "33b39dbe66e2e694862c37799268c8d91f1f8130",
-            "git_last_date": "180318.054506",
+            "git_last_commit": "ac47086ff9d6b18ca83d05d524170ae290288f8c",
+            "git_last_date": "180318.203352",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "0",
