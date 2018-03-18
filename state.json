@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9afb7b031f829a89e464ec9a6ac8ba1288608534",
-            "git_last_date": "180318.120742",
+            "git_last_commit": "3e86a0e92f24d4fbddeffd11d439ccfdcbd67b99",
+            "git_last_date": "180318.174820",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
