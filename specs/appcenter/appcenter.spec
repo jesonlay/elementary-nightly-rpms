@@ -3,7 +3,7 @@
 Name:           appcenter
 Summary:        Software Center from elementary
 Version:        0.2.9+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -11,9 +11,6 @@ Source0:        %{name}-%{version}.tar.gz
 
 # Upstream elementaryOS blacklist adapted to fedora
 Source1:        appcenter.blacklist
-
-# Patch to fix compilation with PackageKit and vala 0.40
-Patch0:         00-fix-vala040-compilation.patch
 
 BuildRequires:  cmake
 BuildRequires:  cmake-elementary
@@ -61,11 +58,7 @@ Supplements:    (%{name} and gnome-shell)
 
 
 %prep
-%setup -q
-
-%if %{?fedora} > 27
-%patch0 -p1
-%endif
+%autosetup
 
 
 %build
@@ -115,6 +108,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Mar 18 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.9+git180317.203820.692f5423-2
+- Remove upstreamed patch.
+
 * Sat Mar 17 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.9+git180317.203820.692f5423-1
 - Update to latest snapshot.
 
