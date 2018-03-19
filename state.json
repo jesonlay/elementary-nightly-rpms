@@ -113,8 +113,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2a44f96092bbbd41521324092e1cc9926e7bb4d2",
-            "git_last_date": "180316.000422",
+            "git_last_commit": "6014fbf6e59187d8092b1483cfad6eeb46a28293",
+            "git_last_date": "180319.070527",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f4b1a30fd929666f3e90283d7bd7589c7123e169",
-            "git_last_date": "180318.144104",
+            "git_last_commit": "ecccab11b25b3d878c7b1eb9442c54bd2a99fcff",
+            "git_last_date": "180319.044218",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -597,12 +597,12 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c434ef95614d954cd6f10fb3e79c861ef85fc11f",
-            "git_last_date": "180318.012205",
+            "git_last_commit": "7542e76948baeb71f1e812ecd01d4e5fe3c31b86",
+            "git_last_date": "180319.094901",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.5+git%{date}.%{commit}"
         },
         "119": {
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "600d44ae3353725c4344cd22fe56c1c16a64ed22",
-            "git_last_date": "180318.014452",
+            "git_last_commit": "c263fa22fb232394879588dd12f07a9c8e5a902f",
+            "git_last_date": "180319.000143",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
