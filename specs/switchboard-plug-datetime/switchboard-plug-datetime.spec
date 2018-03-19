@@ -3,14 +3,14 @@
 Name:           switchboard-plug-datetime
 Summary:        Switchboard Date and Time plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -32,28 +32,27 @@ A switchboard plug to configure date and time settings.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-datetime-plug
+%find_lang datetime-plug
 
 
-%files -f pantheon-datetime-plug.lang
+%files -f datetime-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/system/pantheon-datetime/
+%{_libdir}/switchboard/system/libdatetime.so
 
 
 %changelog
+* Mon Mar 19 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180319.070527.6014fbf6-2
+- Adapt to CMake -> meson switch.
+
 * Mon Mar 19 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180319.070527.6014fbf6-1
 - Update to latest snapshot.
 
