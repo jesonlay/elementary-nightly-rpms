@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8e8eac93a812a34f367680c93ae2a09aeffbd294",
-            "git_last_date": "180321.195210",
+            "git_last_commit": "828a81daa83f57f9e4e9fda40fbbdcd89eb017fd",
+            "git_last_date": "180322.134250",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -201,8 +201,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7f53ac663a5845fd3ce4ae9d541bcb72ea82f0f1",
-            "git_last_date": "180320.001404",
+            "git_last_commit": "1802bebd32c7deebe6eedac2491dc664a45de694",
+            "git_last_date": "180322.134449",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
@@ -421,8 +421,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5157d3c5e29d1854cd663952701c09171cc4fa53",
-            "git_last_date": "180314.231543",
+            "git_last_commit": "567df840f7f35d188602e738e587e5de2dc8d349",
+            "git_last_date": "180322.134135",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.2",
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e59a69a2a9082f9ba85cca9fb29c5f904dde5d4a",
-            "git_last_date": "180322.021758",
+            "git_last_commit": "17216658c42e0caebbb652f967b93306a4338816",
+            "git_last_date": "180322.134356",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
