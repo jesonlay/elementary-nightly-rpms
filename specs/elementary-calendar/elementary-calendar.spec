@@ -7,7 +7,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        0.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -106,8 +106,6 @@ appstream-util validate-relax --nonet \
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/applications/%{appname}-daemon.desktop
 %{_datadir}/glib-2.0/schemas/org.pantheon.maya.gschema.xml
-%{_datadir}/icons/hicolor/scalable/actions/calendar-go-today.svg
-%{_datadir}/%{oldname}/
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 
@@ -122,6 +120,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Mar 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git180322.183805.f86347ae-2
+- Adapt to upstream file changes.
+
 * Thu Mar 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git180322.183805.f86347ae-1
 - Update to latest snapshot.
 
