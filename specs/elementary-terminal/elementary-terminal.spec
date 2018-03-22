@@ -4,17 +4,17 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.4.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
+BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
 BuildRequires:  pkgconfig(gdk-3.0)
@@ -40,16 +40,12 @@ terminal, nothing more, nothing less.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{appname}
 
@@ -79,6 +75,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Mar 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180322.072813.842d71c7-2
+- Adapt to CMake -> meson switch.
+
 * Thu Mar 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180322.072813.842d71c7-1
 - Update to latest snapshot.
 
