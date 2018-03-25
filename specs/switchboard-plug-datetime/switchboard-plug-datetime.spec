@@ -3,7 +3,7 @@
 Name:           switchboard-plug-datetime
 Summary:        Switchboard Date and Time plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ A switchboard plug to configure date and time settings.
 
 
 %changelog
+* Sun Mar 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180325.000941.1b775201-1
+- Update to latest snapshot.
+
 * Mon Mar 19 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180319.070527.6014fbf6-2
 - Adapt to CMake -> meson switch.
 

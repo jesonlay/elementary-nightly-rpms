@@ -4,7 +4,7 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.4.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -75,6 +75,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Mar 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180324.000901.5019eba8-1
+- Update to latest snapshot.
+
 * Thu Mar 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180322.072813.842d71c7-2
 - Adapt to CMake -> meson switch.
 
