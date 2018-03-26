@@ -3,7 +3,7 @@
 Name:           switchboard-plug-mouse-touchpad
 Summary:        Switchboard Mouse and Touchpad plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -13,8 +13,8 @@ Source0:        %{name}-%{version}.tar.gz
 # a recent GNOME version with the current equivalent.
 Patch0:         00-gschema-path.patch
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -38,28 +38,27 @@ A switchboard plug to configure the behavior of mice and touchpads.
 # Unmark some .vala source files as executable (WTF?)
 for i in $(find -executable -name '*.vala'); do chmod a-x $i; done
 
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-mouse-touchpad
+%find_lang mouse-touchpad-plug
 
 
-%files -f pantheon-mouse-touchpad.lang
-%doc AUTHORS README.md
+%files -f mouse-touchpad-plug.lang
+%doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/hardware/pantheon-mouse-touchpad/
+%{_libdir}/switchboard/hardware/libmouse-touchpad.so
 
 
 %changelog
+* Mon Mar 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180326.102640.505e2e7c-2
+- Adapt to CMake -> meson switch.
+
 * Mon Mar 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180326.102640.505e2e7c-1
 - Update to latest snapshot.
 
