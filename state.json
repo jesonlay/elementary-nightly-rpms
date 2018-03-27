@@ -58,8 +58,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dc6f56d075211c6397779fca1bddc305bbdbaf71",
-            "git_last_date": "180322.000527",
+            "git_last_commit": "f884ed28f2de26787ba39059fb56bacea7427487",
+            "git_last_date": "180327.000207",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.6",
@@ -135,8 +135,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ea6290272db39345eb1f38b32cb26466c5c92e9c",
-            "git_last_date": "180223.182919",
+            "git_last_commit": "e521da682a3b0ec1fe53321ae10357dad2047bb9",
+            "git_last_date": "180327.000223",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -289,8 +289,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "61c4f9feb1090f9a13a0f8e71d912997a05e62ec",
-            "git_last_date": "180304.223212",
+            "git_last_commit": "715720160f850f1f902ad46bd8a0820fbcfb7811",
+            "git_last_date": "180326.230847",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.0.4",
@@ -421,12 +421,12 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "505e2e7ca1a9f9a33323d47856d27ce17346ca43",
-            "git_last_date": "180326.102640",
+            "git_last_commit": "b0377d7facc30d105aff0495015f98396803774f",
+            "git_last_date": "180327.000229",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         },
         "100": {
@@ -597,8 +597,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9974320ebaea9591f4b0025e01bf5d2365b480da",
-            "git_last_date": "180326.000844",
+            "git_last_commit": "3cb86e1a41e59968c1d532d9bec11d462a86c588",
+            "git_last_date": "180327.000154",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -608,8 +608,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1582cbf3e90c0fc27abb2941a28d326aa14d534e",
-            "git_last_date": "180324.001137",
+            "git_last_commit": "3fafedebb92377d86de25238d2c22befd1c647f3",
+            "git_last_date": "180327.000214",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.4",
@@ -619,8 +619,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1caed1b5ff15aab450d70543ad92264fa8ed5302",
-            "git_last_date": "180326.184645",
+            "git_last_commit": "25f359a43805d14be1bdc17a7a00847b05c95794",
+            "git_last_date": "180327.000243",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
@@ -630,8 +630,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fefa07b26a56d9ff1865eff076cae539de7f88d3",
-            "git_last_date": "180326.072358",
+            "git_last_commit": "86513d0341013491f676ae2119efca5760085cd5",
+            "git_last_date": "180327.000137",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
