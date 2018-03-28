@@ -388,8 +388,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b9ba8a04438993ac3221ec719ac6ce36cb3f3ed2",
-            "git_last_date": "180328.090437",
+            "git_last_commit": "dda97281059f78dd1f34ed8ecbc4ede80f4b5003",
+            "git_last_date": "180328.195243",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.1",
@@ -421,8 +421,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b0377d7facc30d105aff0495015f98396803774f",
-            "git_last_date": "180327.000229",
+            "git_last_commit": "b2b65ee14a5526379da3ab96a33ab459161ff5e5",
+            "git_last_date": "180328.195954",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.2",
@@ -432,8 +432,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06db5f3d215a271b63ac5bcbbaaee291ef98f480",
-            "git_last_date": "180327.202202",
+            "git_last_commit": "9e722115b0010f7dab50c988c6bf4ca9879f1c72",
+            "git_last_date": "180328.192610",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.3",
