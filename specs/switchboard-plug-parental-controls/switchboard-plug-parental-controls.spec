@@ -3,7 +3,7 @@
 Name:           switchboard-plug-parental-controls
 Summary:        Switchboard Parental Controls plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -46,10 +46,6 @@ An easy parental controls plug.
 
 %find_lang parental-controls-plug
 
-# move systemd unit file to correct location
-mkdir -p %{buildroot}/%{_unitdir}
-mv -v %{buildroot}/lib/systemd/system/pantheon-parental-controls.service %{buildroot}/%{_unitdir}/
-
 
 %check
 desktop-file-validate \
@@ -87,6 +83,9 @@ desktop-file-validate \
 
 
 %changelog
+* Wed Mar 28 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180328.192610.9e722115-2
+- Adapt to upstream fixes.
+
 * Wed Mar 28 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180328.192610.9e722115-1
 - Update to latest snapshot.
 
