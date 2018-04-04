@@ -3,14 +3,14 @@
 Name:           wingpanel-indicator-keyboard
 Summary:        Keyboard Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -32,27 +32,27 @@ A keyboard indicator for wingpanel.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang keyboard-indicator
 
 
 %files -f keyboard-indicator.lang
 %doc README.md
+%license COPYING
 
 %{_libdir}/wingpanel/libkeyboard.so
 
 
 %changelog
+* Wed Apr 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180329.233608.b294f018-2
+- Adapt to CMake -> meson switch.
+
 * Tue Apr 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180329.233608.b294f018-1
 - Update to latest snapshot.
 
