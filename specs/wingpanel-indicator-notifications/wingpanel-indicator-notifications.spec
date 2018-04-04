@@ -3,14 +3,14 @@
 Name:           wingpanel-indicator-notifications
 Summary:        Notifications Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -34,16 +34,12 @@ A notifications indicator for wingpanel.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang notifications-indicator
 
@@ -52,10 +48,13 @@ popd
 %doc README.md
 %license COPYING
 
-%{_libdir}/wingpanel/libnotifications-indicator.so
+%{_libdir}/wingpanel/libnotifications.so
 
 
 %changelog
+* Wed Apr 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180329.191127.ce59ba99-2
+- Adapt to CMake -> meson switch.
+
 * Tue Apr 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180329.191127.ce59ba99-1
 - Update to latest snapshot.
 
