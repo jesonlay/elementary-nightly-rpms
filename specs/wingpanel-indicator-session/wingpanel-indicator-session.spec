@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-session
 Summary:        Session Indicator for wingpanel
 Version:        2.0.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -51,6 +51,9 @@ A session Indicator for wingpanel.
 
 
 %changelog
+* Thu Apr 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git180405.170632.70057b44-1
+- Update to latest snapshot.
+
 * Wed Apr 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.4+git180403.143317.dcdb3e18-2
 - Adapt to CMake -> meson switch.
 
