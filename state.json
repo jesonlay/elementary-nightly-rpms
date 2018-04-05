@@ -58,8 +58,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4aa0457c5617e7b2e5465a7652cd0823cd546092",
-            "git_last_date": "180402.000444",
+            "git_last_commit": "4ec7c0080631c1bc56c7c27fa3593e9273ea68ce",
+            "git_last_date": "180405.190042",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.6",
@@ -498,8 +498,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "959e9a242d8b27de6d8b797a1276cb79502f1802",
-            "git_last_date": "180405.142627",
+            "git_last_commit": "8000aa8b8bc0dd3d461461fe7a0bab6e2e299055",
+            "git_last_date": "180405.182106",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.1.5",
