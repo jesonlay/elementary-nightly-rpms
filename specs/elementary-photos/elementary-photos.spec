@@ -8,7 +8,7 @@
 Name:           elementary-photos
 Summary:        elementary photo manager and viewer
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -76,10 +76,10 @@ popd
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/%{oldname}.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/%{oldname}-viewer.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}-viewer.desktop
 
 # Validation currently fails due to a bug (?) in appstream-glib
 # https://bugzilla.redhat.com/show_bug.cgi?id=1492566
@@ -87,7 +87,7 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/appdata/%{appname}.appdata.xml || :
 
 
-%files -f io.elementary.photos.lang
+%files -f %{appname}.lang
 %doc AUTHORS README.md THANKS
 %license COPYING
 
@@ -97,14 +97,17 @@ appstream-util validate-relax --nonet \
 
 %{_libexecdir}/%{appname}/
 
-%{_datadir}/applications/%{oldname}.desktop
-%{_datadir}/applications/%{oldname}-viewer.desktop
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/applications/%{appname}-viewer.desktop
 %{_datadir}/glib-2.0/schemas/%{oldname}.gschema.xml
 %{_datadir}/glib-2.0/schemas/%{oldname}-extras.gschema.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Thu Apr 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180405.101732.b7f31f32-2
+- Adapt to upstream file changes.
+
 * Thu Apr 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180405.101732.b7f31f32-1
 - Update to latest snapshot.
 
