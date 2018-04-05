@@ -54,6 +54,9 @@ A bluetooth indicator for wingpanel.
 
 
 %changelog
+* Thu Apr 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git180405.210138.d2f40078-1
+- Update to latest snapshot.
+
 * Wed Apr 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git180404.005820.ac21f7c4-1
 - Adapt to CMake -> meson switch.
 
