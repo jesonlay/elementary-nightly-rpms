@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-notifications
 Summary:        Notifications Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -52,6 +52,9 @@ A notifications indicator for wingpanel.
 
 
 %changelog
+* Sun Apr 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180406.164103.d3d5cc72-1
+- Update to latest snapshot.
+
 * Wed Apr 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180329.191127.ce59ba99-2
 - Adapt to CMake -> meson switch.
 
