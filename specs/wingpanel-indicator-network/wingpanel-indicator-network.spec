@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-network
 Summary:        Network Indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -53,10 +53,11 @@ popd
 
 %{_libdir}/wingpanel/libnetwork.so
 
-%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.network.gschema.xml
-
 
 %changelog
+* Sun Apr 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180407.211419.56e25686-2
+- Adapt to upstream file changes.
+
 * Sun Apr 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180407.211419.56e25686-1
 - Update to latest snapshot.
 
