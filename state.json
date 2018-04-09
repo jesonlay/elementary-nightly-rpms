@@ -498,8 +498,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "276de53fb6ea7d4f6b28d3873ec4f951775fcbe9",
-            "git_last_date": "180406.150122",
+            "git_last_commit": "54487b248a53a58ed3c62e844ede90cc6048e689",
+            "git_last_date": "180409.120429",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.1.5",
