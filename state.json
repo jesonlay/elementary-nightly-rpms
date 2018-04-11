@@ -300,8 +300,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fb275c57af0f82ce76f6a101d8e41b8495a3892e",
-            "git_last_date": "180411.001950",
+            "git_last_commit": "b381ce38485f9d3f9b0f0facbd197d8e3de4c670",
+            "git_last_date": "180411.171818",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.4",
@@ -333,8 +333,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b740aff713807df57b8b8d178877ac18d4950626",
-            "git_last_date": "180411.165820",
+            "git_last_commit": "308da63eb2f527b36529e807a5862ac82eaa8832",
+            "git_last_date": "180411.171644",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.2",
