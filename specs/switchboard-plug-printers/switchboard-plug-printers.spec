@@ -54,6 +54,9 @@ A printers plug for Switchboard.
 
 
 %changelog
+* Wed Apr 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180411.165820.b740aff7-1
+- Update to latest snapshot.
+
 * Wed Apr 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180411.154847.03ea6806-1
 - Update to latest snapshot.
 
