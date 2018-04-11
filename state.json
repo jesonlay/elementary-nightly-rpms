@@ -300,8 +300,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "70057b44e71b787ed90d1f8d743f03794654826b",
-            "git_last_date": "180405.170632",
+            "git_last_commit": "fb275c57af0f82ce76f6a101d8e41b8495a3892e",
+            "git_last_date": "180411.001950",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.4",
@@ -333,8 +333,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2a2cb0f211737ffec22fc2c102059fe1bd8fc4c1",
-            "git_last_date": "180402.000517",
+            "git_last_commit": "2d3244ddd05c7a40f7ba60fe35b604c8375e6b7c",
+            "git_last_date": "180411.071244",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.2",
@@ -575,8 +575,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "62330919060e781379863eb691ce7a5b7db44926",
-            "git_last_date": "180410.061023",
+            "git_last_commit": "cefc7b21c80382096fa2085d6789e713f9fd1e58",
+            "git_last_date": "180410.234322",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.2.99",
