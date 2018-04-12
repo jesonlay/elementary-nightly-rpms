@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c546fd9910b60909dc6fc3042dbcd026ef0da5e",
-            "git_last_date": "180407.203206",
+            "git_last_commit": "fd75c11c7bf6c59c6d7d1f01547df6b5d551e1a8",
+            "git_last_date": "180412.042405",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -333,8 +333,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "308da63eb2f527b36529e807a5862ac82eaa8832",
-            "git_last_date": "180411.171644",
+            "git_last_commit": "92b3008941d19f24a170946472a0ad0b44e07e52",
+            "git_last_date": "180412.090403",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.2",
