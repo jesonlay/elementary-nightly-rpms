@@ -56,6 +56,9 @@ for i in $(find -executable -name '*.vala'); do chmod a-x $i; done
 
 
 %changelog
+* Sat Apr 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180414.123403.999c27b1-1
+- Update to latest snapshot.
+
 * Thu Apr 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180405.143536.1cd0a0c2-1
 - Update to latest snapshot.
 
