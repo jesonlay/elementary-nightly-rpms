@@ -1,5 +1,5 @@
 diff --git a/src/Plug.vala b/src/Plug.vala
-index d89ffe0..2c2fbff 100644
+index 3d0d1f1..a503b7c 100644
 --- a/src/Plug.vala
 +++ b/src/Plug.vala
 @@ -25,7 +25,6 @@ namespace Power {
@@ -10,14 +10,14 @@ index d89ffe0..2c2fbff 100644
  
          private PowerSettings screen;
          private Battery battery;
-@@ -38,7 +37,6 @@ namespace Power {
- 
-         construct {
-             settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.power");
--            pantheon_dpms_settings = new GLib.Settings ("org.pantheon.dpms");
- 
-             battery = new Battery ();
-             power_supply = new PowerSupply ();
+@@ -51,7 +50,6 @@ namespace Power {
+         public override Gtk.Widget get_widget () {
+             if (stack_container == null) {
+                 settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.power");
+-                pantheon_dpms_settings = new GLib.Settings ("org.pantheon.dpms");
+     
+                 battery = new Battery ();
+                 power_supply = new PowerSupply ();
 @@ -297,25 +295,15 @@ namespace Power {
                  main_grid.attach (lock_image, 2, 6, 1, 1);
              }
