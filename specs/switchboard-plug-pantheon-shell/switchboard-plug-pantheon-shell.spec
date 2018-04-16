@@ -3,7 +3,7 @@
 Name:           switchboard-plug-pantheon-shell
 Summary:        Switchboard Pantheon Shell plug
 Version:        0.2.6+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -63,6 +63,9 @@ desktop settings such as the panel, app launcher, and window manager.
 
 
 %changelog
+* Mon Apr 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180416.195454.28e26ce9-1
+- Update to latest snapshot.
+
 * Mon Apr 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180416.180112.85bcd3a9-2
 - Adapt to CMake -> meson switch.
 
