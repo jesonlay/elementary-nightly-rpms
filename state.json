@@ -498,13 +498,13 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d7c981d032d3d57e9ad90d7fed79db5a786c9164",
-            "git_last_date": "180422.190029",
+            "git_last_commit": "2fd81567a2627b24134a653fcbcd789933de0a8e",
+            "git_last_date": "180422.194240",
             "name": "vocal",
             "package_name": "vocal",
-            "package_version": "2.1.5",
+            "package_version": "2.2.0",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.1.5+git%{date}.%{commit}"
+            "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "107": {
             "git_branch": "master",
