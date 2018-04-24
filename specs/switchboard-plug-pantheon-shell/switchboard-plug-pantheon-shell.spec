@@ -3,7 +3,7 @@
 Name:           switchboard-plug-pantheon-shell
 Summary:        Switchboard Pantheon Shell plug
 Version:        0.2.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -59,10 +59,12 @@ desktop settings such as the panel, app launcher, and window manager.
 %{_libexecdir}/io.elementary.contract.set-wallpaper
 
 %{_datadir}/contractor/set-wallpaper.contract
-%{_datadir}/glib-2.0/schemas/io.elementary.switchboard.plug.desktop.gschema.xml
 
 
 %changelog
+* Tue Apr 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180424.050741.5ad30bd9-2
+- Adapt to upstream file changes.
+
 * Tue Apr 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180424.050741.5ad30bd9-1
 - Update to latest snapshot.
 
