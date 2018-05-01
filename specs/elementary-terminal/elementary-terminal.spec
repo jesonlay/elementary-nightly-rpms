@@ -4,7 +4,7 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.4.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -77,6 +77,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180501.170605.75b30164-1
+- Update to latest snapshot.
+
 * Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180429.145241.53a15da1-2
 - Add patch to fix build with vte291 >= 0.52.
 
