@@ -179,8 +179,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7b5de95be701b5e5d76069d2a3f9842a0f21a94c",
-            "git_last_date": "180429.133102",
+            "git_last_commit": "df5d96a51ebbbfffa1019b69fd002d61721c116a",
+            "git_last_date": "180501.105915",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.2",
@@ -190,8 +190,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "37d4aa5374a0d3365230cfb4e26b6edb220eb055",
-            "git_last_date": "180430.171740",
+            "git_last_commit": "00767856c5e3d251bb981381ce0d7c9165a99cf3",
+            "git_last_date": "180501.105827",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -531,8 +531,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "22cd1d91286ef5230c91a39b63d26371dcbb3f8c",
-            "git_last_date": "180501.095430",
+            "git_last_commit": "f1d955719723677e48b0b465eca0ab5fcef6fd3b",
+            "git_last_date": "180501.105713",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.4",
@@ -685,8 +685,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b55e6ebe07bd89b5ebca13ac083bf118cbbb4dbe",
-            "git_last_date": "180430.184613",
+            "git_last_commit": "e842b66b9ffad02b5270952a5545b278c8244b2b",
+            "git_last_date": "180501.101351",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.1",
