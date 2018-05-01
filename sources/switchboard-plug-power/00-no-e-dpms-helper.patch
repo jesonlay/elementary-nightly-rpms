@@ -1,23 +1,25 @@
 diff --git a/src/Plug.vala b/src/Plug.vala
-index 3d0d1f1..a503b7c 100644
+index ff85fd0..1d9be37 100644
 --- a/src/Plug.vala
 +++ b/src/Plug.vala
 @@ -25,7 +25,6 @@ namespace Power {
      public class Plug : Switchboard.Plug {
          private Gtk.SizeGroup label_size;
          private Gtk.StackSwitcher stack_switcher;
--        private GLib.Settings pantheon_dpms_settings;
+-        private GLib.Settings elementary_dpms_settings;
  
          private PowerSettings screen;
          private Battery battery;
-@@ -51,7 +50,6 @@ namespace Power {
+@@ -51,8 +50,7 @@ namespace Power {
          public override Gtk.Widget get_widget () {
              if (stack_container == null) {
                  settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.power");
--                pantheon_dpms_settings = new GLib.Settings ("org.pantheon.dpms");
-     
+-                elementary_dpms_settings = new GLib.Settings ("io.elementary.dpms");
+-    
++
                  battery = new Battery ();
                  power_supply = new PowerSupply ();
+     
 @@ -297,25 +295,15 @@ namespace Power {
                  main_grid.attach (lock_image, 2, 6, 1, 1);
              }
@@ -26,7 +28,7 @@ index 3d0d1f1..a503b7c 100644
 -            screen_timeout_label.halign = Gtk.Align.END;
 -            screen_timeout_label.xalign = 1;
 -
--            var screen_timeout = new TimeoutComboBox (pantheon_dpms_settings, "standby-time");
+-            var screen_timeout = new TimeoutComboBox (elementary_dpms_settings, "standby-time");
 -            screen_timeout.changed.connect (run_dpms_helper);
 -
              var power_label = new Gtk.Label (_("Power button:"));

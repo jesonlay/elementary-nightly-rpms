@@ -3,7 +3,7 @@
 Name:           switchboard-plug-power
 Summary:        Switchboard Power Plug
 Version:        0.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -63,6 +63,9 @@ Control system power consumption with this Switchboard preference plug.
 
 
 %changelog
+* Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180501.123706.f1f61cf7-2
+- Rebase patch to remove dpms-helper.
+
 * Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180501.123706.f1f61cf7-1
 - Update to latest snapshot.
 
