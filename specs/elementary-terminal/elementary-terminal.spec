@@ -4,18 +4,20 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.4.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
+
+Patch0:         00-fix-vte-052-build.patch
 
 BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
 BuildRequires:  meson
-BuildRequires:  vala >= 0.22.0
+BuildRequires:  vala >= 0.40.0
 
 BuildRequires:  pkgconfig(gdk-3.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.39
@@ -36,7 +38,7 @@ terminal, nothing more, nothing less.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
@@ -75,6 +77,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180429.145241.53a15da1-2
+- Add patch to fix build with vte291 >= 0.52.
+
 * Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180429.145241.53a15da1-1
 - Update to latest snapshot.
 
