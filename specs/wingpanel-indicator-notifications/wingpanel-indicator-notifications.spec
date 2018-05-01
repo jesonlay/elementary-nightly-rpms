@@ -52,6 +52,9 @@ A notifications indicator for wingpanel.
 
 
 %changelog
+* Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180429.150947.0410e9a4-1
+- Update to latest snapshot.
+
 * Sun Apr 15 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180415.163001.c88466b3-1
 - Update to latest snapshot.
 
