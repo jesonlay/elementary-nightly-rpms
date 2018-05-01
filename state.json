@@ -597,12 +597,12 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "74b8c8880ff9e5380d1c1896b2e64266c7fd103e",
-            "git_last_date": "180421.001057",
+            "git_last_commit": "ddd79748122afcf071af3430d4cc974f7fb1c51d",
+            "git_last_date": "180501.000326",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.3.5+git%{date}.%{commit}"
         },
         "119": {

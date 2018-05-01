@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        0.3.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -128,22 +128,13 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
-* Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com>
+* Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180501.000326.ddd79748-2
+- Fix bogus changelog dates.
+
+* Sun Apr 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180421.165835.f61d26c6-1
 - Update to latest snapshot.
 
-* Tue Apr 24 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Mon Apr 23 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Sun Apr 22 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Sat Apr 21 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180421.165835.f61d26c6-1
-- Update to latest snapshot.
-
-* Sun Apr 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180421.001057.74b8c888-1
+* Sat Apr 21 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180421.001057.74b8c888-1
 - Update to latest snapshot.
 
 * Fri Apr 20 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.5+git180420.165621.dd490bd4-1
