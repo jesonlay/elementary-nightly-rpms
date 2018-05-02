@@ -1,9 +1,9 @@
-%global appname org.pantheon.switchboard
+%global appname io.elementary.switchboard
 
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -80,7 +80,7 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/%{name}.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %post   libs -p /sbin/ldconfig
@@ -92,7 +92,7 @@ appstream-util validate-relax --nonet \
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
-%{_datadir}/metainfo/%{name}.appdata.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files libs
@@ -117,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed May 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180501.204356.84ea59bb-2
+- Adapt to upstream file changes.
+
 * Wed May 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180501.204356.84ea59bb-1
 - Update to latest snapshot.
 
