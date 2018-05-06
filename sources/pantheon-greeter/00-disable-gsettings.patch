@@ -1,5 +1,5 @@
 diff --git a/src/SettingsDaemon.vala b/src/SettingsDaemon.vala
-index 84d62c7..d3fff2e 100644
+index 21209ab..9ad3302 100644
 --- a/src/SettingsDaemon.vala
 +++ b/src/SettingsDaemon.vala
 @@ -22,37 +22,6 @@ public class SettingsDaemon : Object {
@@ -40,7 +40,7 @@ index 84d62c7..d3fff2e 100644
          /* Pretend to be GNOME session */
          session_manager = new SessionManagerInterface ();
          n_names++;
-@@ -71,28 +40,13 @@ public class SettingsDaemon : Object {
+@@ -71,37 +40,11 @@ public class SettingsDaemon : Object {
                             () => debug ("Failed to acquire name org.gnome.SessionManager"));
      }
  
@@ -58,15 +58,23 @@ index 84d62c7..d3fff2e 100644
          if (n_names != 0) {
              return;
          }
- 
+-
 -        debug ("All bus names acquired, starting gnome-settings-daemon");
 -
--        try {
--            Process.spawn_command_line_async ("gnome-settings-daemon");
--        } catch (SpawnError e) {
--            debug ("Could not start gnome-settings-daemon: %s", e.message);
+-        string[] daemons = {
+-            "gsd-a11y-settings",
+-            "gsd-color",
+-            "gsd-power",
+-            "gsd-xsettings"
+-        };
+-
+-        foreach (var daemon in daemons) {
+-            try {
+-                Process.spawn_command_line_async (Constants.GSD_DIR + daemon);
+-            } catch (SpawnError e) {
+-                debug ("Could not start %s: %s", daemon, e.message);
+-            }
 -        }
-+        return;
      }
  }
  
