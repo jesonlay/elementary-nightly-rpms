@@ -54,6 +54,9 @@ related to the Notifications plugin for Gala.
 
 
 %changelog
+* Sun May 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180504.000633.7d65672e-1
+- Update to latest snapshot.
+
 * Wed Apr 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180425.203030.4ea7d8f0-1
 - Update to latest snapshot.
 

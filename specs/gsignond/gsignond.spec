@@ -154,6 +154,9 @@ This package contains the default configuration.
 
 
 %changelog
+* Sun May 06 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git180504.160029.355e74cf-1
+- Update to latest snapshot.
+
 * Fri Apr 13 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git180412.220349.adc89045-1
 - Update to latest snapshot.
 
