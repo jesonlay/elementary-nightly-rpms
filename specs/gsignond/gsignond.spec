@@ -1,25 +1,24 @@
 %global __provides_exclude_from ^%{_libdir}/gsignond/.*\\.so$
-%global dbus_type session
-%global extension_type desktop
+
+%global dbus_type       session
+%global extension_type  desktop
+
 
 Name:           gsignond
 Summary:        GSignOn daemon
-Version:        1.0.6+git%{date}.%{commit}
+Version:        1.0.7+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://gitlab.com/accounts-sso/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
+
 BuildRequires:  gettext
 BuildRequires:  gtk-doc
-BuildRequires:  libtool
-BuildRequires:  pkgconfig
 BuildRequires:  meson
 BuildRequires:  vala
 BuildRequires:  vala-tools
-
-BuildRequires:  trousers-devel
 
 BuildRequires:  pkgconfig(check)
 BuildRequires:  pkgconfig(dbus-1)
@@ -33,6 +32,9 @@ Requires:       %{name}-config
 
 Requires:       dbus%{?_isa}
 
+Provides:       gsignond-extension-pantheon = %{version}-%{release}
+Obsoletes:      gsignond-extension-pantheon < 0.3.0-5
+
 
 %description
 The GSignOn daemon is a D-Bus service which performs user authentication
@@ -43,6 +45,7 @@ combination.
 
 %package        libs
 Summary:        GSignOn daemon libraries
+
 %description    libs
 The GSignOn daemon is a D-Bus service which performs user authentication
 on behalf of its clients. There are currently authentication plugins for
@@ -55,6 +58,7 @@ This package contains the shared libraries.
 %package        devel
 Summary:        GSignOn daemon development files
 Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
+
 %description    devel
 The GSignOn daemon is a D-Bus service which performs user authentication
 on behalf of its clients. There are currently authentication plugins for
@@ -67,6 +71,7 @@ This package contains the development headers.
 %package        doc
 Summary:        GSignOn daemon documentation
 BuildArch:      noarch
+
 %description    doc
 The GSignOn daemon is a D-Bus service which performs user authentication
 on behalf of its clients. There are currently authentication plugins for
@@ -79,7 +84,10 @@ This package contains the documentation.
 %package        default-config
 Summary:        GSignOn daemon default configuration
 BuildArch:      noarch
+
 Provides:       %{name}-config
+Obsoletes:      gsignond-pantheon-config
+
 %description    default-config
 The GSignOn daemon is a D-Bus service which performs user authentication
 on behalf of its clients. There are currently authentication plugins for
@@ -102,10 +110,6 @@ This package contains the default configuration.
 %meson_install
 
 
-%post   libs -p /sbin/ldconfig
-%postun libs -p /sbin/ldconfig
-
-
 %files
 %{_bindir}/gsignond
 
@@ -114,11 +118,11 @@ This package contains the default configuration.
 %endif
 
 
-%files          libs
+%files libs
 %license COPYING.LIB
 
 %{_libdir}/libgsignond-common.so.1
-%{_libdir}/libgsignond-common.so.1.0.5
+%{_libdir}/libgsignond-common.so.1.0.7
 
 %{_libdir}/girepository-1.0/GSignond-1.0.typelib
 
@@ -134,7 +138,7 @@ This package contains the default configuration.
 %{_libdir}/gsignond/extensions/libextension-desktop.so
 
 
-%files          devel
+%files devel
 %{_includedir}/gsignond/
 
 %{_libdir}/libgsignond-common.so
@@ -145,15 +149,18 @@ This package contains the default configuration.
 %{_datadir}/vala/vapi/gsignond.vapi
 
 
-%files          doc
+%files doc
 %{_datadir}/gtk-doc/html/gsignond/
 
 
-%files          default-config
+%files default-config
 %config(noreplace) %{_sysconfdir}/gsignond.conf
 
 
 %changelog
+* Sun May 06 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.7+git180504.160029.355e74cf-1
+- Update to version 1.0.7.
+
 * Sun May 06 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.6+git180504.160029.355e74cf-1
 - Update to latest snapshot.
 

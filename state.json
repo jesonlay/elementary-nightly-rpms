@@ -40,9 +40,9 @@
             "git_last_date": "180504.160029",
             "name": "gsignond",
             "package_name": "gsignond",
-            "package_version": "1.0.6",
+            "package_version": "1.0.7",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "1.0.6+git%{date}.%{commit}"
+            "rpm_last_version": "1.0.7+git%{date}.%{commit}"
         },
         "60": {
             "git_branch": "master",
