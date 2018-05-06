@@ -4,17 +4,16 @@
 Name:           elementary-videos
 Summary:        Video player and library app from elementary
 Version:        0.2.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(clutter-gst-3.0)
@@ -43,16 +42,12 @@ to the desktop.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{appname}
 
@@ -77,6 +72,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun May 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180505.054646.dba9f209-2
+- Adapt to CMake -> meson switch.
+
 * Sun May 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180505.054646.dba9f209-1
 - Update to latest snapshot.
 
