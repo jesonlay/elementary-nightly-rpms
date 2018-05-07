@@ -37,6 +37,9 @@ cp -pav configs/* %{buildroot}/%{_sysconfdir}/mock/
 
 
 %changelog
+* Mon May 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180507.132007.9b39eca3-1
+- Update to latest snapshot.
+
 * Sun Sep 17 2017 Fabio Valentini <decathorpe@gmail.com> - 0+git170917.092344.5464ea09-1
 - Initial package.
 
