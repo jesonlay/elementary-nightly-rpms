@@ -3,19 +3,16 @@
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
-BuildRequires:  cmake-elementary
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  pkgconfig
+BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32.0
 BuildRequires:  pkgconfig(gtk+-3.0)
@@ -32,16 +29,12 @@ An agent for Polkit authorization designed for Pantheon.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang pantheon-agent-polkit
 
@@ -65,6 +58,9 @@ desktop-file-validate \
 
 
 %changelog
+* Tue May 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180508.022740.d1df964a-2
+- Adapt to CMake -> meson switch.
+
 * Tue May 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180508.022740.d1df964a-1
 - Update to latest snapshot.
 
