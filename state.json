@@ -586,8 +586,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dab2b320a39ddabc51a91444807903cb9bad7daa",
-            "git_last_date": "180507.000209",
+            "git_last_commit": "5a8c2945d1b1b28e2f69dbae7a189fa9ba838d40",
+            "git_last_date": "180508.203340",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.3",
