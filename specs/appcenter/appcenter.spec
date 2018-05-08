@@ -3,7 +3,7 @@
 Name:           appcenter
 Summary:        Software Center from elementary
 Version:        0.2.9+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -12,12 +12,10 @@ Source0:        %{name}-%{version}.tar.gz
 # Upstream elementaryOS blacklist adapted to fedora
 Source1:        appcenter.blacklist
 
-BuildRequires:  cmake
-BuildRequires:  cmake-elementary
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala >= 0.26
 
 BuildRequires:  appstream-vala
@@ -62,16 +60,12 @@ Supplements:    (%{name} and gnome-shell)
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{appname}
 
@@ -88,7 +82,7 @@ appstream-util validate-relax --nonet \
 
 
 %files -f %{appname}.lang
-%doc AUTHORS README.md
+%doc README.md
 %license COPYING
 
 %dir %{_sysconfdir}/%{appname}
@@ -104,10 +98,13 @@ appstream-util validate-relax --nonet \
 
 
 %files gnome-shell-search-provider
-%{_datadir}/gnome-shell/search-providers/io.elementary.appcenter.search-provider.ini
+%{_datadir}/gnome-shell/search-providers/%{appname}.search-provider.ini
 
 
 %changelog
+* Tue May 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.9+git180508.001318.b18fa169-2
+- Adapt to CMake -> meson switch.
+
 * Tue May 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.9+git180508.001318.b18fa169-1
 - Update to latest snapshot.
 
