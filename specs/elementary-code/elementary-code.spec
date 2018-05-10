@@ -161,52 +161,10 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
-* Thu May 10 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
+* Thu May 10 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180510.064254.d3effc13-1
+- Fix build due to bogus changelog entries.
 
-* Wed May 09 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Wed May 09 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Wed May 09 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Tue May 08 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Mon May 07 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Sun May 06 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Thu May 03 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Wed May 02 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Tue May 01 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Wed Apr 25 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Wed Apr 25 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Tue Apr 24 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Tue Apr 24 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Mon Apr 23 2018 Fabio Valentini <decathorpe@gmail.com>
-- Update to latest snapshot.
-
-* Sat Apr 21 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180421.162355.9329bf5b-1
+* Sun Apr 22 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180421.162355.9329bf5b-1
 - Update to latest snapshot.
 
 * Sun Apr 22 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180421.001026.9209d900-1
