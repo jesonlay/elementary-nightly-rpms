@@ -3,7 +3,7 @@
 Name:           switchboard-plug-applications
 Summary:        Switchboard Applications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            http://github.com/elementary/%{name}
@@ -47,9 +47,13 @@ that allows the user to manage application settings.
 %license COPYING
 
 %{_libdir}/switchboard/personal/libapplications.so
+%{_datadir}/metainfo/io.elementary.switchboard-plug-applications.appdata.xml
 
 
 %changelog
+* Thu May 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180509.203331.7c70cbd4-2
+- Adapt to upstream file changes.
+
 * Wed May 09 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180509.203331.7c70cbd4-1
 - Update to latest snapshot.
 
