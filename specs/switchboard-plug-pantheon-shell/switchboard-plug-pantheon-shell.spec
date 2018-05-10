@@ -62,6 +62,9 @@ desktop settings such as the panel, app launcher, and window manager.
 
 
 %changelog
+* Thu May 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180510.000916.8807bf32-1
+- Update to latest snapshot.
+
 * Wed May 09 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.6+git180509.193925.3c011fdd-1
 - Update to latest snapshot.
 

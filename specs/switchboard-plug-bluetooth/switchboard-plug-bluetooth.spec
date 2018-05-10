@@ -54,6 +54,9 @@ devices.
 
 
 %changelog
+* Thu May 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180510.000934.06a72320-1
+- Update to latest snapshot.
+
 * Mon May 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180507.000330.bc49a572-1
 - Update to latest snapshot.
 

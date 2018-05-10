@@ -54,6 +54,9 @@ This switchboard plug shows system information.
 
 
 %changelog
+* Thu May 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180510.000911.70337c0c-1
+- Update to latest snapshot.
+
 * Tue May 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180508.152058.f16e0ce5-1
 - Update to latest snapshot.
 
