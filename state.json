@@ -58,8 +58,8 @@
         "61": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4e8f7e8c343db465dbe79baa9555902b97dd092b",
-            "git_last_date": "180507.000242",
+            "git_last_commit": "cb731432abdd34b4d120b3ce953413a076acb38b",
+            "git_last_date": "180511.104149",
             "name": "pantheon-mail",
             "package_name": "pantheon-mail",
             "package_version": "1.0.6",
@@ -597,8 +597,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "42e17f656b31d163eb0a4e2bcae85310929e1829",
-            "git_last_date": "180511.094814",
+            "git_last_commit": "16587420aaf44cae569b5103d6d89ac0c4b8bdd8",
+            "git_last_date": "180511.101029",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
