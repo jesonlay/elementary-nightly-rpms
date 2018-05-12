@@ -3,7 +3,7 @@
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
 Version:        0.1.0.99+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -11,6 +11,7 @@ URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
@@ -46,14 +47,24 @@ devices.
 %find_lang bluetooth-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/io.elementary.switchboard-plug-bluetooth.appdata.xml || :
+
+
 %files -f bluetooth-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/network/libbluetooth.so
 
+%{_datadir}/metainfo/io.elementary.switchboard-plug-bluetooth.appdata.xml
+
 
 %changelog
+* Sat May 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180512.001220.866bffa4-2
+- Adapt to upstream file changes.
+
 * Sat May 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180512.001220.866bffa4-1
 - Update to latest snapshot.
 
