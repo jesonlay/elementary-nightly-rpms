@@ -67,6 +67,9 @@ This package contains the documentation.
 
 
 %changelog
+* Sun May 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180513.170206.43fee492-1
+- Update to latest snapshot.
+
 * Sun May 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180513.133709.24c1c6da-1
 - Update to latest snapshot.
 

@@ -212,8 +212,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bf0581d129293d073b3dba8034de71d51e4715b4",
-            "git_last_date": "180512.234453",
+            "git_last_commit": "08c9e7defeb6a9965ed3960f265fc7dc1c511a15",
+            "git_last_date": "180513.175222",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -509,8 +509,8 @@
         "107": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b36060b7b384c8f86d3fba153d7b2b645287df3b",
-            "git_last_date": "171111.202603",
+            "git_last_commit": "43fee492ef84533ea2282a161b2695e0a95eb186",
+            "git_last_date": "180513.170206",
             "name": "gsignond-plugin-oauth",
             "package_name": "gsignond-plugin-oauth",
             "package_version": "0",
@@ -586,8 +586,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a8c2945d1b1b28e2f69dbae7a189fa9ba838d40",
-            "git_last_date": "180508.203340",
+            "git_last_commit": "db333c6e72ed3fed8311bdf064ef454ccee73f9e",
+            "git_last_date": "180513.163946",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.3",
