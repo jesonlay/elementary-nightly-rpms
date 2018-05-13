@@ -3,13 +3,14 @@
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        40-lightdm-pantheon-greeter.conf
 Source2:        pantheon-greeter.whitelist
+Source3:        pantheon-greeter.conf
 
 # Remove gsettings stuff that's no longer there and causes crashes
 Patch0:         00-disable-gsettings.patch
@@ -38,6 +39,9 @@ Requires:       impallari-raleway-fonts
 
 # Runtime requirement for numlock capture
 Requires:       numlockx
+
+# Runtime requirement for hardcoded elementary's default wallpaper
+Requires:       elementary-wallpapers
 
 
 # All LightDM greeters provide this
@@ -78,6 +82,10 @@ install -pm 0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/lightdm/lightdm.conf.d/
 mkdir -p %{buildroot}%{_sysconfdir}/wingpanel.d
 install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
+# Install settings override for different wallpaper location on fedora
+mkdir -p %{buildroot}%{_sysconfdir}/lightdm
+install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
+
 
 %files -f pantheon-greeter.lang
 %license LICENSE
@@ -93,6 +101,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Sun May 13 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180510.171547.6411c087-2
+- Add patch to fix wallpaper on greeter.
+
 * Thu May 10 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180510.171547.6411c087-1
 - Update to latest snapshot.
 
