@@ -4,7 +4,7 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.4.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -35,6 +35,23 @@ Provides:       pantheon-terminal
 A super lightweight, beautiful, and simple terminal. It's designed to be
 setup with sane defaults and little to no configuration. It's just a
 terminal, nothing more, nothing less.
+
+
+%package        fish
+Summary:        The terminal of the 21st century (fish support)
+
+Requires:       %{name} = %{version}-%{release}
+Requires:       fish
+
+Supplements:    (%{name} and fish)
+
+%description    fish
+A super lightweight, beautiful, and simple terminal. It's designed to be
+setup with sane defaults and little to no configuration. It's just a
+terminal, nothing more, nothing less.
+
+This package contains the files needed to support "process completed"
+notifications when using the fish shell.
 
 
 %prep
@@ -75,8 +92,14 @@ appstream-util validate-relax --nonet \
 %{_datadir}/%{appname}/
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
+%files fish
+%{_datadir}/fish/vendor_conf.d/pantheon_terminal_process_completion_notifications.fish
+
 
 %changelog
+* Mon May 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180514.074915.30343fbb-2
+- Adapt to added fish shell support.
+
 * Mon May 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180514.074915.30343fbb-1
 - Update to latest snapshot.
 
