@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e58278e0269d3a4602c06f323332c146c3470fc",
-            "git_last_date": "180514.143049",
+            "git_last_commit": "8eb9a777236a3ab6cbbe962193b2c6ed362ec0f2",
+            "git_last_date": "180514.154810",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -47,8 +47,8 @@
         "60": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3058d42009fbffd4b92caeb8db694870cb7fb456",
-            "git_last_date": "180504.164357",
+            "git_last_commit": "d1bae907664e3775835b96a191165963c1583886",
+            "git_last_date": "180514.150051",
             "name": "libgsignon-glib",
             "package_name": "libgsignon-glib",
             "package_version": "2.4.1",
@@ -586,8 +586,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "db333c6e72ed3fed8311bdf064ef454ccee73f9e",
-            "git_last_date": "180513.163946",
+            "git_last_commit": "8a3431b9f026dd60b0c8d4da8bb0e89dacc9e02a",
+            "git_last_date": "180514.154020",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.3",
