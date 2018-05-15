@@ -1,16 +1,17 @@
 %global srcname greeter
+%global appname io.elementary.greeter
 
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        40-lightdm-pantheon-greeter.conf
-Source2:        pantheon-greeter.whitelist
-Source3:        pantheon-greeter.conf
+Source1:        40-io.elementary.greeter.conf
+Source2:        io.elementary.greeter.whitelist
+Source3:        io.elementary.greeter.conf
 
 # Remove gsettings stuff that's no longer there and causes crashes
 Patch0:         00-disable-gsettings.patch
@@ -72,7 +73,7 @@ pushd build
 %make_install
 popd
 
-%find_lang pantheon-greeter
+%find_lang %{appname}
 
 # Install LightDM configuration file
 mkdir -p %{buildroot}%{_sysconfdir}/lightdm/lightdm.conf.d
@@ -87,20 +88,23 @@ mkdir -p %{buildroot}%{_sysconfdir}/lightdm
 install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
 
 
-%files -f pantheon-greeter.lang
+%files -f %{appname}.lang
 %license LICENSE
 
-%config(noreplace) %{_sysconfdir}/lightdm/pantheon-greeter.conf
-%config(noreplace) %{_sysconfdir}/lightdm/lightdm.conf.d/40-lightdm-pantheon-greeter.conf
-%config(noreplace) %{_sysconfdir}/wingpanel.d/pantheon-greeter.whitelist
+%config(noreplace) %{_sysconfdir}/lightdm/%{appname}.conf
+%config(noreplace) %{_sysconfdir}/lightdm/lightdm.conf.d/40-%{appname}.conf
+%config(noreplace) %{_sysconfdir}/wingpanel.d/%{appname}.whitelist
 
-%{_sbindir}/pantheon-greeter
+%{_sbindir}/%{appname}
 
-%{_datadir}/pantheon-greeter/
-%{_datadir}/xgreeters/pantheon-greeter.desktop
+%{_datadir}/%{appname}/
+%{_datadir}/xgreeters/%{appname}.desktop
 
 
 %changelog
+* Tue May 15 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180515.123016.a1a44f31-2
+- Adapt to upstream file changes.
+
 * Tue May 15 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180515.123016.a1a44f31-1
 - Update to latest snapshot.
 
