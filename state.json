@@ -41,7 +41,7 @@
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.0.7",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "1.0.7+git%{date}.%{commit}"
         },
         "60": {
