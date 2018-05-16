@@ -3,12 +3,12 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "daccaca22e413726abd93edb84e9b18c7fd625cf",
-            "git_last_date": "180516.170709",
+            "git_last_commit": "b1a1d76028d960cca35b77aa338b329eadca2edc",
+            "git_last_date": "180516.215646",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "4.3.1+git%{date}.%{commit}"
         },
         "10": {

@@ -3,7 +3,7 @@
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
 Version:        4.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -16,6 +16,27 @@ BuildRequires:  meson
 
 %description
 This is an icon theme designed to be smooth, sexy, clear, and efficient.
+
+%package        gimp-palette
+Summary:        Icons from the Elementary Project (GIMP palette)
+Requires:       %{name} = %{version}-%{release}
+Requires:       gimp
+
+%description    gimp-palette
+This is an icon theme designed to be smooth, sexy, clear, and efficient.
+
+This package contains a palette file for the GIMP.
+
+
+%package        inkscape-palette
+Summary:        Icons from the Elementary Project (inkscape palette)
+Requires:       %{name} = %{version}-%{release}
+Requires:       inkscape
+
+%description    inkscape-palette
+This is an icon theme designed to be smooth, sexy, clear, and efficient.
+
+This package contains a palette file for inkscape.
 
 
 %prep
@@ -30,9 +51,9 @@ This is an icon theme designed to be smooth, sexy, clear, and efficient.
 %install
 %meson_install
 
-# Clean up stuff
-#rm %{buildroot}/.VolumeIcon.png
-#rm %{buildroot}/.VolumeIcon.icns
+# Clean up weird stuff
+rm %{buildroot}/.VolumeIcon.png
+rm %{buildroot}/.VolumeIcon.icns
 
 # Create icon cache file
 touch %{buildroot}/%{_datadir}/icons/elementary/icon-theme.cache
@@ -49,11 +70,33 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 %doc AUTHORS README.md
 %license COPYING
 
-%{_datadir}/icons/elementary/
+%dir %{_datadir}/icons/elementary
 %ghost %{_datadir}/icons/elementary/icon-theme.cache
+
+%{_datadir}/icons/elementary/*/
+%{_datadir}/icons/elementary/*@2x
+%{_datadir}/icons/elementary/*@3x
+
+%{_datadir}/icons/elementary/cursor.theme
+%{_datadir}/icons/elementary/index.theme
+
+%files gimp-palette
+%{_datadir}/gimp/2.0/palettes/elementary.gpl
+
+%files inkscape-palette
+%{_datadir}/inkscape/palettes/elementary.gpl
 
 
 %changelog
+* Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.215510.077d8cf6-2
+- Adapt to upstream file changes (GIMP and inkscape palette files).
+
+* Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.215510.077d8cf6-1
+- Update to latest snapshot.
+
+* Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.215510.077d8cf6-1
+- Update to latest snapshot.
+
 * Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.170709.daccaca2-1
 - Update to latest snapshot.
 
