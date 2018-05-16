@@ -4,7 +4,7 @@
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -16,9 +16,9 @@ Source3:        io.elementary.greeter.conf
 # Remove gsettings stuff that's no longer there and causes crashes
 Patch0:         00-disable-gsettings.patch
 
-BuildRequires:  cmake
+BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
+BuildRequires:  meson
 BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.26
 
@@ -62,16 +62,12 @@ Pantheon Greeter is a Pantheon-styled Login Screen for LightDM.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{appname}
 
@@ -102,6 +98,9 @@ install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
 
 
 %changelog
+* Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180516.111907.4e73eefa-2
+- Adapt to CMake -> meson switch.
+
 * Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180516.111907.4e73eefa-1
 - Update to latest snapshot.
 
