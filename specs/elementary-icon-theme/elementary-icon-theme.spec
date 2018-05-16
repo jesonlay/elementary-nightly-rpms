@@ -3,7 +3,7 @@
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
 Version:        4.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -54,6 +54,9 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %changelog
+* Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.132611.90268d68-1
+- Update to latest snapshot.
+
 * Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.111050.adf21c17-2
 - Adapt to CMake -> meson switch.
 
