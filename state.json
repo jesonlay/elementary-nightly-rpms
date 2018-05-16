@@ -201,8 +201,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "94223281e0af03151225def4c5cdf5712024eff7",
-            "git_last_date": "180516.090935",
+            "git_last_commit": "a450f90dccbcec04447d25a8913d6b0986c410aa",
+            "git_last_date": "180516.124415",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -663,8 +663,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6f15912a5e1024dfae0a9859b7e08eabf3ead903",
-            "git_last_date": "180516.095151",
+            "git_last_commit": "6b56559b3793ddb6de81eaec89baadfa0313480e",
+            "git_last_date": "180516.120445",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "0.2.4",
