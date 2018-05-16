@@ -3,7 +3,7 @@
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
 Version:        4.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -11,7 +11,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
-BuildRequires:  cmake
+BuildRequires:  meson
 
 
 %description
@@ -23,20 +23,16 @@ This is an icon theme designed to be smooth, sexy, clear, and efficient.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 # Clean up stuff
-rm %{buildroot}/.VolumeIcon.png
-rm %{buildroot}/.VolumeIcon.icns
+#rm %{buildroot}/.VolumeIcon.png
+#rm %{buildroot}/.VolumeIcon.icns
 
 # Create icon cache file
 touch %{buildroot}/%{_datadir}/icons/elementary/icon-theme.cache
@@ -58,6 +54,9 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %changelog
+* Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.111050.adf21c17-2
+- Adapt to CMake -> meson switch.
+
 * Wed May 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git180516.111050.adf21c17-1
 - Update to latest snapshot.
 
