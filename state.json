@@ -190,8 +190,8 @@
         "76": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "698419afab958fc2a972aabb2a5d8ec50c595fbb",
-            "git_last_date": "180515.000816",
+            "git_last_commit": "3154983b165da4fee6112467044f90e2483ea96e",
+            "git_last_date": "180517.145558",
             "name": "slingshot-launcher",
             "package_name": "slingshot-launcher",
             "package_version": "2.2.0",
