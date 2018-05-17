@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fe4da1f79b486a5a51ba461dda81a7affcf6aa25",
-            "git_last_date": "180517.174121",
+            "git_last_commit": "856214d06d9b94947833789138d97f8fec943d52",
+            "git_last_date": "180517.184941",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -25,12 +25,12 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1dea287f32e04236b2ebd90d3d965b553c3f5320",
-            "git_last_date": "180515.235633",
+            "git_last_commit": "ea9443c3b7ce3a570fea4f8847245aa92f0ee818",
+            "git_last_date": "180517.185139",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.6+git%{date}.%{commit}"
         },
         "59": {
