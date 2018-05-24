@@ -4,7 +4,7 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.4.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -97,6 +97,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu May 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180519.001116.44ba2775-1
+- Update to latest snapshot.
+
 * Mon May 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.3+git180514.074915.30343fbb-2
 - Adapt to added fish shell support.
 
