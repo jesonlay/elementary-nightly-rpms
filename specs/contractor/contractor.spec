@@ -1,18 +1,18 @@
 Name:           contractor
 Summary:        Desktop-wide extension service
-Version:        0.3.2.99+git%{date}.%{commit}
+Version:        0.3.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-Source1:        %{name}.conf
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala
 BuildRequires:  vala-tools
 
+BuildRequires:  pkgconfig(dbus-1)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
 
@@ -30,16 +30,12 @@ coded into them.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 # Create the the directory where other programs put their contracts
 mkdir -p %{buildroot}/%{_datadir}/contractor
@@ -56,6 +52,9 @@ mkdir -p %{buildroot}/%{_datadir}/contractor
 
 
 %changelog
+* Sat May 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180524.211656.fe6f23e1-1
+- Update to version 0.3.3.
+
 * Sat May 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2.99+git180524.211656.fe6f23e1-1
 - Update to latest snapshot.
 
