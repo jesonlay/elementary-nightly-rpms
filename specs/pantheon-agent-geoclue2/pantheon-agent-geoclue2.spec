@@ -3,7 +3,7 @@
 Name:           pantheon-agent-geoclue2
 Summary:        Pantheon Geoclue2 Agent
 Version:        1.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/pantheon-agent-geoclue2
@@ -11,6 +11,7 @@ Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
 BuildRequires:  desktop-file-utils
+BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
@@ -59,6 +60,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sun May 27 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0+git180526.080401.1effca6d-2
+- Add missing dependency on gettext.
+
 * Sun May 27 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0+git180526.080401.1effca6d-1
 - Update to version 1.0.
 
