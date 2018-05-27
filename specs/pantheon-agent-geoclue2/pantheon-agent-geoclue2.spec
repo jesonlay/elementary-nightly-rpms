@@ -1,6 +1,8 @@
+%global appname io.elementary.desktop.agent-geoclue2
+
 Name:           pantheon-agent-geoclue2
 Summary:        Pantheon Geoclue2 Agent
-Version:        0+git%{date}.%{commit}
+Version:        1.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -8,9 +10,8 @@ URL:            https://github.com/elementary/pantheon-agent-geoclue2
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}.conf
 
-BuildRequires:  cmake
-BuildRequires:  cmake-elementary
 BuildRequires:  desktop-file-utils
+BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
 BuildRequires:  pkgconfig(dbus-glib-1)
@@ -30,32 +31,37 @@ requests access to location services.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang pantheon-agent-geoclue2
 
 
 %check
-desktop-file-validate %{buildroot}/%{_datadir}/applications/*.desktop
+desktop-file-validate \
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 
 %files -f pantheon-agent-geoclue2.lang
+%doc README.md
+%license COPYING
+
+%config(noreplace) %{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
+
 %{_libexecdir}/geoclue2-1-pantheon/
 
-%{_datadir}/applications/io.elementary.desktop.agent-geoclue2.desktop
-%{_datadir}/glib-2.0/schemas/io.elementary.desktop.agent-geoclue2.gschema.xml
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 
 
 %changelog
+* Sun May 27 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0+git180526.080401.1effca6d-1
+- Update to version 1.0.
+
 * Sat May 26 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180526.080401.1effca6d-1
 - Update to latest snapshot.
 
