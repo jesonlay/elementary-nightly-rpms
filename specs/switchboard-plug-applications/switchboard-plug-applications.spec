@@ -51,6 +51,9 @@ that allows the user to manage application settings.
 
 
 %changelog
+* Sun May 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180527.000534.ab362bed-1
+- Update to latest snapshot.
+
 * Thu May 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180524.104908.bb539acc-1
 - Update to latest snapshot.
 
