@@ -3,7 +3,7 @@
 Name:           switchboard-plug-parental-controls
 Summary:        Switchboard Parental Controls plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -75,6 +75,8 @@ desktop-file-validate \
 
 %{_libdir}/switchboard/system/libparental-controls.so
 
+%{_libexecdir}/pantheon-parental-controls-client
+
 %{_datadir}/applications/pantheon-parental-controls-client.desktop
 %{_datadir}/dbus-1/system-services/org.pantheon.ParentalControls.service
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.parental-controls.policy
@@ -83,6 +85,9 @@ desktop-file-validate \
 
 
 %changelog
+* Mon May 28 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180528.000047.50d2f63a-2
+- Adapt to upstream file changes.
+
 * Mon May 28 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180528.000047.50d2f63a-1
 - Update to latest snapshot.
 
