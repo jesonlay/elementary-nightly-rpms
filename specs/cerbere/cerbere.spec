@@ -1,7 +1,7 @@
 Name:           cerbere
 Summary:        Pantheon session watchdog
 Version:        0.2.2.99+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
@@ -58,6 +58,9 @@ desktop-file-validate \
 
 
 %changelog
+* Tue May 29 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.99+git180528.230258.e44a9dd1-1
+- Update to latest snapshot.
+
 * Sun Dec 31 2017 Fabio Valentini <decathorpe@gmail.com> - 0.2.2.99+git171118.235023.6ef09f29-2
 - Merge .spec file from fedora.
 
