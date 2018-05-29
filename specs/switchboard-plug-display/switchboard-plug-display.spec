@@ -9,8 +9,8 @@ License:        GPLv3+
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
 
@@ -33,28 +33,28 @@ them.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
-%find_lang pantheon-display-plug
+%find_lang display-plug
 
 
-%files -f pantheon-display-plug.lang
-%doc AUTHORS README.md
+%files -f display-plug.lang
+%doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/hardware/pantheon-display/
+%{_libdir}/switchboard/hardware/libdisplay.so
 
 
 %changelog
+* Tue May 29 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180529.151558.85e9391f-1
+- Update to latest snapshot.
+- Adapt to upstream file changes.
+
 * Tue May 29 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180529.135235.f529c00e-1
 - Update to latest snapshot.
 
