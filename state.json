@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bf7031807c634bde254cd1f61710652fd3249bd3",
-            "git_last_date": "180527.171858",
+            "git_last_commit": "1091434a2c3426106c8132c9bcb9d42441bd5a4b",
+            "git_last_date": "180529.145052",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -388,8 +388,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b5598085ca4939dba147f85ef7133401600c10bb",
-            "git_last_date": "180527.125410",
+            "git_last_commit": "1725b2d951a4ff74283cdf312fd9044e58d30374",
+            "git_last_date": "180529.142418",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "0.1.2",
@@ -641,8 +641,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7f4cf4901374429f768ac2d18f0558260f582aa3",
-            "git_last_date": "180528.105715",
+            "git_last_commit": "616f486372259229d60ba65e6d734a017415c12b",
+            "git_last_date": "180529.001150",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
