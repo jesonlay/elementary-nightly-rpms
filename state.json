@@ -179,8 +179,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2566ba7a1681466b37d5e77ba62c4d98bfd431cb",
-            "git_last_date": "180531.000300",
+            "git_last_commit": "68ca6504a90243afc583142e93920ace512b8005",
+            "git_last_date": "180531.163225",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -465,8 +465,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e56f2ce9fc27fd7408c9635d35c0bca13782ad80",
-            "git_last_date": "180531.154652",
+            "git_last_commit": "d056e8a6c4a9224585826bc4bc27487070c03408",
+            "git_last_date": "180531.163017",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "0.3.0.1",
