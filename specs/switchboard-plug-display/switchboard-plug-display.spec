@@ -51,6 +51,9 @@ them.
 
 
 %changelog
+* Thu May 31 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180531.055228.e5a31d64-1
+- Update to latest snapshot.
+
 * Wed May 30 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180530.124905.ab4cc85f-1
 - Update to latest snapshot.
 
