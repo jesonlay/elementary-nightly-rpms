@@ -1,13 +1,12 @@
-%global __provides_exclude_from ^%{_libdir}/maya-calendar/.*\\.so$
+%global __provides_exclude_from ^%{_libdir}/io.elementary.calendar/.*\\.so$
 
 %global srcname calendar
 %global appname io.elementary.calendar
-%global oldname maya-calendar
 
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        0.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -75,7 +74,7 @@ pushd build
 %make_install
 popd
 
-%find_lang %{oldname}
+%find_lang %{appname}
 
 
 %check
@@ -92,16 +91,16 @@ appstream-util validate-relax --nonet \
 %postun -p /sbin/ldconfig
 
 
-%files -f %{oldname}.lang
+%files -f %{appname}.lang
 %doc README.md
 %license COPYING
 
-%{_bindir}/%{oldname}
-%{_bindir}/%{oldname}-daemon
+%{_bindir}/%{appname}
+%{_bindir}/%{appname}-daemon
 
-%{_libdir}/lib%{oldname}.so.0
-%{_libdir}/lib%{oldname}.so.0.1
-%{_libdir}/%{oldname}/
+%{_libdir}/lib%{name}.so.0
+%{_libdir}/lib%{name}.so.0.1
+%{_libdir}/%{appname}/
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/applications/%{appname}-daemon.desktop
@@ -110,16 +109,19 @@ appstream-util validate-relax --nonet \
 
 
 %files devel
-%{_includedir}/%{oldname}/
+%{_includedir}/%{appname}/
 
-%{_libdir}/lib%{oldname}.so
-%{_libdir}/pkgconfig/%{oldname}.pc
+%{_libdir}/lib%{name}.so
+%{_libdir}/pkgconfig/%{appname}.pc
 
-%{_datadir}/vala/vapi/%{oldname}.deps
-%{_datadir}/vala/vapi/%{oldname}.vapi
+%{_datadir}/vala/vapi/%{appname}.deps
+%{_datadir}/vala/vapi/%{appname}.vapi
 
 
 %changelog
+* Fri Jun 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git180601.000646.b2ce4baa-2
+- Adapt to upstream file changes.
+
 * Fri Jun 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.1+git180601.000646.b2ce4baa-1
 - Update to latest snapshot.
 
