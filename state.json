@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "15976fc8bbdd71a827f2afe9320f57144245154b",
-            "git_last_date": "180529.235312",
+            "git_last_commit": "2cea0ebdf2a9a5109b719f0635274632bc9b033c",
+            "git_last_date": "180601.180302",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -124,8 +124,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5c2da1700d078f76730ef2d05aa56c55e8025cfd",
-            "git_last_date": "180601.000755",
+            "git_last_commit": "fc0f0e7d45c869c287b0a3accce81802252bac93",
+            "git_last_date": "180601.144706",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.3",
@@ -355,12 +355,12 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4e73eefa1096df38a824162fe75fc05765f31844",
-            "git_last_date": "180516.111907",
+            "git_last_commit": "176c31b45609d37578ea5d9d769f1af0e56e77af",
+            "git_last_date": "180601.183749",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         },
         "95": {
@@ -465,8 +465,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a5a7447257bf91a1910379b8ceb68bbb0ea8b768",
-            "git_last_date": "180531.175159",
+            "git_last_commit": "310d24e30a1d8ae2839c55071a2385efd9137759",
+            "git_last_date": "180601.143941",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "0.3.0.1",
@@ -575,8 +575,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "361d0f2b2b0ad4cb4ebc723f9b2279362944dca3",
-            "git_last_date": "180601.000715",
+            "git_last_commit": "b29748e205a6c8839a532722b9034c0e22895e56",
+            "git_last_date": "180601.163845",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -641,8 +641,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "964d790c4b8b4dcc217d68bd1ae939938ee6dfb8",
-            "git_last_date": "180601.000739",
+            "git_last_commit": "c7d55442cc101b23f12ce3d9887873c8a2ca252f",
+            "git_last_date": "180601.150419",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
