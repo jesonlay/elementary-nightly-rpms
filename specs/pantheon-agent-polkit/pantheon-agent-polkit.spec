@@ -1,9 +1,9 @@
-%global appname org.pantheon.agent-polkit
+%global appname io.elementary.pantheon-agent-polkit
 
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -36,7 +36,7 @@ An agent for Polkit authorization designed for Pantheon.
 %install
 %meson_install
 
-%find_lang pantheon-agent-polkit
+%find_lang %{appname}
 
 
 %check
@@ -46,7 +46,7 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 
-%files -f pantheon-agent-polkit.lang
+%files -f %{appname}.lang
 %doc README.md
 %license COPYING
 
@@ -58,6 +58,9 @@ desktop-file-validate \
 
 
 %changelog
+* Fri Jun 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180530.212851.8ecc6c1f-2
+- Adapt to upstream file changes.
+
 * Thu May 31 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180530.212851.8ecc6c1f-1
 - Update to latest snapshot.
 
