@@ -355,8 +355,8 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f74009635f244dc7776bfb980a5a8d1a4a8d5ede",
-            "git_last_date": "180602.125217",
+            "git_last_commit": "49a5421dff9ecf96510195795d49e30514ee330d",
+            "git_last_date": "180602.163749",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
@@ -465,8 +465,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7d65e7439ead9a622269f669ed878f1c53b0fca5",
-            "git_last_date": "180602.000427",
+            "git_last_commit": "92ca85c3630e3f75b4f59234d999ecf4fd532090",
+            "git_last_date": "180602.184954",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "0.3.0.1",
@@ -575,8 +575,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "481c5814a2bd69b81c048a6c4bf119590ada2902",
-            "git_last_date": "180602.011635",
+            "git_last_commit": "2ed7bd4ecfe87dc09fca63ca29d724ef827a0b04",
+            "git_last_date": "180602.160207",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -652,8 +652,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "75f75ff2ba6d7cc207483176a7b966f6da95af92",
-            "git_last_date": "180602.100834",
+            "git_last_commit": "06dcaff7f544a9adc4b20b00f75c2a27c7e7dae3",
+            "git_last_date": "180602.165941",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "0.2.4",
