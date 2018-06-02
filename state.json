@@ -355,12 +355,12 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e592fd5d429efc2d54d71cd7ffd9c0aebd42a471",
-            "git_last_date": "180602.084733",
+            "git_last_commit": "f74009635f244dc7776bfb980a5a8d1a4a8d5ede",
+            "git_last_date": "180602.125217",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         },
         "95": {
