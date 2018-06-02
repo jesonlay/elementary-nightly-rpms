@@ -117,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Jun 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180602.000652.ceedfdbc-1
+- Update to latest snapshot.
+
 * Fri Jun 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.0+git180601.000805.1ada968a-1
 - Update to latest snapshot.
 
