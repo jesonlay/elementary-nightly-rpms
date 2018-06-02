@@ -4,7 +4,7 @@
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -22,7 +22,10 @@ BuildRequires:  meson
 BuildRequires:  pkgconfig
 BuildRequires:  vala >= 0.26
 
+BuildRequires:  mutter-devel
+
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
+BuildRequires:  pkgconfig(gnome-desktop-3.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(gdk-x11-3.0)
@@ -91,12 +94,17 @@ install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
 %config(noreplace) %{_sysconfdir}/lightdm/lightdm.conf.d/40-%{appname}.conf
 %config(noreplace) %{_sysconfdir}/wingpanel.d/%{appname}.whitelist
 
+%{_bindir}/%{appname}-compositor
+
 %{_sbindir}/%{appname}
 
 %{_datadir}/xgreeters/%{appname}.desktop
 
 
 %changelog
+* Sat Jun 02 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180602.084733.e592fd5d-2
+- Adapt to upstream dependency and file changes.
+
 * Sat Jun 02 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180602.084733.e592fd5d-1
 - Update to latest snapshot.
 
