@@ -102,8 +102,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cb49573cc8daca3a790f30ccff41c85876c6c006",
-            "git_last_date": "180601.000842",
+            "git_last_commit": "e85fb83dcbac1b8d6ee48489f9f2833a1c87d31c",
+            "git_last_date": "180603.114957",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -421,8 +421,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "29f35b8e126a2c28c164866114e106fa2ed4afc3",
-            "git_last_date": "180602.000633",
+            "git_last_commit": "464e77c4eb161d20285e9bb36dd0267269dfead8",
+            "git_last_date": "180603.115223",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.3",
