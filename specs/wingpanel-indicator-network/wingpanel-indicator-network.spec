@@ -3,16 +3,15 @@
 Name:           wingpanel-indicator-network
 Summary:        Network Indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -33,16 +32,12 @@ A network indicator for wingpanel.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang network-indicator
 
@@ -55,6 +50,9 @@ popd
 
 
 %changelog
+* Mon Jun 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180604.132804.b38eccfd-2
+- Adapt to CMake -> meson switch.
+
 * Mon Jun 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180604.132804.b38eccfd-1
 - Update to latest snapshot.
 
