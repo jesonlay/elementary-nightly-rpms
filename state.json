@@ -201,8 +201,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2f49a7770a59a6d2bd6429971d1f2b4dcf546232",
-            "git_last_date": "180604.080750",
+            "git_last_commit": "7880bd3c180e9cb5f6fa7a4e94092763fc5f79ab",
+            "git_last_date": "180605.085653",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -465,8 +465,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4b39ab3444276fc155cc878024d3b559552a2fcd",
-            "git_last_date": "180603.061218",
+            "git_last_commit": "c37c8e2762cd4977fa14c709a49d06f89fb86f7a",
+            "git_last_date": "180605.085423",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "0.3.0.1",
