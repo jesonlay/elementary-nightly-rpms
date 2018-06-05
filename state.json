@@ -201,8 +201,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "80a4e68c94f0f9f6e1cd1fde9d239b78c907bd00",
-            "git_last_date": "180605.134634",
+            "git_last_commit": "a10b20e25c1e1c1f577080d3fe8732a2098d8059",
+            "git_last_date": "180605.164426",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -619,8 +619,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e835fe496699084ae7120e1fc512543db56b339a",
-            "git_last_date": "180605.090829",
+            "git_last_commit": "46b695b3a93d97f1208b3917ac6813c3eda4f1ab",
+            "git_last_date": "180605.165623",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.4",
