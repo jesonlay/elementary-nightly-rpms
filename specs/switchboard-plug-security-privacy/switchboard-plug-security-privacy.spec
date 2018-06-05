@@ -3,7 +3,7 @@
 Name:           switchboard-plug-security-privacy
 Summary:        Switchboard Privacy and Security Plug
 Version:        0.1.2.99+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -60,6 +60,9 @@ level of privacy according to his needs.
 
 
 %changelog
+* Tue Jun 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git180604.214026.08e50335-1
+- Update to latest snapshot.
+
 * Mon Jun 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git180604.144017.879c84d5-2
 - Adapt to CMake -> meson switch.
 
