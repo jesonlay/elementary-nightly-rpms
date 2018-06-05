@@ -3,16 +3,15 @@
 Name:           switchboard-plug-useraccounts
 Summary:        Switchboard User Accounts Plug
 Version:        0.1.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(accountsservice)
 BuildRequires:  pkgconfig(gee-0.8)
@@ -37,16 +36,12 @@ Switchboard Plug for managing local user accounts.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang useraccounts-plug
 
@@ -55,12 +50,16 @@ popd
 %doc README.md
 %license COPYING COPYRIGHT
 
+%{_libdir}/switchboard/system/libuseraccounts.so
 %{_libdir}/switchboard/system/pantheon-useraccounts/
 
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.user-accounts.policy
 
 
 %changelog
+* Tue Jun 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git180605.122448.c5e504df-2
+- Adapt to CMake -> meson switch.
+
 * Tue Jun 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git180605.122448.c5e504df-1
 - Update to latest snapshot.
 
