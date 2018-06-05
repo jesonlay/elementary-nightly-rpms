@@ -80,8 +80,8 @@
         "64": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2e01d7b3b43a827abdd864bcefb79555cf29de35",
-            "git_last_date": "180526.074234",
+            "git_last_commit": "27a0c33e400a5b6ebc9e6428b8424b370b6f8bc8",
+            "git_last_date": "180605.094341",
             "name": "capnet-assist",
             "package_name": "capnet-assist",
             "package_version": "0.2.1",
@@ -564,8 +564,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9c1179db4e2e3cb2ec01f95072682039e3d27e83",
-            "git_last_date": "180604.000816",
+            "git_last_commit": "90248a322ecd0618d6aa922b9837b1fcbf81e0fa",
+            "git_last_date": "180605.092859",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.3",
@@ -608,8 +608,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bc6e2d9195ae47b2bad4b4d42b166d15abb93f07",
-            "git_last_date": "180605.000521",
+            "git_last_commit": "5bdc20c9d2a91298e772b46a47055dd4ca6ff485",
+            "git_last_date": "180605.092434",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
@@ -619,8 +619,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "49cdceba140aeb31683eb4a27c8421d1575e905f",
-            "git_last_date": "180604.000918",
+            "git_last_commit": "e835fe496699084ae7120e1fc512543db56b339a",
+            "git_last_date": "180605.090829",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.4",
