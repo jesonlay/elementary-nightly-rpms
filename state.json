@@ -223,8 +223,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "84a5c7e40c11869194177a8246b15e4a0202777b",
-            "git_last_date": "180605.180201",
+            "git_last_commit": "66788a06abbf2ecaa38dfcce3beec0d7323d8ca8",
+            "git_last_date": "180605.190905",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
