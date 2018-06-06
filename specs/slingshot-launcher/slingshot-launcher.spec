@@ -1,11 +1,12 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
 %global srcname applications-menu
+%global appname io.elementary.desktop.wingpanel.applications-menu
 
 Name:           slingshot-launcher
 Summary:        Lightweight and stylish app launcher
 Version:        2.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -69,10 +70,13 @@ popd
 
 %{_libdir}/wingpanel/libslingshot.so
 
-%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.slingshot.gschema.xml
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git180606.010820.dac617b0-2
+- Adapt to upstream file changes.
+
 * Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git180606.010820.dac617b0-1
 - Update to latest snapshot.
 
