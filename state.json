@@ -91,8 +91,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "495696cbec79932a202e28ab3ba42503d40d40d2",
-            "git_last_date": "180606.143247",
+            "git_last_commit": "6c693a6d552ebd19cf4f30390f47b2b3773b6102",
+            "git_last_date": "180606.153529",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
@@ -234,8 +234,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "afbb579995e0f6cd7f4bd5438cbce51e9eca0944",
-            "git_last_date": "180606.141250",
+            "git_last_commit": "c6d5322db4d11e96c539be136bae6ac8337a786c",
+            "git_last_date": "180606.152824",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.3",
@@ -597,8 +597,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f46b9eee70d82ee8529b6b1f057fa7d2f5b9857a",
-            "git_last_date": "180605.145844",
+            "git_last_commit": "fd6b6e9dc4216b95828e625d71d8a8bb910dda03",
+            "git_last_date": "180606.154219",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
