@@ -2,8 +2,8 @@
 %global appname io.elementary.calculator
 
 Name:           elementary-calculator
-Summary:        Tiny, simple calculator written in GTK+ and Vala
-Version:        0.1.3+git%{date}.%{commit}
+Summary:        Calculator app designed for elementary
+Version:        0.1.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -20,12 +20,15 @@ BuildRequires:  vala
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
 
-Provides:       pantheon-calculator
-Obsoletes:      pantheon-calculator
+Provides:       pantheon-calculator = %{version}-%{release}
+Obsoletes:      pantheon-calculator < 0.1.4
 
 
 %description
-A tiny, simple calculator written in GTK+ and Vala.
+A simple calculator for everyday use.
+
+It supports basic and some scientific calculations, including trigonometry
+functions (sin, cos, and tan).
 
 
 %prep
@@ -63,6 +66,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180606.000744.3d3fe4f4-1
+- Update to version 0.1.4.
+
 * Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180606.000744.3d3fe4f4-1
 - Update to latest snapshot.
 
