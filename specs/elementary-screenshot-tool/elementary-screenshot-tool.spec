@@ -4,7 +4,7 @@
 Name:           elementary-screenshot-tool
 Summary:        Simple screen capture tool
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            http://github.com/elementary/%{srcname}
@@ -50,7 +50,7 @@ A simple screen capture tool made for the Pantheon desktop environment.
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/%{srcname}.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
@@ -62,13 +62,16 @@ appstream-util validate-relax --nonet \
 
 %{_bindir}/%{appname}
 
-%{_datadir}/applications/%{srcname}.desktop
+%{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/accessories-screenshot.svg
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180606.061441.911d6201-2
+- Adapt to upstream file changes.
+
 * Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180606.061441.911d6201-1
 - Update to latest snapshot.
 
