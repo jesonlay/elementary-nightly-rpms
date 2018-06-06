@@ -50,6 +50,9 @@ A switchboard plug to configure date and time settings.
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180606.000952.0ed8eda3-1
+- Update to latest snapshot.
+
 * Mon Jun 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180604.135014.c5dbd31f-1
 - Update to latest snapshot.
 
