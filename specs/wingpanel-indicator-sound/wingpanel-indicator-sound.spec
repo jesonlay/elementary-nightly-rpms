@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-sound
 Summary:        Sound Indicator for wingpanel
 Version:        2.0.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -12,7 +12,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -52,10 +51,13 @@ A sound indicator for wingpanel.
 
 %{_libdir}/wingpanel/libsound.so
 
-%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.sound.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.elementary.desktop.wingpanel.sound.gschema.xml
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.5+git180606.153529.6c693a6d-2
+- Adapt to upstream file changes.
+
 * Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.5+git180606.153529.6c693a6d-1
 - Update to latest snapshot.
 
