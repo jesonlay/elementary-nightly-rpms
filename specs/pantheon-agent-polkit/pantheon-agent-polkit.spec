@@ -2,7 +2,7 @@
 
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
-Version:        0.1.4+git%{date}.%{commit}
+Version:        0.1.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv2+
 
@@ -58,6 +58,9 @@ desktop-file-validate \
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.5+git180606.000820.b8291414-1
+- Update to version 0.1.5.
+
 * Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180606.000820.b8291414-1
 - Update to latest snapshot.
 
