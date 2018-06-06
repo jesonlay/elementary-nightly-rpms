@@ -3,16 +3,15 @@
 Name:           wingpanel-indicator-power
 Summary:        Power indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -34,16 +33,12 @@ A power indicator for wingpanel.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang power-indicator
 
@@ -58,6 +53,9 @@ popd
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180606.082446.ea353b56-2
+- Adapt to CMake -> meson switch.
+
 * Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180606.082446.ea353b56-1
 - Update to latest snapshot.
 
