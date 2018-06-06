@@ -3,7 +3,7 @@
 Name:           switchboard-plug-security-privacy
 Summary:        Switchboard Privacy and Security Plug
 Version:        0.1.2.99+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -55,11 +55,14 @@ level of privacy according to his needs.
 %{_libdir}/switchboard/personal/libsecurity-privacy.so
 %{_libdir}/switchboard/personal/security-privacy-plug-helper
 
-%{_datadir}/glib-2.0/schemas/org.pantheon.security-privacy.gschema.xml
-%{_datadir}/polkit-1/actions/org.pantheon.security-privacy.policy
+%{_datadir}/glib-2.0/schemas/io.elementary.switchboard.security-privacy.gschema.xml
+%{_datadir}/polkit-1/actions/io.elementary.switchboard.security-privacy.policy
 
 
 %changelog
+* Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git180605.231419.e9ebbc7a-2
+- Adapt to upstream file changes.
+
 * Wed Jun 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git180605.231419.e9ebbc7a-1
 - Update to latest snapshot.
 
