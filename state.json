@@ -91,12 +91,12 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c693a6d552ebd19cf4f30390f47b2b3773b6102",
-            "git_last_date": "180606.153529",
+            "git_last_commit": "3f8484ba07fbcd5157845ebce183e6087faca6ad",
+            "git_last_date": "180607.091029",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.0.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.5+git%{date}.%{commit}"
         },
         "67": {
@@ -135,8 +135,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2e45389a73d1a58a2d2787cc579ccef348e57ba2",
-            "git_last_date": "180531.081004",
+            "git_last_commit": "7c7339215f7d175e9ea8e8b15d40a2c3a380d602",
+            "git_last_date": "180607.093931",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.0.2",
@@ -289,8 +289,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2096ba94bb800e01e5f57d9fd7ec7a74f3338c49",
-            "git_last_date": "180604.000346",
+            "git_last_commit": "4a5812bb62cf2742eadab5c66681087e507b0089",
+            "git_last_date": "180607.095713",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.0.4",
@@ -366,12 +366,12 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b38eccfde624bab9b6c2ddb6a084011efa3b4f95",
-            "git_last_date": "180604.132804",
+            "git_last_commit": "ed75529bfa98b358351a957b6b0442e26b35807b",
+            "git_last_date": "180607.092446",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "96": {
@@ -553,8 +553,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7c3fdcfdc13478950f46e8e0d9e393d904750336",
-            "git_last_date": "180607.071034",
+            "git_last_commit": "0bae1a1ba67e3eb1f6b8ce8ecb2843f9445eeb6b",
+            "git_last_date": "180607.093013",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.2.99",
