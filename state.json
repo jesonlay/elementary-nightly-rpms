@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cce9c903d424ae06dd6deb94175646f0f9b4c9f7",
-            "git_last_date": "180606.000908",
+            "git_last_commit": "87d15e8884e9d160ae463e0986515ecaa276921e",
+            "git_last_date": "180607.144838",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.6",
@@ -102,8 +102,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d267ac12aefd790bc4e164586a5947854c04650a",
-            "git_last_date": "180607.001004",
+            "git_last_commit": "b43005cd6d3b9c953a4c3c5a192b830a5b408b20",
+            "git_last_date": "180607.142937",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.2",
@@ -388,8 +388,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3e2c6845bc823f52de0c6253c12fe742d80075bf",
-            "git_last_date": "180607.131819",
+            "git_last_commit": "22b57f9f5998bddecf29f98d6c7191e3a4eb44f8",
+            "git_last_date": "180607.144630",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "0.1.2",
@@ -410,8 +410,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2aca67648e0e9e46937cd2ba9e5504bfc4a2c69d",
-            "git_last_date": "180604.000933",
+            "git_last_commit": "b2574562e1de23c645fdcb009260d1be2fa04261",
+            "git_last_date": "180607.140200",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.2",
