@@ -113,12 +113,12 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ea353b56714fdf90bf6accff00784af90565928b",
-            "git_last_date": "180606.082446",
+            "git_last_commit": "18a5abf46e4595407f6f0d555f6349a3ed7835ad",
+            "git_last_date": "180607.100528",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "69": {
@@ -201,8 +201,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a5fd80000a81627534d94ed66b719bf4f6405510",
-            "git_last_date": "180607.001147",
+            "git_last_commit": "7f972588a93876fa059c3ca26635f136fd6f5d19",
+            "git_last_date": "180607.101228",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -212,8 +212,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "37ae5cd3d8e2c8a5ed574ec2f53ce499c5bc3142",
-            "git_last_date": "180531.082018",
+            "git_last_commit": "771cea29ebbf28be9f8545a24025743121ec03a4",
+            "git_last_date": "180607.101648",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.0.2",
