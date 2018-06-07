@@ -553,8 +553,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0bae1a1ba67e3eb1f6b8ce8ecb2843f9445eeb6b",
-            "git_last_date": "180607.093013",
+            "git_last_commit": "9a5606c86e57f009189638488fccd9f13bd5756e",
+            "git_last_date": "180607.172840",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.2.99",
@@ -564,8 +564,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4da56757bbf001cdfd048326987f9f53c283b224",
-            "git_last_date": "180607.164249",
+            "git_last_commit": "59eca193639790e07267b27ad90b34064e8e3947",
+            "git_last_date": "180607.173641",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.4",
@@ -597,8 +597,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8cf541b5191d9e7a4e258f0d86043774bcfcca28",
-            "git_last_date": "180607.073655",
+            "git_last_commit": "04918678ffe4d345b41c4af6afde81185df5d070",
+            "git_last_date": "180607.170251",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
