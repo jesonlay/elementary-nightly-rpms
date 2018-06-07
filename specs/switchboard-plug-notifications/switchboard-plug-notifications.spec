@@ -3,13 +3,14 @@
 Name:           switchboard-plug-notifications
 Summary:        Switchboard Notifications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
@@ -46,14 +47,24 @@ related to the Notifications plugin for Gala.
 %find_lang notifications-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/io.elementary.switchboard-plug-notifications.appdata.xml
+
+
 %files -f notifications-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/personal/libnotifications.so
 
+%{_datadir}/metainfo/io.elementary.switchboard-plug-notifications.appdata.xml
+
 
 %changelog
+* Thu Jun 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180606.211755.c63aaec7-2
+- Adapt to upstream file changes.
+
 * Thu Jun 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180606.211755.c63aaec7-1
 - Update to latest snapshot.
 
