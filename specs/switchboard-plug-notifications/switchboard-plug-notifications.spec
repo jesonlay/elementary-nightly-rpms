@@ -1,13 +1,18 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global appname io.elementary.switchboard-plug-notifications
+
 Name:           switchboard-plug-notifications
 Summary:        Switchboard Notifications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
+
+# https://github.com/elementary/switchboard-plug-notifications/pull/32
+Patch0:         00-appdata-unicode-fixes.patch
 
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
@@ -33,7 +38,7 @@ related to the Notifications plugin for Gala.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
@@ -49,7 +54,7 @@ related to the Notifications plugin for Gala.
 
 %check
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/io.elementary.switchboard-plug-notifications.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files -f notifications-plug.lang
@@ -58,10 +63,13 @@ appstream-util validate-relax --nonet \
 
 %{_libdir}/switchboard/personal/libnotifications.so
 
-%{_datadir}/metainfo/io.elementary.switchboard-plug-notifications.appdata.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180606.211755.c63aaec7-3
+- Include patch to fix appdata verification.
+
 * Thu Jun 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180606.211755.c63aaec7-2
 - Adapt to upstream file changes.
 
