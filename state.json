@@ -245,12 +245,12 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c63aaec7f7c90b6693469a7a57547e6ee4ed9986",
-            "git_last_date": "180606.211755",
+            "git_last_commit": "d26d9cd6e304c6e10b7e4adb2609a6462c507991",
+            "git_last_date": "180608.122347",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "0.1.2",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         },
         "82": {
