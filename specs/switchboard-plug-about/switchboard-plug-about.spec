@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
-Version:        0.2.4+git%{date}.%{commit}
+Version:        0.2.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -54,6 +54,9 @@ This switchboard plug shows system information.
 
 
 %changelog
+* Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git180608.131457.8c0f48cf-1
+- Update to version 0.2.5.
+
 * Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.4+git180608.131457.8c0f48cf-1
 - Update to latest snapshot.
 
