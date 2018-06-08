@@ -1,13 +1,14 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global appname io.elementary.switchboard-plug-bluetooth
+
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
-Version:        0.1.0.99+git%{date}.%{commit}
+Version:        0.1.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
-
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
@@ -22,6 +23,7 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
 Requires:       bluez
+Requires:       switchboard%{?_isa}
 
 Supplements:    (bluez and switchboard%{?_isa})
 
@@ -49,7 +51,7 @@ devices.
 
 %check
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/io.elementary.switchboard-plug-bluetooth.appdata.xml || :
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
 
 
 %files -f bluetooth-plug.lang
@@ -58,10 +60,13 @@ appstream-util validate-relax --nonet \
 
 %{_libdir}/switchboard/network/libbluetooth.so
 
-%{_datadir}/metainfo/io.elementary.switchboard-plug-bluetooth.appdata.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180608.134901.5980709b-1
+- Update to version 0.1.1.
+
 * Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.0.99+git180608.134901.5980709b-1
 - Update to latest snapshot.
 
