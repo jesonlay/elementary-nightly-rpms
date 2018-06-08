@@ -5,20 +5,16 @@
 Name:           switchboard-plug-notifications
 Summary:        Switchboard Notifications plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-# https://github.com/elementary/switchboard-plug-notifications/pull/32
-Patch0:         00-appdata-unicode-fixes.patch
-
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -26,6 +22,7 @@ BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(switchboard-2.0)
 
 Requires:       gala%{?_isa}
+Requires:       switchboard%{?_isa}
 
 Supplements:    (switchboard%{?_isa} and gala%{?_isa})
 
@@ -38,7 +35,7 @@ related to the Notifications plugin for Gala.
 
 
 %prep
-%autosetup -p1
+%autosetup
 
 
 %build
@@ -67,6 +64,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180608.122347.d26d9cd6-2
+- Drop merged appdata patch.
+
 * Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180608.122347.d26d9cd6-1
 - Update to latest snapshot.
 
