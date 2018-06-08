@@ -135,8 +135,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7c7339215f7d175e9ea8e8b15d40a2c3a380d602",
-            "git_last_date": "180607.093931",
+            "git_last_commit": "4235010825d7ddfd7a87f6c792027147b0a7fee6",
+            "git_last_date": "180608.143539",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.1.0",
@@ -553,8 +553,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2248daf5f84578572ff32ed6b7487aee43786dfc",
-            "git_last_date": "180608.113809",
+            "git_last_commit": "5c03ca710a18830d032ebaa2da2a245f0c72b49d",
+            "git_last_date": "180608.143401",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.2.99",
