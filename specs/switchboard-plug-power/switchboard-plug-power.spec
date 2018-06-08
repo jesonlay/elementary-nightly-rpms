@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-power
 Summary:        Switchboard Power Plug
-Version:        0.3.2+git%{date}.%{commit}
+Version:        0.3.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -63,6 +63,9 @@ Control system power consumption with this Switchboard preference plug.
 
 
 %changelog
+* Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180608.133519.253c0f6a-1
+- Update to version 0.3.3.
+
 * Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.2+git180608.133519.253c0f6a-1
 - Update to latest snapshot.
 
