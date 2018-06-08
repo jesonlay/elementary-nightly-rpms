@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-networking
 Summary:        Switchboard Networking plug
-Version:        0.1.1+git%{date}.%{commit}
+Version:        0.1.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -53,6 +53,9 @@ A switchboard plug for configuring available networks.
 
 
 %changelog
+* Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180608.162647.33c08563-1
+- Update to version 0.1.2.
+
 * Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180608.162647.33c08563-1
 - Update to latest snapshot.
 
