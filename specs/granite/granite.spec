@@ -1,6 +1,6 @@
 Name:           granite
 Summary:        elementary Development Library
-Version:        0.5+git%{date}.%{commit}
+Version:        5.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3+
 
@@ -68,8 +68,8 @@ desktop-file-validate \
 %doc AUTHORS README.md
 %license COPYING
 
-%{_libdir}/libgranite.so.4
-%{_libdir}/libgranite.so.4.0
+%{_libdir}/libgranite.so.5
+%{_libdir}/libgranite.so.5.0
 %{_libdir}/girepository-1.0/Granite-1.0.typelib
 
 %{_datadir}/icons/hicolor/*/actions/appointment.svg
@@ -77,7 +77,7 @@ desktop-file-validate \
 %{_datadir}/icons/hicolor/scalable/actions/open-menu-symbolic.svg
 
 
-%files          devel
+%files devel
 %{_bindir}/granite-demo
 
 %{_libdir}/libgranite.so
@@ -92,6 +92,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sat Jun 09 2018 Fabio Valentini <decathorpe@gmail.com> - 5.0+git180608.001121.965d3231-1
+- Update to version 5.0.
+
 * Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180608.001121.965d3231-1
 - Update to latest snapshot.
 
