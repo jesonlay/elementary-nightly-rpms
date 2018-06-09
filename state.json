@@ -234,12 +234,12 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c6d5322db4d11e96c539be136bae6ac8337a786c",
-            "git_last_date": "180606.152824",
+            "git_last_commit": "79a96371c0b07f88f6f9b482e15a8e166f8e7fb8",
+            "git_last_date": "180609.122607",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.0.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.3+git%{date}.%{commit}"
         },
         "81": {
@@ -410,8 +410,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b2574562e1de23c645fdcb009260d1be2fa04261",
-            "git_last_date": "180607.140200",
+            "git_last_commit": "ce56e6f6d85936e734239de844280b9106588a9e",
+            "git_last_date": "180609.125902",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.3",
