@@ -1,9 +1,11 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
+%global appname io.elementary.desktop.wingpanel.datetime
+
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -23,6 +25,7 @@ BuildRequires:  pkgconfig(libical)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Requires:       wingpanel%{?_isa}
 Supplements:    wingpanel%{?_isa}
 
 
@@ -55,10 +58,13 @@ popd
 
 %{_libdir}/wingpanel/libdatetime.so
 
-%{_datadir}/glib-2.0/schemas/org.pantheon.desktop.wingpanel.indicators.datetime.gschema.xml
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 
 
 %changelog
+* Sat Jun 09 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180608.232826.a9c6a6df-2
+- Adapt to upstream file changes.
+
 * Sat Jun 09 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git180608.232826.a9c6a6df-1
 - Update to latest snapshot.
 
