@@ -110,6 +110,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sun Jun 10 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180610.001420.650b45bc-1
+- Update to latest snapshot.
+
 * Thu Jun 07 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180606.114154.e6363ef3-1
 - Update to version 2.1.0.
 
