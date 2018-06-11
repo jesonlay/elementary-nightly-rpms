@@ -4,7 +4,7 @@
 
 Name:           switchboard-plug-notifications
 Summary:        Switchboard Notifications plug
-Version:        0.1.3+git%{date}.%{commit}
+Version:        0.1.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -64,6 +64,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Jun 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180611.152947.c7eabab0-1
+- Update to version 0.1.4.
+
 * Mon Jun 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180611.152947.c7eabab0-1
 - Update to latest snapshot.
 
