@@ -3,7 +3,7 @@
 
 Name:           elementary-camera
 Summary:        Fast and beautiful camera app
-Version:        0.3.0.1+git%{date}.%{commit}
+Version:        1.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -69,6 +69,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Jun 11 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0+git180610.001058.be6c6af5-1
+- Update to version 1.0.
+
 * Sun Jun 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git180610.001058.be6c6af5-1
 - Update to latest snapshot.
 
