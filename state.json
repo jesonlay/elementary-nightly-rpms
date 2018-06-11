@@ -623,9 +623,9 @@
             "git_last_date": "180608.102315",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
-            "package_version": "0.1.4",
+            "package_version": "0.1.5",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1.4+git%{date}.%{commit}"
+            "rpm_last_version": "0.1.5+git%{date}.%{commit}"
         },
         "123": {
             "git_branch": "master",
