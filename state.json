@@ -179,8 +179,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "99fb74b1b64f7c2619e60b63fa7da3e15be891c5",
-            "git_last_date": "180610.001207",
+            "git_last_commit": "8b30c4d7da42ab3cb80f5ae920c1ad2b7907ceba",
+            "git_last_date": "180611.145359",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -663,8 +663,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b3ecdb104eabd6643fc6449e80e18366c1d0e9e7",
-            "git_last_date": "180610.001054",
+            "git_last_commit": "a35c33c13e2720e699ec3aaad7fac84b22e74881",
+            "git_last_date": "180611.141020",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2",
