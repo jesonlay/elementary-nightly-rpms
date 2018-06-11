@@ -1,9 +1,11 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global appname io.elementary.switchboard.locale
+
 Name:           switchboard-plug-locale
 Summary:        Adjust Locale settings from Switchboard
 Version:        0.2.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -11,8 +13,8 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  vala >= 0.34.1
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(accountsservice)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
@@ -49,6 +51,11 @@ popd
 %find_lang locale-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f locale-plug.lang
 %doc README.md
 %license COPYING
@@ -56,10 +63,14 @@ popd
 %{_libdir}/switchboard/personal/pantheon-locale/
 
 %{_datadir}/glib-2.0/schemas/io.elementary.switchboard.plug.locale.gschema.xml
-%{_datadir}/polkit-1/actions/io.elementary.switchboard.locale.policy
+%{_datadir}/metainfo/%{appname}.appdata.xml
+%{_datadir}/polkit-1/actions/%{appname}.policy
 
 
 %changelog
+* Mon Jun 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git180611.145359.8b30c4d7-2
+- Adapt to upstream file changes.
+
 * Mon Jun 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git180611.145359.8b30c4d7-1
 - Update to latest snapshot.
 
