@@ -355,8 +355,8 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "640f06b3e4f4ad925674acd0351abff12009b319",
-            "git_last_date": "180609.164444",
+            "git_last_commit": "0bdead9b3c14b63a02ad3f5a3d0701abbb992ee2",
+            "git_last_date": "180611.192358",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
@@ -575,8 +575,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f7b238181d2056a34e38f0c642b7f1e33ee297bf",
-            "git_last_date": "180611.183116",
+            "git_last_commit": "2f7cd0574907f2fe05f3a7314731336c8642795b",
+            "git_last_date": "180611.194224",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -597,8 +597,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "be519fd08400e536973a09318d63c9ba188d0651",
-            "git_last_date": "180609.185107",
+            "git_last_commit": "c6ab21aef6fba207e904517c193ec8f453338b10",
+            "git_last_date": "180611.191933",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.4.3",
@@ -619,8 +619,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "711f4b5c087ebf2f7c5210f0aed8f008126f1173",
-            "git_last_date": "180608.102315",
+            "git_last_commit": "db32464554b9110f7a054aa66fc87ab61e9b444c",
+            "git_last_date": "180611.192858",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
