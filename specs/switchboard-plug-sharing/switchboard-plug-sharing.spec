@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-sharing
 Summary:        Switchboard Sharing Plug
-Version:        0.1.1+git%{date}.%{commit}
+Version:        0.1.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -50,6 +50,9 @@ Configure the sharing of system services.
 
 
 %changelog
+* Mon Jun 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180609.000616.a32f4d18-1
+- Update to version 0.1.2.
+
 * Sat Jun 09 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git180609.000616.a32f4d18-1
 - Update to latest snapshot.
 
