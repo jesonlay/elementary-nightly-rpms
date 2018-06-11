@@ -223,8 +223,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "66788a06abbf2ecaa38dfcce3beec0d7323d8ca8",
-            "git_last_date": "180605.190905",
+            "git_last_commit": "7343a66ac130ea70c08e707cb55fb3026b61b5e6",
+            "git_last_date": "180611.175308",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
@@ -278,8 +278,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "650b45bc0a3da61aff53a295ef5feb987dfe820c",
-            "git_last_date": "180610.001420",
+            "git_last_commit": "5a038ca2b869279d2bcdf05b54716f206a2fbe7d",
+            "git_last_date": "180611.173547",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.1.0",
@@ -300,12 +300,12 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a9c6a6df31b3bdbb3e9acc4904ac82f45488930c",
-            "git_last_date": "180608.232826",
+            "git_last_commit": "8730eabb3c3cf0677ad81430c6349937e605e92a",
+            "git_last_date": "180611.172037",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.0.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.2+git%{date}.%{commit}"
         },
         "87": {
