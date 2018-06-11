@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
-Version:        0.3.0.1+git%{date}.%{commit}
+Version:        0.3.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2
 
@@ -115,6 +115,9 @@ popd
 
 
 %changelog
+* Mon Jun 11 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git180608.001247.71232c3e-1
+- Update to version 0.3.1.
+
 * Fri Jun 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.0.1+git180608.001247.71232c3e-1
 - Update to latest snapshot.
 
