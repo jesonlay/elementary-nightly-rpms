@@ -564,8 +564,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f65889cdabfa4de16e4ecff0e88d839b57769adb",
-            "git_last_date": "180613.000631",
+            "git_last_commit": "7338e5952f12abd2743472e8bd2cd2f5e03bad10",
+            "git_last_date": "180613.105821",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.4",
@@ -619,8 +619,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bcfeea9e809c171e796cafe3d36158086830990e",
-            "git_last_date": "180612.071757",
+            "git_last_commit": "6d3bef7b97cd394ada7d8dff7289602c683ea7e5",
+            "git_last_date": "180613.105225",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
