@@ -77,17 +77,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
-        "64": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "07fe8155ed99b5981a63b61f5ee5b69e72ffd543",
-            "git_last_date": "180613.000652",
-            "name": "capnet-assist",
-            "package_name": "capnet-assist",
-            "package_version": "0.2.1",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.2.1+git%{date}.%{commit}"
-        },
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -670,6 +659,17 @@
             "package_version": "0.4.2",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
+        },
+        "127": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "07fe8155ed99b5981a63b61f5ee5b69e72ffd543",
+            "git_last_date": "180613.000652",
+            "name": "elementary-capnet-assist",
+            "package_name": "elementary-capnet-assist",
+            "package_version": "0.2.2",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "0.2.2+git%{date}.%{commit}"
         }
     }
 }
