@@ -57,6 +57,9 @@ Switchboard Plug for managing local user accounts.
 
 
 %changelog
+* Fri Jun 15 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git180615.001149.d5d5edf3-1
+- Update to latest snapshot.
+
 * Thu Jun 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git180614.084502.e635df8b-1
 - Update to latest snapshot.
 

@@ -102,6 +102,9 @@ install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
 
 
 %changelog
+* Fri Jun 15 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180615.001016.e98a4b3e-1
+- Update to latest snapshot.
+
 * Wed Jun 13 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180613.160005.ad7b90a4-1
 - Update to latest snapshot.
 
