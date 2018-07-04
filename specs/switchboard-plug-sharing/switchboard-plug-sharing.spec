@@ -50,6 +50,9 @@ Configure the sharing of system services.
 
 
 %changelog
+* Wed Jul 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180619.000852.87ae1c06-1
+- Update to latest snapshot.
+
 * Fri Jun 15 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180615.001141.8b97b09a-1
 - Update to latest snapshot.
 
