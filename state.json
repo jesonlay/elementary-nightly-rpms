@@ -271,9 +271,9 @@
             "git_last_date": "180706.025944",
             "name": "wingpanel",
             "package_name": "wingpanel",
-            "package_version": "2.1.0",
+            "package_version": "2.1.1",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.1.0+git%{date}.%{commit}"
+            "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "85": {
             "git_branch": "master",
