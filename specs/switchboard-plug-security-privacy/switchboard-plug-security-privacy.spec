@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-security-privacy
 Summary:        Switchboard Privacy and Security Plug
-Version:        0.1.2.99+git%{date}.%{commit}
+Version:        0.1.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 
@@ -60,6 +60,9 @@ level of privacy according to his needs.
 
 
 %changelog
+* Fri Jul 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180702.163711.2f66bf8c-1
+- Update to version 0.1.3.
+
 * Wed Jul 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2.99+git180702.163711.2f66bf8c-1
 - Update to latest snapshot.
 
