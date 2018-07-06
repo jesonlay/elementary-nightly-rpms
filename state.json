@@ -146,8 +146,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ba4c6542a36d5044b38c5f54b9be986507fe2f85",
-            "git_last_date": "180706.102737",
+            "git_last_commit": "0a6fe1cae48e1595192fe53bef8e005440a397fc",
+            "git_last_date": "180706.140115",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -344,8 +344,8 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9328cf0e2e87491ae03443277fc3bc6fed91f2ce",
-            "git_last_date": "180703.185757",
+            "git_last_commit": "79fc7db75ef09c92403eb5e4a4d9f9b55261320f",
+            "git_last_date": "180706.131332",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
