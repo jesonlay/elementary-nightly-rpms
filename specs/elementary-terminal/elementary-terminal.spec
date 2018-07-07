@@ -4,13 +4,11 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
-
-Patch0:         00-fix-vte-052-build.patch
 
 BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
@@ -44,6 +42,8 @@ Requires:       %{name} = %{version}-%{release}
 Requires:       fish
 
 Supplements:    (%{name} and fish)
+
+BuildArch:      noarch
 
 %description    fish
 A super lightweight, beautiful, and simple terminal. It's designed to be
@@ -97,6 +97,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180704.210958.109c3687-2
+- Remove upstreamed patch.
+
 * Fri Jul 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5+git180704.210958.109c3687-1
 - Update to version 0.5.
 
