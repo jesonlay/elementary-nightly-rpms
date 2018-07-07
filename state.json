@@ -190,8 +190,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c06665edb1d331a56c35b985b5b51a30b942db04",
-            "git_last_date": "180706.000743",
+            "git_last_commit": "4034f1ff3680515148d79c1c73186b274e311cdc",
+            "git_last_date": "180707.185948",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -366,8 +366,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "da339f8d481cf510efd0c257e7e99b07b38f0b63",
-            "git_last_date": "180704.210724",
+            "git_last_commit": "7434089f19c4e50dba2e085231e9175a2492c52e",
+            "git_last_date": "180707.184905",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -542,8 +542,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2f66bf8c82fa89b3d0b5160c774ce35842dfbfcd",
-            "git_last_date": "180702.163711",
+            "git_last_commit": "aecb97ecaff4c7fa4e595b6dd871d95dad70af67",
+            "git_last_date": "180707.185321",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.3",
