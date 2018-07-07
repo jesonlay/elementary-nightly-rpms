@@ -3,7 +3,7 @@
 Name:           elementary-capnet-assist
 Summary:        Captive Portal Assistant for elementary
 Version:        0.2.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -50,7 +50,7 @@ Written in Vala and using WebkitGtk+.
 %install
 %meson_install
 
-%find_lang captive-login
+%find_lang %{appname}
 
 
 %check
@@ -58,9 +58,9 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 
-%files -f captive-login.lang
+%files -f %{appname}.lang
 %license COPYING
-%doc AUTHORS README.md
+%doc README.md
 
 %{_bindir}/%{appname}
 
@@ -71,6 +71,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+git180705.000702.6686dc59-2
+- Adapt to upstream file changes.
+
 * Thu Jul 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+git180705.000702.6686dc59-1
 - Update to latest snapshot.
 
