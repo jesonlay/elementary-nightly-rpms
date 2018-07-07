@@ -7,7 +7,7 @@
 Name:           elementary-code
 Summary:        The text editor that works
 Version:        2.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -148,6 +148,7 @@ appstream-util validate-relax --nonet \
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}*.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/%{appname}.svg
+%{_datadir}/%{appname}/
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 %files devel
@@ -161,6 +162,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180706.000757.d147cbec-2
+- Adapt to upstream file changes.
+
 * Fri Jul 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180706.000757.d147cbec-1
 - Update to latest snapshot.
 
