@@ -5,15 +5,15 @@
 Name:           switchboard-plug-locale
 Summary:        Adjust Locale settings from Switchboard
 Version:        0.2.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
 BuildRequires:  pkgconfig(accountsservice)
@@ -37,16 +37,12 @@ Adjust Locale settings from Switchboard.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang locale-plug
 
@@ -60,14 +56,18 @@ appstream-util validate-relax --nonet \
 %doc README.md
 %license COPYING
 
+%{_libdir}/switchboard/personal/liblocale-plug.so
 %{_libdir}/switchboard/personal/pantheon-locale/
 
-%{_datadir}/glib-2.0/schemas/io.elementary.switchboard.plug.locale.gschema.xml
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
 %{_datadir}/polkit-1/actions/%{appname}.policy
 
 
 %changelog
+* Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git180706.040309.4f209102-2
+- Adapt to CMake -> meson switch.
+
 * Fri Jul 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git180706.040309.4f209102-1
 - Update to latest snapshot.
 
