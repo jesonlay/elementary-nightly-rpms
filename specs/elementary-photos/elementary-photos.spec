@@ -1,24 +1,21 @@
 %global __provides_exclude_from ^%{_libdir}/io.elementary.photos/.*\\.so$
-%undefine _strict_symbol_defs_build
 
 %global srcname photos
 %global appname io.elementary.photos
-%global oldname org.pantheon.photos
 
 Name:           elementary-photos
 Summary:        elementary photo manager and viewer
 Version:        0.2.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(gee-0.8)
@@ -60,16 +57,12 @@ Foundation.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{appname}
 
@@ -84,7 +77,7 @@ desktop-file-validate \
 # Validation currently fails due to a bug (?) in appstream-glib
 # https://bugzilla.redhat.com/show_bug.cgi?id=1492566
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/%{appname}.appdata.xml || :
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
 
 
 %files -f %{appname}.lang
@@ -99,12 +92,15 @@ appstream-util validate-relax --nonet \
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/applications/%{appname}-viewer.desktop
-%{_datadir}/glib-2.0/schemas/%{oldname}.gschema.xml
-%{_datadir}/glib-2.0/schemas/%{oldname}-extras.gschema.xml
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/glib-2.0/schemas/%{appname}-extras.gschema.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git180706.000811.6e8d7d3d-2
+- Adapt to CMake -> meson switch.
+
 * Fri Jul 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git180706.000811.6e8d7d3d-1
 - Update to version 0.2.5.
 
