@@ -1,11 +1,11 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-%global appname io.elementary.switchboard-plug-applications
+%global appname io.elementary.switchboard.applications
 
 Name:           switchboard-plug-applications
 Summary:        Switchboard Applications plug
 Version:        0.1.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            http://github.com/elementary/%{name}
@@ -21,6 +21,7 @@ BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -59,6 +60,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3.1+git180622.081214.73abc519-2
+- Adapt to upstream file changes.
+
 * Fri Jul 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3.1+git180622.081214.73abc519-1
 - Update to version 0.1.3.1.
 
