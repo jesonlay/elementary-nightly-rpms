@@ -454,8 +454,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a6acecd7d18a72a8a9381f66ea9608b3796dcdf",
-            "git_last_date": "180709.123923",
+            "git_last_commit": "3a6d7c246f9902458c8754dbcb8cc878b1c6f538",
+            "git_last_date": "180709.195831",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0",
@@ -663,12 +663,12 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6686dc59e1d36240c92ecb91dcc5a5f105e366f6",
-            "git_last_date": "180705.000702",
+            "git_last_commit": "185cf071ca2b14958213bc9038a61411f6805465",
+            "git_last_date": "180709.200041",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "0.2.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.2+git%{date}.%{commit}"
         }
     }
