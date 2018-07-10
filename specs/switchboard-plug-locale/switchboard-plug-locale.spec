@@ -5,7 +5,7 @@
 Name:           switchboard-plug-locale
 Summary:        Adjust Locale settings from Switchboard
 Version:        0.2.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -65,6 +65,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Jul 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git180710.071433.4464ed79-1
+- Update to latest snapshot.
+
 * Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git180706.040309.4f209102-2
 - Adapt to CMake -> meson switch.
 

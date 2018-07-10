@@ -6,7 +6,7 @@
 Name:           elementary-photos
 Summary:        elementary photo manager and viewer
 Version:        0.2.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -98,6 +98,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Jul 10 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git180710.000344.7a6107e4-1
+- Update to latest snapshot.
+
 * Sat Jul 07 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.5+git180706.000811.6e8d7d3d-2
 - Adapt to CMake -> meson switch.
 
