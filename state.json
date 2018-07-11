@@ -176,17 +176,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.3+git%{date}.%{commit}"
         },
-        "76": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "436f4342422f9742681a741ed923b32351a1bdd1",
-            "git_last_date": "180709.205554",
-            "name": "slingshot-launcher",
-            "package_name": "slingshot-launcher",
-            "package_version": "2.2.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.2.0+git%{date}.%{commit}"
-        },
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -670,6 +659,17 @@
             "package_version": "0.2.2",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.2+git%{date}.%{commit}"
+        },
+        "128": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "436f4342422f9742681a741ed923b32351a1bdd1",
+            "git_last_date": "180709.205554",
+            "name": "wingpanel-applications-menu",
+            "package_name": "wingpanel-applications-menu",
+            "package_version": "2.3.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "2.3.0+git%{date}.%{commit}"
         }
     }
 }
