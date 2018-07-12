@@ -6,17 +6,16 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        0.4.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala
 
 BuildRequires:  pkgconfig(champlain-0.12)
@@ -63,16 +62,12 @@ This package contains the development files.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{appname}
 
@@ -109,16 +104,19 @@ appstream-util validate-relax --nonet \
 
 
 %files devel
-%{_includedir}/%{appname}/
+%{_includedir}/%{name}/
 
 %{_libdir}/lib%{name}.so
-%{_libdir}/pkgconfig/%{appname}.pc
+%{_libdir}/pkgconfig/%{name}.pc
 
-%{_datadir}/vala/vapi/%{appname}.deps
-%{_datadir}/vala/vapi/%{appname}.vapi
+%{_datadir}/vala/vapi/%{name}.deps
+%{_datadir}/vala/vapi/%{name}.vapi
 
 
 %changelog
+* Thu Jul 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2.1+git180712.075956.d5dd07b7-2
+- Adapt to CMake -> meson switch.
+
 * Thu Jul 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2.1+git180712.075956.d5dd07b7-1
 - Update to latest snapshot.
 
