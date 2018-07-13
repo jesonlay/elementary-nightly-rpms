@@ -278,12 +278,12 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f002a4c3cc7782af4d6c1023319ba66de2a16f65",
-            "git_last_date": "180712.195459",
+            "git_last_commit": "f62cebf8526f86b8826dbde6ad970b78855f067b",
+            "git_last_date": "180713.014219",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "87": {

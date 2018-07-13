@@ -5,13 +5,15 @@
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
 Version:        2.1.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
+BuildRequires:  gcc
+BuildRequires:  gcc-c++
 BuildRequires:  gettext
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
@@ -62,6 +64,12 @@ popd
 
 
 %changelog
+* Fri Jul 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180713.014219.f62cebf8-2
+- Add missing BR: gcc, gcc-c++.
+
+* Fri Jul 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180713.014219.f62cebf8-1
+- Update to latest snapshot.
+
 * Thu Jul 12 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180712.195459.f002a4c3-1
 - Update to latest snapshot.
 
