@@ -1,15 +1,18 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global appname io.elementary.switchboard.pantheon-shell
+
 Name:           switchboard-plug-pantheon-shell
 Summary:        Switchboard Pantheon Shell plug
 Version:        0.2.7+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
@@ -50,6 +53,11 @@ desktop settings such as the panel, app launcher, and window manager.
 %find_lang pantheon-desktop-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f pantheon-desktop-plug.lang
 %doc README.md
 %license COPYING
@@ -59,10 +67,13 @@ desktop settings such as the panel, app launcher, and window manager.
 %{_libexecdir}/io.elementary.contract.set-wallpaper
 
 %{_datadir}/contractor/set-wallpaper.contract
-%{_datadir}/metainfo/io.elementary.switchboard-plug-pantheon-shell.appdata.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Sat Jul 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.7+git180714.014514.eaa87f24-2
+- Adapt to upstream file changes.
+
 * Sat Jul 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.7+git180714.014514.eaa87f24-1
 - Update to latest snapshot.
 
