@@ -36,8 +36,8 @@
         "59": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4836b51faa44218f65712130273e8b8d95343cc4",
-            "git_last_date": "180716.222930",
+            "git_last_commit": "096c102e93870819f4001b25b3d1c0bec579c4a3",
+            "git_last_date": "180717.093418",
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.0.7",
@@ -630,8 +630,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4d33d3afd01ac20e9f7d6757190fbf619b300cb3",
-            "git_last_date": "180717.012849",
+            "git_last_commit": "1b73defdc0fc320eb2fee4c5a31240693c96ece1",
+            "git_last_date": "180717.094115",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "0.2.6",
