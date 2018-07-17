@@ -5,7 +5,7 @@
 Name:           switchboard-plug-pantheon-shell
 Summary:        Switchboard Pantheon Shell plug
 Version:        0.2.7+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -71,6 +71,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Jul 17 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.7+git180717.000310.b279b783-1
+- Update to latest snapshot.
+
 * Sat Jul 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.7+git180714.014514.eaa87f24-2
 - Adapt to upstream file changes.
 

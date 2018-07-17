@@ -51,6 +51,9 @@ A session Indicator for wingpanel.
 
 
 %changelog
+* Tue Jul 17 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180717.000350.f9c82591-1
+- Update to latest snapshot.
+
 * Thu Jul 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180704.232108.bd7fef1c-1
 - Update to latest snapshot.
 
