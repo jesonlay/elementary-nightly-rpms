@@ -586,8 +586,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e90959dc0d22d805324e98e05ecbfb7ac512ed6a",
-            "git_last_date": "180715.000959",
+            "git_last_commit": "b277fda3e3b18bb9cccab4896306c5782e234ce4",
+            "git_last_date": "180717.173400",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
