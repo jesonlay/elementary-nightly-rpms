@@ -102,8 +102,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7ffdd39ef4ce24a2de8703414569e575670b92e9",
-            "git_last_date": "180709.001059",
+            "git_last_commit": "b2cca2ebd73d0159dc13e521bf0d2aa8a966ee4b",
+            "git_last_date": "180717.165953",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.2",
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "557d51057e27606d12b70a441c780153feed6d08",
-            "git_last_date": "180713.000334",
+            "git_last_commit": "0625195d566482d9fc82fc6eadcdd82e16707a0c",
+            "git_last_date": "180717.161042",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
