@@ -355,8 +355,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "de322dad44e47ecaf5c3651cccde216609cb546c",
-            "git_last_date": "180717.154208",
+            "git_last_commit": "84b68b150db861694be7464cdd4c76c65a89be6a",
+            "git_last_date": "180717.202351",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -553,8 +553,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d8fc303966675620de2f903655f3e45af3867970",
-            "git_last_date": "180717.184745",
+            "git_last_commit": "5a34ded5e4045b7660a7ea32bb1b860432d9f498",
+            "git_last_date": "180717.202258",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
