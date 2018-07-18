@@ -586,8 +586,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b000917b7cca66fbf0ed15ba7feba9cd0fcc7166",
-            "git_last_date": "180718.122448",
+            "git_last_commit": "91033659825d32d438b912cee97c1d9596839c10",
+            "git_last_date": "180718.185919",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
@@ -663,8 +663,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5f25c48760a78bafec24ab44ce3273ef74cc9ab3",
-            "git_last_date": "180717.155007",
+            "git_last_commit": "2f21cd84cf5ddd0860750b299f600ec3c03bf037",
+            "git_last_date": "180718.180841",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.3.0",
