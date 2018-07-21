@@ -3,7 +3,7 @@
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -11,6 +11,8 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
+BuildRequires:  gcc
+BuildRequires:  gcc-c++
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
@@ -117,6 +119,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Jul 21 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.1+git180721.150903.ff85ad71-2
+- Add missing BR: gcc, gcc-c++.
+
 * Sat Jul 21 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.1+git180721.150903.ff85ad71-1
 - Update to latest snapshot.
 
