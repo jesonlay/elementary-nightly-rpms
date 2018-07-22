@@ -3,7 +3,7 @@
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        0.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
@@ -117,6 +117,9 @@ popd
 
 
 %changelog
+* Sun Jul 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git180722.121017.4d9120fe-1
+- Update to latest snapshot.
+
 * Sat Jul 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git180713.000426.28ab9f76-2
 - Add missing BR: gcc, gcc-c++.
 

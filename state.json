@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3a61d7f659fccd8b077e3d16572d094327c77273",
-            "git_last_date": "180721.122627",
+            "git_last_commit": "8965d2d4848df34ddc39f25e99d5b795148ce022",
+            "git_last_date": "180722.120739",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.7",
@@ -69,12 +69,12 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "28ab9f766b673045f56c5171de4063085804e949",
-            "git_last_date": "180713.000426",
+            "git_last_commit": "4d9120feb9f4b8464e8bc3c3aa68be682fbded99",
+            "git_last_date": "180722.121017",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
         "66": {
@@ -201,8 +201,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "24265bc39bdbffea7128c53095238c1030e14ae1",
-            "git_last_date": "180711.000914",
+            "git_last_commit": "eab7dc809628fe120a6430ccc5b6f4834e0a6aab",
+            "git_last_date": "180722.120930",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
@@ -289,8 +289,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2bb84cd61cb90150d3b703a509c1b6e364d1969b",
-            "git_last_date": "180722.000404",
+            "git_last_commit": "fa991cb17de5cf844edcf364a29bc806eb2eedcd",
+            "git_last_date": "180722.120536",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0.1",
@@ -388,8 +388,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d1848581fe3f84b6d58da684ffb85a53e8c0d228",
-            "git_last_date": "180722.000349",
+            "git_last_commit": "cec99ed1bf7419989e69b431b301d01ea5b14180",
+            "git_last_date": "180722.120635",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.3",
@@ -399,8 +399,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8230cd5394ee9fe9c172d79a27a7ddd8ffc1845b",
-            "git_last_date": "180722.000356",
+            "git_last_commit": "9253fc08aa54b574f7620dd70b48357827057149",
+            "git_last_date": "180722.121131",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.4",
