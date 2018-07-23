@@ -443,8 +443,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "035043787c30331056e1790ab58df2d2107f0167",
-            "git_last_date": "180722.000321",
+            "git_last_commit": "376b39d2ee59ca8f727aa30f82f23cf4f62febb6",
+            "git_last_date": "180723.201433",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.1",
@@ -575,8 +575,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6ffd8690c0fe3d7d7949c0c598c293e8eaa61e7e",
-            "git_last_date": "180722.000409",
+            "git_last_commit": "c690a5d04098d49d9435b195a8e502122406d5b7",
+            "git_last_date": "180723.200114",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.5",
@@ -597,8 +597,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c2ddc5a19b19d730d047be59b47b5f493abba3c6",
-            "git_last_date": "180716.211955",
+            "git_last_commit": "1b9641e710733422a64dcf4cc8d2d881a06a3816",
+            "git_last_date": "180723.201123",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
