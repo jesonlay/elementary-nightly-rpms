@@ -3,7 +3,7 @@
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -119,6 +119,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Jul 24 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.1+git180724.030738.924b9bd0-1
+- Update to latest snapshot.
+
 * Sat Jul 21 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.1+git180721.150903.ff85ad71-2
 - Add missing BR: gcc, gcc-c++.
 

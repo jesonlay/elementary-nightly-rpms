@@ -3,7 +3,7 @@
 Name:           wingpanel
 Summary:        Stylish top panel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -114,6 +114,9 @@ desktop-file-validate \
 
 
 %changelog
+* Tue Jul 24 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180724.030936.6e7163ba-1
+- Update to latest snapshot.
+
 * Sat Jul 14 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180714.021814.4d47d06a-2
 - Add missing BR: gcc, gcc-c++.
 
