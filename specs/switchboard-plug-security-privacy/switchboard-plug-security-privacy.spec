@@ -60,6 +60,9 @@ level of privacy according to his needs.
 
 
 %changelog
+* Fri Jul 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180727.000938.be67b2b9-1
+- Update to latest snapshot.
+
 * Tue Jul 24 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180724.030846.df6a6b12-1
 - Update to latest snapshot.
 
