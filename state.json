@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cd4124ea327ee5109e26b3f7556073edacb0f94f",
-            "git_last_date": "180727.082305",
+            "git_last_commit": "0279a08143a876d1316fcbf11ec4ddaafaeddedc",
+            "git_last_date": "180728.125638",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.1",
@@ -553,8 +553,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "19451191bdb623526a8c3e9825a65ef811817490",
-            "git_last_date": "180727.114652",
+            "git_last_commit": "3fb9157b96990bd442837dfdb54c726e97815688",
+            "git_last_date": "180728.005550",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -564,8 +564,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2fe650f2018bd25d9e12e1803db8f04a2e42adb1",
-            "git_last_date": "180727.112857",
+            "git_last_commit": "95970841ae2db4c3a9dbaea450283e64905e9cdb",
+            "git_last_date": "180728.000922",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -641,8 +641,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9c156d391d29199bd23f96f82f94085385ef77d0",
-            "git_last_date": "180726.192707",
+            "git_last_commit": "92bd471c5801897ea04295609d4e3e0e709e55d5",
+            "git_last_date": "180728.115637",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
