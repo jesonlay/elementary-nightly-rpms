@@ -3,22 +3,19 @@
 %global dbus_type       session
 %global extension_type  desktop
 
-
 Name:           gsignond
 Summary:        GSignOn daemon
-Version:        1.0.7+git%{date}.%{commit}
+Version:        1.1.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://gitlab.com/accounts-sso/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-
 BuildRequires:  gettext
 BuildRequires:  gtk-doc
 BuildRequires:  meson
 BuildRequires:  vala
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(check)
 BuildRequires:  pkgconfig(dbus-1)
@@ -122,9 +119,9 @@ This package contains the default configuration.
 %license COPYING.LIB
 
 %{_libdir}/libgsignond-common.so.1
-%{_libdir}/libgsignond-common.so.1.0.7
+%{_libdir}/libgsignond-common.so.1.1.0
 
-%{_libdir}/girepository-1.0/GSignond-1.0.typelib
+%{_libdir}/girepository-1.0/GSignond-1.1.typelib
 
 %dir %{_libdir}/gsignond
 
@@ -145,7 +142,7 @@ This package contains the default configuration.
 %{_libdir}/libgsignond-common.so
 %{_libdir}/pkgconfig/gsignond.pc
 
-%{_datadir}/gir-1.0/GSignond-1.0.gir
+%{_datadir}/gir-1.0/GSignond-1.1.gir
 %{_datadir}/vala/vapi/gsignond.deps
 %{_datadir}/vala/vapi/gsignond.vapi
 
@@ -159,6 +156,9 @@ This package contains the default configuration.
 
 
 %changelog
+* Sun Jul 29 2018 Fabio Valentini <decathorpe@gmail.com> - 1.1.0+git180726.195259.477b96ae-1
+- Update to version 1.1.0.
+
 * Thu Jul 26 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.7+git180726.195259.477b96ae-1
 - Update to latest snapshot.
 
