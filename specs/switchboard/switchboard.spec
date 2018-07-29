@@ -2,21 +2,20 @@
 
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
-Version:        2.3.1+git%{date}.%{commit}
+Version:        2.3.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc
-BuildRequires:  gcc-c++
 BuildRequires:  gettext
 BuildRequires:  intltool
 BuildRequires:  libappstream-glib
-BuildRequires:  vala >= 0.21.0
+BuildRequires:  meson
+BuildRequires:  vala
 
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(gee-0.8)
@@ -63,16 +62,12 @@ switchboard.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang %{name}
 
@@ -119,6 +114,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Jul 29 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.2+git180729.103021.100182ce-1
+- Update to version 2.3.2.
+
 * Sun Jul 29 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.1+git180729.103021.100182ce-1
 - Update to latest snapshot.
 
