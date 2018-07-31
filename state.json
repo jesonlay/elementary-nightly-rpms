@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "77706ef6543402c363289c1e94c271bb7c78cf2b",
-            "git_last_date": "180720.163551",
+            "git_last_commit": "f9ec67ab9b7a6064f1bd262ca5f7b9b7d8581c22",
+            "git_last_date": "180730.182513",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b0389592fc81ac940b26b60522a0e091746f22e9",
-            "git_last_date": "180730.155249",
+            "git_last_commit": "e39811a66005a2e1b3518275d357c05a96ce7126",
+            "git_last_date": "180731.062546",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e67a8a208ee0eeec4d0905a59567c47dc66d52e",
-            "git_last_date": "180729.102854",
+            "git_last_commit": "f5a90f607d534fe00c60b2469fffd3dbc8fb09cf",
+            "git_last_date": "180730.201241",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
