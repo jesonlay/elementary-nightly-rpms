@@ -14,12 +14,12 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "751d912411b37d009a4fc7beac1d1e2a57cb4274",
-            "git_last_date": "180726.154816",
+            "git_last_commit": "0ad13ad61439d17550e22c294017f4f1492e2824",
+            "git_last_date": "180731.205941",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.1.1+git%{date}.%{commit}"
         },
         "57": {
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f74fe517b7ed4da1379a676cdbe3d5d8cf756158",
-            "git_last_date": "180731.125652",
+            "git_last_commit": "54af9d952795e81d77f29870467fa355d8cd7765",
+            "git_last_date": "180731.210044",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
