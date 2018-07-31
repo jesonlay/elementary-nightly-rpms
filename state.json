@@ -102,8 +102,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7d5f3f83f7bd2f8a7277ec079023a97e205dfb4a",
-            "git_last_date": "180729.000221",
+            "git_last_commit": "96bab3afa86ff30bde6941fcd4603daeb972b757",
+            "git_last_date": "180731.230105",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.2",
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "54af9d952795e81d77f29870467fa355d8cd7765",
-            "git_last_date": "180731.210044",
+            "git_last_commit": "4fbd94ac8903df9b97b7d2044cb546bfac78be01",
+            "git_last_date": "180731.223332",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ccf88cf2538acb95ba038e509b35017223da42e2",
-            "git_last_date": "180730.083339",
+            "git_last_commit": "8108bdff72c44b5ba1512223749be189e3579986",
+            "git_last_date": "180731.220416",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.2",
@@ -586,8 +586,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a62fa1eab2b20ec806641f8be1748b63b136550c",
-            "git_last_date": "180730.000718",
+            "git_last_commit": "e0004a349b1eb79dbd53bdef7da9166ee9789172",
+            "git_last_date": "180731.223701",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
