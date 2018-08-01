@@ -333,8 +333,8 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "074c9b6427833a40fdc38610cced34ad1a576ef9",
-            "git_last_date": "180720.111928",
+            "git_last_commit": "7a3bd4502ef70ab2e902b39456301546487c19c8",
+            "git_last_date": "180801.142150",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
