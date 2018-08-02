@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ee33a96a27ba40839fd74e62fd725893e25485e5",
-            "git_last_date": "180802.071105",
+            "git_last_commit": "91362cdb3c634866b8c64301146470a6f256cedc",
+            "git_last_date": "180802.141910",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
@@ -509,8 +509,8 @@
         "111": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fe6f23e1d24ba1b63c76e504af8e16bb31012c97",
-            "git_last_date": "180524.211656",
+            "git_last_commit": "b054960754b1e47ff2c0a0e637b566f2e631f913",
+            "git_last_date": "180802.144621",
             "name": "contractor",
             "package_name": "contractor",
             "package_version": "0.3.3",
