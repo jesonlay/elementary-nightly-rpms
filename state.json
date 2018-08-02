@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f9ec67ab9b7a6064f1bd262ca5f7b9b7d8581c22",
-            "git_last_date": "180730.182513",
+            "git_last_commit": "c393935ebac4d5d6a14deea28512aa3f42caa684",
+            "git_last_date": "180802.015859",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "92cca84b027fc072dcd0ba5e8fa6a81d3bdb47d3",
-            "git_last_date": "180801.000449",
+            "git_last_commit": "ee33a96a27ba40839fd74e62fd725893e25485e5",
+            "git_last_date": "180802.071105",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
@@ -553,8 +553,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "482d993d3248d846eb2601c923500d348ad3a52c",
-            "git_last_date": "180801.183626",
+            "git_last_commit": "1d3204908d5feef5270dc227771e5b5ca91ea91a",
+            "git_last_date": "180802.000104",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -641,8 +641,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "92bd471c5801897ea04295609d4e3e0e709e55d5",
-            "git_last_date": "180728.115637",
+            "git_last_commit": "11f1b0bbdc387f3f38445d1f81e8ba4be991407a",
+            "git_last_date": "180801.201412",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
