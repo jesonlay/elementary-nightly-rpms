@@ -80,8 +80,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "136d7143f71637c67e1103f8894838ccdbce5438",
-            "git_last_date": "180724.142641",
+            "git_last_commit": "074de478dec774219eb5e9cf956e3ffc23642c8c",
+            "git_last_date": "180802.170941",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.1.0",
@@ -278,8 +278,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6616e9db936f362f8929b5f430b8382bdc76869d",
-            "git_last_date": "180731.213945",
+            "git_last_commit": "a5553ae03ad16b8c93d5c06343ed4a11dff598e0",
+            "git_last_date": "180802.175352",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
@@ -487,8 +487,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ab79dee6c82c2a1aad0cb58c237567657595d738",
-            "git_last_date": "180801.160842",
+            "git_last_commit": "10fa9e9bc2307170801b77067d55f99f920ea0c4",
+            "git_last_date": "180802.175819",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.5",
@@ -564,8 +564,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cb6a43775486a143f6c13bfe4bca8c064f86e601",
-            "git_last_date": "180730.083401",
+            "git_last_commit": "b4670c1ef7b1f9a728849e065f1ed888fc1cdbed",
+            "git_last_date": "180802.173259",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
