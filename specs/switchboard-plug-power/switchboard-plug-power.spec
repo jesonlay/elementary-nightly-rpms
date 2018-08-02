@@ -3,14 +3,11 @@
 Name:           switchboard-plug-power
 Summary:        Switchboard Power Plug
 Version:        0.3.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-
-# Add patch to not use (dysfunctional) elementary-dpms-helper
-Patch0:         00-no-e-dpms-helper.patch
 
 BuildRequires:  gettext
 BuildRequires:  meson
@@ -25,6 +22,7 @@ BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
 Requires:       dbus
+Requires:       elementary-dpms-helper
 
 Supplements:    switchboard%{?_isa}
 
@@ -63,6 +61,9 @@ Control system power consumption with this Switchboard preference plug.
 
 
 %changelog
+* Thu Aug 02 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180726.231543.6c32a27f-2
+- Remove dpms-helper-removing patch.
+
 * Fri Jul 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180726.231543.6c32a27f-1
 - Update to latest snapshot.
 
