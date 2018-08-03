@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c393935ebac4d5d6a14deea28512aa3f42caa684",
-            "git_last_date": "180802.015859",
+            "git_last_commit": "58e86849e06577d95a6c0046bd7a77439b4c173e",
+            "git_last_date": "180803.153510",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -278,8 +278,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a3684f78df2debf80feba79736305f2f7acb544d",
-            "git_last_date": "180802.235010",
+            "git_last_commit": "b81cf69e91649542eff505edb2bef554623a3702",
+            "git_last_date": "180803.152446",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
