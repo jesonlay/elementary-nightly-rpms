@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "16d6be7a4c06d9272374578d2fd51395689ccae9",
-            "git_last_date": "180803.001652",
+            "git_last_commit": "4bcd849d6b250b0bf91ca3a6243c5898598f356c",
+            "git_last_date": "180804.093245",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2151be119d0e81bffb1e3fc0678dc8d95175c95e",
-            "git_last_date": "180803.000431",
+            "git_last_commit": "eebd6925a83b761380f7f5b6f28f1662e3267aab",
+            "git_last_date": "180803.213259",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.2",
