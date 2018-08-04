@@ -11,12 +11,10 @@ License:        GPLv3+
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  gcc
-BuildRequires:  gcc-c++
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -40,16 +38,12 @@ A datetime indicator for wingpanel.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang datetime-indicator
 
