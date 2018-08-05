@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cb2783ca4293f6fb7633be6a12c56315ed63e2fd",
-            "git_last_date": "180804.110918",
+            "git_last_commit": "9d17f78a601fe81c7e6b0119ac25be86cb960da5",
+            "git_last_date": "180805.070951",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
@@ -553,8 +553,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "04d8f8674c61ef827f0381998e1f14b9aad342db",
-            "git_last_date": "180804.134749",
+            "git_last_commit": "a1475450098eb65d4cd073acf6222453fb88b146",
+            "git_last_date": "180805.033458",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -575,8 +575,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5ddcb4a29e16c94215f1e051742745108749c311",
-            "git_last_date": "180803.000446",
+            "git_last_commit": "cb452e3844aa93cf7092dc4862e184dc9b85d8ba",
+            "git_last_date": "180805.015233",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.5.1",
