@@ -3,7 +3,7 @@
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -69,6 +69,13 @@ switchboard.
 %install
 %meson_install
 
+# Create plug directories
+mkdir -p %{buildroot}/%{_libdir}/%{name}
+mkdir -p %{buildroot}/%{_libdir}/%{name}/hardware
+mkdir -p %{buildroot}/%{_libdir}/%{name}/network
+mkdir -p %{buildroot}/%{_libdir}/%{name}/personal
+mkdir -p %{buildroot}/%{_libdir}/%{name}/system
+
 %find_lang %{name}
 
 
@@ -80,8 +87,7 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%post   libs -p /sbin/ldconfig
-%postun libs -p /sbin/ldconfig
+%ldconfig_scriptlets libs
 
 
 %files -f %{name}.lang
@@ -114,6 +120,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Aug 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.2+git180804.135558.b306c7db-2
+- Temporarily create plug directories downstream.
+
 * Sat Aug 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.2+git180804.135558.b306c7db-1
 - Update to latest snapshot.
 
