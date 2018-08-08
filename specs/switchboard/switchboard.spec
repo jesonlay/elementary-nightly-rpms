@@ -3,7 +3,7 @@
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -120,6 +120,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Aug 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.2+git180808.150056.ded19539-1
+- Update to latest snapshot.
+
 * Mon Aug 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.2+git180804.135558.b306c7db-2
 - Temporarily create plug directories downstream.
 

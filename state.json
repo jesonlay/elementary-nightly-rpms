@@ -311,12 +311,12 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b306c7db34790aae9dc32a2a39de5ff14a0565fc",
-            "git_last_date": "180804.135558",
+            "git_last_commit": "ded19539dfe21cf0fe542b991a5e8283283860a0",
+            "git_last_date": "180808.150056",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.2+git%{date}.%{commit}"
         },
         "93": {
@@ -586,8 +586,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "608fcae31bb87ae92f880685d73d8bad323eaca2",
-            "git_last_date": "180808.135615",
+            "git_last_commit": "322c2eec76214433818188a34e0575c5fff4474a",
+            "git_last_date": "180808.151542",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
