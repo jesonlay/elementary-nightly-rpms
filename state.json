@@ -91,8 +91,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "deb2c17af577ba38af8b18c2395d8d9eaeec7021",
-            "git_last_date": "180726.170408",
+            "git_last_commit": "590aa0af70985eeb91c9abd9c941a158d9a457e2",
+            "git_last_date": "180809.234149",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.3",
@@ -157,12 +157,12 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c32a27f5cf62afc1b2fa90814f6323fe4b7b7aa",
-            "git_last_date": "180726.231543",
+            "git_last_commit": "beb9a285f3dc576de887ab622521f4916375775a",
+            "git_last_date": "180809.215447",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.3+git%{date}.%{commit}"
         },
         "75": {
@@ -267,8 +267,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c180730dd5c600b616ad166a6d9844d3705d6ce1",
-            "git_last_date": "180720.000750",
+            "git_last_commit": "69748b4342f526b7cdbe79b4168cbe35a3e7bdc6",
+            "git_last_date": "180809.211537",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.1.0",
@@ -553,8 +553,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "86bdb0c4c61a006be7222318f7eaebaec4dc374a",
-            "git_last_date": "180808.000141",
+            "git_last_commit": "e2308d8839d06f820e6b020214c6ca846e016257",
+            "git_last_date": "180810.000743",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -564,8 +564,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f77ff27ae054a5e93e72162c759ee14e5d01cb9f",
-            "git_last_date": "180808.192639",
+            "git_last_commit": "230298e2cfcd3d0660d4af2e5a5d49fe4da423c1",
+            "git_last_date": "180809.225046",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
