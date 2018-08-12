@@ -102,8 +102,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a90657961140b5ad5bf896a5f52d2d8e17b3adf4",
-            "git_last_date": "180808.101750",
+            "git_last_commit": "bde10c77422de206d799797194f7f7e631d65f6e",
+            "git_last_date": "180812.141436",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.2",
@@ -146,8 +146,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f38ec8047d4c0701c8fc717c4732cc59fed78eb1",
-            "git_last_date": "180803.000442",
+            "git_last_commit": "adcf3992cb0978cc4c3507203a6f1b887d19b785",
+            "git_last_date": "180812.140718",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -267,8 +267,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "69748b4342f526b7cdbe79b4168cbe35a3e7bdc6",
-            "git_last_date": "180809.211537",
+            "git_last_commit": "d2be25bce4e2c200c39d98936ecf761c195eaef1",
+            "git_last_date": "180812.141503",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.1.0",
@@ -663,8 +663,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6e00df69e24728e7e80200f0a8e7140af75faa23",
-            "git_last_date": "180722.000426",
+            "git_last_commit": "3d249981bef80be09879383b8dd99e8a9aaff1f7",
+            "git_last_date": "180812.141237",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.3.0",
