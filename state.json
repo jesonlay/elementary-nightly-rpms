@@ -564,8 +564,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fd70241e92853f81b4dae6a2bf06d2c81f7636b4",
-            "git_last_date": "180813.000328",
+            "git_last_commit": "a22b2e9716fd68d0a96d9c6798d087c7a75cbaeb",
+            "git_last_date": "180813.145346",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -597,8 +597,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "119a10e9a9653f708bf933a1547de491bc22390e",
-            "git_last_date": "180812.132908",
+            "git_last_commit": "53ddb2a1d8f8af9e4e0aef278149364cff6cd439",
+            "git_last_date": "180813.145455",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
