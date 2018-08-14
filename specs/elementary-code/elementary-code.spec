@@ -7,7 +7,7 @@
 Name:           elementary-code
 Summary:        The text editor that works
 Version:        2.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -37,22 +37,16 @@ BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 %if %{?fedora} == 24
 BuildRequires:  pkgconfig(libvala-0.32)
-%endif
-
-%if %{?fedora} == 25
+%elif %{?fedora} == 25
 BuildRequires:  pkgconfig(libvala-0.34)
-%endif
-
-%if %{?fedora} == 26
+%elif %{?fedora} == 26
 BuildRequires:  pkgconfig(libvala-0.36)
-%endif
-
-%if %{?fedora} == 27
+%elif %{?fedora} == 27
 BuildRequires:  pkgconfig(libvala-0.38)
-%endif
-
-%if %{?fedora} > 27
+%elif %{?fedora} == 28
 BuildRequires:  pkgconfig(libvala-0.40)
+%else
+BuildRequires:  pkgconfig(libvala-0.42)
 %endif
 
 Requires:       hicolor-icon-theme
@@ -162,6 +156,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Aug 14 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180813.000248.959b5715-2
+- Adapt to libvala bump.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180813.000248.959b5715-1
 - Update to latest snapshot.
 
