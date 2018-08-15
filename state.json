@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b1fa0e20e90dbe60f188df9ecc186a588ee9ec76",
-            "git_last_date": "180814.225347",
+            "git_last_commit": "acc956312c63f538271b4eae0e45a778550df592",
+            "git_last_date": "180815.162418",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -553,8 +553,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "38df48790df3f8a833f2430891e074392256394d",
-            "git_last_date": "180814.182820",
+            "git_last_commit": "bcec2449615011e41093734d73546e4f3fcc09b7",
+            "git_last_date": "180815.165716",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
