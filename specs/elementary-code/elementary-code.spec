@@ -1,5 +1,4 @@
 %global __provides_exclude_from ^%{_libdir}/io.elementary.code/.*\\.so$
-%undefine _strict_symbol_defs_build
 
 %global srcname scratch
 %global appname io.elementary.code
@@ -7,7 +6,7 @@
 Name:           elementary-code
 Summary:        The text editor that works
 Version:        2.4.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -19,6 +18,7 @@ BuildRequires:  gettext
 BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+BuildRequires:  vala-devel
 
 BuildRequires:  pkgconfig(editorconfig)
 BuildRequires:  pkgconfig(gee-0.8)
@@ -33,21 +33,6 @@ BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
-
-
-%if %{?fedora} == 24
-BuildRequires:  pkgconfig(libvala-0.32)
-%elif %{?fedora} == 25
-BuildRequires:  pkgconfig(libvala-0.34)
-%elif %{?fedora} == 26
-BuildRequires:  pkgconfig(libvala-0.36)
-%elif %{?fedora} == 27
-BuildRequires:  pkgconfig(libvala-0.38)
-%elif %{?fedora} == 28
-BuildRequires:  pkgconfig(libvala-0.40)
-%else
-BuildRequires:  pkgconfig(libvala-0.42)
-%endif
 
 Requires:       hicolor-icon-theme
 
@@ -125,8 +110,7 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
+%ldconfig_scriptlets
 
 
 %files -f %{appname}.lang
@@ -156,6 +140,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180816.031621.591cb429-3
+- Fix building by being less smart.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180816.031621.591cb429-2
 - Occasional mass rebuild.
 
