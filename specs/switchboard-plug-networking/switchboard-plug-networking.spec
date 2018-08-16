@@ -3,7 +3,7 @@
 Name:           switchboard-plug-networking
 Summary:        Switchboard Networking plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -53,6 +53,9 @@ A switchboard plug for configuring available networks.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180813.000350.2d1614bf-2
+- Occasional mass rebuild.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180813.000350.2d1614bf-1
 - Update to latest snapshot.
 

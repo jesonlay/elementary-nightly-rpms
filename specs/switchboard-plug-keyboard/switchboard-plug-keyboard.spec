@@ -3,7 +3,7 @@
 Name:           switchboard-plug-keyboard
 Summary:        Switchboard Keyboard plug
 Version:        0.3.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -55,6 +55,9 @@ same time. Keyboard shortcuts are also part of this plug.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180813.000340.03cf9b02-2
+- Occasional mass rebuild.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180813.000340.03cf9b02-1
 - Update to latest snapshot.
 

@@ -3,7 +3,7 @@
 Name:           switchboard-plug-useraccounts
 Summary:        Switchboard User Accounts Plug
 Version:        0.1.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -57,6 +57,9 @@ Switchboard Plug for managing local user accounts.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git180722.120930.eab7dc80-2
+- Occasional mass rebuild.
+
 * Sun Jul 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git180722.120930.eab7dc80-1
 - Update to latest snapshot.
 

@@ -3,7 +3,7 @@
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
 Version:        0.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -58,6 +58,9 @@ desktop-file-validate \
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.5+git180627.172650.d820dea6-2
+- Occasional mass rebuild.
+
 * Wed Jul 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.5+git180627.172650.d820dea6-1
 - Update to latest snapshot.
 

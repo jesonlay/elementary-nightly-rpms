@@ -3,7 +3,7 @@
 Name:           gsignond-plugin-sasl
 Summary:        SASL plugin for gsignond
 Version:        0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://gitlab.com/accounts-sso/%{name}
@@ -63,6 +63,9 @@ This package contains the documentation.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git171111.210640.671022f3-2
+- Occasional mass rebuild.
+
 * Sun Nov 12 2017 Fabio Valentini <decathorpe@gmail.com> - 0+git171111.210640.671022f3-1
 - Update to latest snapshot.
 

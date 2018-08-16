@@ -3,7 +3,7 @@
 Name:           switchboard-plug-sharing
 Summary:        Switchboard Sharing Plug
 Version:        0.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ Configure the sharing of system services.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180619.000852.87ae1c06-2
+- Occasional mass rebuild.
+
 * Wed Jul 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git180619.000852.87ae1c06-1
 - Update to latest snapshot.
 

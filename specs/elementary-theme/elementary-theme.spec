@@ -3,7 +3,7 @@
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -95,6 +95,9 @@ cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git180815.204820.24e5a70a-2
+- Occasional mass rebuild.
+
 * Wed Aug 15 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git180815.204820.24e5a70a-1
 - Update to latest snapshot.
 

@@ -3,7 +3,7 @@
 Name:           switchboard-plug-datetime
 Summary:        Switchboard Date and Time plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ A switchboard plug to configure date and time settings.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180813.000407.6b759453-2
+- Occasional mass rebuild.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180813.000407.6b759453-1
 - Update to latest snapshot.
 

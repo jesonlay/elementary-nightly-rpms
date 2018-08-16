@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-ayatana
 Summary:        an ayatana indicator for wingpanel
 Version:        2.0.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -52,6 +52,9 @@ popd
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170703.192035.f324e542-3
+- Occasional mass rebuild.
+
 * Fri Jan 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170703.192035.f324e542-2
 - Merge .spec file from fedora.
 

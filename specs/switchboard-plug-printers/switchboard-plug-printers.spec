@@ -3,7 +3,7 @@
 Name:           switchboard-plug-printers
 Summary:        Switchboard Printers Plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -54,6 +54,9 @@ A printers plug for Switchboard.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180813.000358.e3cbd7b0-2
+- Occasional mass rebuild.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180813.000358.e3cbd7b0-1
 - Update to latest snapshot.
 

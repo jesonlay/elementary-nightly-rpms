@@ -3,7 +3,7 @@
 Name:           switchboard-plug-sound
 Summary:        Switchboard Sound Plug
 Version:        0.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -54,6 +54,9 @@ Switchboard Sound Plug.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1+git180813.000410.526dda2c-2
+- Occasional mass rebuild.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1+git180813.000410.526dda2c-1
 - Update to latest snapshot.
 

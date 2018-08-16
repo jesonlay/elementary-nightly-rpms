@@ -5,7 +5,7 @@
 Name:           gsignond-plugin-oauth
 Summary:        OAuth plugin for gsignond
 Version:        0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://gitlab.com/accounts-sso/%{srcname}
@@ -67,6 +67,9 @@ This package contains the documentation.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180513.170206.43fee492-2
+- Occasional mass rebuild.
+
 * Sun May 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180513.170206.43fee492-1
 - Update to latest snapshot.
 

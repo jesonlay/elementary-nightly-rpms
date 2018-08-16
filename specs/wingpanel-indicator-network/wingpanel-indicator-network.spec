@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-network
 Summary:        Network Indicator for wingpanel
 Version:        2.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ A network indicator for wingpanel.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git180813.000431.ea3c400f-2
+- Occasional mass rebuild.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git180813.000431.ea3c400f-1
 - Update to latest snapshot.
 

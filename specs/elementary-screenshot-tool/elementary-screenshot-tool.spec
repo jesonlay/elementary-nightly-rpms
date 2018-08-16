@@ -4,7 +4,7 @@
 Name:           elementary-screenshot-tool
 Summary:        Simple screen capture tool
 Version:        0.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            http://github.com/elementary/%{srcname}
@@ -69,6 +69,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.5+git180813.145455.53ddb2a1-2
+- Occasional mass rebuild.
+
 * Mon Aug 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.5+git180813.145455.53ddb2a1-1
 - Update to latest snapshot.
 

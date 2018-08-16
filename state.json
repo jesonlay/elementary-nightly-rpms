@@ -8,7 +8,7 @@
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "4.3.1+git%{date}.%{commit}"
         },
         "10": {
@@ -19,7 +19,7 @@
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "5.1.1+git%{date}.%{commit}"
         },
         "57": {
@@ -30,7 +30,7 @@
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.7",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.2.7+git%{date}.%{commit}"
         },
         "59": {
@@ -41,7 +41,7 @@
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "1.1.0+git%{date}.%{commit}"
         },
         "60": {
@@ -52,7 +52,7 @@
             "name": "libgsignon-glib",
             "package_name": "libgsignon-glib",
             "package_version": "2.4.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "62": {
@@ -63,7 +63,7 @@
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "1.0+git%{date}.%{commit}"
         },
         "63": {
@@ -74,7 +74,7 @@
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
         "66": {
@@ -85,7 +85,7 @@
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "67": {
@@ -96,7 +96,7 @@
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "0.1.3",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "68": {
@@ -107,7 +107,7 @@
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.2",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "69": {
@@ -118,7 +118,7 @@
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.4",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "70": {
@@ -129,7 +129,7 @@
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "72": {
@@ -140,7 +140,7 @@
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "5.0+git%{date}.%{commit}"
         },
         "73": {
@@ -151,7 +151,7 @@
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         },
         "74": {
@@ -162,7 +162,7 @@
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.3",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.3.3+git%{date}.%{commit}"
         },
         "75": {
@@ -173,7 +173,7 @@
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.2.3+git%{date}.%{commit}"
         },
         "77": {
@@ -184,7 +184,7 @@
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.2.9+git%{date}.%{commit}"
         },
         "78": {
@@ -195,7 +195,7 @@
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "79": {
@@ -206,7 +206,7 @@
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.6+git%{date}.%{commit}"
         },
         "80": {
@@ -217,7 +217,7 @@
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "81": {
@@ -228,7 +228,7 @@
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "0.1.4",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "82": {
@@ -239,7 +239,7 @@
             "name": "wingpanel-indicator-ayatana",
             "package_name": "wingpanel-indicator-ayatana",
             "package_version": "2.0.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "3%{?dist}",
             "rpm_last_version": "2.0.3+git%{date}.%{commit}"
         },
         "83": {
@@ -250,7 +250,7 @@
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.5+git%{date}.%{commit}"
         },
         "84": {
@@ -261,7 +261,7 @@
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.1.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "85": {
@@ -272,18 +272,18 @@
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8469ed607dc993e8b45aeee49e975444729b8660",
-            "git_last_date": "180809.093824",
+            "git_last_commit": "27afe7a5d369361b5c985726a0c636476f219d7d",
+            "git_last_date": "180809.161732",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "87": {
@@ -294,7 +294,7 @@
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1+git%{date}.%{commit}"
         },
         "88": {
@@ -305,7 +305,7 @@
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.3",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "89": {
@@ -316,7 +316,7 @@
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.2",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.3.2+git%{date}.%{commit}"
         },
         "93": {
@@ -327,7 +327,7 @@
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
         "94": {
@@ -338,7 +338,7 @@
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         },
         "95": {
@@ -349,7 +349,7 @@
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "96": {
@@ -360,7 +360,7 @@
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         },
         "97": {
@@ -371,7 +371,7 @@
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "0.1.3.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.3.1+git%{date}.%{commit}"
         },
         "98": {
@@ -382,7 +382,7 @@
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.3",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.3.3+git%{date}.%{commit}"
         },
         "99": {
@@ -393,7 +393,7 @@
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.3",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "100": {
@@ -404,7 +404,7 @@
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.4",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "101": {
@@ -415,7 +415,7 @@
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "0.1.2",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         },
         "102": {
@@ -426,7 +426,7 @@
             "name": "plank",
             "package_name": "plank",
             "package_version": "0.11.4",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.11.4+git%{date}.%{commit}"
         },
         "104": {
@@ -437,7 +437,7 @@
             "name": "mock-elementary-nightly",
             "package_name": "mock-elementary-nightly",
             "package_version": "0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
         },
         "105": {
@@ -448,7 +448,7 @@
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "1.0.1+git%{date}.%{commit}"
         },
         "106": {
@@ -459,7 +459,7 @@
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "107": {
@@ -470,7 +470,7 @@
             "name": "gsignond-plugin-oauth",
             "package_name": "gsignond-plugin-oauth",
             "package_version": "0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
         },
         "108": {
@@ -481,7 +481,7 @@
             "name": "gsignond-plugin-sasl",
             "package_name": "gsignond-plugin-sasl",
             "package_version": "0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
         },
         "109": {
@@ -492,7 +492,7 @@
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.2.5+git%{date}.%{commit}"
         },
         "110": {
@@ -514,7 +514,7 @@
             "name": "contractor",
             "package_name": "contractor",
             "package_version": "0.3.4",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.3.4+git%{date}.%{commit}"
         },
         "115": {
@@ -525,7 +525,7 @@
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         },
         "116": {
@@ -536,7 +536,7 @@
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.3",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "117": {
@@ -547,7 +547,7 @@
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.4",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "118": {
@@ -558,7 +558,7 @@
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.3.5+git%{date}.%{commit}"
         },
         "119": {
@@ -569,7 +569,7 @@
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.2.5+git%{date}.%{commit}"
         },
         "120": {
@@ -580,7 +580,7 @@
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.5.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.5.1+git%{date}.%{commit}"
         },
         "121": {
@@ -591,7 +591,7 @@
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
@@ -602,7 +602,7 @@
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.1.5+git%{date}.%{commit}"
         },
         "123": {
@@ -613,7 +613,7 @@
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "2.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.0+git%{date}.%{commit}"
         },
         "124": {
@@ -624,7 +624,7 @@
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         },
         "125": {
@@ -635,7 +635,7 @@
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.6.1+git%{date}.%{commit}"
         },
         "126": {
@@ -646,7 +646,7 @@
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.4.2.1+git%{date}.%{commit}"
         },
         "127": {
@@ -657,7 +657,7 @@
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "0.2.2",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "0.2.2+git%{date}.%{commit}"
         },
         "128": {
@@ -668,7 +668,7 @@
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.3.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.3.0+git%{date}.%{commit}"
         }
     }

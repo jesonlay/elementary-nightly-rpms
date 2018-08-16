@@ -3,7 +3,7 @@
 Name:           switchboard-plug-display
 Summary:        Switchboard Display plug
 Version:        0.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -51,6 +51,9 @@ them.
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180815.000905.f3c80943-2
+- Occasional mass rebuild.
+
 * Wed Aug 15 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180815.000905.f3c80943-1
 - Update to latest snapshot.
 
