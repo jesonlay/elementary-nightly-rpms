@@ -3,11 +3,13 @@
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
+
+BuildRequires:  meson
 
 BuildArch:      noarch
 
@@ -65,16 +67,12 @@ This package contains the plank theme.
 
 
 %build
-# Nothing to do
+%meson
+%meson_build
 
 
 %install
-mkdir -p %{buildroot}/%{_datadir}/themes/elementary
-
-cp -p index.theme %{buildroot}/%{_datadir}/themes/elementary/
-cp -pr gtk-2.0 %{buildroot}/%{_datadir}/themes/elementary/
-cp -pr gtk-3.0 %{buildroot}/%{_datadir}/themes/elementary/
-cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
+%meson_install
 
 
 %files
@@ -95,6 +93,9 @@ cp -pr plank %{buildroot}/%{_datadir}/themes/elementary/
 
 
 %changelog
+* Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git180815.204820.24e5a70a-3
+- Use the new meson build system.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git180815.204820.24e5a70a-2
 - Occasional mass rebuild.
 
