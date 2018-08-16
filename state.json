@@ -462,28 +462,6 @@
             "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
-        "107": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "43fee492ef84533ea2282a161b2695e0a95eb186",
-            "git_last_date": "180513.170206",
-            "name": "gsignond-plugin-oauth",
-            "package_name": "gsignond-plugin-oauth",
-            "package_version": "0",
-            "rpm_last_release": "2%{?dist}",
-            "rpm_last_version": "0+git%{date}.%{commit}"
-        },
-        "108": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "671022f3d941509d64249d8f887f4cb60f2a5aab",
-            "git_last_date": "171111.210640",
-            "name": "gsignond-plugin-sasl",
-            "package_name": "gsignond-plugin-sasl",
-            "package_version": "0",
-            "rpm_last_release": "2%{?dist}",
-            "rpm_last_version": "0+git%{date}.%{commit}"
-        },
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
