@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "acc956312c63f538271b4eae0e45a778550df592",
-            "git_last_date": "180815.162418",
+            "git_last_commit": "ee6a3fc5862dfea7ab4c91049a4f6ede82ea8954",
+            "git_last_date": "180816.025856",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -564,8 +564,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f758dbd7037fabd56c21322b5a103d96261f879c",
-            "git_last_date": "180815.144710",
+            "git_last_commit": "56785e55f813eb41f7bbeeafc1ac8f4ba81146a5",
+            "git_last_date": "180815.223128",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -586,12 +586,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "959b5715b1e5c08fc3ab61d8ba7d65bf991052b2",
-            "git_last_date": "180813.000248",
+            "git_last_commit": "591cb429278a75aeca2fa302db3d10e215c8044a",
+            "git_last_date": "180816.031621",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
