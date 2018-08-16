@@ -179,12 +179,12 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4a3ab1a988a9c940702a85eb0421ab7043c07a50",
-            "git_last_date": "180814.170045",
+            "git_last_commit": "ca0bc7683e1969debcdcedb7dcbbbf0a61402b8e",
+            "git_last_date": "180816.150127",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.9+git%{date}.%{commit}"
         },
         "78": {
@@ -542,12 +542,12 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "56785e55f813eb41f7bbeeafc1ac8f4ba81146a5",
-            "git_last_date": "180815.223128",
+            "git_last_commit": "83136dd5ac32475588580113dfc872d22ac0b7c7",
+            "git_last_date": "180816.150644",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.5+git%{date}.%{commit}"
         },
         "120": {
@@ -564,12 +564,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "591cb429278a75aeca2fa302db3d10e215c8044a",
-            "git_last_date": "180816.031621",
+            "git_last_commit": "7d984752eda4115aa2e075dab25049e63586ed2a",
+            "git_last_date": "180816.150514",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
@@ -597,12 +597,12 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "98f7d32e529316c9540991788c0e74e055763e4f",
-            "git_last_date": "180815.173724",
+            "git_last_commit": "ce5bc1c9cd9fb34aa82ec46c5dab99d2802d4ea1",
+            "git_last_date": "180816.150555",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         },
         "125": {
