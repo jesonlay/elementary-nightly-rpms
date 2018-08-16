@@ -121,8 +121,6 @@ releases, so nightly builds are not necessary.
 | package name            | f27  | f28  | rawhide |
 | ----------------------- | ---- | ---- | ------- |
 | [gsignond]              | DONE | DONE | DONE    |
-| [gsignond-plugin-oauth] | DONE | DONE | DONE    |
-| [gsignond-plugin-sasl]  | DONE | DONE | DONE    |
 | [granite]               | ---- | ---- | DONE    |
 | [libgsignon-glib]       | DONE | DONE | DONE    |
 
@@ -194,8 +192,6 @@ available for the rawhide elementary-nightly repository, too.
 [wingpanel-indicator-sound]: https://github.com/elementary/wingpanel-indicator-sound
 
 [gsignond]: https://gitlab.com/accounts-sso/gsignond
-[gsignond-plugin-oauth]: https://gitlab.com/accounts-sso/gsignond-plugin-oa
-[gsignond-plugin-sasl]: https://gitlab.com/accounts-sso/gsignond-plugin-sasl
 [granite]: https://github.com/elementary/granite
 [libgsignon-glib]: https://gitlab.com/accounts-sso/libgsignon-glib
 
