@@ -3,13 +3,15 @@
 Name:           wingpanel-indicator-ayatana
 Summary:        an ayatana indicator for wingpanel
 Version:        2.0.3+git%{date}.%{commit}
-Release:        3%{?dist}
+Release:        4%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  cmake
+BuildRequires:  gcc
+BuildRequires:  gcc-c++
 BuildRequires:  gettext
 BuildRequires:  vala >= 0.24.0
 BuildRequires:  vala-tools
@@ -52,6 +54,9 @@ popd
 
 
 %changelog
+* Fri Aug 17 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170703.192035.f324e542-4
+- Add missing BR: gcc, gcc-c++.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.3+git170703.192035.f324e542-3
 - Occasional mass rebuild.
 
