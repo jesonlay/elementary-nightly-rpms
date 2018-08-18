@@ -289,12 +289,12 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "526dda2c7add45233a3a9b2a510cdcaf11e958d5",
-            "git_last_date": "180813.000410",
+            "git_last_commit": "4007d53c45e0fb3161cef0006e39d5e9395ab7dd",
+            "git_last_date": "180818.142102",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1+git%{date}.%{commit}"
         },
         "88": {
@@ -509,12 +509,12 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8ebd3c054bd5f8e6f48521e3dcd8826ff91696d7",
-            "git_last_date": "180813.000401",
+            "git_last_commit": "bede5c3c3bf5f4f713bfacf5eed25cf09db646ec",
+            "git_last_date": "180818.141538",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "117": {
@@ -597,8 +597,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6a0a303479c892b463c7687095063d5a98471c09",
-            "git_last_date": "180816.161302",
+            "git_last_commit": "091b82fdcf5025e5ceca6f39ee7774a516bcdc8e",
+            "git_last_date": "180818.145755",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
@@ -608,12 +608,12 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b2aa977a2f55406841c13f47e1d88e3f6680e08f",
-            "git_last_date": "180803.000450",
+            "git_last_commit": "6e9aad709af5e156a5325fa2d4a773f16e0911d6",
+            "git_last_date": "180818.144603",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.6.1+git%{date}.%{commit}"
         },
         "126": {
