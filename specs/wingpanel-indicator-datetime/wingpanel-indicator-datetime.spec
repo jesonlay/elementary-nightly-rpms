@@ -5,7 +5,7 @@
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
 Version:        2.1.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -58,6 +58,9 @@ A datetime indicator for wingpanel.
 
 
 %changelog
+* Sat Aug 18 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180818.054631.7efd3877-1
+- Update to latest snapshot.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180809.161732.27afe7a5-2
 - Occasional mass rebuild.
 

@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ca0bc7683e1969debcdcedb7dcbbbf0a61402b8e",
-            "git_last_date": "180816.150127",
+            "git_last_commit": "2c7b010fbc9ae14b086fea51ddbbabe07efc12fb",
+            "git_last_date": "180818.091435",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -278,12 +278,12 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "27afe7a5d369361b5c985726a0c636476f219d7d",
-            "git_last_date": "180809.161732",
+            "git_last_commit": "7efd3877d9ee6be4a7fcaae205a79fd72098503f",
+            "git_last_date": "180818.054631",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "87": {
@@ -443,12 +443,12 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b9a992a7f0afbc086f9d70238f77d62838cc4653",
-            "git_last_date": "180813.000243",
+            "git_last_commit": "9b4f277e8f8f3d1c3b93795a00817be9b0f8f040",
+            "git_last_date": "180818.113251",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0.1+git%{date}.%{commit}"
         },
         "106": {
@@ -520,12 +520,12 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "382cc2a4fe8e5c957e2a39b17cfa290fb8b2a9e9",
-            "git_last_date": "180812.110332",
+            "git_last_commit": "f1a00613eef73b367171062b65f4a077deb2c231",
+            "git_last_date": "180818.091624",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "118": {
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f745621d145624c1e8824a9d4da33a78a0d4d2b8",
-            "git_last_date": "180816.183616",
+            "git_last_commit": "41dcfbc252f5135b29c376d8aff1211c32911251",
+            "git_last_date": "180817.183418",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -619,8 +619,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "984a04f8ab1cbeae1f70ead402866021c95eb998",
-            "git_last_date": "180816.150016",
+            "git_last_commit": "11b16b98958d377f048ff48827d1612aff556717",
+            "git_last_date": "180818.113335",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
