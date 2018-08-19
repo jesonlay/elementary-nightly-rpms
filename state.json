@@ -69,12 +69,12 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4d9120feb9f4b8464e8bc3c3aa68be682fbded99",
-            "git_last_date": "180722.121017",
+            "git_last_commit": "46ab224fa34df2d69847495f01d34f1592a9a94e",
+            "git_last_date": "180819.000954",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
         "66": {
@@ -102,23 +102,23 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bde10c77422de206d799797194f7f7e631d65f6e",
-            "git_last_date": "180812.141436",
+            "git_last_commit": "be6d0d8ee51d406f13a2df6e816c6f13e6b5d6cd",
+            "git_last_date": "180819.043201",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f3c80943c02a63428a28bf2bb987c004d6cc5949",
-            "git_last_date": "180815.000905",
+            "git_last_commit": "6bf9068ca0557aaee9d36a52d6fb9fa576cba8aa",
+            "git_last_date": "180819.000934",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.4+git%{date}.%{commit}"
         },
         "70": {
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "aac105cf4217e5834407b482f834eeb900615135",
-            "git_last_date": "180818.134148",
+            "git_last_commit": "bf7bba8fdf8a32cb285adad567cc92dcfa11fc0e",
+            "git_last_date": "180819.000853",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.0",
@@ -212,12 +212,12 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0f5e52b65ecc8a949e3e10c25d5a9b721701513c",
-            "git_last_date": "180627.164117",
+            "git_last_commit": "4ae3f1ea09fec4c707dd706ae7290c610671a324",
+            "git_last_date": "180819.001024",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "81": {
@@ -267,19 +267,19 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d2be25bce4e2c200c39d98936ecf761c195eaef1",
-            "git_last_date": "180812.141503",
+            "git_last_commit": "1dae7d1a956526abf275b0e349b30d7a30dd8d65",
+            "git_last_date": "180819.001041",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.0+git%{date}.%{commit}"
         },
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "51eaf618e6ad2cd9d79877f462681e51ffc104b4",
-            "git_last_date": "180818.133651",
+            "git_last_commit": "164dfaf42707bcaf3c22cccc2f93f70cb744e578",
+            "git_last_date": "180819.001028",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
@@ -355,12 +355,12 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2d1614bf2f03cdf1f0266871b764dba69b73b47d",
-            "git_last_date": "180813.000350",
+            "git_last_commit": "20884ba9e2f4d131b3005064a8f8b3272874ea0a",
+            "git_last_date": "180819.000941",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.2+git%{date}.%{commit}"
         },
         "97": {
@@ -443,8 +443,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9b4f277e8f8f3d1c3b93795a00817be9b0f8f040",
-            "git_last_date": "180818.113251",
+            "git_last_commit": "71e98070ecf7f450a7d8d41e62866dc8244816b7",
+            "git_last_date": "180819.000839",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.1",
@@ -465,12 +465,12 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c80f8312f653cf368bf1b10c31add9a204d884b3",
-            "git_last_date": "180813.000332",
+            "git_last_commit": "bce5a9ddbab233341df6fb4a6e4b11a48f146dcd",
+            "git_last_date": "180819.000926",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.2.5+git%{date}.%{commit}"
         },
         "110": {
@@ -498,12 +498,12 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0c50f840e5f1915d114da4fe2fae2356cfc05f0d",
-            "git_last_date": "180812.135700",
+            "git_last_commit": "8104bfcabaa47f9048c367cbc314f6eac28ec779",
+            "git_last_date": "180819.000949",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         },
         "116": {
@@ -520,8 +520,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f1a00613eef73b367171062b65f4a077deb2c231",
-            "git_last_date": "180818.091624",
+            "git_last_commit": "17ad40421ba715203bdb750bfb1280ccba074fd3",
+            "git_last_date": "180819.042613",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.4",
@@ -531,8 +531,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a149901158f169b7e14e09ad960c7cee783b349b",
-            "git_last_date": "180818.135620",
+            "git_last_commit": "5954660b9af9936654a661f2527a21e47984e401",
+            "git_last_date": "180819.000239",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "41dcfbc252f5135b29c376d8aff1211c32911251",
-            "git_last_date": "180817.183418",
+            "git_last_commit": "c2018d744dbb147995c865bc827bb266a00867f6",
+            "git_last_date": "180819.000921",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -564,8 +564,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "275970c62505186cd95adbe61402ba2f6292019a",
-            "git_last_date": "180818.134306",
+            "git_last_commit": "98e6edea751f150e4f004b94e0f4532a8d93649a",
+            "git_last_date": "180819.000847",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
@@ -586,8 +586,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c733d5c05076566a82ca51f1f93b4fb8d4f22f35",
-            "git_last_date": "180818.121653",
+            "git_last_commit": "cb9967716021ab246053577bf2fc3ab9f9bb431d",
+            "git_last_date": "180819.001033",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "2.0",
@@ -597,8 +597,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "091b82fdcf5025e5ceca6f39ee7774a516bcdc8e",
-            "git_last_date": "180818.145755",
+            "git_last_commit": "fa37145eb793d21fbf5f3e4e90737e23e744fd76",
+            "git_last_date": "180819.000909",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
@@ -608,8 +608,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6e9aad709af5e156a5325fa2d4a773f16e0911d6",
-            "git_last_date": "180818.144603",
+            "git_last_commit": "4eb5f1eba91c08f7c25a5db54f70fb0a9c8c4f00",
+            "git_last_date": "180819.000253",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.1",
@@ -641,12 +641,12 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3d249981bef80be09879383b8dd99e8a9aaff1f7",
-            "git_last_date": "180812.141237",
+            "git_last_commit": "e517d2d634a8308bfcb115f53aa27cf45a078566",
+            "git_last_date": "180819.001020",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.3.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.0+git%{date}.%{commit}"
         }
     }
