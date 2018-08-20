@@ -58,12 +58,12 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1b2c473271199839078e438f8af22789135d8f8f",
-            "git_last_date": "180813.000259",
+            "git_last_commit": "6212987d703d0208ee5fee8e414929cb230df317",
+            "git_last_date": "180820.000637",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0+git%{date}.%{commit}"
         },
         "63": {
@@ -333,12 +333,12 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "23ef62e9571b70991b527498a83fedd9e6db1a12",
-            "git_last_date": "180813.000256",
+            "git_last_commit": "943b40f912a819e444b70718413aeb2b7b103cde",
+            "git_last_date": "180820.000633",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         },
         "95": {
@@ -619,8 +619,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "11b16b98958d377f048ff48827d1612aff556717",
-            "git_last_date": "180818.113335",
+            "git_last_commit": "6258ed821675da695b6ccad22c04004d372d0402",
+            "git_last_date": "180820.000623",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
