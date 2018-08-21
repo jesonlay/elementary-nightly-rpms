@@ -4,7 +4,7 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        0.5.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -59,7 +59,7 @@ notifications when using the fish shell.
 
 
 %build
-%meson
+%meson -Dubuntu-bionic-patched-vte=false
 %meson_build
 
 
@@ -97,6 +97,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Aug 21 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5.1+git180821.000036.87a48494-2
+- Adapt to upstream build system changes.
+
 * Tue Aug 21 2018 Fabio Valentini <decathorpe@gmail.com> - 0.5.1+git180821.000036.87a48494-1
 - Update to latest snapshot.
 
