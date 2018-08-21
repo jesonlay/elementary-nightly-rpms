@@ -14,12 +14,12 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "24e5a70adfefc293e7bd19a33090f05a03cc05fe",
-            "git_last_date": "180815.204820",
+            "git_last_commit": "92aee75bb321970cc5a96e2747f81335f9fd4285",
+            "git_last_date": "180821.170537",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.1.1+git%{date}.%{commit}"
         },
         "57": {
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3d24523476e0ac40d3054041b6aab7b528343073",
-            "git_last_date": "180821.000255",
+            "git_last_commit": "5345d18f2a5273b27c6dd21eff16237ce4cdc642",
+            "git_last_date": "180821.215028",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -300,12 +300,12 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3cbd7b0a8bac85a20f50bd3d0e96570e6d5c9be",
-            "git_last_date": "180813.000358",
+            "git_last_commit": "a5228462df504e29b3eabf77b600370ee4718eb6",
+            "git_last_date": "180821.154138",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "0.1.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "89": {
@@ -531,8 +531,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5954660b9af9936654a661f2527a21e47984e401",
-            "git_last_date": "180819.000239",
+            "git_last_commit": "e86b0560668da0a256dc941e9867f158a1550c9e",
+            "git_last_date": "180821.163318",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
