@@ -421,12 +421,12 @@
         "102": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0a842b45dae54c3457f55c7db39f12155050e75a",
-            "git_last_date": "180707.095959",
+            "git_last_commit": "23a48be37f95d956415a71e6d84b88dad34a77c7",
+            "git_last_date": "180822.104221",
             "name": "plank",
             "package_name": "plank",
             "package_version": "0.11.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.11.4+git%{date}.%{commit}"
         },
         "104": {
