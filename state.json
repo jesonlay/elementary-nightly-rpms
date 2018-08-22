@@ -3,12 +3,12 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ee6a3fc5862dfea7ab4c91049a4f6ede82ea8954",
-            "git_last_date": "180816.025856",
+            "git_last_commit": "04afc98d6ade8e189417d4d647021419e5146c18",
+            "git_last_date": "180822.164805",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "4.3.1+git%{date}.%{commit}"
         },
         "10": {
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5345d18f2a5273b27c6dd21eff16237ce4cdc642",
-            "git_last_date": "180821.215028",
+            "git_last_commit": "12e4630a230d8756dc562840a712d2f524889479",
+            "git_last_date": "180822.172922",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7c1c62eee5d8c7003dd3f8f207a0e20430401f5e",
-            "git_last_date": "180818.133627",
+            "git_last_commit": "9ee45a296385f1a683b63e7e3fbc2756e6b01078",
+            "git_last_date": "180822.165922",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.2",
@@ -531,8 +531,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e86b0560668da0a256dc941e9867f158a1550c9e",
-            "git_last_date": "180821.163318",
+            "git_last_commit": "667b0951f408dc9c1c6c275a536df9c8f562964f",
+            "git_last_date": "180822.200453",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -597,8 +597,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d812b0f13ace2401ec661c05fb3edb3eb7bef684",
-            "git_last_date": "180821.084543",
+            "git_last_commit": "ec424461415e11ee7afb6d575548429dfecbb0a6",
+            "git_last_date": "180822.163134",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
