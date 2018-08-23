@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9ee45a296385f1a683b63e7e3fbc2756e6b01078",
-            "git_last_date": "180822.165922",
+            "git_last_commit": "2baaa5d99e58849a032f2f2288eab65d55e071da",
+            "git_last_date": "180823.000319",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.2",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "930456dc5ce8a1446c2cb79a43075203b4f9277f",
-            "git_last_date": "180822.000857",
+            "git_last_commit": "96931d8cb47168bb306781ab418fe36cc45a8eb5",
+            "git_last_date": "180823.000309",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -553,12 +553,12 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "87a48494672a0523eb73563ec06828cb1e7e8051",
-            "git_last_date": "180821.000036",
+            "git_last_commit": "ba8bc682acdc79f744749038f569489f5f5999db",
+            "git_last_date": "180822.223243",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.5.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.5.1+git%{date}.%{commit}"
         },
         "121": {
@@ -597,8 +597,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ec424461415e11ee7afb6d575548429dfecbb0a6",
-            "git_last_date": "180822.163134",
+            "git_last_commit": "67265b0f9c49c424a5305fbc28209d9f6ab8500a",
+            "git_last_date": "180823.000302",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
