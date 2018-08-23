@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6bf9068ca0557aaee9d36a52d6fb9fa576cba8aa",
-            "git_last_date": "180819.000934",
+            "git_last_commit": "25acc44bcb0218e41f139946ddab4d076d04c2d2",
+            "git_last_date": "180823.182208",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.4",
@@ -388,12 +388,12 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "076914718bd06303daf3b6647995f6e7fd861acb",
-            "git_last_date": "180813.000347",
+            "git_last_commit": "c54e7468cf65dba4d0e31cb8bcf182063d9d924e",
+            "git_last_date": "180823.185915",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "0.1.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.3+git%{date}.%{commit}"
         },
         "100": {
@@ -520,8 +520,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "412f76041f682ae995fae177898112b030f43860",
-            "git_last_date": "180821.000148",
+            "git_last_commit": "f63b6ba8855153f9b96c68d80d2f009dae9ab6d2",
+            "git_last_date": "180823.184229",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.4",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9127d22f690c7847c16d3b29890bfae52efec772",
-            "git_last_date": "180823.121022",
+            "git_last_commit": "4d012920b1a18c889248da02a5a018363470097d",
+            "git_last_date": "180823.164117",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -564,8 +564,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "477faeae4beb949277cd6903d807382e0a93c420",
-            "git_last_date": "180820.211957",
+            "git_last_commit": "24b4a60f7d3a82b2d1a4b78e33f429437c8c11ca",
+            "git_last_date": "180823.170549",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
