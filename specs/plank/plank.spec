@@ -1,7 +1,7 @@
 Summary:        Stupidly simple Dock
 Name:           plank
 Version:        0.11.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
 
@@ -89,8 +89,8 @@ This package contains development headers and files.
 %make_install
 %find_lang plank
 
-rm -f %{buildroot}/%{_libdir}/*.la
-rm -f %{buildroot}/%{_libdir}/plank/*.la
+# Remove libtool archives from the buildroot
+find %{buildroot} -name "*.la" -print -delete
 
 
 %check
@@ -98,11 +98,10 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/*.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/appdata/*.appdata.xml
+    %{buildroot}/%{_datadir}/metainfo/*.appdata.xml
 
 
-%post   libs -p /sbin/ldconfig
-%postun libs -p /sbin/ldconfig
+%ldconfig_scriptlets libs
 
 
 %files -f plank.lang
@@ -110,10 +109,10 @@ appstream-util validate-relax --nonet \
 
 %{_libdir}/plank/
 
-%{_datadir}/appdata/plank.appdata.xml
 %{_datadir}/applications/plank.desktop
 %{_datadir}/glib-2.0/schemas/net.launchpad.plank.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/plank.svg
+%{_datadir}/metainfo/plank.appdata.xml
 %{_datadir}/plank/
 
 %{_mandir}/man1/plank.1.gz
@@ -135,6 +134,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Aug 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git180824.050204.d00856dc-2
+- Adapt to upstream file changes.
+
 * Mon Aug 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git180824.050204.d00856dc-1
 - Update to latest snapshot.
 
