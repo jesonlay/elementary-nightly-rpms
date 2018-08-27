@@ -9,10 +9,6 @@ License:        GPLv3+
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-# This patch replaces the usage of a gsettings key that was removed in
-# a recent GNOME version with the current equivalent.
-Patch0:         00-gschema-path.patch
-
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
@@ -56,6 +52,9 @@ for i in $(find -executable -name '*.vala'); do chmod a-x $i; done
 
 
 %changelog
+* Mon Aug 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180825.000317.9860d543-1
+- Update to latest snapshot.
+
 * Thu Aug 23 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180823.185915.c54e7468-1
 - Update to latest snapshot.
 
