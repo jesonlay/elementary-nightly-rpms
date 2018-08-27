@@ -293,9 +293,9 @@
             "git_last_date": "180827.095359",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
-            "package_version": "0.1",
+            "package_version": "0.1.1",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.1+git%{date}.%{commit}"
+            "rpm_last_version": "0.1.1+git%{date}.%{commit}"
         },
         "88": {
             "git_branch": "master",
