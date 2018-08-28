@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "95a7a70ff91a2f034d44333619476487b321e469",
-            "git_last_date": "180826.163915",
+            "git_last_commit": "713a1157b2d856cd326b77c5745b9228e75d5cf1",
+            "git_last_date": "180828.152220",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -377,8 +377,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e98b10fdbdcf189349e8eca38c8f186bb4f44cc",
-            "git_last_date": "180821.000219",
+            "git_last_commit": "76c7e459201127e4e62684cfdc76c5b567d96701",
+            "git_last_date": "180828.154541",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.3",
