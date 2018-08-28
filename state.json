@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "25acc44bcb0218e41f139946ddab4d076d04c2d2",
-            "git_last_date": "180823.182208",
+            "git_last_commit": "6bcddd7a09ff824fb9d3557699385783b221f138",
+            "git_last_date": "180828.182818",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "0.1.4",
@@ -630,8 +630,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0c4d314615f2aacc318d18a773ce77747c2ea67f",
-            "git_last_date": "180826.000415",
+            "git_last_commit": "054c9384af914eb3d0325841c9b61727296adf13",
+            "git_last_date": "180828.183235",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "0.2.2",

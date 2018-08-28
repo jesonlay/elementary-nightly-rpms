@@ -51,6 +51,9 @@ them.
 
 
 %changelog
+* Tue Aug 28 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180828.182818.6bcddd7a-1
+- Update to latest snapshot.
+
 * Thu Aug 23 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180823.182208.25acc44b-1
 - Update to latest snapshot.
 
