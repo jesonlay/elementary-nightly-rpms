@@ -498,8 +498,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8104bfcabaa47f9048c367cbc314f6eac28ec779",
-            "git_last_date": "180819.000949",
+            "git_last_commit": "31befc425421b49e9b39831beaebb525a072b392",
+            "git_last_date": "180829.153502",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "0.1.1",
@@ -531,8 +531,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1605b864bb932629ee08a35824246fe1e5d3fa56",
-            "git_last_date": "180829.060044",
+            "git_last_commit": "4f795061573191cea257173801a412f08be2c1f5",
+            "git_last_date": "180829.151320",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c193d5f4b20a4cc4436d741f53f720f16334d9c4",
-            "git_last_date": "180829.042813",
+            "git_last_commit": "31ad7d4da5c571987aaa0a7f05d380a9f8a9531b",
+            "git_last_date": "180829.152805",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
