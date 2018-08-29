@@ -23,7 +23,7 @@ BuildRequires:  vala-devel
 BuildRequires:  pkgconfig(editorconfig)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(granite) >= 0.3.0
+BuildRequires:  pkgconfig(granite) >= 5.1
 BuildRequires:  pkgconfig(gtksourceview-3.0) >= 3.10
 BuildRequires:  pkgconfig(gtkspell3-3.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
