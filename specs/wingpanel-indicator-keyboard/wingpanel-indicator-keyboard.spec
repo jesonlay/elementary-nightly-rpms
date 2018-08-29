@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-keyboard
 Summary:        Keyboard Indicator for wingpanel
 Version:        2.1.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ A keyboard indicator for wingpanel.
 
 
 %changelog
+* Wed Aug 29 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180829.054233.8e01a3ee-1
+- Update to latest snapshot.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git180720.195637.dacf4aea-2
 - Occasional mass rebuild.
 
