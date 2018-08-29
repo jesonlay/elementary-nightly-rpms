@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d125c53c81444e3c7ed842048a3145c123e0ae71",
-            "git_last_date": "180818.132949",
+            "git_last_commit": "65dc54c8dc319aaf43e4740a7d5840a194e02a7c",
+            "git_last_date": "180829.184613",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -564,12 +564,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c46c77b5600e6d17d4c306ef3106e6401990679",
-            "git_last_date": "180829.054758",
+            "git_last_commit": "6e69e299714f9b531aa153e242584be8fc5793da",
+            "git_last_date": "180829.182358",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "122": {
