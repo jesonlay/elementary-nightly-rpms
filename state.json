@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2087bee7d60dc55b320c4a25405d1f735fa5f978",
-            "git_last_date": "180831.000440",
+            "git_last_commit": "f2325ab11f1fc17d3e8ead67eb69a91f4f7746de",
+            "git_last_date": "180831.115529",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -377,8 +377,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "467a9b440bc99aa87218ae6e4152318ac4cca9b0",
-            "git_last_date": "180830.000743",
+            "git_last_commit": "7ca91e3821458e71cb6e149350615d00f2fd892e",
+            "git_last_date": "180831.120059",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "0.3.3",
@@ -443,8 +443,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0c77e0efd8e1eddde24fc4be5afe2785952bc1c9",
-            "git_last_date": "180830.153101",
+            "git_last_commit": "ad93bc0141cabc98629c4041526bc32baaf6b405",
+            "git_last_date": "180831.115422",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.1",
@@ -564,8 +564,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9208658028cddf1fe94b691127f0a03102f35c17",
-            "git_last_date": "180831.025118",
+            "git_last_commit": "a265f9f20bc83911fe078a87e88f0464db3fcbf8",
+            "git_last_date": "180831.115906",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
