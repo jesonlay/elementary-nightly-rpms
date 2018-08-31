@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3308435ea17b51efa788624241388dc088947c60",
-            "git_last_date": "180830.000745",
+            "git_last_commit": "d7822d90730a8759dd314759aac06573cc264b8e",
+            "git_last_date": "180831.141222",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.2",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e8d73c3eacff007e527fc9520580936ff5c23010",
-            "git_last_date": "180831.130114",
+            "git_last_commit": "961191775940fa1024c0859d39316cbc354cdb35",
+            "git_last_date": "180831.141357",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
