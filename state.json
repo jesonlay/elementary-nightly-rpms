@@ -278,8 +278,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "76a97554ae3f9a75d00f1d8e8de3c75b66c22437",
-            "git_last_date": "180831.132527",
+            "git_last_commit": "1d38c80646b785e3d3e37e180568f430f9d1412d",
+            "git_last_date": "180831.185234",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e794c17418079b558d77e48d6cc50c079782a39f",
-            "git_last_date": "180831.174647",
+            "git_last_commit": "1a6e907f0c1fd53a5ddc084fa84e23e06059c624",
+            "git_last_date": "180831.180757",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
