@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "94ff5a13a63d671160d286afb16d9daaf09b9da2",
-            "git_last_date": "180905.165519",
+            "git_last_commit": "33df61169ae747bb6c0aa46670ba63d638e7cac2",
+            "git_last_date": "180905.182312",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -619,8 +619,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "403a4376f75c83f27da4bde42650bfe078bc8107",
-            "git_last_date": "180901.000800",
+            "git_last_commit": "6a32d06ca4d605631102d67696d353daefae1d50",
+            "git_last_date": "180905.191609",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
