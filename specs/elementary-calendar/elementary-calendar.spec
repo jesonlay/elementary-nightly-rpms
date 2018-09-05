@@ -6,7 +6,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        0.4.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -75,30 +75,32 @@ This package contains the development files.
 %check
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
+
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/%{appname}-daemon.desktop
+    %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
 
 appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
+%ldconfig_scriptlets
 
 
 %files -f %{appname}.lang
 %doc README.md
 %license COPYING
 
+%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
+
 %{_bindir}/%{appname}
-%{_bindir}/%{appname}-daemon
+
+%{_libexecdir}/%{appname}-daemon
 
 %{_libdir}/lib%{name}.so.0
 %{_libdir}/lib%{name}.so.0.1
 %{_libdir}/%{appname}/
 
 %{_datadir}/applications/%{appname}.desktop
-%{_datadir}/applications/%{appname}-daemon.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
@@ -114,6 +116,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Sep 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2.1+git180905.191609.6a32d06c-2
+- Adapt to upstream file changes.
+
 * Wed Sep 05 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2.1+git180905.191609.6a32d06c-1
 - Update to latest snapshot.
 
