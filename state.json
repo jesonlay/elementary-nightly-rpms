@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "60e5c906d7e16b93dc6758284644e7ee780d4c8d",
-            "git_last_date": "180831.232305",
+            "git_last_commit": "7106781320c86ac95b099012825db4f191d76ada",
+            "git_last_date": "180906.183706",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "19f8314cd85f362dec1efb3923d44a17a301c6c3",
-            "git_last_date": "180906.023448",
+            "git_last_commit": "6a9572a141fd1afcf793b4e26565a13a711bcb8c",
+            "git_last_date": "180906.182635",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a552e5285d53f5cd248c804b548be3d0e89d0c20",
-            "git_last_date": "180906.153016",
+            "git_last_commit": "53c5070bee352e66043d10a63430934ae616f9e3",
+            "git_last_date": "180906.183033",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -575,8 +575,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2c611be923a3e9a351793ff416b3f29057df4025",
-            "git_last_date": "180906.153038",
+            "git_last_commit": "bc9f450efc3e3c88a0e8616be8a966f8444ed62e",
+            "git_last_date": "180906.185159",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
