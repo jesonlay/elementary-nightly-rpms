@@ -3,7 +3,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -31,7 +31,11 @@ BuildRequires:  pkgconfig(libbamf3)
 BuildRequires:  pkgconfig(libcanberra)
 BuildRequires:  pkgconfig(plank) >= 0.11.0
 
+%if 0%{?fedora} >= 29
+BuildRequires:  mutter328-devel
+%else
 BuildRequires:  mutter-devel >= 3.18.3
+%endif
 
 
 Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
@@ -84,8 +88,7 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/gala*.desktop
 
 
-%post   libs -p /sbin/ldconfig
-%postun libs -p /sbin/ldconfig
+%ldconfig_scriptlets
 
 
 %files -f gala.lang
@@ -121,6 +124,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sat Sep 08 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git180729.015903.15f722ac-3
+- Adapt for mutter328 compat package.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git180729.015903.15f722ac-2
 - Occasional mass rebuild.
 
