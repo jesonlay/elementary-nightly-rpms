@@ -157,8 +157,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b0f676f8858f15342b8ce7e42b840b4fdf2923f3",
-            "git_last_date": "180830.000803",
+            "git_last_commit": "bef6a9133deb6e3b97e424232184d23e232cf787",
+            "git_last_date": "180908.162537",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "0.3.3",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4d399fde65746df354d31c5104a86a1597a4f465",
-            "git_last_date": "180908.160016",
+            "git_last_commit": "18355e68d0211a85171f512767ea463e92d5636b",
+            "git_last_date": "180908.160020",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -575,8 +575,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1f3ca1708d555c0e35996bca1fcfcaa2a834bc34",
-            "git_last_date": "180907.224802",
+            "git_last_commit": "07fb6691b01ed7bf934ac59558c0eda146279253",
+            "git_last_date": "180908.164345",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
