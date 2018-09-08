@@ -3,7 +3,7 @@
 Name:           wingpanel
 Summary:        Stylish top panel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -114,6 +114,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sat Sep 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180724.030936.6e7163ba-3
+- Rebuild for gala mutter328 support.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git180724.030936.6e7163ba-2
 - Occasional mass rebuild.
 
