@@ -432,12 +432,12 @@
         "104": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9b39eca3795bc26467dda30bc76bd5f780b1ada1",
-            "git_last_date": "180507.132007",
+            "git_last_commit": "9720fa889de16681748501e425832eb85c2ce97a",
+            "git_last_date": "180910.143404",
             "name": "mock-elementary-nightly",
             "package_name": "mock-elementary-nightly",
             "package_version": "0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
         },
         "105": {
