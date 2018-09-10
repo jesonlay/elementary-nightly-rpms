@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c44ea18fcc26e726013e9af60805b278503e0c46",
-            "git_last_date": "180910.215026",
+            "git_last_commit": "7511b09e47bc412b5dee79049678e9564ffabc99",
+            "git_last_date": "180910.224114",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -201,8 +201,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2f529fd731bf43f749758d67673c999d0343ba0c",
-            "git_last_date": "180907.000642",
+            "git_last_commit": "faa475ce1b3906119fdf8482b691532bcfcc44f1",
+            "git_last_date": "180910.221523",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
@@ -322,8 +322,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2995cd6495c0c25e2d62fcaa599398692adeb943",
-            "git_last_date": "180910.132714",
+            "git_last_commit": "1970bac81eb691838d7068fc6d59bb6ac48de2d2",
+            "git_last_date": "180910.221652",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
