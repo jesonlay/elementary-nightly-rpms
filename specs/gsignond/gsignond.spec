@@ -6,7 +6,7 @@
 Name:           gsignond
 Summary:        GSignOn daemon
 Version:        1.1.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://gitlab.com/accounts-sso/%{name}
@@ -112,6 +112,7 @@ This package contains the default configuration.
 
 %if %{dbus_type} != p2p
 %{_datadir}/dbus-1/services/com.google.code.AccountsSSO.gSingleSignOn.service
+%{_datadir}/dbus-1/services/com.google.code.AccountsSSO.SingleSignOn.service
 %endif
 
 
@@ -156,6 +157,9 @@ This package contains the default configuration.
 
 
 %changelog
+* Mon Sep 10 2018 Fabio Valentini <decathorpe@gmail.com> - 1.1.0+git180907.111228.544b9982-2
+- Adapt to upstream file changes.
+
 * Mon Sep 10 2018 Fabio Valentini <decathorpe@gmail.com> - 1.1.0+git180907.111228.544b9982-1
 - Update to latest snapshot.
 
