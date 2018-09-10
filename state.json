@@ -36,23 +36,23 @@
         "59": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "477b96ae64d7bc7e7058b73d043d23e8569533b0",
-            "git_last_date": "180726.195259",
+            "git_last_commit": "544b9982ac3c340161ca7bc5ef1f45cb5409dc7f",
+            "git_last_date": "180907.111228",
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.1.0+git%{date}.%{commit}"
         },
         "60": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d1bae907664e3775835b96a191165963c1583886",
-            "git_last_date": "180514.150051",
+            "git_last_commit": "2c6c38a217a0b78c3c13dd60574b352173f5129f",
+            "git_last_date": "180910.084105",
             "name": "libgsignon-glib",
             "package_name": "libgsignon-glib",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "62": {
