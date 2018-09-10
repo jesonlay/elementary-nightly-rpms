@@ -4,7 +4,7 @@
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -106,6 +106,9 @@ install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
 
 
 %changelog
+* Mon Sep 10 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180910.212117.19c0730f-1
+- Update to latest snapshot.
+
 * Sat Sep 08 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180905.222821.b29864da-2
 - Adapt to mutter328 compat package.
 

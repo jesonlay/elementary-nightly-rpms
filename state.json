@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e96678222fcaa6a6f5e63c9f7d6736b9162699fb",
-            "git_last_date": "180910.202009",
+            "git_last_commit": "c44ea18fcc26e726013e9af60805b278503e0c46",
+            "git_last_date": "180910.215026",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -333,12 +333,12 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b29864daaa663257c3f52a3deb212aae9b934ed6",
-            "git_last_date": "180905.222821",
+            "git_last_commit": "19c0730fded4e9ddec5a491f0e78f83c7c04eb59",
+            "git_last_date": "180910.212117",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         },
         "95": {
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b87cd6972e2746796daba8645029c44bdf7f413d",
-            "git_last_date": "180909.181118",
+            "git_last_commit": "8b81593a2efe45b987f5b624564e7dda9b91e765",
+            "git_last_date": "180910.215115",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
