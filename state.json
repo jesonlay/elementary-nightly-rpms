@@ -47,8 +47,8 @@
         "60": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2c6c38a217a0b78c3c13dd60574b352173f5129f",
-            "git_last_date": "180910.084105",
+            "git_last_commit": "3e99d2961f101606ff0d69f397a6cacb120f6a94",
+            "git_last_date": "180910.093037",
             "name": "libgsignon-glib",
             "package_name": "libgsignon-glib",
             "package_version": "2.4.1",
