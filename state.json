@@ -322,12 +322,12 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4d5a5669db652d048357d2e9bae1841a34d2f6d1",
-            "git_last_date": "180910.232546",
+            "git_last_commit": "1970bac81eb691838d7068fc6d59bb6ac48de2d2",
+            "git_last_date": "180910.221652",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
         "94": {
