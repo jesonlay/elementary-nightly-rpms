@@ -256,12 +256,12 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6e7163ba09d5247d6759fc96037441a4afcb2c97",
-            "git_last_date": "180724.030936",
+            "git_last_commit": "628412171cd502e06cc416607b8d614bed3d0577",
+            "git_last_date": "180910.233108",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.1.1",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "85": {
@@ -322,8 +322,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1970bac81eb691838d7068fc6d59bb6ac48de2d2",
-            "git_last_date": "180910.221652",
+            "git_last_commit": "4d5a5669db652d048357d2e9bae1841a34d2f6d1",
+            "git_last_date": "180910.232546",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
