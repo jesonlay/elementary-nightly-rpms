@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "097c05ba703417d4edb8812d9824852bcd9dfeeb",
-            "git_last_date": "180911.000609",
+            "git_last_commit": "720cb523a4bb3f37bbbeedbba76fa2d8e0955115",
+            "git_last_date": "180913.160511",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -597,8 +597,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5b7f42f2a313bdb2d70c903d327bb9a575076f00",
-            "git_last_date": "180910.173857",
+            "git_last_commit": "bc4bcf18600953b7c3d8b003195cd8645461be6d",
+            "git_last_date": "180913.162546",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
