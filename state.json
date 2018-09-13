@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a5b652d98c51af3cc6956dfab700d0891d14548d",
-            "git_last_date": "180912.065335",
+            "git_last_commit": "ce4fdf6c0648d5d14f121d332d38e83b193f4e48",
+            "git_last_date": "180913.000158",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -355,8 +355,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5e98661ba8bb385cd87e411197d6be4829ba1ef3",
-            "git_last_date": "180905.231511",
+            "git_last_commit": "425ba883f68f598c7c0374cacbcb16502e977e4d",
+            "git_last_date": "180913.000225",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -443,8 +443,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b0c54a03642b749b7767b7a5995d4b46f62b6e61",
-            "git_last_date": "180912.002559",
+            "git_last_commit": "137923c0337029ff34b1b88f218ceddb00efa0ef",
+            "git_last_date": "180913.000210",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.1",
