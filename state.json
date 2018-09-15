@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "720cb523a4bb3f37bbbeedbba76fa2d8e0955115",
-            "git_last_date": "180913.160511",
+            "git_last_commit": "635c4f9e594bed97d4dde40d6299e06909b4fb69",
+            "git_last_date": "180915.001029",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -333,8 +333,8 @@
         "94": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "19c0730fded4e9ddec5a491f0e78f83c7c04eb59",
-            "git_last_date": "180910.212117",
+            "git_last_commit": "bbf2958c18f53cf486c861071adb0d503391be25",
+            "git_last_date": "180915.001034",
             "name": "pantheon-greeter",
             "package_name": "pantheon-greeter",
             "package_version": "3.2.0",
