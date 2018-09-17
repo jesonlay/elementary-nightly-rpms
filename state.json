@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "81bd52022e592c9c6abbf9e3b12f7172f3bba293",
-            "git_last_date": "180906.035231",
+            "git_last_commit": "a1f267c9f48b440a54fc0243ff0009ad76467788",
+            "git_last_date": "180917.135859",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -509,8 +509,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9ace0333604632af83e6470448c8ceec2b22499c",
-            "git_last_date": "180910.000829",
+            "git_last_commit": "3a604a877d7264e11a463d34069f0f81e122541a",
+            "git_last_date": "180917.135824",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.3",
@@ -575,8 +575,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "471760182df5ea4c6b145f6e52f69a8a9fbc9860",
-            "git_last_date": "180913.223657",
+            "git_last_commit": "26866253bed1cab627c9abb4c81a2ded6a985c95",
+            "git_last_date": "180917.134337",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
