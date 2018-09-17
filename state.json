@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "635c4f9e594bed97d4dde40d6299e06909b4fb69",
-            "git_last_date": "180915.001029",
+            "git_last_commit": "376b55b0cef5548bf2e71f6c294dd42ffcdab1f7",
+            "git_last_date": "180917.145531",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -399,8 +399,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3f4efedf2aed542db77489a7277178a15692b0e1",
-            "git_last_date": "180908.000811",
+            "git_last_commit": "ae43e307f49896393853df0f811522a6b639a803",
+            "git_last_date": "180917.143318",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.4",
@@ -575,8 +575,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "26866253bed1cab627c9abb4c81a2ded6a985c95",
-            "git_last_date": "180917.134337",
+            "git_last_commit": "f8777159ad1d6cf469c6774c479b44b301ea379e",
+            "git_last_date": "180917.145045",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "0.1.5",
@@ -619,8 +619,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "10e1728c841c7c8e84ae35ac20a623592f2f37d3",
-            "git_last_date": "180906.022335",
+            "git_last_commit": "29bdc64015c75984701a87983a0633e5f56ad05a",
+            "git_last_date": "180917.143805",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
