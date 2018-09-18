@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06d7d2707ebdc931f7a1b2d7d4ce147f4d57bf99",
-            "git_last_date": "180917.185423",
+            "git_last_commit": "9022ce00b6041e0e98f6dbe7936f8fd1ee9d5623",
+            "git_last_date": "180918.164159",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
