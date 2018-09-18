@@ -645,9 +645,9 @@
             "git_last_date": "180918.154103",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
-            "package_version": "2.3.0",
+            "package_version": "2.4.0",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.3.0+git%{date}.%{commit}"
+            "rpm_last_version": "2.4.0+git%{date}.%{commit}"
         }
     }
 }
