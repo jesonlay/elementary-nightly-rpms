@@ -1,15 +1,19 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Name:           switchboard-plug-security-privacy
+%global plugname    security-privacy
+%global appname     io.elementary.switchboard.%{plugname}
+
+Name:           switchboard-plug-%{plugname}
 Summary:        Switchboard Privacy and Security Plug
 Version:        0.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -45,21 +49,30 @@ level of privacy according to his needs.
 %install
 %meson_install
 
-%find_lang security-privacy-plug
+%find_lang %{plugname}-plug
 
 
-%files -f security-privacy-plug.lang
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
+%files -f %{plugname}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/personal/libsecurity-privacy.so
-%{_libdir}/switchboard/personal/security-privacy-plug-helper
+%{_libdir}/switchboard/personal/lib%{plugname}.so
+%{_libdir}/switchboard/personal/%{plugname}-plug-helper
 
-%{_datadir}/glib-2.0/schemas/io.elementary.switchboard.security-privacy.gschema.xml
-%{_datadir}/polkit-1/actions/io.elementary.switchboard.security-privacy.policy
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
+%{_datadir}/polkit-1/actions/%{appname}.policy
 
 
 %changelog
+* Wed Sep 19 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180919.081950.d8023c9a-2
+- Adapt to upstream file changes.
+
 * Wed Sep 19 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git180919.081950.d8023c9a-1
 - Update to latest snapshot.
 
