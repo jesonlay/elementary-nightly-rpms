@@ -102,8 +102,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6d4090a768175ccad00c99d35b1d61f987ad4e1",
-            "git_last_date": "180917.160247",
+            "git_last_commit": "c5c4bee3573506136d4ca73a198557864256a0ca",
+            "git_last_date": "180923.000651",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.2",
@@ -520,8 +520,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9676ab9f986709fe663deb71abad3c7187ea9e95",
-            "git_last_date": "180922.012728",
+            "git_last_commit": "a9f8ff79491fe5a72eaf2a83fbedd61f218540b4",
+            "git_last_date": "180923.000609",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.4",
@@ -531,8 +531,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3bb8fa498f6b3a1a85d52dd507b4fa2bc407b9b4",
-            "git_last_date": "180922.091333",
+            "git_last_commit": "e9865664c0017ffa8b46459a2106a05cbf565a80",
+            "git_last_date": "180923.000619",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
