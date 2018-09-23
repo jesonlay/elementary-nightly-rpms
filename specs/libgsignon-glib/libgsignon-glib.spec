@@ -4,11 +4,13 @@
 Name:           libgsignon-glib
 Summary:        GLib API for the SSO framework
 Version:        2.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2
 
 URL:            https://gitlab.com/accounts-sso/%{name}
 Source0:        %{name}-%{version}.tar.gz
+
+Patch0:         00-disable-werror.patch
 
 BuildRequires:  gettext
 BuildRequires:  gtk-doc
@@ -55,7 +57,7 @@ This package contains the example client.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
@@ -101,6 +103,9 @@ find %{buildroot} -name '*.la' -print -delete
 
 
 %changelog
+* Sun Sep 23 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180910.093037.3e99d296-2
+- Add patch to fix building on fedora 29+.
+
 * Mon Sep 10 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180910.093037.3e99d296-1
 - Update to latest snapshot.
 
