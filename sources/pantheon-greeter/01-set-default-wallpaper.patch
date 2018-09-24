@@ -1,0 +1,12 @@
+diff --git a/data/io.elementary.greeter.conf b/data/io.elementary.greeter.conf
+index 6fc4b0b..d02b42b 100644
+--- a/data/io.elementary.greeter.conf
++++ b/data/io.elementary.greeter.conf
+@@ -1,6 +1,6 @@
+ [greeter]
+ #activate-numlock=true
+-#default-wallpaper=/usr/share/backgrounds/elementaryos-default
++default-wallpaper=/usr/share/backgrounds/elementary/default
+ #high-contrast=false
+ #onscreen-keyboard=false
+ #screensaver-timeout=60

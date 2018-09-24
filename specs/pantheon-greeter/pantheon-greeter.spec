@@ -4,17 +4,19 @@
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        40-io.elementary.greeter.conf
 Source2:        io.elementary.greeter.whitelist
-Source3:        io.elementary.greeter.conf
 
 # Remove gsettings stuff that's no longer there and causes crashes
 Patch0:         00-disable-gsettings.patch
+
+# Set default wallpaper to the default location on fedora
+Patch1:         01-set-default-wallpaper.patch
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
@@ -48,7 +50,7 @@ Requires:       impallari-raleway-fonts
 # Runtime requirement for numlock capture
 Requires:       numlockx
 
-# Runtime requirement for hardcoded elementary's default wallpaper
+# Requirement for default wallpaper
 Requires:       elementary-wallpapers
 
 
@@ -86,10 +88,6 @@ install -pm 0644 %{SOURCE1} %{buildroot}%{_sysconfdir}/lightdm/lightdm.conf.d/
 mkdir -p %{buildroot}%{_sysconfdir}/wingpanel.d
 install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
-# Install settings override for different wallpaper location on fedora
-mkdir -p %{buildroot}%{_sysconfdir}/lightdm
-install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
-
 
 %files -f %{appname}.lang
 %license LICENSE
@@ -106,6 +104,9 @@ install -pm 0644 %{SOURCE3} %{buildroot}%{_sysconfdir}/lightdm/
 
 
 %changelog
+* Mon Sep 24 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180915.001034.bbf2958c-2
+- Merge default wallpaper changes from fedora.
+
 * Sat Sep 15 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180915.001034.bbf2958c-1
 - Update to latest snapshot.
 
