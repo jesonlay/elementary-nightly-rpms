@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3889811e3e88d38a2f53ebb0fa68765a3ba25cd3",
-            "git_last_date": "180924.160439",
+            "git_last_commit": "03d5e3b9bea46db6838e36ad2d5b5072caf3e2c5",
+            "git_last_date": "180924.175000",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8482fbfb82c0771fce67b2b6806a9663a6ac0605",
-            "git_last_date": "180924.124825",
+            "git_last_commit": "db24557ad40a7ddb9c154b9aa39ddbbaa2f8a106",
+            "git_last_date": "180924.170322",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
