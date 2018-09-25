@@ -4,7 +4,7 @@
 Name:           pantheon-greeter
 Summary:        Pantheon's LightDM Login Screen
 Version:        3.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -104,6 +104,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Tue Sep 25 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180925.000144.23f1750a-1
+- Update to latest snapshot.
+
 * Mon Sep 24 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180915.001034.bbf2958c-2
 - Merge default wallpaper changes from fedora.
 

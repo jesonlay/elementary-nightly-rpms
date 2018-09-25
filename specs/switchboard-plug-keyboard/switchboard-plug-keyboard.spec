@@ -55,6 +55,9 @@ same time. Keyboard shortcuts are also part of this plug.
 
 
 %changelog
+* Tue Sep 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180925.000235.133cdd37-1
+- Update to latest snapshot.
+
 * Sat Sep 22 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git180922.001057.4cde04e8-1
 - Update to latest snapshot.
 
