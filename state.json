@@ -289,8 +289,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5dded93ac50e8ea906b69a75508f8d8b9dba4a3f",
-            "git_last_date": "180926.143035",
+            "git_last_commit": "a1727e249c450ba77af4fc9b53f7b041923d6bb7",
+            "git_last_date": "180926.172716",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0.1.1",
