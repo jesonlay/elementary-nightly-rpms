@@ -641,8 +641,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "adc920808d57febb0139a1a98c7b9e8e1e0f6f20",
-            "git_last_date": "180922.001134",
+            "git_last_commit": "8bdec5ec33825ea887e8d1b6c7cc1e3519a505da",
+            "git_last_date": "180927.211928",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",
