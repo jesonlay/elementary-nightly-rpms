@@ -278,8 +278,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fed6f93b870f622b584a91761ba3dca09bca5f5f",
-            "git_last_date": "180925.000323",
+            "git_last_commit": "59bda4540f0d313d61856ef46701bb39bd5206f6",
+            "git_last_date": "180927.045129",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
@@ -289,8 +289,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a1727e249c450ba77af4fc9b53f7b041923d6bb7",
-            "git_last_date": "180926.172716",
+            "git_last_commit": "732ab109ec80df9f9dadd047b4f4e509b0fb4acc",
+            "git_last_date": "180927.045318",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0.1.1",
