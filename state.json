@@ -146,8 +146,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e28edc9d601fae3685f63a61b840ec8e3a70d4c",
-            "git_last_date": "180929.000952",
+            "git_last_commit": "34fc7128ddb95e76494fa11a47cb24c80126188f",
+            "git_last_date": "180929.183805",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d26212ea19718ba5e08886f756d15e76321db77f",
-            "git_last_date": "180928.065334",
+            "git_last_commit": "46141d821543300b568056e1b67a8a47ccad2c62",
+            "git_last_date": "180929.180051",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
