@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a1f267c9f48b440a54fc0243ff0009ad76467788",
-            "git_last_date": "180917.135859",
+            "git_last_commit": "fdc4be9d8cd349f0ce6201f3ee0cfd8ddfce73c0",
+            "git_last_date": "180930.162601",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -278,8 +278,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9c93c14c285d58251db67e96d837204d7a2a1643",
-            "git_last_date": "180928.000739",
+            "git_last_commit": "72c05731b6924a030362bc8463442eb5f1639f6e",
+            "git_last_date": "180930.162400",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.0",
