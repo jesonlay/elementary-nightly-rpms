@@ -51,6 +51,9 @@ them.
 
 
 %changelog
+* Mon Oct 01 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git181001.000851.50426cb5-1
+- Update to latest snapshot.
+
 * Sun Sep 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git180916.180551.93bb86f1-1
 - Update to latest snapshot.
 
