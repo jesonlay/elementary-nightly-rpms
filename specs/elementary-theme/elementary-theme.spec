@@ -93,6 +93,9 @@ This package contains the plank theme.
 
 
 %changelog
+* Mon Oct 01 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git181001.181827.3bf23332-1
+- Update to latest snapshot.
+
 * Fri Sep 28 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.1+git180928.064913.4f8def59-1
 - Update to latest snapshot.
 
