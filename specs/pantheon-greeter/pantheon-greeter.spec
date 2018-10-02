@@ -104,6 +104,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Tue Oct 02 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git181002.115049.25aeaf68-1
+- Update to latest snapshot.
+
 * Tue Sep 25 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git180925.000144.23f1750a-1
 - Update to latest snapshot.
 
