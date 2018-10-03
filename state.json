@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4a4076aee7d133aae480b2e15fba0bbb9a8e40d1",
-            "git_last_date": "180930.000930",
+            "git_last_commit": "558502d379592bef370baf5f246872c84ee930a2",
+            "git_last_date": "181003.221029",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -322,8 +322,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9747bd6173e75a916bb493e7f2b814d1405b1513",
-            "git_last_date": "180917.225434",
+            "git_last_commit": "feffbf8a9345f31cb349d8d4cc545cf87afb83c4",
+            "git_last_date": "181003.222310",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
