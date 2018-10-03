@@ -344,8 +344,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d8ae0885cce5766c2389d2f73880cb1cde9803cf",
-            "git_last_date": "180922.001144",
+            "git_last_commit": "c75795071e059e7c447e7d7bfa69a9e48cda07c0",
+            "git_last_date": "181003.080351",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.0",
@@ -619,8 +619,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ce5e0fa6e97c819e73f7c9ed91b8834298c91d7a",
-            "git_last_date": "181003.001024",
+            "git_last_commit": "f4147134890651bf28bdc87fda3e77b66e9b203d",
+            "git_last_date": "181003.081705",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "0.4.2.1",
