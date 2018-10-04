@@ -36,12 +36,12 @@
         "59": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "544b9982ac3c340161ca7bc5ef1f45cb5409dc7f",
-            "git_last_date": "180907.111228",
+            "git_last_commit": "39022c86ddb5062a10fb0503ad9d81a8e532d527",
+            "git_last_date": "181004.095509",
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.1.0+git%{date}.%{commit}"
         },
         "60": {
@@ -443,8 +443,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0c7c583b754a8b8e2ce385b1d4663562b2aaace4",
-            "git_last_date": "180928.185651",
+            "git_last_commit": "72173d088ecd7cbe9f5a68fa6a121235c4178cb7",
+            "git_last_date": "181004.093311",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.1",
