@@ -4,7 +4,7 @@
 
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
-Version:        2.1.0+git%{date}.%{commit}
+Version:        2.1.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -58,6 +58,9 @@ A datetime indicator for wingpanel.
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181002.114006.67809d96-1
+- Update to version 2.1.1.
+
 * Tue Oct 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git181002.114006.67809d96-1
 - Update to latest snapshot.
 
