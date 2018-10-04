@@ -1,7 +1,7 @@
 Name:           contractor
 Summary:        Desktop-wide extension service
 Version:        0.3.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -52,6 +52,9 @@ mkdir -p %{buildroot}/%{_datadir}/contractor
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.4+git181004.182005.250e4279-1
+- Update to latest snapshot.
+
 * Thu Aug 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.4+git180802.144621.b0549607-2
 - Occasional mass rebuild.
 

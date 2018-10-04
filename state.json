@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d0abc2c0603552a6bbcd67f089cb8659479c9cb9",
-            "git_last_date": "181003.175719",
+            "git_last_commit": "d8be6eb36531e347e777f412f6f0d8af05553371",
+            "git_last_date": "181004.184229",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.1.1",
@@ -487,12 +487,12 @@
         "111": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b054960754b1e47ff2c0a0e637b566f2e631f913",
-            "git_last_date": "180802.144621",
+            "git_last_commit": "250e42792324cc2ca8e3a7bdd1f7071e74560716",
+            "git_last_date": "181004.182005",
             "name": "contractor",
             "package_name": "contractor",
             "package_version": "0.3.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.4+git%{date}.%{commit}"
         },
         "115": {
