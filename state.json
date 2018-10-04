@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "558502d379592bef370baf5f246872c84ee930a2",
-            "git_last_date": "181003.221029",
+            "git_last_commit": "e5b087370c6f8467dfec1ab19048724d19aeeb46",
+            "git_last_date": "181004.000338",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c6bd54427fdbc064d9ef9e16f4b4a0c2482b517",
-            "git_last_date": "181003.144750",
+            "git_last_commit": "d62e662c897e8e79f378fe09715f7df36a61b21d",
+            "git_last_date": "181004.000348",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
