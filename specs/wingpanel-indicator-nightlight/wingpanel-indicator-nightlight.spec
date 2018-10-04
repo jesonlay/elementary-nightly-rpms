@@ -2,7 +2,7 @@
 
 Name:           wingpanel-indicator-nightlight
 Summary:        Night Light Indicator for wingpanel
-Version:        2.0+git%{date}.%{commit}
+Version:        2.0.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2+
 
@@ -50,6 +50,9 @@ A wingpanel indicator for Night Light.
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git181002.162613.c9a8cc53-1
+- Update to version 2.0.1.
+
 * Tue Oct 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0+git181002.162613.c9a8cc53-1
 - Update to latest snapshot.
 
