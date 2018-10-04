@@ -3,7 +3,7 @@
 
 Name:           elementary-calculator
 Summary:        Calculator app designed for elementary
-Version:        0.1.4+git%{date}.%{commit}
+Version:        0.1.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -66,6 +66,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.5+git181002.220528.4bf1cfc8-1
+- Update to version 0.1.5.
+
 * Tue Oct 02 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.4+git181002.220528.4bf1cfc8-1
 - Update to latest snapshot.
 
