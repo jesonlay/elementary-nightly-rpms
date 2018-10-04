@@ -2,7 +2,7 @@
 
 Name:           elementary-capnet-assist
 Summary:        Captive Portal Assistant for elementary
-Version:        0.2.2+git%{date}.%{commit}
+Version:        2.2.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -71,6 +71,9 @@ desktop-file-validate \
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git181003.115905.7205fa27-1
+- Update to version 2.2.1.
+
 * Wed Oct 03 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.2+git181003.115905.7205fa27-1
 - Update to latest snapshot.
 
