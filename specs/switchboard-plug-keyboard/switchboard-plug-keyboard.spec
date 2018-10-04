@@ -1,15 +1,20 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Name:           switchboard-plug-keyboard
+%global plugname    keyboard
+%global plugtype    hardware
+%global appname     io.elementary.switchboard-plug-%{plugname}
+
+Name:           switchboard-plug-%{plugname}
 Summary:        Switchboard Keyboard plug
 Version:        0.3.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
@@ -22,6 +27,7 @@ BuildRequires:  pkgconfig(libgnomekbdui)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -44,17 +50,27 @@ same time. Keyboard shortcuts are also part of this plug.
 %install
 %meson_install
 
-%find_lang keyboard-plug
+%find_lang %{plugname}-plug
 
 
-%files -f keyboard-plug.lang
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
+%files -f %{plugname}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/hardware/libkeyboard.so
+%{_libdir}/switchboard/%{plugtype}/lib%{plugname}.so
+
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git181004.163456.e33d199e-2
+- Adapt to upstream file changes.
+
 * Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.3+git181004.163456.e33d199e-1
 - Update to latest snapshot.
 
