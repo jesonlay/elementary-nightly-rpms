@@ -2,7 +2,7 @@
 
 Name:           wingpanel-indicator-network
 Summary:        Network Indicator for wingpanel
-Version:        2.2.0+git%{date}.%{commit}
+Version:        2.2.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -50,6 +50,9 @@ A network indicator for wingpanel.
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git181003.080351.c7579507-1
+- Update to version 2.2.1.
+
 * Wed Oct 03 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181003.080351.c7579507-1
 - Update to latest snapshot.
 
