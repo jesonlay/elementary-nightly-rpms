@@ -2,7 +2,7 @@
 
 Name:           wingpanel-indicator-sound
 Summary:        Sound Indicator for wingpanel
-Version:        2.1.0+git%{date}.%{commit}
+Version:        2.1.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -55,6 +55,9 @@ A sound indicator for wingpanel.
 
 
 %changelog
+* Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181001.114107.74b7425e-1
+- Update to version 2.1.1.
+
 * Mon Oct 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git181001.114107.74b7425e-1
 - Update to latest snapshot.
 
