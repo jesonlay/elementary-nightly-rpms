@@ -2,7 +2,7 @@
 
 Name:           wingpanel
 Summary:        Stylish top panel
-Version:        2.1.1+git%{date}.%{commit}
+Version:        2.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2+
 
@@ -114,6 +114,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sat Oct 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181004.143415.1bc406e7-1
+- Update to version 2.2.0.
+
 * Thu Oct 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181004.143415.1bc406e7-1
 - Update to latest snapshot.
 
