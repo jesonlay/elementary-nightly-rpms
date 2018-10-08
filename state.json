@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c46ceba79d7c1a3bf2dfc375d3000dfdcdc055d2",
-            "git_last_date": "181008.141119",
+            "git_last_commit": "40905463d1d28323ff5ef5436f23572f2fe66e46",
+            "git_last_date": "181008.160313",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.3",
