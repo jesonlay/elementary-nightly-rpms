@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "45ff238d5ce804e1f205aebec07327a0d4e26058",
-            "git_last_date": "181008.000508",
+            "git_last_commit": "d8a06fd107ca688eb38fd250feee0902ba183e23",
+            "git_last_date": "181008.195924",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.7",
@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d10358ddc1e39f2595a10f072059ed74b2f05d8c",
-            "git_last_date": "181001.072346",
+            "git_last_commit": "44b05c5aa617e8574adc6cddad3ac24c4b90b3c5",
+            "git_last_date": "181008.194756",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -410,8 +410,8 @@
         "101": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a83fc4e19446db3cd5b1c476537328b62943b7e",
-            "git_last_date": "181008.000554",
+            "git_last_commit": "8e7315c1c8e7795596fb51201eca7d15fa8b5a41",
+            "git_last_date": "181008.192137",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "0.1.2",
@@ -630,8 +630,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c467b507f103aaf15b9a7efe5e4a87b6c3e6ac28",
-            "git_last_date": "181007.023705",
+            "git_last_commit": "43939eb092ec21368a1a04402de026e53be779b6",
+            "git_last_date": "181008.192713",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.1",
