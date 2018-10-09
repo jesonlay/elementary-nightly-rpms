@@ -6,7 +6,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        4.2.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -32,6 +32,7 @@ BuildRequires:  pkgconfig(granite) >= 0.5
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
 BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
+BuildRequires:  pkgconfig(libgeoclue-2.0)
 BuildRequires:  pkgconfig(libical)
 BuildRequires:  pkgconfig(libnotify)
 
@@ -116,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.2+git181008.200153.66b0baa8-2
+- Adapt to dependency changes.
+
 * Mon Oct 08 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.2+git181008.200153.66b0baa8-1
 - Update to latest snapshot.
 
