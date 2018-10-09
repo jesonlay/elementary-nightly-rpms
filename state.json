@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ea497fc59536307a8f4744505cf702dfde40a039",
-            "git_last_date": "181009.020446",
+            "git_last_commit": "df727c265d09ae0254256e10681ea172d925af5d",
+            "git_last_date": "181009.092332",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.7",
@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f09384d3d1b3d69ab87253cac4acc877e82a6567",
-            "git_last_date": "181009.015151",
+            "git_last_commit": "1ad28af39f75c364c4b860f642aa2f61086c4f88",
+            "git_last_date": "181009.092204",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -201,8 +201,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b2221b1d951e479548bbd596d45876eb1adf25d",
-            "git_last_date": "181009.061827",
+            "git_last_commit": "e3af859120ce37a1d20faa57e771dbd368fffd18",
+            "git_last_date": "181009.092300",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "0.1.6",
@@ -399,8 +399,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c2d04cd7f57e3041a9655edd9dc01a325ee7c624",
-            "git_last_date": "181008.185415",
+            "git_last_commit": "f5e6fee1eb93c35350986b5e26418762a1cc7dee",
+            "git_last_date": "181009.091942",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "0.1.4",
