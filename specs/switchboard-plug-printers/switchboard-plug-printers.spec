@@ -1,8 +1,11 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Name:           switchboard-plug-printers
+%global plug_name printers
+%global plug_type hardware
+
+Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Printers Plug
-Version:        0.1.3+git%{date}.%{commit}
+Version:        2.1.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -12,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  cups-devel
 
@@ -43,17 +45,20 @@ A printers plug for Switchboard.
 %install
 %meson_install
 
-%find_lang printers-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f printers-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/hardware/libprinters.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
+* Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181009.155540.bc1ffcbb-1
+- Update to version 2.1.4.
+
 * Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git181009.155540.bc1ffcbb-1
 - Update to latest snapshot.
 
