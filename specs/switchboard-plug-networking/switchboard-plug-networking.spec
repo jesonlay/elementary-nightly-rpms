@@ -53,6 +53,9 @@ A switchboard plug for configuring available networks.
 
 
 %changelog
+* Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git181009.000140.7238bdf5-1
+- Update to latest snapshot.
+
 * Sat Oct 06 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.2+git181006.034305.e91281f7-1
 - Update to latest snapshot.
 
