@@ -1,8 +1,11 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-Name:           switchboard-plug-datetime
+%global plug_name datetime
+%global plug_type system
+
+Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Date and Time plug
-Version:        0.1.3+git%{date}.%{commit}
+Version:        2.1.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -12,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -20,6 +22,7 @@ BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -39,17 +42,20 @@ A switchboard plug to configure date and time settings.
 %install
 %meson_install
 
-%find_lang datetime-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f datetime-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/system/libdatetime.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
+* Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181009.170759.e5dc4af4-1
+- Update to version 2.1.4.
+
 * Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git181009.170759.e5dc4af4-1
 - Update to latest snapshot.
 
