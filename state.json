@@ -256,8 +256,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1bc406e7051bf94d90e74cebef949bac910e2622",
-            "git_last_date": "181004.143415",
+            "git_last_commit": "4f1672f614de44f625e3b0883e67405e54fbe2fa",
+            "git_last_date": "181010.181821",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.0",
@@ -553,8 +553,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "55d46275a462e10f4e9209c23a75648a4d9b1745",
-            "git_last_date": "181010.175007",
+            "git_last_commit": "70ea668085ccb20072b982c0569cdddc52c2c8da",
+            "git_last_date": "181010.185241",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.5.3",
@@ -564,8 +564,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a70438994c4ca933e5cee0ef7fd2158294b8d597",
-            "git_last_date": "181010.122011",
+            "git_last_commit": "baf32f3cead907a22257fb41f2e39cf5fb46f3d4",
+            "git_last_date": "181010.182529",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
