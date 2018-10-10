@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1ae1905387268e498b9e3e7965e6bc520c271a45",
-            "git_last_date": "181009.164250",
+            "git_last_commit": "5fa1056e158ed11578959f3f4ab73b2ccc27b38c",
+            "git_last_date": "181010.000224",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "0.2.7",
@@ -91,8 +91,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "95b3eb64d4b81b843e065f2974fe0bff5410e1da",
-            "git_last_date": "181009.232209",
+            "git_last_commit": "cdbf68cba1eba384cfdbc39409b683672f70542c",
+            "git_last_date": "181010.000232",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.4",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0557341a63c8705b4391f0e041bc931ea07d7f73",
-            "git_last_date": "181009.000129",
+            "git_last_commit": "e0132b1ff2a985c06d4601d87f5c5d913ccd6dc0",
+            "git_last_date": "181010.000219",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -553,8 +553,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c5a284979bffd8a571874f4469e19d3cd0f33c54",
-            "git_last_date": "181009.072845",
+            "git_last_commit": "5a2d3986412e7b348722a33927c2333c15acd344",
+            "git_last_date": "181010.000238",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.5.3",
@@ -619,12 +619,12 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "66b0baa8111119ddd52b47e185a4ee2eb4f811c5",
-            "git_last_date": "181008.200153",
+            "git_last_commit": "b417edf0b57d8ecf3f8a78871142ce8c643cf2f6",
+            "git_last_date": "181010.000206",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "4.2.2+git%{date}.%{commit}"
         },
         "127": {

@@ -6,7 +6,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        4.2.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -117,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Oct 10 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.2+git181010.000206.b417edf0-1
+- Update to latest snapshot.
+
 * Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.2+git181008.200153.66b0baa8-2
 - Adapt to dependency changes.
 
