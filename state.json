@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "be2eae57a1af992cfb05e5fa80720951e01e95ee",
-            "git_last_date": "181010.110909",
+            "git_last_commit": "f8ea4e92c093741b1c9b72a86714ffe6b8533b8d",
+            "git_last_date": "181011.182224",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -454,12 +454,12 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "92567324288289e65a84efa85386e0465d39324e",
-            "git_last_date": "180704.211347",
+            "git_last_commit": "ea7dae93157c339baaada96d6d29b8a1c92a5267",
+            "git_last_date": "181011.184858",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "109": {
