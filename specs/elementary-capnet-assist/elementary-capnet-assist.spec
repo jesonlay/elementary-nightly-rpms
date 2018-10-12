@@ -71,6 +71,9 @@ desktop-file-validate \
 
 
 %changelog
+* Fri Oct 12 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git181012.193029.04d79296-1
+- Update to latest snapshot.
+
 * Fri Oct 12 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git181012.174642.69d26bed-1
 - Update to latest snapshot.
 
