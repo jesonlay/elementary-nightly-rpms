@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "876097de736e5a3a19b0715ed07ec290b78ba088",
-            "git_last_date": "181011.231157",
+            "git_last_commit": "a40627eea284e3d690c050897040889beabf2aad",
+            "git_last_date": "181012.210449",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "4.3.1",
@@ -630,8 +630,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1253c81b0389bb7c13bd39d6775cb5e6504e09a6",
-            "git_last_date": "181012.205552",
+            "git_last_commit": "beb5f1899e5d66aadaaaaed705bd1ab324a75178",
+            "git_last_date": "181012.210558",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.1",
