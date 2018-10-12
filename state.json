@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f73bbaefee5b43241de479b0deabcb2aa15e5d63",
-            "git_last_date": "181012.000524",
+            "git_last_commit": "bc5687a7deed42556356a66f9691665f200d4a8c",
+            "git_last_date": "181012.171101",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -619,8 +619,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b3c6997180bc4c77ca16ab09947b8ebf92c41a08",
-            "git_last_date": "181012.000440",
+            "git_last_commit": "2475e7fbf7c0a8e4b1192382680b94f697e4fc2c",
+            "git_last_date": "181012.171018",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.2",
@@ -630,8 +630,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "eabaed1c3a749e7a16bf2656299d17f457e9ef21",
-            "git_last_date": "181012.000450",
+            "git_last_commit": "69d26bed270a26d2cdc45d1624344cf1caa6147c",
+            "git_last_date": "181012.174642",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.1",
