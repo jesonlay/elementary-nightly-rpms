@@ -69,8 +69,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06b77032dd5e74f081927e7eda11fdc325d1a678",
-            "git_last_date": "181012.122341",
+            "git_last_commit": "9563a1ba100cb30ed15b72a9aa7ada84e103277a",
+            "git_last_date": "181012.163143",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.1",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0917cb24ceb5074a342946985d053b351f5c5a4a",
-            "git_last_date": "181012.091810",
+            "git_last_commit": "0d41e63b7cd0a9c649112c0ef4c6c793be43b8dc",
+            "git_last_date": "181012.164208",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
