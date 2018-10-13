@@ -56,6 +56,9 @@ A power indicator for wingpanel.
 
 
 %changelog
+* Sat Oct 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181013.215420.3b889ea2-1
+- Update to latest snapshot.
+
 * Tue Oct 09 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181009.000205.2c871563-1
 - Update to latest snapshot.
 
