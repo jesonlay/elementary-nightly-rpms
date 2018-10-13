@@ -3,18 +3,15 @@
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        0.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
-BuildRequires:  gcc
-BuildRequires:  gcc-c++
 BuildRequires:  gettext
-BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
+BuildRequires:  meson
+BuildRequires:  vala
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
@@ -23,12 +20,13 @@ BuildRequires:  pkgconfig(gsignond)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libaccounts-glib)
-BuildRequires:  pkgconfig(libgsignon-glib)
+BuildRequires:  pkgconfig(libsignon-glib) >= 2.0
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(rest-0.7)
 BuildRequires:  pkgconfig(switchboard-2.0)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 Requires:       hicolor-icon-theme
@@ -66,22 +64,17 @@ Accounts).
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang pantheon-online-accounts
 
 
-%post   -n pantheon-online-accounts-libs -p /sbin/ldconfig
-%postun -n pantheon-online-accounts-libs -p /sbin/ldconfig
+%ldconfig_scriptlets -n pantheon-online-accounts-libs
 
 
 %files -f pantheon-online-accounts.lang
@@ -117,6 +110,10 @@ popd
 
 
 %changelog
+* Sat Oct 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181013.145651.d0792290-2
+- Adapt to CMake -> meson switch.
+- Adapt to upstream dependency changes.
+
 * Sat Oct 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181013.145651.d0792290-1
 - Update to latest snapshot.
 
