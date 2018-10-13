@@ -1,13 +1,12 @@
-%global __provides_exclude_from ^%{_libdir}/io.elementary.music/.*\\.so$
-%undefine _strict_symbol_defs_build
-
 %global srcname music
 %global appname io.elementary.music
+
+%global __provides_exclude_from ^%{_libdir}/%{appname}/.*\\.so$
 
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        0.4.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -28,15 +27,15 @@ BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires:  pkgconfig(gstreamer-tag-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
-BuildRequires:  pkgconfig(json-glib-1.0)
-BuildRequires:  pkgconfig(libaccounts-glib)
+#BuildRequires:  pkgconfig(json-glib-1.0)
+#BuildRequires:  pkgconfig(libaccounts-glib)
 BuildRequires:  pkgconfig(libgda-5.0)
 BuildRequires:  pkgconfig(libgpod-1.0)
-BuildRequires:  pkgconfig(libgsignon-glib)
+#BuildRequires:  pkgconfig(libsignon-glib) >= 2.0
 BuildRequires:  pkgconfig(libnotify)
 BuildRequires:  pkgconfig(libpeas-1.0)
 BuildRequires:  pkgconfig(libpeas-gtk-1.0)
-BuildRequires:  pkgconfig(libsoup-2.4)
+#BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(taglib_c)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
@@ -72,7 +71,7 @@ This package contains files needed for developing with Music.
 
 
 %build
-%meson
+%meson -Dplugins="audioplayer,cdrom,ipod"
 %meson_build
 
 
@@ -105,7 +104,7 @@ appstream-util validate-relax --nonet \
 
 %{_libdir}/%{appname}/
 
-%{_datadir}/accounts/applications/noise-lastfm.application
+#%%{_datadir}/accounts/applications/noise-lastfm.application
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/icons/hicolor/*/apps/multimedia-audio-player.svg
@@ -123,6 +122,10 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Oct 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git181012.192628.c5ef0080-2
+- Adapt to upstream dependency changes.
+- Disable last.fm plugin for now.
+
 * Fri Oct 12 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git181012.192628.c5ef0080-1
 - Update to latest snapshot.
 
