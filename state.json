@@ -355,8 +355,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fe29627f8a907692a06b3ae584ee642dfe4a6e54",
-            "git_last_date": "181009.173947",
+            "git_last_commit": "d4a961705c7b6e8f5f01473b1f23405d1f878169",
+            "git_last_date": "181013.000918",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -564,8 +564,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "baf32f3cead907a22257fb41f2e39cf5fb46f3d4",
-            "git_last_date": "181010.182529",
+            "git_last_commit": "7e4ea3bbf2797f1eb268e386f4a2d1d7502c3be1",
+            "git_last_date": "181013.000855",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "2.4.1",
@@ -608,8 +608,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ab3ca0d21231cda7666bc6b920a6e39c8f2a82ef",
-            "git_last_date": "181012.000547",
+            "git_last_commit": "c11ccae09a8835ac12228485fd95ab3cd9b67153",
+            "git_last_date": "181013.000932",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
@@ -630,8 +630,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "becc6b68c74934ee17362043eea4be5ce05f1615",
-            "git_last_date": "181012.231312",
+            "git_last_commit": "324dcf633fd63effb76a338693b73d13d7bf2624",
+            "git_last_date": "181013.005222",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.1",
