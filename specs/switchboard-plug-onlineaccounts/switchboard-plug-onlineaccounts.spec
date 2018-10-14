@@ -110,6 +110,9 @@ Accounts).
 
 
 %changelog
+* Sun Oct 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181014.021817.6d1316a4-1
+- Update to latest snapshot.
+
 * Sun Oct 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181014.000356.3d887e66-1
 - Update to latest snapshot.
 
