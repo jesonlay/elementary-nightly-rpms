@@ -3,7 +3,7 @@
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        0.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
@@ -110,6 +110,9 @@ Accounts).
 
 
 %changelog
+* Sun Oct 14 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181014.000356.3d887e66-1
+- Update to latest snapshot.
+
 * Sat Oct 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181013.145651.d0792290-2
 - Adapt to CMake -> meson switch.
 - Adapt to upstream dependency changes.
