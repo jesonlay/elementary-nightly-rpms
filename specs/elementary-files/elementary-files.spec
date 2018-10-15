@@ -26,7 +26,7 @@ BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(gio-unix-2.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.29
 BuildRequires:  pkgconfig(gmodule-2.0)
-BuildRequires:  pkgconfig(granite) >= 0.3.0
+BuildRequires:  pkgconfig(granite) >= 5.0
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
 BuildRequires:  pkgconfig(libcanberra) >= 0.30
