@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a17b3599758f855699381f5f96e7672050185084",
-            "git_last_date": "181013.130800",
+            "git_last_commit": "5775978c409fa774ccbd04668898e80f30352516",
+            "git_last_date": "181015.000526",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2dacb1541ead8c611d494d74e485cd9fcdff5837",
-            "git_last_date": "181014.221036",
+            "git_last_commit": "1bb73af348656975d02331aa710407a46282504e",
+            "git_last_date": "181015.000501",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -300,8 +300,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1922c1cbf44b811a57194404fe1726e75fa11059",
-            "git_last_date": "181014.130917",
+            "git_last_commit": "dafc0298f4c182b15b599e51efbcfbd84c8972cd",
+            "git_last_date": "181015.000818",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.4",
@@ -355,8 +355,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9f9808adf69fe916be94d8731bda14befed884ed",
-            "git_last_date": "181014.001046",
+            "git_last_commit": "8e5749ab8bccb513421535bfe73f6fd62d747d15",
+            "git_last_date": "181015.000635",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -531,8 +531,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6b0a6f078920c24d2a0aabb790c97d8f6e975771",
-            "git_last_date": "181014.164535",
+            "git_last_commit": "e83e6d6ae74d2e233f45c51fdbf3088c2f45ebb6",
+            "git_last_date": "181015.000535",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "0.3.5",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4a2d2857a5623e6276dbf8bf416723238cab18d6",
-            "git_last_date": "181014.000322",
+            "git_last_commit": "7579d8407589dbe014b2f8117df6066f3ebd4311",
+            "git_last_date": "181015.000621",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -597,12 +597,12 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c5ef00803ded5dfac6cddb61f46a50dc9757c63e",
-            "git_last_date": "181012.192628",
+            "git_last_commit": "02bb116119ccfa7f3e2e9820c9eba91d860a7552",
+            "git_last_date": "181015.000610",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "0.4.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.4.2+git%{date}.%{commit}"
         },
         "125": {
@@ -641,8 +641,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6bfba4f79493ab1c86c6483d0bdaa8e0e1595e5",
-            "git_last_date": "181009.225707",
+            "git_last_commit": "cfe57d185dcd913bd9b606a8080deab0e1cfbf84",
+            "git_last_date": "181015.000846",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",

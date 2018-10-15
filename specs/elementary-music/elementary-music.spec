@@ -6,7 +6,7 @@
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        0.4.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -122,6 +122,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Oct 15 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git181015.000610.02bb1161-1
+- Update to latest snapshot.
+
 * Sat Oct 13 2018 Fabio Valentini <decathorpe@gmail.com> - 0.4.2+git181012.192628.c5ef0080-2
 - Adapt to upstream dependency changes.
 - Disable last.fm plugin for now.
