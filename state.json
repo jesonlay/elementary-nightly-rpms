@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1bb73af348656975d02331aa710407a46282504e",
-            "git_last_date": "181015.000501",
+            "git_last_commit": "b21bbaf57f54476fbcb5fcc73acabd539b04633b",
+            "git_last_date": "181015.092442",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "0.2.9",
@@ -289,8 +289,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c8eeec39dbb1c280581ff8a87ed0b6306c2627bd",
-            "git_last_date": "181014.000401",
+            "git_last_commit": "7782fc80772d1b082745b7784f1bc2c7468921c3",
+            "git_last_date": "181015.091941",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "0.1.1",
