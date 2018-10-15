@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "78a8cf7f1de1d2fe3efda5355f7396017c3eeb74",
-            "git_last_date": "181015.164524",
+            "git_last_commit": "df76a8dad5ebc08b55a8d3105fdfa82a11454434",
+            "git_last_date": "181015.185214",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7579d8407589dbe014b2f8117df6066f3ebd4311",
-            "git_last_date": "181015.000621",
+            "git_last_commit": "dd9ed448784803b4e714bed22f3628ba758342e1",
+            "git_last_date": "181015.182933",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
