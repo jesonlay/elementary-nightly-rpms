@@ -355,8 +355,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8e5749ab8bccb513421535bfe73f6fd62d747d15",
-            "git_last_date": "181015.000635",
+            "git_last_commit": "fd676ca3c73565741a4ed9db715288efd532ce36",
+            "git_last_date": "181016.000034",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -465,8 +465,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b5979cf1d614365c0175ec3f4ed2531fd1d1d23c",
-            "git_last_date": "181014.000327",
+            "git_last_commit": "f827b7f4e1e8b1c5a2d94b2f4be510c9705ca48f",
+            "git_last_date": "181015.233048",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "0.2.5",
@@ -630,8 +630,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dbed6ab9903f1f72ce3c249f5b6307437006c0b6",
-            "git_last_date": "181015.160541",
+            "git_last_commit": "a8497d1853b45fc4ef170e84b05141041a15691e",
+            "git_last_date": "181015.231938",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.1",
