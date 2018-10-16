@@ -146,8 +146,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "52d53c3f5d7030abfea8eb37959b0a1987b2256b",
-            "git_last_date": "181016.180157",
+            "git_last_commit": "999041c931c2be32e810f5b3d365fa57979d9b5b",
+            "git_last_date": "181016.201106",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "0.1.1",
@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "782ede74369ce614e67e05edec4ca6d738feacdd",
-            "git_last_date": "181016.194947",
+            "git_last_commit": "30fbf0ae1cb8968bd20b54055a6c30db807da5b0",
+            "git_last_date": "181016.200627",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
