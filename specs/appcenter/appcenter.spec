@@ -2,29 +2,30 @@
 
 Name:           appcenter
 Summary:        Software Center from elementary
-Version:        0.2.9+git%{date}.%{commit}
+Version:        3.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-# Upstream elementaryOS blacklist adapted to fedora
+# blacklist from elementaryOS
+# https://github.com/elementary/default-settings/blob/master/appcenter.blacklist
 Source1:        appcenter.blacklist
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
 BuildRequires:  meson
-BuildRequires:  vala >= 0.26
+BuildRequires:  vala
 
 BuildRequires:  appstream-vala
 
 BuildRequires:  pkgconfig(appstream) >= 0.10.0
 BuildRequires:  pkgconfig(gee-0.8)
-BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
-BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(granite) >= 0.5
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(json-glib-1.0)
@@ -42,10 +43,6 @@ AppCenter is a native Gtk+ app store built on AppStream and Packagekit.
 
 %package        gnome-shell-search-provider
 Summary:        Software Center from elementary (gnome-shell search provider)
-%description    gnome-shell-search-provider
-AppCenter is a native Gtk+ app store built on AppStream and Packagekit.
-
-This package contains the gnome-shell search provider.
 
 BuildArch:      noarch
 
@@ -54,13 +51,18 @@ Requires:       gnome-shell
 
 Supplements:    (%{name} and gnome-shell)
 
+%description    gnome-shell-search-provider
+AppCenter is a native Gtk+ app store built on AppStream and Packagekit.
+
+This package contains the gnome-shell search provider.
+
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
-%meson
+%meson -Dpayments=false -Dcurated=false
 %meson_build
 
 
@@ -69,8 +71,13 @@ Supplements:    (%{name} and gnome-shell)
 
 %find_lang %{appname}
 
-# override empty blacklist with one for fedora
+# override empty blacklist
 cp -pav %{SOURCE1} %{buildroot}/%{_sysconfdir}/%{appname}/appcenter.blacklist
+
+# create autostart entry symlink
+mkdir -p %{buildroot}/%{_sysconfdir}/xdg/autostart/
+ln -s %{_datadir}/applications/%{appname}-daemon.desktop \
+    %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
 
 
 %check
@@ -87,6 +94,7 @@ appstream-util validate-relax --nonet \
 
 %dir %{_sysconfdir}/%{appname}
 %config(noreplace) %{_sysconfdir}/%{appname}/appcenter.blacklist
+%config(noreplace) %{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
 
 %{_bindir}/%{appname}
 
@@ -96,12 +104,14 @@ appstream-util validate-relax --nonet \
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
-
 %files gnome-shell-search-provider
 %{_datadir}/gnome-shell/search-providers/%{appname}.search-provider.ini
 
 
 %changelog
+* Tue Oct 16 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0+git181016.103333.21ab46a3-1
+- Update to version 3.0.
+
 * Tue Oct 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.9+git181016.103333.21ab46a3-1
 - Update to latest snapshot.
 
