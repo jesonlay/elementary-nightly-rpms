@@ -245,8 +245,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7af1600c0543069e2101d8c7f6e44148011468fa",
-            "git_last_date": "181013.212046",
+            "git_last_commit": "3aeae765f9ec98efbb0fb14a59fee0d98f224048",
+            "git_last_date": "181016.112658",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.5",
@@ -542,8 +542,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b9526a3af5892530b99c97974b0cb9124ac3eba8",
-            "git_last_date": "181016.093629",
+            "git_last_commit": "4da271a51124e58e5a2697c4cdbdb9cc17616e70",
+            "git_last_date": "181016.111207",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
