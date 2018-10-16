@@ -88,6 +88,9 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %changelog
+* Tue Oct 16 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git181016.051818.6de088de-1
+- Update to latest snapshot.
+
 * Mon Oct 15 2018 Fabio Valentini <decathorpe@gmail.com> - 4.3.1+git181015.202622.d55ff860-1
 - Update to latest snapshot.
 
