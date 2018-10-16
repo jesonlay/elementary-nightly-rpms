@@ -50,6 +50,9 @@ A keyboard indicator for wingpanel.
 
 
 %changelog
+* Tue Oct 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git181016.083138.24e05a4b-1
+- Update to latest snapshot.
+
 * Sat Oct 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.0+git181013.211717.e7fbd1cd-1
 - Update to latest snapshot.
 
