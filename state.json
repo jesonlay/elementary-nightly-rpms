@@ -520,8 +520,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f2748220f8d34030da6e94bb9de4a6b064871796",
-            "git_last_date": "181015.201611",
+            "git_last_commit": "7012636aed21ea0840690c5dd7b8e7063225783f",
+            "git_last_date": "181016.072225",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "0.1.5",
@@ -553,8 +553,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7f043a067121f9f93ca501fe320b00b520dbb641",
-            "git_last_date": "181014.181819",
+            "git_last_commit": "f39dd2034210b577550a05945a10389c8cb140bd",
+            "git_last_date": "181016.073905",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "0.5.3",
