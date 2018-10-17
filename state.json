@@ -355,8 +355,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c4237f5ed26169d96f09bfe27c59fdcd3d4ffdd1",
-            "git_last_date": "181016.001039",
+            "git_last_commit": "55405ce9f0ce8aa5c3c46697f6105700e720ade2",
+            "git_last_date": "181017.024559",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -509,8 +509,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6eee0ac623cdd554ba4efb30d909e7f53d32addc",
-            "git_last_date": "181016.023942",
+            "git_last_commit": "43b63d4bcd98e101c15e03d6b91c58980a1c23c8",
+            "git_last_date": "181017.024446",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.3",
