@@ -245,8 +245,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3aeae765f9ec98efbb0fb14a59fee0d98f224048",
-            "git_last_date": "181016.112658",
+            "git_last_commit": "c5fd1179d0a2c061e1f568bc004500e1b62bae11",
+            "git_last_date": "181017.193616",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.5",
@@ -344,8 +344,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "96cb08b1e182a7070bf8dab3f48c6f496fbb088c",
-            "git_last_date": "181017.185013",
+            "git_last_commit": "044193fcd522c7d52d2c5f18c6b41dc4f23e240d",
+            "git_last_date": "181017.193352",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "0.1.2",
@@ -498,8 +498,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9f67054cac5a96e996f3b56f18541a2a93c50fd1",
-            "git_last_date": "181017.184845",
+            "git_last_commit": "05902e7a6efc066e24c595ae7e61374154069f5b",
+            "git_last_date": "181017.193538",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "0.1.3",
@@ -509,8 +509,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7012636aed21ea0840690c5dd7b8e7063225783f",
-            "git_last_date": "181016.072225",
+            "git_last_commit": "c66df6dc2e5334ad21c1defe2f6324f881cbcfc0",
+            "git_last_date": "181017.191832",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "1.5.1",
