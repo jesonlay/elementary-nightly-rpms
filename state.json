@@ -648,6 +648,17 @@
             "package_version": "2.4.0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.0+git%{date}.%{commit}"
+        },
+        "129": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "7086c825eb36120d708a815d04449e9bcaec9ad1",
+            "git_last_date": "181017.170608",
+            "name": "elementary-mail",
+            "package_name": "elementary-mail",
+            "package_version": "1.0.8",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "1.0.8+git%{date}.%{commit}"
         }
     }
 }
