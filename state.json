@@ -330,17 +330,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
-        "94": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "cbfbca985f29e01fd48f73c546eed7645bb20749",
-            "git_last_date": "181017.182232",
-            "name": "pantheon-greeter",
-            "package_name": "pantheon-greeter",
-            "package_version": "3.2.0",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "3.2.0+git%{date}.%{commit}"
-        },
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
@@ -659,6 +648,17 @@
             "package_version": "1.0.8",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0.8+git%{date}.%{commit}"
+        },
+        "130": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "cbfbca985f29e01fd48f73c546eed7645bb20749",
+            "git_last_date": "181017.182232",
+            "name": "elementary-greeter",
+            "package_name": "elementary-greeter",
+            "package_version": "3.2.0",
+            "rpm_last_release": "2%{?dist}",
+            "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         }
     }
 }
