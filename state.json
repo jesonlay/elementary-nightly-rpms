@@ -245,8 +245,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c5fd1179d0a2c061e1f568bc004500e1b62bae11",
-            "git_last_date": "181017.193616",
+            "git_last_commit": "04c074f5144c385b287c417cdd8acc3ca5680666",
+            "git_last_date": "181018.082753",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.5",
@@ -256,8 +256,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5fa1bd451fba38cbfab2866bef037801a00c6dfa",
-            "git_last_date": "181015.054124",
+            "git_last_commit": "d4d8d0e338d3a0cf63a8b58e662f30ed5c09f3e9",
+            "git_last_date": "181018.083009",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.0",
@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "78a4f166d43f7386cf1ad88c65124225e09c8e5e",
-            "git_last_date": "181018.001035",
+            "git_last_commit": "af665e56958d98067a5f9401a89a00d5d785efb5",
+            "git_last_date": "181018.082935",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.4",
