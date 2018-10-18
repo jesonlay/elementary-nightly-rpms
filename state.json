@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5775978c409fa774ccbd04668898e80f30352516",
-            "git_last_date": "181015.000526",
+            "git_last_commit": "d141e18969449818d231a49624e1281914d2ac89",
+            "git_last_date": "181018.120808",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b3f77c03377d591465a3da8ba47e0a281413b42f",
-            "git_last_date": "181018.070446",
+            "git_last_commit": "8c498e0492b57abea7ad79ab6803428ea0d0309f",
+            "git_last_date": "181018.121014",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "0.2.3",
@@ -608,8 +608,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "02b08441a360017fa6058019715c4be012da6495",
-            "git_last_date": "181018.115900",
+            "git_last_commit": "51b07efa8772c2eb939482a640fc9e2701a80b52",
+            "git_last_date": "181018.120236",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
