@@ -1,36 +1,38 @@
-%global __provides_exclude_from ^%{_libdir}/io.elementary.code/.*\\.so$
-
-%global srcname scratch
+%global srcname code
 %global appname io.elementary.code
 
+%global __provides_exclude_from ^%{_libdir}/%{appname}/.*\\.so$
+
 Name:           elementary-code
-Summary:        The text editor that works
-Version:        2.4.1+git%{date}.%{commit}
+Summary:        Code editor from elementary
+Version:        3.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
-BuildRequires:  vala-devel
 
 BuildRequires:  pkgconfig(editorconfig)
-BuildRequires:  pkgconfig(gee-0.8)
-BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(granite) >= 5.1
-BuildRequires:  pkgconfig(gtksourceview-3.0) >= 3.10
+BuildRequires:  pkgconfig(fontconfig)
+BuildRequires:  pkgconfig(gee-0.8) >= 0.8.5
+BuildRequires:  pkgconfig(gio-unix-2.0) >= 2.20
+BuildRequires:  pkgconfig(glib-2.0) >= 2.30.0
+BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(gtksourceview-3.0) >= 3.24
 BuildRequires:  pkgconfig(gtkspell3-3.0)
-BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
+BuildRequires:  pkgconfig(gtk+-3.0) >= 3.6.0
 BuildRequires:  pkgconfig(libgit2-glib-1.0)
 BuildRequires:  pkgconfig(libpeas-1.0)
 BuildRequires:  pkgconfig(libpeas-gtk-1.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
+BuildRequires:  pkgconfig(libvala-0.42)
+BuildRequires:  pkgconfig(pangoft2)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
@@ -42,48 +44,14 @@ Provides:       scratch-text-editor
 
 
 %description
-Scratch is the text editor that works for you. It auto-saves your files,
-meaning they're always up-to-date. Plus it remembers your tabs so you
-never lose your spot, even in between sessions.
-
-Make it yours. Scratch is written from the ground up to be extensible.
-Keep things super lightweight and simple, or install extensions to turn
-Scratch into a full-blown IDE; it's your choice. And with a handful of
-useful preferences, you can tweak the behavior and interface to your
-liking.
-
-It's elementary. Scratch is made to be the perfect text editor for
-elementary, meaning it closely follows the high standards of design,
-speed, and consistency. It's sexy, but not distracting.
-
-Works with your language. Whether you're crafting code in Vala,
-scripting with PHP, or marking things up in HTML, Scratch has you
-covered. Experience full syntax highlighting with nearly all
-programming, scripting, and markup languages.
-
-Other syntax-highlighted languages: Bash, C, C#, C++. Cmake, CSS,
-.Desktop, Diff, Fortran, Gettext, ini, Java, JavaScript, LaTex, Lua,
-Makefile, Objective C, Pascal, Perl, Python, Ruby, XML.
-
-Additional features include:
-
- * syntax highlighting with gtksourceview-3
- * a find bar to search the words in the files
- * strong integration with Granite framework by elementary-team
- * tab and split documents system
- * lots of others
-
-Scratch needs to be translated. Go to Translations to help us providing
-this software in your language!
+%{summary}.
 
 
 %package        devel
-Summary:        The text editor that works
+Summary:        The text editor that works (development files)
 Requires:       %{name}%{?_isa} = %{version}-%{release}
 %description    devel
-Scratch is the text editor that works for you. It auto-saves your files,
-meaning they're always up-to-date. Plus it remembers your tabs so you
-never lose your spot, even in between sessions.
+%{summary}.
 
 This package contains the development headers.
 
@@ -111,9 +79,6 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%ldconfig_scriptlets
-
-
 %files -f %{appname}.lang
 %doc README.md
 %license COPYING
@@ -130,6 +95,7 @@ appstream-util validate-relax --nonet \
 %{_datadir}/%{appname}/
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
+
 %files devel
 %{_includedir}/codecore.h
 
@@ -141,6 +107,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Oct 18 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0+git181018.000926.ef9cd754-1
+- Update to version 3.0.
+
 * Thu Oct 18 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git181018.000926.ef9cd754-1
 - Update to latest snapshot.
 
