@@ -432,8 +432,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "18a3d5ac33f86be7982baff2e745be3aaf1b9d3f",
-            "git_last_date": "181018.115546",
+            "git_last_commit": "8a5dca3ed9303f8763462d206c3eb5495fcb60c4",
+            "git_last_date": "181019.000725",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.2",
@@ -520,8 +520,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9af8cbdb202ea48c38e58a1c00e3aed841011a0b",
-            "git_last_date": "181018.000943",
+            "git_last_commit": "f883c88ba032f3b3b3ebdfbd35e184fdeee81c44",
+            "git_last_date": "181019.000751",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -652,12 +652,12 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cbfbca985f29e01fd48f73c546eed7645bb20749",
-            "git_last_date": "181017.182232",
+            "git_last_commit": "3d1d73f8563ee552c2bc7c523cbd1ef4da1fa946",
+            "git_last_date": "181019.000736",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
         }
     }
