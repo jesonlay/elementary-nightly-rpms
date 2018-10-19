@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-a11y
 Summary:        Switchboard Accessibility plug
-Version:        0.1.1+git%{date}.%{commit}
+Version:        2.1.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -51,6 +51,9 @@ that allows the user to manage accessibility settings.
 
 
 %changelog
+* Fri Oct 19 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181018.071134.8a5822b3-1
+- Update to version 2.1.2.
+
 * Thu Oct 18 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.1+git181018.071134.8a5822b3-1
 - Update to latest snapshot.
 
