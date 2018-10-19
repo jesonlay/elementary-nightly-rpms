@@ -4,7 +4,7 @@
 
 Name:           switchboard-plug-locale
 Summary:        Adjust Locale settings from Switchboard
-Version:        0.2.3+git%{date}.%{commit}
+Version:        2.4.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 
@@ -65,6 +65,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Oct 19 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.0+git181018.121014.8c498e04-1
+- Update to version 2.4.0.
+
 * Thu Oct 18 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.3+git181018.121014.8c498e04-1
 - Update to latest snapshot.
 
