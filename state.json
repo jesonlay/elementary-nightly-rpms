@@ -58,8 +58,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "05b0c567f19e200a282f2a2a39b7268e40d75f32",
-            "git_last_date": "181016.022556",
+            "git_last_commit": "0b8939ff948120ed0c0746dac598e1cb3b487f6e",
+            "git_last_date": "181019.060935",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0",
@@ -102,8 +102,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1219a1535401d1f34904b16a038ed1f265329991",
-            "git_last_date": "181018.001151",
+            "git_last_commit": "3532ed00be810a6641c59261c334e056c311b991",
+            "git_last_date": "181019.061937",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.3",
@@ -432,8 +432,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8a5dca3ed9303f8763462d206c3eb5495fcb60c4",
-            "git_last_date": "181019.000725",
+            "git_last_commit": "f7cac3bc3fa2da9e72d9e72c3e5b478a2b94c6cd",
+            "git_last_date": "181019.061334",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.2",
