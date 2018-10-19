@@ -355,8 +355,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cee345fadc8a6f6341e8a14dbbc05565e96e7203",
-            "git_last_date": "181018.203253",
+            "git_last_commit": "0f21ea45e8bef6accb5e3dd6090fbc2fa02421d5",
+            "git_last_date": "181019.193553",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "2.1.4",
@@ -608,8 +608,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "49e05eb5c0980f2c4024d0ff3029cc33882617c4",
-            "git_last_date": "181019.165907",
+            "git_last_commit": "f6f9a11db8fda3d1c8773b3178e2c0464111c5cb",
+            "git_last_date": "181019.190448",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
