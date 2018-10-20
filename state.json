@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "85579bb910762ca65366d6fc667c97f9318667e9",
-            "git_last_date": "181016.002001",
+            "git_last_commit": "e0dcf99b41606d7441c7a4054e168e95b1af5825",
+            "git_last_date": "181020.210539",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.1",
@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e32bcad7d0485dd6ad8d51c86dfcb612fdf8b549",
-            "git_last_date": "181018.001032",
+            "git_last_commit": "407a2f7b055b634fb534eac29bfc1c6418653ed5",
+            "git_last_date": "181020.215234",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -531,8 +531,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ca03ca1d885d5c99dc255328678428f57a163160",
-            "git_last_date": "181018.104158",
+            "git_last_commit": "ec647cbbe927ae38e27eb25f86289ad980bcb5ee",
+            "git_last_date": "181020.215033",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
