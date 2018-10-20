@@ -5,7 +5,7 @@
 
 Name:           switchboard-plug-%{plugname}
 Summary:        Switchboard Privacy and Security Plug
-Version:        0.1.3+git%{date}.%{commit}
+Version:        2.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 
@@ -70,6 +70,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Oct 20 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181020.030254.94f88c86-1
+- Update to version 2.2.0.
+
 * Sat Oct 20 2018 Fabio Valentini <decathorpe@gmail.com> - 0.1.3+git181020.030254.94f88c86-1
 - Update to latest snapshot.
 
