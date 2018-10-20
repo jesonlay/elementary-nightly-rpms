@@ -69,8 +69,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d176a3c6b667f4abbf6ce01ced01601bd29a26b4",
-            "git_last_date": "181016.101331",
+            "git_last_commit": "d4dd9bda5c68a54619d24a5522ac0afef81a92b3",
+            "git_last_date": "181020.133815",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "0.3.1",
@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "70bb3081264edc3ffdcf1425855adfd4817e136d",
-            "git_last_date": "181020.031040",
+            "git_last_commit": "cf0f0a5ffab096d3294d1626058c1ca971b93e81",
+            "git_last_date": "181020.132829",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.0",
@@ -201,8 +201,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e03988c7e030a86914aca4c72a3a5f2dc87fae74",
-            "git_last_date": "181018.001123",
+            "git_last_commit": "0cb137cdcde61ae9b2e6a6ba346e2744305765f4",
+            "git_last_date": "181020.133207",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.1.7",
