@@ -58,8 +58,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0b8939ff948120ed0c0746dac598e1cb3b487f6e",
-            "git_last_date": "181019.060935",
+            "git_last_commit": "c2aaf091120fc351917091d37ceb67a21cd6e67e",
+            "git_last_date": "181020.143213",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0",
@@ -355,8 +355,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3e6eb0452e88a824889a3f6d71a17f54e887884b",
-            "git_last_date": "181020.025732",
+            "git_last_commit": "2d7c77ccfad5c35fa033c087b83018ba5038a22b",
+            "git_last_date": "181020.140842",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "2.1.4",
@@ -586,8 +586,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "face49b306546f9c2331de22c4bb6b08aa742798",
-            "git_last_date": "181020.085155",
+            "git_last_commit": "6be15a67a89800ca8ae6eb74b6f13041bf0ff5d7",
+            "git_last_date": "181020.140023",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0",
