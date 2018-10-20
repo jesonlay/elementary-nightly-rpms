@@ -4,7 +4,7 @@
 
 Name:           switchboard-plug-pantheon-shell
 Summary:        Switchboard Pantheon Shell plug
-Version:        0.2.7+git%{date}.%{commit}
+Version:        2.7.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -71,6 +71,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Oct 20 2018 Fabio Valentini <decathorpe@gmail.com> - 2.7.1+git181016.002001.85579bb9-1
+- Update to version 2.7.1.
+
 * Tue Oct 16 2018 Fabio Valentini <decathorpe@gmail.com> - 0.2.7+git181016.002001.85579bb9-1
 - Update to latest snapshot.
 
