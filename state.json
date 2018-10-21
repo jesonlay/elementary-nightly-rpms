@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1fd3edc822b865480b594a649113118609c1e37f",
-            "git_last_date": "181021.000638",
+            "git_last_commit": "234b5a1e17379fa469316f9141a82765dccceea4",
+            "git_last_date": "181021.034330",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0",
@@ -509,8 +509,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ca32ad91cdfffa8cf6a2ea7543264ff1c20a75b7",
-            "git_last_date": "181020.001012",
+            "git_last_commit": "6a3490a31ba20728162b457fb3a70eb57b66af41",
+            "git_last_date": "181021.033447",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "1.5.1",
@@ -531,8 +531,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ec647cbbe927ae38e27eb25f86289ad980bcb5ee",
-            "git_last_date": "181020.215033",
+            "git_last_commit": "12a4a8dd82344a38fc29b4dc389622f7b69884ef",
+            "git_last_date": "181021.034758",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
