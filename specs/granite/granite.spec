@@ -92,6 +92,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sun Oct 21 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.0+git181021.120630.f24f970b-1
+- Update to latest snapshot.
+
 * Sun Oct 21 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.0+git181021.101238.1185f4bd-1
 - Update to latest snapshot.
 
