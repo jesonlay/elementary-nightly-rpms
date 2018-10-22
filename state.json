@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "407a2f7b055b634fb534eac29bfc1c6418653ed5",
-            "git_last_date": "181020.215234",
+            "git_last_commit": "e192b47a8e3308c6f010c1dffd5c832c65f0458e",
+            "git_last_date": "181022.154958",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -487,8 +487,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07d5045c72c7e2b91904fb9b62e00a938807bd82",
-            "git_last_date": "181018.001114",
+            "git_last_commit": "a4bf4d9ae987455d1bbed55923f6f349d86e4ed2",
+            "git_last_date": "181022.153739",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
@@ -542,8 +542,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b5539e001ee0aa9714329b4ff9f6703e63f9cf75",
-            "git_last_date": "181019.184058",
+            "git_last_commit": "cb1c88b8c63e1b1c5e648aafe19504f0a10ab948",
+            "git_last_date": "181022.152758",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.1",
