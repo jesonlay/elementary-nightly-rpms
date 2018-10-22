@@ -366,8 +366,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4ff4d5a7b8531dbc5df478b3d1e67785287a986e",
-            "git_last_date": "181021.132805",
+            "git_last_commit": "086a1f69d6f7b54a824b7933c6ac7ca636c16eea",
+            "git_last_date": "181022.041134",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
