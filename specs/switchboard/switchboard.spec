@@ -13,16 +13,19 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  gcc
 BuildRequires:  gettext
 BuildRequires:  intltool
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
+%if 0%{?fedora}
 BuildRequires:  pkgconfig(unity) >= 4.0.0
+%endif
 
 Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 
@@ -62,7 +65,12 @@ switchboard.
 
 
 %build
-%meson
+%if 0%{?fedora}
+%meson -Dlibunity=true
+%else
+%meson -Dlibunity=false
+%endif
+
 %meson_build
 
 
@@ -87,7 +95,14 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
+%if 0%{?suse_version}
+%post   libs -p /sbin/ldconfig
+%postun libs -p /sbin/ldconfig
+%endif
+
+%if 0%{?fedora}
 %ldconfig_scriptlets libs
+%endif
 
 
 %files -f %{appname}.lang
