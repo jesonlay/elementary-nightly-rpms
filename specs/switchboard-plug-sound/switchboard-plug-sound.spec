@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type system
+%global plug_name sound
+
 Name:           switchboard-plug-sound
 Summary:        Switchboard Sound Plug
 Version:        2.1.2+git%{date}.%{commit}
@@ -12,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -43,14 +45,14 @@ Switchboard Sound Plug.
 %install
 %meson_install
 
-%find_lang sound-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f sound-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/system/libsound.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
