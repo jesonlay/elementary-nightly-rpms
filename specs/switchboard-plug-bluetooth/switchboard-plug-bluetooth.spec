@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type network
+%global plug_name bluetooth
+
 %global appname io.elementary.switchboard-plug-bluetooth
 
 Name:           switchboard-plug-bluetooth
@@ -12,10 +15,10 @@ URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -46,7 +49,7 @@ devices.
 %install
 %meson_install
 
-%find_lang bluetooth-plug
+%find_lang %{plug_name}-plug
 
 
 %check
@@ -54,11 +57,11 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
 
 
-%files -f bluetooth-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/network/libbluetooth.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
