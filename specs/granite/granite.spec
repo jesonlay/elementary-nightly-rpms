@@ -41,16 +41,24 @@ This package contains the development headers.
 
 
 %build
+%if 0%{?suse_version}
+%cmake -DCMAKE_INSTALL_LIBDIR:PATH=%{_lib}
+%endif
+
+%if 0%{?mageia}
+%cmake
+%endif
+
+%if 0%{?fedora}
 mkdir build && pushd build
 %cmake ..
+%endif
+
 %make_build
-popd
 
 
 %install
-pushd build
-%make_install
-popd
+%make_install -C build
 
 %find_lang granite
 
