@@ -311,8 +311,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9198159a9641f3762c74c12bdad4725890fb2945",
-            "git_last_date": "181022.181817",
+            "git_last_commit": "0720b31c09a60ccb2d9f60284ef91b8eb8e17709",
+            "git_last_date": "181022.200323",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.4",
@@ -641,8 +641,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "46fbd0f19bbd29eba3a8285f3caccbe65aa86d60",
-            "git_last_date": "181022.161029",
+            "git_last_commit": "902f87a4051009a0b0101b8d99a3cb59690dd339",
+            "git_last_date": "181022.203003",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
