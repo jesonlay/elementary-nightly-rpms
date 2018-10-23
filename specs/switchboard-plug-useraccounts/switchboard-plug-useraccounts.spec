@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-useraccounts
 Summary:        Switchboard User Accounts Plug
-Version:        2.1.7+git%{date}.%{commit}
+Version:        2.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 
@@ -57,6 +57,9 @@ Switchboard Plug for managing local user accounts.
 
 
 %changelog
+* Tue Oct 23 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181023.091642.cff00361-1
+- Update to version 2.2.0.
+
 * Tue Oct 23 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.7+git181023.091642.cff00361-1
 - Update to latest snapshot.
 
