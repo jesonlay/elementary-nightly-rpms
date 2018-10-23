@@ -124,8 +124,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b28e7b61e8b74d2cb645673b346574865efff45",
-            "git_last_date": "181019.180602",
+            "git_last_commit": "3f1c60c784ff94d5b7fe31ca6c801c794a6e1d96",
+            "git_last_date": "181023.190415",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.1.1",
@@ -630,8 +630,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f9de4d282c851b7219addbd3a07bb6507d95bad1",
-            "git_last_date": "181023.175640",
+            "git_last_commit": "3ab08d35f494dfa4d5823fe93e0ec6b2de608906",
+            "git_last_date": "181023.190410",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",
