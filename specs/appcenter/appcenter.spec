@@ -25,6 +25,10 @@ BuildRequires:  appstream-vala
 BuildRequires:  pkgconfig(unity) >= 4.0.0
 %endif
 
+%if 0%{?mageia}
+BuildRequires:  appstream-vala
+%endif
+
 BuildRequires:  pkgconfig(appstream) >= 0.10.0
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
