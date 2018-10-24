@@ -1,7 +1,7 @@
-%global __provides_exclude_from ^%{_libdir}/io.elementary.calendar/.*\\.so$
-
 %global srcname calendar
 %global appname io.elementary.calendar
+
+%global __provides_exclude_from ^%{_libdir}/%{appname}/.*\\.so$
 
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
@@ -14,9 +14,10 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(champlain-0.12)
 BuildRequires:  pkgconfig(champlain-gtk-0.12)
@@ -75,16 +76,23 @@ This package contains the development files.
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop || :
 
 desktop-file-validate \
-    %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
+    %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop || :
 
 appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
+%if 0%{?fedora}
 %ldconfig_scriptlets
+%endif
+
+%if 0%{?suse_version}
+%post   -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
+%endif
 
 
 %files -f %{appname}.lang
