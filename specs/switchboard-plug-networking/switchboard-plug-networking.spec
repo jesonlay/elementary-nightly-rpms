@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type network
+%global plug_name networking
+
 Name:           switchboard-plug-networking
 Summary:        Switchboard Networking plug
 Version:        2.1.3+git%{date}.%{commit}
@@ -12,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -22,6 +24,9 @@ BuildRequires:  pkgconfig(libnm)
 BuildRequires:  pkgconfig(libnma)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
+
+Requires:       switchboard%{?_isa}
+Requires:       NetworkManager%{?_isa}
 
 Supplements:    (switchboard%{?_isa} and NetworkManager%{?_isa})
 
@@ -42,14 +47,14 @@ A switchboard plug for configuring available networks.
 %install
 %meson_install
 
-%find_lang networking-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f networking-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/network/libnetworking.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
