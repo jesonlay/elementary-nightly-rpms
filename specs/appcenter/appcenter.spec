@@ -15,11 +15,15 @@ Source1:        appcenter.blacklist
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
 
+BuildRequires:  /usr/bin/appstream-util
+
+%if 0%{?fedora}
 BuildRequires:  appstream-vala
+BuildRequires:  pkgconfig(unity) >= 4.0.0
+%endif
 
 BuildRequires:  pkgconfig(appstream) >= 0.10.0
 BuildRequires:  pkgconfig(gee-0.8)
@@ -31,7 +35,6 @@ BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(packagekit-glib2)
-BuildRequires:  pkgconfig(unity) >= 4.0.0
 
 Requires:       PackageKit
 Requires:       hicolor-icon-theme
@@ -62,7 +65,12 @@ This package contains the gnome-shell search provider.
 
 
 %build
+%if 0%{?fedora}
 %meson -Dpayments=false -Dcurated=false
+%else
+%meson -Dpayments=false -Dcurated=false -Dlibunity=false
+%endif
+
 %meson_build
 
 
