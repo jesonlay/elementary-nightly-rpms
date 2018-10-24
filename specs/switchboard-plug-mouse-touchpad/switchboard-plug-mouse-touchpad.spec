@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type hardware
+%global plug_name mouse-touchpad
+
 Name:           switchboard-plug-mouse-touchpad
 Summary:        Switchboard Mouse and Touchpad plug
 Version:        2.1.4+git%{date}.%{commit}
@@ -12,13 +15,13 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -31,9 +34,6 @@ A switchboard plug to configure the behavior of mice and touchpads.
 
 
 %build
-# Unmark some .vala source files as executable (WTF?)
-for i in $(find -executable -name '*.vala'); do chmod a-x $i; done
-
 %meson
 %meson_build
 
@@ -41,14 +41,14 @@ for i in $(find -executable -name '*.vala'); do chmod a-x $i; done
 %install
 %meson_install
 
-%find_lang mouse-touchpad-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f mouse-touchpad-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/hardware/libmouse-touchpad.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
