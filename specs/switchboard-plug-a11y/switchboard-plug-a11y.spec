@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type syste
+%global plug_name accessibility
+
 Name:           switchboard-plug-a11y
 Summary:        Switchboard Accessibility plug
 Version:        2.1.2+git%{date}.%{commit}
@@ -12,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
@@ -20,6 +22,7 @@ BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -40,14 +43,14 @@ that allows the user to manage accessibility settings.
 %install
 %meson_install
 
-%find_lang accessibility-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f accessibility-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/system/libaccessibility.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
