@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e9b08b5a62f2bf8530c749b0fef8960ab8b79aec",
-            "git_last_date": "181023.220819",
+            "git_last_commit": "1aa0f744dc73edfe42e410c7488fe44510b5439d",
+            "git_last_date": "181024.221028",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -377,8 +377,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6227a39f504ba7a59eb3f1aab47f672da3807b90",
-            "git_last_date": "181023.231001",
+            "git_last_commit": "dfc7415d6ad00ce55bd62f2fc483abe6cd305e2e",
+            "git_last_date": "181024.221024",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
