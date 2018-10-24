@@ -190,8 +190,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3bddfa66a35edc2c0e3fa31121c808e5dbc1d996",
-            "git_last_date": "181013.214329",
+            "git_last_commit": "84054b3677b311ea8aa19dfbe6b92501ddd06d1e",
+            "git_last_date": "181024.150550",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.1.1",
@@ -223,8 +223,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d7059982f0fd5f552625eba4ce0d5b6ae4a55193",
-            "git_last_date": "181016.080538",
+            "git_last_commit": "7bc081b8c115c21bb91c68a0f35e195f7dc1f063",
+            "git_last_date": "181024.150554",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
