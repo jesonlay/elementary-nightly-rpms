@@ -1,6 +1,6 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-%global plug_type syste
+%global plug_type system
 %global plug_name accessibility
 
 Name:           switchboard-plug-a11y
