@@ -16,8 +16,9 @@ BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
-BuildRequires:  libappstream-glib
 BuildRequires:  vala >= 0.34.0
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(dbus-glib-1)
 BuildRequires:  pkgconfig(gail-3.0)
@@ -34,8 +35,11 @@ BuildRequires:  pkgconfig(libnotify) >= 0.7.2
 BuildRequires:  pkgconfig(pango) >= 1.1.2
 BuildRequires:  pkgconfig(plank)
 BuildRequires:  pkgconfig(sqlite3)
-BuildRequires:  pkgconfig(unity) >= 4.0.0
 BuildRequires:  pkgconfig(zeitgeist-2.0)
+
+%if 0%{?fedora}
+BuildRequires:  pkgconfig(unity) >= 4.0.0
+%endif
 
 Provides:       pantheon-files
 Obsoletes:      pantheon-files
@@ -59,16 +63,24 @@ This package contains the development headers.
 
 
 %build
+%if 0%{?suse_version}
+%cmake -DCMAKE_INSTALL_LIBDIR:PATH=%{_lib}
+%endif
+
+%if 0%{?mageia}
+%cmake
+%endif
+
+%if 0%{?fedora}
 mkdir build && pushd build
 %cmake ..
+%endif
+
 %make_build
-popd
 
 
 %install
-pushd build
-%make_install
-popd
+%make_install -C build
 
 %find_lang %{appname}
 
@@ -78,11 +90,13 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
+%if 0%{?suse_version}
 %post   -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
+%endif
 
 
 %files -f %{appname}.lang
