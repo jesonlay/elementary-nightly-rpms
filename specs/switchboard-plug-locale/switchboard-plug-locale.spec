@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type personal
+%global plug_name locale
+
 %global appname io.elementary.switchboard.locale
 
 Name:           switchboard-plug-locale
@@ -12,9 +15,10 @@ URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(accountsservice)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
@@ -25,6 +29,7 @@ BuildRequires:  pkgconfig(ibus-1.0)
 BuildRequires:  pkgconfig(polkit-gobject-1)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -44,7 +49,7 @@ Adjust Locale settings from Switchboard.
 %install
 %meson_install
 
-%find_lang locale-plug
+%find_lang %{plug_name}-plug
 
 
 %check
@@ -56,8 +61,8 @@ appstream-util validate-relax --nonet \
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/personal/liblocale-plug.so
-%{_libdir}/switchboard/personal/pantheon-locale/
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}-plug.so
+%{_libdir}/switchboard/%{plug_type}/pantheon-%{plug_name}/
 
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
