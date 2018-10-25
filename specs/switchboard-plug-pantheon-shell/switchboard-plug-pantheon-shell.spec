@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type personal
+%global plug_name pantheon-desktop
+
 %global appname io.elementary.switchboard.pantheon-shell
 
 Name:           switchboard-plug-pantheon-shell
@@ -12,10 +15,10 @@ URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(gexiv2)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
@@ -28,6 +31,7 @@ BuildRequires:  pkgconfig(switchboard-2.0)
 Requires:       contractor
 Requires:       tumbler
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 
@@ -50,7 +54,7 @@ desktop settings such as the panel, app launcher, and window manager.
 %install
 %meson_install
 
-%find_lang pantheon-desktop-plug
+%find_lang %{plug_name}-plug
 
 
 %check
@@ -58,11 +62,11 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%files -f pantheon-desktop-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/personal/libpantheon-desktop.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 %{_libexecdir}/io.elementary.contract.set-wallpaper
 
