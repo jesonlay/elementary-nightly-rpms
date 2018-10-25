@@ -344,8 +344,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3e837fcdcb834b2f97300e86f287be490f7532d5",
-            "git_last_date": "181025.081811",
+            "git_last_commit": "df433c14de499a398583d4969e2e0a6354e2945f",
+            "git_last_date": "181025.120335",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.3",
@@ -366,8 +366,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "09f2dc0aa5bc559f90414c29e16fc2340c1f169e",
-            "git_last_date": "181025.110557",
+            "git_last_commit": "c5b013f0fc9b472b7b721445334b7995c5a0115d",
+            "git_last_date": "181025.120331",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
