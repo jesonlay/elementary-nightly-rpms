@@ -14,9 +14,11 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+BuildRequires:  vala-devel
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(editorconfig)
 BuildRequires:  pkgconfig(fontconfig)
@@ -31,7 +33,6 @@ BuildRequires:  pkgconfig(libgit2-glib-1.0)
 BuildRequires:  pkgconfig(libpeas-1.0)
 BuildRequires:  pkgconfig(libpeas-gtk-1.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
-BuildRequires:  pkgconfig(libvala-0.42)
 BuildRequires:  pkgconfig(pangoft2)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
@@ -59,6 +60,8 @@ This package contains the development headers.
 %prep
 %autosetup
 
+chmod +x meson/post_install.py
+
 
 %build
 %meson
@@ -69,6 +72,12 @@ This package contains the development headers.
 %meson_install
 
 %find_lang %{appname}
+
+
+%if 0%{?suse_version}
+%post   -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
+%endif
 
 
 %check
