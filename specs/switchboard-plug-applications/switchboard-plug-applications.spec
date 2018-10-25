@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type personal
+%global plug_name applications
+
 %global appname io.elementary.switchboard.applications
 
 Name:           switchboard-plug-applications
@@ -12,9 +15,10 @@ URL:            http://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -42,7 +46,7 @@ that allows the user to manage application settings.
 %install
 %meson_install
 
-%find_lang applications-plug
+%find_lang %{plug_name}-plug
 
 
 %check
@@ -54,7 +58,7 @@ appstream-util validate-relax --nonet \
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/personal/libapplications.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
