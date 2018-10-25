@@ -1,10 +1,11 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
-%global plugname    keyboard
-%global plugtype    hardware
-%global appname     io.elementary.switchboard-plug-%{plugname}
+%global plug_name keyboard
+%global plug_type hardware
 
-Name:           switchboard-plug-%{plugname}
+%global appname io.elementary.switchboard-plug-keyboard
+
+Name:           switchboard-plug-keyboard
 Summary:        Switchboard Keyboard plug
 Version:        2.3.4+git%{date}.%{commit}
 Release:        1%{?dist}
@@ -14,10 +15,10 @@ URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -50,7 +51,7 @@ same time. Keyboard shortcuts are also part of this plug.
 %install
 %meson_install
 
-%find_lang %{plugname}-plug
+%find_lang %{plug_name}-plug
 
 
 %check
@@ -58,11 +59,11 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%files -f %{plugname}-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/%{plugtype}/lib%{plugname}.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 %{_datadir}/metainfo/%{appname}.appdata.xml
 
