@@ -256,8 +256,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "654d77bfb067b1ff947688fdd497d9b843f145b0",
-            "git_last_date": "181023.122941",
+            "git_last_commit": "fe26118e7d7b0e94e8983266f92b404b9626c69e",
+            "git_last_date": "181025.101353",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.0",
@@ -564,8 +564,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c5a7ded07eedec88f72f672f5aa43c92a50d4ea8",
-            "git_last_date": "181021.093753",
+            "git_last_commit": "84dfb7de8a12c5ce869a47b40087f6c5ef444c31",
+            "git_last_date": "181025.100457",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.0",
