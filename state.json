@@ -300,8 +300,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2b86b8c68fd0dbd5745a20e1488d09aaafbec5c3",
-            "git_last_date": "181025.082413",
+            "git_last_commit": "612400cdc2206e08a8fd766cc6d570e082ebaf57",
+            "git_last_date": "181025.150946",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.5",
@@ -366,8 +366,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "80545d7dc8af11bca056eda44b60d86cbef89625",
-            "git_last_date": "181025.140919",
+            "git_last_commit": "23dc70cf0af88fa5192f9ce84efc988616d45531",
+            "git_last_date": "181025.150942",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
