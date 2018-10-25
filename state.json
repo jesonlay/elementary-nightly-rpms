@@ -157,8 +157,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "caec04e07440db6d4a50009f1cac44e0fc682f3a",
-            "git_last_date": "181021.120635",
+            "git_last_commit": "e747a58abd15710319f24bb48ae91483dc57d8ad",
+            "git_last_date": "181025.220719",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.4",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a6efc27196703acbb431f90c58fb7cd2c470c55c",
-            "git_last_date": "181025.114428",
+            "git_last_commit": "11df5142f218bd6d04b753cec47cf2dbad797501",
+            "git_last_date": "181025.223555",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0",
