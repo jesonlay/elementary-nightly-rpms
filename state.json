@@ -366,8 +366,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c5b013f0fc9b472b7b721445334b7995c5a0115d",
-            "git_last_date": "181025.120331",
+            "git_last_commit": "80545d7dc8af11bca056eda44b60d86cbef89625",
+            "git_last_date": "181025.140919",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
@@ -487,8 +487,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a4bf4d9ae987455d1bbed55923f6f349d86e4ed2",
-            "git_last_date": "181022.153739",
+            "git_last_commit": "0a24931e05d681d9c1b0c0fa13f968aec6de400d",
+            "git_last_date": "181025.140924",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
