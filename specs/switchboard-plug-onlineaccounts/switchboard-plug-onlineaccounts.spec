@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/(pantheon-online-accounts)|(switchboard)/.*\\.so$
 
+%global plug_type network
+%global plug_name online-accounts
+
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        2.0.1+git%{date}.%{commit}
@@ -71,11 +74,11 @@ Accounts).
 %install
 %meson_install
 
-%find_lang pantheon-online-accounts
+%find_lang %{plug_name}-plug
 
 
-%files -f pantheon-online-accounts.lang
-%{_libdir}/switchboard/network/pantheon-online-accounts/
+%files -f %{plug_name}-plug.lang
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %files -n pantheon-online-accounts
