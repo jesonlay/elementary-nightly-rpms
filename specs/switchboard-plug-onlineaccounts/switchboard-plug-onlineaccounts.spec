@@ -2,7 +2,7 @@
 
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
-Version:        0.3.1+git%{date}.%{commit}
+Version:        2.0.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2
 
@@ -74,9 +74,6 @@ Accounts).
 %find_lang pantheon-online-accounts
 
 
-%ldconfig_scriptlets -n pantheon-online-accounts-libs
-
-
 %files -f pantheon-online-accounts.lang
 %{_libdir}/switchboard/network/pantheon-online-accounts/
 
@@ -110,6 +107,9 @@ Accounts).
 
 
 %changelog
+* Fri Oct 26 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git181025.080926.ede2d8c3-1
+- Update to version 2.0.1.
+
 * Sat Oct 20 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181020.133815.d4dd9bda-1
 - Update to latest snapshot.
 
