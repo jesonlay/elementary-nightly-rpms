@@ -1,4 +1,4 @@
-%global __provides_exclude_from ^%{_libdir}/(pantheon-online-accounts)|(switchboard)/.*\\.so$
+%global __provides_exclude_from ^%{_libdir}/(switchboard)/.*\\.so$
 
 %global plug_type network
 %global plug_name online-accounts
@@ -16,15 +16,16 @@ BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala
 
-BuildRequires:  pkgconfig(gee-0.8)
+#BuildRequires:  pkgconfig(gee-0.8)
+BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
-BuildRequires:  pkgconfig(granite)
-BuildRequires:  pkgconfig(gsignond)
+BuildRequires:  pkgconfig(gobject-2.0)
+BuildRequires:  pkgconfig(granite) >= 0.5
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libaccounts-glib)
 BuildRequires:  pkgconfig(libsignon-glib) >= 2.0
-BuildRequires:  pkgconfig(libsoup-2.4)
+#BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(rest-0.7)
 BuildRequires:  pkgconfig(switchboard-2.0)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
@@ -33,33 +34,19 @@ Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 Requires:       hicolor-icon-theme
-Requires:       pantheon-online-accounts%{?_isa} = %{version}-%{release}
+
+# make sure old sub-packages are removed upon upgrade
+Provides:       pantheon-online-accounts
+Obsoletes:      pantheon-online-accounts
+
+Provides:       pantheon-online-accounts-libs
+Obsoletes:      pantheon-online-accounts-libs
+
+Obsoletes:      pantheon-online-accounts-devel
 
 
 %description
 %{summary}.
-
-
-%package     -n pantheon-online-accounts
-Summary:        Pantheon Online Accounts system (plugins)
-Requires:       pantheon-online-accounts-libs%{?_isa} = %{version}-%{release}
-%description -n pantheon-online-accounts
-This package contains plugins for POA (Pantheon Online Accounts).
-
-
-%package     -n pantheon-online-accounts-libs
-Summary:        Pantheon Online Accounts system
-%description -n pantheon-online-accounts-libs
-This package contains the libraries making up POA (Pantheon Online
-Accounts).
-
-
-%package     -n pantheon-online-accounts-devel
-Summary:        Pantheon Online Accounts system (development headers)
-Requires:       pantheon-online-accounts-libs%{?_isa} = %{version}-%{release}
-%description -n pantheon-online-accounts-devel
-This package contains the development files for POA (Pantheon Online
-Accounts).
 
 
 %prep
@@ -80,33 +67,12 @@ Accounts).
 %files -f %{plug_name}-plug.lang
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
-
-%files -n pantheon-online-accounts
-%{_libdir}/pantheon-online-accounts/*
+%{_libexecdir}/io.elementary.online-accounts.*
 
 %{_datadir}/accounts/providers/*.provider
 %{_datadir}/accounts/services/*.service
 %{_datadir}/dbus-1/services/com.google.code.AccountsSSO.gSingleSignOnUI.service
 %{_datadir}/icons/hicolor/*/apps/*.svg
-
-
-%files -n pantheon-online-accounts-libs
-%license COPYING
-
-%{_libdir}/libpantheon-online-accounts.so.0
-%{_libdir}/libpantheon-online-accounts.so.0.1
-
-%dir %{_libdir}/pantheon-online-accounts
-
-
-%files -n pantheon-online-accounts-devel
-%{_includedir}/pantheon-online-accounts/
-
-%{_libdir}/libpantheon-online-accounts.so
-%{_libdir}/pkgconfig/pantheon-online-accounts.pc
-
-%{_datadir}/vala/vapi/pantheon-online-accounts.deps
-%{_datadir}/vala/vapi/pantheon-online-accounts.vapi
 
 
 %changelog
