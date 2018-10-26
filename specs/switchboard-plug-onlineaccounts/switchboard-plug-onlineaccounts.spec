@@ -16,7 +16,6 @@ BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala
 
-#BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(gobject-2.0)
@@ -25,7 +24,6 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libaccounts-glib)
 BuildRequires:  pkgconfig(libsignon-glib) >= 2.0
-#BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(rest-0.7)
 BuildRequires:  pkgconfig(switchboard-2.0)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
