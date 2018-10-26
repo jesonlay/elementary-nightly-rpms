@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8253ea2ac78f796413b13693156639ff87e586c6",
-            "git_last_date": "181025.195440",
+            "git_last_commit": "5ad65dd60b8b00490be681bedd3d65b9c1416700",
+            "git_last_date": "181026.165836",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0",
@@ -641,8 +641,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "deb577b35e965f6bf276bce17a24e8fe551b7e75",
-            "git_last_date": "181025.091500",
+            "git_last_commit": "a25b7d5534419b3460653290729cc6d586e4f083",
+            "git_last_date": "181026.164252",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
