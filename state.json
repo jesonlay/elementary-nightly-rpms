@@ -531,8 +531,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "eecb8f3e41ceb5f1d3772cd5597737b52eb6d116",
-            "git_last_date": "181026.202149",
+            "git_last_commit": "348def23c63eec7ade6250a87a5e06f5cae9da6f",
+            "git_last_date": "181026.223639",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
@@ -619,8 +619,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ee79716bb0baa4babdfcab6404f081f540ce26b2",
-            "git_last_date": "181025.071138",
+            "git_last_commit": "6708a39c40d988aca6fec799c54169fd9001c7d9",
+            "git_last_date": "181026.221211",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
