@@ -124,8 +124,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1ef863410ac8eca59101f48ea0c5409a2c914104",
-            "git_last_date": "181024.132152",
+            "git_last_commit": "7abe8de9037d35de19b707bed3f7b9acf0ff5cf6",
+            "git_last_date": "181026.010613",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.1.1",
@@ -333,8 +333,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d7d7b149b00b4f0f714779af36dca70e29cfd9df",
-            "git_last_date": "181024.132759",
+            "git_last_commit": "ec85ad69d4e8d6573be5f79bf2f26d7e87cabc56",
+            "git_last_date": "181026.014825",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.1",
@@ -575,8 +575,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "01fac00f67077d94143ae6da7027e125f9089bb6",
-            "git_last_date": "181024.134826",
+            "git_last_commit": "5a60cab2b40478348aabb932bbb94bc633b01bb1",
+            "git_last_date": "181026.011717",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "2.0.1",
