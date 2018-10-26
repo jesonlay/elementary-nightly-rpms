@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "73512cd9038960021c8667ff777cd2db411ef0da",
-            "git_last_date": "181026.000329",
+            "git_last_commit": "3c25b6c95e5ddf3fcc3bdf8bf1014f6d2246e677",
+            "git_last_date": "181026.205513",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0b9f2ad18bb8e7050c3e4294aab5951e7f7da958",
-            "git_last_date": "181026.190944",
+            "git_last_commit": "b406b3293315157c90bd2f931a5fc1fa9a3e718d",
+            "git_last_date": "181026.203152",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0",
@@ -531,8 +531,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a7ba2a944af85ca7217fe0a9ea17f556ac551d1b",
-            "git_last_date": "181025.080714",
+            "git_last_commit": "eecb8f3e41ceb5f1d3772cd5597737b52eb6d116",
+            "git_last_date": "181026.202149",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
