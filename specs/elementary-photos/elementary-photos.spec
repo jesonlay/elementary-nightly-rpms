@@ -1,7 +1,7 @@
-%global __provides_exclude_from ^%{_libdir}/io.elementary.photos/.*\\.so$
-
 %global srcname photos
 %global appname io.elementary.photos
+
+%global __provides_exclude_from ^%{_libdir}/%{appname}/.*\\.so$
 
 Name:           elementary-photos
 Summary:        elementary photo manager and viewer
@@ -14,9 +14,10 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(geocode-glib-1.0)
@@ -74,10 +75,8 @@ desktop-file-validate \
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}-viewer.desktop
 
-# Validation currently fails due to a bug (?) in appstream-glib
-# https://bugzilla.redhat.com/show_bug.cgi?id=1492566
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files -f %{appname}.lang
