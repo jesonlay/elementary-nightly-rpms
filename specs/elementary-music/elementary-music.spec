@@ -16,8 +16,9 @@ BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  meson
-BuildRequires:  libappstream-glib
 BuildRequires:  vala >= 0.26
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(gio-2.0)
@@ -89,8 +90,14 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
+%if 0%{?suse_version}
 %post   -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
+%endif
+
+%if 0%{?fedora}
+%ldconfig_scriptlets
+%endif
 
 
 %files -f %{appname}.lang
