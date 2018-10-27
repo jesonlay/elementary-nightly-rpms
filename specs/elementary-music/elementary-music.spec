@@ -12,12 +12,12 @@ License:        LGPLv2+
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.26
 
+BuildRequires:  /usr/bin/appstreamcli
 BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(gee-0.8)
