@@ -659,6 +659,14 @@
             "package_version": "3.2.0",
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.2.0+git%{date}.%{commit}"
+        },
+        "131": {
+            "name": "elementary-dpms-helper",
+            "package_name": "elementary-dpms-helper",
+            "package_version": "1.0",
+            "rpm_last_release": "2%{?dist}",
+            "rpm_last_version": "1.0",
+            "url_last_version": "1.0"
         }
     }
 }
