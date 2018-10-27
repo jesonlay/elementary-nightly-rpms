@@ -14,9 +14,10 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(camel-1.2)
 BuildRequires:  pkgconfig(folks)
