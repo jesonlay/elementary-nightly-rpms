@@ -146,8 +146,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "de2b0ac2cd1a0271231a5225571c8bb2cc27b876",
-            "git_last_date": "181025.081544",
+            "git_last_commit": "08b3a9eb93e65cbddda98d2d7d5c7e9c2de5689f",
+            "git_last_date": "181027.180217",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.2",
@@ -267,8 +267,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9ca67cd31bc99d6a73eabee1bc3c8fb998955e32",
-            "git_last_date": "181025.165145",
+            "git_last_commit": "ad8e4f40923fb9b65b2c4dd2f004d56afe3b9dad",
+            "git_last_date": "181027.181151",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.1",
