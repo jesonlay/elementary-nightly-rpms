@@ -509,8 +509,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "883c82f1f2f5f4ed21b026fe9058136200ae5665",
-            "git_last_date": "181025.070538",
+            "git_last_commit": "c2fc4a07f2484f4485af611b2a04c81b5fba6bc0",
+            "git_last_date": "181027.003024",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "1.5.1",
@@ -531,8 +531,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "348def23c63eec7ade6250a87a5e06f5cae9da6f",
-            "git_last_date": "181026.223639",
+            "git_last_commit": "45285b93c176d84f580af5ada7286fdfbc36dc62",
+            "git_last_date": "181027.004206",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
