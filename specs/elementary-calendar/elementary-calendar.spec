@@ -37,6 +37,10 @@ BuildRequires:  pkgconfig(libgeoclue-2.0)
 BuildRequires:  pkgconfig(libical)
 BuildRequires:  pkgconfig(libnotify)
 
+%if 0%{?mageia}
+BuildRequires:  libchamplain-vala
+%endif
+
 # elementary-calendar also provides a generic symbolic icon (actions/calendar-go-today)
 Requires:       hicolor-icon-theme
 
