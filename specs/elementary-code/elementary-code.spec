@@ -16,7 +16,6 @@ BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala
-BuildRequires:  vala-devel
 
 BuildRequires:  /usr/bin/appstream-util
 
@@ -37,6 +36,12 @@ BuildRequires:  pkgconfig(pangoft2)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
+
+%if 0%{?suse_version}
+BuildRequires:  pkgconfig(libvala-0.40)
+%else
+BuildRequires:  pkgconfig(libvala-0.42)
+%endif
 
 Requires:       hicolor-icon-theme
 
