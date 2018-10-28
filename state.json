@@ -80,8 +80,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "74b7425e29df98971dce413295f0ccf7dc53c965",
-            "git_last_date": "181001.114107",
+            "git_last_commit": "3990f5dc7b60e94ac78e76ca5ed7a327096dd1e3",
+            "git_last_date": "181028.191101",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.1.1",
@@ -443,8 +443,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ceba896cc77c0eccbaf0aecf95c7b0d662a9a4c0",
-            "git_last_date": "181028.181839",
+            "git_last_commit": "615b5c555af7d0b45862ade66dfabdd0421fc083",
+            "git_last_date": "181028.195639",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
@@ -531,8 +531,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "45285b93c176d84f580af5ada7286fdfbc36dc62",
-            "git_last_date": "181027.004206",
+            "git_last_commit": "a02de557af53cca1cf9c9148cb980dd3ce4e023c",
+            "git_last_date": "181028.192042",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "0.2.5",
