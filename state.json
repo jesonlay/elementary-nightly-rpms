@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fd2ad1d77348472217615bf4ecac290902fcbb3e",
-            "git_last_date": "181028.093451",
+            "git_last_commit": "7f42142f47e252edcef2e1cc7afd81ea321c777e",
+            "git_last_date": "181028.172107",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -443,8 +443,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "78b2fed5d31968d15dfed336037f76400c89aa5c",
-            "git_last_date": "181013.232150",
+            "git_last_commit": "9e6dbde88dd1983cc2b6dcd6802eb98076c02412",
+            "git_last_date": "181028.173629",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
