@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3e532b946bf1d51819fcf6c7d5e499c53bf5771f",
-            "git_last_date": "181026.150250",
+            "git_last_commit": "906895bc10d722047fad549cf392e0098074a9bf",
+            "git_last_date": "181027.232240",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.1",
@@ -388,8 +388,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2eacd90cbc99ea11ea8c4c1d55a340e979670fdc",
-            "git_last_date": "181026.150254",
+            "git_last_commit": "691be233ccf2ca64c140dcb4c29d445d36264181",
+            "git_last_date": "181027.232032",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
@@ -520,8 +520,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a8418d5758166c68e8416fb897b29ef4d88f4a93",
-            "git_last_date": "181026.125333",
+            "git_last_commit": "1492d22c778dc97967f854aad4d32fb855f07e69",
+            "git_last_date": "181027.230431",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
