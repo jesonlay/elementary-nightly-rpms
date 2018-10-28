@@ -113,8 +113,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "30832119d5a9efff1addb82a9d8ed4ae904f7755",
-            "git_last_date": "181026.190736",
+            "git_last_commit": "fd2ad1d77348472217615bf4ecac290902fcbb3e",
+            "git_last_date": "181028.093451",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ea3a6d0c6eb1416ec2abe0d5c31ab5a1ef274130",
-            "git_last_date": "181028.041121",
+            "git_last_commit": "e538537af64d9e2759482cb982e7aebcb889317c",
+            "git_last_date": "181028.095223",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0",
