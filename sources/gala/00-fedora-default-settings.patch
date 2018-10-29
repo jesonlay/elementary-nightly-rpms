@@ -18,7 +18,7 @@ index eba5b25..e47967e 100644
 -			<default>''</default>
 +			<default>'wingpanel --toggle-indicator=app-launcher'</default>
  			<summary>Panel main menu action</summary>
- 			<description>Sets the command to run when the panel-main-menu keybinding is pressed</description>
+ 			<description>Sets the command to run when the panel-main-menu keybinding is pressed.</description>
  		</key>
 @@ -68,7 +68,7 @@
  			<description></description>

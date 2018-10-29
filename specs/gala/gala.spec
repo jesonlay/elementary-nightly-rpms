@@ -3,7 +3,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -125,6 +125,9 @@ desktop-file-validate \
 
 
 %changelog
+* Mon Oct 29 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181025.165313.be16d4a0-2
+- Rebase default settings patch.
+
 * Thu Oct 25 2018 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git181025.165313.be16d4a0-1
 - Update to latest snapshot.
 
