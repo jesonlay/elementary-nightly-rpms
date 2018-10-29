@@ -6,7 +6,7 @@
 Name:           elementary-code
 Summary:        Code editor from elementary
 Version:        3.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -37,6 +37,12 @@ BuildRequires:  pkgconfig(pangoft2)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
+
+%if 0%{?mageia}
+BuildRequires:  pkgconfig(libvala-0.40)
+%else
+BuildRequires:  pkgconfig(libvala-0.42)
+%endif
 
 Requires:       hicolor-icon-theme
 
@@ -116,6 +122,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Oct 29 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0+git181029.000942.a8ece41c-2
+- Adapt to cauldron/tumbleweed/fedora differences.
+
 * Mon Oct 29 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0+git181029.000942.a8ece41c-1
 - Update to latest snapshot.
 
