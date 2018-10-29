@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "906895bc10d722047fad549cf392e0098074a9bf",
-            "git_last_date": "181027.232240",
+            "git_last_commit": "ed1e436a46b2f1a22e94b86eca30659a01631fd0",
+            "git_last_date": "181029.101018",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.1",
@@ -223,8 +223,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7bc081b8c115c21bb91c68a0f35e195f7dc1f063",
-            "git_last_date": "181024.150554",
+            "git_last_commit": "fc7966bf88fbb2ec7aa4df23feed730108448ec0",
+            "git_last_date": "181029.101015",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
@@ -542,8 +542,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "17f163d820e7b051ddbd3ed467787c836101cd57",
-            "git_last_date": "181025.201648",
+            "git_last_commit": "31fc6757754870faf04765927865415e75232a30",
+            "git_last_date": "181029.101022",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.1",
