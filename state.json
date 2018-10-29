@@ -542,8 +542,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "31fc6757754870faf04765927865415e75232a30",
-            "git_last_date": "181029.101022",
+            "git_last_commit": "4bcb65990343b2e1677d9bc673b8c7c86dd40825",
+            "git_last_date": "181029.172707",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.1",
@@ -641,8 +641,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0d10f3512e37fdb10a64e98f8773c8da87146a93",
-            "git_last_date": "181029.093843",
+            "git_last_commit": "1d9b3900ce28f37e84733555f5013faf4dc32b55",
+            "git_last_date": "181029.174833",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
