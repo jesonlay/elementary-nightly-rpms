@@ -10,7 +10,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(dbus-1)
 BuildRequires:  pkgconfig(gee-0.8)
