@@ -40,10 +40,13 @@ An agent for Polkit authorization designed for Pantheon.
 
 
 %check
+%if 0%{?fedora}
 desktop-file-validate \
     %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
+
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
+%endif
 
 
 %files -f %{appname}.lang
