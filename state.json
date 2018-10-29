@@ -432,8 +432,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a846029f6ed2074064e691dd048c05dded70ee77",
-            "git_last_date": "181025.075128",
+            "git_last_commit": "df06e9acf2210df3c7080546dc5b106bd5332fd6",
+            "git_last_date": "181029.000938",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.2",
@@ -443,8 +443,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "615b5c555af7d0b45862ade66dfabdd0421fc083",
-            "git_last_date": "181028.195639",
+            "git_last_commit": "a8dd972df2537abbe94ae47a1d8c7fc6f8cdaf23",
+            "git_last_date": "181029.010044",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
@@ -553,8 +553,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7cda144be0ab0342f6749e3517f694a25fd0d5bf",
-            "git_last_date": "181028.000535",
+            "git_last_commit": "a8ece41c8b8f219677b06e346c3467239fba2baa",
+            "git_last_date": "181029.000942",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
@@ -652,8 +652,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "de2dbace4bdb29b676e03a397a1fe1470f85a6c6",
-            "git_last_date": "181028.000546",
+            "git_last_commit": "a8fcc9c4945a0c649c04cc8bc160fe6e2412a4fe",
+            "git_last_date": "181029.000950",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.2.0",
