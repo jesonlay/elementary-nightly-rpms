@@ -1,9 +1,12 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type network
+%global plug_name sharing
+
 Name:           switchboard-plug-sharing
 Summary:        Switchboard Sharing Plug
 Version:        2.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -12,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -39,17 +41,20 @@ Configure the sharing of system services.
 %install
 %meson_install
 
-%find_lang sharing-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f sharing-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/network/libsharing.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
+* Mon Oct 29 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181028.161144.66693809-2
+- Fix building on tumbleweed and cauldron.
+
 * Sun Oct 28 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181028.161144.66693809-1
 - Update to latest snapshot.
 
