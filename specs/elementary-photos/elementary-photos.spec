@@ -39,8 +39,11 @@ BuildRequires:  pkgconfig(libwebp) >= 0.4.4
 BuildRequires:  pkgconfig(libxml-2.0) >= 2.6.32
 BuildRequires:  pkgconfig(rest-0.7) >= 0.7
 BuildRequires:  pkgconfig(sqlite3) >= 3.5.9
-BuildRequires:  pkgconfig(unity) >= 4.0.0
 BuildRequires:  pkgconfig(webkit2gtk-4.0) >= 2.0.0
+
+%if 0%{?fedora}
+BuildRequires:  pkgconfig(unity) >= 4.0.0
+%endif
 
 Requires:       hicolor-icon-theme
 
@@ -58,7 +61,12 @@ Foundation.
 
 
 %build
-%meson
+%if 0%{?fedora}
+%meson -Dlibunity=true
+%else
+%meson -Dlibunity=false
+%endif
+
 %meson_build
 
 
