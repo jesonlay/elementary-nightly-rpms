@@ -12,10 +12,10 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.24
-BuildRequires:  vala-tools
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
@@ -53,7 +53,7 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
 appstream-util validate-relax --nonet \
-    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files -f %{appname}.lang
