@@ -13,9 +13,10 @@ URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
