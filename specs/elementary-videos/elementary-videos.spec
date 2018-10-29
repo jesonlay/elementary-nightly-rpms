@@ -12,9 +12,10 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(clutter-gst-3.0)
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
@@ -26,7 +27,6 @@ BuildRequires:  pkgconfig(gstreamer-tag-1.0)
 BuildRequires:  pkgconfig(gstreamer-video-1.0)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libnotify)
-
 
 Obsoletes:      audience
 Provides:       audience
