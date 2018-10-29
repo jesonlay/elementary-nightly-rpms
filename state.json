@@ -278,8 +278,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "08255494f386d08131a94ba4a2616085e682ade2",
-            "git_last_date": "181025.071446",
+            "git_last_commit": "8b452055b7a04b4393081823242a141fc819953a",
+            "git_last_date": "181029.020114",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.2",
@@ -443,8 +443,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a8dd972df2537abbe94ae47a1d8c7fc6f8cdaf23",
-            "git_last_date": "181029.010044",
+            "git_last_commit": "3f6bb1ec429aa1522b3a083e252e62420bf08b20",
+            "git_last_date": "181029.013736",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
