@@ -520,8 +520,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c431baad5fb5a0f8f624ca9f0421d8e67383f4a",
-            "git_last_date": "181028.114257",
+            "git_last_commit": "fb31e1b2f5fa9614bb69fc55275c06cc3323dd84",
+            "git_last_date": "181029.154541",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -531,8 +531,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4df5e79e3f6ef29dd870d8885940b18617527fab",
-            "git_last_date": "181029.133634",
+            "git_last_commit": "e5099ad2b3431b86d6f898457d1603e30f6fa8fb",
+            "git_last_date": "181029.150300",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.0",
@@ -652,8 +652,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a8fcc9c4945a0c649c04cc8bc160fe6e2412a4fe",
-            "git_last_date": "181029.000950",
+            "git_last_commit": "270afdfe195b760a860070ccbcb345817155a030",
+            "git_last_date": "181029.152158",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.2.0",
