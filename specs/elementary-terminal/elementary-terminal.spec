@@ -10,12 +10,13 @@ License:        LGPLv3
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.40.0
+
+BuildRequires:  /usr/bin/appstreamcli
+BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(gdk-3.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.39
