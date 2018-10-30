@@ -542,8 +542,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4bcb65990343b2e1677d9bc673b8c7c86dd40825",
-            "git_last_date": "181029.172707",
+            "git_last_commit": "5c184252e86d4841fe176b32dba03b87f2aa47c5",
+            "git_last_date": "181030.104807",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.1",
