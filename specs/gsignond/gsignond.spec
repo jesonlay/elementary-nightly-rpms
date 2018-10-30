@@ -121,7 +121,7 @@ This package contains the default configuration.
 
 %{_libdir}/libgsignond-common.so.1*
 
-%{_libdir}/girepository-1.0/GSignond-1.2.typelib
+%{_libdir}/girepository-1.0/GSignond-1.0.typelib
 
 %dir %{_libdir}/gsignond
 
@@ -130,7 +130,6 @@ This package contains the default configuration.
 %dir %{_libdir}/gsignond/gplugins
 %{_libdir}/gsignond/gplugins/libdigest.so
 %{_libdir}/gsignond/gplugins/libpassword.so
-%{_libdir}/gsignond/gplugins/libssotest.so
 
 %dir %{_libdir}/gsignond/extensions
 %{_libdir}/gsignond/extensions/libextension-desktop.so
@@ -139,10 +138,11 @@ This package contains the default configuration.
 %files devel
 %{_includedir}/gsignond/
 
+%{_libdir}/gsignond/gplugins/libssotest.so
 %{_libdir}/libgsignond-common.so
 %{_libdir}/pkgconfig/gsignond.pc
 
-%{_datadir}/gir-1.0/GSignond-1.2.gir
+%{_datadir}/gir-1.0/GSignond-1.0.gir
 %{_datadir}/vala/vapi/gsignond.deps
 %{_datadir}/vala/vapi/gsignond.vapi
 
