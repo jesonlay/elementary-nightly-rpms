@@ -36,8 +36,8 @@
         "59": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "39022c86ddb5062a10fb0503ad9d81a8e532d527",
-            "git_last_date": "181004.095509",
+            "git_last_commit": "254b810114e70be4adff4aed30697c650641c2d9",
+            "git_last_date": "181030.155731",
             "name": "gsignond",
             "package_name": "gsignond",
             "package_version": "1.1.0",
@@ -520,8 +520,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "de19e1d6d4fc84cfc06ead6c3a81c1367a683477",
-            "git_last_date": "181030.145737",
+            "git_last_commit": "69dfa947c23e49a8e9cd702eafda3c3c17bbc668",
+            "git_last_date": "181030.150858",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
