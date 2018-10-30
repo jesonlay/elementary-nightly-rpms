@@ -4,7 +4,7 @@
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
 Version:        3.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -13,7 +13,7 @@ Source1:        40-%{appname}.conf
 Source2:        %{appname}.whitelist
 
 # Use the right paths for the gnome-settings-daemon components
-Patch0:         00-fix-gsd-paths.patch
+Patch0:         00-remove-broken-gsettings.patch
 
 # Set default wallpaper to the default location on fedora
 Patch1:         01-set-default-wallpaper.patch
@@ -109,6 +109,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Tue Oct 30 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git181029.152158.270afdfe-3
+- More gnome-settings-daemon and gsettings fixes.
+
 * Mon Oct 29 2018 Fabio Valentini <decathorpe@gmail.com> - 3.2.0+git181029.152158.270afdfe-2
 - Try to fix brokenness around g-s-d.
 
