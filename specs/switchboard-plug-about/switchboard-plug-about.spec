@@ -1,5 +1,8 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_type hardware
+%global plug_name about
+
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
 Version:        2.5.1+git%{date}.%{commit}
@@ -15,13 +18,13 @@ Patch0:         00-fedora-logo.patch
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(switchboard-2.0)
 
+Requires:       switchboard%{?_isa}
 Supplements:    switchboard%{?_isa}
 
 Requires:       system-logos
@@ -43,14 +46,14 @@ This switchboard plug shows system information.
 %install
 %meson_install
 
-%find_lang about-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f about-plug.lang
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/switchboard/hardware/libabout.so
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
 
 %changelog
