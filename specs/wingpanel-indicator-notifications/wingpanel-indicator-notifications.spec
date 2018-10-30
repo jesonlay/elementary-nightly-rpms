@@ -2,7 +2,7 @@
 
 Name:           wingpanel-indicator-notifications
 Summary:        Notifications Indicator for wingpanel
-Version:        2.1.1+git%{date}.%{commit}
+Version:        2.1.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv2+
 
@@ -52,6 +52,9 @@ A notifications indicator for wingpanel.
 
 
 %changelog
+* Tue Oct 30 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181029.163836.edc5b84f-1
+- Update to version 2.1.2.
+
 * Mon Oct 29 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181029.163836.edc5b84f-1
 - Update to latest snapshot.
 
