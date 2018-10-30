@@ -656,9 +656,9 @@
             "git_last_date": "181029.152158",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
-            "package_version": "3.2.0",
-            "rpm_last_release": "3%{?dist}",
-            "rpm_last_version": "3.2.0+git%{date}.%{commit}"
+            "package_version": "3.3.0",
+            "rpm_last_release": "1%{?dist}",
+            "rpm_last_version": "3.3.0+git%{date}.%{commit}"
         },
         "131": {
             "name": "elementary-dpms-helper",
