@@ -5,7 +5,7 @@
 
 Name:           gsignond
 Summary:        GSignOn daemon
-Version:        1.1.0+git%{date}.%{commit}
+Version:        1.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -157,6 +157,9 @@ This package contains the default configuration.
 
 
 %changelog
+* Tue Oct 30 2018 Fabio Valentini <decathorpe@gmail.com> - 1.2.0+git181030.155731.254b8101-1
+- Update to version 1.2.0.
+
 * Tue Oct 30 2018 Fabio Valentini <decathorpe@gmail.com> - 1.1.0+git181030.155731.254b8101-1
 - Update to latest snapshot.
 
