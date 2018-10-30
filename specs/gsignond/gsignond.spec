@@ -119,10 +119,9 @@ This package contains the default configuration.
 %files libs
 %license COPYING.LIB
 
-%{_libdir}/libgsignond-common.so.1
-%{_libdir}/libgsignond-common.so.1.1.0
+%{_libdir}/libgsignond-common.so.1*
 
-%{_libdir}/girepository-1.0/GSignond-1.1.typelib
+%{_libdir}/girepository-1.0/GSignond-1.2.typelib
 
 %dir %{_libdir}/gsignond
 
@@ -143,7 +142,7 @@ This package contains the default configuration.
 %{_libdir}/libgsignond-common.so
 %{_libdir}/pkgconfig/gsignond.pc
 
-%{_datadir}/gir-1.0/GSignond-1.1.gir
+%{_datadir}/gir-1.0/GSignond-1.2.gir
 %{_datadir}/vala/vapi/gsignond.deps
 %{_datadir}/vala/vapi/gsignond.vapi
 
