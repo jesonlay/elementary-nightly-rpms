@@ -443,8 +443,8 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4a84cbf939371522bda4755cdae88b1b63075de5",
-            "git_last_date": "181030.003237",
+            "git_last_commit": "dd7915aba1db18d43e062d57f68b5140ec2edea3",
+            "git_last_date": "181030.020457",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
@@ -520,8 +520,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "63b9954fe0dc0b9ee870e982660cfcb997e06f0f",
-            "git_last_date": "181030.014730",
+            "git_last_commit": "1f89b32eb2495ca38919f62cad2e23da5a72c72c",
+            "git_last_date": "181030.025928",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
