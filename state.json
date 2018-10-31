@@ -201,8 +201,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5900f5dd59e94b6c32502a0efb6d8caea1c68cb7",
-            "git_last_date": "181029.080649",
+            "git_last_commit": "a70d2bab2c38860450ecc2fdf385f780c9f33c06",
+            "git_last_date": "181031.015114",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.0",
@@ -388,8 +388,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "691be233ccf2ca64c140dcb4c29d445d36264181",
-            "git_last_date": "181027.232032",
+            "git_last_commit": "407745e00c9d83b844d44f7c2575c7b5a3e1713a",
+            "git_last_date": "181031.015249",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
