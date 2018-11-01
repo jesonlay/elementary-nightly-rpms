@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3b5bab466336069916c04d44fb18c8543507606e",
-            "git_last_date": "181030.000440",
+            "git_last_commit": "816fd1bd858e03483c6463c9f25489b39a6363df",
+            "git_last_date": "181101.205016",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -454,8 +454,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e8adc68bc44bdb275c22df8df6ea7621a386a476",
-            "git_last_date": "181030.080838",
+            "git_last_commit": "9d5fd5110e777d633e053b8027226e4180cc47f4",
+            "git_last_date": "181101.200138",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.1",
@@ -597,8 +597,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b2fedcbf20d81f67b74127a7e6044ea6e2ac164f",
-            "git_last_date": "181024.141252",
+            "git_last_commit": "c64b1e84e1cb957941cc004a8f0f2a46124356a2",
+            "git_last_date": "181101.200144",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
