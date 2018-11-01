@@ -54,6 +54,9 @@ A bluetooth indicator for wingpanel.
 
 
 %changelog
+* Thu Nov 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181101.210208.a21ea7a2-1
+- Update to latest snapshot.
+
 * Thu Nov 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181101.000342.7cafe134-1
 - Update to latest snapshot.
 
