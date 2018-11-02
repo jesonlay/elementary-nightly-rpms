@@ -8,7 +8,7 @@
 Name:           switchboard-plug-applications
 Summary:        Switchboard Applications plug
 Version:        2.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            http://github.com/elementary/%{name}
@@ -64,6 +64,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181026.150247.85b35602-2
+- Occasional mass rebuild.
+
 * Fri Oct 26 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181026.150247.85b35602-1
 - Update to latest snapshot.
 

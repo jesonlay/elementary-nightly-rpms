@@ -1,7 +1,7 @@
 Summary:        Stupidly simple Dock
 Name:           plank
 Version:        0.11.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 URL:            http://launchpad.net/plank
 
@@ -134,6 +134,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git180824.050204.d00856dc-3
+- Occasional mass rebuild.
+
 * Mon Aug 27 2018 Fabio Valentini <decathorpe@gmail.com> - 0.11.4+git180824.050204.d00856dc-2
 - Adapt to upstream file changes.
 

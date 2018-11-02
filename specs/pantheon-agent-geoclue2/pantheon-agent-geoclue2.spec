@@ -3,7 +3,7 @@
 Name:           pantheon-agent-geoclue2
 Summary:        Pantheon Geoclue2 Agent
 Version:        1.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/pantheon-agent-geoclue2
@@ -60,6 +60,9 @@ desktop-file-validate \
 
 
 %changelog
+* Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0+git181025.084027.15d2a7c8-2
+- Occasional mass rebuild.
+
 * Thu Oct 25 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0+git181025.084027.15d2a7c8-1
 - Update to latest snapshot.
 

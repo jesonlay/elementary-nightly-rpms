@@ -6,7 +6,7 @@
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
 Version:        2.5.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -57,6 +57,9 @@ This switchboard plug shows system information.
 
 
 %changelog
+* Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.5.1+git181101.200138.9d5fd511-2
+- Occasional mass rebuild.
+
 * Thu Nov 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.5.1+git181101.200138.9d5fd511-1
 - Update to latest snapshot.
 

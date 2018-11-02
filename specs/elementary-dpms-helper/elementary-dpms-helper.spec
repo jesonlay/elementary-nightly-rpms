@@ -4,7 +4,7 @@
 Name:           elementary-dpms-helper
 Summary:        DPMS helper utiluty for elementary
 Version:        1.0
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{srcname}
@@ -56,6 +56,9 @@ desktop-file-validate \
 
 
 %changelog
+* Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0-3
+- Occasional mass rebuild.
+
 * Thu Oct 25 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0-2
 - Ignore desktop-file-validate errors.
 

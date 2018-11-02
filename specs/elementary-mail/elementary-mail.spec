@@ -6,7 +6,7 @@
 Name:           elementary-mail
 Summary:        Mail app designed for elementary
 Version:        1.0.8+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -73,6 +73,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.8+git181102.083559.20eab2ea-2
+- Occasional mass rebuild.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.8+git181102.083559.20eab2ea-1
 - Update to latest snapshot.
 

@@ -4,7 +4,7 @@
 Name:           libgsignon-glib
 Summary:        GLib API for the SSO framework
 Version:        2.4.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        LGPLv2
 
 URL:            https://gitlab.com/accounts-sso/%{name}
@@ -103,6 +103,9 @@ find %{buildroot} -name '*.la' -print -delete
 
 
 %changelog
+* Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180910.093037.3e99d296-3
+- Occasional mass rebuild.
+
 * Sun Sep 23 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git180910.093037.3e99d296-2
 - Add patch to fix building on fedora 29+.
 
