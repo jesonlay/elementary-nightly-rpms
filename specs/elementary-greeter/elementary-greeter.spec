@@ -38,7 +38,7 @@ BuildRequires:  pkgconfig(liblightdm-gobject-1)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 BuildRequires:  pkgconfig(x11)
 
-%if 0%{?fedora} < 29
+%if 0%{?fedora} < 28
 BuildRequires:  pkgconfig(mutter-clutter-1)
 BuildRequires:  pkgconfig(mutter-cogl-1)
 BuildRequires:  pkgconfig(mutter-cogl-pango-1)
