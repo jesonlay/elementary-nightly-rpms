@@ -35,12 +35,20 @@ BuildRequires:  pkgconfig(gnome-desktop-3.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(liblightdm-gobject-1)
+BuildRequires:  pkgconfig(wingpanel-2.0)
+BuildRequires:  pkgconfig(x11)
+
+%if 0%{?fedora} < 29
+BuildRequires:  pkgconfig(mutter-clutter-1)
+BuildRequires:  pkgconfig(mutter-cogl-1)
+BuildRequires:  pkgconfig(mutter-cogl-pango-1)
+BuildRequires:  pkgconfig(mutter-cogl-path-1)
+%else
 BuildRequires:  pkgconfig(mutter-clutter-2)
 BuildRequires:  pkgconfig(mutter-cogl-2)
 BuildRequires:  pkgconfig(mutter-cogl-pango-2)
 BuildRequires:  pkgconfig(mutter-cogl-path-2)
-BuildRequires:  pkgconfig(wingpanel-2.0)
-BuildRequires:  pkgconfig(x11)
+%endif
 
 Provides:       pantheon-greeter = %{version}-%{release}
 Obsoletes:      pantheon-greeter
