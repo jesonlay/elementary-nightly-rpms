@@ -487,8 +487,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ed31877c36d6f2908bf93f337ace6f9c9110fae7",
-            "git_last_date": "181030.182332",
+            "git_last_commit": "8c44513fe8d6703622d0608cc528831952b9a21a",
+            "git_last_date": "181102.084246",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
@@ -520,8 +520,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f0ea762f3cf619dd4ea39e2aced51706530906c0",
-            "git_last_date": "181102.015604",
+            "git_last_commit": "e7f5cd1d3c21a24d8c96641ba03cf03b3fcefc3f",
+            "git_last_date": "181102.084033",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -641,8 +641,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ace229839f973bfca0b6b46be39957be86a42b98",
-            "git_last_date": "181029.185443",
+            "git_last_commit": "20eab2ea01da9931f87afcca4fc6cf17cb8d66f7",
+            "git_last_date": "181102.083559",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
