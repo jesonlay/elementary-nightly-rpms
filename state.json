@@ -608,12 +608,12 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f3977891f66225ca4758b50fa8db445f77a0364e",
-            "git_last_date": "181030.000427",
+            "git_last_commit": "8b47cc2bfbf27b30b4216db8f532fc46f63ec00f",
+            "git_last_date": "181102.163500",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "4.2.3+git%{date}.%{commit}"
         },
         "127": {
