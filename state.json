@@ -630,12 +630,12 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3c20695f52de48dd053f9e374a0a3a8104479526",
-            "git_last_date": "181101.000332",
+            "git_last_commit": "2507f84b74bf52f9745a2c5c76899d6e0bb988cd",
+            "git_last_date": "181103.091010",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.0+git%{date}.%{commit}"
         },
         "129": {
