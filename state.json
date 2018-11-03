@@ -245,12 +245,12 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f9eed57f8d83ed63446a521de39e80744eb3c9dd",
-            "git_last_date": "181027.135035",
+            "git_last_commit": "29c5a75ad7de92e465a8796d84c63393420e2bcc",
+            "git_last_date": "181103.125200",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.5+git%{date}.%{commit}"
         },
         "84": {
@@ -619,12 +619,12 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d98e7fda4521f8a0e4c87a37c4a097bd39bb6445",
-            "git_last_date": "181030.173058",
+            "git_last_commit": "88377307eab79575a923c8502111ca0ce9c57582",
+            "git_last_date": "181103.130016",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.2+git%{date}.%{commit}"
         },
         "128": {
