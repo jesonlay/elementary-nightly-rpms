@@ -58,12 +58,12 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "15d2a7c898d461a5edc4eb74bd6bf61846d66024",
-            "git_last_date": "181025.084027",
+            "git_last_commit": "8bf08301db28a7b3a7327ff1e86dfaa9268f5bbc",
+            "git_last_date": "181103.131842",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0+git%{date}.%{commit}"
         },
         "63": {
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "02e5587e84e5a5c6e26bcd06f11642664ce4379e",
-            "git_last_date": "181103.000742",
+            "git_last_commit": "f0d8a4879bbdc9d3c110451fd5e675972a94170a",
+            "git_last_date": "181103.131929",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -619,8 +619,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "88377307eab79575a923c8502111ca0ce9c57582",
-            "git_last_date": "181103.130016",
+            "git_last_commit": "3864191829fcd95f7d070ea25474ef0d735a3857",
+            "git_last_date": "181103.131409",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
