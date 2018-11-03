@@ -135,12 +135,12 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "816fd1bd858e03483c6463c9f25489b39a6363df",
-            "git_last_date": "181101.205016",
+            "git_last_commit": "02e5587e84e5a5c6e26bcd06f11642664ce4379e",
+            "git_last_date": "181103.000742",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.1.0+git%{date}.%{commit}"
         },
         "73": {
@@ -179,12 +179,12 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "63838b3abc6ddb1252d1d987914936e75d2a0f7b",
-            "git_last_date": "181030.145649",
+            "git_last_commit": "8a779b4f2adca259824772db96e408d3d4bcc8f3",
+            "git_last_date": "181103.000713",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.0.1+git%{date}.%{commit}"
         },
         "78": {
@@ -432,12 +432,12 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9c05803d83bb11297c7c96b21bbe3a6705fa01ac",
-            "git_last_date": "181101.083812",
+            "git_last_commit": "d07b8bb7be5f5289d55ef5155ebb23d47e76b999",
+            "git_last_date": "181103.000731",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0.2+git%{date}.%{commit}"
         },
         "106": {

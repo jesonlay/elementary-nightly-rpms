@@ -3,7 +3,7 @@
 Name:           appcenter
 Summary:        Software Center from elementary
 Version:        3.0.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -121,6 +121,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Nov 03 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0.1+git181103.000713.8a779b4f-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0.1+git181030.145649.63838b3a-2
 - Occasional mass rebuild.
 
