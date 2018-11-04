@@ -8,7 +8,7 @@
 Name:           switchboard-plug-notifications
 Summary:        Switchboard Notifications plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -68,6 +68,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Nov 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181104.114915.524d8e05-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181029.101015.fc7966bf-2
 - Occasional mass rebuild.
 

@@ -223,12 +223,12 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fc7966bf88fbb2ec7aa4df23feed730108448ec0",
-            "git_last_date": "181029.101015",
+            "git_last_commit": "524d8e059c51e1bcd40c1d571b3ad3865c4154d9",
+            "git_last_date": "181104.114915",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "82": {
@@ -553,8 +553,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "57a8c527e204212c74597f3210639ba428dad1e4",
-            "git_last_date": "181104.105823",
+            "git_last_commit": "1320ddef6bca1b252f4ed98b0894dd2b886b7cd9",
+            "git_last_date": "181104.110941",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
@@ -564,12 +564,12 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "84dfb7de8a12c5ce869a47b40087f6c5ef444c31",
-            "git_last_date": "181025.100457",
+            "git_last_commit": "a8346af451945f2294110a2243b4c056ba5518a6",
+            "git_last_date": "181104.112808",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.6.0+git%{date}.%{commit}"
         },
         "123": {
