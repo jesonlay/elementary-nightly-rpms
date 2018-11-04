@@ -58,8 +58,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8bf08301db28a7b3a7327ff1e86dfaa9268f5bbc",
-            "git_last_date": "181103.131842",
+            "git_last_commit": "add407ddcc7c0ef5e0ee303b2630fd4dba360dd9",
+            "git_last_date": "181104.000321",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0",
@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f0d8a4879bbdc9d3c110451fd5e675972a94170a",
-            "git_last_date": "181103.131929",
+            "git_last_commit": "b30cba9e1c63a9bfe36985ef9f1e408a75512a26",
+            "git_last_date": "181104.000314",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.1.0",
@@ -245,8 +245,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "29c5a75ad7de92e465a8796d84c63393420e2bcc",
-            "git_last_date": "181103.125200",
+            "git_last_commit": "e2f28914f4267e4bde416406209aaac1f39a1e77",
+            "git_last_date": "181104.000325",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.5",
@@ -520,8 +520,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "64bfcf7cb816c0ee3cc5bdf16678ebf31cffc289",
-            "git_last_date": "181103.201657",
+            "git_last_commit": "a7679907ca26b67cabf55cb739dd9f3fefbd250d",
+            "git_last_date": "181104.000306",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -553,12 +553,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1b5ffc5468e61791a88bddf7391d5265be2458f1",
-            "git_last_date": "181101.232404",
+            "git_last_commit": "efe76c8558c926bd00c9abba3499731123810b48",
+            "git_last_date": "181104.000303",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.0+git%{date}.%{commit}"
         },
         "122": {
@@ -619,8 +619,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3864191829fcd95f7d070ea25474ef0d735a3857",
-            "git_last_date": "181103.131409",
+            "git_last_commit": "d68cd7be4be138dd2c248b60b5e06c007d513616",
+            "git_last_date": "181104.000310",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
@@ -652,12 +652,12 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "270afdfe195b760a860070ccbcb345817155a030",
-            "git_last_date": "181029.152158",
+            "git_last_commit": "b4eda4b86a687fae27b2ee6cab3224517ad45542",
+            "git_last_date": "181104.000318",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.3.0+git%{date}.%{commit}"
         },
         "131": {
