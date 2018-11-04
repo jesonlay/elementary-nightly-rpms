@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-sound
 Summary:        Sound Indicator for wingpanel
 Version:        2.1.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -55,6 +55,9 @@ A sound indicator for wingpanel.
 
 
 %changelog
+* Sun Nov 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181104.224345.260a9126-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git181101.000335.6fdf4c67-2
 - Occasional mass rebuild.
 

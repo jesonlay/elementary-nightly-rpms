@@ -80,12 +80,12 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6fdf4c6707b80cadb36696ee189758500a9ce905",
-            "git_last_date": "181101.000335",
+            "git_last_commit": "260a9126afb48440e67dff83c54f37afcc985c28",
+            "git_last_date": "181104.224345",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "67": {
@@ -102,12 +102,12 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "018a525a6d54c323d5e09f16068d76ef9b3fa5b6",
-            "git_last_date": "181101.000345",
+            "git_last_commit": "3d3c9a2cd280caf0533dd3504385330cd0cf0a6f",
+            "git_last_date": "181104.223801",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.3+git%{date}.%{commit}"
         },
         "69": {
@@ -124,12 +124,12 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7abe8de9037d35de19b707bed3f7b9acf0ff5cf6",
-            "git_last_date": "181026.010613",
+            "git_last_commit": "de38fef6873a659f3dc74d1a649b7dbd95087fe0",
+            "git_last_date": "181104.221635",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "72": {
@@ -190,12 +190,12 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "edc5b84f77bdc7a53018fcea32ef2dc037c309b4",
-            "git_last_date": "181029.163836",
+            "git_last_commit": "e7eb3f14310e9e24882b7586d74692ec62f30d92",
+            "git_last_date": "181104.222705",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "79": {
@@ -212,12 +212,12 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a21ea7a2bfb18cf58810fb9a26401efe5adf7dd9",
-            "git_last_date": "181101.210208",
+            "git_last_commit": "384d2ac5c005ca7bbddf0d5f0716d0d6d4d7b86b",
+            "git_last_date": "181104.221528",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.1+git%{date}.%{commit}"
         },
         "81": {
@@ -256,30 +256,30 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8aacbcf59152f481610109a098bcb7d23da705ec",
-            "git_last_date": "181027.170845",
+            "git_last_commit": "b009131aeb7d5accdee550e1d2c8a7af148a6e75",
+            "git_last_date": "181104.224453",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ad8e4f40923fb9b65b2c4dd2f004d56afe3b9dad",
-            "git_last_date": "181027.181151",
+            "git_last_commit": "adbd1947f3a9f028475eaf5d270643614fe6e61e",
+            "git_last_date": "181104.224233",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.1+git%{date}.%{commit}"
         },
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4aa9aaa20b40a594fa2ae89b74c756ed1a9924a7",
-            "git_last_date": "181104.182408",
+            "git_last_commit": "7ace3ffeef76f6193671943edca355e36c7b62fb",
+            "git_last_date": "181104.221305",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.2",
@@ -333,12 +333,12 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ec85ad69d4e8d6573be5f79bf2f26d7e87cabc56",
-            "git_last_date": "181026.014825",
+            "git_last_commit": "397fbc9e9ed5380c28c94ec6c4c71f73a108df22",
+            "git_last_date": "181104.222316",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.1+git%{date}.%{commit}"
         },
         "96": {
@@ -575,12 +575,12 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a60cab2b40478348aabb932bbb94bc633b01bb1",
-            "git_last_date": "181026.011717",
+            "git_last_commit": "5c0ec1d9429ad2db61f496980a09f02d425cd715",
+            "git_last_date": "181104.222516",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "2.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.0.1+git%{date}.%{commit}"
         },
         "124": {
@@ -630,8 +630,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2507f84b74bf52f9745a2c5c76899d6e0bb988cd",
-            "git_last_date": "181103.091010",
+            "git_last_commit": "81f30ed3b7c405635cef09aa6b648e37b4d58dff",
+            "git_last_date": "181104.221058",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",

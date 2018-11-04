@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-nightlight
 Summary:        Night Light Indicator for wingpanel
 Version:        2.0.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ A wingpanel indicator for Night Light.
 
 
 %changelog
+* Sun Nov 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git181104.222516.5c0ec1d9-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git181026.011717.5a60cab2-2
 - Occasional mass rebuild.
 
