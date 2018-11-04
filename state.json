@@ -278,12 +278,12 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e770e65fe69319ca9db772eebc7f7ed12679121",
-            "git_last_date": "181101.000352",
+            "git_last_commit": "4aa9aaa20b40a594fa2ae89b74c756ed1a9924a7",
+            "git_last_date": "181104.182408",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "87": {
@@ -597,12 +597,12 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c64b1e84e1cb957941cc004a8f0f2a46124356a2",
-            "git_last_date": "181101.200144",
+            "git_last_commit": "9c2772db6aa0e756879f51dab6cf1021bac70a52",
+            "git_last_date": "181104.183350",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.6.2+git%{date}.%{commit}"
         },
         "126": {
