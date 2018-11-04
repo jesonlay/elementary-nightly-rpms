@@ -168,12 +168,12 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5f9d19b87f37f2cc3d5031d94f45863bd8f62fee",
-            "git_last_date": "181101.170651",
+            "git_last_commit": "e7ecbbe997bc7a1cd74916c5e746cd9aac90ab5a",
+            "git_last_date": "181104.150343",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.0+git%{date}.%{commit}"
         },
         "77": {
@@ -443,12 +443,12 @@
         "106": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dd7915aba1db18d43e062d57f68b5140ec2edea3",
-            "git_last_date": "181030.020457",
+            "git_last_commit": "3dea13843e77ededede43b8a25b5aa207fc10998",
+            "git_last_date": "181104.154336",
             "name": "vocal",
             "package_name": "vocal",
             "package_version": "2.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "109": {
@@ -487,12 +487,12 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8c44513fe8d6703622d0608cc528831952b9a21a",
-            "git_last_date": "181102.084246",
+            "git_last_commit": "c58057594d99baab83a8d5dc4ee8e12888c3537f",
+            "git_last_date": "181104.151215",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "116": {
