@@ -531,12 +531,12 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "71560a8a23e5bb058823ea5cbf6bf1f4ac937549",
-            "git_last_date": "181031.092956",
+            "git_last_commit": "7c3fd7ca93fdc1f278ad4790d0a52e75102a34b0",
+            "git_last_date": "181104.190926",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.6.1+git%{date}.%{commit}"
         },
         "120": {
@@ -586,12 +586,12 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a842c79f2a55487a3cf5da5515e00ac0c3b2b57",
-            "git_last_date": "181029.194612",
+            "git_last_commit": "59ae469e4bb5627e0b7d78cb1337d2623a31e74a",
+            "git_last_date": "181104.191936",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.0+git%{date}.%{commit}"
         },
         "125": {
@@ -652,8 +652,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b4eda4b86a687fae27b2ee6cab3224517ad45542",
-            "git_last_date": "181104.000318",
+            "git_last_commit": "3b98a9f9f4192af8298010e8b87c6aff01309e90",
+            "git_last_date": "181104.193444",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.0",
