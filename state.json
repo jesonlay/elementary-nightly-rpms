@@ -355,12 +355,12 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "85b35602099c308879b562c774d18cb68e04fc2f",
-            "git_last_date": "181026.150247",
+            "git_last_commit": "cc9ed550dbef127bc21f6d84080c4610bf4e484e",
+            "git_last_date": "181104.132152",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "2.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.4+git%{date}.%{commit}"
         },
         "98": {
