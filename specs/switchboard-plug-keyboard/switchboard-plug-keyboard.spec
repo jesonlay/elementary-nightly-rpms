@@ -8,7 +8,7 @@
 Name:           switchboard-plug-keyboard
 Summary:        Switchboard Keyboard plug
 Version:        2.3.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -69,6 +69,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Nov 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.4+git181104.143818.c33675e9-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.4+git181102.040450.8ddbb5cd-2
 - Occasional mass rebuild.
 

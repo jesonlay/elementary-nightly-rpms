@@ -6,7 +6,7 @@
 Name:           switchboard-plug-a11y
 Summary:        Switchboard Accessibility plug
 Version:        2.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -54,6 +54,9 @@ that allows the user to manage accessibility settings.
 
 
 %changelog
+* Sun Nov 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181104.145706.70166bd9-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181027.180217.08b3a9eb-2
 - Occasional mass rebuild.
 

@@ -146,12 +146,12 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "08b3a9eb93e65cbddda98d2d7d5c7e9c2de5689f",
-            "git_last_date": "181027.180217",
+            "git_last_commit": "70166bd939af5f1ac71b6a30fa0b9b2d605368c1",
+            "git_last_date": "181104.145706",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "74": {
@@ -311,12 +311,12 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a2734c97fd81710ebb93935a1fff3bde1a45063b",
-            "git_last_date": "181101.193650",
+            "git_last_commit": "2d85e95c2a73cfaaeee5b5276ae0c37d3e6e93c9",
+            "git_last_date": "181104.150038",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.4+git%{date}.%{commit}"
         },
         "93": {
@@ -366,12 +366,12 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8ddbb5cd68151ea67bdbb71dd36807e7ffa2015f",
-            "git_last_date": "181102.040450",
+            "git_last_commit": "c33675e90d2b49e79ac3ee9fca66df74eca02472",
+            "git_last_date": "181104.143818",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.4+git%{date}.%{commit}"
         },
         "99": {
