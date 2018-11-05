@@ -25,12 +25,12 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ed1e436a46b2f1a22e94b86eca30659a01631fd0",
-            "git_last_date": "181029.101018",
+            "git_last_commit": "6bd6be2c3979484cb5f2221783a19d36f8dd46a0",
+            "git_last_date": "181105.223459",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.7.1+git%{date}.%{commit}"
         },
         "59": {
@@ -157,12 +157,12 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f2d8db33d6d7693aaa50eff3ac3a970efd964d14",
-            "git_last_date": "181101.000339",
+            "git_last_commit": "b4c8e646e0ea554239269958954de85dad2b9286",
+            "git_last_date": "181105.224738",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.4+git%{date}.%{commit}"
         },
         "75": {
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2a70508622faf23d327c7cf1ca14c9ca7eb0ee4a",
-            "git_last_date": "181105.204836",
+            "git_last_commit": "6d3fa3554b613e3b2f5a5bcbf5922b8f084fe1ef",
+            "git_last_date": "181105.223002",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -498,12 +498,12 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7d051a9167dbdb287d2867acc5f91707e23dae21",
-            "git_last_date": "181102.130057",
+            "git_last_commit": "246eafa6749572922f1f3a4bca0dfa84a281d5b4",
+            "git_last_date": "181105.221518",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "117": {
@@ -652,8 +652,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3b98a9f9f4192af8298010e8b87c6aff01309e90",
-            "git_last_date": "181104.193444",
+            "git_last_commit": "f78134378d485adf28bc5fe522846413b566ca55",
+            "git_last_date": "181105.220552",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.0",

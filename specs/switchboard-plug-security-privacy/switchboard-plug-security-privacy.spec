@@ -6,7 +6,7 @@
 Name:           switchboard-plug-%{plugname}
 Summary:        Switchboard Privacy and Security Plug
 Version:        2.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -71,6 +71,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Nov 05 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181105.221518.246eafa6-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181102.130057.7d051a91-2
 - Occasional mass rebuild.
 
