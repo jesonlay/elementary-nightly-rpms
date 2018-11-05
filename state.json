@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8cc0349820b512a8aca104aff26c6c94ef7ae576",
-            "git_last_date": "181102.180606",
+            "git_last_commit": "199e333e09eef133c7f82b7cc38c75f8436a4031",
+            "git_last_date": "181105.203238",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.2.0",
@@ -69,8 +69,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "003d667359c233426fcc6027580bb4d0a0f1dec4",
-            "git_last_date": "181105.182101",
+            "git_last_commit": "0751c294840298cc077a01142a607eeaaf84605b",
+            "git_last_date": "181105.201921",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -168,8 +168,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e7ecbbe997bc7a1cd74916c5e746cd9aac90ab5a",
-            "git_last_date": "181104.150343",
+            "git_last_commit": "41fe7c6b173bfb0507c60021fd1eeddd78b60fef",
+            "git_last_date": "181105.203913",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.0",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cddf59d5dc05be6990fa0c4dc3d7c5dc1fea4d41",
-            "git_last_date": "181105.185620",
+            "git_last_commit": "2a70508622faf23d327c7cf1ca14c9ca7eb0ee4a",
+            "git_last_date": "181105.204836",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -641,12 +641,12 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "20eab2ea01da9931f87afcca4fc6cf17cb8d66f7",
-            "git_last_date": "181102.083559",
+            "git_last_commit": "004a725f15bc27d15778812e0cbf0ca64059f6cb",
+            "git_last_date": "181105.204856",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0.8+git%{date}.%{commit}"
         },
         "130": {
