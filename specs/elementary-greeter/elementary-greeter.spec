@@ -4,16 +4,13 @@
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
 Version:        3.3.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 Source1:        40-%{appname}.conf
 Source2:        %{appname}.whitelist
-
-# Use the right paths for the gnome-settings-daemon components
-Patch0:         00-remove-broken-gsettings.patch
 
 # Set default wallpaper to the default location on fedora
 Patch1:         01-set-default-wallpaper.patch
@@ -84,7 +81,7 @@ The elementary Greeter is a styled Login Screen for LightDM.
 
 
 %build
-%meson
+%meson -Dubuntu-patched-gsd=true
 %meson_build
 
 
@@ -117,6 +114,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 3.3.0+git181106.180405.767bbcdc-2
+- Remove upstreamed patch.
+
 * Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 3.3.0+git181106.180405.767bbcdc-1
 - Update to latest snapshot.
 
