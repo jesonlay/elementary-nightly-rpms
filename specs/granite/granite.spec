@@ -1,6 +1,6 @@
 Name:           granite
 Summary:        elementary Development Library
-Version:        5.1.0+git%{date}.%{commit}
+Version:        5.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3+
 
@@ -100,6 +100,9 @@ desktop-file-validate \
 
 
 %changelog
+* Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 5.2.0+git181104.000314.b30cba9e-1
+- Update to version 5.2.0.
+
 * Sun Nov 04 2018 Fabio Valentini <decathorpe@gmail.com> - 5.1.0+git181104.000314.b30cba9e-1
 - Update to latest snapshot.
 
