@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9417404a00822ac822e648276c4029bfc0e7978c",
-            "git_last_date": "181106.173303",
+            "git_last_commit": "b4c9429f1d4c275d34be81993b8ad912669fb07e",
+            "git_last_date": "181106.184953",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.0",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4857328ea04a4e6efb4a0c5c15996657b70507a6",
-            "git_last_date": "181106.175219",
+            "git_last_commit": "145c86caff6414ba055c31ff19afcd588ed33dcd",
+            "git_last_date": "181106.182025",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -652,8 +652,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f78134378d485adf28bc5fe522846413b566ca55",
-            "git_last_date": "181105.220552",
+            "git_last_commit": "767bbcdce0f3a3189003ed2a6b4b2a6b16b2c9ba",
+            "git_last_date": "181106.180405",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.0",
