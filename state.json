@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "145c86caff6414ba055c31ff19afcd588ed33dcd",
-            "git_last_date": "181106.182025",
+            "git_last_commit": "db568996e21d2fbd20bcdf53a669b1a8083683a7",
+            "git_last_date": "181106.201842",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -586,8 +586,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ce308a2a8472a7d135c9929487ab24167fa9f80d",
-            "git_last_date": "181106.165318",
+            "git_last_commit": "39fac62dd0859c52a14c0615315754e7b357d20d",
+            "git_last_date": "181106.204745",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0",
