@@ -4,23 +4,22 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        5.3.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
+BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.40.0
 
-BuildRequires:  /usr/bin/appstreamcli
-BuildRequires:  /usr/bin/appstream-util
-
 BuildRequires:  pkgconfig(gdk-3.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.39
-BuildRequires:  pkgconfig(granite) >= 0.3.0
+BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.9.10
 BuildRequires:  pkgconfig(libnotify)
@@ -98,6 +97,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 5.3.2+git181105.211508.cad64da0-2
+- Require granite 5.2.0.
+
 * Mon Nov 05 2018 Fabio Valentini <decathorpe@gmail.com> - 5.3.2+git181105.211508.cad64da0-1
 - Update to latest snapshot.
 
