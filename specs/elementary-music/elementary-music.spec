@@ -6,24 +6,23 @@
 Name:           elementary-music
 Summary:        Music player and library from elementary
 Version:        5.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
+BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.26
-
-BuildRequires:  /usr/bin/appstreamcli
-BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.39
-BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(gstreamer-1.0)
 BuildRequires:  pkgconfig(gstreamer-pbutils-1.0)
 BuildRequires:  pkgconfig(gstreamer-tag-1.0)
@@ -90,16 +89,6 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%if 0%{?suse_version}
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
-%endif
-
-%if 0%{?fedora}
-%ldconfig_scriptlets
-%endif
-
-
 %files -f %{appname}.lang
 %doc README.md
 %license COPYING
@@ -129,6 +118,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 5.0+git181106.130950.9e223e82-2
+- Require granite >= 5.2.0.
+
 * Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 5.0+git181106.130950.9e223e82-1
 - Update to latest snapshot.
 

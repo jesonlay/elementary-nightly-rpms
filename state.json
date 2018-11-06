@@ -591,7 +591,7 @@
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "5.0+git%{date}.%{commit}"
         },
         "125": {
