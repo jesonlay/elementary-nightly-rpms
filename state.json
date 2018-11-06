@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5233b186006d213943de9fa1c1bf33003f1e946b",
-            "git_last_date": "181106.131019",
+            "git_last_commit": "0a4c28c6257ef08504d807d82e557b25f34a55ef",
+            "git_last_date": "181106.165406",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -553,8 +553,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a12b4f23ec3d8557aacb0f52dd2c3d1e129ea323",
-            "git_last_date": "181105.000916",
+            "git_last_commit": "478e19bebbfb55951435230c5c87816e3e5c9aea",
+            "git_last_date": "181106.161923",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
@@ -586,12 +586,12 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9e223e82053fc97c39ffa29e88a5188af879141b",
-            "git_last_date": "181106.130950",
+            "git_last_commit": "ce308a2a8472a7d135c9929487ab24167fa9f80d",
+            "git_last_date": "181106.165318",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.0+git%{date}.%{commit}"
         },
         "125": {
@@ -630,8 +630,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "286a09afc8f959aab8f6616eaff34725b08f4d59",
-            "git_last_date": "181106.154725",
+            "git_last_commit": "fc7ecfcd6a60047b74d95180107be72e55a9a08d",
+            "git_last_date": "181106.165957",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",
