@@ -135,8 +135,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b30cba9e1c63a9bfe36985ef9f1e408a75512a26",
-            "git_last_date": "181104.000314",
+            "git_last_commit": "9417404a00822ac822e648276c4029bfc0e7978c",
+            "git_last_date": "181106.173303",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.0",
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0a4c28c6257ef08504d807d82e557b25f34a55ef",
-            "git_last_date": "181106.165406",
+            "git_last_commit": "4857328ea04a4e6efb4a0c5c15996657b70507a6",
+            "git_last_date": "181106.175219",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
