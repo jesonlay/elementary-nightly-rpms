@@ -646,7 +646,7 @@
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "1.0.8+git%{date}.%{commit}"
         },
         "130": {

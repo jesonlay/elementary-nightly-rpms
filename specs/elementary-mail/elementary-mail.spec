@@ -6,7 +6,7 @@
 Name:           elementary-mail
 Summary:        Mail app designed for elementary
 Version:        1.0.8+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -14,17 +14,16 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
-
-BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(camel-1.2)
 BuildRequires:  pkgconfig(folks)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
-BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(libedataserver-1.2)
 BuildRequires:  pkgconfig(libedataserverui-1.2)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
@@ -73,6 +72,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.8+git181105.204856.004a725f-2
+- Require granite >= 5.2.0.
+
 * Mon Nov 05 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.8+git181105.204856.004a725f-1
 - Update to latest snapshot.
 
