@@ -113,12 +113,12 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "91e917293466a4f6b3aeae222454b57e2832227d",
-            "git_last_date": "181102.040445",
+            "git_last_commit": "eea4c41d39c6d8128a35c838ae1f47943f111809",
+            "git_last_date": "181105.230450",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "70": {
@@ -179,8 +179,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6d3fa3554b613e3b2f5a5bcbf5922b8f084fe1ef",
-            "git_last_date": "181105.223002",
+            "git_last_commit": "f8f54d5469a684336c4e42e90785039caab1d89a",
+            "git_last_date": "181105.230926",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -289,12 +289,12 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "82eabf9ea7d3c54977f363d10fa3b517382bbf9c",
-            "git_last_date": "181028.161455",
+            "git_last_commit": "3939737ecfefdcee8373e8bf96667b075a5e2cda",
+            "git_last_date": "181105.235434",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "88": {
@@ -377,34 +377,34 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a20ffcfd853e1713478f87742085d87ad6f3d723",
-            "git_last_date": "181101.100739",
+            "git_last_commit": "1945dc97cc13081309178f11443031171dbcafca",
+            "git_last_date": "181105.234408",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.4+git%{date}.%{commit}"
         },
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a096faff6636a6f8817fc64493afb274fdc22c1f",
-            "git_last_date": "181102.100616",
+            "git_last_commit": "a4adbaf2cb572c343940faa1d4a1b64b81faf3a5",
+            "git_last_date": "181105.233133",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "101": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "66693809f4bb7b8f6d4eff40b565e3cc9086fa25",
-            "git_last_date": "181028.161144",
+            "git_last_commit": "2eaf2ed1d11a964c30cf2cf11fbe314ef840ea61",
+            "git_last_date": "181105.231712",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "2.1.3",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.3+git%{date}.%{commit}"
         },
         "102": {
