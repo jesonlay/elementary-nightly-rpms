@@ -168,8 +168,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "023606e40f67d676a0196bffc176504db99b0c78",
-            "git_last_date": "181106.213634",
+            "git_last_commit": "683bb80aaa35855d609e4328ff1b338dc95448c5",
+            "git_last_date": "181106.225045",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -289,12 +289,12 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2da361a58e3b452d1324fcc68d2fd293d110f2a8",
-            "git_last_date": "181028.161124",
+            "git_last_commit": "004cc7ecbd15886b108b7373c3b7bedd335c3886",
+            "git_last_date": "181106.221536",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "89": {
@@ -333,8 +333,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fc0460aabc9442a0df296091cce9044bdadf8985",
-            "git_last_date": "181106.213753",
+            "git_last_commit": "9a6eb214cc4fd46bf5a122556082c86f5b2a3f96",
+            "git_last_date": "181106.221617",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.3",
