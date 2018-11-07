@@ -366,8 +366,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a8a958167d49d9b3a0f2dfbe3d1f66e964b59bcd",
-            "git_last_date": "181106.213609",
+            "git_last_commit": "f3b093fab949d8276cec06c3c4f9f2aa96151abc",
+            "git_last_date": "181107.000948",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
@@ -509,8 +509,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "62b660fd7c3d658a36c72bced0b7d8e6ceeb5c2d",
-            "git_last_date": "181106.190109",
+            "git_last_commit": "a555f1c416509a5a8bbe42ae2916b722e014e5da",
+            "git_last_date": "181107.000643",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -608,8 +608,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d68cd7be4be138dd2c248b60b5e06c007d513616",
-            "git_last_date": "181104.000310",
+            "git_last_commit": "ccc73fa4a3e4dcdafbb048eca9431e51cdb53d4d",
+            "git_last_date": "181107.001656",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
