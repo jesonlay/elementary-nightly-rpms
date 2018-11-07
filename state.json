@@ -124,8 +124,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "59ed53bae538df0f2206834f008040d6a6d164aa",
-            "git_last_date": "181107.080616",
+            "git_last_commit": "a9cb55bd64a6de915f4fd2aba4e6289b931f3d46",
+            "git_last_date": "181107.110327",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.0",
@@ -608,8 +608,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "70f91ce1a254702ce6b1e376d8e8959fd0234e10",
-            "git_last_date": "181107.104933",
+            "git_last_commit": "5bd03685b8254a97459b97712908fc35afdd56c0",
+            "git_last_date": "181107.112252",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
