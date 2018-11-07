@@ -168,8 +168,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "31fe6b72cd5f20e7b621266fe0f0fde1294a48bc",
-            "git_last_date": "181107.014207",
+            "git_last_commit": "0ec72de0de01b5aee2e0808807d97d154ed6da8a",
+            "git_last_date": "181107.101744",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -377,8 +377,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a4adbaf2cb572c343940faa1d4a1b64b81faf3a5",
-            "git_last_date": "181105.233133",
+            "git_last_commit": "bb547e3312a8536a94ac7e82961d1b28eccb4f6d",
+            "git_last_date": "181107.101314",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
@@ -608,8 +608,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3ac49bb11b109890f7b7c0bdc9675eb155e8071a",
-            "git_last_date": "181107.081035",
+            "git_last_commit": "70f91ce1a254702ce6b1e376d8e8959fd0234e10",
+            "git_last_date": "181107.104933",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
