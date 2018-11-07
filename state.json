@@ -124,8 +124,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a9cb55bd64a6de915f4fd2aba4e6289b931f3d46",
-            "git_last_date": "181107.110327",
+            "git_last_commit": "1c4b373cce45b562c4784a79502b6d803c78dd7e",
+            "git_last_date": "181107.172049",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.0",
@@ -608,8 +608,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5bd03685b8254a97459b97712908fc35afdd56c0",
-            "git_last_date": "181107.112252",
+            "git_last_commit": "f710c42e4ba543bb3d4915819fb6d00df9c4a8e0",
+            "git_last_date": "181107.172207",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
@@ -630,12 +630,12 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "004a725f15bc27d15778812e0cbf0ca64059f6cb",
-            "git_last_date": "181105.204856",
+            "git_last_commit": "bc61b8161c4299951c93992e6b54521c53af18e0",
+            "git_last_date": "181107.173401",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.0.8+git%{date}.%{commit}"
         },
         "130": {
