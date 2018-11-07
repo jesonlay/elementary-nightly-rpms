@@ -3,8 +3,8 @@
 
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
-Version:        3.3.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Version:        3.3.1+git%{date}.%{commit}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -81,7 +81,7 @@ The elementary Greeter is a styled Login Screen for LightDM.
 
 
 %build
-%meson -Dubuntu-patched-gsd=true
+%meson -Dubuntu-patched-gsd=false
 %meson_build
 
 
@@ -114,6 +114,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Wed Nov 07 2018 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git181106.180405.767bbcdc-1
+- Update to version 3.3.1.
+
 * Tue Nov 06 2018 Fabio Valentini <decathorpe@gmail.com> - 3.3.0+git181106.180405.767bbcdc-2
 - Remove upstreamed patch.
 
