@@ -429,17 +429,6 @@
             "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.5.1+git%{date}.%{commit}"
         },
-        "110": {
-            "git_branch": "master",
-            "git_commit": "HEAD",
-            "git_last_commit": "e44a9dd14018383c45e60033dacc87de698a18c6",
-            "git_last_date": "180528.230258",
-            "name": "cerbere",
-            "package_name": "cerbere",
-            "package_version": "0.2.2.99",
-            "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "0.2.2.99+git%{date}.%{commit}"
-        },
         "111": {
             "git_branch": "master",
             "git_commit": "HEAD",
