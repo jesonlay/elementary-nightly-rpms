@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6bd6be2c3979484cb5f2221783a19d36f8dd46a0",
-            "git_last_date": "181105.223459",
+            "git_last_commit": "ee57ef55f0dd3e364bc9a79cd1d7f78e2c339f58",
+            "git_last_date": "181108.130357",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.1",
@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3cb7211a97c75e4a4290b6a18e0c40d0c2970ec",
-            "git_last_date": "181108.031831",
+            "git_last_commit": "ba42eca9e1957c6fcdf3de1dfb298d5cd2ae6103",
+            "git_last_date": "181108.130315",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.0",
@@ -300,12 +300,12 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "be16d4a0cbdd7aa2058a14ca8370000d38c0c83a",
-            "git_last_date": "181025.165313",
+            "git_last_commit": "c9c6338d0d345e64fb210264be3237a956baa676",
+            "git_last_date": "181108.132635",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
-            "rpm_last_release": "3%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.1+git%{date}.%{commit}"
         },
         "95": {
@@ -520,8 +520,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a8346af451945f2294110a2243b4c056ba5518a6",
-            "git_last_date": "181104.112808",
+            "git_last_commit": "6a95e8ece4dee6c18a3aa36a59e633d2407133d4",
+            "git_last_date": "181108.130351",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.0",
@@ -575,8 +575,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4387b071d4fa7f2c64754565dc67294cd8cbbf27",
-            "git_last_date": "181108.031937",
+            "git_last_commit": "27998cae57907d6d8c0186fc5df2128178ba4a34",
+            "git_last_date": "181108.130526",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
