@@ -498,8 +498,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e24f85f27d857a3d6bea15703de71212fdf5f0f5",
-            "git_last_date": "181109.152032",
+            "git_last_commit": "fdd5532329d4698e52ed29509578022874cfc158",
+            "git_last_date": "181109.165127",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
@@ -542,8 +542,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "15f4d9264fd60c9f8cf01566d1ba3c810e9f84cc",
-            "git_last_date": "181109.072801",
+            "git_last_commit": "598eb7d6386b8260d0731e0a3aee3d42af8a6330",
+            "git_last_date": "181109.165041",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0",
