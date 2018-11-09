@@ -498,8 +498,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1fd4a9fb162368e2e07ad72a5914faecd98f339c",
-            "git_last_date": "181109.131102",
+            "git_last_commit": "e24f85f27d857a3d6bea15703de71212fdf5f0f5",
+            "git_last_date": "181109.152032",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
