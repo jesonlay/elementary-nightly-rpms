@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "63c8425a4374979c038fb1ab0613a1f6bc091d56",
-            "git_last_date": "181109.073741",
+            "git_last_commit": "779f582ef027b57818261859bf2bd3cfb80eaf8d",
+            "git_last_date": "181109.131452",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.0",
@@ -498,8 +498,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3a2eadda0430a76cbc583bbb924fd9bfc5a318d6",
-            "git_last_date": "181109.073649",
+            "git_last_commit": "1fd4a9fb162368e2e07ad72a5914faecd98f339c",
+            "git_last_date": "181109.131102",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
@@ -575,8 +575,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f1144c6aaf7c727dd5b6491b605d7b3fecda6ec8",
-            "git_last_date": "181109.073829",
+            "git_last_commit": "d03d9bc92b160cbb9c1c09c9fad99725310f4a6b",
+            "git_last_date": "181109.131253",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
