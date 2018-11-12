@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0f213686c32e272e0c7976b363654c86167d798e",
-            "git_last_date": "181110.161001",
+            "git_last_commit": "d9d257f00d4d533ab2c3b00f1d3cf9b95b177e17",
+            "git_last_date": "181112.050232",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
