@@ -6,7 +6,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        4.2.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -14,10 +14,9 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
-
-BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(champlain-0.12)
 BuildRequires:  pkgconfig(champlain-gtk-0.12)
@@ -29,17 +28,13 @@ BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gobject-2.0)
 BuildRequires:  pkgconfig(gmodule-2.0)
-BuildRequires:  pkgconfig(granite) >= 0.5
+BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
 BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
 BuildRequires:  pkgconfig(libgeoclue-2.0)
 BuildRequires:  pkgconfig(libical)
 BuildRequires:  pkgconfig(libnotify)
-
-%if 0%{?mageia}
-BuildRequires:  libchamplain-vala
-%endif
 
 # elementary-calendar also provides a generic symbolic icon (actions/calendar-go-today)
 Requires:       hicolor-icon-theme
@@ -89,16 +84,6 @@ appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
-%if 0%{?fedora}
-%ldconfig_scriptlets
-%endif
-
-%if 0%{?suse_version}
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
-%endif
-
-
 %files -f %{appname}.lang
 %doc README.md
 %license COPYING
@@ -129,6 +114,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Nov 13 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.3+git181113.064123.546e837c-2
+- Bump granite dependency to >= 5.2.0.
+
 * Tue Nov 13 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.3+git181113.064123.546e837c-1
 - Update to latest snapshot.
 
