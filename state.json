@@ -168,8 +168,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e7eb3f14310e9e24882b7586d74692ec62f30d92",
-            "git_last_date": "181104.222705",
+            "git_last_commit": "60be006a0e12129b77f213aff9179942be78360f",
+            "git_last_date": "181113.213735",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.1.2",
@@ -344,8 +344,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0b941e4891d4157145a1d501aa3cce120139d8fe",
-            "git_last_date": "181113.184114",
+            "git_last_commit": "5f04285d0e38bada5d2b1d50f1dad5fcba92070b",
+            "git_last_date": "181113.212024",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
