@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "305e575312df16f2b7a2d4f6e9b30606f0a640bf",
-            "git_last_date": "181107.015126",
+            "git_last_commit": "d2459dbd16330b78634333e16b5fda7a33db7e5a",
+            "git_last_date": "181114.133301",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -498,8 +498,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "679964d58ae34d243331e04ada10d1e4a176fa9c",
-            "git_last_date": "181112.010405",
+            "git_last_commit": "f1b131967a6f436f958c4888b7ff1157325624d7",
+            "git_last_date": "181114.134203",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
