@@ -1,24 +1,24 @@
-%global __provides_exclude_from ^%{_libdir}/(gtk-3.0)|(io.elementary.files)/.*\\.so$
-
 %global srcname files
 %global appname io.elementary.files
+
+%global __provides_exclude_from ^%{_libdir}/(gtk-3.0)|(%{appname})/.*\\.so$
 
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
+BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  intltool
+BuildRequires:  libappstream-glib
+BuildRequires:  meson
 BuildRequires:  vala >= 0.34.0
-
-BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(dbus-glib-1)
 BuildRequires:  pkgconfig(gail-3.0)
@@ -35,15 +35,11 @@ BuildRequires:  pkgconfig(libnotify) >= 0.7.2
 BuildRequires:  pkgconfig(pango) >= 1.1.2
 BuildRequires:  pkgconfig(plank)
 BuildRequires:  pkgconfig(sqlite3)
-BuildRequires:  pkgconfig(zeitgeist-2.0)
-
-%if 0%{?fedora}
 BuildRequires:  pkgconfig(unity) >= 4.0.0
-%endif
+BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 Provides:       pantheon-files
 Obsoletes:      pantheon-files
-
 
 %description
 The simple, powerful, and sexy file manager from elementary.
@@ -63,24 +59,12 @@ This package contains the development headers.
 
 
 %build
-%if 0%{?suse_version}
-%cmake -DCMAKE_INSTALL_LIBDIR:PATH=%{_lib}
-%endif
-
-%if 0%{?mageia}
-%cmake
-%endif
-
-%if 0%{?fedora}
-mkdir build && pushd build
-%cmake ..
-%endif
-
-%make_build
+%meson
+%meson_build
 
 
 %install
-%make_install -C build
+%meson_install
 
 %find_lang %{appname}
 
@@ -91,12 +75,6 @@ desktop-file-validate \
 
 appstream-util validate-relax --nonet \
     %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
-
-
-%if 0%{?suse_version}
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
-%endif
 
 
 %files -f %{appname}.lang
@@ -124,7 +102,7 @@ appstream-util validate-relax --nonet \
 %{_datadir}/polkit-1/actions/%{appname}.policy
 
 
-%files      devel
+%files devel
 %{_includedir}/pantheon-files-core/
 %{_includedir}/pantheon-files-widgets/
 
@@ -142,6 +120,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Nov 14 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181114.095601.3012758d-2
+- Adapt to CMake -> meson switch.
+
 * Wed Nov 14 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181114.095601.3012758d-1
 - Update to latest snapshot.
 
