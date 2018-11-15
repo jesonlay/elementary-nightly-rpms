@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -120,6 +120,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Nov 15 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181115.164517.5c52229d-1
+- Update to latest snapshot.
+
 * Wed Nov 14 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181114.095601.3012758d-2
 - Adapt to CMake -> meson switch.
 
