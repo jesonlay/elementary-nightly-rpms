@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "892c580220097deea4bd2b28689246f6cee90319",
-            "git_last_date": "181116.171831",
+            "git_last_commit": "d24eced87cb5e942e4fa89235b7ce43325f3e476",
+            "git_last_date": "181116.185341",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -289,8 +289,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07d20df67cfa99ae17bb8ec72529346c7f80f151",
-            "git_last_date": "181113.204205",
+            "git_last_commit": "b33494ca813a7afc1b5315de24e3ea4e23e425cc",
+            "git_last_date": "181116.181512",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.4",
