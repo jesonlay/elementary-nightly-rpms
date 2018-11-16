@@ -53,6 +53,9 @@ them.
 
 
 %changelog
+* Fri Nov 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181116.045341.1604d39f-1
+- Update to latest snapshot.
+
 * Fri Nov 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181116.025649.ce74ca9f-1
 - Update to latest snapshot.
 
