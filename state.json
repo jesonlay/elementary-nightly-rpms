@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "854b22f83a428605846334edf2a3e6e475eec42a",
-            "git_last_date": "181116.080730",
+            "git_last_commit": "3e02ef5438ffb88cc2a5853a00f7db93281a2c43",
+            "git_last_date": "181116.221217",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -564,8 +564,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "63203abf8e611a69136de854598993862a8934c5",
-            "git_last_date": "181114.002012",
+            "git_last_commit": "e5cb9fb8a0a6a86fefcaaa6db94a2e9e6e009aae",
+            "git_last_date": "181116.221316",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
@@ -608,8 +608,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7928968844c2276cf521a4701e8c55915704abe1",
-            "git_last_date": "181116.202649",
+            "git_last_commit": "25b80ac927a8df648c74bb98a3090347d5276df1",
+            "git_last_date": "181116.223428",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
