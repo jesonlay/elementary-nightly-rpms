@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d24eced87cb5e942e4fa89235b7ce43325f3e476",
-            "git_last_date": "181116.185341",
+            "git_last_commit": "86a515da438d78fa468427ac20fa5b6a3d53e8d3",
+            "git_last_date": "181117.071652",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fab4c4aed29a56359cbd44baabe929824ea9e717",
-            "git_last_date": "181116.203140",
+            "git_last_commit": "b8cea08c1c054472721dcade38cac4e275ff06a9",
+            "git_last_date": "181117.071548",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
