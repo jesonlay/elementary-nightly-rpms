@@ -245,8 +245,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "adbd1947f3a9f028475eaf5d270643614fe6e61e",
-            "git_last_date": "181104.224233",
+            "git_last_commit": "eef8a2bcb3e41e624dee41b5f0b0dae0d0ca5a7a",
+            "git_last_date": "181117.174456",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.1",
@@ -256,8 +256,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b8f899487ddbdcfc7f65692f0f9e803a0e24b39",
-            "git_last_date": "181117.090924",
+            "git_last_commit": "402c3838bfc6a8040feb96b5000201bb247e358a",
+            "git_last_date": "181117.174134",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.2",
@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "05c3c65047e5be6e4d17ea87259f2c3cd1541dd4",
-            "git_last_date": "181117.120643",
+            "git_last_commit": "6c847fd229226360ee8cf982d55408e4c27f5a3a",
+            "git_last_date": "181117.173825",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -608,8 +608,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b93c9d4a216645a1f1867a81c6471d43b131a6f0",
-            "git_last_date": "181117.115056",
+            "git_last_commit": "da450d89bcebc351b441a27e59632d411b330b8e",
+            "git_last_date": "181117.180009",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
