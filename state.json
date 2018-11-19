@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a039934c2c5e4cb60f5dd561d1a40151a4594a8a",
-            "git_last_date": "181118.192738",
+            "git_last_commit": "320dc0d043cc1041f7b3906c1310ccd5e51c5fe4",
+            "git_last_date": "181119.111530",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -608,8 +608,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ad9650d0bc5d2709ca8153baa28232b155f4cbc8",
-            "git_last_date": "181119.082601",
+            "git_last_commit": "13bde710243d1c93bd31d19659dcd81a7cb518de",
+            "git_last_date": "181119.111948",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
