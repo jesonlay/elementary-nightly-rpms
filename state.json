@@ -608,8 +608,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c1c97fde9248f92973fbc1a03b4fbe5b6c18c4b4",
-            "git_last_date": "181120.121359",
+            "git_last_commit": "4a8ae6ee941e7b01dc796bf8a3b50fbd87609432",
+            "git_last_date": "181120.143725",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
