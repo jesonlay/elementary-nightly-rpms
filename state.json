@@ -476,8 +476,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c87a1a2ad20b0199b475845670027d3dc9f8af90",
-            "git_last_date": "181120.114004",
+            "git_last_commit": "48d4ed006741680e02debf8c6a5cbde7be54a47d",
+            "git_last_date": "181120.164434",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -575,8 +575,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8d4efa9b14a77fa5fd50ec0e8f571e9c768220ca",
-            "git_last_date": "181120.121441",
+            "git_last_commit": "153adaab1b2bf2e13923b1229d53fb228581546c",
+            "git_last_date": "181120.161936",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
