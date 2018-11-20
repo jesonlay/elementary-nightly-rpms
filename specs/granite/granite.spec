@@ -1,6 +1,6 @@
 Name:           granite
 Summary:        elementary Development Library
-Version:        5.2.0+git%{date}.%{commit}
+Version:        5.2.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3+
 
@@ -19,6 +19,9 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0)
 
 # granite provides and needs some generic icons
 Requires:       hicolor-icon-theme
+
+# granite requires the clock-format gsettings key from the datetime indicator
+Requires:       wingpanel-indicator-datetime
 
 
 %description
@@ -100,6 +103,9 @@ desktop-file-validate \
 
 
 %changelog
+* Tue Nov 20 2018 Fabio Valentini <decathorpe@gmail.com> - 5.2.1+git181120.212540.3ed2ea32-1
+- Update to version 5.2.1.
+
 * Tue Nov 20 2018 Fabio Valentini <decathorpe@gmail.com> - 5.2.0+git181120.212540.3ed2ea32-1
 - Update to latest snapshot.
 
