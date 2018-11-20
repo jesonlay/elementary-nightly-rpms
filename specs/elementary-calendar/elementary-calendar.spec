@@ -6,7 +6,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        4.2.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -38,6 +38,9 @@ BuildRequires:  pkgconfig(libnotify)
 
 # elementary-calendar also provides a generic symbolic icon (actions/calendar-go-today)
 Requires:       hicolor-icon-theme
+
+# calendar requires the gsettings key from the datetime wingpanel indicator
+Requires:       wingpanel-indicator-datetime
 
 Provides:       maya-calendar
 Obsoletes:      maya-calendar
@@ -114,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Nov 20 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.3+git181119.000653.da119f46-2
+- Add Requires: wingpanel-indicator-datetime.
+
 * Mon Nov 19 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.3+git181119.000653.da119f46-1
 - Update to latest snapshot.
 
