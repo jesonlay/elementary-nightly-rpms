@@ -311,8 +311,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "397fbc9e9ed5380c28c94ec6c4c71f73a108df22",
-            "git_last_date": "181104.222316",
+            "git_last_commit": "ce10f927cc7adb4843aafa536b12968bd512883b",
+            "git_last_date": "181120.084543",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.1",
@@ -322,8 +322,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "22587bf1c7e953fe22dc49a0de812286c40e2b1a",
-            "git_last_date": "181116.084027",
+            "git_last_commit": "0c7f46569414012bfc228a7e8b723e9bfe325c63",
+            "git_last_date": "181120.084246",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.3",
