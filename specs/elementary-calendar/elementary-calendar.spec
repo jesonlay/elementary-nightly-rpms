@@ -6,7 +6,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        4.2.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -117,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Nov 21 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.3+git181121.091930.26231721-1
+- Update to latest snapshot.
+
 * Tue Nov 20 2018 Fabio Valentini <decathorpe@gmail.com> - 4.2.3+git181119.000653.da119f46-2
 - Add Requires: wingpanel-indicator-datetime.
 
