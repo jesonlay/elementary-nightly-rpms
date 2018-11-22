@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "eabc3835b22ee8b12b8f2ed4ff58b4d4183bc41b",
-            "git_last_date": "181117.180609",
+            "git_last_commit": "dc79d82f9b61ca2d66488ecb144cc7fa15744a09",
+            "git_last_date": "181122.083921",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "43519ee98d3656388e77e0018fc6c1bbcc814a93",
-            "git_last_date": "181121.130552",
+            "git_last_commit": "bec1a73ac0037dfc3224ca8bf2cff057708ac023",
+            "git_last_date": "181122.083016",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -575,8 +575,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dfb17b7619b38f21cf43ff1492e07433e1a80ea6",
-            "git_last_date": "181122.000209",
+            "git_last_commit": "7c043a2f1024213eef6238b1e19eea63fc814f05",
+            "git_last_date": "181122.083854",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
@@ -608,8 +608,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "751da95e350985916296a5a8dc6c04aa99c439f4",
-            "git_last_date": "181122.000217",
+            "git_last_commit": "6b166a5fe477ac3a89fecf605ae5ae4bd3fd3b75",
+            "git_last_date": "181122.082822",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
