@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -88,13 +88,13 @@ appstream-util validate-relax --nonet \
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 %{_libdir}/%{appname}/
 %{_libdir}/libpantheon-files-core.so.0
-%{_libdir}/libpantheon-files-core.so.0.1
+%{_libdir}/libpantheon-files-core.so.0.3.6
 %{_libdir}/libpantheon-files-widgets.so.0
-%{_libdir}/libpantheon-files-widgets.so.0.1
+%{_libdir}/libpantheon-files-widgets.so.0.3.6
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/dbus-1/services/%{appname}.service
-%{_datadir}/dbus-1/services/%{appname}.FileManager1.service
+%{_datadir}/dbus-1/services/%{appname}.Filemanager1.service
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/%{appname}/
 %{_datadir}/metainfo/%{appname}.appdata.xml
@@ -103,8 +103,8 @@ appstream-util validate-relax --nonet \
 
 
 %files devel
-%{_includedir}/pantheon-files-core/
-%{_includedir}/pantheon-files-widgets/
+%{_includedir}/pantheon-files-core.h
+%{_includedir}/pantheon-files-widgets.h
 
 %{_libdir}/libpantheon-files-core.so
 %{_libdir}/libpantheon-files-widgets.so
@@ -112,14 +112,14 @@ appstream-util validate-relax --nonet \
 %{_libdir}/pkgconfig/pantheon-files-core.pc
 %{_libdir}/pkgconfig/pantheon-files-widgets.pc
 
-%{_datadir}/vala/vapi/pantheon-files-core-C.vapi
-%{_datadir}/vala/vapi/pantheon-files-core.deps
 %{_datadir}/vala/vapi/pantheon-files-core.vapi
-%{_datadir}/vala/vapi/pantheon-files-widgets.deps
 %{_datadir}/vala/vapi/pantheon-files-widgets.vapi
 
 
 %changelog
+* Thu Nov 22 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181121.201744.31936a57-2
+- Adapt to upstream file changes.
+
 * Wed Nov 21 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181121.201744.31936a57-1
 - Update to latest snapshot.
 
