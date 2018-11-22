@@ -8,7 +8,7 @@
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
 Version:        2.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -70,6 +70,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Nov 22 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181122.154145.f49f6568-1
+- Update to latest snapshot.
+
 * Tue Nov 20 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181107.014600.911a7df6-2
 - Add Requires: wingpanel-indicator-bluetooth.
 
