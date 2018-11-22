@@ -57,6 +57,9 @@ Switchboard Sound Plug.
 
 
 %changelog
+* Thu Nov 22 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181122.215839.0eee6eee-1
+- Update to latest snapshot.
+
 * Thu Nov 22 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181122.200403.4c5a55bd-1
 - Update to latest snapshot.
 

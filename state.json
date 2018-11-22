@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4c5a55bd4d46631093fcc0968950b7184eac931c",
-            "git_last_date": "181122.200403",
+            "git_last_commit": "0eee6eee2524ba59bae27ead1e78f49801519cb4",
+            "git_last_date": "181122.215839",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -498,8 +498,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e56ca06106f48a2dcfd0248a96472923da59edb5",
-            "git_last_date": "181122.202455",
+            "git_last_commit": "abe5f7b92b0f11f33d5a879b7d18f3d9773ec3c4",
+            "git_last_date": "181122.211024",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
