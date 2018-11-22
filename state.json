@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dc79d82f9b61ca2d66488ecb144cc7fa15744a09",
-            "git_last_date": "181122.083921",
+            "git_last_commit": "5c58b72146cf910a5ca9ffac3f9a2b6c70d31dfe",
+            "git_last_date": "181122.201355",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "192841ac2804407a45de40cb2557132000bfa636",
-            "git_last_date": "181116.082659",
+            "git_last_commit": "b6a5d81bfcbf81e8c96f159c6c51e02ab2309027",
+            "git_last_date": "181122.200359",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.2",
@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bec1a73ac0037dfc3224ca8bf2cff057708ac023",
-            "git_last_date": "181122.083016",
+            "git_last_commit": "4c5a55bd4d46631093fcc0968950b7184eac931c",
+            "git_last_date": "181122.200403",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -498,8 +498,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1acace71526bbf106b237473de06433cfd3700e4",
-            "git_last_date": "181121.094355",
+            "git_last_commit": "e56ca06106f48a2dcfd0248a96472923da59edb5",
+            "git_last_date": "181122.202455",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
