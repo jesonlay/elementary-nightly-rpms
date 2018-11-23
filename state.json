@@ -476,8 +476,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6dff9576f2da2277c19b6613957dbf6d6f55b48e",
-            "git_last_date": "181122.195846",
+            "git_last_commit": "d58c714757f62ff9a2e6fe50fe5d974deb404a39",
+            "git_last_date": "181123.000154",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -498,8 +498,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "abe5f7b92b0f11f33d5a879b7d18f3d9773ec3c4",
-            "git_last_date": "181122.211024",
+            "git_last_commit": "be6e7e0d022492f372e06ee16b4d3a9a9ff58b65",
+            "git_last_date": "181123.003434",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
@@ -509,8 +509,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93f9b34a181686ca6d4c78005b87826d7b9893c8",
-            "git_last_date": "181122.000203",
+            "git_last_commit": "61e4b85c137c6a473911334b38efb0f8aaddf3c7",
+            "git_last_date": "181123.000145",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
