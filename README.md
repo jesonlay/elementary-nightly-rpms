@@ -13,38 +13,35 @@ The current build status can be seen at
 
 ### official elementary apps
 
-| package name                 | f27  | f28  | rawhide |
+| package name                 | f28  | f29  | rawhide |
 | ---------------------------- | ---- | ---- | ------- |
 | [appcenter]                  | DONE | DONE | DONE    |
-| [elementary-calculator]      | DONE | DONE | DONE    |
-| [elementary-calendar]        | DONE | DONE | DONE    |
-| [elementary-camera]          | DONE | DONE | DONE    |
-| [elementary-code]            | DONE | DONE | DONE    |
-| [elementary-files]           | DONE | DONE | DONE    |
-| [elementary-mail]            | ---- | ---- | ------- |
-| [elementary-music]           | DONE | DONE | DONE    |
-| [elementary-photos]          | DONE | DONE | DONE    |
-| [elementary-screenshot-tool] | DONE | DONE | DONE    |
-| [elementary-terminal]        | DONE | DONE | DONE    |
-| [elementary-videos]          | DONE | DONE | DONE    |
+| [elementary-calculator]      | ---- | DONE | DONE    |
+| [elementary-calendar]        | ---- | DONE | DONE    |
+| [elementary-camera]          | ---- | DONE | DONE    |
+| [elementary-code]            | ---- | DONE | DONE    |
+| [elementary-files]           | ---- | DONE | DONE    |
+| [elementary-mail]            | ---- | DONE | DONE    |
+| [elementary-music]           | ---- | DONE | DONE    |
+| [elementary-photos]          | ---- | DONE | DONE    |
+| [elementary-screenshot-tool] | ---- | DONE | DONE    |
+| [elementary-terminal]        | ---- | DONE | DONE    |
+| [elementary-videos]          | ---- | DONE | DONE    |
 | [switchboard]                | DONE | DONE | DONE    |
-
-`elementary-mail` cannot be compiled on fedora rawhide right now, since
-`webkitgtk-3.0` has been retired for security reasons and `webkit2gtk-4.0` isn't
-supported yet. This issue is tracked at [elementary/mail#8].
 
 
 ### Pantheon desktop
 
-| package name                | f27  | f28  | rawhide |
+| package name                | f28  | f29  | rawhide |
 | --------------------------- | ---- | ---- | ------- |
 | [cerbere]                   | ---- | ---- | ------- |
 | [contractor]                | DONE | DONE | DONE    |
 | [elementary-capnet-assist]  | DONE | DONE | DONE    |
+| [elementary-dpms-helper]    | DONE | DONE | DONE    |
+| [elementary-greeter]        | DONE | DONE | DONE    |
 | [gala]                      | DONE | DONE | DONE    |
 | [pantheon-agent-geoclue2]   | DONE | DONE | DONE    |
 | [pantheon-agent-polkit]     | DONE | DONE | DONE    |
-| [pantheon-greeter]          | DONE | DONE | ------- |
 | [pantheon-session-settings] | ---- | ---- | ------- |
 | [plank]                     | DONE | DONE | DONE    |
 | [wingpanel]                 | DONE | DONE | DONE    |
@@ -63,7 +60,7 @@ specifically to every fedora release, so there are no nightly builds for it.
 
 ### elementary artwork
 
-| package name            | f27  | f28  | rawhide |
+| package name            | f28  | f29  | rawhide |
 | ----------------------- | ---- | ---- | ------- |
 | [elementary-icon-theme] | DONE | DONE | DONE    |
 | [elementary-theme]      | DONE | DONE | DONE    |
@@ -75,7 +72,7 @@ releases, so nightly builds are not necessary.
 
 ### switchboard plugs
 
-| package name                         | f27  | f28  | rawhide |
+| package name                         | f28  | f29  | rawhide |
 | ------------------------------------ | ---- | ---- | ------- |
 | [switchboard-plug-a11y]              | DONE | DONE | DONE    |
 | [switchboard-plug-about]             | DONE | DONE | DONE    |
@@ -101,12 +98,12 @@ releases, so nightly builds are not necessary.
 
 ### wingpanel indicators
 
-| package name                        | f27  | f28  | rawhide |
+| package name                        | f28  | f29  | rawhide |
 | ----------------------------------- | ---- | ---- | ------- |
 | [wingpanel-applications-menu]       | DONE | DONE | DONE    |
 | [wingpanel-indicator-ayatana]       | DONE | DONE | DONE    |
 | [wingpanel-indicator-bluetooth]     | DONE | DONE | DONE    |
-| [wingpanel-indicator-datetime]      | DONE | DONE | DONE    |
+| [wingpanel-indicator-datetime]      | ---- | DONE | DONE    |
 | [wingpanel-indicator-keyboard]      | DONE | DONE | DONE    |
 | [wingpanel-indicator-network]       | DONE | DONE | DONE    |
 | [wingpanel-indicator-nightlight]    | DONE | DONE | DONE    |
@@ -118,11 +115,9 @@ releases, so nightly builds are not necessary.
 
 ### elementary / pantheon libraries and other shared dependencies
 
-| package name            | f27  | f28  | rawhide |
+| package name            | f28  | f29  | rawhide |
 | ----------------------- | ---- | ---- | ------- |
-| [gsignond]              | DONE | DONE | DONE    |
-| [granite]               | ---- | ---- | DONE    |
-| [libgsignon-glib]       | DONE | DONE | DONE    |
+| [granite]               | ---- | DONE | DONE    |
 
 The `granite` library changed its soname with the update to `5.0`, which is only
 available on rawhide, and nightly builds using granite `5.0` and later are only
@@ -146,10 +141,11 @@ available for the rawhide elementary-nightly repository, too.
 [cerbere]: https://github.com/elementary/cerbere
 [contractor]: https://github.com/elementary/contractor
 [elementary-capnet-assist]: https://github.com/elementary/capnet-assist
+[elementary-dpms-helper]: https://github.com/elementary/dpms-helper
+[elementary-greeter]: https://github.com/elementary/greeter
 [gala]: https://github.com/elementary/gala
 [pantheon-agent-geoclue2]: https://github.com/elementary/pantheon-agent-geoclue2
 [pantheon-agent-polkit]: https://github.com/elementary/pantheon-agent-polkit
-[pantheon-greeter]: https://github.com/elementary/greeter
 [pantheon-session-settings]: https://github.com/decathorpe/pantheon-session-settings
 [plank]: https://launchpad.net/plank
 [wingpanel]: https://github.com/elementary/wingpanel
@@ -191,9 +187,7 @@ available for the rawhide elementary-nightly repository, too.
 [wingpanel-indicator-session]: https://github.com/elementary/wingpanel-indicator-session
 [wingpanel-indicator-sound]: https://github.com/elementary/wingpanel-indicator-sound
 
-[gsignond]: https://gitlab.com/accounts-sso/gsignond
 [granite]: https://github.com/elementary/granite
-[libgsignon-glib]: https://gitlab.com/accounts-sso/libgsignon-glib
 
 [elementary/mail#8]: https://github.com/elementary/mail/issues/8
 
