@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -87,10 +87,8 @@ appstream-util validate-relax --nonet \
 
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 %{_libdir}/%{appname}/
-%{_libdir}/libpantheon-files-core.so.0
-%{_libdir}/libpantheon-files-core.so.0.3.6
-%{_libdir}/libpantheon-files-widgets.so.0
-%{_libdir}/libpantheon-files-widgets.so.0.3.6
+%{_libdir}/libpantheon-files-core.so.0*
+%{_libdir}/libpantheon-files-widgets.so.0*
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/dbus-1/services/%{appname}.service
@@ -117,6 +115,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Nov 26 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181126.102958.0e523cc4-2
+- Adapt to upstream file changes.
+
 * Mon Nov 26 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181126.102958.0e523cc4-1
 - Update to latest snapshot.
 
