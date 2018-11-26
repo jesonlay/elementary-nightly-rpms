@@ -52,6 +52,9 @@ A switchboard plug to configure the behavior of mice and touchpads.
 
 
 %changelog
+* Mon Nov 26 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181126.200031.f21fb3f4-1
+- Update to latest snapshot.
+
 * Mon Nov 26 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181126.172439.6c0e8247-1
 - Update to latest snapshot.
 
