@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -101,8 +101,7 @@ appstream-util validate-relax --nonet \
 
 
 %files devel
-%{_includedir}/pantheon-files-core.h
-%{_includedir}/pantheon-files-widgets.h
+%{_includedir}/pantheon-files-core/
 
 %{_libdir}/libpantheon-files-core.so
 %{_libdir}/libpantheon-files-widgets.so
@@ -115,6 +114,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Nov 26 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181126.102958.0e523cc4-3
+- Adapt to upstream file changes.
+
 * Mon Nov 26 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181126.102958.0e523cc4-2
 - Adapt to upstream file changes.
 
