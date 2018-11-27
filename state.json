@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "84777b605e5861adcd6706f96348a7e9568300d9",
-            "git_last_date": "181123.182731",
+            "git_last_commit": "a19eb3efacfb7da4eaef3199136eb6f61ff6c336",
+            "git_last_date": "181127.150346",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
@@ -531,8 +531,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5c0ec1d9429ad2db61f496980a09f02d425cd715",
-            "git_last_date": "181104.222516",
+            "git_last_commit": "031b9577b13ab7ac2625b65f0aa2528f430dcfe0",
+            "git_last_date": "181127.150350",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "2.0.1",
