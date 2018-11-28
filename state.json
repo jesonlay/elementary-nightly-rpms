@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fcffbee04680152fcaaebeed04be14a1763acf31",
-            "git_last_date": "181124.130856",
+            "git_last_commit": "b23527808481d36e348fc623a9dae37f6cdccfdf",
+            "git_last_date": "181128.103733",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.1",
@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6879b46e5ce7a1602f709f21a093766b3c6dcdc5",
-            "git_last_date": "181128.001136",
+            "git_last_commit": "dfe02bc2e42b24a77b265a563b7de35fbb796182",
+            "git_last_date": "181128.101151",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
