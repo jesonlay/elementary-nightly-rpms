@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dd6dfe1fe5accb17393149efa541f0fed182dec6",
-            "git_last_date": "181128.125425",
+            "git_last_commit": "c790e3ce93f32d4e5dc3f119eee72f4fd5f66926",
+            "git_last_date": "181128.142814",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
@@ -509,8 +509,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "78e96c9b6b1ffa19b69cd99b08a7be7b6a5aa87c",
-            "git_last_date": "181124.072306",
+            "git_last_commit": "44d1014a75f6d99ef99cb1e1129166a7e5c220bd",
+            "git_last_date": "181128.143435",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
@@ -575,8 +575,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7c043a2f1024213eef6238b1e19eea63fc814f05",
-            "git_last_date": "181122.083854",
+            "git_last_commit": "2e04b935c4d9d4fcd0929337f69ca91808597b8c",
+            "git_last_date": "181128.142057",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
@@ -608,8 +608,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6b166a5fe477ac3a89fecf605ae5ae4bd3fd3b75",
-            "git_last_date": "181122.082822",
+            "git_last_commit": "2e651ac8bbeaae60630b66aaf0fbcfc2e8dd5a0b",
+            "git_last_date": "181128.141436",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
