@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -115,6 +115,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Nov 29 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181129.204936.816cf8c2-1
+- Update to latest snapshot.
+
 * Wed Nov 28 2018 Fabio Valentini <decathorpe@gmail.com> - 4.0+git181128.082506.86192511-2
 - Adapt to upstream file changes.
 
