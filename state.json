@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "90ce6d8ae29aaaade1760fc2389679369b763c4f",
-            "git_last_date": "181122.000214",
+            "git_last_commit": "4f2e6793cc2b5575a54d177e02069f3a2ce775ea",
+            "git_last_date": "181129.000213",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.1",
@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bdd537e768bd72c96c86d990c448bb0d2576b670",
-            "git_last_date": "181127.000300",
+            "git_last_commit": "c170d83af062c0aa6f36157da17c64076fbdc9bf",
+            "git_last_date": "181129.000152",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -509,8 +509,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "44d1014a75f6d99ef99cb1e1129166a7e5c220bd",
-            "git_last_date": "181128.143435",
+            "git_last_commit": "40b0c7ee3df3dc68a28eafaa211ed824fae51561",
+            "git_last_date": "181129.000206",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
