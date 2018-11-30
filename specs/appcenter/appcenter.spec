@@ -3,15 +3,11 @@
 Name:           appcenter
 Summary:        Software Center from elementary
 Version:        3.0.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-
-# blacklist from elementaryOS
-# https://github.com/elementary/default-settings/blob/master/appcenter.blacklist
-Source1:        appcenter.blacklist
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
@@ -83,9 +79,6 @@ This package contains the gnome-shell search provider.
 
 %find_lang %{appname}
 
-# override empty blacklist
-cp -pav %{SOURCE1} %{buildroot}/%{_sysconfdir}/%{appname}/appcenter.blacklist
-
 # create autostart entry symlink
 mkdir -p %{buildroot}/%{_sysconfdir}/xdg/autostart/
 ln -s %{_datadir}/applications/%{appname}-daemon.desktop \
@@ -121,6 +114,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Nov 30 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0.1+git181129.000152.c170d83a-2
+- Adopt appcenter blacklist instead of elementaryOS blacklist.
+
 * Thu Nov 29 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0.1+git181129.000152.c170d83a-1
 - Update to latest snapshot.
 
