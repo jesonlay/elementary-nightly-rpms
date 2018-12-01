@@ -6,14 +6,11 @@
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
 Version:        2.5.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-
-# Use official logo in the system details view
-Patch0:         00-fedora-logo.patch
 
 BuildRequires:  gettext
 BuildRequires:  meson
@@ -57,6 +54,9 @@ This switchboard plug shows system information.
 
 
 %changelog
+* Sat Dec 01 2018 Fabio Valentini <decathorpe@gmail.com> - 2.5.1+git181130.160236.0f7bc840-2
+- Remove patch, replaced with flexible solution upstream.
+
 * Fri Nov 30 2018 Fabio Valentini <decathorpe@gmail.com> - 2.5.1+git181130.160236.0f7bc840-1
 - Update to latest snapshot.
 
