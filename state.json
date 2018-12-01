@@ -157,12 +157,12 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c170d83af062c0aa6f36157da17c64076fbdc9bf",
-            "git_last_date": "181129.000152",
+            "git_last_commit": "376616630024e271f01472e3d83229a38fc93e46",
+            "git_last_date": "181201.012132",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.0.1+git%{date}.%{commit}"
         },
         "78": {
@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6a949f080ba6b1d03cc5e9d9928445f6de461df0",
-            "git_last_date": "181130.201356",
+            "git_last_commit": "fa0d9587d27b3e57b82afabf9493e5c797bc297a",
+            "git_last_date": "181201.011827",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",

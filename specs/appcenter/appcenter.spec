@@ -3,7 +3,7 @@
 Name:           appcenter
 Summary:        Software Center from elementary
 Version:        3.0.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -114,6 +114,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Dec 01 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0.1+git181201.012132.37661663-1
+- Update to latest snapshot.
+
 * Fri Nov 30 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0.1+git181129.000152.c170d83a-2
 - Adopt appcenter blacklist instead of elementaryOS blacklist.
 
