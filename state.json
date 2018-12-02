@@ -311,8 +311,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "df6fbe518f2ef9abc8ed2b22bff318146ecfbe9c",
-            "git_last_date": "181129.120658",
+            "git_last_commit": "a8166b45f61643899535ab97b99140ee357d6c82",
+            "git_last_date": "181202.050047",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.1",
