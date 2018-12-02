@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "445c111ed143daebd4abc8ea48deaeed4b021351",
-            "git_last_date": "181201.022707",
+            "git_last_commit": "94a97ff4a7aad50a39e919d8e98e25d336c9c399",
+            "git_last_date": "181202.000341",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -454,8 +454,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4b11fbff3c0ebf094756769c1b8b2df0e13842e7",
-            "git_last_date": "181122.000157",
+            "git_last_commit": "fe575556635798792bed5812d901318a30cdb2fa",
+            "git_last_date": "181202.004435",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "1.5.1",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0317f6f871d32f4ffbed0a7d2139dabe520e1362",
-            "git_last_date": "181202.000050",
+            "git_last_commit": "5fa09c8e7b58131bbd1386ec7ab0f310033498f9",
+            "git_last_date": "181202.001539",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",
