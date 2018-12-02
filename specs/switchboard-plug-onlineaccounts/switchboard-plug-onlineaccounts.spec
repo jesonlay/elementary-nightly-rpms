@@ -74,6 +74,9 @@ Obsoletes:      pantheon-online-accounts-devel
 
 
 %changelog
+* Sun Dec 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git181202.064418.31b3e35d-1
+- Update to latest snapshot.
+
 * Mon Nov 26 2018 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git181126.071028.6e87ed56-1
 - Update to latest snapshot.
 

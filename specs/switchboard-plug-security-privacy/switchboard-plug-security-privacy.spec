@@ -71,6 +71,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Dec 02 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181202.064955.71765762-1
+- Update to latest snapshot.
+
 * Thu Nov 29 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181129.120701.b5e844dd-1
 - Update to latest snapshot.
 
