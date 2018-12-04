@@ -80,8 +80,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "deb09dd13b9050a1978bec00786a55fa8b1953b9",
-            "git_last_date": "181202.192920",
+            "git_last_commit": "f7ed2965ba86aa91f1bce2d1f18329c480974238",
+            "git_last_date": "181204.071832",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.3",
@@ -289,8 +289,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a2fbb906086fbb9c353e65fafcb672c2980e73b9",
-            "git_last_date": "181129.154840",
+            "git_last_commit": "86bc5169c2b0f6ce398e6737069bf73e673fa22f",
+            "git_last_date": "181204.072127",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.5",
@@ -311,8 +311,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "85b38c404900e7d146f4808ef1d4edc1284b3a5a",
-            "git_last_date": "181202.065532",
+            "git_last_commit": "a26e8eb27f59ce1ebb4e6bed45c80ba1504231d3",
+            "git_last_date": "181204.070627",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.1",
