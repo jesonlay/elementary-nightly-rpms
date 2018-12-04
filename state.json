@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "51ba48fcec3ef6794188db9d75521572d6605323",
-            "git_last_date": "181130.175531",
+            "git_last_commit": "2264b023b0eed4eeebb1512a76cf7ab13d5b9188",
+            "git_last_date": "181204.165050",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0",
@@ -80,8 +80,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f7ed2965ba86aa91f1bce2d1f18329c480974238",
-            "git_last_date": "181204.071832",
+            "git_last_commit": "e14446c939e1edaf0ca1397485883b57a37e5793",
+            "git_last_date": "181204.164637",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.3",
@@ -410,12 +410,12 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0f7bc8409a8208f92c86758f85c5cd40ec88bca1",
-            "git_last_date": "181130.160236",
+            "git_last_commit": "66202b5569f99b795be3eb0211a8ade4363230e5",
+            "git_last_date": "181204.163636",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.5.1+git%{date}.%{commit}"
         },
         "111": {
