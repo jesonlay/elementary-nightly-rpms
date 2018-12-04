@@ -27,7 +27,7 @@ The current build status can be seen at
 | [elementary-screenshot-tool] | ---- | DONE | DONE    |
 | [elementary-terminal]        | ---- | DONE | DONE    |
 | [elementary-videos]          | ---- | DONE | DONE    |
-| [switchboard]                | DONE | DONE | DONE    |
+| [switchboard]                | ---- | DONE | DONE    |
 
 
 ### Pantheon desktop
@@ -43,7 +43,7 @@ The current build status can be seen at
 | [pantheon-agent-geoclue2]   | DONE | DONE | DONE    |
 | [pantheon-agent-polkit]     | DONE | DONE | DONE    |
 | [pantheon-session-settings] | ---- | ---- | ------- |
-| [plank]                     | DONE | DONE | DONE    |
+| [plank]                     | ---- | ---- | ----    |
 | [wingpanel]                 | DONE | DONE | DONE    |
 
 `cerbere` is currently not built for the nightly repository due to differences
