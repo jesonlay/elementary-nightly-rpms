@@ -311,8 +311,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a035a042a91d7c63e64673190a574032ff792552",
-            "git_last_date": "181204.174243",
+            "git_last_commit": "57a2b2522f413c01f5470e8d514832765f393216",
+            "git_last_date": "181204.182241",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.1",
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5abbbe352f27c8427339b2b677631ddccf84cf23",
-            "git_last_date": "181204.173820",
+            "git_last_commit": "2b15d81f7c60d3f064f2bac8aef349ec6de781f5",
+            "git_last_date": "181204.180347",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
