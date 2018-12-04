@@ -3,7 +3,7 @@
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -21,7 +21,7 @@ BuildRequires:  /usr/bin/appstream-util
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
-BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
 %if 0%{?fedora}
 BuildRequires:  pkgconfig(unity) >= 4.0.0
@@ -135,6 +135,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Dec 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git181204.072127.86bc5169-2
+- Bump granite requirement to >= 5.2.0.
+
 * Tue Dec 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git181204.072127.86bc5169-1
 - Update to latest snapshot.
 
