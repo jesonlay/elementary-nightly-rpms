@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0fa2a653b7ffd93cc9a932195086028f4ba6054a",
-            "git_last_date": "181203.225644",
+            "git_last_commit": "67569d4c14717d9c6369f01923acec7e5a6ea603",
+            "git_last_date": "181205.194520",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8108c2844c2c4fbbae2201c523d2b6f2eabf1c48",
-            "git_last_date": "181204.233619",
+            "git_last_commit": "0dc43a8af13587ea6ccc46897e8920001e1f9824",
+            "git_last_date": "181205.190514",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
