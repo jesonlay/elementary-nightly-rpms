@@ -476,8 +476,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1aed8de603815d34d4bf6efb935bb3ca0c477c46",
-            "git_last_date": "181202.063037",
+            "git_last_commit": "b6e6f43f69ea2ddf28653fe9b9af00814cb052d8",
+            "git_last_date": "181206.080517",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.1",
@@ -542,8 +542,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "42c913a139ffdf5286ca9d6cce91057c09865332",
-            "git_last_date": "181129.120639",
+            "git_last_commit": "b65756f5c65250a6e8b1301bfddf769dcc57cae4",
+            "git_last_date": "181206.080521",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
