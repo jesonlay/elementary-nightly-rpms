@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "653189f8e3f71f7c7c880bc9da7cc7391d5eca15",
-            "git_last_date": "181204.172515",
+            "git_last_commit": "47a877a9959ef8d39b0883668d0dc9d62bbaafdd",
+            "git_last_date": "181206.155417",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0",
@@ -443,8 +443,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "71765762d2103d00e9867037395ecbaafb9c5d23",
-            "git_last_date": "181202.064955",
+            "git_last_commit": "0394ebfb15565461fc7a5b21701f2090588f5fac",
+            "git_last_date": "181206.151256",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.0",
