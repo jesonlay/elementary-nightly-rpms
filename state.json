@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "83bca8521a7b4518b39b009c0d4e0f1b49db0662",
-            "git_last_date": "181206.173601",
+            "git_last_commit": "6875a0734fc5c95958933270249f84c304114416",
+            "git_last_date": "181206.220243",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0dc43a8af13587ea6ccc46897e8920001e1f9824",
-            "git_last_date": "181205.190514",
+            "git_last_commit": "a7964354957e7c135410020041acb350ef286a37",
+            "git_last_date": "181206.225714",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
@@ -498,8 +498,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bd3112600be70020052a595d34db0d86b7dd9bf9",
-            "git_last_date": "181203.000834",
+            "git_last_commit": "cce8e2980dabac9a391473b5f943d905da09df12",
+            "git_last_date": "181206.220907",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
