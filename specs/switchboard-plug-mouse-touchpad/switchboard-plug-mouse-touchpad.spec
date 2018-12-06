@@ -3,16 +3,19 @@
 %global plug_type hardware
 %global plug_name mouse-touchpad
 
+%global appname io.elementary.switchboard.mouse-touchpad
+
 Name:           switchboard-plug-mouse-touchpad
 Summary:        Switchboard Mouse and Touchpad plug
 Version:        2.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -44,14 +47,24 @@ A switchboard plug to configure the behavior of mice and touchpads.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{appname}.appdata.xml
+
 
 %changelog
+* Thu Dec 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181205.235300.75238d71-2
+- Adapt to upstream file changes.
+
 * Thu Dec 06 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181205.235300.75238d71-1
 - Update to latest snapshot.
 
