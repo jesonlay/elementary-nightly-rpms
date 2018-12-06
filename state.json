@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "18d72dc0c371f2aad42537d2f4f1825abbe8a177",
-            "git_last_date": "181203.205920",
+            "git_last_commit": "7dd27f12e98142bf3206a94e382040a27d711cb9",
+            "git_last_date": "181206.193646",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.2",
