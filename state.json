@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5bbbe99221521e4d060ae9b40f9a51cbe364dc95",
-            "git_last_date": "181204.001012",
+            "git_last_commit": "83bca8521a7b4518b39b009c0d4e0f1b49db0662",
+            "git_last_date": "181206.173601",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -432,8 +432,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "07aef82df9f139ef7185e7150c7f212f4b6aa81c",
-            "git_last_date": "181201.182412",
+            "git_last_commit": "08229e711cd91be1308e22d221947bb901270097",
+            "git_last_date": "181206.173611",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
