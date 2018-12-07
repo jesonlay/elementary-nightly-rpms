@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93f4dd2418c9215f13e930b91e0c8d5e663de4a9",
-            "git_last_date": "181207.052404",
+            "git_last_commit": "a0b2ca1891350d3ce2ff07a7b7fb7f7a09e80f92",
+            "git_last_date": "181207.174426",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.1",
@@ -322,8 +322,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b9cb097045604ef9abac61eef2c101fb493a479",
-            "git_last_date": "181207.101016",
+            "git_last_commit": "d20c1147fbba40e4ef2607f8d5323f1516529d49",
+            "git_last_date": "181207.170916",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.3",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06a82e8655c82b1126f529020d0e8c3ab5b1fb86",
-            "git_last_date": "181207.031113",
+            "git_last_commit": "a04df24bc2f5f90698b3fad7d055428c949eb9f4",
+            "git_last_date": "181207.171106",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.0",
