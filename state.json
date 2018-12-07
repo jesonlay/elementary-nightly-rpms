@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "31b3e35d8aee498a133cdcd14b2c3bc6971a0709",
-            "git_last_date": "181202.064418",
+            "git_last_commit": "e212056dd162e34765cef18fbed6d03679bb6456",
+            "git_last_date": "181207.025111",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -278,8 +278,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "730de6b742473fd33ba73b44a8bc95c06f887f93",
-            "git_last_date": "181202.064856",
+            "git_last_commit": "ee5610b85cfcecbbb22e18b7f6c49d016f812540",
+            "git_last_date": "181207.024751",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.6",
