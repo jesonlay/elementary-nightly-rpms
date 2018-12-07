@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3705f3da5e8f77d7c2ebf4326e4b0a3515a073b1",
-            "git_last_date": "181202.062114",
+            "git_last_commit": "93f4dd2418c9215f13e930b91e0c8d5e663de4a9",
+            "git_last_date": "181207.052404",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.1",
@@ -355,12 +355,12 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "75238d71d91421f7b6666be053132adb8d276bd6",
-            "git_last_date": "181205.235300",
+            "git_last_commit": "4b3333467271cd4053f177058566eb73ea906337",
+            "git_last_date": "181207.053729",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.4+git%{date}.%{commit}"
         },
         "100": {
@@ -597,8 +597,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ee4702669218c5dd363bb47a4537a3d2396df3db",
-            "git_last_date": "181129.120801",
+            "git_last_commit": "34fca8093b8f1bf307ace8f6d86da51c1f4b9d9a",
+            "git_last_date": "181207.052456",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
