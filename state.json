@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6875a0734fc5c95958933270249f84c304114416",
-            "git_last_date": "181206.220243",
+            "git_last_commit": "da5b7615d83256304731179167385daeaf83be12",
+            "git_last_date": "181207.000032",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a7964354957e7c135410020041acb350ef286a37",
-            "git_last_date": "181206.225714",
+            "git_last_commit": "8787324b9e93da0246da1276ef36f6ea50b460a8",
+            "git_last_date": "181206.230431",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
