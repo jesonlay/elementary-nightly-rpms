@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7d64e6959701258b1c8a2aa78563acfc92989ad9",
-            "git_last_date": "181207.000258",
+            "git_last_commit": "95b699e51d9415d091a3ae63703159d6b131a1ce",
+            "git_last_date": "181208.000411",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -564,8 +564,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "83076780fbc05f40ddd3835f04dd9d8053a487a5",
-            "git_last_date": "181202.201456",
+            "git_last_commit": "e37b52c21f3671c6f7b50293b9f0b90799752687",
+            "git_last_date": "181208.000428",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
@@ -597,8 +597,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "34fca8093b8f1bf307ace8f6d86da51c1f4b9d9a",
-            "git_last_date": "181207.052456",
+            "git_last_commit": "84cae4c8d814da04b2c07836b19bd43308642009",
+            "git_last_date": "181208.000436",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
