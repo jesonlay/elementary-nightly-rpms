@@ -5,7 +5,7 @@
 
 Name:           wingpanel-applications-menu
 Summary:        Lightweight and stylish app launcher
-Version:        2.4.0+git%{date}.%{commit}
+Version:        2.4.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -36,7 +36,6 @@ BuildRequires:  pkgconfig(wingpanel-2.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 Requires:       redhat-menus
-Requires:       zeitgeist
 
 Requires:       wingpanel%{?_isa}
 Supplements:    wingpanel%{?_isa}
@@ -80,6 +79,9 @@ popd
 
 
 %changelog
+* Sat Dec 08 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git181207.184124.99898341-1
+- Update to version 2.4.1.
+
 * Fri Dec 07 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.0+git181207.184124.99898341-1
 - Update to latest snapshot.
 
