@@ -3,7 +3,7 @@
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
 Version:        2.3.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -135,6 +135,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Dec 10 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git181210.193628.209eb936-1
+- Update to latest snapshot.
+
 * Tue Dec 04 2018 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git181204.072127.86bc5169-2
 - Bump granite requirement to >= 5.2.0.
 
