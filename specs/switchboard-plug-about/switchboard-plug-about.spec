@@ -3,16 +3,19 @@
 %global plug_type hardware
 %global plug_name about
 
+%global plug_rdnn io.elementary.switchboard-plug-about
+
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
 Version:        2.5.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -46,14 +49,24 @@ This switchboard plug shows system information.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
 
 %changelog
+* Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.5.2+git181210.204030.fbe82aa3-2
+- Adapt to added appdata file.
+
 * Mon Dec 10 2018 Fabio Valentini <decathorpe@gmail.com> - 2.5.2+git181210.204030.fbe82aa3-1
 - Update to latest snapshot.
 
