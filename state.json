@@ -91,12 +91,12 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "712baac7aee4d555975ddda1330223e864d6405f",
-            "git_last_date": "181211.121438",
+            "git_last_commit": "aa6737dc8ed3315e553b1331602a258b8978315a",
+            "git_last_date": "181211.145315",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "70": {
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9758b4790762611f6282204c80e539f90dcce2c0",
-            "git_last_date": "181211.121511",
+            "git_last_commit": "a56af4b6f4fe01eeccaeec5827ce791eedb7683b",
+            "git_last_date": "181211.145409",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b402c134850e80af7ddcdaa12dea00785223a07b",
-            "git_last_date": "181211.120704",
+            "git_last_commit": "710fd8d9b7d8768088bacdea93154b2c6e58c7b6",
+            "git_last_date": "181211.145251",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
@@ -575,12 +575,12 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "75993f99333f6ca31006d9e69e42b5efc21c9089",
-            "git_last_date": "181211.124522",
+            "git_last_commit": "d6a38f516ca4edbcd9ef55ce84820787798f3cbe",
+            "git_last_date": "181211.145342",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.1+git%{date}.%{commit}"
         },
         "129": {
