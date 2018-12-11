@@ -7,8 +7,8 @@
 
 Name:           switchboard-plug-networking
 Summary:        Switchboard Networking plug
-Version:        2.1.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Version:        2.1.4+git%{date}.%{commit}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -68,6 +68,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181211.071158.d148be60-1
+- Update to version 2.1.4.
+
 * Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181211.071158.d148be60-2
 - Adapt to added appdata file.
 
