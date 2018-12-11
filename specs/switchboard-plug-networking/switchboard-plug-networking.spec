@@ -3,16 +3,19 @@
 %global plug_type network
 %global plug_name networking
 
+%global plug_rdnn io.elementary.switchboard.network
+
 Name:           switchboard-plug-networking
 Summary:        Switchboard Networking plug
 Version:        2.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -50,14 +53,24 @@ A switchboard plug for configuring available networks.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
 
 %changelog
+* Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181211.071158.d148be60-2
+- Adapt to added appdata file.
+
 * Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181211.071158.d148be60-1
 - Update to latest snapshot.
 
