@@ -3,16 +3,19 @@
 %global plug_name datetime
 %global plug_type system
 
+%global plug_rdnn io.elementary.switchboard-plug-datetime
+
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Date and Time plug
 Version:        2.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -45,14 +48,24 @@ A switchboard plug to configure date and time settings.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
 
 %changelog
+* Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181210.214814.caff3063-2
+- Adapt to added appdata file.
+
 * Mon Dec 10 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git181210.214814.caff3063-1
 - Update to latest snapshot.
 
