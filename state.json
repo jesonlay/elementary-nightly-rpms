@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "050f7db46b8f49c32d2a1b61d3afc1dc2a19cd15",
-            "git_last_date": "181202.064801",
+            "git_last_commit": "a241faa097e729ba05fc6b92f53b210c7af7377f",
+            "git_last_date": "181211.151043",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.4",
@@ -201,8 +201,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "056baec8ccda0724f4870a882fe183ec75e91d48",
-            "git_last_date": "181107.015451",
+            "git_last_commit": "8509ad19b8c5a04af52de7889780237cdf951761",
+            "git_last_date": "181211.151056",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
@@ -245,8 +245,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8945eba27ae402c03f4275ec8f52f85e86f3dc0f",
-            "git_last_date": "181121.181039",
+            "git_last_commit": "9824eabc6f5b18a002618ee54c2dc50dffa629fe",
+            "git_last_date": "181211.151040",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.1",
@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1da23ced7fe7c73b6c253e74b2b1cdb82b36b899",
-            "git_last_date": "181211.071055",
+            "git_last_commit": "ec0f1ebb6186f2fa48e99307e5ce64707270f0a0",
+            "git_last_date": "181211.151053",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -366,12 +366,12 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4186f6ae5b058abdddbd83c281149df977533438",
-            "git_last_date": "181211.065839",
+            "git_last_commit": "81f76cfdb67d247a36c923899b4913b9ab3a7dcd",
+            "git_last_date": "181211.151048",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "101": {
