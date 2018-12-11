@@ -3,16 +3,19 @@
 %global plug_type hardware
 %global plug_name display
 
+%global plug_rdnn io.elementary.switchboard-plug-display
+
 Name:           switchboard-plug-display
 Summary:        Switchboard Display plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -45,14 +48,24 @@ them.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
 
 %changelog
+* Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181211.121438.712baac7-2
+- Adapt to added appdata file.
+
 * Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181211.071114.d8f3a98a-1
 - Update to latest snapshot.
 
