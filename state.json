@@ -399,8 +399,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4ab8d35257ec662b08965b1e0abdc822c1f18439",
-            "git_last_date": "181211.022423",
+            "git_last_commit": "9b9bfe16997fc56dd767b8bb8e4e21b267006f4a",
+            "git_last_date": "181211.043744",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.2",
