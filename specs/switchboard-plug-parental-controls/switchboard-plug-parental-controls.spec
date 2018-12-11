@@ -3,10 +3,12 @@
 %global plug_name parental-controls
 %global plug_type system
 
+%global plug_rdnn io.elementary.switchboard.parental-controls
+
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Parental Controls plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -14,6 +16,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  systemd
 BuildRequires:  vala >= 0.34.1
@@ -54,6 +57,9 @@ An easy parental controls plug.
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/pantheon-parental-controls-client.desktop
 
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
 
 %post
 %systemd_post pantheon-parental-controls.service
@@ -82,12 +88,16 @@ desktop-file-validate \
 
 %{_datadir}/applications/pantheon-%{plug_name}-client.desktop
 %{_datadir}/dbus-1/system-services/org.pantheon.ParentalControls.service
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.%{plug_name}.policy
 
 %{_unitdir}/pantheon-%{plug_name}.service
 
 
 %changelog
+* Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181211.065839.4186f6ae-2
+- Adapt to added appdata file.
+
 * Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181211.065839.4186f6ae-1
 - Update to latest snapshot.
 
