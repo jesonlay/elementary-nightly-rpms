@@ -6,7 +6,7 @@
 Name:           wingpanel-applications-menu
 Summary:        Lightweight and stylish app launcher
 Version:        2.4.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -24,7 +24,7 @@ BuildRequires:  appstream-vala
 BuildRequires:  pkgconfig(appstream) >= 0.10.0
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(granite) >= 5.2.1
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12.0
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libgnome-menu-3.0)
@@ -79,6 +79,9 @@ popd
 
 
 %changelog
+* Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git181211.124522.75993f99-2
+- Require granite >= 5.2.1.
+
 * Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git181211.124522.75993f99-1
 - Update to latest snapshot.
 
