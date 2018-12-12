@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "383ae7ad63bc27d6553b243633287b212abc788f",
-            "git_last_date": "181210.202643",
+            "git_last_commit": "a4480409a4fb7ac4bd7aefee0bcb2e6d60816a38",
+            "git_last_date": "181212.090009",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "398ba0982cb6d7f7df6a4649bbc0ba92ff9cf172",
-            "git_last_date": "181212.075108",
+            "git_last_commit": "04a8ef869bce421827cef90fd69d1bc8efc0ea72",
+            "git_last_date": "181212.084925",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
