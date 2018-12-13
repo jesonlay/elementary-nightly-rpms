@@ -1,19 +1,21 @@
 %global appname io.elementary.desktop.wingpanel
 
+%global common_description %{expand:
+Stylish top panel that holds indicators and spawns an application
+launcher.}
+
 Name:           wingpanel
 Summary:        Stylish top panel
 Version:        2.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
 BuildRequires:  desktop-file-utils
-BuildRequires:  gcc
-BuildRequires:  gcc-c++
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.24.0
 
 BuildRequires:  pkgconfig(gala)
@@ -24,17 +26,12 @@ BuildRequires:  pkgconfig(granite)
 
 Requires:       hicolor-icon-theme
 
-
-%description
-Stylish top panel that holds indicators and spawns an application
-launcher.
+%description %{common_description}
 
 
 %package        libs
 Summary:        Stylish top panel (shared library)
-%description    libs
-Stylish top panel that holds indicators and spawns an application
-launcher.
+%description    libs %{common_description}
 
 This package contains the shared library.
 
@@ -42,9 +39,7 @@ This package contains the shared library.
 %package        devel
 Summary:        Stylish top panel (development files)
 Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
-%description    devel
-Stylish top panel that holds indicators and spawns an application
-launcher.
+%description    devel %{common_description}
 
 This package contains the files required for developing for wingpanel.
 
@@ -54,16 +49,12 @@ This package contains the files required for developing for wingpanel.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
 
 %find_lang wingpanel
 
@@ -79,22 +70,22 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/wingpanel.desktop
 
 
-%post   libs -p /sbin/ldconfig
-%postun libs -p /sbin/ldconfig
-
-
 %files -f wingpanel.lang
+%license COPYING
+%doc README.md
+
 %{_bindir}/wingpanel
 
 %{_libdir}/gala/plugins/libwingpanel-interface.so
 
 %{_datadir}/applications/wingpanel.desktop
-%{_datadir}/glib-2.0/schemas/io.elementary.desktop.wingpanel.gschema.xml
+%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
 %{_datadir}/icons/hicolor/scalable/apps/wingpanel.svg
 
 
 %files libs
 %license COPYING
+%doc README.md
 
 %dir %{_sysconfdir}/wingpanel.d
 %dir %{_libdir}/wingpanel
@@ -104,6 +95,9 @@ desktop-file-validate \
 
 
 %files devel
+%license COPYING
+%doc README.md
+
 %{_includedir}/wingpanel-2.0/
 
 %{_libdir}/libwingpanel-2.0.so
@@ -114,6 +108,9 @@ desktop-file-validate \
 
 
 %changelog
+* Thu Dec 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181211.225715.dd64ba82-2
+- Adapt to CMake -> meson switch.
+
 * Tue Dec 11 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181211.225715.dd64ba82-1
 - Update to latest snapshot.
 
