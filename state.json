@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9dda8e96446c5e57405a263571795d7b080818e8",
-            "git_last_date": "181212.205552",
+            "git_last_commit": "705374d02000bcda74cab6db5b0fee50f5cc56c9",
+            "git_last_date": "181214.210812",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.2",
@@ -542,8 +542,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cefb440c0fe2c0cd83ba5bdf482e6e7d4ff4edc3",
-            "git_last_date": "181212.060621",
+            "git_last_commit": "017a10a919c15b60d9736091b45e4e47743c11be",
+            "git_last_date": "181214.210953",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
