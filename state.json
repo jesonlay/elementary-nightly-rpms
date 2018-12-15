@@ -311,8 +311,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06d548a36ba4774074403a81d1c569595d2e8750",
-            "git_last_date": "181211.110340",
+            "git_last_commit": "d4777a0f2925c68267f6e612776814b0a28684ba",
+            "git_last_date": "181215.144320",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.1",
@@ -542,8 +542,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a0a58e09ae62c49e8a2f78b5fd181ae44eb52667",
-            "git_last_date": "181214.220644",
+            "git_last_commit": "9e06f3f3675d4398dcc759db7676523e7c0917b1",
+            "git_last_date": "181215.145511",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
