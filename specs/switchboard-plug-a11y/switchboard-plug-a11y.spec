@@ -3,12 +3,12 @@
 %global plug_type system
 %global plug_name accessibility
 
-%global plug_rdnn io.elementary.switchboard-plug-a11y
+%global plug_rdnn io.elementary.switchboard.a11y
 
 Name:           switchboard-plug-a11y
 Summary:        Switchboard Accessibility plug
 Version:        2.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -64,6 +64,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Dec 16 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181215.131845.aefefaa0-2
+- Adapt to fixes appdata file name.
+
 * Sat Dec 15 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181215.131845.aefefaa0-1
 - Update to latest snapshot.
 
