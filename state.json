@@ -124,12 +124,12 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "aefefaa071e4717b25abe4a198263de5d071fa78",
-            "git_last_date": "181215.131845",
+            "git_last_commit": "f6662ac5269fef4a7b344575e2b977d17116be7e",
+            "git_last_date": "181216.193706",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.3+git%{date}.%{commit}"
         },
         "74": {
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b34a29abb310b554a572501f80430db78be732bf",
-            "git_last_date": "181213.140727",
+            "git_last_commit": "9dc906a3ebb198725bde251ec589a988c2f40842",
+            "git_last_date": "181216.192915",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
@@ -498,8 +498,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "11903ec6765a796ebdf3c14d428246badb85c9fc",
-            "git_last_date": "181209.000032",
+            "git_last_commit": "d40820e820c273ff50c407351e83d934046108d2",
+            "git_last_date": "181216.192437",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cab4f502bad4d41d697ea3ac2876074dc992874c",
-            "git_last_date": "181216.000154",
+            "git_last_commit": "c4cd0930087ed29863fe71a238d4bc7feafc1256",
+            "git_last_date": "181216.190823",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
