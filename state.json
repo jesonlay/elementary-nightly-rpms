@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a241faa097e729ba05fc6b92f53b210c7af7377f",
-            "git_last_date": "181211.151043",
+            "git_last_commit": "1d6c4a5794635baf760ffd15cf213c7372dfd399",
+            "git_last_date": "181217.010353",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.4",
@@ -245,8 +245,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9824eabc6f5b18a002618ee54c2dc50dffa629fe",
-            "git_last_date": "181211.151040",
+            "git_last_commit": "a9522692285e1a3dbc7f2988088adb640b749c56",
+            "git_last_date": "181217.010356",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.1",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3ed8e54e1e59eae42eed76cd1dc6f87ab0dcae7d",
-            "git_last_date": "181215.160138",
+            "git_last_commit": "a28375c75e97317f281696985d3ffbe624d40b41",
+            "git_last_date": "181217.010359",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
