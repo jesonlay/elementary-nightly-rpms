@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3ec27019c9c95e03a5613017b8fb59dd9e3d8a19",
-            "git_last_date": "181217.130827",
+            "git_last_commit": "e65e3722345224ded93f0ac97abd1d2da5b5f875",
+            "git_last_date": "181217.142859",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.2",
@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "323aebd1695d109b25ae3bc8615847989018fd5a",
-            "git_last_date": "181217.130317",
+            "git_last_commit": "8dcd41e0c6fb8d322456753c177b245276ad55e6",
+            "git_last_date": "181217.142714",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "153e2c1143ec3590c57efd37ac63892c08bcca65",
-            "git_last_date": "181217.130211",
+            "git_last_commit": "2066b377226cf327cb2d5399b6b40a2d36d47b11",
+            "git_last_date": "181217.145310",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.2",
