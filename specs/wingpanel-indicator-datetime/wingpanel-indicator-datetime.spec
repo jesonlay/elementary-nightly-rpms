@@ -5,24 +5,26 @@
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
 Version:        2.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  gcc
+# the "clock-format" GSettings key has been moved to granite
+# to resolve a circular dependency and to fix third-party apps
+Patch0:         00-move-clock-format-settings-to-granite.patch
+
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
-BuildRequires:  pkgconfig(granite) >= 5.0
+BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libecal-1.2)
 BuildRequires:  pkgconfig(libedataserver-1.2)
 BuildRequires:  pkgconfig(libical)
-BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
 Requires:       wingpanel%{?_isa}
@@ -34,7 +36,7 @@ A datetime indicator for wingpanel.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
@@ -58,6 +60,9 @@ A datetime indicator for wingpanel.
 
 
 %changelog
+* Mon Dec 17 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181215.125534.7f8d29bf-2
+- Adapt to downstream-patched granite.
+
 * Sat Dec 15 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git181215.125534.7f8d29bf-1
 - Update to latest snapshot.
 
