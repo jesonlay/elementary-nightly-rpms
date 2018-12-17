@@ -1,67 +1,54 @@
+%global common_description %{expand:
+Granite is a companion library for GTK+ and GLib. Among other things, it
+provides complex widgets and convenience functions designed for use in
+apps built for elementary.}
+
 Name:           granite
-Summary:        elementary Development Library
+Summary:        elementary companion library for GTK+ and GLib
 Version:        5.2.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
+Patch1:         01-DateTime-include-clock-format-gsettings-key-here.patch
+
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  vala
+BuildRequires:  meson
+BuildRequires:  vala >= 0.40
 
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(gtk+-3.0)
+BuildRequires:  pkgconfig(gtk+-3.0) >= 3.22
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 
 # granite provides and needs some generic icons
 Requires:       hicolor-icon-theme
 
-# granite requires the clock-format gsettings key from the datetime indicator
-Requires:       wingpanel-indicator-datetime
-
-
-%description
-An extension to GTK+ that provides several useful widgets and classes
-to ease application development.
+%description %{common_description}
 
 
 %package        devel
 Summary:        Granite Toolkit development headers
 Requires:       %{name}%{?_isa} = %{version}-%{release}
-%description    devel
-An extension to GTK+ that provides several useful widgets and classes
-to ease application development.
+%description    devel %{common_description}
 
 This package contains the development headers.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
-%if 0%{?suse_version}
-%cmake -DCMAKE_INSTALL_LIBDIR:PATH=%{_lib}
-%endif
-
-%if 0%{?mageia}
-%cmake
-%endif
-
-%if 0%{?fedora}
-mkdir build && pushd build
-%cmake ..
-%endif
-
-%make_build
+%meson
+%meson_build
 
 
 %install
-%make_install -C build
+%meson_install
 
 %find_lang granite
 
@@ -71,17 +58,16 @@ desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/granite-demo.desktop
 
 
-%post   -p /sbin/ldconfig
-%postun -p /sbin/ldconfig
-
-
 %files -f granite.lang
-%doc AUTHORS README.md
+%doc README.md
 %license COPYING
 
 %{_libdir}/libgranite.so.5
-%{_libdir}/libgranite.so.5.0
+%{_libdir}/libgranite.so.5.*
+
 %{_libdir}/girepository-1.0/Granite-1.0.typelib
+
+%{_datadir}/glib-2.0/schemas/io.elementary.granite.gschema.xml
 
 %{_datadir}/icons/hicolor/*/actions/appointment.svg
 %{_datadir}/icons/hicolor/*/actions/open-menu.svg
@@ -103,6 +89,9 @@ desktop-file-validate \
 
 
 %changelog
+* Mon Dec 17 2018 Fabio Valentini <decathorpe@gmail.com> - 5.2.2+git181217.145310.2066b377-2
+- Adapt to CMake -> meson switch.
+
 * Mon Dec 17 2018 Fabio Valentini <decathorpe@gmail.com> - 5.2.2+git181217.145310.2066b377-1
 - Update to latest snapshot.
 
