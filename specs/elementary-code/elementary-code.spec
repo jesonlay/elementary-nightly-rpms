@@ -5,7 +5,7 @@
 
 Name:           elementary-code
 Summary:        Code editor from elementary
-Version:        3.0+git%{date}.%{commit}
+Version:        3.0.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -122,6 +122,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Dec 18 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0.1+git181216.192437.d40820e8-1
+- Update to version 3.0.1.
+
 * Sun Dec 16 2018 Fabio Valentini <decathorpe@gmail.com> - 3.0+git181216.192437.d40820e8-1
 - Update to latest snapshot.
 
