@@ -113,12 +113,12 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2066b377226cf327cb2d5399b6b40a2d36d47b11",
-            "git_last_date": "181217.145310",
+            "git_last_commit": "f1b29f52e3aaf0f5d6bba44c42617da265f679c8",
+            "git_last_date": "181218.103748",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.2.2+git%{date}.%{commit}"
         },
         "73": {
@@ -443,8 +443,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bb55a9d943c11ef251f9a5337d2ab6067632966f",
-            "git_last_date": "181206.164731",
+            "git_last_commit": "13d2ab37ac7938c4c9d3c31f7e2eb23eb0a6b251",
+            "git_last_date": "181218.103251",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.0",
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "73d5edb74a34c88fe55e914701d04514316eaaaa",
-            "git_last_date": "181217.105335",
+            "git_last_commit": "26b805a7a2fb9a3dbbd39b396246ea6a89cf4341",
+            "git_last_date": "181218.104203",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.2",
@@ -542,8 +542,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1e20c6661ea6c25920d6b88b6311df383d89a281",
-            "git_last_date": "181218.000146",
+            "git_last_commit": "d56f5e9ec4018fa8196b272b4dd4863010b5d29c",
+            "git_last_date": "181218.104953",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "21078307ad4536b6e01544932602880d1ddf2e3b",
-            "git_last_date": "181218.012448",
+            "git_last_commit": "347bf1618931c195e4e27c91298b368005b137fb",
+            "git_last_date": "181218.104429",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ca170dbae8213eee5dba7847f6fa65155257b007",
-            "git_last_date": "181218.060518",
+            "git_last_commit": "69c5cd6914c1676ceff394e0bc84aa6b64dbcb63",
+            "git_last_date": "181218.105514",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
