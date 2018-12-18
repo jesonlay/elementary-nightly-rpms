@@ -531,8 +531,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9f1e34e6b97b0ffd83b32bd45b57affcd892d3d6",
-            "git_last_date": "181218.053537",
+            "git_last_commit": "9965f3f36d6801564cab4c32a11691d059eff6c4",
+            "git_last_date": "181218.120714",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "592caf46a2ffc2981f3ccc0969a55d463896c344",
-            "git_last_date": "181218.110412",
+            "git_last_commit": "8eb41e0faee42f1072b7cffeb85d264bd86012f5",
+            "git_last_date": "181218.124158",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
