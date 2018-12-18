@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3cd606978298195d55df59e87b38a680ea64ebc2",
-            "git_last_date": "181217.061041",
+            "git_last_commit": "ca170dbae8213eee5dba7847f6fa65155257b007",
+            "git_last_date": "181218.060518",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
