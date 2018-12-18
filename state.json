@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8eb41e0faee42f1072b7cffeb85d264bd86012f5",
-            "git_last_date": "181218.124158",
+            "git_last_commit": "fb068e4be511fbd2a424c7c4b5d2d5dd3fa36158",
+            "git_last_date": "181218.163320",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
@@ -597,8 +597,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "df3d94e730217a670c659e931da0a8571cf88544",
-            "git_last_date": "181213.144614",
+            "git_last_commit": "961fc4c392113625c2d1264021cbd768f8c3e92e",
+            "git_last_date": "181218.163217",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
