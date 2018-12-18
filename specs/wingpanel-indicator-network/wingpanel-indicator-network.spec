@@ -50,6 +50,9 @@ A network indicator for wingpanel.
 
 
 %changelog
+* Tue Dec 18 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git181218.000208.73671139-1
+- Update to latest snapshot.
+
 * Sat Dec 15 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git181215.144320.d4777a0f-1
 - Update to latest snapshot.
 
