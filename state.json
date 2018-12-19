@@ -36,8 +36,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b5bcce79b6323ed15c29100d733db814f387390a",
-            "git_last_date": "181219.093808",
+            "git_last_commit": "ba28646dd445919db33b006f26e185c418d7bf45",
+            "git_last_date": "181219.103359",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0",
@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3f2c3411417f5328e7b83399dbc8e21f747c9b51",
-            "git_last_date": "181217.205843",
+            "git_last_commit": "ae2f42ae6f9fe702975e2a8cae504e94356acebe",
+            "git_last_date": "181219.110021",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f1b29f52e3aaf0f5d6bba44c42617da265f679c8",
-            "git_last_date": "181218.103748",
+            "git_last_commit": "e814b07d28da2e118d579c5d18327c9cd7b347a6",
+            "git_last_date": "181219.104935",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.2",
