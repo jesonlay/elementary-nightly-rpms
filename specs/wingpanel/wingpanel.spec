@@ -7,7 +7,7 @@ launcher.}
 Name:           wingpanel
 Summary:        Stylish top panel
 Version:        2.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -108,6 +108,9 @@ desktop-file-validate \
 
 
 %changelog
+* Thu Dec 20 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181220.122356.f9ad33a2-1
+- Update to latest snapshot.
+
 * Thu Dec 13 2018 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git181211.225715.dd64ba82-2
 - Adapt to CMake -> meson switch.
 
