@@ -36,8 +36,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0c31bf0e3902c75d7234708fe07ad9e137b0d95c",
-            "git_last_date": "181220.170041",
+            "git_last_commit": "a3c6c064e8022fe6d98f5306b03493483ac2c94f",
+            "git_last_date": "181220.184220",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0.1",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3c8194048a883499e365724a80b07c81b950d31",
-            "git_last_date": "181220.001032",
+            "git_last_commit": "e6848d574602dd0c661524156db474f12eb99ef7",
+            "git_last_date": "181220.185006",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
