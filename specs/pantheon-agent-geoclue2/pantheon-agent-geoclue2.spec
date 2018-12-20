@@ -3,7 +3,7 @@
 Name:           pantheon-agent-geoclue2
 Summary:        Pantheon Geoclue2 Agent
 Version:        1.0.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/pantheon-agent-geoclue2
@@ -12,6 +12,7 @@ Source1:        %{name}.conf
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
@@ -46,6 +47,9 @@ requests access to location services.
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
 
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
 
 %files -f pantheon-agent-geoclue2.lang
 %doc README.md
@@ -57,9 +61,13 @@ desktop-file-validate \
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Thu Dec 20 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.1+git181220.075844.14695675-2
+- Adapt to added appstream metadata.
+
 * Thu Dec 20 2018 Fabio Valentini <decathorpe@gmail.com> - 1.0.1+git181220.075844.14695675-1
 - Update to latest snapshot.
 
