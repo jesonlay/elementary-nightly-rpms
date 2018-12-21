@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6fa47c448bcc0e38f8229ca7a80e0f19b9a7918c",
-            "git_last_date": "181218.000113",
+            "git_last_commit": "09acfe149e54ea07090415b51b413267e1e359a1",
+            "git_last_date": "181221.020423",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.2",
@@ -443,8 +443,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d5f64cf411e4bd1a80e9111d028716a692b1fff2",
-            "git_last_date": "181220.001051",
+            "git_last_commit": "7c50bf76e8aaa95661e590fe015aac8f7175059f",
+            "git_last_date": "181221.020229",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.0",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "91e05f1179be02da3478d227c47f5a4cc17b8986",
-            "git_last_date": "181220.214604",
+            "git_last_commit": "c7d10a90c5f5847c98badadd1d8bed3a25ba5563",
+            "git_last_date": "181221.021103",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
