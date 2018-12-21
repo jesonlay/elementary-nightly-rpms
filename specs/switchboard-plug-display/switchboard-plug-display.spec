@@ -7,7 +7,7 @@
 
 Name:           switchboard-plug-display
 Summary:        Switchboard Display plug
-Version:        2.1.5+git%{date}.%{commit}
+Version:        2.1.6+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -63,6 +63,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Dec 21 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.6+git181221.141801.fd6d363d-1
+- Update to version 2.1.6.
+
 * Wed Dec 19 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git181219.000749.9ec2680c-1
 - Update to latest snapshot.
 
