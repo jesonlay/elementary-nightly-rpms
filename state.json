@@ -443,8 +443,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7c50bf76e8aaa95661e590fe015aac8f7175059f",
-            "git_last_date": "181221.020229",
+            "git_last_commit": "188a952d71abcd540493c19ace5156adbb75be48",
+            "git_last_date": "181221.195112",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.0",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d19d2fbd506e744d9e7aedf8c7a2ce54fb1108d4",
-            "git_last_date": "181221.082200",
+            "git_last_commit": "7767053900ce78666add6b5e542cfd552a0713cf",
+            "git_last_date": "181221.192730",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
