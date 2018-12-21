@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "09acfe149e54ea07090415b51b413267e1e359a1",
-            "git_last_date": "181221.020423",
+            "git_last_commit": "6e3f203bf37fc3ea05156d6b343221d7ecd93fa8",
+            "git_last_date": "181221.112938",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.7.2",
@@ -476,8 +476,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a4a29d2b62384e68617360a1c7c51e337e593ec6",
-            "git_last_date": "181212.230206",
+            "git_last_commit": "701b65839146d60c4f27d50132943ff73d7d7ba9",
+            "git_last_date": "181221.111420",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.1",
