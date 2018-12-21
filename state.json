@@ -245,8 +245,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6220282e48236cb8ebc12020f3a8faab69c9886a",
-            "git_last_date": "181217.113217",
+            "git_last_commit": "de3477f664499063359182ce0899e4aa5354a547",
+            "git_last_date": "181221.063240",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.1",
@@ -256,8 +256,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bc6d4c1a94bb0d9943e2b38e10a53701b25bc994",
-            "git_last_date": "181218.000203",
+            "git_last_commit": "4c5a6b514ea2ae28ea01500a254bc399466824f9",
+            "git_last_date": "181221.070002",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.3",
