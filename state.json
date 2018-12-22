@@ -245,8 +245,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b7b5e1ea75f8591b729e9a4f6e8b494e685ce78f",
-            "git_last_date": "181221.124630",
+            "git_last_commit": "5913abfb1a7308d5621aefba674441f5f30266b1",
+            "git_last_date": "181222.000948",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.2",
@@ -476,8 +476,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "701b65839146d60c4f27d50132943ff73d7d7ba9",
-            "git_last_date": "181221.111420",
+            "git_last_commit": "86486f99d8266faccecd4a1fe38ac950e7a0996b",
+            "git_last_date": "181222.000903",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.1",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8c51022c28b8e9646346705ba3b30ebf9eb1f5a0",
-            "git_last_date": "181217.105444",
+            "git_last_commit": "b68e71390bc747899664c883b422c514d945c6b8",
+            "git_last_date": "181222.000941",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
