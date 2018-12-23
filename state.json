@@ -531,8 +531,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9965f3f36d6801564cab4c32a11691d059eff6c4",
-            "git_last_date": "181218.120714",
+            "git_last_commit": "e52c23c716c950ee53beeb35a07a9a9d9c02fbe8",
+            "git_last_date": "181223.065526",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.2",
@@ -542,8 +542,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d827c02c813c51993a38a629e758ee639d453fbe",
-            "git_last_date": "181223.055815",
+            "git_last_commit": "ae65561b791d5abd8fc74d3b82e914594c47ccdb",
+            "git_last_date": "181223.060253",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
