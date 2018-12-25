@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b2098ef8d0a15ce523a84990303f55127dd21202",
-            "git_last_date": "181224.000724",
+            "git_last_commit": "4afb89ea7f93a3362e0dc16cad098f229018fbd1",
+            "git_last_date": "181225.000639",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c38941bb603876a9452ecfbf1b64220d7eff251e",
-            "git_last_date": "181224.105638",
+            "git_last_commit": "79c16aa201eb15f7559dfa4fd8e9436bd04b47fe",
+            "git_last_date": "181225.000621",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9bf61be35938db974a1f14dee4349462ab269f86",
-            "git_last_date": "181222.103318",
+            "git_last_commit": "f3588871e50c32bea04ac0cf42a0aa9948c28f25",
+            "git_last_date": "181225.000604",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
