@@ -8,7 +8,7 @@
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
 Version:        2.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -70,6 +70,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Dec 27 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181227.184558.2bb21cb2-1
+- Update to latest snapshot.
+
 * Tue Dec 25 2018 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git181223.190016.e0c8f6bf-2
 - Adapt to renamed appdata file.
 

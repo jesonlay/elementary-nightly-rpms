@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c2ee034f6f0c107dbd6c2cbf5672769496956592",
-            "git_last_date": "181220.170315",
+            "git_last_commit": "593be6873b47102233989f78a393dc2a4813e128",
+            "git_last_date": "181227.180031",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0.1",
@@ -432,12 +432,12 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e0c8f6bfc77a8c661ca2ed6c89268583b4c3e272",
-            "git_last_date": "181223.190016",
+            "git_last_commit": "2bb21cb2461f4f5e9a9d4c1c71bb1c84a43235bd",
+            "git_last_date": "181227.184558",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "116": {
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "79c16aa201eb15f7559dfa4fd8e9436bd04b47fe",
-            "git_last_date": "181225.000621",
+            "git_last_commit": "b2a92948a56e61276cfc43d7fcd1fb3c4874edc3",
+            "git_last_date": "181227.183152",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
