@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7944959fbeafaa643a60bee09067a05360f1b159",
-            "git_last_date": "181228.142021",
+            "git_last_commit": "d2cc8bb9865275a5ee6958c46b641c1a0997e533",
+            "git_last_date": "181229.000126",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "edab5a7ec3d29cc60d269a7be524524dc8f1b348",
-            "git_last_date": "181214.000748",
+            "git_last_commit": "f65e57abc826becfaed11b0ff11da4973c88dfe8",
+            "git_last_date": "181229.000043",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.0.1",
@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "40f16ce99b13eb5b8aae9aa4c33f5aa97ac2e100",
-            "git_last_date": "181213.142137",
+            "git_last_commit": "ce47b7e4b1fbce482a67df9bc3cc5f52d300c2ec",
+            "git_last_date": "181229.000122",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -344,8 +344,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8708a971c3affa8b599a97281acb43f7463de450",
-            "git_last_date": "181224.000700",
+            "git_last_commit": "9693de3208e220e738091ffd1208aa6d09bca440",
+            "git_last_date": "181229.000116",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0ca65ae05ededc901a8d391d657092bf24f77059",
-            "git_last_date": "181228.203415",
+            "git_last_commit": "03bf9692c130ba8b831d393f70c7646454d718cb",
+            "git_last_date": "181229.000106",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "52c9da812fb1eb93ae5d5fcbc34b09c227be3209",
-            "git_last_date": "181228.124139",
+            "git_last_commit": "74c9e41c9c1916c4fde292142121636383e5550c",
+            "git_last_date": "181229.004335",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
@@ -597,12 +597,12 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7f36454d0a52328ef1dac9e8245e45326bb6276a",
-            "git_last_date": "181218.202524",
+            "git_last_commit": "1d9d995d052005fe4572f611d9970fa3309ae57b",
+            "git_last_date": "181229.000059",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.3.1+git%{date}.%{commit}"
         },
         "131": {
