@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6c53ebf21ff98c4742cc84d6295cad09d99222b4",
-            "git_last_date": "190101.003642",
+            "git_last_commit": "3e70c1a4414c78fb3716d2654ca685c049da6a94",
+            "git_last_date": "190102.220839",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.3",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6ea0fa7af5341b5465f4fd310cc194d29dbe9da7",
-            "git_last_date": "181226.174415",
+            "git_last_commit": "7e357c0e75d85be9708276e50bb6b5e319c90f58",
+            "git_last_date": "190102.220510",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a00ef006f3497d4a895aff33c2750c9408a49084",
-            "git_last_date": "190102.190843",
+            "git_last_commit": "1b95b1969b5df37119a181a1ca45407af3ab763b",
+            "git_last_date": "190102.221722",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
