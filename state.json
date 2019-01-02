@@ -168,8 +168,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4dbcaa8eacf79769bd79a60cc32601057f28181e",
-            "git_last_date": "181202.053845",
+            "git_last_commit": "3abf1a2cda657cc80530a6a2fbb19e67a2ea35d5",
+            "git_last_date": "190102.115111",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.1.2",
@@ -289,8 +289,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "03852665c9088ece45b9fc3af0b037706e5425bd",
-            "git_last_date": "181223.184329",
+            "git_last_commit": "e396d9036732c3765559bfb1923a4795d634012d",
+            "git_last_date": "190102.115739",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.5",
