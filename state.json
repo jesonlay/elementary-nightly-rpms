@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ef8888550fd853d9bf05340782ebd338ba823080",
-            "git_last_date": "190103.000446",
+            "git_last_commit": "8b8ce064eaac2a98f231d1ed8cc11cbd57cb441a",
+            "git_last_date": "190103.190303",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cb2f73e3665aa657d00bcc8cd7a0785989e1c399",
-            "git_last_date": "190103.183624",
+            "git_last_commit": "c32c0c204853101ad7e218a881199a8612f26852",
+            "git_last_date": "190103.191344",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
