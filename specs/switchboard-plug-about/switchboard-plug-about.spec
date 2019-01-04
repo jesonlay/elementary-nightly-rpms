@@ -8,7 +8,7 @@
 Name:           switchboard-plug-about
 Summary:        Switchboard System Information plug
 Version:        2.5.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -64,6 +64,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Jan 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.5.2+git190104.000824.4b68893b-1
+- Update to latest snapshot.
+
 * Tue Dec 25 2018 Fabio Valentini <decathorpe@gmail.com> - 2.5.2+git181223.182750.b5dc10c5-2
 - Adapt to renamed appdata file.
 
