@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "16cd605137a7771380e94f9f943b70fbbfe5db91",
-            "git_last_date": "190105.082203",
+            "git_last_commit": "ff6daf0f9a6fed45ca0f51ad26b2da4f27b7b06a",
+            "git_last_date": "190105.181057",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5083f96a3cbe81146526ea4c48b69b3a522b2573",
-            "git_last_date": "190105.121448",
+            "git_last_commit": "1da543ce2f5999183c50046fa693e4e2071e9ef6",
+            "git_last_date": "190105.180703",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
