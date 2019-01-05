@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5f8ea72117ce132e9f91148a7f38cd1b7199380c",
-            "git_last_date": "190105.005406",
+            "git_last_commit": "93f5a91321345b2ed8d75724824428e1449bbf65",
+            "git_last_date": "190105.022035",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -531,8 +531,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c49dd9915325228bf6ca8e7f2234caf88bd1ef31",
-            "git_last_date": "190102.191546",
+            "git_last_commit": "ca67e1060effc9340d99ad5a90212acc6f53ac78",
+            "git_last_date": "190105.030021",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.2",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f40f66bf6d3306c81c3d22ccb25951df15ff16c8",
-            "git_last_date": "190104.005522",
+            "git_last_commit": "67860a7bd0d495c437aedbfa6ce8537cc1175a6f",
+            "git_last_date": "190105.025907",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
