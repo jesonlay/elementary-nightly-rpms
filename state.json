@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ff6daf0f9a6fed45ca0f51ad26b2da4f27b7b06a",
-            "git_last_date": "190105.181057",
+            "git_last_commit": "194fcff12f9f3e195cd503cda6c6a7c37c8f0e20",
+            "git_last_date": "190106.162138",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
@@ -432,8 +432,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5da165bca360030937ab6b3f8be2ff9a1cba3844",
-            "git_last_date": "190106.123235",
+            "git_last_commit": "9550673b072b2de50c4db4a00c856fd8cc6bf118",
+            "git_last_date": "190106.162337",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93f5a91321345b2ed8d75724824428e1449bbf65",
-            "git_last_date": "190105.022035",
+            "git_last_commit": "cec82988bcb70ad46e618fc8fd10b70adb16564e",
+            "git_last_date": "190106.162211",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
