@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "88fbdee3aabb01b1bb75a51c7270a91165749b8b",
-            "git_last_date": "190103.000439",
+            "git_last_commit": "c65cccb034c59843b534a3216a3d69d0b6b7e926",
+            "git_last_date": "190106.114025",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "13d353111c4fe77acf799f5671ae957eed1d9d2f",
-            "git_last_date": "190105.032712",
+            "git_last_commit": "1d2436454601709b0272465c27d2e7762bd108b5",
+            "git_last_date": "190106.115921",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.3",
@@ -542,8 +542,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9e68efe9b716eb56df8e819eb9350932f8af94a0",
-            "git_last_date": "190105.032530",
+            "git_last_commit": "d50c8ee39d1d7c4914cf36248250825168286f11",
+            "git_last_date": "190106.115027",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.2",
