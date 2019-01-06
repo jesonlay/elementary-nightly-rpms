@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d2cc8bb9865275a5ee6958c46b641c1a0997e533",
-            "git_last_date": "181229.000126",
+            "git_last_commit": "df39296a9eb906d9e83d8ed152ef2cfca3bfe165",
+            "git_last_date": "190106.122428",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
@@ -333,8 +333,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5243395c8aeb2c99a4cbfd823d52dbd6da6c1ac7",
-            "git_last_date": "190102.193123",
+            "git_last_commit": "0c08112dc24847bc4d282d6f03d493fabdb4c376",
+            "git_last_date": "190106.122714",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "2.1.4",
@@ -432,8 +432,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "49cdfc5d5f4e5a97e1fdd3cc71e962fda2c1e0ac",
-            "git_last_date": "190102.213410",
+            "git_last_commit": "5da165bca360030937ab6b3f8be2ff9a1cba3844",
+            "git_last_date": "190106.123235",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.1.2",
