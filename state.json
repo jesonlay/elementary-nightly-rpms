@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1eb43d1acd9799af7067d9e6e6b71ee40fd05009",
-            "git_last_date": "181219.000817",
+            "git_last_commit": "cc8dc4d27cae55c93172999d8c55e8a0e09ea08b",
+            "git_last_date": "190106.221935",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.4",
@@ -179,8 +179,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a61030b4d0ba20565ee2043ec3f3085c5addf3ca",
-            "git_last_date": "181219.000825",
+            "git_last_commit": "ed4c709ad746ccbd5d416a81f4e5af9bdd72b38a",
+            "git_last_date": "190106.222707",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.0",
@@ -267,8 +267,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b8ce064eaac2a98f231d1ed8cc11cbd57cb441a",
-            "git_last_date": "190103.190303",
+            "git_last_commit": "4a5b443e0a2604d81894e0874412a18312d55a49",
+            "git_last_date": "190106.223617",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.1.2",
@@ -443,8 +443,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f17de0e735446641aafb7ebd3a3d0cd4603ecb40",
-            "git_last_date": "190104.000843",
+            "git_last_commit": "2869830ae9a7a9b57b65c81934532efabf8ebfbf",
+            "git_last_date": "190106.225134",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.0",
