@@ -64,6 +64,9 @@ Control system power consumption with this Switchboard preference plug.
 
 
 %changelog
+* Mon Jan 07 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.4+git190107.000342.0a27eeb2-1
+- Update to latest snapshot.
+
 * Sun Jan 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.4+git190106.221935.cc8dc4d2-1
 - Update to latest snapshot.
 
