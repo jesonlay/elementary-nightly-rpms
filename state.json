@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "276647e14c066b7b406ffbcd402c2612b626c87a",
-            "git_last_date": "190108.165654",
+            "git_last_commit": "e494b52381a20f756c6270eba14ed0a425df5bce",
+            "git_last_date": "190108.182825",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "229fe85e373e5971a6de2739cc6e90534bdc7b5a",
-            "git_last_date": "190107.000306",
+            "git_last_commit": "11627e2e01b761d0965d605bdc93b9a6194886a5",
+            "git_last_date": "190108.180523",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
