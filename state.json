@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "075e79e9b9d0c751d64c7b7cb50f6be8e7681548",
-            "git_last_date": "190109.152228",
+            "git_last_commit": "36c122b652e44f9d3a2aa128c5fab5bc593a94d6",
+            "git_last_date": "190109.204032",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f3e6506da35c7c6d3ab372146c3dfa2ebb8a1b74",
-            "git_last_date": "190109.103925",
+            "git_last_commit": "dcd28a5a30c878306f35d67718a654992d2d87c1",
+            "git_last_date": "190109.204919",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
