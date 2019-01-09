@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8295109a5d44ad9e50ac3839f5e58f376a9f45c9",
-            "git_last_date": "181229.033312",
+            "git_last_commit": "17647bf231f2182f2f7eb8ba72eb8ff71b64c0f7",
+            "git_last_date": "190109.191258",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0.2",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3c3c27ecef056537bc813043235fcdb59ed9d5eb",
-            "git_last_date": "190106.181451",
+            "git_last_commit": "63e2d00b1a22211d1e1762be546ee38b452a3721",
+            "git_last_date": "190109.191342",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
