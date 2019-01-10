@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "12e434cd75b0c4e21c3a54ea2cc4a34379a4c6e0",
-            "git_last_date": "190102.195159",
+            "git_last_commit": "e35b3c1f106871f86d22a61c0e6be3f148deb68b",
+            "git_last_date": "190110.223909",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.2.1",
@@ -190,8 +190,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c089f51e176ba5c545dcefe1337f40ccf34a1219",
-            "git_last_date": "181221.095940",
+            "git_last_commit": "d10f8772d177ba3b424d6e29f45d559c40c3ea93",
+            "git_last_date": "190110.225039",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.1.2",
