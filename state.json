@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ceaca657409febf0a516b258de00acf3497d5bd2",
-            "git_last_date": "190110.000623",
+            "git_last_commit": "a6dfad5c871d83792bc395d7d4cca4ac4455efee",
+            "git_last_date": "190111.084317",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e2680f489140e43b7bc269c17bf33f0b2b06fa56",
-            "git_last_date": "190111.005611",
+            "git_last_commit": "d80ba1d75fd61670c047676558b1f16eb4685cc5",
+            "git_last_date": "190111.085607",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -498,12 +498,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c9b35e7f0ed44a17b95dd576989ec389da57393",
-            "git_last_date": "190109.210850",
+            "git_last_commit": "f3083be0e7e64d2eab11f72f50910986ec986ec2",
+            "git_last_date": "190111.085800",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.0.2+git%{date}.%{commit}"
         },
         "122": {
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2a6450e24649151d19f3c45a332b0d3848856040",
-            "git_last_date": "190111.003910",
+            "git_last_commit": "4cecb59dcbcadcbfc0a323c686b58d32cb546b54",
+            "git_last_date": "190111.085458",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
