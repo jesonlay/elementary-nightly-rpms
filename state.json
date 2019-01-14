@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d70f20a426694f91becaef6fae734fff8a4c26aa",
-            "git_last_date": "190114.132419",
+            "git_last_commit": "110e994761bb40e0b84d9f52228bc3fcbef5cfc1",
+            "git_last_date": "190114.163355",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2b97e86181cd669cf79c6c14b61e2588ecddf4e9",
-            "git_last_date": "190114.094206",
+            "git_last_commit": "d7162c647a32a040ecb22135664f063aeeec55a9",
+            "git_last_date": "190114.162816",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "174e12237e6ae16093d50fe142449b32b8dd5b1f",
-            "git_last_date": "190114.000240",
+            "git_last_commit": "b1a91d6ae2981f8d9dafec882d0c01ea9d83af2d",
+            "git_last_date": "190114.164004",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
