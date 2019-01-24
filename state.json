@@ -421,12 +421,12 @@
         "111": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "250e42792324cc2ca8e3a7bdd1f7071e74560716",
-            "git_last_date": "181004.182005",
+            "git_last_commit": "79d8168f5f618b5377ac3e8bcc614c4f364fe9bc",
+            "git_last_date": "190124.125456",
             "name": "contractor",
             "package_name": "contractor",
             "package_version": "0.3.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.3.4+git%{date}.%{commit}"
         },
         "115": {
