@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c273b5b7750433d04f39500a369105d6c1e2a2b8",
-            "git_last_date": "190119.000933",
+            "git_last_commit": "05a7ca57a2d0061b33197d6189ebb99ba9553911",
+            "git_last_date": "190125.184224",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "edee98870d021a9af145b742807388c3f865c641",
-            "git_last_date": "190124.091637",
+            "git_last_commit": "0b5ccad732602e77ea90d2c6aa2e91fc3cfadc41",
+            "git_last_date": "190125.184035",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7469d7a514effdb145914c2b9cf0539793ca73fb",
-            "git_last_date": "190125.000104",
+            "git_last_commit": "0c8be35e220148ce5b89642e95b04a952576d0b3",
+            "git_last_date": "190125.183150",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ec81394a8076695c029989094a868073d8287f81",
-            "git_last_date": "190125.000227",
+            "git_last_commit": "c6b550c506b8a07f4bd2bf2a9eaa876a6d84a207",
+            "git_last_date": "190125.184250",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
