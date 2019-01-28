@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -15,7 +15,6 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  appstream
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  intltool
 BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.0
@@ -87,8 +86,12 @@ appstream-util validate-relax --nonet \
 
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 %{_libdir}/%{appname}/
-%{_libdir}/libpantheon-files-core.so.0*
-%{_libdir}/libpantheon-files-widgets.so.0*
+
+%{_libdir}/libpantheon-files-core.so.0
+%{_libdir}/libpantheon-files-core.so.4.1.3
+
+%{_libdir}/libpantheon-files-widgets.so.0
+%{_libdir}/libpantheon-files-widgets.so.4.1.3
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/dbus-1/services/%{appname}.service
@@ -115,6 +118,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Jan 28 2019 Fabio Valentini <decathorpe@gmail.com> - 4.0+git190128.081043.50e5eb12-2
+- Adapt to renamed polkit policy file.
+
 * Mon Jan 28 2019 Fabio Valentini <decathorpe@gmail.com> - 4.0+git190128.081043.50e5eb12-1
 - Update to latest snapshot.
 
