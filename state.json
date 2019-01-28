@@ -333,8 +333,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "55de8ab747f88ee230451f56b26e3fd6e8613ae7",
-            "git_last_date": "190125.000124",
+            "git_last_commit": "4b5b77b8feff09a6945a81d1335193e469c87986",
+            "git_last_date": "190128.131832",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "2.1.4",
@@ -465,12 +465,12 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "50e5eb12e61035aaae676f6183444fce83f9c4ce",
-            "git_last_date": "190128.081043",
+            "git_last_commit": "261dd2456f8745d9fbc213d6af39aaaf81b47ba8",
+            "git_last_date": "190128.135043",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "4.0+git%{date}.%{commit}"
         },
         "119": {
