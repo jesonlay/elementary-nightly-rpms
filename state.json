@@ -498,8 +498,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a7122b209a662d6a06003d3c2550f7d57511e551",
-            "git_last_date": "190128.141848",
+            "git_last_commit": "70b34c6ef07623067bf3a17f6430fa15a82a2c43",
+            "git_last_date": "190128.152051",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0.2",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93ccc23f83d94b8d87d5b91a5ee6ec684b1176ea",
-            "git_last_date": "190128.080919",
+            "git_last_commit": "d52c54784d03040dc0b0ed4aa575e10cae3e1e9c",
+            "git_last_date": "190128.151757",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
