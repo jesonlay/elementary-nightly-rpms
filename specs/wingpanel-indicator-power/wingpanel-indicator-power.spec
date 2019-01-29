@@ -4,7 +4,7 @@
 
 Name:           wingpanel-indicator-power
 Summary:        Power indicator for wingpanel
-Version:        2.1.3+git%{date}.%{commit}
+Version:        2.1.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2+
 
@@ -56,6 +56,9 @@ A power indicator for wingpanel.
 
 
 %changelog
+* Tue Jan 29 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git190129.112347.a2a344ea-1
+- Update to version 2.1.4.
+
 * Tue Jan 29 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190129.112347.a2a344ea-1
 - Update to latest snapshot.
 
