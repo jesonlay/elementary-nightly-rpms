@@ -7,7 +7,7 @@
 
 Name:           switchboard-plug-applications
 Summary:        Switchboard Applications plug
-Version:        2.1.4+git%{date}.%{commit}
+Version:        2.1.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -64,6 +64,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Jan 29 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git190128.131832.4b5b77b8-1
+- Update to version 2.1.5.
+
 * Mon Jan 28 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git190128.131832.4b5b77b8-1
 - Update to latest snapshot.
 
