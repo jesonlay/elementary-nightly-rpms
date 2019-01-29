@@ -87,11 +87,8 @@ appstream-util validate-relax --nonet \
 %{_libdir}/gtk-3.0/modules/libpantheon-filechooser-module.so
 %{_libdir}/%{appname}/
 
-%{_libdir}/libpantheon-files-core.so.0
-%{_libdir}/libpantheon-files-core.so.4.1.3
-
-%{_libdir}/libpantheon-files-widgets.so.0
-%{_libdir}/libpantheon-files-widgets.so.4.1.3
+%{_libdir}/libpantheon-files-core.so.4*
+%{_libdir}/libpantheon-files-widgets.so.4*
 
 %{_datadir}/applications/%{appname}.desktop
 %{_datadir}/dbus-1/services/%{appname}.service
