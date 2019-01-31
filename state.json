@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f4c2af08bd6023b4340d172926dcdb0ce5d6c44e",
-            "git_last_date": "190122.160427",
+            "git_last_commit": "e4dfa8c84f457ee70c4809221b62b222e9ebd40e",
+            "git_last_date": "190131.215930",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.3",
@@ -564,8 +564,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1ce7c4208a39cacc260135ec8b9606fb5e35386c",
-            "git_last_date": "190112.000853",
+            "git_last_commit": "0476e58bba3dacc6fcdde0784d3003f258fd677b",
+            "git_last_date": "190131.215547",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.2",
@@ -597,8 +597,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "61d721360732f4d79a2830a95f8e6320484339cb",
-            "git_last_date": "190109.000540",
+            "git_last_commit": "15a69aca730349391fb6d4a37f7fd90bb291fb62",
+            "git_last_date": "190131.215234",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
