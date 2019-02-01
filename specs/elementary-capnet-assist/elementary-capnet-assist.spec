@@ -72,6 +72,9 @@ desktop-file-validate \
 
 
 %changelog
+* Fri Feb 01 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git190201.150729.8c46d87c-1
+- Update to latest snapshot.
+
 * Thu Jan 31 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git190131.215547.0476e58b-1
 - Update to latest snapshot.
 
