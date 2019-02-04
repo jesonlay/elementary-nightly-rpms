@@ -3,7 +3,7 @@
 
 Name:           elementary-screenshot-tool
 Summary:        Simple screen capture tool
-Version:        1.6.0+git%{date}.%{commit}
+Version:        1.6.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3
 
@@ -69,6 +69,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Feb 04 2019 Fabio Valentini <decathorpe@gmail.com> - 1.6.1+git190201.125410.62670a46-1
+- Update to version 1.6.1.
+
 * Fri Feb 01 2019 Fabio Valentini <decathorpe@gmail.com> - 1.6.0+git190201.125410.62670a46-1
 - Update to latest snapshot.
 
