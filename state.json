@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "29ba3881ab5aaba1f04be9190b66f4f83471c92d",
-            "git_last_date": "190203.120653",
+            "git_last_commit": "e3b1eb66a5bd85fd2b56a2e196d505f26add5f93",
+            "git_last_date": "190206.185103",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -564,8 +564,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8c46d87c3ca5a738cc49730d656ca1d1cfb53eaa",
-            "git_last_date": "190201.150729",
+            "git_last_commit": "fb494a824d15bd2e282133440b8bf09f339d0742",
+            "git_last_date": "190206.180921",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.3",
