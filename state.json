@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "92f24fcf8ee6b6dfc95e4a7f8730f25b1416fefa",
-            "git_last_date": "190126.153552",
+            "git_last_commit": "06ffdf6d272267dd94e60750e50643f650173fdb",
+            "git_last_date": "190206.174918",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.8.0",
@@ -157,12 +157,12 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0e99c98247a54c52c8deffad34af8c01bdad327b",
-            "git_last_date": "190206.000900",
+            "git_last_commit": "bfc32e83ff098c5d2656459f50c61541449044c2",
+            "git_last_date": "190206.175438",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.1.0+git%{date}.%{commit}"
         },
         "78": {
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0ccca7860ae0501e48b39512d474dd50c7522747",
-            "git_last_date": "190203.202823",
+            "git_last_commit": "3d8fd7e8ba9e8cea9e1e5cab09095af2ed6cfb2f",
+            "git_last_date": "190206.174550",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
