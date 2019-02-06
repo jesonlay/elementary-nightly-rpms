@@ -300,8 +300,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "74e7541c2b6e0a37890274cbf00698df8d21d62c",
-            "git_last_date": "190206.001502",
+            "git_last_commit": "9493139c78080d5d66efdb8b42510129ec1b6308",
+            "git_last_date": "190206.124717",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
@@ -344,8 +344,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ac93125428817d25baec504639e41c36c6ff2f14",
-            "git_last_date": "190206.083504",
+            "git_last_commit": "3d904a7562f115175d2b6e5610329d2937163aa3",
+            "git_last_date": "190206.125617",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
