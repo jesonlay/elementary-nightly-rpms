@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "69f320e3d6d54ff3c1eaa1647c6b3d2e5de4cce8",
-            "git_last_date": "190205.165056",
+            "git_last_commit": "0e99c98247a54c52c8deffad34af8c01bdad327b",
+            "git_last_date": "190206.000900",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
@@ -300,8 +300,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6654145bb2d53062e6ade1cb8901ff382bbc0e78",
-            "git_last_date": "190128.081758",
+            "git_last_commit": "74e7541c2b6e0a37890274cbf00698df8d21d62c",
+            "git_last_date": "190206.001502",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
