@@ -3,27 +3,18 @@
 Name:           appcenter
 Summary:        Software Center from elementary
 Version:        3.1.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
+BuildRequires:  appstream-vala
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
-
-BuildRequires:  /usr/bin/appstream-util
-
-%if 0%{?fedora}
-BuildRequires:  appstream-vala
-BuildRequires:  pkgconfig(unity) >= 4.0.0
-%endif
-
-%if 0%{?mageia}
-BuildRequires:  appstream-vala
-%endif
 
 BuildRequires:  pkgconfig(appstream) >= 0.10.0
 BuildRequires:  pkgconfig(gee-0.8)
@@ -35,6 +26,7 @@ BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(json-glib-1.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(packagekit-glib2)
+BuildRequires:  pkgconfig(unity) >= 4.0.0
 
 Requires:       PackageKit
 Requires:       hicolor-icon-theme
@@ -65,12 +57,7 @@ This package contains the gnome-shell search provider.
 
 
 %build
-%if 0%{?fedora}
-%meson -Dpayments=false -Dcurated=false
-%else
-%meson -Dpayments=false -Dcurated=false -Dlibunity=false
-%endif
-
+%meson -Dcurated=false -Dhomepage=false -Dpayments=false
 %meson_build
 
 
@@ -114,6 +101,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Feb 06 2019 Fabio Valentini <decathorpe@gmail.com> - 3.1.0+git190206.000900.0e99c982-2
+- Disable dynamic homepage by using the new meson flag.
+
 * Wed Feb 06 2019 Fabio Valentini <decathorpe@gmail.com> - 3.1.0+git190206.000900.0e99c982-1
 - Update to latest snapshot.
 

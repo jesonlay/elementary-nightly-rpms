@@ -162,7 +162,7 @@
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "3.1.0+git%{date}.%{commit}"
         },
         "78": {
