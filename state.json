@@ -366,8 +366,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dc8287beb20d071e60924834944815d3d05c0d88",
-            "git_last_date": "190206.220329",
+            "git_last_commit": "661051df9e27d1a9ce56fcdff117c339b5679740",
+            "git_last_date": "190207.012528",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
