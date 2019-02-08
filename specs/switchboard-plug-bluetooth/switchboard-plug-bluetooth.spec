@@ -7,7 +7,7 @@
 
 Name:           switchboard-plug-bluetooth
 Summary:        Switchboard Bluetooth plug
-Version:        2.2.0+git%{date}.%{commit}
+Version:        2.2.1+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -70,6 +70,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Feb 08 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190128.214013.0590059b-1
+- Update to version 2.2.1.
+
 * Mon Jan 28 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git190128.214013.0590059b-1
 - Update to latest snapshot.
 
