@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c118f9a1720bcd0f751d618d7408c5a8b3eebc00",
-            "git_last_date": "190207.122736",
+            "git_last_commit": "a11124dc675ceba3430db528b520836891fbc821",
+            "git_last_date": "190209.000553",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.0",
@@ -366,8 +366,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4d91dda11e1fc8000a54ec6eacfa09029b68345a",
-            "git_last_date": "190207.173334",
+            "git_last_commit": "97355a9817e13b86a5216468cd0da804b8add826",
+            "git_last_date": "190209.000621",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
