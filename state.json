@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8139d2ffe8616d7318bce6710ceaee2fb60c6baf",
-            "git_last_date": "190208.054252",
+            "git_last_commit": "96c57ced630a9062dcd6238bf7dd4e9facc70436",
+            "git_last_date": "190209.105458",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -344,8 +344,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ebb3f537270f7d41fc8ee9b5b620ac3485dc8d48",
-            "git_last_date": "190209.083111",
+            "git_last_commit": "99220cfa7bf114de3aca4123b58cd30b2a3ade54",
+            "git_last_date": "190209.105314",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "efe7ad19b3cdc561da20e999030674eacf4813ef",
-            "git_last_date": "190125.000139",
+            "git_last_commit": "62a2c0ae9fc2ada661a99a2ba67c3f51723f94ec",
+            "git_last_date": "190209.105110",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
@@ -366,8 +366,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a914b1119a9b4b040ae4b236c047c29f22396146",
-            "git_last_date": "190209.083031",
+            "git_last_commit": "b5c63f1a5dc42d478dd531419195b5e64561cb58",
+            "git_last_date": "190209.105344",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
