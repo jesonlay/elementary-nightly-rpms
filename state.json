@@ -344,8 +344,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e05fbfcd8f10d2c9349442189fe776122d7e7596",
-            "git_last_date": "190210.233241",
+            "git_last_commit": "23bea5b6752ee877cdd004a5215f578d73d53d8f",
+            "git_last_date": "190211.051058",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "87c6426480af53424af02bbaa8dc538a690f99aa",
-            "git_last_date": "190211.001055",
+            "git_last_commit": "45271e4d9436fc2017085f11e8b15a492af14340",
+            "git_last_date": "190211.054933",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
@@ -366,8 +366,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "96436b855997c9e6a47fd19fa1fe6792ab2385d7",
-            "git_last_date": "190210.233223",
+            "git_last_commit": "6c72bb132d180a126e5c78017ddb0280303a92a0",
+            "git_last_date": "190211.051150",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
@@ -575,8 +575,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93f60085a0c1e5cdb08152fd4617b95033a41b2f",
-            "git_last_date": "190210.233148",
+            "git_last_commit": "baa96e72302956bb96cb70ac81d461a868e5124d",
+            "git_last_date": "190211.051356",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
