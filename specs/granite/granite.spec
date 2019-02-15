@@ -5,8 +5,8 @@ apps built for elementary.}
 
 Name:           granite
 Summary:        elementary companion library for GTK+ and GLib
-Version:        5.2.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Version:        5.2.3+git%{date}.%{commit}
+Release:        1%{?dist}
 License:        LGPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -89,6 +89,9 @@ desktop-file-validate \
 
 
 %changelog
+* Fri Feb 15 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.3+git190214.213629.c6f47f11-1
+- Update to version 5.2.3.
+
 * Fri Feb 15 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.2+git190214.213629.c6f47f11-2
 - Refresh datetime gsettings patch.
 
