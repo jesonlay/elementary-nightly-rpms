@@ -179,8 +179,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e4bab4746938d820b2ff60cb9854ffb56e93c3b0",
-            "git_last_date": "190125.000159",
+            "git_last_commit": "17b8ab8ad4d13c9adbd0a17989891d323547126c",
+            "git_last_date": "190217.202103",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.0",
@@ -509,8 +509,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "62670a4627f0721d07d74a62a0f11dce757c663c",
-            "git_last_date": "190201.125410",
+            "git_last_commit": "f9507f5d2c2ec545e436483199c8bfbf5edbf721",
+            "git_last_date": "190217.202644",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.1",
