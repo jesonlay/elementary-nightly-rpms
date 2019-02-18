@@ -1,6 +1,6 @@
-From 61e0d02c054367007e156c9ac3a084dbd6de8278 Mon Sep 17 00:00:00 2001
+From 3f7ec44e1cc3a56c17c7dc3380842797cce2f5e2 Mon Sep 17 00:00:00 2001
 From: Fabio Valentini <decathorpe@gmail.com>
-Date: Fri, 15 Feb 2019 13:53:11 +0100
+Date: Mon, 18 Feb 2019 22:24:18 +0100
 Subject: [PATCH] DateTime: include "clock-format" gsettings key here
 
 ---
@@ -104,7 +104,7 @@ index 8c886be..5f95055 100644
  )
  
 diff --git a/meson/post_install.py b/meson/post_install.py
-index 1864515..5313f96 100755
+index 1864515..124a806 100755
 --- a/meson/post_install.py
 +++ b/meson/post_install.py
 @@ -6,11 +6,16 @@ import subprocess
@@ -122,7 +122,7 @@ index 1864515..5313f96 100755
      subprocess.run(['gtk-update-icon-cache', icons_dir])
  
 +    print('Compiling GSettings schemas ...')
-+    subprocess.run(['glib-compile-schemas', schemadir])
++    subprocess.run(['glib-compile-schemas', schema_dir])
 +
 -- 
 2.20.1

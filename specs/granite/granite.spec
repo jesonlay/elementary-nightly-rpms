@@ -6,13 +6,13 @@ apps built for elementary.}
 Name:           granite
 Summary:        elementary companion library for GTK+ and GLib
 Version:        5.2.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-Patch1:         01-DateTime-include-clock-format-gsettings-key-here.patch
+Patch1:         00-datetime-clock-format-gsettings.patch
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
@@ -89,6 +89,9 @@ desktop-file-validate \
 
 
 %changelog
+* Mon Feb 18 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.3+git190214.213629.c6f47f11-2
+- Fix typo in DateTime GSettings patch.
+
 * Fri Feb 15 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.3+git190214.213629.c6f47f11-1
 - Update to version 5.2.3.
 
