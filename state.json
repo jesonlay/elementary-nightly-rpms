@@ -245,8 +245,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "866110419ddfe94dafc0d3dd008b55322212b043",
-            "git_last_date": "190114.001149",
+            "git_last_commit": "da5fac92bdeb079255bc8f60bdb2618637d37072",
+            "git_last_date": "190218.210207",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.2",
