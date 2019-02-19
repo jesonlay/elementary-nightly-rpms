@@ -514,7 +514,7 @@
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.1",
-            "rpm_last_release": "1%{?dist}",
+            "rpm_last_release": "2%{?dist}",
             "rpm_last_version": "1.6.1+git%{date}.%{commit}"
         },
         "123": {
