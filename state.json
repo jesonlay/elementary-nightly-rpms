@@ -509,12 +509,12 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9223d9b7b9c31cc0f792c6cb981c756e19dbd3cd",
-            "git_last_date": "190218.185201",
+            "git_last_commit": "1c4c63c6e1bee9770811f22ba49435df3c027867",
+            "git_last_date": "190219.215832",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "1.6.1+git%{date}.%{commit}"
         },
         "123": {

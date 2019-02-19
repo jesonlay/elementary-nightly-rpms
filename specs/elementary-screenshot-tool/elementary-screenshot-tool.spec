@@ -4,7 +4,7 @@
 Name:           elementary-screenshot-tool
 Summary:        Simple screen capture tool
 Version:        1.6.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            http://github.com/elementary/%{srcname}
@@ -69,6 +69,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Feb 19 2019 Fabio Valentini <decathorpe@gmail.com> - 1.6.1+git190219.215832.1c4c63c6-1
+- Update to latest snapshot.
+
 * Tue Feb 19 2019 Fabio Valentini <decathorpe@gmail.com> - 1.6.1+git190218.185201.9223d9b7-2
 - Bump granite requirement to >= 5.2.0.
 
