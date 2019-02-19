@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-session
 Summary:        Session Indicator for wingpanel
 Version:        2.2.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -50,6 +50,9 @@ A session Indicator for wingpanel.
 
 
 %changelog
+* Tue Feb 19 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git190219.150512.01b792c3-1
+- Update to latest snapshot.
+
 * Tue Feb 19 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git190218.210207.da5fac92-2
 - Bump granite requirement to >= 5.2.0.
 
