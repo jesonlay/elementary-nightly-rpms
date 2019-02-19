@@ -3,7 +3,7 @@
 Name:           wingpanel-indicator-session
 Summary:        Session Indicator for wingpanel
 Version:        2.2.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -12,11 +12,10 @@ Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(accountsservice)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(granite)
+BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12.0
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
@@ -51,6 +50,9 @@ A session Indicator for wingpanel.
 
 
 %changelog
+* Tue Feb 19 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git190218.210207.da5fac92-2
+- Bump granite requirement to >= 5.2.0.
+
 * Mon Feb 18 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git190218.210207.da5fac92-1
 - Update to latest snapshot.
 
