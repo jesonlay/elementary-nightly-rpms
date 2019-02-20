@@ -509,8 +509,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c4c63c6e1bee9770811f22ba49435df3c027867",
-            "git_last_date": "190219.215832",
+            "git_last_commit": "f6951cbcb97e9bf233ea31df20daeca374f43840",
+            "git_last_date": "190220.211357",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.1",
@@ -531,8 +531,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "03f89d20736689291abcf6c4c083611f91408448",
-            "git_last_date": "190218.205205",
+            "git_last_commit": "3f18fc0ceab39971838094885a506a5d783a63d1",
+            "git_last_date": "190220.215517",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.2",
