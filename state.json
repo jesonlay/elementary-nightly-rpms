@@ -388,12 +388,12 @@
         "104": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9720fa889de16681748501e425832eb85c2ce97a",
-            "git_last_date": "180910.143404",
+            "git_last_commit": "d95eb7c9358316fed0c250d3f18669b1aa8d0df0",
+            "git_last_date": "190222.131209",
             "name": "mock-elementary-nightly",
             "package_name": "mock-elementary-nightly",
             "package_version": "0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0+git%{date}.%{commit}"
         },
         "105": {
@@ -443,8 +443,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "366681dcd23292465b2573e8c5a7f0b441a1c863",
-            "git_last_date": "190125.000153",
+            "git_last_commit": "557189f8f12e432be0770402a843492ad6d15308",
+            "git_last_date": "190222.130237",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.0",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fe18acf06080eb6fdf9153ddc6aa888133722d00",
-            "git_last_date": "190211.000803",
+            "git_last_commit": "acca99134e8be6c0b881e7123e6010d857bba0d5",
+            "git_last_date": "190222.130826",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "4.2.3",

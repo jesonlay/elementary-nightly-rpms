@@ -1,7 +1,7 @@
 Name:           mock-elementary-nightly
 Summary:        Configuration files for elementary-nightly mock builds
 Version:        0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        Unlicense
 
 URL:            https://github.com/decathorpe/mock-elementary-nightly
@@ -37,6 +37,9 @@ cp -pav configs/* %{buildroot}/%{_sysconfdir}/mock/
 
 
 %changelog
+* Fri Feb 22 2019 Fabio Valentini <decathorpe@gmail.com> - 0+git190222.131209.d95eb7c9-1
+- Update to latest snapshot.
+
 * Fri Nov 02 2018 Fabio Valentini <decathorpe@gmail.com> - 0+git180910.143404.9720fa88-2
 - Occasional mass rebuild.
 
