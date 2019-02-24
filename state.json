@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d00e5062a76ea0de336bcb4815568e69060f2a22",
-            "git_last_date": "190212.000708",
+            "git_last_commit": "3274911785f43b839164f709d524759125c8d325",
+            "git_last_date": "190224.000211",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
@@ -355,8 +355,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d8d4ba76d916348b9829936c7417b8afd5300448",
-            "git_last_date": "190223.231700",
+            "git_last_commit": "63b498b816bd80be9ff3d315d1f2e263f8029bd2",
+            "git_last_date": "190224.000203",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
