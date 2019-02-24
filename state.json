@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "434b4104c6ef9be917f4901c68dd55b1ecd0641d",
-            "git_last_date": "190118.002930",
+            "git_last_commit": "ab3a0822c594330515cd8fc7ce8ff9f0b6f27337",
+            "git_last_date": "190224.081729",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -432,8 +432,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9288660996052487dcfe036cdd1a55097856eba1",
-            "git_last_date": "190222.000536",
+            "git_last_commit": "35c1aba3627e413851229d9a63be15d4f576c0f2",
+            "git_last_date": "190224.081058",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.1",
