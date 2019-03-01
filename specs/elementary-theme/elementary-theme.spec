@@ -2,7 +2,7 @@
 
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
-Version:        5.2.1+git%{date}.%{commit}
+Version:        5.2.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -93,6 +93,9 @@ This package contains the plank theme.
 
 
 %changelog
+* Fri Mar 01 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.2+git190228.002954.c91036b7-1
+- Update to version 5.2.2.
+
 * Thu Feb 28 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.1+git190228.002954.c91036b7-1
 - Update to latest snapshot.
 
