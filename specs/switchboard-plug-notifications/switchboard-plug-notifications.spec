@@ -3,22 +3,21 @@
 %global plug_type personal
 %global plug_name notifications
 
-%global appname io.elementary.switchboard-plug-notifications
+%global appname io.elementary.switchboard.%{plug_name}
 
 Name:           switchboard-plug-notifications
 Summary:        Switchboard Notifications plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-
-BuildRequires:  /usr/bin/appstream-util
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
@@ -68,6 +67,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Mar 05 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git190305.084320.fd2b2b92-2
+- Adapt to renamed appdata file.
+
 * Tue Mar 05 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git190305.084320.fd2b2b92-1
 - Update to latest snapshot.
 
