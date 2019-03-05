@@ -8,7 +8,7 @@
 Name:           switchboard-plug-networking
 Summary:        Switchboard Networking plug
 Version:        2.1.4+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -68,6 +68,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Mar 05 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git190305.022656.facc66d8-1
+- Update to latest snapshot.
+
 * Sun Mar 03 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git190302.202235.77af15aa-2
 - Bump granite dependency to >= 5.2.3.
 

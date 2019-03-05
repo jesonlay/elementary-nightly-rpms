@@ -80,8 +80,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a2a344eabd31e17e27b929cef6bc4432f312c82e",
-            "git_last_date": "190129.112347",
+            "git_last_commit": "a5fba54c73f7e361d330b976132b036824a48b1d",
+            "git_last_date": "190305.022722",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.4",
@@ -322,12 +322,12 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "77af15aa730fe8409470896796721ed9f7ca6a0e",
-            "git_last_date": "190302.202235",
+            "git_last_commit": "facc66d8e81d406551b923ff964ef1a7615df090",
+            "git_last_date": "190305.022656",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.4+git%{date}.%{commit}"
         },
         "97": {
