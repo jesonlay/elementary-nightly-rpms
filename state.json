@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06a7bebe0062e0a6b02d8d07f6dbd6f390f8b4a1",
-            "git_last_date": "190129.071514",
+            "git_last_commit": "1b3dab833969d56eb1442e3a5799489b1eaeebc8",
+            "git_last_date": "190305.032652",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.5",
@@ -201,8 +201,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4b7d1323249c98ab0871e325e349add1e1965da6",
-            "git_last_date": "190125.000142",
+            "git_last_commit": "4afa4e4b12a732e6b6d6246ff07942ae763c48db",
+            "git_last_date": "190305.032652",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
@@ -366,8 +366,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "66ecd97bdb8f0bb941cd9909ac425c7603ff7b1e",
-            "git_last_date": "190301.121452",
+            "git_last_commit": "e113c92d4a4c33e227ff760c76fbe08a8a9f690e",
+            "git_last_date": "190305.032654",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
