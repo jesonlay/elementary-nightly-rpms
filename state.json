@@ -344,12 +344,12 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6bf46c8e6642994f57133774c1a67f11d3d5dbc9",
-            "git_last_date": "190305.084135",
+            "git_last_commit": "d95e9e3a82778a4b42164163cfecf4caf3857662",
+            "git_last_date": "190306.090316",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.3.4+git%{date}.%{commit}"
         },
         "99": {
