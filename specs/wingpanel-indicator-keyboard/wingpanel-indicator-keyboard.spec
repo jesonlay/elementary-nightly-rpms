@@ -2,7 +2,7 @@
 
 Name:           wingpanel-indicator-keyboard
 Summary:        Keyboard Indicator for wingpanel
-Version:        2.1.1+git%{date}.%{commit}
+Version:        2.1.2+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv2+
 
@@ -50,6 +50,9 @@ A keyboard indicator for wingpanel.
 
 
 %changelog
+* Wed Mar 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git190306.075917.5a1bfcba-1
+- Update to version 2.1.2.
+
 * Wed Mar 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.1+git190306.075917.5a1bfcba-1
 - Update to latest snapshot.
 
