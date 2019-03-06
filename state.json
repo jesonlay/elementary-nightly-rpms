@@ -348,9 +348,9 @@
             "git_last_date": "190306.090316",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
-            "package_version": "2.3.4",
+            "package_version": "2.3.5",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.3.4+git%{date}.%{commit}"
+            "rpm_last_version": "2.3.5+git%{date}.%{commit}"
         },
         "99": {
             "git_branch": "master",

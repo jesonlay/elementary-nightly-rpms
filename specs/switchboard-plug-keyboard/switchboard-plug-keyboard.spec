@@ -7,7 +7,7 @@
 
 Name:           switchboard-plug-keyboard
 Summary:        Switchboard Keyboard plug
-Version:        2.3.4+git%{date}.%{commit}
+Version:        2.3.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -68,6 +68,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Mar 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git190306.090316.d95e9e3a-1
+- Update to version 2.3.5.
+
 * Wed Mar 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.4+git190306.090316.d95e9e3a-1
 - Update to latest snapshot.
 
