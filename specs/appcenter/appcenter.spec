@@ -3,7 +3,7 @@
 Name:           appcenter
 Summary:        Software Center from elementary
 Version:        3.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -20,7 +20,7 @@ BuildRequires:  pkgconfig(appstream) >= 0.10.0
 BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
-BuildRequires:  pkgconfig(granite) >= 0.5
+BuildRequires:  pkgconfig(granite) >= 5.2.3
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.12
 BuildRequires:  pkgconfig(json-glib-1.0)
@@ -101,6 +101,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Mar 07 2019 Fabio Valentini <decathorpe@gmail.com> - 3.1.1+git190307.192601.c7931121-2
+- Bump granite dependency to >= 5.2.3.
+
 * Thu Mar 07 2019 Fabio Valentini <decathorpe@gmail.com> - 3.1.1+git190307.192601.c7931121-1
 - Update to latest snapshot.
 
