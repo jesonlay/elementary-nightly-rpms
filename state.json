@@ -113,12 +113,12 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c6f47f11356c7241e31476336c9278b3c48d598a",
-            "git_last_date": "190214.213629",
+            "git_last_commit": "7da3a7eddddce0b268abebcdd7548ac0adfbbca8",
+            "git_last_date": "190307.183251",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.2.3+git%{date}.%{commit}"
         },
         "73": {
@@ -300,8 +300,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "395670ec3db6b6cd61f06950d64dc37e4eaf408a",
-            "git_last_date": "190302.011216",
+            "git_last_commit": "2c610b3bc8272dd1368b5d90c726745ec3c5fe01",
+            "git_last_date": "190307.184639",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
@@ -322,8 +322,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "facc66d8e81d406551b923ff964ef1a7615df090",
-            "git_last_date": "190305.022656",
+            "git_last_commit": "15c0a0234c170af22c85fbf73dcecd6894ebb717",
+            "git_last_date": "190307.185242",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -498,8 +498,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "289463a838dd0167cd5f7b7e5c4f68b0dac70932",
-            "git_last_date": "190307.102617",
+            "git_last_commit": "ea69aeef4cc9f07a060790d8bd34b1dd94bac043",
+            "git_last_date": "190307.182306",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0.2",
