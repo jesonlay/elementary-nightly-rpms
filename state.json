@@ -157,8 +157,8 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "29e59e9e7500eb8c117bded7145ab6f9ef5b10f5",
-            "git_last_date": "190305.193150",
+            "git_last_commit": "c793112133fb36687f379bbcca8042f317fc7ae8",
+            "git_last_date": "190307.192601",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.1",
@@ -322,8 +322,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "15c0a0234c170af22c85fbf73dcecd6894ebb717",
-            "git_last_date": "190307.185242",
+            "git_last_commit": "b1d8da9130a6b2d4c0bfe5b3a2866b6438e83832",
+            "git_last_date": "190307.190914",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -498,8 +498,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ea69aeef4cc9f07a060790d8bd34b1dd94bac043",
-            "git_last_date": "190307.182306",
+            "git_last_commit": "c95adcfcae883405c73232563ecb8c6b146b2a7e",
+            "git_last_date": "190307.191107",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.0.2",
