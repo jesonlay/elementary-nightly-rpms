@@ -157,12 +157,12 @@
         "77": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c793112133fb36687f379bbcca8042f317fc7ae8",
-            "git_last_date": "190307.192601",
+            "git_last_commit": "3fd757bd309a6c20429370e73f506b7558601172",
+            "git_last_date": "190311.141413",
             "name": "appcenter",
             "package_name": "appcenter",
             "package_version": "3.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.1.1+git%{date}.%{commit}"
         },
         "78": {
@@ -454,8 +454,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "46d8760d7fa35cbdf7a0f377a1a74bbd9972bed6",
-            "git_last_date": "190308.103829",
+            "git_last_commit": "09c758e20c5b98b08541ee581796db03df664a58",
+            "git_last_date": "190311.142224",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "1.5.2",
@@ -465,8 +465,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "706a86cc09b62b67f27a725a6cb493d34ed69c13",
-            "git_last_date": "190309.205511",
+            "git_last_commit": "3aa98eb118632f411ea1177c5dd4ff931504c150",
+            "git_last_date": "190311.145212",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.5",
@@ -487,8 +487,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "618cf0509b93fe5bdca4ac0c1cbf4eb68b1199ff",
-            "git_last_date": "190308.181834",
+            "git_last_commit": "6d3b1775181456dd1e393881453543d6b20b087d",
+            "git_last_date": "190311.144708",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.3",
