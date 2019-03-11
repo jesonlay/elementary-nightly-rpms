@@ -322,8 +322,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dfe5cca1eb5e4a169bd427e81e884c9f99bd7580",
-            "git_last_date": "190309.093236",
+            "git_last_commit": "13fe195e326073f00a56d539948fe85e547aa920",
+            "git_last_date": "190311.063141",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -476,8 +476,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8f8537bc0a53f59f3f5434949ed48196f4c5af0c",
-            "git_last_date": "190309.004005",
+            "git_last_commit": "c6163fa12716e8d1af8afbec82343c30f0f978a8",
+            "git_last_date": "190311.063039",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.2",
