@@ -4,7 +4,7 @@
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
 Version:        3.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -57,7 +57,9 @@ Requires:       impallari-raleway-fonts
 # Runtime requirement for numlock capture
 Requires:       numlockx
 
-# Requirement for default wallpaper
+# Requirements for default artwork
+Requires:       elementary-icon-theme
+Requires:       elementary-theme-gtk3
 Requires:       elementary-wallpapers
 
 
@@ -111,6 +113,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Wed Mar 13 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190313.193530.637bc355-2
+- Add dependencies on the default theme and artwork.
+
 * Wed Mar 13 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190313.193530.637bc355-1
 - Update to latest snapshot.
 
