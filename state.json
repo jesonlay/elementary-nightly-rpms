@@ -278,8 +278,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "202c91084ea39d92346e32ec36cb0020dc93290d",
-            "git_last_date": "190309.182702",
+            "git_last_commit": "978c5203aaa9478cc6b0614566c631cfdc362cfe",
+            "git_last_date": "190315.070547",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.6",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "256397aef96132df1d914fa574b26861f5ce95c0",
-            "git_last_date": "190313.172707",
+            "git_last_commit": "5659fbbd2a6b2e281503b7b1fe90f0450f26e60c",
+            "git_last_date": "190315.070917",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
