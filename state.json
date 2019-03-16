@@ -399,8 +399,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "069b1648b1d225a24f9b56b874de8c5ae21703e1",
-            "git_last_date": "190312.163458",
+            "git_last_commit": "0884e280d89df4bed2601971cbeb22c170d5bbbd",
+            "git_last_date": "190316.212659",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.3",
@@ -509,8 +509,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b3b2b618e0609140b2d93ab834723464881d99ad",
-            "git_last_date": "190312.212707",
+            "git_last_commit": "8813f4266dbef6482e21074903d7573d22b370ee",
+            "git_last_date": "190316.212714",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
@@ -586,8 +586,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5659fbbd2a6b2e281503b7b1fe90f0450f26e60c",
-            "git_last_date": "190315.070917",
+            "git_last_commit": "b47cdbbb5adad3fa28d2f35c7e8f10bfba66b54a",
+            "git_last_date": "190316.212712",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
@@ -597,12 +597,12 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "637bc3550ecf985acc7ff4560a46b675a121dd29",
-            "git_last_date": "190313.193530",
+            "git_last_commit": "3161675dff5445ce774d03dfd0c6fda6baa6ee13",
+            "git_last_date": "190316.212709",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.3.1+git%{date}.%{commit}"
         },
         "131": {
