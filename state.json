@@ -476,8 +476,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c6163fa12716e8d1af8afbec82343c30f0f978a8",
-            "git_last_date": "190311.063039",
+            "git_last_commit": "86df00ced674abb2ee430ea24422079cfabb314c",
+            "git_last_date": "190318.103518",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.2",
@@ -597,8 +597,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "82f5cc282e697c688c51a529967fcddfe2f1185d",
-            "git_last_date": "190317.170150",
+            "git_last_commit": "00478390b24f6dc4cc2e0003271468540326b17d",
+            "git_last_date": "190318.102941",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
