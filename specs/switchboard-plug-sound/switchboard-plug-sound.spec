@@ -5,7 +5,7 @@
 
 Name:           switchboard-plug-sound
 Summary:        Switchboard Sound Plug
-Version:        2.1.3+git%{date}.%{commit}
+Version:        2.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -57,6 +57,9 @@ Switchboard Sound Plug.
 
 
 %changelog
+* Sat Mar 30 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git190330.175210.bdd3bb8e-1
+- Update to version 2.2.0.
+
 * Thu Mar 28 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190328.101152.fb9c170c-1
 - Update to latest snapshot.
 

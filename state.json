@@ -267,13 +267,13 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fb9c170c0226522906729856af5ce4d01b2a9abb",
-            "git_last_date": "190328.101152",
+            "git_last_commit": "bdd3bb8ed86e7ee9ba0f3ec9cff13acac68c105f",
+            "git_last_date": "190330.175210",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
-            "package_version": "2.1.3",
+            "package_version": "2.2.0",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.1.3+git%{date}.%{commit}"
+            "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "88": {
             "git_branch": "master",
