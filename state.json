@@ -509,8 +509,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5f7b69ab939ed1f5ad1c5bec5170a894153e10d3",
-            "git_last_date": "190318.182819",
+            "git_last_commit": "1282e1f8fb3b3593bbbdb7241bcfe51bd6e456bc",
+            "git_last_date": "190331.215210",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
@@ -553,8 +553,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d7b9a09010d0cdaaf5194d59ddce08825065233e",
-            "git_last_date": "190312.152650",
+            "git_last_commit": "2c532708f79d754da8e3f9c57f3487d305852ea2",
+            "git_last_date": "190331.215155",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
