@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6e2be6d7397a0e5c9b9cc2b3601e9e53431ac528",
-            "git_last_date": "190405.160519",
+            "git_last_commit": "3cbaafe8493360d0b34b337bbca56e41e8f3868c",
+            "git_last_date": "190408.211057",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.7",
@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c2b434fb8d54f3526e746ba1fdb483c644bdb9a0",
-            "git_last_date": "190313.220142",
+            "git_last_commit": "e2547e2e8ba5a34531e646cc8fb3448b61c0cdea",
+            "git_last_date": "190408.215449",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
