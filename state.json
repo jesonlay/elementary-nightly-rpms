@@ -69,8 +69,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "941e56cf829410c56563069782eb35be559a27cb",
-            "git_last_date": "190406.175221",
+            "git_last_commit": "5e7ea91c40447d1852fa512c7d506384b6ee7a70",
+            "git_last_date": "190408.195330",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "338390159ff5228a9dda42ac0e070b87ce3ac41f",
-            "git_last_date": "190405.115220",
+            "git_last_commit": "8eb26533e237031addbd4847d93aefeee214af0f",
+            "git_last_date": "190408.195320",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.1.4",
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0e2efec52bf9da423bebd0d5ffef5f5eb0a6d4ae",
-            "git_last_date": "190408.115313",
+            "git_last_commit": "48246d6dd8985fdfe153acbf94b74f58151f70fe",
+            "git_last_date": "190408.195301",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.6",
