@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2dba1291247d4f0bf5a35def8a28ff707968871f",
-            "git_last_date": "190409.005635",
+            "git_last_commit": "8891f3dad10961cde469d54b2eb07f1725753411",
+            "git_last_date": "190409.020648",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ff568ba34a8d3e071406aa13059c383313d6abed",
-            "git_last_date": "190408.005319",
+            "git_last_commit": "85f78a22068ca9b918f61e382ea8df256f5d78bc",
+            "git_last_date": "190409.025350",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.1",
