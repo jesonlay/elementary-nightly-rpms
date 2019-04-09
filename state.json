@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d3a4afe5ab3132f32b5b34bb4e5c3b18158e45ff",
-            "git_last_date": "190408.224338",
+            "git_last_commit": "02324c5bad21c506bd88ba9bff8300e438511ae4",
+            "git_last_date": "190408.230718",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "53929ce9c8f90e883263e2d6893fde45c05cedd1",
-            "git_last_date": "190406.030545",
+            "git_last_commit": "451b3df8d831a61c10250d30b84e330a62545eec",
+            "git_last_date": "190408.234506",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
