@@ -4,7 +4,7 @@
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
 Version:        3.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -17,6 +17,7 @@ BuildRequires:  gettext
 BuildRequires:  meson
 BuildRequires:  vala
 
+BuildRequires:  pkgconfig(accountsservice)
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(gdk-x11-3.0)
@@ -29,24 +30,15 @@ BuildRequires:  pkgconfig(gnome-desktop-3.0)
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(liblightdm-gobject-1)
-BuildRequires:  pkgconfig(wingpanel-2.0)
-BuildRequires:  pkgconfig(x11)
-
-%if 0%{?fedora} < 28
-BuildRequires:  pkgconfig(mutter-clutter-1)
-BuildRequires:  pkgconfig(mutter-cogl-1)
-BuildRequires:  pkgconfig(mutter-cogl-pango-1)
-BuildRequires:  pkgconfig(mutter-cogl-path-1)
-%else
 BuildRequires:  pkgconfig(mutter-clutter-2)
 BuildRequires:  pkgconfig(mutter-cogl-2)
 BuildRequires:  pkgconfig(mutter-cogl-pango-2)
 BuildRequires:  pkgconfig(mutter-cogl-path-2)
-%endif
+BuildRequires:  pkgconfig(wingpanel-2.0)
+BuildRequires:  pkgconfig(x11)
 
 Provides:       pantheon-greeter = %{version}-%{release}
 Obsoletes:      pantheon-greeter
-
 
 Requires:       lightdm%{?_isa}
 Requires:       wingpanel%{?_isa}
@@ -113,6 +105,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Thu Apr 11 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190408.234506.451b3df8-2
+- Add missing BuildRequires, clean up mutter dependencies for fedora 28+.
+
 * Tue Apr 09 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190408.234506.451b3df8-1
 - Update to latest snapshot.
 
