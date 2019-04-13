@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "feb953367cf5f5a5db82b46204567460633fe632",
-            "git_last_date": "190412.234514",
+            "git_last_commit": "b5c012af1104d2ca83262f9fb0994596bee59c34",
+            "git_last_date": "190413.172325",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0.3",
