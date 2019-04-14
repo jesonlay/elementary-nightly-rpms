@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b5c012af1104d2ca83262f9fb0994596bee59c34",
-            "git_last_date": "190413.172325",
+            "git_last_commit": "52f74cf21e20c129ccc7f1b5bada052257173cc1",
+            "git_last_date": "190413.234741",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0.3",
@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f43e66f494e795d709a8ad44972cf25b167d6d6b",
-            "git_last_date": "190408.005312",
+            "git_last_commit": "eb81a4a69e4ffde0995f4e64e8089d9aae1dd78b",
+            "git_last_date": "190413.230400",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.2",
