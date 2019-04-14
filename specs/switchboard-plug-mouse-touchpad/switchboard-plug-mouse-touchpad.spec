@@ -7,7 +7,7 @@
 
 Name:           switchboard-plug-mouse-touchpad
 Summary:        Switchboard Mouse and Touchpad plug
-Version:        2.1.4+git%{date}.%{commit}
+Version:        2.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -62,6 +62,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Apr 14 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git190412.182532.a823ad9c-1
+- Update to version 2.2.0.
+
 * Fri Apr 12 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git190412.182532.a823ad9c-1
 - Update to latest snapshot.
 
