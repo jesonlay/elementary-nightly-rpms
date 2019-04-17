@@ -234,8 +234,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "20df46e5bb30e75c707bbfe7230361bd4386d08b",
-            "git_last_date": "190410.115330",
+            "git_last_commit": "273d65011f38735e2835c74cbce8a8209eb3722f",
+            "git_last_date": "190417.205414",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.3",
@@ -553,8 +553,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "06c619ae5240702a7179cc9890941d81ee1454de",
-            "git_last_date": "190406.185211",
+            "git_last_commit": "a63bbe1630b3027512d57ac1224304a2e210d159",
+            "git_last_date": "190417.205339",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.3",
