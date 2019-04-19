@@ -4,7 +4,7 @@
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
 Version:        3.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -105,6 +105,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Fri Apr 19 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190419.205904.79066b80-1
+- Update to latest snapshot.
+
 * Thu Apr 11 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190408.234506.451b3df8-2
 - Add missing BuildRequires, clean up mutter dependencies for fedora 28+.
 
