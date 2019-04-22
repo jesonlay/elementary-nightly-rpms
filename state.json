@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "858c8c209c32347f8fa09b586f8a64d9cd9c68d7",
-            "git_last_date": "190412.132514",
+            "git_last_commit": "464ad19b923050cf9dd1e2da3369863c10bf08be",
+            "git_last_date": "190422.195707",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "65f1ebdd9e4341060edef87eecf9ddea7b22f2ac",
-            "git_last_date": "190420.163325",
+            "git_last_commit": "5ba4328dd156dfc892d25c9ac9d860b280ecc7bf",
+            "git_last_date": "190422.193206",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
