@@ -223,8 +223,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e5432f12e34420539d58f194df10d5d0ef5ac022",
-            "git_last_date": "190318.163823",
+            "git_last_commit": "25af8fecfd3738f2b7b0f327865e5f72a6a937d5",
+            "git_last_date": "190423.113358",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.3",
@@ -575,8 +575,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3dd488fa69b57a6fbdc623b68002bbc414578d43",
-            "git_last_date": "190422.183144",
+            "git_last_commit": "16af6af90170265182b8227fbf6fbc6ec7d81aa6",
+            "git_last_date": "190423.113145",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
