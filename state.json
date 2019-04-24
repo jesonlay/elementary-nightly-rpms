@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "714027a4b36614fc121989ee7dfb35794fdf0cdd",
-            "git_last_date": "190422.234645",
+            "git_last_commit": "c1effcec41a39181df6eb12474cab71069532a18",
+            "git_last_date": "190424.182225",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.3",
@@ -388,8 +388,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "23badaeebc464c6629c008419cee886bb008e37d",
-            "git_last_date": "190412.095319",
+            "git_last_commit": "e70fc0d9fdb58ff3ea7f520c1837bb897082cbe3",
+            "git_last_date": "190424.184639",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.4",
