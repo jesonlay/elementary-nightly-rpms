@@ -388,8 +388,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e70fc0d9fdb58ff3ea7f520c1837bb897082cbe3",
-            "git_last_date": "190424.184639",
+            "git_last_commit": "001de48b0709288ac7a9c75b025560686e811115",
+            "git_last_date": "190425.164817",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.4",
@@ -610,6 +610,15 @@
             "name": "elementary-greeter.sync-conflict-20190425-165420-JRAIJFC",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1"
+        },
+        "133": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "",
+            "git_last_date": "",
+            "name": "switchboard-plug-display.sync-conflict-20190425-165957-JRAIJFC",
+            "package_name": "switchboard-plug-display",
+            "package_version": "2.1.7"
         }
     }
 }
