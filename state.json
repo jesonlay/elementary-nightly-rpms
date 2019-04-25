@@ -601,6 +601,15 @@
             "rpm_last_release": "3%{?dist}",
             "rpm_last_version": "1.0",
             "url_last_version": "1.0"
+        },
+        "132": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "",
+            "git_last_date": "",
+            "name": "elementary-greeter.sync-conflict-20190425-165420-JRAIJFC",
+            "package_name": "elementary-greeter",
+            "package_version": "3.3.1"
         }
     }
 }
