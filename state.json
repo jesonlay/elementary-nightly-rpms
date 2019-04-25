@@ -619,6 +619,15 @@
             "name": "switchboard-plug-display.sync-conflict-20190425-165957-JRAIJFC",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.7"
+        },
+        "134": {
+            "git_branch": "master",
+            "git_commit": "HEAD",
+            "git_last_commit": "",
+            "git_last_date": "",
+            "name": "wingpanel.sync-conflict-20190425-165833-JRAIJFC",
+            "package_name": "wingpanel",
+            "package_version": "2.2.3"
         }
     }
 }
