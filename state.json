@@ -443,8 +443,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7f6eb162929bca11bdf21c8e96aad0ccd11461a2",
-            "git_last_date": "190312.142643",
+            "git_last_commit": "ad9ff328ddb1a44f9f2356f070b22273f5380af4",
+            "git_last_date": "190424.232648",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "1.5.2",
@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "930a95b1856a837f8ed69cc51e748b605c44f33f",
-            "git_last_date": "190423.195924",
+            "git_last_commit": "e50ba15c3b9abddf71d3ab756dcaf96b607027bc",
+            "git_last_date": "190424.233856",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
