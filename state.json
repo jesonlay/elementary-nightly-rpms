@@ -256,8 +256,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f6476b12d40424b25a90248997d8dffb45a26829",
-            "git_last_date": "190415.222601",
+            "git_last_commit": "b128ad138905e212421f6420daa0931b2dbcdf4a",
+            "git_last_date": "190510.112943",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.2.1",
@@ -267,8 +267,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d852ad4fbed3f0f09cbe82c97f38a1dd92be11a5",
-            "git_last_date": "190419.100810",
+            "git_last_commit": "6b1f3269ef6009137e82eb04b94b416c43c32178",
+            "git_last_date": "190510.111708",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.6",
