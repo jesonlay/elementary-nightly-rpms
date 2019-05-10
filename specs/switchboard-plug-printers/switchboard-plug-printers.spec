@@ -3,16 +3,19 @@
 %global plug_name printers
 %global plug_type hardware
 
+%global plug_rdnn io.elementary.switchboard.printers
+
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Printers Plug
 Version:        2.1.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -48,14 +51,24 @@ A printers plug for Switchboard.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
 
 %changelog
+* Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.6+git190510.111708.6b1f3269-2
+- Adapt to new appdata file.
+
 * Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.6+git190510.111708.6b1f3269-1
 - Update to latest snapshot.
 
