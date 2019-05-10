@@ -3,16 +3,19 @@
 %global plug_name power
 %global plug_type hardware
 
+%global plug_rdnn io.elementary.switchboard.power
+
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Power Plug
 Version:        2.3.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.30.0
 
@@ -49,6 +52,11 @@ Control system power consumption with this Switchboard preference plug.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
@@ -60,10 +68,14 @@ Control system power consumption with this Switchboard preference plug.
 %{_libexecdir}/io.elementary.logind.helper
 
 %{_datadir}/dbus-1/system-services/io.elementary.logind.helper.service
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
 %{_datadir}/polkit-1/actions/io.elementary.switchboard.power.policy
 
 
 %changelog
+* Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git190510.093606.9a203574-2
+- Adapt to new appdata file.
+
 * Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git190510.093606.9a203574-1
 - Update to latest snapshot.
 
