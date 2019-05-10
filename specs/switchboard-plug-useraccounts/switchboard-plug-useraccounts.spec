@@ -1,15 +1,21 @@
 %global __provides_exclude_from ^%{_libdir}/switchboard/.*\\.so$
 
+%global plug_name useraccounts
+%global plug_type system
+
+%global plug_rdnn io.elementary.switchboard.useraccounts
+
 Name:           switchboard-plug-useraccounts
 Summary:        Switchboard User Accounts Plug
 Version:        2.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
@@ -43,20 +49,29 @@ Switchboard Plug for managing local user accounts.
 %install
 %meson_install
 
-%find_lang useraccounts-plug
+%find_lang %{plug_name}-plug
 
 
-%files -f useraccounts-plug.lang
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
+%files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING COPYRIGHT
 
-%{_libdir}/switchboard/system/libuseraccounts.so
-%{_libdir}/switchboard/system/pantheon-useraccounts/
+%{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
+%{_libdir}/switchboard/system/pantheon-%{plug_name}/
 
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.user-accounts.policy
 
 
 %changelog
+* Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190510.084212.0ecee8d1-2
+- Adapt to new appdata file.
+
 * Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190510.084212.0ecee8d1-1
 - Update to latest snapshot.
 
