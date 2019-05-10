@@ -3,16 +3,19 @@
 %global plug_type system
 %global plug_name sound
 
+%global plug_rdnn io.elementary.switchboard.sound
+
 Name:           switchboard-plug-sound
 Summary:        Switchboard Sound Plug
 Version:        2.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
@@ -49,14 +52,24 @@ Switchboard Sound Plug.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
 
 %changelog
+* Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190510.112943.b128ad13-2
+- Adapt to new appdata file.
+
 * Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190510.112943.b128ad13-1
 - Update to latest snapshot.
 
