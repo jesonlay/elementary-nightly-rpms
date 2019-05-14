@@ -289,8 +289,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "903bc6c5a18680fe7c64acbd04004f405a61eb22",
-            "git_last_date": "190514.092050",
+            "git_last_commit": "3ae100da4bbd9dabe353f468778ef63ef2dcd5d7",
+            "git_last_date": "190514.123328",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
@@ -509,8 +509,8 @@
         "123": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "10c06fe178e62f72b02133bca6809d0f61fd2f0b",
-            "git_last_date": "190422.045914",
+            "git_last_commit": "66ccf739424116f2d644fdcdfd7af8d813a4483e",
+            "git_last_date": "190514.121444",
             "name": "wingpanel-indicator-nightlight",
             "package_name": "wingpanel-indicator-nightlight",
             "package_version": "2.0.2",
