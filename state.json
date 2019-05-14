@@ -267,12 +267,12 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6b1f3269ef6009137e82eb04b94b416c43c32178",
-            "git_last_date": "190510.111708",
+            "git_last_commit": "a56b28f720514d222ebf5cec3a3af5ee0401da96",
+            "git_last_date": "190514.204236",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.6",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.6+git%{date}.%{commit}"
         },
         "89": {
@@ -388,8 +388,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "11e1b897743d1144697d1af67998f71d794bf917",
-            "git_last_date": "190507.221431",
+            "git_last_commit": "93a162167e21cff8b4e3359c52543b204c36c1db",
+            "git_last_date": "190514.203936",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.4",
@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "85f78a22068ca9b918f61e382ea8df256f5d78bc",
-            "git_last_date": "190409.025350",
+            "git_last_commit": "ae52a1f23819737104fc1e03ef2d700b9489e09e",
+            "git_last_date": "190513.230338",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.2",

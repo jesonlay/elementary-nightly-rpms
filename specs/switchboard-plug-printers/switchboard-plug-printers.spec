@@ -8,7 +8,7 @@
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Printers Plug
 Version:        2.1.6+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -66,6 +66,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue May 14 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.6+git190514.204236.a56b28f7-1
+- Update to latest snapshot.
+
 * Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.6+git190510.111708.6b1f3269-2
 - Adapt to new appdata file.
 
