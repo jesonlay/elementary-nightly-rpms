@@ -465,8 +465,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "604b0a8c2691c9f69f94eacc900170549b931eb2",
-            "git_last_date": "190514.211147",
+            "git_last_commit": "a8b567c2c19dcf31951af276d333dbff252f3752",
+            "git_last_date": "190516.105025",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.3",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5f419f1fb0b0b3bcad35c8fe8de283e9a96eb55a",
-            "git_last_date": "190506.115246",
+            "git_last_commit": "d5f9c637b534dd31d5d5440e6fe82769eccc4ebc",
+            "git_last_date": "190516.101036",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.1",
