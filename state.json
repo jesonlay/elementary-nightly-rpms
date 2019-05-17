@@ -469,9 +469,9 @@
             "git_last_date": "190516.105025",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
-            "package_version": "2.6.3",
+            "package_version": "2.6.4",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "2.6.3+git%{date}.%{commit}"
+            "rpm_last_version": "2.6.4+git%{date}.%{commit}"
         },
         "120": {
             "git_branch": "master",
