@@ -8,7 +8,7 @@
 Name:           switchboard-plug-sound
 Summary:        Switchboard Sound Plug
 Version:        2.2.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -67,6 +67,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri May 17 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190517.011530.c895ea25-1
+- Update to latest snapshot.
+
 * Fri May 10 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190510.112943.b128ad13-2
 - Adapt to new appdata file.
 

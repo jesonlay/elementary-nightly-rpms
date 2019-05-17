@@ -256,12 +256,12 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b128ad138905e212421f6420daa0931b2dbcdf4a",
-            "git_last_date": "190510.112943",
+            "git_last_commit": "c895ea251a58b3cf3107a2be4fa894ad1bf652c6",
+            "git_last_date": "190517.011530",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.2.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.1+git%{date}.%{commit}"
         },
         "88": {
