@@ -212,8 +212,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93372d8b0376f750c60f0d4b266ef2020d90655a",
-            "git_last_date": "181212.022203",
+            "git_last_commit": "27a80e5d0c188eccb344d9534bed03b19e4913ec",
+            "git_last_date": "190517.111439",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.6",
