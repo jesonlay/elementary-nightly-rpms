@@ -5,7 +5,7 @@
 
 Name:           wingpanel-applications-menu
 Summary:        Lightweight and stylish app launcher
-Version:        2.4.1+git%{date}.%{commit}
+Version:        2.4.3+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3
 
@@ -79,6 +79,9 @@ popd
 
 
 %changelog
+* Fri May 17 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.3+git190516.101036.d5f9c637-1
+- Update to version 2.4.3.
+
 * Thu May 16 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.1+git190516.101036.d5f9c637-1
 - Update to latest snapshot.
 
