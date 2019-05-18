@@ -69,12 +69,12 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5e7ea91c40447d1852fa512c7d506384b6ee7a70",
-            "git_last_date": "190408.195330",
+            "git_last_commit": "04961ba11a12bf10b001b5a71005559f8162fac3",
+            "git_last_date": "190518.030309",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "68": {
@@ -168,12 +168,12 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0ecee8d15ed8eee5d178edd24d7272db6fd5dd5e",
-            "git_last_date": "190510.084212",
+            "git_last_commit": "8135deeae3c1c7f196c71cf2b1d69729504f507f",
+            "git_last_date": "190518.221008",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.1+git%{date}.%{commit}"
         },
         "80": {
