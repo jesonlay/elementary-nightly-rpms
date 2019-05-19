@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d8dac0bf9b4605a97c9899f1410fea00d0189e39",
-            "git_last_date": "190420.113150",
+            "git_last_commit": "4a712935ccf13ea0e18eb13ec37876f362754e77",
+            "git_last_date": "190519.185140",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
