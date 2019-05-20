@@ -498,8 +498,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7c528241728dc780280e48a39a0bce10aadc7536",
-            "git_last_date": "190405.215228",
+            "git_last_commit": "4141070de8f36f93b4d9aed44e8614129f0c80cf",
+            "git_last_date": "190520.164945",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
