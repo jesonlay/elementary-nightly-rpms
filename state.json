@@ -80,8 +80,8 @@
         "68": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "235c548529d4c1bfa696c038376cf15d5aa0e3ee",
-            "git_last_date": "190425.112631",
+            "git_last_commit": "d83767c40f56c0be363e0d8e57b26fbe7eb06b98",
+            "git_last_date": "190520.000327",
             "name": "wingpanel-indicator-power",
             "package_name": "wingpanel-indicator-power",
             "package_version": "2.1.4",
