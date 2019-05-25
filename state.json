@@ -377,8 +377,8 @@
         "104": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d95eb7c9358316fed0c250d3f18669b1aa8d0df0",
-            "git_last_date": "190222.131209",
+            "git_last_commit": "41f4d2861f97f07c9009b6a9762c80ac6f805a0a",
+            "git_last_date": "190525.194242",
             "name": "mock-elementary-nightly",
             "package_name": "mock-elementary-nightly",
             "package_version": "0",
