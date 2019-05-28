@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "56e622c7b9c9d71d0045bd62525608624851394c",
-            "git_last_date": "190422.185923",
+            "git_last_commit": "ce47b60fae43173eff226eddafef13e4e5ca0bcc",
+            "git_last_date": "190528.192940",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d5f9c637b534dd31d5d5440e6fe82769eccc4ebc",
-            "git_last_date": "190516.101036",
+            "git_last_commit": "e44ce88854ba1d2b02c8c91c12e34a84e938d9e3",
+            "git_last_date": "190528.192133",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.3",
