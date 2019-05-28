@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "35e4363bedc5a60407f29c91043d7b7c575297b9",
-            "git_last_date": "190524.063040",
+            "git_last_commit": "2129a6dc65aa6ffcf666b894bb64e70f2bc164f1",
+            "git_last_date": "190528.180352",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -355,8 +355,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dddcce2e3bad1c64768d9f4d89621d56496b2f31",
-            "git_last_date": "190515.171438",
+            "git_last_commit": "6d8f1ea03ed6eec2d55d0aac4d8465e9c7bc8a1c",
+            "git_last_date": "190528.182937",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
