@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ca79932f81ec6ee9812d6f9bc489f6686a766bf9",
-            "git_last_date": "190408.000735",
+            "git_last_commit": "72b6cdda925e1241168f3bfa73e4cf77e87aeda6",
+            "git_last_date": "190529.040402",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
