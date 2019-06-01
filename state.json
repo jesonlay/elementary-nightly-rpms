@@ -36,8 +36,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a158da757a7715d37be4426ee5cd1bdc9385bf5e",
-            "git_last_date": "190531.045058",
+            "git_last_commit": "e385454217a77ead0e0d49900112a5b36f3b8bf1",
+            "git_last_date": "190601.111345",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0.1",
@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8dedf6f692b63fd3fc4026e0c6516f0581b6722a",
-            "git_last_date": "190531.065047",
+            "git_last_commit": "6276fb178cfbe8150fa3924043b2e47fce9955ab",
+            "git_last_date": "190601.111942",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
