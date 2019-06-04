@@ -5,15 +5,11 @@
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
 Version:        2.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-
-# the "clock-format" GSettings key has been moved to granite
-# to resolve a circular dependency and to fix third-party apps
-Patch0:         00-move-clock-format-settings-to-granite.patch
 
 BuildRequires:  gettext
 BuildRequires:  meson
@@ -60,6 +56,9 @@ A datetime indicator for wingpanel.
 
 
 %changelog
+* Tue Jun 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190604.010323.04dcf808-2
+- Remove unnecessary downstream patch.
+
 * Tue Jun 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190604.010323.04dcf808-1
 - Update to latest snapshot.
 
