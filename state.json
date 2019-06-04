@@ -476,8 +476,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "341993abb656e67afc22d7312221ed86822ec5fd",
-            "git_last_date": "190531.045158",
+            "git_last_commit": "a3eee4b334f4b826c32ca542327d55a7f8d4a5a4",
+            "git_last_date": "190604.224919",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.4",
@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a9b3a83cf0d1b46cd3acfc482a3aa1c570d43d5c",
-            "git_last_date": "190531.045014",
+            "git_last_commit": "0087c1800d72be525e00e186b0fcae646f40b4a7",
+            "git_last_date": "190604.225456",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
