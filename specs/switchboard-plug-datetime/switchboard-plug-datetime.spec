@@ -8,14 +8,11 @@
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Date and Time plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
-
-# patch to use the "correct" gsettings schema for clock-format
-Patch0:         00-use-granite-gsettings-key.patch
 
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
@@ -66,6 +63,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Jun 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git190604.011805.6e4e0528-2
+- Remove unnecessary downstream patch.
+
 * Tue Jun 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git190604.011805.6e4e0528-1
 - Update to latest snapshot.
 
