@@ -69,8 +69,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9101a429c12ace49d653da1132ee7de2ea179841",
-            "git_last_date": "190604.194924",
+            "git_last_commit": "14f865fd75ff15e3a685ee63b03c7e8437759998",
+            "git_last_date": "190604.202705",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
@@ -575,8 +575,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "13fe0a4a539b1dfb8cf885ada8ea0817a131b8df",
-            "git_last_date": "190531.045003",
+            "git_last_commit": "14c38e98bcb34da1ad0f9ba5e6535f4f063ce7f1",
+            "git_last_date": "190604.203802",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
