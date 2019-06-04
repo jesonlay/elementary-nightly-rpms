@@ -69,12 +69,12 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6e4e05288c586c4529c82577072754faa78934d3",
-            "git_last_date": "190604.011805",
+            "git_last_commit": "9101a429c12ace49d653da1132ee7de2ea179841",
+            "git_last_date": "190604.194924",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.5+git%{date}.%{commit}"
         },
         "68": {

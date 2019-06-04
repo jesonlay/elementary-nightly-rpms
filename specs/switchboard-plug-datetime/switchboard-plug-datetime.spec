@@ -8,7 +8,7 @@
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Date and Time plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -63,6 +63,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Jun 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git190604.194924.9101a429-1
+- Update to latest snapshot.
+
 * Tue Jun 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git190604.011805.6e4e0528-2
 - Remove unnecessary downstream patch.
 
