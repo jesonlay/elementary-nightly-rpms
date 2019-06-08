@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "14fc12f4ab8664f6191375e7a1fdd3eef239537c",
-            "git_last_date": "190531.044907",
+            "git_last_commit": "0475cf39fc6af57cdd24d67d7349585b9e8aaa02",
+            "git_last_date": "190608.003936",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.5",
@@ -487,8 +487,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "37b27542e0967a1087f204f2408bb19936a79fe7",
-            "git_last_date": "190604.212018",
+            "git_last_commit": "8e5299eb461cefeb0bcee80ae13fbe5c9c6b8d71",
+            "git_last_date": "190608.003417",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.1.1",
@@ -586,12 +586,12 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "665d2114cf2d204417d48fb9cb672791f395bd9c",
-            "git_last_date": "190531.130435",
+            "git_last_commit": "0646e5b0b0b477ba48f79d08e3706fe4799ff966",
+            "git_last_date": "190608.002905",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.3.1+git%{date}.%{commit}"
         },
         "131": {
