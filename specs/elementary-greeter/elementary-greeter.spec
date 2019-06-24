@@ -4,7 +4,7 @@
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
 Version:        3.3.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -111,6 +111,9 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
 %changelog
+* Mon Jun 24 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190624.213545.72662968-1
+- Update to latest snapshot.
+
 * Wed Jun 19 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190608.002905.0646e5b0-2
 - Pull upstream pull request fixing login issues.
 
