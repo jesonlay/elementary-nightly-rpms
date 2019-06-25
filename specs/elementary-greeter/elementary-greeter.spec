@@ -12,11 +12,9 @@ Source0:        %{name}-%{version}.tar.gz
 Source1:        40-%{appname}.conf
 Source2:        %{appname}.whitelist
 
-# https://github.com/elementary/greeter/pull/290
-Patch0:         PR290.patch
-
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
 
@@ -93,6 +91,11 @@ mkdir -p %{buildroot}%{_sysconfdir}/wingpanel.d
 install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f %{appname}.lang
 %license LICENSE
 
@@ -107,6 +110,7 @@ install -pm 0644 %{SOURCE2} %{buildroot}%{_sysconfdir}/wingpanel.d
 %{_datadir}/xgreeters/%{appname}.desktop
 %{_datadir}/accountsservice/interfaces/%{appname}.AccountsService.xml
 %{_datadir}/dbus-1/interfaces/%{appname}.AccountsService.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 %{_datadir}/polkit-1/actions/%{appname}.AccountsService.policy
 
 
