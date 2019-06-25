@@ -289,8 +289,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1024813560668152814a72fd93dc6a93b226eb04",
-            "git_last_date": "190531.224437",
+            "git_last_commit": "dd98e0069f4af2665d87ac0df4d1fab433699716",
+            "git_last_date": "190625.002219",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "726629680d2ebc7328696f219db53c062e81af33",
-            "git_last_date": "190624.213545",
+            "git_last_commit": "a03f08ccf1d9a43d8f00b6c75e1b19c95d3d5c75",
+            "git_last_date": "190625.005023",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
