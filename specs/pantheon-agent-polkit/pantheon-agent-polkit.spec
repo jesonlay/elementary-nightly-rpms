@@ -61,6 +61,9 @@ desktop-file-validate \
 
 
 %changelog
+* Wed Jun 26 2019 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git190626.204843.b44ccc32-1
+- Update to latest snapshot.
+
 * Sat Jun 15 2019 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git190615.201806.36afc05e-1
 - Update to latest snapshot.
 
