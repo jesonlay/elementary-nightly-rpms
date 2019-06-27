@@ -12,8 +12,6 @@ License:        LGPLv3+
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
-Patch1:         00-datetime-clock-format-gsettings.patch
-
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
 BuildRequires:  meson
@@ -66,8 +64,6 @@ desktop-file-validate \
 %{_libdir}/libgranite.so.5.*
 
 %{_libdir}/girepository-1.0/Granite-1.0.typelib
-
-%{_datadir}/glib-2.0/schemas/io.elementary.granite.gschema.xml
 
 %{_datadir}/icons/hicolor/*/actions/appointment.svg
 %{_datadir}/icons/hicolor/*/actions/open-menu.svg
