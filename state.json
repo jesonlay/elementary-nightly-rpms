@@ -36,8 +36,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "84311e1908a56bdc375f9fdf27ee3abf4711fe68",
-            "git_last_date": "190630.162654",
+            "git_last_commit": "e09b417d1724e2cfaca6f6d8fbea4369ce5b2fce",
+            "git_last_date": "190703.144025",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0.1",
@@ -487,8 +487,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a7cb973e5fc55886a2c7dff4938d928c464e9a90",
-            "git_last_date": "190626.204244",
+            "git_last_commit": "57ba62775c30027c1ec61705567cdd3dd1452286",
+            "git_last_date": "190703.142604",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.1.1",
@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "acc3273410b25812da23c72068191b4d1ce529da",
-            "git_last_date": "190701.144436",
+            "git_last_commit": "bbfef14d28baaceff6f1dcbb6216a83a95302aa6",
+            "git_last_date": "190703.141500",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
@@ -553,8 +553,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6a40f84510b97a00d72c50b6df72f7587d122790",
-            "git_last_date": "190627.214634",
+            "git_last_commit": "a001009465527e20bbd4728888c4bfcf0682dff3",
+            "git_last_date": "190703.144518",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.3",
