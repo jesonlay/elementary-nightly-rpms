@@ -5,7 +5,7 @@ apps built for elementary.}
 
 Name:           granite
 Summary:        elementary companion library for GTK+ and GLib
-Version:        5.2.3+git%{date}.%{commit}
+Version:        5.2.4+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv3+
 
@@ -21,6 +21,9 @@ BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.22
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
+
+# granite relies on org.gnome.desktop.interface for the clock-format setting
+Requires:       gsettings-desktop-schemas
 
 # granite provides and needs some generic icons
 Requires:       hicolor-icon-theme
@@ -71,6 +74,9 @@ desktop-file-validate \
 
 
 %files devel
+%doc README.md
+%license COPYING
+
 %{_bindir}/granite-demo
 
 %{_libdir}/libgranite.so
@@ -85,6 +91,9 @@ desktop-file-validate \
 
 
 %changelog
+* Sun Jul 07 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.4+git190707.141301.0ab26f88-1
+- Update to version 5.2.4.
+
 * Sun Jul 07 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.3+git190707.141301.0ab26f88-1
 - Update to latest snapshot.
 
