@@ -91,6 +91,9 @@ desktop-file-validate \
 
 
 %changelog
+* Mon Jul 08 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.4+git190708.144553.bebf1ed6-1
+- Update to latest snapshot.
+
 * Sun Jul 07 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.4+git190707.141301.0ab26f88-1
 - Update to version 5.2.4.
 
