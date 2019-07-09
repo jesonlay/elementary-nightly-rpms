@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ec23fec4a4bcd6577d2d2039eb24ae9bc9364577",
-            "git_last_date": "190627.221816",
+            "git_last_commit": "485f0c403a9b6baf6425f9f98bd163a6a26998bf",
+            "git_last_date": "190709.172753",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.2.4",
@@ -69,8 +69,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b25ae99ca1be1ff5d2555000605b2b4759c80675",
-            "git_last_date": "190626.204503",
+            "git_last_commit": "b854b581ddbba371766316a8d2c0dae19e5e0863",
+            "git_last_date": "190709.171657",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
@@ -476,8 +476,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "edb33fa4a0b1fd17371b8c6562643c7269fe4a21",
-            "git_last_date": "190701.221817",
+            "git_last_commit": "c941d62c9873ac510d5a4e82fb546940cae08594",
+            "git_last_date": "190709.171026",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.5",
