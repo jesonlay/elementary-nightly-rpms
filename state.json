@@ -3,8 +3,8 @@
         "9": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a9756345de0fb69af1f3154756e963fc7579279",
-            "git_last_date": "190703.192850",
+            "git_last_commit": "e4a131ff081731f37728c94ae4df9fcbb86fd7c0",
+            "git_last_date": "190712.141954",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
             "package_version": "5.0.3",
@@ -289,8 +289,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5f1dbf15a7571bd16779d964b0cb3bd54232a928",
-            "git_last_date": "190701.233903",
+            "git_last_commit": "a790d2d0f80be8c12a5afe2534ea17bd825f3a63",
+            "git_last_date": "190712.141302",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
