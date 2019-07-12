@@ -113,12 +113,12 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ac0adf933f452688336cf02b2c69b72b077ecee7",
-            "git_last_date": "190708.154246",
+            "git_last_commit": "f5590325f92430d8b8c88d175a99119306c76bc3",
+            "git_last_date": "190712.154847",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.4",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.2.4+git%{date}.%{commit}"
         },
         "73": {
@@ -487,8 +487,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fafa53b86d59f95040809191a237c0c25b23aaaf",
-            "git_last_date": "190709.214116",
+            "git_last_commit": "4f774c1d0481358256741fb22e416bc5b83a88f9",
+            "git_last_date": "190712.154614",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.1.1",
