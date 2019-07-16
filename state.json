@@ -69,8 +69,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bcd6ce18e2d6fa5ca9ea0d1271ede4fe7663e561",
-            "git_last_date": "190712.204309",
+            "git_last_commit": "20cbd3d01b4f1acb9b4adb86355dfff51a4716fd",
+            "git_last_date": "190716.150708",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
@@ -234,8 +234,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d6b1ce1f795885349911b2f5ba9212612bdb561a",
-            "git_last_date": "190715.235253",
+            "git_last_commit": "2a8657bca8154efdc65f54e46f598f091e49f73c",
+            "git_last_date": "190716.154243",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.4",
@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ce201394323836594b3f4fb36d2ccd54f4e58cb3",
-            "git_last_date": "190706.164918",
+            "git_last_commit": "a703761bf26dd92c75beadff49c17fbfad91d609",
+            "git_last_date": "190716.152915",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.2",
@@ -575,8 +575,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3126f64d28f056cc6001a35b28e909961c1a0ddb",
-            "git_last_date": "190701.220632",
+            "git_last_commit": "80e3f7d616ccd14dca373c470494591cbc8675da",
+            "git_last_date": "190716.153530",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
