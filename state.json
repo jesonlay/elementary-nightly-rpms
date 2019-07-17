@@ -278,8 +278,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "febc4eeafa9ae746c5a9c191f61422991816e710",
-            "git_last_date": "190626.204433",
+            "git_last_commit": "ff331c4a9775807760984075d20221d792bc5325",
+            "git_last_date": "190717.125941",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.6",
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3019afec10732c52c529b5688f4f8a34948b02c1",
-            "git_last_date": "190715.185340",
+            "git_last_commit": "a2c3ea59ffb6c8ff0e1c1c0f8b82826416693d37",
+            "git_last_date": "190717.121842",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.8",
