@@ -69,8 +69,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "20cbd3d01b4f1acb9b4adb86355dfff51a4716fd",
-            "git_last_date": "190716.150708",
+            "git_last_commit": "8161b6799b3777823bad0103c5e5884a2b0b340a",
+            "git_last_date": "190717.095626",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "edb58e9e80302f11f29e5367a8d7f726138639c7",
-            "git_last_date": "190713.234639",
+            "git_last_commit": "4094eb1797759f418010798f5512fa26eeef36d4",
+            "git_last_date": "190717.091845",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
