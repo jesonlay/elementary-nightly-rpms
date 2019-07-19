@@ -7,9 +7,9 @@
             "git_last_date": "190712.141954",
             "name": "elementary-icon-theme",
             "package_name": "elementary-icon-theme",
-            "package_version": "5.0.3",
+            "package_version": "5.0.4",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "5.0.3+git%{date}.%{commit}"
+            "rpm_last_version": "5.0.4+git%{date}.%{commit}"
         },
         "10": {
             "git_branch": "master",
