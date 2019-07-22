@@ -2,7 +2,7 @@
 
 Name:           wingpanel-indicator-session
 Summary:        Session Indicator for wingpanel
-Version:        2.2.4+git%{date}.%{commit}
+Version:        2.2.5+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2+
 
@@ -50,6 +50,9 @@ A session Indicator for wingpanel.
 
 
 %changelog
+* Mon Jul 22 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.5+git190719.134700.943cbab0-1
+- Update to version 2.2.5.
+
 * Fri Jul 19 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.4+git190719.134700.943cbab0-1
 - Update to latest snapshot.
 
