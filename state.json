@@ -245,8 +245,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4d03512d0481261536f162918134fcd6cf09996c",
-            "git_last_date": "190726.172613",
+            "git_last_commit": "b423e9d74b020856d87305342d996cb0621a2e31",
+            "git_last_date": "190730.154725",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.3",
@@ -476,8 +476,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5c5c1b67bcac6fd1ec7c8f12cd2828edd5e9fffb",
-            "git_last_date": "190727.225844",
+            "git_last_commit": "3c0c5e0bd5e20a63beec9a97ee90d85f123221e6",
+            "git_last_date": "190730.152046",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.6",
