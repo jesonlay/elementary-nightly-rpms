@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "22685138f168e86d1511140f5eb07517c357ec99",
-            "git_last_date": "190717.150213",
+            "git_last_commit": "95ceec2b51ff86bbefe68b2b47364f9e5bf2f3b2",
+            "git_last_date": "190731.165355",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
