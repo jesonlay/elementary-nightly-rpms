@@ -333,8 +333,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "98e826c55a313ad6d4e4353ef42d08154d27a53e",
-            "git_last_date": "190731.234722",
+            "git_last_commit": "71282e30287f211a97485266d80c162b8f085268",
+            "git_last_date": "190801.055310",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.5",
@@ -366,8 +366,8 @@
         "101": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d3f38096db6b601e91765ce290d425289dd21f41",
-            "git_last_date": "190731.232335",
+            "git_last_commit": "643cc5324879269c87e1811e23547a2d9fb475a5",
+            "git_last_date": "190801.055434",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "2.1.3",
