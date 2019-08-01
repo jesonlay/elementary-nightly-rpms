@@ -69,8 +69,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2d70f2d10d09aef89f9b7fb15aaeb7e40e61b04a",
-            "git_last_date": "190731.211740",
+            "git_last_commit": "6418c5ef9201f3dbb3d2f412d0cd308bdab51ba4",
+            "git_last_date": "190801.104239",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e06e0bfc300233ab6190bffb7d52842428ffb646",
-            "git_last_date": "190731.211643",
+            "git_last_commit": "b71aff706b636a9e6befc7a2074c58dc4bc7d0ac",
+            "git_last_date": "190801.104357",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c2c646875a5465a178d4cbfa6d441b2c5c3d0158",
-            "git_last_date": "190731.155932",
+            "git_last_commit": "4f87fd26140bff9a1d80a2c040cd5858e9312d4e",
+            "git_last_date": "190801.104145",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
