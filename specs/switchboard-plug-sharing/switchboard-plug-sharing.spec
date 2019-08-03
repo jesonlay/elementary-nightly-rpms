@@ -3,16 +3,19 @@
 %global plug_type network
 %global plug_name sharing
 
+%global appname io.elementary.switchboard.sharing
+
 Name:           switchboard-plug-sharing
 Summary:        Switchboard Sharing Plug
 Version:        2.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -30,7 +33,7 @@ Configure the sharing of system services.
 
 
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
@@ -44,14 +47,24 @@ Configure the sharing of system services.
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
+%{_datadir}/metainfo/%{appname}.appdata.xml
+
 
 %changelog
+* Sat Aug 03 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190801.055434.643cc532-2
+- Adapt packaging to added appdata file.
+
 * Thu Aug 01 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190801.055434.643cc532-1
 - Update to latest snapshot.
 
@@ -420,5 +433,4 @@ Configure the sharing of system services.
 
 * Wed Nov 23 2016 Fabio Valentini <decathorpe@gmail.com> - 0.1+rev102-1
 - Update to version 0.1.
-
 
