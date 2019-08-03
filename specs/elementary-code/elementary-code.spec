@@ -6,7 +6,7 @@
 Name:           elementary-code
 Summary:        Code editor from elementary
 Version:        3.1.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -17,7 +17,9 @@ BuildRequires:  gettext
 BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
+
 BuildRequires:  vala-devel
+BuildRequires:  libvala-devel
 
 BuildRequires:  pkgconfig(editorconfig)
 BuildRequires:  pkgconfig(fontconfig)
@@ -36,12 +38,6 @@ BuildRequires:  pkgconfig(pangoft2)
 BuildRequires:  pkgconfig(vte-2.91)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 BuildRequires:  pkgconfig(zeitgeist-2.0)
-
-%if 0%{?fedora} < 30
-BuildRequires:  pkgconfig(libvala-0.42)
-%else
-BuildRequires:  pkgconfig(libvala-0.44)
-%endif
 
 Requires:       hicolor-icon-theme
 
@@ -121,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sat Aug 03 2019 Fabio Valentini <decathorpe@gmail.com> - 3.1.1+git190729.204214.0dc21ab6-2
+- Relax condition on libvala dependency.
+
 * Mon Jul 29 2019 Fabio Valentini <decathorpe@gmail.com> - 3.1.1+git190729.204214.0dc21ab6-1
 - Update to latest snapshot.
 
