@@ -179,8 +179,8 @@
         "80": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "622d6782f834af92a424493cd52ea779822a9e63",
-            "git_last_date": "190810.233605",
+            "git_last_commit": "3d9a6ab6277fb5756bd7a4bbff1d2a5a89f9849f",
+            "git_last_date": "190811.002202",
             "name": "wingpanel-indicator-bluetooth",
             "package_name": "wingpanel-indicator-bluetooth",
             "package_version": "2.1.3",
