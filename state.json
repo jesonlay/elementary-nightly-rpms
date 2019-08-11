@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0584770c2e217728411250030a6dcc5806634acd",
-            "git_last_date": "190808.193434",
+            "git_last_commit": "b9df3a6ceb485ef823cc0fd3f429764e5b61191a",
+            "git_last_date": "190811.091821",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "951c3d5568ca5c15375c071e6ffe35b48b8910d6",
-            "git_last_date": "190731.234121",
+            "git_last_commit": "e54b0d129b30283f2ca7a4629862a10a89214017",
+            "git_last_date": "190811.093938",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
