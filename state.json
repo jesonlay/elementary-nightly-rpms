@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0ccfa04fe74f5df32ff87f708c975ea2a83aafad",
-            "git_last_date": "190811.102216",
+            "git_last_commit": "f3b53834f9a66be259ae669babd1063abd9ef520",
+            "git_last_date": "190812.172221",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "32921de43181f9e925ddf8a8b8f6f32250b57aea",
-            "git_last_date": "190807.182157",
+            "git_last_commit": "a666eed5ea15a2f312d3abc20d1d8a83ea34407f",
+            "git_last_date": "190812.172208",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
