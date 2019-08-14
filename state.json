@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0bbd68bdb135454566c13dc11f22f5050b39f8aa",
-            "git_last_date": "190731.232204",
+            "git_last_commit": "7c6d1972c53915ee4f5ab95e7199a7c067120c68",
+            "git_last_date": "190814.095658",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -212,8 +212,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c996af8b8056bf9cf5844483f7f1775b4f4d4073",
-            "git_last_date": "190813.182225",
+            "git_last_commit": "25ed6ee02897d53c14930ac29094f1062022646b",
+            "git_last_date": "190814.094006",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.6",
@@ -245,8 +245,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "fb6281eb0302121f503e2f2fcba268e5e6294b92",
-            "git_last_date": "190801.131558",
+            "git_last_commit": "65992ef11a55bb007ad49cc5b01a287a1eef0d4e",
+            "git_last_date": "190814.095457",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.3",
