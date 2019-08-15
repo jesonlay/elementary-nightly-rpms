@@ -4,7 +4,7 @@
 Name:           elementary-greeter
 Summary:        LightDM Login Screen for the elementary desktop
 Version:        3.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -108,13 +108,13 @@ appstream-util validate-relax --nonet \
 %{_sbindir}/%{appname}
 
 %{_datadir}/xgreeters/%{appname}.desktop
-%{_datadir}/accountsservice/interfaces/%{appname}.AccountsService.xml
-%{_datadir}/dbus-1/interfaces/%{appname}.AccountsService.xml
 %{_datadir}/metainfo/%{appname}.appdata.xml
-%{_datadir}/polkit-1/actions/%{appname}.AccountsService.policy
 
 
 %changelog
+* Thu Aug 15 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190813.152214.43d3d89a-2
+- Remove accountsservice stuff again.
+
 * Tue Aug 13 2019 Fabio Valentini <decathorpe@gmail.com> - 3.3.1+git190813.152214.43d3d89a-1
 - Update to latest snapshot.
 
