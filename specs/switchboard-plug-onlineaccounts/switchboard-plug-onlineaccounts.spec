@@ -2,17 +2,19 @@
 
 %global plug_type network
 %global plug_name online-accounts
+%global plug_rdnn io.elementary.switchboard.onlineaccounts
 
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        2.0.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala
 
@@ -62,6 +64,11 @@ Obsoletes:      pantheon-online-accounts-devel
 %find_lang %{plug_name}-plug
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
+
+
 %files -f %{plug_name}-plug.lang
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
 
@@ -71,9 +78,13 @@ Obsoletes:      pantheon-online-accounts-devel
 %{_datadir}/accounts/services/*.service
 %{_datadir}/dbus-1/services/com.google.code.AccountsSSO.gSingleSignOnUI.service
 %{_datadir}/icons/hicolor/*/apps/*.svg
+%{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
 
 
 %changelog
+* Thu Aug 15 2019 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git190814.084507.5735d128-2
+- Add appdata file and validation.
+
 * Wed Aug 14 2019 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git190814.084507.5735d128-1
 - Update to latest snapshot.
 
