@@ -2,13 +2,12 @@
 
 %global plug_name useraccounts
 %global plug_type system
-
 %global plug_rdnn io.elementary.switchboard.useraccounts
 
 Name:           switchboard-plug-useraccounts
 Summary:        Switchboard User Accounts Plug
 Version:        2.2.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -65,10 +64,13 @@ appstream-util validate-relax --nonet \
 %{_libdir}/switchboard/system/pantheon-%{plug_name}/
 
 %{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
-%{_datadir}/polkit-1/actions/org.pantheon.switchboard.user-accounts.policy
+%{_datadir}/polkit-1/actions/%{plug_rdnn}.policy
 
 
 %changelog
+* Thu Aug 15 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190814.193146.d884018a-2
+- Adapt to renamed files.
+
 * Wed Aug 14 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190814.193146.d884018a-1
 - Update to latest snapshot.
 
