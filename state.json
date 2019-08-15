@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f1b9e69171b6daaf30c313824527ab840083dcce",
-            "git_last_date": "190814.110443",
+            "git_last_commit": "6ff63b8a013556ff266f6cf7d80a1eb000f62643",
+            "git_last_date": "190815.223423",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.2",
