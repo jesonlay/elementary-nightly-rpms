@@ -3,7 +3,7 @@
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
 Version:        0.1.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -15,6 +15,7 @@ BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32.0
+BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(polkit-agent-1)
 BuildRequires:  pkgconfig(polkit-gobject-1)
@@ -61,6 +62,9 @@ desktop-file-validate \
 
 
 %changelog
+* Thu Aug 15 2019 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git190814.094006.25ed6ee0-2
+- Add BuildRequires: pkgconfig(granite).
+
 * Wed Aug 14 2019 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git190814.094006.25ed6ee0-1
 - Update to latest snapshot.
 
