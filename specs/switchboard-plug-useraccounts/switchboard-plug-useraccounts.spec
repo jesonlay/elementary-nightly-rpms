@@ -7,7 +7,7 @@
 Name:           switchboard-plug-useraccounts
 Summary:        Switchboard User Accounts Plug
 Version:        2.2.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -68,6 +68,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Aug 16 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190816.192220.f8bbd481-1
+- Update to latest snapshot.
+
 * Thu Aug 15 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.1+git190814.193146.d884018a-2
 - Adapt to renamed files.
 
