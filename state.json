@@ -476,8 +476,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2b2c2c0814e6c9cd45f8d80ecb405996326fe11c",
-            "git_last_date": "190815.182207",
+            "git_last_commit": "4f37489a666c78095938d334653cd969bad95dd8",
+            "git_last_date": "190816.084834",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.6",
@@ -586,12 +586,12 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "43d3d89a5bc15a272ddb3e02611b6bd6c5b653b9",
-            "git_last_date": "190813.152214",
+            "git_last_commit": "faa867b4a84b16e80d56f8d7478b69c270787f02",
+            "git_last_date": "190816.084708",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.3.1+git%{date}.%{commit}"
         },
         "131": {
