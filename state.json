@@ -245,8 +245,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9cd3ecce8ffbffce0e601677b7bd9d786bbbc347",
-            "git_last_date": "190816.171812",
+            "git_last_commit": "471b46fe78f0731fc8112cb539a065a9d298adca",
+            "git_last_date": "190817.142218",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.3",
@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6ff63b8a013556ff266f6cf7d80a1eb000f62643",
-            "git_last_date": "190815.223423",
+            "git_last_commit": "ece5a127608967a7c41590ceaba10ad2a4c74222",
+            "git_last_date": "190817.142206",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.2",
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1cfdb61464274bb70c87956de25207458ffea79d",
-            "git_last_date": "190817.112203",
+            "git_last_commit": "b4784803291e1516aaf1a08d511a94f7d4943357",
+            "git_last_date": "190817.142203",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.9",
