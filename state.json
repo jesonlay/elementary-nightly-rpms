@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f8bbd481fa8a1b73a71f362e0bcf6e3a1b96b577",
-            "git_last_date": "190816.192220",
+            "git_last_commit": "34e1858530707ebd08a56685be6fc7afedbee8cb",
+            "git_last_date": "190820.042204",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "35b7661fb07d727e8152599fb1c9d556a86a17c6",
-            "git_last_date": "190819.101538",
+            "git_last_commit": "b26c85b333ee34c9eb272285f544f0313667f665",
+            "git_last_date": "190820.042219",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.9",
@@ -465,8 +465,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "49a2969575b60c0c7030ce6f8e10e22ddc41ad85",
-            "git_last_date": "190817.162205",
+            "git_last_commit": "5eb68354cda74aaecd0805c23871af9a1d85a00f",
+            "git_last_date": "190820.042219",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.4",
