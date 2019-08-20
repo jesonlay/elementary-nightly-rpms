@@ -56,6 +56,9 @@ A datetime indicator for wingpanel.
 
 
 %changelog
+* Tue Aug 20 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190820.112219.93e0b2ce-1
+- Update to latest snapshot.
+
 * Mon Aug 19 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git190819.022215.ea3980c1-1
 - Update to latest snapshot.
 
