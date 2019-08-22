@@ -69,8 +69,8 @@
         "67": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "033b082ccadfe11341214363c4af795be54f8df5",
-            "git_last_date": "190820.032208",
+            "git_last_commit": "e29666f780a02d83df2067220caf50dea5e253f9",
+            "git_last_date": "190822.002218",
             "name": "switchboard-plug-datetime",
             "package_name": "switchboard-plug-datetime",
             "package_version": "2.1.5",
@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "24795e223939baa2a769dfddbfa7118f9793bd94",
-            "git_last_date": "190814.133926",
+            "git_last_commit": "c25b405a5dd416e1588ec618ae9681a9f0bacd72",
+            "git_last_date": "190822.002209",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.4",
@@ -212,12 +212,12 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "25ed6ee02897d53c14930ac29094f1062022646b",
-            "git_last_date": "190814.094006",
+            "git_last_commit": "24e275387bb83d392c5f7ce4c96dbb21c0bcb4ae",
+            "git_last_date": "190822.002241",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.6",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "0.1.6+git%{date}.%{commit}"
         },
         "84": {
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b26c85b333ee34c9eb272285f544f0313667f665",
-            "git_last_date": "190820.042219",
+            "git_last_commit": "264aad73503c9812f9ecf92fa0ec1bedbdaa87a8",
+            "git_last_date": "190822.002211",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.9",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "faa867b4a84b16e80d56f8d7478b69c270787f02",
-            "git_last_date": "190816.084708",
+            "git_last_commit": "75aa2a03cf38e40a189423b180cb95ba4d832de9",
+            "git_last_date": "190822.002206",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
