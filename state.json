@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dc513e04f56b2ad146b81fe7c7d95d6568bd6a63",
-            "git_last_date": "190820.112209",
+            "git_last_commit": "b9b747ab970773988d0c811743799b4601172c7d",
+            "git_last_date": "190821.232212",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.2",
@@ -465,8 +465,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5eb68354cda74aaecd0805c23871af9a1d85a00f",
-            "git_last_date": "190820.042219",
+            "git_last_commit": "4ad7b0bcd1c6bf3339f10ee2ac7c5f0b4684d597",
+            "git_last_date": "190821.232220",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.4",
