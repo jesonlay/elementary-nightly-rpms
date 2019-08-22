@@ -6,18 +6,15 @@
 Name:           wingpanel-applications-menu
 Summary:        Lightweight and stylish app launcher
 Version:        2.4.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
-BuildRequires:  cmake
-BuildRequires:  gcc
-BuildRequires:  gcc-c++
 BuildRequires:  gettext
+BuildRequires:  meson
 BuildRequires:  vala >= 0.26.2
-BuildRequires:  vala-tools
 
 BuildRequires:  appstream-vala
 
@@ -31,8 +28,8 @@ BuildRequires:  pkgconfig(libgnome-menu-3.0)
 BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  pkgconfig(plank) >= 0.10.9
 BuildRequires:  pkgconfig(switchboard-2.0)
-BuildRequires:  pkgconfig(unity)
-BuildRequires:  pkgconfig(wingpanel-2.0)
+BuildRequires:  pkgconfig(unity) >= 4.0.0
+BuildRequires:  pkgconfig(wingpanel-2.0) >= 2.1.0
 BuildRequires:  pkgconfig(zeitgeist-2.0)
 
 Requires:       redhat-menus
@@ -53,16 +50,15 @@ The lightweight and stylish app launcher from elementary.
 
 
 %build
-mkdir build && pushd build
-%cmake ..
-%make_build
-popd
+%meson
+%meson_build
 
 
 %install
-pushd build
-%make_install
-popd
+%meson_install
+
+# remove static libraries
+rm %{buildroot}/%{_libdir}/*.a
 
 %find_lang slingshot
 
@@ -79,6 +75,9 @@ popd
 
 
 %changelog
+* Thu Aug 22 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.3+git190821.001446.b4b851ba-2
+- Switch from CMake to meson.
+
 * Wed Aug 21 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.3+git190821.001446.b4b851ba-1
 - Update to latest snapshot.
 
