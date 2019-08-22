@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.1.9+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -19,6 +19,7 @@ BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.0
 
+BuildRequires:  pkgconfig(cloudproviders)
 BuildRequires:  pkgconfig(dbus-glib-1)
 BuildRequires:  pkgconfig(gail-3.0)
 BuildRequires:  pkgconfig(gee-0.8)
@@ -115,6 +116,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Aug 22 2019 Fabio Valentini <decathorpe@gmail.com> - 4.1.9+git190822.002211.264aad73-2
+- Add BuildRequires: pkgconfig(cloudproviders).
+
 * Thu Aug 22 2019 Fabio Valentini <decathorpe@gmail.com> - 4.1.9+git190822.002211.264aad73-1
 - Update to latest snapshot.
 
