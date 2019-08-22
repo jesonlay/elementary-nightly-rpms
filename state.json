@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "34e1858530707ebd08a56685be6fc7afedbee8cb",
-            "git_last_date": "190820.042204",
+            "git_last_commit": "cfad3b31e1c146e808b9e957f2b4ca1a30cca8a7",
+            "git_last_date": "190822.012207",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
@@ -245,8 +245,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93e0b2cec44fc0627e00a2dddd69090dec1f4099",
-            "git_last_date": "190820.112219",
+            "git_last_commit": "27ca5814040927971b0c77380ce9dd3a9774fa82",
+            "git_last_date": "190822.012222",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.3",
