@@ -6,7 +6,7 @@
 Name:           wingpanel-applications-menu
 Summary:        Lightweight and stylish app launcher
 Version:        2.4.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -75,6 +75,9 @@ rm %{buildroot}/%{_libdir}/*.a
 
 
 %changelog
+* Fri Aug 23 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.3+git190823.100214.2f3f4886-1
+- Update to latest snapshot.
+
 * Thu Aug 22 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.3+git190821.001446.b4b851ba-2
 - Switch from CMake to meson.
 

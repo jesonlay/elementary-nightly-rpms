@@ -564,12 +564,12 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b4b851bae6a830e09ff613a7a1799f7925408e27",
-            "git_last_date": "190821.001446",
+            "git_last_commit": "2f3f48863e7972d5d39b4a27980d77b3aba1fd4c",
+            "git_last_date": "190823.100214",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.4.3+git%{date}.%{commit}"
         },
         "129": {
