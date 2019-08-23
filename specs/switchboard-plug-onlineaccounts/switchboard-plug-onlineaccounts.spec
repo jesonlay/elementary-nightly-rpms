@@ -7,7 +7,7 @@
 Name:           switchboard-plug-onlineaccounts
 Summary:        Switchboard Online Accounts plug
 Version:        2.0.1+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv2
 
 URL:            https://github.com/elementary/%{name}
@@ -82,6 +82,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Aug 23 2019 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git190823.215207.a5c88f0a-1
+- Update to latest snapshot.
+
 * Thu Aug 15 2019 Fabio Valentini <decathorpe@gmail.com> - 2.0.1+git190814.084507.5735d128-2
 - Add appdata file and validation.
 
