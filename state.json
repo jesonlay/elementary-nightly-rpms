@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "66846501802bcdccd47952478f0cc31feeb93dd1",
-            "git_last_date": "190823.222226",
+            "git_last_commit": "3a6713d2e16f402e4584f9f293ce17b1669cdd1f",
+            "git_last_date": "190826.052222",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b513ee2e1c492d60e17a0709dd77899d796b2e62",
-            "git_last_date": "190823.222646",
+            "git_last_commit": "c232276c5f7be5ad95585d9e8b650897d9bc4dc2",
+            "git_last_date": "190826.052220",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.2",
@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bbe909098bef4a57aa1259587cb9a8a1d0931530",
-            "git_last_date": "190823.222342",
+            "git_last_commit": "a80771eb3e56309894f624341db3bd8ebb901350",
+            "git_last_date": "190826.052218",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.2",
