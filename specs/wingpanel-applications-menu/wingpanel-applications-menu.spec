@@ -6,7 +6,7 @@
 Name:           wingpanel-applications-menu
 Summary:        Lightweight and stylish app launcher
 Version:        2.4.3+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -72,6 +72,9 @@ The lightweight and stylish app launcher from elementary.
 
 
 %changelog
+* Mon Aug 26 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.3+git190826.212245.a8938a2a-1
+- Update to latest snapshot.
+
 * Sat Aug 24 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.3+git190823.100214.2f3f4886-2
 - Static libraries were removed upstream.
 
