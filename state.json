@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ee6c21057acadb0d049ae6c5a56c60df69eb79c1",
-            "git_last_date": "190823.002212",
+            "git_last_commit": "a8ea92ff2932ad806ff56dec4803e648e78c1437",
+            "git_last_date": "190826.042221",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.9",
@@ -476,8 +476,8 @@
         "120": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8597e0288957a007a6def70d2865b36ecc959082",
-            "git_last_date": "190822.112223",
+            "git_last_commit": "0daef6e9a3e6d532ea2fef861e0c4f1fb19855ba",
+            "git_last_date": "190826.042224",
             "name": "elementary-terminal",
             "package_name": "elementary-terminal",
             "package_version": "5.3.6",
