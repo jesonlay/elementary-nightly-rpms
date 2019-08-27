@@ -36,8 +36,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5a5bc35567c6b59d12a44f2f1324098dcabf59d2",
-            "git_last_date": "190716.201232",
+            "git_last_commit": "19f3722d6b2ef00759fab9f59ad88469530f9db0",
+            "git_last_date": "190827.222323",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0.1",
@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "df238c431e7193d7a67e07f121b84c5a233ac9dc",
-            "git_last_date": "190731.234224",
+            "git_last_commit": "938bfb791a24797b71adc85852eb98aad6ccf79d",
+            "git_last_date": "190827.222320",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.5",
@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d02cbe61cbea5902e5c72f28cbe8130b8210f030",
-            "git_last_date": "190823.222106",
+            "git_last_commit": "7952a990d4e550dbf89d8aa793385d621c3d6522",
+            "git_last_date": "190827.222240",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -487,12 +487,12 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0dc21ab6c12a1217bc40e738ff38dd9c93312036",
-            "git_last_date": "190729.204214",
+            "git_last_commit": "8c6cb16b8cb787d3609bc0177923e9b7cd995c9c",
+            "git_last_date": "190827.222221",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.1.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "3.1.1+git%{date}.%{commit}"
         },
         "122": {
@@ -520,8 +520,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c277aa76ab9633659f879c09f29bab1eade087b1",
-            "git_last_date": "190724.122639",
+            "git_last_commit": "7df9fb090885c7b8e3189fe4bc8f17371f5f955c",
+            "git_last_date": "190827.222241",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.4",
@@ -531,8 +531,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "834574c2ac9ff540117450665faff8902b992a49",
-            "git_last_date": "190716.164052",
+            "git_last_commit": "ba95e5d6d4f34e8021339916e8ad3fe9094ef3d4",
+            "git_last_date": "190827.222215",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.3",
@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c910466ae49c6fdc5ae8b1240d8054556092f88b",
-            "git_last_date": "190717.150608",
+            "git_last_commit": "8220dd8a77a0349ce488d349ab62621e0de170f3",
+            "git_last_date": "190827.222218",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
@@ -575,8 +575,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2aaf231b192050ca19ac5c7da239db283bd7de4b",
-            "git_last_date": "190729.192555",
+            "git_last_commit": "b3a0cc91bc5697ec58a1806a78501e5b58ffaa4e",
+            "git_last_date": "190827.222322",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0474e65652676677107ea9fc5e04f338024836ff",
-            "git_last_date": "190827.022207",
+            "git_last_commit": "a692d1caa33aa954d375d011431207f365326eb0",
+            "git_last_date": "190827.222225",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
