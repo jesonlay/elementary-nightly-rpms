@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6b0eb98492958aeff381872e33b08bec9affe218",
-            "git_last_date": "190825.081949",
+            "git_last_commit": "6fbec65d29e3de0dfed607014ce4317d1748ac9f",
+            "git_last_date": "190827.160912",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.2.5",
@@ -58,8 +58,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3f569588497a4710db83f0856575d453d4fc526b",
-            "git_last_date": "190626.204735",
+            "git_last_commit": "0e1e8883ed0bc166c2fa2a1dc5b7811983fb747e",
+            "git_last_date": "190827.165021",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.1.3",
