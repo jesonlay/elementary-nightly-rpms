@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "908cd334d24521169032d2f931c4386212394b03",
-            "git_last_date": "190826.062229",
+            "git_last_commit": "4cf0d2df72ebaa45e96a49c3dfbbdf91943af134",
+            "git_last_date": "190827.212224",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bdc2ec9dfadd166a4bd8c117b11f3415bf411b26",
-            "git_last_date": "190826.062213",
+            "git_last_commit": "3c8c9571381c1e1d2995af48132d72cbcded9671",
+            "git_last_date": "190827.212215",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
