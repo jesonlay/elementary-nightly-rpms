@@ -190,8 +190,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9a50b2caa0e8943220983bc393a296f17a162831",
-            "git_last_date": "190823.222255",
+            "git_last_commit": "5d0e4453113592ed8902a46372fb2414a3c5b5b7",
+            "git_last_date": "190827.012224",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
@@ -256,8 +256,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6a78fcf740a86c749b9afca20dab36f30c985a2c",
-            "git_last_date": "190823.221122",
+            "git_last_commit": "ca89fd82e034c37d12004d6e534097a471302898",
+            "git_last_date": "190827.012232",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.2.1",
