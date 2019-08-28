@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8220dd8a77a0349ce488d349ab62621e0de170f3",
-            "git_last_date": "190827.222218",
+            "git_last_commit": "37cdaec08a79dab7178d6b87a7ba98cc4442df8a",
+            "git_last_date": "190828.175510",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a8938a2aa0bf475d7a695d0bed749b39361919b1",
-            "git_last_date": "190826.212245",
+            "git_last_commit": "0c91b256778146e74491a8bc7d1b58a7e9b53058",
+            "git_last_date": "190828.173556",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.3",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a692d1caa33aa954d375d011431207f365326eb0",
-            "git_last_date": "190827.222225",
+            "git_last_commit": "6ee6e8831d8c33d5f0860bf2e2cc22ddf382202c",
+            "git_last_date": "190828.173116",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
