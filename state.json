@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "938bfb791a24797b71adc85852eb98aad6ccf79d",
-            "git_last_date": "190827.222320",
+            "git_last_commit": "c7e8eb18f9df6f90e01b1c7673e61ca3f1fd624c",
+            "git_last_date": "190829.152234",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.5",
@@ -487,8 +487,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8c6cb16b8cb787d3609bc0177923e9b7cd995c9c",
-            "git_last_date": "190827.222221",
+            "git_last_commit": "6d34e5ddc963b7e6fae1c59d90298c1e4dd8f09a",
+            "git_last_date": "190829.152242",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.1.1",
@@ -520,8 +520,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7df9fb090885c7b8e3189fe4bc8f17371f5f955c",
-            "git_last_date": "190827.222241",
+            "git_last_commit": "4d4b81510ade9c485a65a72bd5e015101370c2bf",
+            "git_last_date": "190829.152223",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.4",
