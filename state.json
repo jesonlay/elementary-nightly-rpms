@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9952218eccde4682fbc085efb32eb25f2eb0a04d",
-            "git_last_date": "190830.190444",
+            "git_last_commit": "8cc6e347f57c4a4ba3a7cc07e335eaf69a645011",
+            "git_last_date": "190901.162234",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c91e0867d4b8b1b527d10f3c48e2d9f7d2487957",
-            "git_last_date": "190829.042216",
+            "git_last_commit": "b3f77fe15f876001c02806fccacbcb2a7e31be10",
+            "git_last_date": "190901.162223",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
@@ -355,8 +355,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e130b49e990dbcef504842ace5b53f0cc89f3d94",
-            "git_last_date": "190830.212245",
+            "git_last_commit": "abe2a8fcb8cac6026e24d78b186f69844e203907",
+            "git_last_date": "190901.162237",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c232276c5f7be5ad95585d9e8b650897d9bc4dc2",
-            "git_last_date": "190826.052220",
+            "git_last_commit": "56d0dba271861e57b099e16a77fa1e56cb0cf375",
+            "git_last_date": "190901.162230",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.5.2",
