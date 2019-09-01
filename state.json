@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "572b8321d0d52e5fa39924512f054256e168ba0a",
-            "git_last_date": "190829.172224",
+            "git_last_commit": "f485e5ba327aa7d31742df00f7e8c96846909524",
+            "git_last_date": "190901.012224",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.4",
@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "59d2eddee6e086e2ba63957930b3456ba637abbb",
-            "git_last_date": "190830.212236",
+            "git_last_commit": "bc9214d837033f152bcead92cb6cc03982035d4c",
+            "git_last_date": "190901.012232",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.2",
@@ -498,8 +498,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bc3bf434179972326e6d82c23fa02986b0066bc9",
-            "git_last_date": "190830.212233",
+            "git_last_commit": "923b5ac098606557a338378ae1461a911d76e73e",
+            "git_last_date": "190901.012230",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
