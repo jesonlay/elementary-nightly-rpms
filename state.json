@@ -190,8 +190,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "5d0e4453113592ed8902a46372fb2414a3c5b5b7",
-            "git_last_date": "190827.012224",
+            "git_last_commit": "3956a6aaa17eede318f11271affeb789dbdfef86",
+            "git_last_date": "190901.152231",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4e1139216f088692c0214e8b27aa8c2b199e9bd8",
-            "git_last_date": "190830.212249",
+            "git_last_commit": "c07cf0847f748b0f0201568e9c548f9156643fd5",
+            "git_last_date": "190901.152234",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
