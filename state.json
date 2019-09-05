@@ -498,8 +498,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "923b5ac098606557a338378ae1461a911d76e73e",
-            "git_last_date": "190901.012230",
+            "git_last_commit": "29c0d4b69cdfab1551b1f15d4651dfde96cb84f9",
+            "git_last_date": "190905.152237",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a09750b877ab35e59a0d96ac49f8774e15c211a1",
-            "git_last_date": "190902.132300",
+            "git_last_commit": "b9185c91ae0875c97d5105d828be816f5ad7d057",
+            "git_last_date": "190905.152301",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.3",
