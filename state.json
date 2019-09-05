@@ -465,8 +465,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c5ff325984701212baeba5b4b57ca2dbd3b47ea1",
-            "git_last_date": "190903.092233",
+            "git_last_commit": "7d218a0ab8b13bde60d410bdfd50d7bffe750f9c",
+            "git_last_date": "190905.055443",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.4",
@@ -520,8 +520,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4d4b81510ade9c485a65a72bd5e015101370c2bf",
-            "git_last_date": "190829.152223",
+            "git_last_commit": "94888d75e472119e0896ebcc4ca55ca5aa893607",
+            "git_last_date": "190905.053409",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.4",
