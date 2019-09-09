@@ -256,8 +256,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6236a089d95ea13095fb288bc998df4d14a5e491",
-            "git_last_date": "190906.152311",
+            "git_last_commit": "137280d10a0cd36602870214c627cb7173cdc50d",
+            "git_last_date": "190909.152532",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.2.1",
@@ -498,8 +498,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "01f2853221824c788133cdedc1baef385088dc09",
-            "git_last_date": "190909.092243",
+            "git_last_commit": "a282db59981292d9996f4cc0c19380c8ffb96111",
+            "git_last_date": "190909.152250",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "308f5d97bab456f77809a69f98cd4640a2f83317",
-            "git_last_date": "190905.112228",
+            "git_last_commit": "ce97b27a01ec509eef11c3f7c77002532bdfbe27",
+            "git_last_date": "190909.152237",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
