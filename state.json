@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8dfefbad5e8314d45ee97b69ce951448368b15a3",
-            "git_last_date": "190906.152329",
+            "git_last_commit": "6c045efd068404f51be280b6fcfb1aa77aa4aeab",
+            "git_last_date": "190910.183740",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.8.1",
@@ -465,8 +465,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "079beaa627d24fe05a40847844c62cfc732af5e7",
-            "git_last_date": "190906.182238",
+            "git_last_commit": "6c12ea958f3e46dd7c7e8dc97a840dc5c4bec225",
+            "git_last_date": "190910.184101",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.4",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7367435e81a58aaee32198ebf6e5ed09d94ba8bf",
-            "git_last_date": "190909.184624",
+            "git_last_commit": "4832f0d584da60027e35aaf993dafada9f1726e2",
+            "git_last_date": "190910.184555",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
