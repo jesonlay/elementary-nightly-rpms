@@ -36,8 +36,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "19f3722d6b2ef00759fab9f59ad88469530f9db0",
-            "git_last_date": "190827.222323",
+            "git_last_commit": "f9fad254d2dc3fda5dcf8cd47afdcfee6bd9de2c",
+            "git_last_date": "190910.172245",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0.1",
@@ -212,8 +212,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "24e275387bb83d392c5f7ce4c96dbb21c0bcb4ae",
-            "git_last_date": "190822.002241",
+            "git_last_commit": "cd954246ebf671a263cf30264a7712203dc3ed1f",
+            "git_last_date": "190910.172244",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.6",
@@ -553,8 +553,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "066a8dd18eef74ab183e1e7fb6cf08172982a95f",
-            "git_last_date": "190909.170125",
+            "git_last_commit": "2a2a22ae9e9ecf1bd70b15ec9643de6bcb119dd2",
+            "git_last_date": "190910.172319",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.3",
