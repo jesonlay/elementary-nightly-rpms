@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c3dbecaf24fbd1994fa316cc84f635137a3dc138",
-            "git_last_date": "190910.005235",
+            "git_last_commit": "e36b02dcf79a686cae1ab1f00e8ac3835f292c4a",
+            "git_last_date": "190910.011750",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.1.9",
