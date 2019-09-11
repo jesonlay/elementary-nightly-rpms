@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8cc6e347f57c4a4ba3a7cc07e335eaf69a645011",
-            "git_last_date": "190901.162234",
+            "git_last_commit": "1302af7b7d0185ffdb6baa461a5e930c2b4f7320",
+            "git_last_date": "190911.150943",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a369b6b3e09a0d19c5472502ddd796039b6b0c8c",
-            "git_last_date": "190911.090921",
+            "git_last_commit": "98ea1a9f39bc21912f22afe14abf3dfbecb688c2",
+            "git_last_date": "190911.150902",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
