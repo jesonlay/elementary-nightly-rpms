@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d4bfd58f4b25f9bace240932807c2910be480e90",
-            "git_last_date": "190912.185802",
+            "git_last_commit": "d73df892798bb36ff1b87ba6e43950670238d643",
+            "git_last_date": "190912.200319",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "01034a16c73a73ac24175804b8a050dd5ff6aa50",
-            "git_last_date": "190912.181649",
+            "git_last_commit": "f8928f5f47b85322c64d43c704ddbfdede5014de",
+            "git_last_date": "190912.200401",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
@@ -542,8 +542,8 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6989a0c189f2c8777de2866dda3816382f1cf96",
-            "git_last_date": "190912.151742",
+            "git_last_commit": "4da441e0dcd32496c8b78781ae2cad6c08cc9976",
+            "git_last_date": "190912.201556",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "67d5f3e04ef01456c6bca534db75855684a08e63",
-            "git_last_date": "190912.171518",
+            "git_last_commit": "8db9773ecc458ee9ce9e9f257e70065050af7706",
+            "git_last_date": "190912.200732",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
