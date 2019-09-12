@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4ec577e1e303f70adb44b6efa72f7f37b760ef04",
-            "git_last_date": "190911.122247",
+            "git_last_commit": "700d4d3e509eb95a1f6e19a41d5841c586117de5",
+            "git_last_date": "190912.175204",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.2",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c23521ac5b71b71c769875ff34adaab3bd2ee7b3",
-            "git_last_date": "190911.193116",
+            "git_last_commit": "67d5f3e04ef01456c6bca534db75855684a08e63",
+            "git_last_date": "190912.171518",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
