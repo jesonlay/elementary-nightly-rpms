@@ -553,8 +553,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2a2a22ae9e9ecf1bd70b15ec9643de6bcb119dd2",
-            "git_last_date": "190910.172319",
+            "git_last_commit": "d972aa03abb3a7e5518a591e6ce5a2c768b0c72e",
+            "git_last_date": "190913.032242",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.3",
