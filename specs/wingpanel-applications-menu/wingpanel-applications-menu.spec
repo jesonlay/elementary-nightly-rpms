@@ -72,6 +72,9 @@ The lightweight and stylish app launcher from elementary.
 
 
 %changelog
+* Sun Sep 15 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.4+git190915.223658.11f3935c-1
+- Update to latest snapshot.
+
 * Sun Sep 15 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.4+git190915.163336.36c18e7e-1
 - Update to latest snapshot.
 
