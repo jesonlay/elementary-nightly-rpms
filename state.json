@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a6669a05f635035c1476e77a6f7eb56504437b41",
-            "git_last_date": "190907.202247",
+            "git_last_commit": "bf19dcf2ebbeac302541fe5762ed9cd101ba3c1a",
+            "git_last_date": "190916.162303",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.5",
@@ -465,8 +465,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bd93d8c877474646cd1c08bfaf2f4e2596fb4ebb",
-            "git_last_date": "190914.122253",
+            "git_last_commit": "9e9e3fb535443739affd9ca7ba720d6fb02e101f",
+            "git_last_date": "190916.162256",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.4",
@@ -575,8 +575,8 @@
         "129": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b26bf8da3ae7cfad1cd3fe3f759858471547df25",
-            "git_last_date": "190915.122314",
+            "git_last_commit": "f29d9a0ab6d7f1aeca3c70f1df251591f0c3eaa6",
+            "git_last_date": "190916.162327",
             "name": "elementary-mail",
             "package_name": "elementary-mail",
             "package_version": "1.0.8",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cad7d28d2b40ed04f6ce49ab44408297b5c69468",
-            "git_last_date": "190910.222239",
+            "git_last_commit": "3e12382fdd2a1c3d0441938a5815834e21a559ce",
+            "git_last_date": "190916.162246",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
