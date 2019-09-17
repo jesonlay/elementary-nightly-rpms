@@ -6,7 +6,7 @@
 Name:           elementary-calendar
 Summary:        Desktop calendar app from elementary
 Version:        5.0.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -31,10 +31,16 @@ BuildRequires:  pkgconfig(gmodule-2.0)
 BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.11.6
-BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
 BuildRequires:  pkgconfig(libgeoclue-2.0)
-BuildRequires:  pkgconfig(libical)
 BuildRequires:  pkgconfig(libnotify)
+
+%if 0%{?fedora} >= 31
+BuildRequires:  pkgconfig(libecal-2.0)
+BuildRequires:  pkgconfig(libical-glib)
+%else
+BuildRequires:  pkgconfig(libecal-1.2) >= 3.8.0
+BuildRequires:  pkgconfig(libical)
+%endif
 
 # elementary-calendar also provides a generic symbolic icon (actions/calendar-go-today)
 Requires:       hicolor-icon-theme
@@ -117,6 +123,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Sep 17 2019 Fabio Valentini <decathorpe@gmail.com> - 5.0.1+git190917.181603.46346e48-2
+- Adapt BuildRequires for fedora 31+.
+
 * Tue Sep 17 2019 Fabio Valentini <decathorpe@gmail.com> - 5.0.1+git190917.181603.46346e48-1
 - Update to latest snapshot.
 
