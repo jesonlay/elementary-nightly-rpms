@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "48d1ccf6ba02c8512c868452e11fdc0988f33dc9",
-            "git_last_date": "190914.202239",
+            "git_last_commit": "6657c82d97b9255bd6f8e015cb4341dd35535cbc",
+            "git_last_date": "190917.223828",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c3ab3508968c58a2be94b0d2a52c26c0fbd601ce",
-            "git_last_date": "190917.092313",
+            "git_last_commit": "6817c4a2c8dbff8645f24f45c0b4a440a092de20",
+            "git_last_date": "190917.223640",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "84bce93b8d983511578f1c9f29c0ef6c3085c496",
-            "git_last_date": "190917.092815",
+            "git_last_commit": "ccfba82a26b24fc8aec524752b495611f015588d",
+            "git_last_date": "190917.225320",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
