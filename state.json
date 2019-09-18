@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6ca6a2b0785dfb429ee54f835cc463e41f95c501",
-            "git_last_date": "190917.092320",
+            "git_last_commit": "e4d96aec314f143f6599d1d9bd1dfc67cfa60bff",
+            "git_last_date": "190918.122307",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -542,12 +542,12 @@
         "126": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "46346e48b53e9d3d59d9f567b622532338f50f32",
-            "git_last_date": "190917.181603",
+            "git_last_commit": "08b03d0536f42f4ed5dc45d06c23b962d0fa36fc",
+            "git_last_date": "190918.122953",
             "name": "elementary-calendar",
             "package_name": "elementary-calendar",
             "package_version": "5.0.1",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "5.0.1+git%{date}.%{commit}"
         },
         "127": {
