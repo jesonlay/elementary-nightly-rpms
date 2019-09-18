@@ -14,8 +14,8 @@
         "10": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d3a440867733185b6c09103be990e94be0468976",
-            "git_last_date": "190911.015119",
+            "git_last_commit": "1d171593473bb63354ca42485c4964b733c5df8b",
+            "git_last_date": "190917.230447",
             "name": "elementary-theme",
             "package_name": "elementary-theme",
             "package_version": "5.2.5",
@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "08ccae4cdabada36eb6351e2a1a0072069773a7b",
-            "git_last_date": "190906.152251",
+            "git_last_commit": "4af2126f458b3bd0b8d23c56265039d49c6815ee",
+            "git_last_date": "190917.230144",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -322,8 +322,8 @@
         "97": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f7e5fbc622a91c3bf135359e753924f34a4fb185",
-            "git_last_date": "190916.145927",
+            "git_last_commit": "cc19c96f984ca41ff95934dc39c8f814c7c2547e",
+            "git_last_date": "190917.234635",
             "name": "switchboard-plug-applications",
             "package_name": "switchboard-plug-applications",
             "package_version": "2.1.5",
