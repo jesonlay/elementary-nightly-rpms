@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0e2490583c71da8fd152d21a6443132d786e51a9",
-            "git_last_date": "190917.092300",
+            "git_last_commit": "ff204187babb7e2a4f89b21863cb92cd191b2053",
+            "git_last_date": "190918.172301",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.2",
@@ -498,8 +498,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "028475566e64db699929db561475280d30d99c26",
-            "git_last_date": "190915.162250",
+            "git_last_commit": "ab5bd27e425d76d2bce2bd832e098b80cdf92314",
+            "git_last_date": "190918.172259",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
