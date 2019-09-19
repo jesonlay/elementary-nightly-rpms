@@ -267,8 +267,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "3175c2ebf106145a95355d2571e0a2aa4834e884",
-            "git_last_date": "190917.133137",
+            "git_last_commit": "17867f722b2737f5ea543c3ac28e967a85ce04b8",
+            "git_last_date": "190919.002305",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.6",
