@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9a579c491774b513b4169de1a9eceffe6b42ef89",
-            "git_last_date": "190919.182009",
+            "git_last_commit": "393937429d823a80fadb4d7e9d092cf11b3a2098",
+            "git_last_date": "190920.164122",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.5",
@@ -245,8 +245,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "421a5b75081f256b4554c2d78a883e86e49b9e29",
-            "git_last_date": "190917.091335",
+            "git_last_commit": "329c3657dec51e41614c08986ed80883eeaa597e",
+            "git_last_date": "190920.163527",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.3",
