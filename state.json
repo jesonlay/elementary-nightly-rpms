@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2a33dabe1c70c27083cf5c26da6730a0984011af",
-            "git_last_date": "190920.172308",
+            "git_last_commit": "b1b9c7bb83c002787213b971886d6c5e8013927f",
+            "git_last_date": "190922.192314",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
@@ -465,8 +465,8 @@
         "119": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "62502d4aa1ac28189c9a5f38f81ef9ead05992cb",
-            "git_last_date": "190921.182300",
+            "git_last_commit": "96a2e334b9c87d371a65835068713a5bce75f538",
+            "git_last_date": "190922.192308",
             "name": "elementary-photos",
             "package_name": "elementary-photos",
             "package_version": "2.6.4",
@@ -520,8 +520,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4c134452b347f45c1fd450ba0df6397997b77fc6",
-            "git_last_date": "190921.103450",
+            "git_last_commit": "ab9c7031bec16ae63548eb9c752ab070c6a22b39",
+            "git_last_date": "190922.192301",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.4",
