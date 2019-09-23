@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7da5805826dae5de1b37af9aa623060bbafd49f9",
-            "git_last_date": "190923.162410",
+            "git_last_commit": "81ebb7af88f12b9fed3e7fa5d7690009e14dab15",
+            "git_last_date": "190923.225845",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "511b020e6d4b358e8e5656687dc0b4b85616285f",
-            "git_last_date": "190923.213709",
+            "git_last_commit": "6f42e8100a1e132de5a8ceb1065f91ecb3b70092",
+            "git_last_date": "190923.223739",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
