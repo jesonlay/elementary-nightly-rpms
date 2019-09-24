@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6065d7c92add76005b080c6ca791322244445e4",
-            "git_last_date": "190924.152051",
+            "git_last_commit": "4b55e58fd01689ce480d50ddca05b03fc159532d",
+            "git_last_date": "190924.210253",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.8",
@@ -234,8 +234,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3684bc38dc75e7a3cf27f291c13294a1aa81c91",
-            "git_last_date": "190912.180825",
+            "git_last_commit": "bb1a56822351267f5b9201f84d6c911823b39561",
+            "git_last_date": "190924.210225",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.5",
@@ -366,8 +366,8 @@
         "101": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b710757c20c38be40a41650b2cfef381030b5068",
-            "git_last_date": "190912.142302",
+            "git_last_commit": "c7a9f707c240c3c51625337efe964ea9e04b11ab",
+            "git_last_date": "190924.210415",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "2.1.3",
