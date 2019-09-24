@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1c391f3f632f1c0bb46b1700e31f0025630647d8",
-            "git_last_date": "190923.122259",
+            "git_last_commit": "3cc81092973b2a119175b36ecd1f5e0aee9e8fef",
+            "git_last_date": "190924.195601",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.5",
@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8e51e77afad521033fed4640b659eb2662c8fc4f",
-            "git_last_date": "190923.164823",
+            "git_last_commit": "2a6b11345e279e6fe3b25e17b67fb0149d4ba586",
+            "git_last_date": "190924.194252",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
