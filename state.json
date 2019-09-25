@@ -300,8 +300,8 @@
         "95": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c28c3011f5d7d6f3bc603dc3e3150838d4dae7af",
-            "git_last_date": "190925.190738",
+            "git_last_commit": "cf511cf28ab910ddb748412a83074885f6c0decd",
+            "git_last_date": "190925.201935",
             "name": "wingpanel-indicator-network",
             "package_name": "wingpanel-indicator-network",
             "package_version": "2.2.2",
@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "066fa0cacc8687204ee131b92fd8d0acb2aff547",
-            "git_last_date": "190925.171835",
+            "git_last_commit": "5928c23e2e842137251750397f28e742f083dfce",
+            "git_last_date": "190925.201749",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
