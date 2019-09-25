@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "55a7f3127143a0230d469b6cbf8bdb16f84f296d",
-            "git_last_date": "190925.151133",
+            "git_last_commit": "d8bb8053777029b8f26e0f04251ecf3b4e543b93",
+            "git_last_date": "190925.173419",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
@@ -234,8 +234,8 @@
         "85": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2fcdb31da18a77b533ea3995607b8f59687157dc",
-            "git_last_date": "190925.165907",
+            "git_last_commit": "6722e4ad9748e192c1a41eeb67355f5671950db8",
+            "git_last_date": "190925.170816",
             "name": "wingpanel-indicator-session",
             "package_name": "wingpanel-indicator-session",
             "package_version": "2.2.5",
@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8287d41ea7f46e90d87ce2558028a0acd38a4119",
-            "git_last_date": "190925.155900",
+            "git_last_commit": "066fa0cacc8687204ee131b92fd8d0acb2aff547",
+            "git_last_date": "190925.171835",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
