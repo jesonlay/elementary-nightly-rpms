@@ -47,8 +47,8 @@
         "63": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "71893d4eff4c8a25f29a7d0d8637539aabb74cfd",
-            "git_last_date": "190924.200918",
+            "git_last_commit": "5bcd1654981eb1748d7cc93c1000cf6b37d44c55",
+            "git_last_date": "190926.224033",
             "name": "switchboard-plug-onlineaccounts",
             "package_name": "switchboard-plug-onlineaccounts",
             "package_version": "2.0.1",
@@ -245,8 +245,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d69f4d4cea476026ff036ceca34f8193df28e350",
-            "git_last_date": "190924.171946",
+            "git_last_commit": "bc28737f9aca629b8b7de17b3a0d101f15405b21",
+            "git_last_date": "190926.225306",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.1.3",
@@ -333,8 +333,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "64b013597aa05d53abc54e95143e9f47b13a0d9d",
-            "git_last_date": "190924.201946",
+            "git_last_commit": "8364563e319ea32cd9c7a0b5adc28f2877b9660e",
+            "git_last_date": "190926.222959",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.5",
@@ -399,8 +399,8 @@
         "109": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "4caeea8159a8be268d0b1d0bda0ee670042d8dba",
-            "git_last_date": "190926.215914",
+            "git_last_commit": "da0cac64291cc3d311227441115ba45be02f298f",
+            "git_last_date": "190926.220147",
             "name": "switchboard-plug-about",
             "package_name": "switchboard-plug-about",
             "package_version": "2.6.0",
