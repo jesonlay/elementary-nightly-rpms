@@ -392,9 +392,9 @@
             "git_last_date": "190924.151038",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
-            "package_version": "1.0.4",
+            "package_version": "1.0.5",
             "rpm_last_release": "1%{?dist}",
-            "rpm_last_version": "1.0.4+git%{date}.%{commit}"
+            "rpm_last_version": "1.0.5+git%{date}.%{commit}"
         },
         "109": {
             "git_branch": "master",
