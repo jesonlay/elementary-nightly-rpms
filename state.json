@@ -190,8 +190,8 @@
         "81": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "895bda86989dfa40e5a9088581848a5a5ced696a",
-            "git_last_date": "190929.013047",
+            "git_last_commit": "f8fedaeaa42acb1327b81fd6e4b0803c75bc64c6",
+            "git_last_date": "191001.013620",
             "name": "switchboard-plug-notifications",
             "package_name": "switchboard-plug-notifications",
             "package_version": "2.1.5",
@@ -223,8 +223,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f8fae894edb4c4357067af6a9d5a9fc2722d82fb",
-            "git_last_date": "190919.182047",
+            "git_last_commit": "da64cca4e7a272eec59b65f76743728e97eec9b3",
+            "git_last_date": "191001.015846",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.5",
@@ -256,8 +256,8 @@
         "87": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "60935c5577770247f16d9f857502d3d2f58be9f3",
-            "git_last_date": "190919.183207",
+            "git_last_commit": "862919f28d2a71e809c33c3b5cb4895d46c2ba97",
+            "git_last_date": "191001.014145",
             "name": "switchboard-plug-sound",
             "package_name": "switchboard-plug-sound",
             "package_version": "2.2.1",
@@ -388,8 +388,8 @@
         "105": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "a16793d5ee4932b96948ca62da8a4c2d82f65025",
-            "git_last_date": "190924.151038",
+            "git_last_commit": "e144cfeb7e0b527475dff4996b745628042a43c2",
+            "git_last_date": "191001.013457",
             "name": "elementary-camera",
             "package_name": "elementary-camera",
             "package_version": "1.0.5",
