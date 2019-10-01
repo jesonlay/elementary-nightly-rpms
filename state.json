@@ -124,8 +124,8 @@
         "73": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8046f8e1133041408d80c07725d9405d0b6e87b3",
-            "git_last_date": "190929.014633",
+            "git_last_commit": "a0035df84a69eeeb97e32b0d57d623aed634fb12",
+            "git_last_date": "191001.103234",
             "name": "switchboard-plug-a11y",
             "package_name": "switchboard-plug-a11y",
             "package_version": "2.1.3",
@@ -267,8 +267,8 @@
         "88": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f29963362f9163052fe371d8f1bb3bb9e08494eb",
-            "git_last_date": "190929.013000",
+            "git_last_commit": "4906661a3d1ae478d5fc9d1b962e1f844c2d1ad7",
+            "git_last_date": "191001.103100",
             "name": "switchboard-plug-printers",
             "package_name": "switchboard-plug-printers",
             "package_version": "2.1.6",
@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9b47efefd4da5b5df081f3a8d788406aff266efd",
-            "git_last_date": "190929.013619",
+            "git_last_commit": "dc08d686dd502f1dd7f4208ff0a9d4764e8c74da",
+            "git_last_date": "191001.103151",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
