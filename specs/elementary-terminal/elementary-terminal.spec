@@ -4,7 +4,7 @@
 Name:           elementary-terminal
 Summary:        The terminal of the 21st century
 Version:        5.3.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -81,7 +81,7 @@ appstream-util validate-relax --nonet \
 
 
 %files -f %{appname}.lang
-%doc AUTHORS README.md
+%doc README.md
 %license COPYING
 
 %{_bindir}/%{appname}
@@ -97,6 +97,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Oct 02 2019 Fabio Valentini <decathorpe@gmail.com> - 5.3.6+git191001.203118.62058350-2
+- Remove dropped AUTHORS file.
+
 * Tue Oct 01 2019 Fabio Valentini <decathorpe@gmail.com> - 5.3.6+git191001.203118.62058350-1
 - Update to latest snapshot.
 
