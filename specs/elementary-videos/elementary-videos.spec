@@ -4,7 +4,7 @@
 Name:           elementary-videos
 Summary:        Video player and library app from elementary
 Version:        2.6.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -61,7 +61,7 @@ appstream-util validate-relax --nonet \
 
 
 %files -f %{appname}.lang
-%doc AUTHORS README.md
+%doc README.md
 %license COPYING
 
 %{_bindir}/%{appname}
@@ -72,6 +72,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Oct 02 2019 Fabio Valentini <decathorpe@gmail.com> - 2.6.3+git191001.203150.0dd705e0-2
+- Remove dropped AUTHORS file.
+
 * Tue Oct 01 2019 Fabio Valentini <decathorpe@gmail.com> - 2.6.3+git191001.203150.0dd705e0-1
 - Update to latest snapshot.
 
