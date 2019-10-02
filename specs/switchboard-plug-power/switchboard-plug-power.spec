@@ -8,7 +8,7 @@
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Power Plug
 Version:        2.3.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -72,6 +72,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Oct 02 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git191002.205604.13ccc1c3-1
+- Update to latest snapshot.
+
 * Wed Oct 02 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.5+git191001.211608.af2921c1-2
 - Adapt to upstream file changes.
 
