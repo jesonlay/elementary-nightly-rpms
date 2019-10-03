@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "df8d1f08610f774a2300d6cecb938e23b8c3ee5c",
-            "git_last_date": "191002.042703",
+            "git_last_commit": "b055c1a9f96618cd97cc82f5b94a835b1881f6f6",
+            "git_last_date": "191003.005433",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.8.1",
@@ -135,8 +135,8 @@
         "74": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "13ccc1c30aa6c5b002d46c2f63c2a696ef3bdd07",
-            "git_last_date": "191002.205604",
+            "git_last_commit": "34ffb7b82d95cf1bdd7dbea551bf183fd2bc38a7",
+            "git_last_date": "191003.005240",
             "name": "switchboard-plug-power",
             "package_name": "switchboard-plug-power",
             "package_version": "2.3.5",
