@@ -531,12 +531,12 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "0dd705e0d1124ba0ae4bdb8dc7e3422c7329ac4d",
-            "git_last_date": "191001.203150",
+            "git_last_commit": "2fcdd46456db16f6f129fe1dfcc5fce6e948167a",
+            "git_last_date": "191003.180546",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.3",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.6.3+git%{date}.%{commit}"
         },
         "126": {
