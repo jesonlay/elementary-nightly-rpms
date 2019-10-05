@@ -146,8 +146,8 @@
         "75": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "bf69b381dd583a3630e2c805da7d113bf476f689",
-            "git_last_date": "191003.145745",
+            "git_last_commit": "ef8dc78162f58739284a141d1065ade85d8f6367",
+            "git_last_date": "191005.032323",
             "name": "switchboard-plug-locale",
             "package_name": "switchboard-plug-locale",
             "package_version": "2.4.1",
@@ -333,8 +333,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1df75315904686528ea431680e64e2d44c1e5511",
-            "git_last_date": "191003.145823",
+            "git_last_commit": "d73a47d05ce6449b7cfb69e1cd826bc64696f1ee",
+            "git_last_date": "191005.032323",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.5",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "cb3b95e23b9482518c1ac4fdef795f85e7c0dd1a",
-            "git_last_date": "191004.025031",
+            "git_last_commit": "bcdef7f9236fd34081da2e9fe8e078db9cf461fd",
+            "git_last_date": "191005.032315",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
