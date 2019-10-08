@@ -355,8 +355,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "18306846c469bbb03044fea1a46bd9a35d1af5c3",
-            "git_last_date": "191007.152411",
+            "git_last_commit": "edee62281cdd02efd2c4c1957733832e71eba35d",
+            "git_last_date": "191008.150643",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1556b119c87741ecdb6055550c6a4fcd6f9e8063",
-            "git_last_date": "191008.062247",
+            "git_last_commit": "0e32f138968382bd3bbfde483b4df404783d9016",
+            "git_last_date": "191008.151735",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
