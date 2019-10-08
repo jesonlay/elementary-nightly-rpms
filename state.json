@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7f270a7dd36f281cd04f82a03e57650c462e6f0b",
-            "git_last_date": "191007.012323",
+            "git_last_commit": "5fe5709e6253680a44abd7284c3c0d416da551cc",
+            "git_last_date": "191008.073133",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.2.0",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6f26076a21439e58fc1714b44d45cb5f280a31ce",
-            "git_last_date": "191006.142317",
+            "git_last_commit": "a728a84d0ace0cf3790267994922744d2297f1f7",
+            "git_last_date": "191008.073848",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
