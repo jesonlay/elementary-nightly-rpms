@@ -223,8 +223,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ab20c2212795ea09a8427cfe5fe91e5bf9fc76fd",
-            "git_last_date": "191014.173546",
+            "git_last_commit": "bd6ddfc26b803df6b08cd133806d456aa0b86d2c",
+            "git_last_date": "191014.192555",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.5",
