@@ -531,8 +531,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b44c31a75a955269033e174ab938b223a3c0727b",
-            "git_last_date": "191010.142323",
+            "git_last_commit": "89b31924957a5f38235fa44f875e4fb532936514",
+            "git_last_date": "191014.165420",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.3",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1169880030dc1c64af5b1aa663e547258ce1096a",
-            "git_last_date": "191009.215254",
+            "git_last_commit": "31c1e04240ef988fd3d2fc678fa6aee8843d40d4",
+            "git_last_date": "191014.161224",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
