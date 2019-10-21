@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d6b0fa0183a871b1e31fa3026bffc67adacdfeaa",
-            "git_last_date": "191012.071521",
+            "git_last_commit": "8bd6cb3e93ee7fe20b1fc02bc414b1b95f8525da",
+            "git_last_date": "191021.142342",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.5",
@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f4d21df9ca95547a629d0a5fce37b52d13e6d07c",
-            "git_last_date": "191017.162343",
+            "git_last_commit": "606408c9aa404b1c06fc2cdaa311c07935d2a082",
+            "git_last_date": "191021.142351",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.2",
@@ -443,8 +443,8 @@
         "117": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "93939ac8629cb68cab6c15aa32c077344291e0e3",
-            "git_last_date": "191008.214711",
+            "git_last_commit": "75a7c4f7130174416acbee67ac3382736041a4bc",
+            "git_last_date": "191021.142340",
             "name": "elementary-calculator",
             "package_name": "elementary-calculator",
             "package_version": "1.5.2",
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d431ccabb4cba530a6dd524af54532d653c951b2",
-            "git_last_date": "191019.090316",
+            "git_last_commit": "57df6454f2c9624152a3a7b9a1436448a6804e06",
+            "git_last_date": "191021.142345",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.2.0",
