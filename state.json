@@ -25,8 +25,8 @@
         "57": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7bc5fab3b8dd718127df4868ea1c2399589fd011",
-            "git_last_date": "191009.172330",
+            "git_last_commit": "b262c8c21050a85fe2518c650ecd49198566e027",
+            "git_last_date": "191021.180101",
             "name": "switchboard-plug-pantheon-shell",
             "package_name": "switchboard-plug-pantheon-shell",
             "package_version": "2.8.1",
@@ -58,8 +58,8 @@
         "66": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e3ef74e52e2dc1400309270719eb353b5c7f0aeb",
-            "git_last_date": "191003.152850",
+            "git_last_commit": "3357812b6a08a1110d0e09f584b07bb143f1a5f3",
+            "git_last_date": "191021.180117",
             "name": "wingpanel-indicator-sound",
             "package_name": "wingpanel-indicator-sound",
             "package_version": "2.1.3",
