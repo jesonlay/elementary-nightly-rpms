@@ -344,12 +344,12 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "33c816fc0a9df3ef69cbcad640a5684a8b3dd776",
-            "git_last_date": "191016.223929",
+            "git_last_commit": "4a07b2b4a87ef0a3332c335841908eb904c1d688",
+            "git_last_date": "191021.180354",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.0+git%{date}.%{commit}"
         },
         "100": {
@@ -531,8 +531,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "afff4f4cc13d1b323922ff6c6298000c7732a4f3",
-            "git_last_date": "191017.152116",
+            "git_last_commit": "ae4b0c3dbec728ee260c4d2ac8819b92c24ce368",
+            "git_last_date": "191021.185801",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.3",

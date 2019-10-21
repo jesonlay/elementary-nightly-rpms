@@ -8,7 +8,7 @@
 Name:           switchboard-plug-mouse-touchpad
 Summary:        Switchboard Mouse and Touchpad plug
 Version:        2.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -62,6 +62,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Mon Oct 21 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git191021.180354.4a07b2b4-1
+- Update to latest snapshot.
+
 * Fri Oct 18 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git191016.223929.33c816fc-2
 - Remove removed icon file.
 
