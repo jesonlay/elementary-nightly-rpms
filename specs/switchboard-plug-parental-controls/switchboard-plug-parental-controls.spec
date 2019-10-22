@@ -8,7 +8,7 @@
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Parental Controls plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -78,8 +78,6 @@ appstream-util validate-relax --nonet \
 %dir %{_sysconfdir}/pantheon-%{plug_name}
 %config(noreplace) %{_sysconfdir}/pantheon-%{plug_name}/daemon.conf
 
-%{_sysconfdir}/dbus-1/system.d/org.pantheon.ParentalControls.conf
-
 %{_bindir}/pantheon-%{plug_name}-daemon
 
 %{_libdir}/switchboard/%{plug_type}/lib%{plug_name}.so
@@ -87,6 +85,7 @@ appstream-util validate-relax --nonet \
 %{_libexecdir}/pantheon-%{plug_name}-client
 
 %{_datadir}/applications/pantheon-%{plug_name}-client.desktop
+%{_datadir}/dbus-1/system.d/org.pantheon.ParentalControls.conf
 %{_datadir}/dbus-1/system-services/org.pantheon.ParentalControls.service
 %{_datadir}/metainfo/%{plug_rdnn}.appdata.xml
 %{_datadir}/polkit-1/actions/org.pantheon.switchboard.%{plug_name}.policy
@@ -95,6 +94,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Oct 22 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git191009.172336.c7c8f6ae-2
+- Adapt to renamed file.
+
 * Wed Oct 09 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git191009.172336.c7c8f6ae-1
 - Update to latest snapshot.
 
