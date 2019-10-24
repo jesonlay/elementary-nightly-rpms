@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.2.0+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -31,6 +31,7 @@ BuildRequires:  pkgconfig(granite) >= 5.0
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
 BuildRequires:  pkgconfig(libcanberra) >= 0.30
+BuildRequires:  pkgconfig(libgit2-glib-1.0)
 BuildRequires:  pkgconfig(libnotify) >= 0.7.2
 BuildRequires:  pkgconfig(pango) >= 1.1.2
 BuildRequires:  pkgconfig(plank)
@@ -116,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Oct 24 2019 Fabio Valentini <decathorpe@gmail.com> - 4.2.0+git191023.154600.18da551b-2
+- Add BR for libgit2-glib-1.0.pc.
+
 * Wed Oct 23 2019 Fabio Valentini <decathorpe@gmail.com> - 4.2.0+git191023.154600.18da551b-1
 - Update to latest snapshot.
 
