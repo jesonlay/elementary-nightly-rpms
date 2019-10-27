@@ -6,7 +6,7 @@
 Name:           elementary-files
 Summary:        File manager from elementary
 Version:        4.2.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -117,6 +117,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Sun Oct 27 2019 Fabio Valentini <decathorpe@gmail.com> - 4.2.0+git191027.192355.2243737d-1
+- Update to latest snapshot.
+
 * Thu Oct 24 2019 Fabio Valentini <decathorpe@gmail.com> - 4.2.0+git191023.154600.18da551b-2
 - Add BR for libgit2-glib-1.0.pc.
 
