@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b607c3672efd70348a449e99ed9889976a7d6340",
-            "git_last_date": "191025.162416",
+            "git_last_commit": "1ca72d23d34d6c83f58be6ab07cb23bea05c7ae7",
+            "git_last_date": "191027.092414",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "9eeb0fe3460ce95a75492c0f2d1710ce7ead7dd3",
-            "git_last_date": "191023.184819",
+            "git_last_commit": "88a2eee1ae8b2aeedc70cc3f209cf9012b8d3fd3",
+            "git_last_date": "191027.092349",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
