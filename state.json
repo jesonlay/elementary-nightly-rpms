@@ -289,8 +289,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "8b2afe3123dea8355c16a6425f4670b78646d59f",
-            "git_last_date": "191022.161957",
+            "git_last_commit": "589884570b36b8824045dbfd8447e666f2e40209",
+            "git_last_date": "191028.163059",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2243737d1fefc2a0b3fde61993670459ad9a4008",
-            "git_last_date": "191027.192355",
+            "git_last_commit": "4525e4fa4aaa4bc3ce323a883c97d0d91044c2b6",
+            "git_last_date": "191028.165554",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.2.0",
@@ -487,8 +487,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "90bd6af8d99fc9ce8ecad53c434914d2f86f0702",
-            "git_last_date": "191027.102430",
+            "git_last_commit": "3867082dcb003e8e883c96c97c265b4582e53bf1",
+            "git_last_date": "191028.165902",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.1.1",
