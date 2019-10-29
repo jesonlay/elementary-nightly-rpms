@@ -223,8 +223,8 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "efbab5bf8da1d186effc1bb9b5d78860bc3a151a",
-            "git_last_date": "191029.194822",
+            "git_last_commit": "1df4fc394c471fc354b0f04f623d6f539646b821",
+            "git_last_date": "191029.222635",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.5",
@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d2aeec1cf759e86c0913ee6ffa806484c8ef97e2",
-            "git_last_date": "191029.214855",
+            "git_last_commit": "b4722ec09f7777306009f8e7d774e7fb37934a2c",
+            "git_last_date": "191029.224309",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.2.2",
@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "2c42f38e6a68ff78b3b945f3ea4a3ddbadcddf9c",
-            "git_last_date": "191029.214748",
+            "git_last_commit": "c014eb43ad44db0845ec85d3b6cd99f008eeebbf",
+            "git_last_date": "191029.221013",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
