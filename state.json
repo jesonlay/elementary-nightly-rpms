@@ -91,8 +91,8 @@
         "69": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a3d39f0aa2cace7df9b0163e83755daf2dd8c96",
-            "git_last_date": "191030.163027",
+            "git_last_commit": "aa666869ee94d21a0a99245ba0028c8111f3e926",
+            "git_last_date": "191030.201341",
             "name": "switchboard-plug-display",
             "package_name": "switchboard-plug-display",
             "package_version": "2.1.9",
@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b7f361ba294f46c24177a178331e2cbadabcdbe3",
-            "git_last_date": "191030.170602",
+            "git_last_commit": "8b6326ff5d8f07f699b65da9fe3f1199d3f63029",
+            "git_last_date": "191030.201335",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
@@ -586,8 +586,8 @@
         "130": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "081d411a8da46b9ae4832fec75f028c6bf6d4064",
-            "git_last_date": "191029.153644",
+            "git_last_commit": "cbcd391cfe405f33c4be65419fc41eacd7321689",
+            "git_last_date": "191030.201346",
             "name": "elementary-greeter",
             "package_name": "elementary-greeter",
             "package_version": "3.3.1",
