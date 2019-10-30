@@ -278,8 +278,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "76883d708f30023b304a810240dd38eabd979de5",
-            "git_last_date": "191030.011529",
+            "git_last_commit": "c61570d2f3cd5b2161f87745619314e8262282de",
+            "git_last_date": "191030.023815",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.6",
@@ -498,8 +498,8 @@
         "122": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f6c90c1c558e32aa0d43bef1f15b741a66808df7",
-            "git_last_date": "191027.192400",
+            "git_last_commit": "7d1c06a9e4d2565ceb4ee8135514f01b9a4970a8",
+            "git_last_date": "191030.022901",
             "name": "elementary-screenshot-tool",
             "package_name": "elementary-screenshot-tool",
             "package_version": "1.6.2",
