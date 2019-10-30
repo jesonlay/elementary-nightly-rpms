@@ -289,8 +289,8 @@
         "93": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "589884570b36b8824045dbfd8447e666f2e40209",
-            "git_last_date": "191028.163059",
+            "git_last_commit": "4a07494ad641030284ca76b245dfc9bcc8bf4214",
+            "git_last_date": "191029.230921",
             "name": "gala",
             "package_name": "gala",
             "package_version": "0.3.1",
@@ -454,8 +454,8 @@
         "118": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7a079c55c5a8128feea4a6fc10923b9667dae57a",
-            "git_last_date": "191029.192356",
+            "git_last_commit": "5b13cb2114360c73a4954c59aeda7ffc7c112761",
+            "git_last_date": "191029.233530",
             "name": "elementary-files",
             "package_name": "elementary-files",
             "package_version": "4.2.0",
@@ -531,8 +531,8 @@
         "125": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "6005c957f206781e11ed65fa095b68e5b6875625",
-            "git_last_date": "191022.151030",
+            "git_last_commit": "d64d22370bd751462e1012904f1788dd4b9ae8bf",
+            "git_last_date": "191029.232944",
             "name": "elementary-videos",
             "package_name": "elementary-videos",
             "package_version": "2.6.3",
