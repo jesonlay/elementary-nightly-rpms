@@ -1,4 +1,4 @@
-%global appname io.elementary.desktop.wingpanel
+%global appname io.elementary.wingpanel
 
 %global common_description %{expand:
 Stylish top panel that holds indicators and spawns an application
@@ -7,7 +7,7 @@ launcher.}
 Name:           wingpanel
 Summary:        Stylish top panel
 Version:        2.2.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -15,6 +15,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.24.0
 
@@ -67,7 +68,10 @@ mkdir -p %{buildroot}/%{_sysconfdir}/wingpanel.d
 
 %check
 desktop-file-validate \
-    %{buildroot}/%{_datadir}/applications/wingpanel.desktop
+    %{buildroot}/%{_datadir}/applications/%{appname}.desktop
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files -f wingpanel.lang
@@ -78,9 +82,10 @@ desktop-file-validate \
 
 %{_libdir}/gala/plugins/libwingpanel-interface.so
 
-%{_datadir}/applications/wingpanel.desktop
-%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
-%{_datadir}/icons/hicolor/scalable/apps/wingpanel.svg
+%{_datadir}/applications/%{appname}.desktop
+%{_datadir}/glib-2.0/schemas/io.elementary.desktop.wingpanel.gschema.xml
+%{_datadir}/icons/hicolor/scalable/apps/%{appname}.svg
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files libs
@@ -108,6 +113,9 @@ desktop-file-validate \
 
 
 %changelog
+* Wed Oct 30 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.5+git191029.222635.1df4fc39-2
+- Adapt to upstream changes.
+
 * Tue Oct 29 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.5+git191029.222635.1df4fc39-1
 - Update to latest snapshot.
 
