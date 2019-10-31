@@ -223,12 +223,12 @@
         "84": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1df4fc394c471fc354b0f04f623d6f539646b821",
-            "git_last_date": "191029.222635",
+            "git_last_commit": "02ee1c20dbf0f50f2079a71c82be3c7651ee5ecf",
+            "git_last_date": "191030.232335",
             "name": "wingpanel",
             "package_name": "wingpanel",
             "package_version": "2.2.5",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.2.5+git%{date}.%{commit}"
         },
         "85": {
@@ -333,8 +333,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "34cba8b623de35ee48e5dc01ce14091299b3ff06",
-            "git_last_date": "191017.172348",
+            "git_last_commit": "3d88ccb98d4c553c44685e3e7908afa5b9e3555c",
+            "git_last_date": "191030.234543",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.5",
@@ -553,8 +553,8 @@
         "127": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "beed8b23623df6a4899baf0a71586d02e9a02852",
-            "git_last_date": "191006.142346",
+            "git_last_commit": "0dea517cbd5b5ede65f05f3825f9433adc9fda92",
+            "git_last_date": "191030.234459",
             "name": "elementary-capnet-assist",
             "package_name": "elementary-capnet-assist",
             "package_version": "2.2.3",
