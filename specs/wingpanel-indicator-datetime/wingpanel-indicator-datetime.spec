@@ -1,10 +1,11 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-%global appname io.elementary.desktop.wingpanel.datetime
+%global indi_name datetime
+%global indi_rdnn io.elementary.wingpanel.datetime
 
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
-Version:        2.1.3+git%{date}.%{commit}
+Version:        2.2.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -12,6 +13,7 @@ URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -43,19 +45,28 @@ A datetime indicator for wingpanel.
 %install
 %meson_install
 
-%find_lang datetime-indicator
+%find_lang %{indi_name}-indicator
 
 
-%files -f datetime-indicator.lang
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{indi_rdnn}.appdata.xml
+
+
+%files -f %{indi_name}-indicator.lang
 %doc README.md
 %license COPYING
 
-%{_libdir}/wingpanel/libdatetime.so
+%{_libdir}/wingpanel/lib%{indi_name}.so
 
-%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.elementary.desktop.wingpanel.datetime.gschema.xml
+%{_datadir}/metainfo/%{indi_rdnn}.appdata.xml
 
 
 %changelog
+* Fri Nov 01 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.0+git191031.203707.e6b55310-1
+- Update to version 2.2.0.
+
 * Thu Oct 31 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git191031.203707.e6b55310-1
 - Update to latest snapshot.
 
