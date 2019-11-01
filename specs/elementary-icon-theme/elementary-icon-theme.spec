@@ -2,7 +2,7 @@
 
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
-Version:        5.0.4+git%{date}.%{commit}
+Version:        5.1.0+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv3+
 
@@ -67,7 +67,7 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %files
-%doc AUTHORS README.md
+%doc README.md
 %license COPYING
 
 %dir %{_datadir}/icons/elementary
@@ -88,6 +88,9 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %changelog
+* Fri Nov 01 2019 Fabio Valentini <decathorpe@gmail.com> - 5.1.0+git191101.043351.a8215b94-1
+- Update to version 5.1.0.
+
 * Fri Nov 01 2019 Fabio Valentini <decathorpe@gmail.com> - 5.0.4+git191101.043351.a8215b94-1
 - Update to latest snapshot.
 
