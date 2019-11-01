@@ -3,7 +3,7 @@
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.2.5+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
@@ -52,6 +52,7 @@ This package contains the GTK+3 theme.
 Summary:        elementary GTK+ Stylesheet for plank
 
 Requires:       %{name} = %{version}-%{release}
+Requires:       plank
 
 Supplements:    (%{name} and plank)
 
@@ -90,9 +91,13 @@ This package contains the plank theme.
 
 %files          plank
 %{_datadir}/themes/elementary/plank/
+%{_datadir}/plank/themes/elementary-dark/
 
 
 %changelog
+* Fri Nov 01 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.5+git191030.222648.82a8a27d-2
+- Add new dark plank theme.
+
 * Wed Oct 30 2019 Fabio Valentini <decathorpe@gmail.com> - 5.2.5+git191030.222648.82a8a27d-1
 - Update to latest snapshot.
 
