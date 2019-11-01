@@ -6,7 +6,7 @@ launcher.}
 
 Name:           wingpanel
 Summary:        Stylish top panel
-Version:        2.2.5+git%{date}.%{commit}
+Version:        2.2.6+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        GPLv2+
 
@@ -113,6 +113,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Nov 01 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.6+git191101.125122.23a73e76-1
+- Update to version 2.2.6.
+
 * Fri Nov 01 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.5+git191101.125122.23a73e76-1
 - Update to latest snapshot.
 
