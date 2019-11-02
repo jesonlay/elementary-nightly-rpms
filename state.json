@@ -36,8 +36,8 @@
         "62": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "d7db686dff2e3c791ed813fc01f93886fe090168",
-            "git_last_date": "191027.102427",
+            "git_last_commit": "4cf9835141f5c64d8825f0f194c490fd23ea05b8",
+            "git_last_date": "191101.232433",
             "name": "pantheon-agent-geoclue2",
             "package_name": "pantheon-agent-geoclue2",
             "package_version": "1.0.1",
@@ -212,8 +212,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "31ef51487ad784438144860db4519f4bb397c5ea",
-            "git_last_date": "191027.102428",
+            "git_last_commit": "6f1655426a2f13777f31d8e21d57a0989711daa8",
+            "git_last_date": "191101.232434",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.6",
