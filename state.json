@@ -278,8 +278,8 @@
         "89": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "94f11c77efafd198e010e316a7dac6829bb25564",
-            "git_last_date": "191104.212427",
+            "git_last_commit": "6218752293c3171cd62ddf3c6edb7f751a90f74e",
+            "git_last_date": "191104.220838",
             "name": "switchboard",
             "package_name": "switchboard",
             "package_version": "2.3.6",
@@ -311,8 +311,8 @@
         "96": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ea952c2d1c2d571c7e1f0aa26ba4af4cadf42131",
-            "git_last_date": "191104.172526",
+            "git_last_commit": "ece3277b08f41116f08ce47a91c19c98f0031d7f",
+            "git_last_date": "191104.220844",
             "name": "switchboard-plug-networking",
             "package_name": "switchboard-plug-networking",
             "package_version": "2.1.4",
