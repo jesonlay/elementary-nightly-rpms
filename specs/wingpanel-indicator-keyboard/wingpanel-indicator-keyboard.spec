@@ -1,15 +1,18 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
+%global appname io.elementary.wingpanel.keyboard
+
 Name:           wingpanel-indicator-keyboard
 Summary:        Keyboard Indicator for wingpanel
 Version:        2.1.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 BuildRequires:  vala-tools
@@ -20,6 +23,7 @@ BuildRequires:  pkgconfig(gtk+-3.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(wingpanel-2.0)
 
+Requires:       wingpanel%{?_isa}
 Supplements:    wingpanel%{?_isa}
 
 
@@ -42,14 +46,24 @@ A keyboard indicator for wingpanel.
 %find_lang keyboard-indicator
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f keyboard-indicator.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/wingpanel/libkeyboard.so
 
+%{_datadir}/metainfo/%{appname}.appdata.xml
+
 
 %changelog
+* Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git191104.170343.04f84477-2
+- Package and verify appdata file.
+
 * Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git191104.170343.04f84477-1
 - Update to latest snapshot.
 
