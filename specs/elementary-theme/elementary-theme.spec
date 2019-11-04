@@ -9,6 +9,7 @@ License:        GPLv3
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
+BuildRequires:  gettext
 BuildRequires:  meson
 
 BuildArch:      noarch
