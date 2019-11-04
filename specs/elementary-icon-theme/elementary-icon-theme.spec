@@ -11,6 +11,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
+BuildRequires:  gettext
 BuildRequires:  meson
 
 
