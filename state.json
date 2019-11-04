@@ -102,8 +102,8 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "f40dc85e80fc0fa6cf247ee508a708b02e7d7e00",
-            "git_last_date": "191014.151545",
+            "git_last_commit": "180a5e2e2121730b0787c3bd491ffb33f8a62eea",
+            "git_last_date": "191104.150348",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.1.2",
