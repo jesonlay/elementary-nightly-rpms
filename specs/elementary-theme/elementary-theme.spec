@@ -1,15 +1,18 @@
 %global srcname stylesheet
 
+%global appname io.elementary.stylesheet
+
 Name:           elementary-theme
 Summary:        elementary GTK+ Stylesheet
 Version:        5.3.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 
 BuildArch:      noarch
@@ -77,12 +80,19 @@ This package contains the plank theme.
 %meson_install
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files
 %doc README.md
 %license COPYING
 
 %dir %{_datadir}/themes/elementary
 %{_datadir}/themes/elementary/index.theme
+
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 %files          gtk2
 %{_datadir}/themes/elementary/gtk-2.0/
@@ -96,6 +106,9 @@ This package contains the plank theme.
 
 
 %changelog
+* Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 5.3.0+git191101.213327.44d0c152-3
+- Package and validate appdata file.
+
 * Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 5.3.0+git191101.213327.44d0c152-2
 - Drop removed files.
 
