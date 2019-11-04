@@ -1,9 +1,11 @@
 %global srcname icons
 
+%global appname io.elementary.icons
+
 Name:           elementary-icon-theme
 Summary:        Icons from the Elementary Project
 Version:        5.1.0+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        3%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -12,6 +14,7 @@ Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 
 
@@ -67,6 +70,11 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml || :
+
+
 %files
 %doc README.md
 %license COPYING
@@ -81,6 +89,8 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 %{_datadir}/icons/elementary/cursor.theme
 %{_datadir}/icons/elementary/index.theme
 
+%{_datadir}/metainfo/%{appname}.appdata.xml
+
 %files gimp-palette
 %{_datadir}/gimp/2.0/palettes/elementary.gpl
 
@@ -89,6 +99,9 @@ gtk-update-icon-cache --force %{_datadir}/icons/elementary &>/dev/null || :
 
 
 %changelog
+* Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 5.1.0+git191101.170755.a5537e63-3
+- Package and verify appdata file.
+
 * Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 5.1.0+git191101.170755.a5537e63-2
 - Add missing BR: gettext.
 
