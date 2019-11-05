@@ -23,9 +23,6 @@ BuildRequires:  pkgconfig(gee-0.8)
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite) >= 5.2.0
 BuildRequires:  pkgconfig(gtk+-3.0) >= 3.10
-%if 0%{?fedora}
-BuildRequires:  pkgconfig(unity) >= 4.0.0
-%endif
 
 Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 
