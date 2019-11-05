@@ -3,7 +3,7 @@
 Name:           gala
 Summary:        Gala window manager
 Version:        0.3.1+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
@@ -14,10 +14,11 @@ Patch0:         00-fedora-default-settings.patch
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
-BuildRequires:  gettext-devel
 BuildRequires:  meson
 BuildRequires:  vala
-BuildRequires:  vala-tools
+
+BuildRequires:  gettext-devel
+BuildRequires:  mesa-libEGL-devel
 
 BuildRequires:  pkgconfig(clutter-1.0) >= 1.12.0
 BuildRequires:  pkgconfig(clutter-gtk-1.0)
@@ -31,12 +32,7 @@ BuildRequires:  pkgconfig(libbamf3)
 BuildRequires:  pkgconfig(libcanberra)
 BuildRequires:  pkgconfig(plank) >= 0.11.0
 
-%if 0%{?fedora} >= 29
 BuildRequires:  mutter328-devel
-%else
-BuildRequires:  mutter-devel >= 3.18.3
-%endif
-
 
 Requires:       %{name}-libs%{?_isa} = %{version}-%{release}
 
@@ -125,6 +121,9 @@ desktop-file-validate \
 
 
 %changelog
+* Tue Nov 05 2019 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git191104.193008.8540e845-2
+- Add missing BR: mesa-libEGL-devel.
+
 * Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 0.3.1+git191104.193008.8540e845-1
 - Update to latest snapshot.
 
