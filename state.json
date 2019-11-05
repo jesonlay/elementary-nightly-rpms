@@ -102,12 +102,12 @@
         "70": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "04f84477d22da586a4668a16ab4b35cc05d34d93",
-            "git_last_date": "191104.170343",
+            "git_last_commit": "6df1c0e7c1f2a31b39ae4ae8801c69f1eb7eac7f",
+            "git_last_date": "191105.063750",
             "name": "wingpanel-indicator-keyboard",
             "package_name": "wingpanel-indicator-keyboard",
             "package_version": "2.1.2",
-            "rpm_last_release": "2%{?dist}",
+            "rpm_last_release": "1%{?dist}",
             "rpm_last_version": "2.1.2+git%{date}.%{commit}"
         },
         "72": {
@@ -245,8 +245,8 @@
         "86": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e6b5531085017998fb5262764a09e3ce94962a0c",
-            "git_last_date": "191031.203707",
+            "git_last_commit": "42a79a13b2d024b9072c66728ae81fa50500e987",
+            "git_last_date": "191105.063010",
             "name": "wingpanel-indicator-datetime",
             "package_name": "wingpanel-indicator-datetime",
             "package_version": "2.2.0",

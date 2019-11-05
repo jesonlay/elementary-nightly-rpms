@@ -5,7 +5,7 @@
 Name:           wingpanel-indicator-keyboard
 Summary:        Keyboard Indicator for wingpanel
 Version:        2.1.2+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -61,6 +61,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Nov 05 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git191105.063750.6df1c0e7-1
+- Update to latest snapshot.
+
 * Mon Nov 04 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.2+git191104.170343.04f84477-2
 - Package and verify appdata file.
 
