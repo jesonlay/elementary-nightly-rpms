@@ -2,7 +2,7 @@
 
 Name:           switchboard
 Summary:        Modular Desktop Settings Hub
-Version:        2.3.6+git%{date}.%{commit}
+Version:        2.3.7+git%{date}.%{commit}
 Release:        1%{?dist}
 License:        LGPLv2+
 
@@ -135,6 +135,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Tue Nov 05 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.7+git191105.111527.76907654-1
+- Update to version 2.3.7.
+
 * Tue Nov 05 2019 Fabio Valentini <decathorpe@gmail.com> - 2.3.6+git191105.111527.76907654-1
 - Update to latest snapshot.
 
