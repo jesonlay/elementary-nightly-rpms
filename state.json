@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b25991b6914765049ccf162a5fa8858fcb33a75e",
-            "git_last_date": "191105.132410",
+            "git_last_commit": "b9add6397a74bf4ccaaa91227773504ccaa2e2d3",
+            "git_last_date": "191105.165040",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "c4875b85a58b01c0eed21fb15047b0847ff9c472",
-            "git_last_date": "191105.142409",
+            "git_last_commit": "e06c159e52e425189623cd120d593e060b6725ac",
+            "git_last_date": "191105.162934",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.3.0",
@@ -520,8 +520,8 @@
         "124": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "77218061a4e29bab36af40b303f0766eeb79b4c7",
-            "git_last_date": "191027.192359",
+            "git_last_commit": "dd94ba72fd6ca0027e458eb817cde1f7b4680e16",
+            "git_last_date": "191105.160800",
             "name": "elementary-music",
             "package_name": "elementary-music",
             "package_version": "5.0.4",
@@ -564,8 +564,8 @@
         "128": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "53243d688f5a5f8a34de17f7e02479adcce2ed3f",
-            "git_last_date": "191105.132432",
+            "git_last_commit": "c04ff13740dba3a4df748704e3c22448d4fdf03e",
+            "git_last_date": "191105.163030",
             "name": "wingpanel-applications-menu",
             "package_name": "wingpanel-applications-menu",
             "package_version": "2.4.4",
