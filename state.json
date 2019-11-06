@@ -421,8 +421,8 @@
         "115": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "e06c159e52e425189623cd120d593e060b6725ac",
-            "git_last_date": "191105.162934",
+            "git_last_commit": "58e6318251ac5c3f6777f648060a99d43e3b7603",
+            "git_last_date": "191106.081408",
             "name": "switchboard-plug-bluetooth",
             "package_name": "switchboard-plug-bluetooth",
             "package_version": "2.3.0",
@@ -432,8 +432,8 @@
         "116": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "70046270c95f225c8fce6ab4f9f979dc0d7a5e36",
-            "git_last_date": "191106.003219",
+            "git_last_commit": "8004a5a4da9ca032fa59c33e4cb8541d7b6ad1ee",
+            "git_last_date": "191106.081630",
             "name": "switchboard-plug-security-privacy",
             "package_name": "switchboard-plug-security-privacy",
             "package_version": "2.2.1",
