@@ -55,6 +55,9 @@ A sound indicator for wingpanel.
 
 
 %changelog
+* Wed Nov 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git191106.164700.58440777-1
+- Update to latest snapshot.
+
 * Mon Oct 21 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git191021.180117.3357812b-1
 - Update to latest snapshot.
 
