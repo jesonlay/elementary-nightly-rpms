@@ -333,8 +333,8 @@
         "98": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7ee7f44011aaa2e32933e31862592bcb76fce3d1",
-            "git_last_date": "191031.233733",
+            "git_last_commit": "20167fcd561ad2d339d666956aebaa5d761c97f0",
+            "git_last_date": "191106.092413",
             "name": "switchboard-plug-keyboard",
             "package_name": "switchboard-plug-keyboard",
             "package_version": "2.3.5",
@@ -487,8 +487,8 @@
         "121": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "95811665791cd6e5f7f431b59df9fc904e0fa455",
-            "git_last_date": "191106.005754",
+            "git_last_commit": "c0ca4292998f84008987eea0e1a9ac2f2e150dcb",
+            "git_last_date": "191106.095714",
             "name": "elementary-code",
             "package_name": "elementary-code",
             "package_version": "3.1.1",
