@@ -6,7 +6,7 @@
 Name:           elementary-photos
 Summary:        elementary photo manager and viewer
 Version:        2.6.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{srcname}
@@ -88,7 +88,7 @@ appstream-util validate-relax --nonet \
 
 
 %files -f %{appname}.lang
-%doc AUTHORS README.md THANKS
+%doc README.md THANKS
 %license COPYING
 
 %{_bindir}/%{appname}
@@ -105,6 +105,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Wed Nov 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.6.4+git191106.223217.2c96105c-2
+- Drop a removed file from docs.
+
 * Wed Nov 06 2019 Fabio Valentini <decathorpe@gmail.com> - 2.6.4+git191106.223217.2c96105c-1
 - Update to latest snapshot.
 
