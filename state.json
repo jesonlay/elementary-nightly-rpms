@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "67d333d2c11c49925d6b93afa17a8273185d9bbe",
-            "git_last_date": "191107.162641",
+            "git_last_commit": "351d0a8ab45fcfd278a8726ff8dba1b370326476",
+            "git_last_date": "191107.180013",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.5",
@@ -212,8 +212,8 @@
         "83": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "dd3e3657674d5c27abe5812fe074be05a9355431",
-            "git_last_date": "191106.161648",
+            "git_last_commit": "98cadb1aec35c7fd7c35bff68076ad065a814e9f",
+            "git_last_date": "191107.174221",
             "name": "pantheon-agent-polkit",
             "package_name": "pantheon-agent-polkit",
             "package_version": "0.1.6",
@@ -355,8 +355,8 @@
         "100": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "989fb0b5ea821ad0b40e85d9d817f8e6dec17ca5",
-            "git_last_date": "191106.234132",
+            "git_last_commit": "200d0d570d7e4f41b8d35ba888d825af2cc5365b",
+            "git_last_date": "191107.171117",
             "name": "switchboard-plug-parental-controls",
             "package_name": "switchboard-plug-parental-controls",
             "package_version": "2.1.5",
