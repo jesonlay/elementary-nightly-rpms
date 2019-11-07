@@ -8,7 +8,7 @@
 Name:           switchboard-plug-%{plug_name}
 Summary:        Switchboard Parental Controls plug
 Version:        2.1.5+git%{date}.%{commit}
-Release:        2%{?dist}
+Release:        1%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
@@ -94,6 +94,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Thu Nov 07 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git191106.234132.989fb0b5-1
+- Update to latest snapshot.
+
 * Tue Oct 22 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.5+git191009.172336.c7c8f6ae-2
 - Adapt to renamed file.
 
