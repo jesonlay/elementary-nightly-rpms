@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "351d0a8ab45fcfd278a8726ff8dba1b370326476",
-            "git_last_date": "191107.180013",
+            "git_last_commit": "246dd5a0814a6e5f0f39b6d56d2a854b56213a7d",
+            "git_last_date": "191107.181100",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.5",
@@ -157,8 +157,8 @@
         "78": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "ddf1a078821b84653722e5f8ee976e6463c7c7b8",
-            "git_last_date": "191106.165157",
+            "git_last_commit": "019df3c5474b3f7f66cc58849cebb7739fd7650f",
+            "git_last_date": "191107.190037",
             "name": "wingpanel-indicator-notifications",
             "package_name": "wingpanel-indicator-notifications",
             "package_version": "2.1.2",
@@ -168,8 +168,8 @@
         "79": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "7c593e89f0c5b835068c5a08e97b153d8c46e90d",
-            "git_last_date": "191106.002224",
+            "git_last_commit": "8072d48e78e2ecce6cb80d405bb756535f578c9b",
+            "git_last_date": "191107.182542",
             "name": "switchboard-plug-useraccounts",
             "package_name": "switchboard-plug-useraccounts",
             "package_version": "2.2.1",
@@ -344,8 +344,8 @@
         "99": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "b9add6397a74bf4ccaaa91227773504ccaa2e2d3",
-            "git_last_date": "191105.165040",
+            "git_last_commit": "c2162765e06a7078fbc39f073c02720172c4e9e9",
+            "git_last_date": "191107.182518",
             "name": "switchboard-plug-mouse-touchpad",
             "package_name": "switchboard-plug-mouse-touchpad",
             "package_version": "2.2.0",
