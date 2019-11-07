@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "85c68bd512e9bc73e4569af80cf6243e2281e40b",
-            "git_last_date": "191107.100243",
+            "git_last_commit": "052b832222065181d1fe9b7f1eed17b2d0c4c1a4",
+            "git_last_date": "191107.142220",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.5",
@@ -366,8 +366,8 @@
         "101": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "1d778aee3397c16a892c8e000ce2ed6f2885453a",
-            "git_last_date": "191106.223223",
+            "git_last_commit": "5e2bb9ce430b71f6c52171a2cedfc6bd457af286",
+            "git_last_date": "191107.141937",
             "name": "switchboard-plug-sharing",
             "package_name": "switchboard-plug-sharing",
             "package_version": "2.1.3",
