@@ -113,8 +113,8 @@
         "72": {
             "git_branch": "master",
             "git_commit": "HEAD",
-            "git_last_commit": "389005fd0329f9bb4d600e90a78fd5aa67f1023a",
-            "git_last_date": "191106.223951",
+            "git_last_commit": "af6356f7835c93cbd4a652b40de02be05ed85c07",
+            "git_last_date": "191107.015404",
             "name": "granite",
             "package_name": "granite",
             "package_version": "5.2.5",
