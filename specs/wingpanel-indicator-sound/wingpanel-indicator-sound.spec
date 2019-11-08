@@ -1,15 +1,18 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
+%global appname io.elementary.wingpanel.sound
+
 Name:           wingpanel-indicator-sound
 Summary:        Sound Indicator for wingpanel
 Version:        2.1.3+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -45,6 +48,11 @@ A sound indicator for wingpanel.
 %find_lang sound-indicator
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f sound-indicator.lang
 %doc README.md
 %license COPYING
@@ -53,8 +61,13 @@ A sound indicator for wingpanel.
 
 %{_datadir}/glib-2.0/schemas/io.elementary.desktop.wingpanel.sound.gschema.xml
 
+%{_datadir}/metainfo/%{appname}.appdata.xml
+
 
 %changelog
+* Fri Nov 08 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git191107.213331.b8cca17e-2
+- Package and validate appdata file.
+
 * Thu Nov 07 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.3+git191107.213331.b8cca17e-1
 - Update to latest snapshot.
 
