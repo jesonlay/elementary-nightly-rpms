@@ -1,15 +1,18 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
+%global appname io.elementary.wingpanel.network
+
 Name:           wingpanel-indicator-network
 Summary:        Network Indicator for wingpanel
 Version:        2.2.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -42,14 +45,24 @@ A network indicator for wingpanel.
 %find_lang network-indicator
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f network-indicator.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/wingpanel/libnetwork.so
 
+%{_datadir}/metainfo/%{appname}.appdata.xml
+
 
 %changelog
+* Fri Nov 08 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git191107.214110.dc5ac8ec-2
+- Package and verify appdata file.
+
 * Thu Nov 07 2019 Fabio Valentini <decathorpe@gmail.com> - 2.2.2+git191107.214110.dc5ac8ec-1
 - Update to latest snapshot.
 
