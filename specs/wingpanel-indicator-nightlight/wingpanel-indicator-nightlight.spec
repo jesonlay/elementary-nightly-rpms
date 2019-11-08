@@ -1,18 +1,20 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
+%global appname io.elementary.wingpanel.nightlight
+
 Name:           wingpanel-indicator-nightlight
 Summary:        Night Light Indicator for wingpanel
 Version:        2.0.2+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
-BuildRequires:  vala-tools
 
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(gobject-2.0)
@@ -42,14 +44,24 @@ A wingpanel indicator for Night Light.
 %find_lang nightlight-indicator
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f nightlight-indicator.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/wingpanel/libnightlight.so
 
+%{_datadir}/metainfo/%{appname}.appdata.xml
+
 
 %changelog
+* Fri Nov 08 2019 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git191107.213349.29cba49e-2
+- Package and verify appdata file.
+
 * Thu Nov 07 2019 Fabio Valentini <decathorpe@gmail.com> - 2.0.2+git191107.213349.29cba49e-1
 - Update to latest snapshot.
 
