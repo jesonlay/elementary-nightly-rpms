@@ -1,18 +1,19 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
 %global srcname applications-menu
-%global appname io.elementary.desktop.wingpanel.applications-menu
+%global appname io.elementary.wingpanel.applications-menu
 
 Name:           wingpanel-applications-menu
 Summary:        Lightweight and stylish app launcher
 Version:        2.4.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv3
 
 URL:            https://github.com/elementary/%{srcname}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.26.2
 
@@ -60,6 +61,11 @@ The lightweight and stylish app launcher from elementary.
 %find_lang slingshot
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f slingshot.lang
 %doc README.md
 %license COPYING
@@ -68,10 +74,14 @@ The lightweight and stylish app launcher from elementary.
 
 %{_libdir}/wingpanel/libslingshot.so
 
-%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.elementary.desktop.wingpanel.applications-menu.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Fri Nov 08 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.4+git191107.213015.68672d78-2
+- Package and verify appdata file.
+
 * Thu Nov 07 2019 Fabio Valentini <decathorpe@gmail.com> - 2.4.4+git191107.213015.68672d78-1
 - Update to latest snapshot.
 
