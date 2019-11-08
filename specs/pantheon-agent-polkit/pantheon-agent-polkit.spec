@@ -1,9 +1,9 @@
-%global appname io.elementary.pantheon-agent-polkit
+%global appname io.elementary.desktop.agent-polkit
 
 Name:           pantheon-agent-polkit
 Summary:        Pantheon Polkit Agent
 Version:        0.1.6+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        LGPLv2+
 
 URL:            https://github.com/elementary/%{name}
@@ -11,6 +11,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  desktop-file-utils
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.34.1
 
@@ -41,27 +42,32 @@ An agent for Polkit authorization designed for Pantheon.
 
 
 %check
-%if 0%{?fedora}
 desktop-file-validate \
-    %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
+    %{buildroot}/%{_sysconfdir}/xdg/autostart/%{appname}.desktop
 
 desktop-file-validate \
     %{buildroot}/%{_datadir}/applications/%{appname}.desktop
-%endif
+
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %files -f %{appname}.lang
 %doc README.md
 %license COPYING
 
-%config(noreplace) %{_sysconfdir}/xdg/autostart/%{appname}-daemon.desktop
+%config(noreplace) %{_sysconfdir}/xdg/autostart/%{appname}.desktop
 
 %{_libexecdir}/policykit-1-pantheon/
 
 %{_datadir}/applications/%{appname}.desktop
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Fri Nov 08 2019 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git191107.221606.7146fde3-2
+- Adapt to changed RDNN identifier.
+
 * Thu Nov 07 2019 Fabio Valentini <decathorpe@gmail.com> - 0.1.6+git191107.221606.7146fde3-1
 - Update to latest snapshot.
 
