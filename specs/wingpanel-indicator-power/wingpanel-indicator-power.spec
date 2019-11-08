@@ -1,17 +1,18 @@
 %global __provides_exclude_from ^%{_libdir}/wingpanel/.*\\.so$
 
-%global appname io.elementary.desktop.wingpanel.power
+%global appname io.elementary.wingpanel.power
 
 Name:           wingpanel-indicator-power
 Summary:        Power indicator for wingpanel
 Version:        2.1.4+git%{date}.%{commit}
-Release:        1%{?dist}
+Release:        2%{?dist}
 License:        GPLv2+
 
 URL:            https://github.com/elementary/%{name}
 Source0:        %{name}-%{version}.tar.gz
 
 BuildRequires:  gettext
+BuildRequires:  libappstream-glib
 BuildRequires:  meson
 BuildRequires:  vala >= 0.22.0
 
@@ -46,16 +47,25 @@ A power indicator for wingpanel.
 %find_lang power-indicator
 
 
+%check
+appstream-util validate-relax --nonet \
+    %{buildroot}/%{_datadir}/metainfo/%{appname}.appdata.xml
+
+
 %files -f power-indicator.lang
 %doc README.md
 %license COPYING
 
 %{_libdir}/wingpanel/libpower.so
 
-%{_datadir}/glib-2.0/schemas/%{appname}.gschema.xml
+%{_datadir}/glib-2.0/schemas/io.elementary.desktop.wingpanel.power.gschema.xml
+%{_datadir}/metainfo/%{appname}.appdata.xml
 
 
 %changelog
+* Fri Nov 08 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git191107.213626.bf39291b-2
+- Package and verify appdata file.
+
 * Thu Nov 07 2019 Fabio Valentini <decathorpe@gmail.com> - 2.1.4+git191107.213626.bf39291b-1
 - Update to latest snapshot.
 
