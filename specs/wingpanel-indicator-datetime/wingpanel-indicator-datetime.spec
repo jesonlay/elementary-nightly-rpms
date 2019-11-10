@@ -35,7 +35,7 @@ A datetime indicator for wingpanel.
 
 %prep
 %autosetup -p1
-
+sed -i "s/libecal-1.2/libecal-2.0/" meson.build
 
 %build
 %meson
