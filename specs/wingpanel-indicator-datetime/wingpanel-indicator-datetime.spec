@@ -5,12 +5,12 @@
 
 Name:           wingpanel-indicator-datetime
 Summary:        Datetime Indicator for wingpanel
-Version:        2.2.0+git%{date}.%{commit}
+Version:        2.2.0
 Release:        1%{?dist}
 License:        GPLv3+
 
 URL:            https://github.com/elementary/%{name}
-Source0:        %{name}-%{version}.tar.gz
+Source0:        https://github.com/elementary/wingpanel-indicator-datetime/archive/2.2.0.zip
 
 BuildRequires:  gettext
 BuildRequires:  libappstream-glib
