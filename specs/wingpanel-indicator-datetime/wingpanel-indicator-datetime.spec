@@ -20,12 +20,7 @@ BuildRequires:  vala >= 0.22.0
 BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(granite)
 BuildRequires:  pkgconfig(gtk+-3.0)
-%if 0%{?fedora} >= 30
 BuildRequires:  pkgconfig(libecal-2.0)
-%else
-BuildRequires:  pkgconfig(libecal-1.2)
-%endif
-
 BuildRequires:  pkgconfig(libedataserver-1.2)
 BuildRequires:  pkgconfig(libical)
 BuildRequires:  pkgconfig(wingpanel-2.0)
